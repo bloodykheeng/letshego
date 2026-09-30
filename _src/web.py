@@ -22,11 +22,11 @@ Y0 = TOP + 28
 NAV = [
     ("SALES", [("Overview", "grid"), ("Agents", "users"), ("Field map", "map"), ("Client pipeline", "workflow")]),
     ("APPLICATIONS", [("Approvals", "listcheck"), ("Why & why not", "message")]),
-    ("PLANNING", [("Journey plans & targets", "route"), ("Agent handover", "swap")]),
+    ("PLANNING", [("Journey plans", "route"), ("Agent handover", "swap")]),
     ("ADMIN", [("Users & territories", "settings"), ("Reports & audit", "history")]),
 ]
 NAV_TARGET = {"Overview": "w01", "Agents": "w02", "Field map": "w04", "Client pipeline": "w05", "Approvals": "w07",
-              "Why & why not": "w09", "Journey plans & targets": "w10", "Agent handover": "w11",
+              "Why & why not": "w09", "Journey plans": "w10", "Agent handover": "w11",
               "Users & territories": "w12", "Reports & audit": "w13"}
 BADGES = {"Agents": ("6", RED), "Approvals": ("14", YELLOW)}
 
@@ -417,59 +417,67 @@ def w01_overview():
     funnel(s, fx + 24, ry + 86, fw - 48, rows, row_h=34, gap=13, label_w=118)
     s.link(fx, ry, fw, 370, "w05")
 
-    # ---- bottom row: branches + attention
+    # ---- bottom row: branches, journey plan adherence, attention
     by = ry + 386
     bh = H - 28 - by
-    bw = 830
-    card(s, X0, by, bw, bh, "Branches: conversions against target", f"{QUARTER} · colour = % of target reached",
-         action="All branches →")
-    mp = UgandaMap(X0 + 8, by + 62, 250, bh - 100)
-    mp.draw_base(s)
-    mp.draw_branches(s)
-    with s.g("map legend"):
-        lx, ly = X0 + 24, by + bh - 22
-        for lab, col in [("≥85%", GREEN), ("60–84%", AMBER), ("<60%", RED)]:
-            s.rect(lx, ly - 10, 12, 12, fill=col, op=0.75, rx=3)
-            lx += s.text(lx + 17, ly, lab, 11, 400, INK2) + 30
+    bw = 600
+    card(s, X0, by, bw, bh, "Branches: conversions against target", f"{QUARTER} · lowest and highest",
+         action="All →")
     brs = sorted(BRANCHES.items(), key=lambda kv_: -kv_[1][3] / kv_[1][4])
-    tx = X0 + 280
-    cols = [("Branch", 170, "start"), ("Agents", 70, "end"), ("Conversions vs target", 250, "start"),
-            ("%", 60, "end")]
+    cols = [("Branch", 170, "start"), ("Conversions vs target", 320, "start"), ("%", 108, "end")]
     rws = []
     for br, (dist, reg, ag, conv, tgt) in brs[:4] + brs[-3:]:
         fr = conv / tgt
-        rws.append([br, str(ag),
-                    (lambda fr_, c_, t_: lambda s_, x, y, w, h: (progress(s_, x + 16, y + h / 2 - 3, 140, fr_,
+        rws.append([br,
+                    (lambda fr_, c_, t_: lambda s_, x, y, w, h: (progress(s_, x + 16, y + h / 2 - 3, 170, fr_,
                                                                             perf_color(fr_), h=7),
-                                                                   s_.text(x + 166, y + h / 2 + 5, f"{c_} / {t_}", 12.5,
+                                                                   s_.text(x + 198, y + h / 2 + 5, f"{c_} / {t_}", 12.5,
                                                                            400, INK2)))(fr, conv, tgt),
                     f"{fr:.0%}"])
-    table(s, tx, by + 64, cols, rws, row_h=(bh - 64 - 36 - 8) / 7, head_h=34, size=13)
+    table(s, X0 + 1, by + 64, cols, rws, row_h=(bh - 64 - 36 - 8) / 7, head_h=34, size=13)
     s.link(X0, by, bw, bh, "w02")
 
-    ax = X0 + bw + 20
+    jx = X0 + bw + 20
+    jw = 420
+    card(s, jx, by, jw, bh, "Journey plan adherence", "Planned client visits vs visits actually made",
+         action="Plans →")
+    with s.g("plan kept"):
+        ring(s, jx + 70, by + 124, 44, 10, 0.70, BRAND)
+        s.text(jx + 70, by + 131, "70%", 19, 700, INK, anchor="middle")
+        s.text(jx + 132, by + 116, "Plan kept", 14, 700, INK)
+        s.text(jx + 132, by + 136, "6,510 of 9,300 planned visits", 12.5, 400, MUTED)
+        s.text(jx + 132, by + 154, "were made", 12.5, 400, MUTED)
+    y = by + 196
+    for lab, v, tot, col in [("Planned visits", 9300, 9300, "#8A8DA6"), ("Planned and visited", 6510, 9300, GREEN),
+                             ("Planned, not visited", 2790, 9300, RED), ("Visited off plan", 1902, 9300, AMBER)]:
+        s.text(jx + 24, y, lab, 13, 400, INK2)
+        s.text(jx + jw - 24, y, f"{v:,}", 13, 700, INK, anchor="end")
+        progress(s, jx + 24, y + 9, jw - 48, v / tot, col, h=6)
+        y += 32
+    s.link(jx, by, jw, bh, "w10")
+
+    ax = jx + jw + 20
     aw = X1 - ax
-    card(s, ax, by, aw, bh, "Agents needing attention", "Flagged automatically every morning · 6 silent, 10 behind",
-         action="All agents →")
+    card(s, ax, by, aw, bh, "Agents needing attention", "Flagged every morning · 6 silent, 10 behind",
+         action="All →")
     flags = [
-        ("Rose Candiru", "RC", "Arua", "No visit for 19 days", "Silent", "Last check-in 11 Sep"),
-        ("Denis Okiror", "DO", "Soroti", "No visit for 13 days", "Silent", "2 conversions of 24"),
-        ("Brian Ssali", "BS", "Kampala East", "No visits weeks 4–9", "Behind", "5 of 22 · 23%"),
-        ("Samuel Wandera", "SW", "Mbale", "Visits 4× below plan mid-quarter", "Behind", "9 of 24 · 38%"),
-        ("Fred Opio", "FO", "Gulu", "KYC started, never completed (11)", "Behind", "8 of 21 · 38%"),
+        ("Rose Candiru", "RC", "Arua", "No visit for 19 days", "Silent"),
+        ("Denis Okiror", "DO", "Soroti", "No visit for 13 days", "Silent"),
+        ("Brian Ssali", "BS", "Kampala East", "Kept 22% of his plan", "Behind"),
+        ("Samuel Wandera", "SW", "Mbale", "No visits weeks 4–7", "Behind"),
+        ("Fred Opio", "FO", "Gulu", "11 KYCs never finished", "Behind"),
     ]
     rh = (bh - 80) / len(flags)
-    for i, (nm, ini, br, why, st, sub) in enumerate(flags):
+    for i, (nm, ini, br, why, st) in enumerate(flags):
         yy = by + 72 + i * rh
         with s.g(f"flag {nm}"):
             if i:
                 s.line(ax + 24, yy, ax + aw - 24, yy, LINE2)
             avatar(s, ax + 44, yy + rh / 2, 17, ini, RED if st == "Silent" else AMBER_D)
             s.text(ax + 72, yy + rh / 2 - 3, nm, 14, 600, INK)
-            s.text(ax + 72 + tw(nm, 14, 600) + 8, yy + rh / 2 - 3, "· " + br, 12.5, 400, MUTED)
-            s.text(ax + 72, yy + rh / 2 + 16, why, 12.5, 400, INK2, maxw=290)
-            status_chip(s, ax + aw - 330, yy + rh / 2 - 11, st, h=22, size=11)
-            s.text(ax + aw - 244, yy + rh / 2 + 5, sub, 12.5, 400, INK2, maxw=132)
+            s.text(ax + 72 + tw(nm, 14, 600) + 6, yy + rh / 2 - 3, "· " + br, 12, 400, MUTED)
+            s.text(ax + 72, yy + rh / 2 + 16, why, 12.5, 400, INK2, maxw=aw - 250)
+            status_chip(s, ax + aw - 172, yy + rh / 2 - 11, st, h=22, size=11)
             button(s, ax + aw - 24, yy + rh / 2 - 15, "Call", "soft", icon="phone", h=30, size=12, anchor="end")
     s.link(ax, by, aw, bh, "w02")
     return s
@@ -478,8 +486,8 @@ def w01_overview():
 # =====================================================================================
 def w02_agents():
     s = shell("02 Agents performance", "Agents", ["Sales", "Agents"])
-    page_head(s, "Agents", f"{AGENTS_N} field agents · {QUARTER} · conversions against each agent's target, and "
-                           "how steady their visits were week by week")
+    page_head(s, "Agents", f"{AGENTS_N} field agents · {QUARTER} · conversions against target, weekly visits, "
+                           "and how much of their journey plan they kept")
     with s.g("header actions"):
         x = X1
         x -= button(s, x, Y0 + 12, "Export", "secondary", icon="download", anchor="end") + 12
@@ -514,20 +522,26 @@ def w02_agents():
         s.text(X1, ty + 24, "Weekly visits: darker = more visits · red outline = no visits that week", 12.5, 400,
                MUTED, anchor="end")
     tby = ty + 54
-    cols = [("Agent", 290, "start"), ("Territory", 190, "start"), ("Weekly visits W1–W13", 270, "start"),
-            ("Visits", 90, "end"), ("Conv.", 80, "end"), ("Conversions vs target", 230, "start"),
-            ("Conv. rate", 100, "end"), ("Last check-in", 160, "start"), ("Status", 182, "start")]
+    cols = [("Agent", 290, "start"), ("Territory", 160, "start"), ("Weekly visits W1–W13", 270, "start"),
+            ("Visits", 80, "end"), ("Plan kept", 100, "end"), ("Conv.", 70, "end"),
+            ("Conversions vs target", 210, "start"), ("Conv. rate", 100, "end"), ("Last check-in", 150, "start"),
+            ("Status", 162, "start")]
+    kept = [82, 88, 85, 61, 58, 55, 49, 38, 35, 22, 9, 6]
     rows = []
-    for (nm, ini, br, terr, v, c, t, wk, last, st) in AGENTS:
+    for k_, (nm, ini, br, terr, v, c, t, wk, last, st) in zip(kept, AGENTS):
         col = {"On track": BRAND, "At risk": AMBER_D, "Behind": RED, "Silent": "#8E1F1F"}[st]
         rows.append([
             agent_cell(nm, ini, br, col), terr,
             (lambda wk_: lambda s_, x, y, w, h: heat_strip(s_, x + 16, y + h / 2 - 8, wk_, cell=15, gap=4,
                                                             max_v=30, h=16))(wk),
-            f"{v}", f"{c}",
-            (lambda fr_, c_, t_: lambda s_, x, y, w, h: (progress(s_, x + 16, y + h / 2 - 3, 120, fr_,
+            f"{v}",
+            (lambda k: lambda s_, x, y, w, h: s_.text(x + w - 16, y + h / 2 + 5, f"{k}%", 13, 600,
+                                                     GREEN_D if k >= 80 else (AMBER_D if k >= 50 else RED),
+                                                     anchor="end"))(k_),
+            f"{c}",
+            (lambda fr_, c_, t_: lambda s_, x, y, w, h: (progress(s_, x + 16, y + h / 2 - 3, 100, fr_,
                                                                     perf_color(fr_), h=7),
-                                                           s_.text(x + 146, y + h / 2 + 5, f"{c_}/{t_} · {fr_:.0%}",
+                                                           s_.text(x + 126, y + h / 2 + 5, f"{c_}/{t_} · {fr_:.0%}",
                                                                    12.5, 400, INK2)))(c / t, c, t),
             f"{c / v:.1%}", last, chip_cell(st)])
     table(s, X0, tby, cols, rows, row_h=(H - 28 - tby - 40 - 44) / len(rows), head_h=40, size=13, hl=0)

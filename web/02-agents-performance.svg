@@ -74,13 +74,13 @@
 <text id="label-6" x="62.0" y="385.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#D9D8F3">Why &amp; why not</text>
 </g>
 <text id="nav-group-PLANNING" x="28.0" y="414.0" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#9E9CD6" letter-spacing="1.2">PLANNING</text>
-<g id="nav-Journey-plans-targets">
+<g id="nav-Journey-plans">
 <g id="icon-route" transform="translate(30.0 438.0) scale(0.8333)">
 <path d="M6 16a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M18 2a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="label-7" x="62.0" y="453.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#D9D8F3">Journey plans &amp; targets</text>
+<text id="label-7" x="62.0" y="453.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#D9D8F3">Journey plans</text>
 </g>
 <g id="nav-Agent-handover">
 <g id="icon-swap" transform="translate(30.0 480.0) scale(0.8333)">
@@ -181,7 +181,7 @@
 </g>
 </g>
 <text id="page-title" x="296.0" y="126.0" font-family="Segoe UI" font-size="26" font-weight="700" fill="#1B1C3A">Agents</text>
-<text id="page-subtitle" x="296.0" y="152.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#7D8099">62 field agents · Q3 2026 · conversions against each agent's target, and how steady their visits were week by week</text>
+<text id="page-subtitle" x="296.0" y="152.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#7D8099">62 field agents · Q3 2026 · conversions against target, weekly visits, and how much of their journey plan they kept</text>
 <g id="header-actions">
 <g id="button-Export">
 <rect x="1788.3" y="108.0" width="99.7" height="40.0" rx="8" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
@@ -295,13 +295,14 @@
 <rect id="header-bg" x="296.0" y="346.0" width="1592.0" height="40.0" fill="#F7F8FB"/>
 <text id="AGENT" x="312.0" y="370.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7D8099" letter-spacing="0.6">AGENT</text>
 <text id="TERRITORY" x="602.0" y="370.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7D8099" letter-spacing="0.6">TERRITORY</text>
-<text id="WEEKLY-VISITS-W1-W13" x="792.0" y="370.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7D8099" letter-spacing="0.6">WEEKLY VISITS W1–W13</text>
-<text id="VISITS" x="1085.5" y="370.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7D8099" letter-spacing="0.6">VISITS</text>
-<text id="CONV" x="1165.6" y="370.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7D8099" letter-spacing="0.6">CONV.</text>
-<text id="CONVERSIONS-VS-TARGET" x="1232.0" y="370.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7D8099" letter-spacing="0.6">CONVERSIONS VS TARGET</text>
-<text id="CONV-RATE" x="1464.4" y="370.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7D8099" letter-spacing="0.6">CONV. RATE</text>
-<text id="LAST-CHECK-IN" x="1562.0" y="370.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7D8099" letter-spacing="0.6">LAST CHECK-IN</text>
-<text id="STATUS" x="1722.0" y="370.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7D8099" letter-spacing="0.6">STATUS</text>
+<text id="WEEKLY-VISITS-W1-W13" x="762.0" y="370.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7D8099" letter-spacing="0.6">WEEKLY VISITS W1–W13</text>
+<text id="VISITS" x="1045.5" y="370.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7D8099" letter-spacing="0.6">VISITS</text>
+<text id="PLAN-KEPT" x="1119.3" y="370.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7D8099" letter-spacing="0.6">PLAN KEPT</text>
+<text id="CONV" x="1215.6" y="370.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7D8099" letter-spacing="0.6">CONV.</text>
+<text id="CONVERSIONS-VS-TARGET" x="1282.0" y="370.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7D8099" letter-spacing="0.6">CONVERSIONS VS TARGET</text>
+<text id="CONV-RATE" x="1494.4" y="370.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7D8099" letter-spacing="0.6">CONV. RATE</text>
+<text id="LAST-CHECK-IN" x="1592.0" y="370.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7D8099" letter-spacing="0.6">LAST CHECK-IN</text>
+<text id="STATUS" x="1742.0" y="370.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7D8099" letter-spacing="0.6">STATUS</text>
 <g id="row-1">
 <rect x="296.0" y="386.0" width="1592.0" height="51.8" fill="#F3F2F7"/>
 <line x1="296.0" y1="386.0" x2="1888.0" y2="386.0" stroke="#EFF0F6" stroke-width="1"/>
@@ -313,33 +314,34 @@
 <text id="Kampala-East" x="352.0" y="426.9" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Kampala East</text>
 <text id="Ntinda-Kiwatule" x="602.0" y="416.4" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Ntinda · Kiwatule</text>
 <g id="weekly-activity">
-<rect x="792.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7813333333333332"/>
-<rect x="811.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6719999999999999"/>
-<rect x="830.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.59"/>
-<rect x="849.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.5626666666666666"/>
-<rect x="868.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6173333333333333"/>
-<rect x="887.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.59"/>
-<rect x="906.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6446666666666666"/>
-<rect x="925.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.5626666666666666"/>
-<rect x="944.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6173333333333333"/>
-<rect x="963.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6446666666666666"/>
-<rect x="982.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6173333333333333"/>
-<rect x="1001.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6719999999999999"/>
-<rect x="1020.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6173333333333333"/>
+<rect x="762.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7813333333333332"/>
+<rect x="781.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6719999999999999"/>
+<rect x="800.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.59"/>
+<rect x="819.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.5626666666666666"/>
+<rect x="838.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6173333333333333"/>
+<rect x="857.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.59"/>
+<rect x="876.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6446666666666666"/>
+<rect x="895.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.5626666666666666"/>
+<rect x="914.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6173333333333333"/>
+<rect x="933.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6446666666666666"/>
+<rect x="952.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6173333333333333"/>
+<rect x="971.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6719999999999999"/>
+<rect x="990.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6173333333333333"/>
 </g>
-<text id="214" x="1099.0" y="416.4" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">214</text>
-<text id="19" x="1186.0" y="416.4" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">19</text>
+<text id="214" x="1059.0" y="416.4" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">214</text>
+<text id="82" x="1154.6" y="416.9" font-family="Segoe UI" font-size="13" font-weight="600" fill="#0E6B41">82%</text>
+<text id="19" x="1236.0" y="416.4" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">19</text>
 <g id="progress-5">
-<rect x="1232.0" y="408.9" width="120.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
-<rect x="1232.0" y="408.9" width="103.6" height="7.0" rx="3.5" fill="#15925A"/>
+<rect x="1282.0" y="408.9" width="100.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
+<rect x="1282.0" y="408.9" width="86.4" height="7.0" rx="3.5" fill="#15925A"/>
 </g>
-<text id="19-22-86" x="1362.0" y="416.9" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">19/22 · 86%</text>
-<text id="8-9" x="1502.5" y="416.4" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">8.9%</text>
-<text id="Today-11-42" x="1562.0" y="416.4" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Today 11:42</text>
+<text id="19-22-86" x="1392.0" y="416.9" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">19/22 · 86%</text>
+<text id="8-9" x="1532.5" y="416.4" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">8.9%</text>
+<text id="Today-11-42" x="1592.0" y="416.4" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Today 11:42</text>
 <g id="chip-On-track">
-<rect x="1718.0" y="400.9" width="76.5" height="22.0" rx="11.0" fill="#E3F2EB"/>
-<circle cx="1732.0" cy="411.9" r="4.0" fill="#15925A"/>
-<text id="On-track-2" x="1742.0" y="415.9" font-family="Segoe UI" font-size="11" font-weight="600" fill="#12804F">On track</text>
+<rect x="1738.0" y="400.9" width="76.5" height="22.0" rx="11.0" fill="#E3F2EB"/>
+<circle cx="1752.0" cy="411.9" r="4.0" fill="#15925A"/>
+<text id="On-track-2" x="1762.0" y="415.9" font-family="Segoe UI" font-size="11" font-weight="600" fill="#12804F">On track</text>
 </g>
 </g>
 <g id="row-2">
@@ -352,33 +354,34 @@
 <text id="Kampala-Central" x="352.0" y="478.8" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Kampala Central</text>
 <text id="Wandegeya-Makerere" x="602.0" y="468.2" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Wandegeya · Makerere</text>
 <g id="weekly-activity-2">
-<rect x="792.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="1.0"/>
-<rect x="811.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7813333333333332"/>
-<rect x="830.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.5626666666666666"/>
-<rect x="849.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.508"/>
-<rect x="868.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.48066666666666663"/>
-<rect x="887.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.5353333333333333"/>
-<rect x="906.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.5626666666666666"/>
-<rect x="925.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6173333333333333"/>
-<rect x="944.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6719999999999999"/>
-<rect x="963.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7266666666666666"/>
-<rect x="982.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7813333333333332"/>
-<rect x="1001.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.8633333333333333"/>
-<rect x="1020.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.8360000000000001"/>
+<rect x="762.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="1.0"/>
+<rect x="781.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7813333333333332"/>
+<rect x="800.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.5626666666666666"/>
+<rect x="819.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.508"/>
+<rect x="838.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.48066666666666663"/>
+<rect x="857.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.5353333333333333"/>
+<rect x="876.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.5626666666666666"/>
+<rect x="895.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6173333333333333"/>
+<rect x="914.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6719999999999999"/>
+<rect x="933.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7266666666666666"/>
+<rect x="952.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7813333333333332"/>
+<rect x="971.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.8633333333333333"/>
+<rect x="990.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.8360000000000001"/>
 </g>
-<text id="241" x="1099.0" y="468.2" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">241</text>
-<text id="31" x="1186.0" y="468.2" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">31</text>
+<text id="241" x="1059.0" y="468.2" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">241</text>
+<text id="88" x="1154.6" y="468.8" font-family="Segoe UI" font-size="13" font-weight="600" fill="#0E6B41">88%</text>
+<text id="31" x="1236.0" y="468.2" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">31</text>
 <g id="progress-6">
-<rect x="1232.0" y="460.8" width="120.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
-<rect x="1232.0" y="460.8" width="120.0" height="7.0" rx="3.5" fill="#15925A"/>
+<rect x="1282.0" y="460.8" width="100.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
+<rect x="1282.0" y="460.8" width="100.0" height="7.0" rx="3.5" fill="#15925A"/>
 </g>
-<text id="31-27-115" x="1362.0" y="468.8" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">31/27 · 115%</text>
-<text id="12-9" x="1495.5" y="468.2" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">12.9%</text>
-<text id="Today-10-15" x="1562.0" y="468.2" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Today 10:15</text>
+<text id="31-27-115" x="1392.0" y="468.8" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">31/27 · 115%</text>
+<text id="12-9" x="1525.5" y="468.2" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">12.9%</text>
+<text id="Today-10-15" x="1592.0" y="468.2" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Today 10:15</text>
 <g id="chip-On-track-2">
-<rect x="1718.0" y="452.8" width="76.5" height="22.0" rx="11.0" fill="#E3F2EB"/>
-<circle cx="1732.0" cy="463.8" r="4.0" fill="#15925A"/>
-<text id="On-track-3" x="1742.0" y="467.7" font-family="Segoe UI" font-size="11" font-weight="600" fill="#12804F">On track</text>
+<rect x="1738.0" y="452.8" width="76.5" height="22.0" rx="11.0" fill="#E3F2EB"/>
+<circle cx="1752.0" cy="463.8" r="4.0" fill="#15925A"/>
+<text id="On-track-3" x="1762.0" y="467.7" font-family="Segoe UI" font-size="11" font-weight="600" fill="#12804F">On track</text>
 </g>
 </g>
 <g id="row-3">
@@ -391,33 +394,34 @@
 <text id="Mbarara" x="352.0" y="530.6" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Mbarara</text>
 <text id="Mbarara-town-Kakoba" x="602.0" y="520.1" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Mbarara town · Kakoba</text>
 <g id="weekly-activity-3">
-<rect x="792.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.8906666666666667"/>
-<rect x="811.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7266666666666666"/>
-<rect x="830.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.508"/>
-<rect x="849.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.4533333333333333"/>
-<rect x="868.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.508"/>
-<rect x="887.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.48066666666666663"/>
-<rect x="906.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.5353333333333333"/>
-<rect x="925.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.508"/>
-<rect x="944.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.5626666666666666"/>
-<rect x="963.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.59"/>
-<rect x="982.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6446666666666666"/>
-<rect x="1001.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6719999999999999"/>
-<rect x="1020.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6719999999999999"/>
+<rect x="762.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.8906666666666667"/>
+<rect x="781.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7266666666666666"/>
+<rect x="800.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.508"/>
+<rect x="819.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.4533333333333333"/>
+<rect x="838.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.508"/>
+<rect x="857.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.48066666666666663"/>
+<rect x="876.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.5353333333333333"/>
+<rect x="895.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.508"/>
+<rect x="914.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.5626666666666666"/>
+<rect x="933.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.59"/>
+<rect x="952.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6446666666666666"/>
+<rect x="971.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6719999999999999"/>
+<rect x="990.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6719999999999999"/>
 </g>
-<text id="198" x="1099.0" y="520.1" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">198</text>
-<text id="23" x="1186.0" y="520.1" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">23</text>
+<text id="198" x="1059.0" y="520.1" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">198</text>
+<text id="85" x="1154.6" y="520.6" font-family="Segoe UI" font-size="13" font-weight="600" fill="#0E6B41">85%</text>
+<text id="23" x="1236.0" y="520.1" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">23</text>
 <g id="progress-7">
-<rect x="1232.0" y="512.6" width="120.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
-<rect x="1232.0" y="512.6" width="120.0" height="7.0" rx="3.5" fill="#15925A"/>
+<rect x="1282.0" y="512.6" width="100.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
+<rect x="1282.0" y="512.6" width="100.0" height="7.0" rx="3.5" fill="#15925A"/>
 </g>
-<text id="23-22-105" x="1362.0" y="520.6" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">23/22 · 105%</text>
-<text id="11-6" x="1495.5" y="520.1" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">11.6%</text>
-<text id="Today-09-58" x="1562.0" y="520.1" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Today 09:58</text>
+<text id="23-22-105" x="1392.0" y="520.6" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">23/22 · 105%</text>
+<text id="11-6" x="1525.5" y="520.1" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">11.6%</text>
+<text id="Today-09-58" x="1592.0" y="520.1" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Today 09:58</text>
 <g id="chip-On-track-3">
-<rect x="1718.0" y="504.6" width="76.5" height="22.0" rx="11.0" fill="#E3F2EB"/>
-<circle cx="1732.0" cy="515.6" r="4.0" fill="#15925A"/>
-<text id="On-track-4" x="1742.0" y="519.5" font-family="Segoe UI" font-size="11" font-weight="600" fill="#12804F">On track</text>
+<rect x="1738.0" y="504.6" width="76.5" height="22.0" rx="11.0" fill="#E3F2EB"/>
+<circle cx="1752.0" cy="515.6" r="4.0" fill="#15925A"/>
+<text id="On-track-4" x="1762.0" y="519.5" font-family="Segoe UI" font-size="11" font-weight="600" fill="#12804F">On track</text>
 </g>
 </g>
 <g id="row-4">
@@ -430,33 +434,34 @@
 <text id="Kampala-East-2" x="352.0" y="582.4" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Kampala East</text>
 <text id="Kireka-Bweyogerere" x="602.0" y="571.9" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Kireka · Bweyogerere</text>
 <g id="weekly-activity-4">
-<rect x="792.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="1.0"/>
-<rect x="811.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.8360000000000001"/>
-<rect x="830.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.344"/>
-<rect x="849.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.28933333333333333"/>
-<rect x="868.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.262"/>
-<rect x="887.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.31666666666666665"/>
-<rect x="906.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.28933333333333333"/>
-<rect x="925.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.344"/>
-<rect x="944.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.3986666666666666"/>
-<rect x="963.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.508"/>
-<rect x="982.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6719999999999999"/>
-<rect x="1001.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7266666666666666"/>
-<rect x="1020.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7813333333333332"/>
+<rect x="762.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="1.0"/>
+<rect x="781.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.8360000000000001"/>
+<rect x="800.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.344"/>
+<rect x="819.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.28933333333333333"/>
+<rect x="838.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.262"/>
+<rect x="857.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.31666666666666665"/>
+<rect x="876.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.28933333333333333"/>
+<rect x="895.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.344"/>
+<rect x="914.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.3986666666666666"/>
+<rect x="933.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.508"/>
+<rect x="952.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6719999999999999"/>
+<rect x="971.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7266666666666666"/>
+<rect x="990.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7813333333333332"/>
 </g>
-<text id="162" x="1099.0" y="571.9" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">162</text>
-<text id="15" x="1186.0" y="571.9" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">15</text>
+<text id="162" x="1059.0" y="571.9" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">162</text>
+<text id="61" x="1156.6" y="572.4" font-family="Segoe UI" font-size="13" font-weight="600" fill="#9A6300">61%</text>
+<text id="15" x="1236.0" y="571.9" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">15</text>
 <g id="progress-8">
-<rect x="1232.0" y="564.4" width="120.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
-<rect x="1232.0" y="564.4" width="81.8" height="7.0" rx="3.5" fill="#E39A0B"/>
+<rect x="1282.0" y="564.4" width="100.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
+<rect x="1282.0" y="564.4" width="68.2" height="7.0" rx="3.5" fill="#E39A0B"/>
 </g>
-<text id="15-22-68" x="1362.0" y="572.4" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">15/22 · 68%</text>
-<text id="9-3" x="1502.5" y="571.9" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">9.3%</text>
-<text id="Today-11-05" x="1562.0" y="571.9" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Today 11:05</text>
+<text id="15-22-68" x="1392.0" y="572.4" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">15/22 · 68%</text>
+<text id="9-3" x="1532.5" y="571.9" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">9.3%</text>
+<text id="Today-11-05" x="1592.0" y="571.9" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Today 11:05</text>
 <g id="chip-At-risk">
-<rect x="1718.0" y="556.4" width="65.7" height="22.0" rx="11.0" fill="#F6EFE4"/>
-<circle cx="1732.0" cy="567.4" r="4.0" fill="#B7791F"/>
-<text id="At-risk-2" x="1742.0" y="571.4" font-family="Segoe UI" font-size="11" font-weight="600" fill="#A16A1B">At risk</text>
+<rect x="1738.0" y="556.4" width="65.7" height="22.0" rx="11.0" fill="#F6EFE4"/>
+<circle cx="1752.0" cy="567.4" r="4.0" fill="#B7791F"/>
+<text id="At-risk-2" x="1762.0" y="571.4" font-family="Segoe UI" font-size="11" font-weight="600" fill="#A16A1B">At risk</text>
 </g>
 </g>
 <g id="row-5">
@@ -469,33 +474,34 @@
 <text id="Jinja" x="352.0" y="634.2" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Jinja</text>
 <text id="Jinja-town-Walukuba" x="602.0" y="623.8" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Jinja town · Walukuba</text>
 <g id="weekly-activity-5">
-<rect x="792.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.9453333333333334"/>
-<rect x="811.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7266666666666666"/>
-<rect x="830.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.3986666666666666"/>
-<rect x="849.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.31666666666666665"/>
-<rect x="868.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.28933333333333333"/>
-<rect x="887.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.28933333333333333"/>
-<rect x="906.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.31666666666666665"/>
-<rect x="925.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.344"/>
-<rect x="944.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.3713333333333333"/>
-<rect x="963.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.4533333333333333"/>
-<rect x="982.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6173333333333333"/>
-<rect x="1001.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6719999999999999"/>
-<rect x="1020.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7266666666666666"/>
+<rect x="762.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.9453333333333334"/>
+<rect x="781.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7266666666666666"/>
+<rect x="800.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.3986666666666666"/>
+<rect x="819.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.31666666666666665"/>
+<rect x="838.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.28933333333333333"/>
+<rect x="857.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.28933333333333333"/>
+<rect x="876.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.31666666666666665"/>
+<rect x="895.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.344"/>
+<rect x="914.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.3713333333333333"/>
+<rect x="933.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.4533333333333333"/>
+<rect x="952.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6173333333333333"/>
+<rect x="971.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6719999999999999"/>
+<rect x="990.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7266666666666666"/>
 </g>
-<text id="151" x="1099.0" y="623.8" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">151</text>
-<text id="14" x="1186.0" y="623.8" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">14</text>
+<text id="151" x="1059.0" y="623.8" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">151</text>
+<text id="58" x="1154.6" y="624.2" font-family="Segoe UI" font-size="13" font-weight="600" fill="#9A6300">58%</text>
+<text id="14" x="1236.0" y="623.8" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">14</text>
 <g id="progress-9">
-<rect x="1232.0" y="616.2" width="120.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
-<rect x="1232.0" y="616.2" width="76.4" height="7.0" rx="3.5" fill="#E39A0B"/>
+<rect x="1282.0" y="616.2" width="100.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
+<rect x="1282.0" y="616.2" width="63.6" height="7.0" rx="3.5" fill="#E39A0B"/>
 </g>
-<text id="14-22-64" x="1362.0" y="624.2" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">14/22 · 64%</text>
-<text id="9-3-2" x="1502.5" y="623.8" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">9.3%</text>
-<text id="Today-08-41" x="1562.0" y="623.8" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Today 08:41</text>
+<text id="14-22-64" x="1392.0" y="624.2" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">14/22 · 64%</text>
+<text id="9-3-2" x="1532.5" y="623.8" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">9.3%</text>
+<text id="Today-08-41" x="1592.0" y="623.8" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Today 08:41</text>
 <g id="chip-At-risk-2">
-<rect x="1718.0" y="608.2" width="65.7" height="22.0" rx="11.0" fill="#F6EFE4"/>
-<circle cx="1732.0" cy="619.2" r="4.0" fill="#B7791F"/>
-<text id="At-risk-3" x="1742.0" y="623.2" font-family="Segoe UI" font-size="11" font-weight="600" fill="#A16A1B">At risk</text>
+<rect x="1738.0" y="608.2" width="65.7" height="22.0" rx="11.0" fill="#F6EFE4"/>
+<circle cx="1752.0" cy="619.2" r="4.0" fill="#B7791F"/>
+<text id="At-risk-3" x="1762.0" y="623.2" font-family="Segoe UI" font-size="11" font-weight="600" fill="#A16A1B">At risk</text>
 </g>
 </g>
 <g id="row-6">
@@ -508,33 +514,34 @@
 <text id="Lira" x="352.0" y="686.1" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Lira</text>
 <text id="Lira-town-Adyel" x="602.0" y="675.6" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Lira town · Adyel</text>
 <g id="weekly-activity-6">
-<rect x="792.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.8906666666666667"/>
-<rect x="811.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.754"/>
-<rect x="830.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.3713333333333333"/>
-<rect x="849.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.262"/>
-<rect x="868.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.23466666666666666"/>
-<rect x="887.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.262"/>
-<rect x="906.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.28933333333333333"/>
-<rect x="925.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.31666666666666665"/>
-<rect x="944.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.344"/>
-<rect x="963.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.42599999999999993"/>
-<rect x="982.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.59"/>
-<rect x="1001.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6719999999999999"/>
-<rect x="1020.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7266666666666666"/>
+<rect x="762.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.8906666666666667"/>
+<rect x="781.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.754"/>
+<rect x="800.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.3713333333333333"/>
+<rect x="819.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.262"/>
+<rect x="838.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.23466666666666666"/>
+<rect x="857.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.262"/>
+<rect x="876.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.28933333333333333"/>
+<rect x="895.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.31666666666666665"/>
+<rect x="914.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.344"/>
+<rect x="933.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.42599999999999993"/>
+<rect x="952.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.59"/>
+<rect x="971.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6719999999999999"/>
+<rect x="990.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7266666666666666"/>
 </g>
-<text id="139" x="1099.0" y="675.6" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">139</text>
-<text id="13" x="1186.0" y="675.6" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">13</text>
+<text id="139" x="1059.0" y="675.6" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">139</text>
+<text id="55" x="1154.6" y="676.1" font-family="Segoe UI" font-size="13" font-weight="600" fill="#9A6300">55%</text>
+<text id="13" x="1236.0" y="675.6" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">13</text>
 <g id="progress-10">
-<rect x="1232.0" y="668.1" width="120.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
-<rect x="1232.0" y="668.1" width="74.3" height="7.0" rx="3.5" fill="#E39A0B"/>
+<rect x="1282.0" y="668.1" width="100.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
+<rect x="1282.0" y="668.1" width="61.9" height="7.0" rx="3.5" fill="#E39A0B"/>
 </g>
-<text id="13-21-62" x="1362.0" y="676.1" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">13/21 · 62%</text>
-<text id="9-4" x="1502.5" y="675.6" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">9.4%</text>
-<text id="Yesterday-16-20" x="1562.0" y="675.6" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Yesterday 16:20</text>
+<text id="13-21-62" x="1392.0" y="676.1" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">13/21 · 62%</text>
+<text id="9-4" x="1532.5" y="675.6" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">9.4%</text>
+<text id="Yesterday-16-20" x="1592.0" y="675.6" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Yesterday 16:20</text>
 <g id="chip-At-risk-3">
-<rect x="1718.0" y="660.1" width="65.7" height="22.0" rx="11.0" fill="#F6EFE4"/>
-<circle cx="1732.0" cy="671.1" r="4.0" fill="#B7791F"/>
-<text id="At-risk-4" x="1742.0" y="675.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#A16A1B">At risk</text>
+<rect x="1738.0" y="660.1" width="65.7" height="22.0" rx="11.0" fill="#F6EFE4"/>
+<circle cx="1752.0" cy="671.1" r="4.0" fill="#B7791F"/>
+<text id="At-risk-4" x="1762.0" y="675.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#A16A1B">At risk</text>
 </g>
 </g>
 <g id="row-7">
@@ -547,33 +554,34 @@
 <text id="Kampala-East-3" x="352.0" y="737.9" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Kampala East</text>
 <text id="Naalya-Kira" x="602.0" y="727.4" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Naalya · Kira</text>
 <g id="weekly-activity-7">
-<rect x="792.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="1.0"/>
-<rect x="811.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.8633333333333333"/>
-<rect x="830.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.31666666666666665"/>
-<rect x="849.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.23466666666666666"/>
-<rect x="868.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="887.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="906.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.23466666666666666"/>
-<rect x="925.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.262"/>
-<rect x="944.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.28933333333333333"/>
-<rect x="963.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.3986666666666666"/>
-<rect x="982.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.5626666666666666"/>
-<rect x="1001.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6173333333333333"/>
-<rect x="1020.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6719999999999999"/>
+<rect x="762.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="1.0"/>
+<rect x="781.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.8633333333333333"/>
+<rect x="800.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.31666666666666665"/>
+<rect x="819.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.23466666666666666"/>
+<rect x="838.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="857.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="876.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.23466666666666666"/>
+<rect x="895.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.262"/>
+<rect x="914.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.28933333333333333"/>
+<rect x="933.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.3986666666666666"/>
+<rect x="952.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.5626666666666666"/>
+<rect x="971.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6173333333333333"/>
+<rect x="990.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.6719999999999999"/>
 </g>
-<text id="128" x="1099.0" y="727.4" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">128</text>
-<text id="11" x="1186.0" y="727.4" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">11</text>
+<text id="128" x="1059.0" y="727.4" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">128</text>
+<text id="49" x="1154.3" y="727.9" font-family="Segoe UI" font-size="13" font-weight="600" fill="#D14343">49%</text>
+<text id="11" x="1236.0" y="727.4" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">11</text>
 <g id="progress-11">
-<rect x="1232.0" y="719.9" width="120.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
-<rect x="1232.0" y="719.9" width="60.0" height="7.0" rx="3.5" fill="#D14343"/>
+<rect x="1282.0" y="719.9" width="100.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
+<rect x="1282.0" y="719.9" width="50.0" height="7.0" rx="3.5" fill="#D14343"/>
 </g>
-<text id="11-22-50" x="1362.0" y="727.9" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">11/22 · 50%</text>
-<text id="8-6" x="1502.5" y="727.4" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">8.6%</text>
-<text id="Today-10-32" x="1562.0" y="727.4" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Today 10:32</text>
+<text id="11-22-50" x="1392.0" y="727.9" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">11/22 · 50%</text>
+<text id="8-6" x="1532.5" y="727.4" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">8.6%</text>
+<text id="Today-10-32" x="1592.0" y="727.4" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Today 10:32</text>
 <g id="chip-At-risk-4">
-<rect x="1718.0" y="711.9" width="65.7" height="22.0" rx="11.0" fill="#F6EFE4"/>
-<circle cx="1732.0" cy="722.9" r="4.0" fill="#B7791F"/>
-<text id="At-risk-5" x="1742.0" y="726.9" font-family="Segoe UI" font-size="11" font-weight="600" fill="#A16A1B">At risk</text>
+<rect x="1738.0" y="711.9" width="65.7" height="22.0" rx="11.0" fill="#F6EFE4"/>
+<circle cx="1752.0" cy="722.9" r="4.0" fill="#B7791F"/>
+<text id="At-risk-5" x="1762.0" y="726.9" font-family="Segoe UI" font-size="11" font-weight="600" fill="#A16A1B">At risk</text>
 </g>
 </g>
 <g id="row-8">
@@ -584,35 +592,36 @@
 </g>
 <text id="Samuel-Wandera" x="352.0" y="772.8" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">Samuel Wandera</text>
 <text id="Mbale" x="352.0" y="789.8" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Mbale</text>
-<text id="Mbale-town-Namakwekwe" x="602.0" y="779.3" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Mbale town · Namakwekwe</text>
+<text id="Mbale-town-Namak" x="602.0" y="779.3" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Mbale town · Namak…</text>
 <g id="weekly-activity-8">
-<rect x="792.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="1.0"/>
-<rect x="811.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7813333333333332"/>
-<rect x="830.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.28933333333333333"/>
-<rect x="849.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="868.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="887.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="906.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="925.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.23466666666666666"/>
-<rect x="944.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.262"/>
-<rect x="963.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.31666666666666665"/>
-<rect x="982.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.4533333333333333"/>
-<rect x="1001.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.508"/>
-<rect x="1020.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.5626666666666666"/>
+<rect x="762.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="1.0"/>
+<rect x="781.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7813333333333332"/>
+<rect x="800.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.28933333333333333"/>
+<rect x="819.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="838.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="857.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="876.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="895.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.23466666666666666"/>
+<rect x="914.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.262"/>
+<rect x="933.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.31666666666666665"/>
+<rect x="952.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.4533333333333333"/>
+<rect x="971.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.508"/>
+<rect x="990.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.5626666666666666"/>
 </g>
-<text id="102" x="1099.0" y="779.3" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">102</text>
-<text id="9" x="1193.0" y="779.3" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">9</text>
+<text id="102" x="1059.0" y="779.3" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">102</text>
+<text id="38" x="1154.6" y="779.8" font-family="Segoe UI" font-size="13" font-weight="600" fill="#D14343">38%</text>
+<text id="9" x="1243.0" y="779.3" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">9</text>
 <g id="progress-12">
-<rect x="1232.0" y="771.8" width="120.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
-<rect x="1232.0" y="771.8" width="45.0" height="7.0" rx="3.5" fill="#D14343"/>
+<rect x="1282.0" y="771.8" width="100.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
+<rect x="1282.0" y="771.8" width="37.5" height="7.0" rx="3.5" fill="#D14343"/>
 </g>
-<text id="9-24-38" x="1362.0" y="779.8" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">9/24 · 38%</text>
-<text id="8-8" x="1502.5" y="779.3" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">8.8%</text>
-<text id="Today-07-55" x="1562.0" y="779.3" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Today 07:55</text>
+<text id="9-24-38" x="1392.0" y="779.8" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">9/24 · 38%</text>
+<text id="8-8" x="1532.5" y="779.3" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">8.8%</text>
+<text id="Today-07-55" x="1592.0" y="779.3" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Today 07:55</text>
 <g id="chip-Behind">
-<rect x="1718.0" y="763.8" width="68.8" height="22.0" rx="11.0" fill="#F8E7E6"/>
-<circle cx="1732.0" cy="774.8" r="4.0" fill="#C2362F"/>
-<text id="Behind-2" x="1742.0" y="778.7" font-family="Segoe UI" font-size="11" font-weight="600" fill="#AB3029">Behind</text>
+<rect x="1738.0" y="763.8" width="68.8" height="22.0" rx="11.0" fill="#F8E7E6"/>
+<circle cx="1752.0" cy="774.8" r="4.0" fill="#C2362F"/>
+<text id="Behind-2" x="1762.0" y="778.7" font-family="Segoe UI" font-size="11" font-weight="600" fill="#AB3029">Behind</text>
 </g>
 </g>
 <g id="row-9">
@@ -625,33 +634,34 @@
 <text id="Gulu" x="352.0" y="841.6" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Gulu</text>
 <text id="Gulu-town-Layibi" x="602.0" y="831.1" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Gulu town · Layibi</text>
 <g id="weekly-activity-9">
-<rect x="792.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.8906666666666667"/>
-<rect x="811.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.8360000000000001"/>
-<rect x="830.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.344"/>
-<rect x="849.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.23466666666666666"/>
-<rect x="868.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="887.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="906.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="925.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="944.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.23466666666666666"/>
-<rect x="963.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.28933333333333333"/>
-<rect x="982.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.42599999999999993"/>
-<rect x="1001.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.48066666666666663"/>
-<rect x="1020.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.508"/>
+<rect x="762.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.8906666666666667"/>
+<rect x="781.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.8360000000000001"/>
+<rect x="800.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.344"/>
+<rect x="819.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.23466666666666666"/>
+<rect x="838.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="857.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="876.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="895.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="914.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.23466666666666666"/>
+<rect x="933.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.28933333333333333"/>
+<rect x="952.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.42599999999999993"/>
+<rect x="971.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.48066666666666663"/>
+<rect x="990.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.508"/>
 </g>
-<text id="96" x="1106.0" y="831.1" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">96</text>
-<text id="8" x="1193.0" y="831.1" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">8</text>
+<text id="96" x="1066.0" y="831.1" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">96</text>
+<text id="35" x="1154.6" y="831.6" font-family="Segoe UI" font-size="13" font-weight="600" fill="#D14343">35%</text>
+<text id="8" x="1243.0" y="831.1" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">8</text>
 <g id="progress-13">
-<rect x="1232.0" y="823.6" width="120.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
-<rect x="1232.0" y="823.6" width="45.7" height="7.0" rx="3.5" fill="#D14343"/>
+<rect x="1282.0" y="823.6" width="100.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
+<rect x="1282.0" y="823.6" width="38.1" height="7.0" rx="3.5" fill="#D14343"/>
 </g>
-<text id="8-21-38" x="1362.0" y="831.6" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">8/21 · 38%</text>
-<text id="8-3" x="1502.5" y="831.1" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">8.3%</text>
-<text id="Yesterday-15-02" x="1562.0" y="831.1" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Yesterday 15:02</text>
+<text id="8-21-38" x="1392.0" y="831.6" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">8/21 · 38%</text>
+<text id="8-3" x="1532.5" y="831.1" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">8.3%</text>
+<text id="Yesterday-15-02" x="1592.0" y="831.1" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Yesterday 15:02</text>
 <g id="chip-Behind-2">
-<rect x="1718.0" y="815.6" width="68.8" height="22.0" rx="11.0" fill="#F8E7E6"/>
-<circle cx="1732.0" cy="826.6" r="4.0" fill="#C2362F"/>
-<text id="Behind-3" x="1742.0" y="830.5" font-family="Segoe UI" font-size="11" font-weight="600" fill="#AB3029">Behind</text>
+<rect x="1738.0" y="815.6" width="68.8" height="22.0" rx="11.0" fill="#F8E7E6"/>
+<circle cx="1752.0" cy="826.6" r="4.0" fill="#C2362F"/>
+<text id="Behind-3" x="1762.0" y="830.5" font-family="Segoe UI" font-size="11" font-weight="600" fill="#AB3029">Behind</text>
 </g>
 </g>
 <g id="row-10">
@@ -664,33 +674,34 @@
 <text id="Kampala-East-4" x="352.0" y="893.4" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Kampala East</text>
 <text id="Banda-Kyambogo" x="602.0" y="882.9" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Banda · Kyambogo</text>
 <g id="weekly-activity-10">
-<rect x="792.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.8360000000000001"/>
-<rect x="811.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7266666666666666"/>
-<rect x="830.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.31666666666666665"/>
-<rect x="849.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="868.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="887.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="906.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="925.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="944.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="963.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.262"/>
-<rect x="982.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.3713333333333333"/>
-<rect x="1001.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.3713333333333333"/>
-<rect x="1020.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.3986666666666666"/>
+<rect x="762.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.8360000000000001"/>
+<rect x="781.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7266666666666666"/>
+<rect x="800.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.31666666666666665"/>
+<rect x="819.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="838.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="857.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="876.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="895.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="914.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="933.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.262"/>
+<rect x="952.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.3713333333333333"/>
+<rect x="971.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.3713333333333333"/>
+<rect x="990.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.3986666666666666"/>
 </g>
-<text id="74" x="1106.0" y="882.9" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">74</text>
-<text id="5-2" x="1193.0" y="882.9" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">5</text>
+<text id="74" x="1066.0" y="882.9" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">74</text>
+<text id="22" x="1154.6" y="883.4" font-family="Segoe UI" font-size="13" font-weight="600" fill="#D14343">22%</text>
+<text id="5-2" x="1243.0" y="882.9" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">5</text>
 <g id="progress-14">
-<rect x="1232.0" y="875.4" width="120.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
-<rect x="1232.0" y="875.4" width="27.3" height="7.0" rx="3.5" fill="#D14343"/>
+<rect x="1282.0" y="875.4" width="100.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
+<rect x="1282.0" y="875.4" width="22.7" height="7.0" rx="3.5" fill="#D14343"/>
 </g>
-<text id="5-22-23" x="1362.0" y="883.4" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">5/22 · 23%</text>
-<text id="6-8" x="1502.5" y="882.9" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">6.8%</text>
-<text id="Today-09-10" x="1562.0" y="882.9" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Today 09:10</text>
+<text id="5-22-23" x="1392.0" y="883.4" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">5/22 · 23%</text>
+<text id="6-8" x="1532.5" y="882.9" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">6.8%</text>
+<text id="Today-09-10" x="1592.0" y="882.9" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Today 09:10</text>
 <g id="chip-Behind-3">
-<rect x="1718.0" y="867.4" width="68.8" height="22.0" rx="11.0" fill="#F8E7E6"/>
-<circle cx="1732.0" cy="878.4" r="4.0" fill="#C2362F"/>
-<text id="Behind-4" x="1742.0" y="882.4" font-family="Segoe UI" font-size="11" font-weight="600" fill="#AB3029">Behind</text>
+<rect x="1738.0" y="867.4" width="68.8" height="22.0" rx="11.0" fill="#F8E7E6"/>
+<circle cx="1752.0" cy="878.4" r="4.0" fill="#C2362F"/>
+<text id="Behind-4" x="1762.0" y="882.4" font-family="Segoe UI" font-size="11" font-weight="600" fill="#AB3029">Behind</text>
 </g>
 </g>
 <g id="row-11">
@@ -703,33 +714,34 @@
 <text id="Soroti" x="352.0" y="945.3" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Soroti</text>
 <text id="Soroti-town" x="602.0" y="934.8" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Soroti town</text>
 <g id="weekly-activity-11">
-<rect x="792.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7813333333333332"/>
-<rect x="811.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.59"/>
-<rect x="830.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.23466666666666666"/>
-<rect x="849.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="868.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="887.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="906.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="925.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="944.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="963.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="982.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="1001.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.23466666666666666"/>
-<rect x="1020.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="762.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7813333333333332"/>
+<rect x="781.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.59"/>
+<rect x="800.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.23466666666666666"/>
+<rect x="819.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="838.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="857.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="876.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="895.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="914.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="933.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="952.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="971.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.23466666666666666"/>
+<rect x="990.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
 </g>
-<text id="41" x="1106.0" y="934.8" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">41</text>
-<text id="2" x="1193.0" y="934.8" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">2</text>
+<text id="41" x="1066.0" y="934.8" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">41</text>
+<text id="9-2" x="1161.8" y="935.3" font-family="Segoe UI" font-size="13" font-weight="600" fill="#D14343">9%</text>
+<text id="2" x="1243.0" y="934.8" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">2</text>
 <g id="progress-15">
-<rect x="1232.0" y="927.3" width="120.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
-<rect x="1232.0" y="927.3" width="10.0" height="7.0" rx="3.5" fill="#D14343"/>
+<rect x="1282.0" y="927.3" width="100.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
+<rect x="1282.0" y="927.3" width="8.3" height="7.0" rx="3.5" fill="#D14343"/>
 </g>
-<text id="2-24-8" x="1362.0" y="935.3" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">2/24 · 8%</text>
-<text id="4-9" x="1502.5" y="934.8" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">4.9%</text>
-<text id="17-Sep-12-44" x="1562.0" y="934.8" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">17 Sep 12:44</text>
+<text id="2-24-8" x="1392.0" y="935.3" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">2/24 · 8%</text>
+<text id="4-9" x="1532.5" y="934.8" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">4.9%</text>
+<text id="17-Sep-12-44" x="1592.0" y="934.8" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">17 Sep 12:44</text>
 <g id="chip-Silent">
-<rect x="1718.0" y="919.3" width="62.0" height="22.0" rx="11.0" fill="#F8E7E6"/>
-<circle cx="1732.0" cy="930.3" r="4.0" fill="#C2362F"/>
-<text id="Silent-2" x="1742.0" y="934.2" font-family="Segoe UI" font-size="11" font-weight="600" fill="#AB3029">Silent</text>
+<rect x="1738.0" y="919.3" width="62.0" height="22.0" rx="11.0" fill="#F8E7E6"/>
+<circle cx="1752.0" cy="930.3" r="4.0" fill="#C2362F"/>
+<text id="Silent-2" x="1762.0" y="934.2" font-family="Segoe UI" font-size="11" font-weight="600" fill="#AB3029">Silent</text>
 </g>
 </g>
 <g id="row-12">
@@ -742,33 +754,34 @@
 <text id="Arua" x="352.0" y="997.1" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Arua</text>
 <text id="Arua-town-Oli" x="602.0" y="986.6" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Arua town · Oli</text>
 <g id="weekly-activity-12">
-<rect x="792.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7266666666666666"/>
-<rect x="811.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.5626666666666666"/>
-<rect x="830.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.28933333333333333"/>
-<rect x="849.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="868.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="887.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="906.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="925.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="944.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="963.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="982.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="1001.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
-<rect x="1020.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="762.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.7266666666666666"/>
+<rect x="781.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.5626666666666666"/>
+<rect x="800.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#2F2E80" fill-opacity="0.28933333333333333"/>
+<rect x="819.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="838.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="857.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="876.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="895.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="914.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="933.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="952.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="971.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
+<rect x="990.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#FDECEC" stroke="#F3B4B4" stroke-width="1"/>
 </g>
-<text id="38" x="1106.0" y="986.6" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">38</text>
-<text id="1" x="1193.0" y="986.6" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">1</text>
+<text id="38-2" x="1066.0" y="986.6" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">38</text>
+<text id="6-2" x="1161.8" y="987.1" font-family="Segoe UI" font-size="13" font-weight="600" fill="#D14343">6%</text>
+<text id="1" x="1243.0" y="986.6" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">1</text>
 <g id="progress-16">
-<rect x="1232.0" y="979.1" width="120.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
-<rect x="1232.0" y="979.1" width="7.0" height="7.0" rx="3.5" fill="#D14343"/>
+<rect x="1282.0" y="979.1" width="100.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
+<rect x="1282.0" y="979.1" width="7.0" height="7.0" rx="3.5" fill="#D14343"/>
 </g>
-<text id="1-20-5" x="1362.0" y="987.1" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">1/20 · 5%</text>
-<text id="2-6" x="1502.5" y="986.6" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">2.6%</text>
-<text id="11-Sep-10-03" x="1562.0" y="986.6" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">11 Sep 10:03</text>
+<text id="1-20-5" x="1392.0" y="987.1" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">1/20 · 5%</text>
+<text id="2-6" x="1532.5" y="986.6" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">2.6%</text>
+<text id="11-Sep-10-03" x="1592.0" y="986.6" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">11 Sep 10:03</text>
 <g id="chip-Silent-2">
-<rect x="1718.0" y="971.1" width="62.0" height="22.0" rx="11.0" fill="#F8E7E6"/>
-<circle cx="1732.0" cy="982.1" r="4.0" fill="#C2362F"/>
-<text id="Silent-3" x="1742.0" y="986.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#AB3029">Silent</text>
+<rect x="1738.0" y="971.1" width="62.0" height="22.0" rx="11.0" fill="#F8E7E6"/>
+<circle cx="1752.0" cy="982.1" r="4.0" fill="#C2362F"/>
+<text id="Silent-3" x="1762.0" y="986.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#AB3029">Silent</text>
 </g>
 </g>
 </g>

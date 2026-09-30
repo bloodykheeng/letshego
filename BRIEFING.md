@@ -31,7 +31,7 @@
 | **MSE** | **Micro and Small Enterprise**: shops, tailors, market vendors, boda boda owners. |
 | **Conversion** | The success measure: client agrees and submits every required item. The **loan application ID** is captured at this point. |
 | **Loan application ID** | The number Letshego's loan system gives an application. Capturing it in the app ties the field record to the real loan. |
-| **Journey plan** | The list and order of clients an agent should visit on a given day. "Journey plan adherence" = visits actually made from the plan. |
+| **Journey plan** | The list of **clients** an agent should visit on a given day, in order, set by the supervisor. "Journey plan adherence" = planned client visits actually made. Visits not on the plan (new clients, walk-ins) count as **off-plan**. |
 | **Territory** | The area an agent covers (e.g. Ntinda and Kiwatule). Each client belongs to one territory. |
 | **Affordability / DSR** | Whether the instalment fits the client's income. We show "instalment as a % of free income" (income minus expenses), with a 50% ceiling as a placeholder. |
 | **SPLY** | **Same Period Last Year.** A comparison NICE's dashboards use; we show conversions "vs Q3 2025" on the overview. |
@@ -47,9 +47,9 @@ The fix has three parts, and each has a screen:
 
 1. **See it:** every visit is GPS-stamped, so quiet weeks show up as empty cells on the agents table ([W02](https://letshego-prototype.vercel.app/prototype.html#w02)).
 2. **Act on it early:** silent and behind agents are flagged every morning ([W01](https://letshego-prototype.vercel.app/prototype.html#w01), right-hand card).
-3. **Prevent it:** weekly minimums and journey plans spread the target over 13 weeks ([W10](https://letshego-prototype.vercel.app/prototype.html#w10)).
+3. **Prevent it:** supervisors plan which clients each agent visits every day, and the dashboard shows how much of the plan was kept ([W10](https://letshego-prototype.vercel.app/prototype.html#w10)).
 
-> **The rule we must repeat:** a conversion counts when the application is submitted with every item. Approval is tracked separately. It appears on the overview, the approvals queue ([W07](https://letshego-prototype.vercel.app/prototype.html#w07)) and the close screen in the app ([M12](https://letshego-prototype.vercel.app/prototype.html#m12)).
+> **The rule we must repeat:** a conversion counts when the application is submitted with every item. Approval is tracked separately. It appears on the overview, the approvals queue ([W07](https://letshego-prototype.vercel.app/prototype.html#w07)) and the close screen in the app ([M14](https://letshego-prototype.vercel.app/prototype.html#m14)).
 
 ---
 
@@ -59,13 +59,13 @@ The stages come straight from the whiteboard (Figure 1 in the brief).
 
 | # | Stage | In the agent app | In the web console |
 |---|---|---|---|
-| 1 | Agent visits client (location / territory) | [M5 Check in](https://letshego-prototype.vercel.app/prototype.html#m05): GPS check, inside territory | [W04 Field map](https://letshego-prototype.vercel.app/prototype.html#w04) |
-| 2 | Interested? **No → end, capture why** | [M5](https://letshego-prototype.vercel.app/prototype.html#m05) Yes/No → [M6 Capture why](https://letshego-prototype.vercel.app/prototype.html#m06) | [W09 Why & why not](https://letshego-prototype.vercel.app/prototype.html#w09) |
-| 3 | Take KYC: coordinates, photos, NIRA ID, earnings, collateral, demographics | [M7](https://letshego-prototype.vercel.app/prototype.html#m07) · [M8](https://letshego-prototype.vercel.app/prototype.html#m08) · [M9](https://letshego-prototype.vercel.app/prototype.html#m09) | [W06 Client record](https://letshego-prototype.vercel.app/prototype.html#w06) |
-| 4 | KYC validation | [M10](https://letshego-prototype.vercel.app/prototype.html#m10): 6 automatic checks | W06, validation checks |
-| 5 | Negotiation: loan product(s) chosen | [M11](https://letshego-prototype.vercel.app/prototype.html#m11): suggested products, calculator, agent's note | [W05 Pipeline](https://letshego-prototype.vercel.app/prototype.html#w05) |
-| 6 | Close: application ID captured = **conversion**. **No → end, capture why** | [M12](https://letshego-prototype.vercel.app/prototype.html#m12) → [M13](https://letshego-prototype.vercel.app/prototype.html#m13) | [W01 Overview](https://letshego-prototype.vercel.app/prototype.html#w01) |
-| 7 | Supervisor / HQ approval → approved, or rejected with reason | [M15](https://letshego-prototype.vercel.app/prototype.html#m15) shows the status | [W07](https://letshego-prototype.vercel.app/prototype.html#w07) → [W08](https://letshego-prototype.vercel.app/prototype.html#w08) |
+| 1 | Agent visits client (location / territory) | Pick the client from today's plan, or add a new one: [M5 Start a visit](https://letshego-prototype.vercel.app/prototype.html#m05) → [M7 Check in](https://letshego-prototype.vercel.app/prototype.html#m07) or [M6 New client](https://letshego-prototype.vercel.app/prototype.html#m06) | [W10 Journey plans](https://letshego-prototype.vercel.app/prototype.html#w10) · [W04 Field map](https://letshego-prototype.vercel.app/prototype.html#w04) |
+| 2 | Interested? **No → end, capture why** | [M6](https://letshego-prototype.vercel.app/prototype.html#m06) / [M7](https://letshego-prototype.vercel.app/prototype.html#m07) Yes/No → [M8 Capture why](https://letshego-prototype.vercel.app/prototype.html#m08) | [W09 Why & why not](https://letshego-prototype.vercel.app/prototype.html#w09) |
+| 3 | Take KYC: coordinates, photos, NIRA ID, earnings, collateral, demographics | [M9](https://letshego-prototype.vercel.app/prototype.html#m09) · [M10](https://letshego-prototype.vercel.app/prototype.html#m10) · [M11](https://letshego-prototype.vercel.app/prototype.html#m11) | [W06 Client record](https://letshego-prototype.vercel.app/prototype.html#w06) |
+| 4 | KYC validation | [M12](https://letshego-prototype.vercel.app/prototype.html#m12): 6 automatic checks | W06, validation checks |
+| 5 | Negotiation: loan product(s) chosen | [M13](https://letshego-prototype.vercel.app/prototype.html#m13): suggested products, calculator, agent's note | [W05 Pipeline](https://letshego-prototype.vercel.app/prototype.html#w05) |
+| 6 | Close: application ID captured = **conversion**. **No → end, capture why** | [M14](https://letshego-prototype.vercel.app/prototype.html#m14) → [M15](https://letshego-prototype.vercel.app/prototype.html#m15) | [W01 Overview](https://letshego-prototype.vercel.app/prototype.html#w01) |
+| 7 | Supervisor / HQ approval → approved, or rejected with reason | [M17](https://letshego-prototype.vercel.app/prototype.html#m17) shows the status | [W07](https://letshego-prototype.vercel.app/prototype.html#w07) → [W08](https://letshego-prototype.vercel.app/prototype.html#w08) |
 
 ---
 
@@ -73,17 +73,19 @@ The stages come straight from the whiteboard (Figure 1 in the brief).
 
 | The brief says | Where it is | Point to make |
 |---|---|---|
-| An app for field agents to use at client visits | [M1–M16](https://letshego-prototype.vercel.app/prototype.html#m01) | Android app (Flutter). Works offline, GPS, camera. |
-| Track each client from first visit to application and approval | [W05](https://letshego-prototype.vercel.app/prototype.html#w05), [W06](https://letshego-prototype.vercel.app/prototype.html#w06), [M15](https://letshego-prototype.vercel.app/prototype.html#m15) | One timeline per client, every step with who, when and where. |
-| KYC: coordinates, photos and IDs (NIRA), earnings, validation, collateral | [M7–M10](https://letshego-prototype.vercel.app/prototype.html#m07) | NIN read from the card; NIRA match; face match; affordability check. |
-| Demographic data and agent's notes on suitable products | [M7](https://letshego-prototype.vercel.app/prototype.html#m07), [M11](https://letshego-prototype.vercel.app/prototype.html#m11), [W09](https://letshego-prototype.vercel.app/prototype.html#w09) product-fit grid | Notes feed a product-fit view by client type. |
-| Loan product(s) chosen and the loan application ID | [M11](https://letshego-prototype.vercel.app/prototype.html#m11), [M12](https://letshego-prototype.vercel.app/prototype.html#m12) | The app checks the ID against the loan system (proposed). |
-| Notes on why clients took a loan, and why not | [M6](https://letshego-prototype.vercel.app/prototype.html#m06), [M12](https://letshego-prototype.vercel.app/prototype.html#m12), [W09](https://letshego-prototype.vercel.app/prototype.html#w09) | Tap-to-pick reasons plus a free note (or voice note). |
+| An app for field agents to use at client visits | [M1–M18](https://letshego-prototype.vercel.app/prototype.html#m01) | Android app (Flutter). Works offline, GPS, camera. |
+| Track each client from first visit to application and approval | [W05](https://letshego-prototype.vercel.app/prototype.html#w05), [W06](https://letshego-prototype.vercel.app/prototype.html#w06), [M17](https://letshego-prototype.vercel.app/prototype.html#m17) | One timeline per client, every step with who, when and where. |
+| KYC: coordinates, photos and IDs (NIRA), earnings, validation, collateral | [M9–M12](https://letshego-prototype.vercel.app/prototype.html#m09) | NIN read from the card; NIRA match; face match; affordability check. |
+| Demographic data and agent's notes on suitable products | [M9](https://letshego-prototype.vercel.app/prototype.html#m09), [M13](https://letshego-prototype.vercel.app/prototype.html#m13), [W09](https://letshego-prototype.vercel.app/prototype.html#w09) product-fit grid | Notes feed a product-fit view by client type. |
+| Loan product(s) chosen and the loan application ID | [M13](https://letshego-prototype.vercel.app/prototype.html#m13), [M14](https://letshego-prototype.vercel.app/prototype.html#m14) | The app checks the ID against the loan system (proposed). |
+| Notes on why clients took a loan, and why not | [M8](https://letshego-prototype.vercel.app/prototype.html#m08), [M14](https://letshego-prototype.vercel.app/prototype.html#m14), [W09](https://letshego-prototype.vercel.app/prototype.html#w09) | Tap-to-pick reasons plus a free note (or voice note). |
 | Client records stay with Letshego if an agent leaves | [W11 Agent handover](https://letshego-prototype.vercel.app/prototype.html#w11), W06 header | Nothing lives only on the phone. Handover moves clients with full history. |
 | Applications go to supervisors or HQ for approval | [W07](https://letshego-prototype.vercel.app/prototype.html#w07), [W08](https://letshego-prototype.vercel.app/prototype.html#w08) | Branch limit decides whether HQ is needed (UGX 10M placeholder). |
 | Dashboard by day, week, quarter or year: who isn't bringing in clients | [W01](https://letshego-prototype.vercel.app/prototype.html#w01), [W02](https://letshego-prototype.vercel.app/prototype.html#w02), [W03](https://letshego-prototype.vercel.app/prototype.html#w03) | The Day / Week / Quarter / Year switch is in the top bar of every screen. |
+| Agents add new clients in the field | [M6 New client](https://letshego-prototype.vercel.app/prototype.html#m06), also from [M16 My clients](https://letshego-prototype.vercel.app/prototype.html#m16) | Duplicate check on the phone number before saving. |
+| Supervisors decide which clients agents visit | [W10 Journey plans](https://letshego-prototype.vercel.app/prototype.html#w10) → [M3 Home](https://letshego-prototype.vercel.app/prototype.html#m03) / [M4 plan map](https://letshego-prototype.vercel.app/prototype.html#m04) | Ordered client list per agent per day, with suggestions from the pipeline. Adherence on [W01](https://letshego-prototype.vercel.app/prototype.html#w01) and [W02](https://letshego-prototype.vercel.app/prototype.html#w02). |
 
-**Extras we added (say so, don't oversell):** live field map with agent trails (idea from the NICE sell-out map), journey plans and weekly minimums, scheduled reports, audit trail.
+**Extras we added (say so, don't oversell):** live field map with agent trails (idea from the NICE sell-out map), journey plan adherence (also a NICE idea), scheduled reports, audit trail.
 
 ---
 
@@ -123,10 +125,10 @@ Everything is stored on Letshego's servers, not only on the phone. Every change 
 3. **[W02 Agents](https://letshego-prototype.vercel.app/prototype.html#w02):** "Each row is an agent; each little square is a week. Red outlines are weeks with no visits. You see the slump per person, not just in total."
 4. **[W04 Field map](https://letshego-prototype.vercel.app/prototype.html#w04):** "Where agents are right now and every visit today, coloured by outcome." Click the popup → **[W06](https://letshego-prototype.vercel.app/prototype.html#w06)**.
 5. **[W06 Client record](https://letshego-prototype.vercel.app/prototype.html#w06):** "Florence's whole story: first visited by John, who left; the record stayed with Letshego and moved to Sarah. KYC photos, checks, and the application."
-6. **Switch to the app** (bottom bar, *Agent app*): [M3 Home](https://letshego-prototype.vercel.app/prototype.html#m03) → Check in → [M5](https://letshego-prototype.vercel.app/prototype.html#m05) Yes → KYC [M7](https://letshego-prototype.vercel.app/prototype.html#m07)–[M9](https://letshego-prototype.vercel.app/prototype.html#m09) → [M10 validated](https://letshego-prototype.vercel.app/prototype.html#m10) → [M11 product](https://letshego-prototype.vercel.app/prototype.html#m11) → [M12 close](https://letshego-prototype.vercel.app/prototype.html#m12) → [M13 conversion](https://letshego-prototype.vercel.app/prototype.html#m13). Mention the **No** path to [M6](https://letshego-prototype.vercel.app/prototype.html#m06): "we always capture why."
+6. **Switch to the app** (bottom bar, *Agent app*): [M3 Home](https://letshego-prototype.vercel.app/prototype.html#m03) shows today's plan from Moses → yellow **Visit** button → [M5 choose the client](https://letshego-prototype.vercel.app/prototype.html#m05) (or [M6 add a new one](https://letshego-prototype.vercel.app/prototype.html#m06)) → [M7 check in](https://letshego-prototype.vercel.app/prototype.html#m07) → Yes → KYC [M9](https://letshego-prototype.vercel.app/prototype.html#m09)–[M11](https://letshego-prototype.vercel.app/prototype.html#m11) → [M12 validated](https://letshego-prototype.vercel.app/prototype.html#m12) → [M13 product](https://letshego-prototype.vercel.app/prototype.html#m13) → [M14 close](https://letshego-prototype.vercel.app/prototype.html#m14) → [M15 conversion](https://letshego-prototype.vercel.app/prototype.html#m15). Show the **No** path with Joseph, a new client: [M6](https://letshego-prototype.vercel.app/prototype.html#m06) → [M8](https://letshego-prototype.vercel.app/prototype.html#m08): "we always capture why." Finish on [M17](https://letshego-prototype.vercel.app/prototype.html#m17), Florence's record.
 7. **Back to the web** as Moses: [W07 Approvals](https://letshego-prototype.vercel.app/prototype.html#w07) → [W08 Decision](https://letshego-prototype.vercel.app/prototype.html#w08). "Conversion already counted; the decision is separate."
 8. **[W09 Why & why not](https://letshego-prototype.vercel.app/prototype.html#w09):** "What agents hear in the field, turned into numbers for product and pricing."
-9. **[W10 Journey plans](https://letshego-prototype.vercel.app/prototype.html#w10):** "How we stop the slump: weekly minimums and planned routes, published to phones."
+9. **[W10 Journey plans](https://letshego-prototype.vercel.app/prototype.html#w10):** "Moses picks which clients Sarah visits tomorrow and in what order: follow-ups, KYC to finish, new areas. It lands on her phone at 18:00. The overview then shows how much of the plan was kept."
 10. **[W11 Handover](https://letshego-prototype.vercel.app/prototype.html#w11):** "When an agent leaves, clients move with their history in one step."
 
 ---

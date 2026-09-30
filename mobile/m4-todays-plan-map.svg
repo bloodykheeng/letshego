@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
-<title>M4 Today's route</title>
+<title>M4 Today's plan (map)</title>
 <rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#FFFFFF"/>
 <g id="status-bar">
 <text id="11-05" x="16.0" y="18.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#1B1C3A">11:05</text>
@@ -19,8 +19,8 @@
 <path d="M19 12H5" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 19l-7-7 7-7" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Today-s-route" x="56.0" y="48.0" font-family="Segoe UI" font-size="16.5" font-weight="600" fill="#1B1C3A">Today's route</text>
-<text id="7-stops-11-4-km-2-done" x="56.0" y="67.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">7 stops · 11.4 km · 2 done</text>
+<text id="Today-s-plan" x="56.0" y="48.0" font-family="Segoe UI" font-size="16.5" font-weight="600" fill="#1B1C3A">Today's plan</text>
+<text id="7-clients-planned-by-Moses" x="56.0" y="67.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">7 clients · planned by Moses Okello · 2 done</text>
 <g id="icon-layers" transform="translate(320.0 40.0) scale(1.0000)">
 <path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M22 17.65l-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
@@ -118,7 +118,7 @@
 <g id="next-stop-sheet">
 <rect x="0.0" y="520.0" width="360.0" height="214.0" rx="20" fill="#FFFFFF"/>
 <rect x="160.0" y="530.0" width="40.0" height="4.0" rx="2" fill="#E4E5EF"/>
-<text id="NEXT-STOP-3-OF-7" x="16.0" y="562.0" font-family="Segoe UI" font-size="11" font-weight="700" fill="#2F2E80" letter-spacing="0.8">NEXT STOP · 3 OF 7</text>
+<text id="NEXT-ON-YOUR-PLAN-3-OF-7" x="16.0" y="562.0" font-family="Segoe UI" font-size="11" font-weight="700" fill="#2F2E80" letter-spacing="0.8">NEXT ON YOUR PLAN · 3 OF 7</text>
 <text id="Florence-Nambi" x="16.0" y="588.0" font-family="Segoe UI" font-size="19" font-weight="700" fill="#1B1C3A">Florence Nambi</text>
 <text id="Nambi-Tailoring-Fabrics" x="16.0" y="610.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#4B4D6B">Nambi Tailoring &amp; Fabrics · Kiwatule</text>
 <g id="chip-Interested-since-29-Jul">
@@ -175,14 +175,14 @@
 </g>
 <text id="Visit" x="168.8" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="600" fill="#1F1E57">Visit</text>
 </g>
-<g id="tab-Route">
+<g id="tab-Plan">
 <rect id="indicator" x="224.0" y="732.0" width="56.0" height="30.0" rx="15" fill="#E6E6F0"/>
 <g id="icon-route" transform="translate(241.0 736.0) scale(0.9167)">
 <path d="M6 16a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#2F2E80" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15" fill="none" stroke="#2F2E80" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M18 2a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#2F2E80" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Route" x="236.7" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="600" fill="#2F2E80">Route</text>
+<text id="Plan" x="240.8" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="600" fill="#2F2E80">Plan</text>
 </g>
 <g id="tab-Me">
 <g id="icon-user" transform="translate(313.0 736.0) scale(0.9167)">

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
-<title>M6 Not interested: capture why</title>
+<title>M8 Not interested: capture why</title>
 <rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#FFFFFF"/>
 <g id="status-bar">
 <text id="10-58" x="16.0" y="18.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#1B1C3A">10:58</text>
@@ -20,7 +20,7 @@
 <path d="M12 19l-7-7 7-7" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="Close-the-visit" x="56.0" y="48.0" font-family="Segoe UI" font-size="16.5" font-weight="600" fill="#1B1C3A">Close the visit</text>
-<text id="Example-Joseph-Kiggundu-10" x="56.0" y="67.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Example: Joseph Kiggundu, 10:58 · not interes…</text>
+<text id="Joseph-Kiggundu-new-client" x="56.0" y="67.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Joseph Kiggundu · new client · 10:58</text>
 </g>
 <text id="Why-not-Pick-all-that-apply" x="16.0" y="104.0" font-family="Segoe UI" font-size="14.5" font-weight="700" fill="#1B1C3A">Why not? Pick all that apply</text>
 <g id="pill-Has-a-loan-elsewhere">

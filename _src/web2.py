@@ -1,7 +1,7 @@
 """Web console screens 07-13: approvals, reasons, journey plans, handover, users, reports."""
 from __future__ import annotations
 
-from charts import donut
+from charts import StreetMap, donut, map_pin
 from data import CLIENT, MGMT, QUARTER, SUPERVISOR, TEAM, rnd_instalment, ugx
 from kit import (AMBER, AMBER_D, BLUE, BRAND, BRAND_D, CARD, FAINT, GREEN, GREEN_D, INK, INK2, LINE, LINE2, MUTED,
                  PRODUCT, PRODUCTS, RED, STAGE, STATUS, TEAL, VIOLET, YELLOW, YELLOW_D, avatar, button, card,
@@ -282,86 +282,107 @@ def w09_reasons():
 
 
 # =====================================================================================
+PLAN_REASON = {"Follow-up": BLUE, "Finish KYC": VIOLET, "Offer loan": TEAL, "Negotiate": AMBER,
+               "From handover": "#D9651B", "Prospecting": "#8A8DA6"}
+
+
 def w10_plans():
-    s = shell("10 Journey plans and weekly targets", "Journey plans & targets", ["Planning", "Journey plans & targets"],
-              user=SUPERVISOR, period="Week")
-    page_head(s, "Journey plans & targets", "Kampala East · plan next week so every agent keeps visiting, not just in "
-                                            "week 1 and the last three weeks")
+    s = shell("10 Journey plans: which clients each agent visits", "Journey plans",
+              ["Planning", "Journey plans"], user=SUPERVISOR, period="Day")
+    page_head(s, "Journey plans", "Which clients each agent visits tomorrow, and in what order · published to "
+                                  "agents' phones at 18:00")
     with s.g("header actions"):
         x = X1
-        x -= button(s, x, Y0 + 12, "Publish to agents' phones", "primary", icon="send", anchor="end") + 12
-        x -= button(s, x, Y0 + 12, "Suggest a plan", "soft", icon="sparkle", anchor="end") + 12
-        x -= filter_btn(s, x - 210, Y0 + 13, "Week", "Next · 5–10 Oct", w=210) + 12
-    ty = Y0 + 84
-    gw = 1080
-    card(s, X0, ty, gw, H - 28 - ty, "Next week's visits per agent", "Planned visits per day · the phone shows each "
-                                                                    "agent their route in order")
-    days = ["Mon 5", "Tue 6", "Wed 7", "Thu 8", "Fri 9", "Sat 10"]
-    gx = X0 + 250
-    dw = (gw - 250 - 140) / 6
-    gy = ty + 96
-    for j, d in enumerate(days):
-        s.text(gx + j * dw + dw / 2, gy, d, 12.5, 600, INK2, anchor="middle")
-    s.text(X0 + gw - 70, gy, "Total", 12.5, 600, INK2, anchor="middle")
-    plan = [[5, 5, 4, 5, 4, 2], [4, 5, 5, 4, 4, 0], [5, 4, 5, 5, 3, 2], [4, 4, 4, 4, 4, 2], [3, 4, 4, 3, 4, 0],
-            [4, 4, 3, 4, 4, 0], [2, 3, 3, 2, 3, 0]]
-    rh = 82
-    for i, ((nm, ini, st, t, v, c, terr), row) in enumerate(zip(TEAM, plan)):
-        y = gy + 18 + i * rh
-        with s.g(f"plan {nm}"):
-            s.line(X0 + 24, y, X0 + gw - 24, y, LINE2)
-            avatar(s, X0 + 44, y + rh / 2, 17, ini, BRAND)
-            s.text(X0 + 72, y + rh / 2 - 3, nm, 14, 600, INK)
-            s.text(X0 + 72, y + rh / 2 + 15, terr, 12, 400, MUTED)
-            for j, n in enumerate(row):
-                cx = gx + j * dw
-                if n:
-                    s.rect(cx + 5, y + 10, dw - 10, rh - 20, fill=BRAND, op=0.12 + n * 0.12, rx=8)
-                    s.text(cx + dw / 2, y + rh / 2 + 1, str(n), 15, 700, "#FFFFFF" if n >= 4 else BRAND_D,
-                           anchor="middle")
-                    s.text(cx + dw / 2, y + rh / 2 + 16, "visits", 10.5, 400, "#E4E3F7" if n >= 4 else INK2,
-                           anchor="middle")
-                else:
-                    s.rect(cx + 5, y + 10, dw - 10, rh - 20, fill="none", rx=8, stroke=LINE, dash="4 4")
-            tot = sum(row)
-            ok = tot >= 20
-            s.text(X0 + gw - 70, y + rh / 2 + 1, str(tot), 16, 700, GREEN if ok else RED, anchor="middle")
-            s.text(X0 + gw - 70, y + rh / 2 + 18, "✓ min 20" if ok else "below 20", 11, 600, GREEN if ok else RED,
-                   anchor="middle")
-    with s.g("plan footer"):
-        y = gy + 18 + 7 * rh + 18
-        s.rect(X0 + 24, y, gw - 48, 58, fill=tint(AMBER, 0.12), rx=10)
-        s.icon("alert", X0 + 40, y + 18, 22, AMBER_D, 2)
-        s.text(X0 + 74, y + 26, "3 agents are planned below the weekly minimum of 20: Joan (13), Ivan (18), "
-                                "Brian (19).", 13.5, 600, INK)
-        s.text(X0 + 74, y + 45, "Add follow-ups from their interested clients who haven't done KYC yet?", 12.5, 400,
-               INK2)
-        button(s, X0 + gw - 40, y + 12, "Add follow-ups", "secondary", h=34, size=12.5, anchor="end")
+        x -= button(s, x, Y0 + 12, "Publish plans to phones", "primary", icon="send", anchor="end") + 12
+        x -= button(s, x, Y0 + 12, "Copy last Thursday", "secondary", icon="copy", anchor="end") + 12
+        x -= filter_btn(s, x - 230, Y0 + 13, "Day", "Thu 1 Oct (tomorrow)", w=230) + 12
 
-    rx = X0 + gw + 20
+    ty = Y0 + 84
+    th = H - 28 - ty
+    # --- agents
+    aw = 350
+    card(s, X0, ty, aw, th, "Agents", "Kampala East · clients planned for Thu")
+    plans = [("Sarah Namuli", "SN", 8, 21, True), ("Peter Kato", "PK", 7, 22, True), ("Ruth Achieng", "RA", 8, 24, True),
+             ("Esther Nakato", "EN", 7, 22, True), ("Ivan Mugabe", "IM", 6, 18, False),
+             ("Brian Ssali", "BS", 6, 19, False), ("Joan Auma", "JA", 3, 13, False)]
+    y = ty + 78
+    for nm, ini, n, wk, ok in plans:
+        on = nm == "Sarah Namuli"
+        with s.g(f"agent {nm}"):
+            if on:
+                s.rect(X0 + 10, y, aw - 20, 68, fill=tint(BRAND, 0.07), rx=10, stroke=tint(BRAND, 0.4))
+            avatar(s, X0 + 40, y + 34, 17, ini, BRAND)
+            s.text(X0 + 68, y + 29, nm, 14, 600, INK)
+            s.text(X0 + 68, y + 48, f"Week: {wk} planned · min 20", 12, 400, GREEN_D if ok else RED)
+            s.text(X0 + aw - 26, y + 36, str(n), 20, 700, INK if n >= 5 else RED, anchor="end")
+            s.text(X0 + aw - 26, y + 53, "clients", 11, 400, MUTED, anchor="end")
+        y += 74
+    with s.g("warning"):
+        s.rect(X0 + 16, y + 6, aw - 32, 84, fill=tint(AMBER, 0.12), rx=10)
+        s.icon("alert", X0 + 30, y + 22, 20, AMBER_D, 2)
+        para(s, X0 + 60, y + 34, "Joan has 3 clients planned. Add from her 9 interested clients waiting for KYC?",
+             aw - 100, 12.5, 400, INK2, lh=18)
+
+    # --- Sarah's plan, in visit order
+    px = X0 + aw + 20
+    pw = 620
+    card(s, px, ty, pw, th, "Sarah Namuli · Thu 1 Oct", "8 clients in visit order · drag to reorder · "
+                                                         "about 12.6 km")
+    stops = [("08:30", "Charles Ssempijja", "Interested", "Follow-up", "Asked to come back after payday"),
+             ("09:15", "Sarah Namutebi", "KYC captured", "Finish KYC", "Collect payslip, then validate"),
+             ("10:00", "Betty Nakimuli", "KYC validated", "Offer loan", "School Fees Loan: 3 children"),
+             ("10:45", "Juliet Kobusingye", "Interested", "From handover", "Was Daniel Okumu's client: introduce"),
+             ("11:30", "Ivan Kasozi", "Negotiation", "Negotiate", "Wants 12 months; bring the new quote"),
+             ("13:30", "Aisha Nalubega", "Interested", "Follow-up", "Bring National ID this time"),
+             ("14:30", "Kyanja market", "Prospecting", "Prospecting", "New area · aim for 3 new clients"),
+             ("16:00", "Annet Namubiru", "Negotiation", "Negotiate", "Compare with SACCO offer")]
+    y = ty + 80
+    rh = (th - 80 - 70) / len(stops)
+    for i, (tm, nm, stage, reason, note) in enumerate(stops):
+        with s.g(f"stop {i + 1} {nm}"):
+            if i:
+                s.line(px + 20, y, px + pw - 20, y, LINE2)
+            s.icon("menu", px + 20, y + rh / 2 - 8, 16, FAINT, 2)
+            s.circle(px + 60, y + rh / 2, 13, fill=BRAND)
+            s.text(px + 60, y + rh / 2 + 4.5, str(i + 1), 12, 700, "#FFFFFF", anchor="middle")
+            s.text(px + 86, y + rh / 2 - 4, nm, 14, 600, INK)
+            s.text(px + 86, y + rh / 2 + 15, note, 12, 400, MUTED, maxw=260)
+            chip(s, px + 360, y + rh / 2 - 11, reason, PLAN_REASON[reason], h=22, size=11)
+            s.text(px + pw - 24, y + rh / 2 + 5, tm, 13, 600, INK2, anchor="end")
+        y += rh
+    with s.g("plan footer"):
+        fy = ty + th - 60
+        s.rect(px + 16, fy, pw - 32, 44, fill="#F5F5FB", rx=10)
+        s.text(px + 32, fy + 27, "Starts 08:30 near Ntinda stage · ends about 16:40 · 21 clients this week (min 20 ✓)",
+               12.5, 600, INK2)
+    s.link(px, ty + 80, pw, rh, "w06")
+
+    # --- map + suggestions
+    rx = px + pw + 20
     rw = X1 - rx
-    card(s, rx, ty, rw, 380, "Q4 targets, spread evenly", "Weekly pace for the branch instead of one target at the "
-                                                         "end of the quarter")
-    ww = (rw - 48) / 13
-    base = ty + 300
-    for i in range(13):
-        h1 = 120
-        s.rect(rx + 24 + i * ww + 4, base - h1, ww - 8, h1, fill=tint(GREEN, 0.25), rx=3)
-        s.text(rx + 24 + i * ww + ww / 2, base + 18, f"W{i + 1}", 10.5, 400, MUTED, anchor="middle")
-    s.rect(rx + 24 + 4, base - 132, ww - 8, 132, fill=GREEN, rx=3)
-    s.text(rx + 24, ty + 110, "15 conversions a week · 195 for the quarter", 14, 700, GREEN_D)
-    s.text(rx + 24, ty + 132, "Next week planned: 16 ✓ · a week turns red after 2 slow weeks", 12.5, 400, INK2)
-    s.line(rx + 24, base - 120, rx + rw - 24, base - 120, INK2, 1.5, dash="5 4")
-    card(s, rx, ty + 400, rw, H - 28 - ty - 400, "Weekly minimums per agent", "Set by you; the phone shows progress "
-                                                                               "every day")
-    y = ty + 400 + 96
-    for lab, val, on in [("Client visits", "20 a week", True), ("New interested clients", "6 a week", True),
-                         ("KYC completed", "3 a week", True), ("Conversions", "2 a week", True),
-                         ("Alert me when an agent has no check-in for", "2 working days", True)]:
-        s.text(rx + 24, y, lab, 13.5, 400, INK2)
-        s.text(rx + rw - 80, y, val, 13.5, 700, INK, anchor="end")
-        toggle(s, rx + rw - 64, y - 14, on)
-        y += 40
+    mh = 330
+    card(s, rx, ty, rw, mh, "Route", "Planned order on the map")
+    m = StreetMap(s, rx + 16, ty + 70, rw - 32, mh - 86, seed=5, lake=False, dense=0.8,
+                  places=[("Ntinda", 0.25, 0.25), ("Kiwatule", 0.62, 0.2), ("Kyanja", 0.3, 0.8)])
+    pts = [m.P(*q) for q in [(0.2, 0.3), (0.34, 0.18), (0.5, 0.26), (0.64, 0.34), (0.74, 0.52), (0.56, 0.62),
+                             (0.34, 0.76), (0.18, 0.6)]]
+    s.poly(pts, stroke=BRAND, sw=3, closed=False, dash="2 6", name="planned route")
+    for i, (qx, qy) in enumerate(pts):
+        map_pin(s, qx, qy, BRAND if i != 6 else "#8A8DA6", str(i + 1), 0.85, name=f"stop {i + 1}")
+    sy = ty + mh + 16
+    card(s, rx, sy, rw, H - 28 - sy, "Suggested to add", "Sarah's clients who need a visit but aren't planned")
+    sugg = [("Hassan Mugerwa", "Interested 16 days, no KYC", "Follow-up"),
+            ("Rehema Nakalema", "Moving from Daniel Okumu today", "From handover"),
+            ("Paul Tumusiime", "Application returned: payslip", "Finish KYC"),
+            ("Kigoowa stage", "No visits this quarter", "Prospecting")]
+    y = sy + 80
+    for nm, why, reason in sugg:
+        with s.g(f"suggestion {nm}"):
+            s.circle(rx + 30, y + 14, 5, fill=PLAN_REASON[reason])
+            s.text(rx + 44, y + 12, nm, 13.5, 600, INK)
+            s.text(rx + 44, y + 30, why, 12, 400, MUTED, maxw=rw - 150)
+            button(s, rx + rw - 20, y, "Add", "soft", icon="plus", h=30, size=12, anchor="end")
+        y += 50
     return s
 
 

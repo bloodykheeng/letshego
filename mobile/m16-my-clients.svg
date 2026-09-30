@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
-<title>M14 My clients</title>
+<title>M16 My clients</title>
 <rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#F5F6FA"/>
 <g id="status-bar">
 <text id="11-44" x="16.0" y="18.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#1B1C3A">11:44</text>
@@ -17,9 +17,11 @@
 <line x1="0.0" y1="80.0" x2="360.0" y2="80.0" stroke="#E4E5EF" stroke-width="1"/>
 <text id="My-clients" x="16.0" y="48.0" font-family="Segoe UI" font-size="16.5" font-weight="600" fill="#1B1C3A">My clients</text>
 <text id="32-open-all-stored-with-Le" x="16.0" y="67.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">32 open · all stored with Letshego</text>
-<g id="icon-search" transform="translate(320.0 40.0) scale(1.0000)">
-<path d="M11 3a8 8 0 1 0 0 16 8 8 0 1 0 0-16z" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M21 21l-4.3-4.3" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="icon-userplus" transform="translate(320.0 40.0) scale(1.0000)">
+<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 3a4 4 0 1 0 0 8 4 4 0 1 0 0-8z" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19 8v6" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 11h-6" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
 <g id="filter-chips">
@@ -156,13 +158,13 @@
 </g>
 <text id="Visit" x="168.8" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="600" fill="#1F1E57">Visit</text>
 </g>
-<g id="tab-Route">
+<g id="tab-Plan">
 <g id="icon-route" transform="translate(241.0 736.0) scale(0.9167)">
 <path d="M6 16a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#4B4D6B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15" fill="none" stroke="#4B4D6B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M18 2a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#4B4D6B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Route" x="237.1" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="400" fill="#4B4D6B">Route</text>
+<text id="Plan" x="241.2" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="400" fill="#4B4D6B">Plan</text>
 </g>
 <g id="tab-Me">
 <g id="icon-user" transform="translate(313.0 736.0) scale(0.9167)">

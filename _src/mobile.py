@@ -62,8 +62,8 @@ def app_bar(s: SVG, title, back=None, sub=None, right=None, dark=False):
 
 
 def bottom_nav(s: SVG, active="Home"):
-    items = [("Home", "home", "m03"), ("Clients", "users", "m14"), ("Visit", None, "m05"), ("Route", "route", "m04"),
-             ("Me", "user", "m16")]
+    items = [("Home", "home", "m03"), ("Clients", "users", "m16"), ("Visit", None, "m05"), ("Plan", "route", "m04"),
+             ("Me", "user", "m18")]
     w = MW / 5
     for i, (_, _, tgt) in enumerate(items):
         s.link(i * w, MH - NAV_H - (18 if i == 2 else 0), w, NAV_H + (18 if i == 2 else 0), tgt)
@@ -240,10 +240,11 @@ def m03_home():
         s.text(PAD + 32, y + 35, "18", 11, 700, BRAND_D, anchor="middle")
         s.text(PAD + 62, y + 27, "Q3: 18 of 22 conversions", 14, 700, INK)
         s.text(PAD + 62, y + 46, "Last day of the quarter · 4 to go", 12, 400, YELLOW_D)
-    s.text(PAD, 380, "Today's route", 15.5, 700, INK)
+    s.text(PAD, 380, "Today's plan", 15.5, 700, INK)
+    s.text(PAD + 104, 380, "7 clients · by Moses", 12, 400, MUTED)
     s.text(MW - PAD, 380, "Map →", 13, 600, BRAND, anchor="end")
     s.link(MW - 90, 362, 90, 28, "m04")
-    stops = [("1", "Joseph Kiggundu", "10:58 · not interested", RED, "Done"),
+    stops = [("+", "Joseph Kiggundu", "New client, off plan · not interested", RED, "Done"),
              ("2", "Betty Nakimuli", "10:20 · KYC validated", TEAL, "Done"),
              ("3", "Florence Nambi", "Kiwatule · 0.6 km · ready to apply", BRAND, "Next"),
              ("4", "Ivan Kasozi", "12:30 · negotiation", "#8A8DA6", "Planned")]
@@ -264,7 +265,7 @@ def m03_home():
             else:
                 s.text(MW - PAD - 14, y + 32, st, 12, 600, MUTED, anchor="end")
         if nxt:
-            s.link(PAD, y, MW - 2 * PAD, 54, "m05")
+            s.link(PAD, y, MW - 2 * PAD, 54, "m07")
         y += 60
     with s.g("follow-ups"):
         y += 2
@@ -274,7 +275,7 @@ def m03_home():
         s.text(PAD + 52, y + 22, "6 follow-ups due this week", 13.5, 600, INK)
         s.text(PAD + 52, y + 39, "Interested clients waiting for KYC", 12, 400, MUTED)
         s.icon("chevright", MW - PAD - 28, y + 15, 20, FAINT)
-        s.link(PAD, y, MW - 2 * PAD, 50, "m14")
+        s.link(PAD, y, MW - 2 * PAD, 50, "m16")
     bottom_nav(s, "Home")
     return s
 
@@ -285,8 +286,8 @@ ROUTE = [(0.18, 0.12, RED, "done"), (0.36, 0.3, TEAL, "done"), (0.56, 0.42, BRAN
 
 
 def m04_route():
-    s = phone("M4 Today's route", bg=CARD)
-    app_bar(s, "Today's route", back="m03", sub="7 stops · 11.4 km · 2 done", right="layers")
+    s = phone("M4 Today's plan (map)", bg=CARD)
+    app_bar(s, "Today's plan", back="m03", sub="7 clients · planned by Moses Okello · 2 done", right="layers")
     m = StreetMap(s, 0, 80, MW, 480, seed=11, lake=False, dense=0.8,
                   places=[("Ntinda", 0.28, 0.2), ("Kiwatule", 0.72, 0.3), ("Kigoowa", 0.2, 0.62),
                           ("Najjera", 0.78, 0.74)])
@@ -303,7 +304,7 @@ def m04_route():
         y = 520
         s.rect(0, y, MW, MH - y - NAV_H + 10, fill=CARD, rx=20)
         s.rect(MW / 2 - 20, y + 10, 40, 4, fill=LINE, rx=2)
-        s.text(PAD, y + 42, "NEXT STOP · 3 OF 7", 11, 700, BRAND, spacing=0.8)
+        s.text(PAD, y + 42, "NEXT ON YOUR PLAN · 3 OF 7", 11, 700, BRAND, spacing=0.8)
         s.text(PAD, y + 68, CLIENT["name"], 19, 700, INK)
         s.text(PAD, y + 90, "Nambi Tailoring & Fabrics · Kiwatule", 13, 400, INK2)
         x = PAD
@@ -312,14 +313,14 @@ def m04_route():
         bw = (MW - 2 * PAD - 10) / 2
         button(s, PAD, y + 138, "Directions", "secondary", icon="navigation", w=bw, h=44)
         button(s, PAD + bw + 10, y + 138, "Check in", "primary", icon="pin", w=bw, h=44)
-        s.link(PAD + bw + 10, y + 138, bw, 44, "m05")
-    bottom_nav(s, "Route")
+        s.link(PAD + bw + 10, y + 138, bw, 44, "m07")
+    bottom_nav(s, "Plan")
     return s
 
 
-def m05_check_in():
-    s = phone("M5 Check in at the client", bg=BG, time="11:14")
-    app_bar(s, "Visit", back="m04", sub="Stop 3 of 7 · started 11:14")
+def m07_check_in():
+    s = phone("M7 Check in at the client", bg=BG, time="11:14")
+    app_bar(s, "Visit · " + CLIENT["name"], back="m05", sub="On today's plan (3 of 7) · started 11:14")
     with s.g("gps card"):
         y = 92
         s.rect(PAD, y, MW - 2 * PAD, 92, fill=CARD, rx=14, stroke=tint(GREEN, 0.5))
@@ -358,8 +359,7 @@ def m05_check_in():
             s.rect(PAD + 26 + bw, y + 84, bw, 64, fill=BRAND, rx=12)
             s.icon("check", PAD + 26 + bw + bw / 2 - 11, y + 94, 22, YELLOW, 2.8)
             s.text(PAD + 26 + bw + bw / 2, y + 136, "Yes, start KYC", 14, 700, "#FFFFFF", anchor="middle")
-        s.link(PAD + 16, y + 84, bw, 64, "m06")
-        s.link(PAD + 26 + bw, y + 84, bw, 64, "m07")
+        s.link(PAD + 26 + bw, y + 84, bw, 64, "m09")
     with s.g("photo prompt"):
         y = 588
         s.rect(PAD, y, MW - 2 * PAD, 54, fill=CARD, rx=12, stroke=LINE, dash="5 4")
@@ -370,9 +370,9 @@ def m05_check_in():
     return s
 
 
-def m06_not_interested():
-    s = phone("M6 Not interested: capture why", bg=CARD, time="10:58")
-    app_bar(s, "Close the visit", back="m05", sub="Example: Joseph Kiggundu, 10:58 · not interested")
+def m08_not_interested():
+    s = phone("M8 Not interested: capture why", bg=CARD, time="10:58")
+    app_bar(s, "Close the visit", back="m06", sub="Joseph Kiggundu · new client · 10:58")
     y = 104
     s.text(PAD, y, "Why not? Pick all that apply", 14.5, 700, INK)
     y = pills(s, PAD, y + 14, [("Has a loan elsewhere", True), ("Interest rate / cost", False),
@@ -406,9 +406,9 @@ def m06_not_interested():
     return s
 
 
-def m07_kyc_details():
-    s = phone("M7 KYC 1: personal details", bg=CARD, time="11:16")
-    app_bar(s, "KYC · " + CLIENT["name"], back="m05", sub="Step 1 of 3 · client details", right="more")
+def m09_kyc_details():
+    s = phone("M9 KYC 1: personal details", bg=CARD, time="11:16")
+    app_bar(s, "KYC · " + CLIENT["name"], back="m07", sub="Step 1 of 3 · client details", right="more")
     stepper(s, 92, 1)
     y = 128
     y += m_field(s, y, "Full name (as on National ID)", CLIENT["name"], icon="user") + 10
@@ -431,13 +431,13 @@ def m07_kyc_details():
     y += m_field(s, y, "Occupation", "Self-employed · tailor (6 yrs)", dropdown=True) + 10
     y += m_field(s, y, "Education", "Secondary (S4)", dropdown=True, required=False) + 10
     y += m_field(s, y, "Home / business location", "Kiwatule, Nakawa · from GPS", icon="pin") + 8
-    footer(s, "Next: ID & photos", "m08", icon="arrowright", secondary="Save", sec_target="m03")
+    footer(s, "Next: ID & photos", "m10", icon="arrowright", secondary="Save", sec_target="m03")
     return s
 
 
-def m08_kyc_id():
-    s = phone("M8 KYC 2: NIRA ID and photos", bg=CARD, time="11:19")
-    app_bar(s, "KYC · " + CLIENT["name"], back="m07", sub="Step 2 of 3 · ID & photos", right="more")
+def m10_kyc_id():
+    s = phone("M10 KYC 2: NIRA ID and photos", bg=CARD, time="11:19")
+    app_bar(s, "KYC · " + CLIENT["name"], back="m09", sub="Step 2 of 3 · ID & photos", right="more")
     stepper(s, 92, 2)
     y = 128
     s.text(PAD, y + 4, "National ID (NIRA)", 14.5, 700, INK)
@@ -466,13 +466,13 @@ def m08_kyc_id():
     y += 124
     s.icon("pin", PAD, y - 2, 14, MUTED, 2)
     s.text(PAD + 20, y + 9, "Photos are GPS-stamped and never saved to the gallery", 11.5, 400, MUTED)
-    footer(s, "Next: income", "m09", icon="arrowright", secondary="Back", sec_target="m07")
+    footer(s, "Next: income", "m11", icon="arrowright", secondary="Back", sec_target="m09")
     return s
 
 
-def m09_kyc_income():
-    s = phone("M9 KYC 3: earnings and collateral", bg=CARD, time="11:22")
-    app_bar(s, "KYC · " + CLIENT["name"], back="m08", sub="Step 3 of 3 · earnings & collateral", right="more")
+def m11_kyc_income():
+    s = phone("M11 KYC 3: earnings and collateral", bg=CARD, time="11:22")
+    app_bar(s, "KYC · " + CLIENT["name"], back="m10", sub="Step 3 of 3 · earnings & collateral", right="more")
     stepper(s, 92, 3)
     y = 128
     y += m_field(s, y, "Main source of income", "Business · tailoring shop", dropdown=True) + 10
@@ -502,13 +502,13 @@ def m09_kyc_income():
         checkbox(s, PAD + 14, y + 12, True)
         s.text(PAD + 42, y + 25, "Client agreed to a CRB check", 13.5, 600, INK)
         s.text(PAD + 42, y + 43, "Signed on screen 11:23", 12, 400, MUTED)
-    footer(s, "Validate KYC", "m10", icon="shield", secondary="Back", sec_target="m08")
+    footer(s, "Validate KYC", "m12", icon="shield", secondary="Back", sec_target="m10")
     return s
 
 
-def m10_validation():
-    s = phone("M10 KYC validation", bg=BG, time="11:24")
-    app_bar(s, "KYC validation", back="m09", sub=CLIENT["name"])
+def m12_validation():
+    s = phone("M12 KYC validation", bg=BG, time="11:24")
+    app_bar(s, "KYC validation", back="m11", sub=CLIENT["name"])
     with s.g("result"):
         y = 96
         s.rect(PAD, y, MW - 2 * PAD, 104, fill=CARD, rx=14, stroke=tint(GREEN, 0.5))
@@ -533,13 +533,13 @@ def m10_validation():
         s.icon("wifioff", PAD + 14, y + 17, 22, AMBER_D, 2)
         para(s, PAD + 46, y + 25, "No network? Checks wait in the queue and run as soon as you're back online.",
              MW - 2 * PAD - 60, 12, 400, INK2, lh=17)
-    footer(s, "Continue: loan options", "m11", icon="arrowright")
+    footer(s, "Continue: loan options", "m13", icon="arrowright")
     return s
 
 
-def m11_negotiation():
-    s = phone("M11 Negotiation: pick a loan product", bg=CARD, time="11:30")
-    app_bar(s, "Loan options", back="m10", sub="Negotiation · " + CLIENT["name"])
+def m13_negotiation():
+    s = phone("M13 Negotiation: pick a loan product", bg=CARD, time="11:30")
+    app_bar(s, "Loan options", back="m12", sub="Negotiation · " + CLIENT["name"])
     y = 100
     s.text(PAD, y, "Suggested for Florence", 14.5, 700, INK)
     prods = [("MSE Business Loan", "Best fit: business owner, steady sales", True),
@@ -583,13 +583,13 @@ def m11_negotiation():
     s.rect(PAD, y + 22, MW - 2 * PAD, 62, fill=CARD, rx=10, stroke="#CDD0DE")
     para(s, PAD + 12, y + 46, "Wants a 2nd industrial machine before January; uniform orders each term.",
          MW - 2 * PAD - 24, 13, 400, INK, lh=19)
-    footer(s, "Client agrees: close", "m12", icon="arrowright", secondary="Back", sec_target="m10")
+    footer(s, "Client agrees: close", "m14", icon="arrowright", secondary="Back", sec_target="m12")
     return s
 
 
-def m12_close():
-    s = phone("M12 Close: submit the loan application", bg=CARD, time="11:41")
-    app_bar(s, "Close the sale", back="m11", sub=f"{CLIENT['product']} · {ugx(CLIENT['amount'])}")
+def m14_close():
+    s = phone("M14 Close: submit the loan application", bg=CARD, time="11:41")
+    app_bar(s, "Close the sale", back="m13", sub=f"{CLIENT['product']} · {ugx(CLIENT['amount'])}")
     y = 100
     s.text(PAD, y, "Does the client agree to apply?", 14.5, 700, INK)
     bw = (MW - 2 * PAD - 10) / 2
@@ -598,7 +598,6 @@ def m12_close():
     s.text(PAD + bw / 2 + 4, y + 42, "Yes", 14.5, 700, "#FFFFFF", anchor="middle")
     s.rect(PAD + bw + 10, y + 14, bw, 44, fill=CARD, rx=10, stroke="#CDD0DE")
     s.text(PAD + bw + 10 + bw / 2, y + 42, "No, capture why", 13.5, 600, INK2, anchor="middle")
-    s.link(PAD + bw + 10, y + 14, bw, 44, "m06")
     y += 80
     s.text(PAD, y, "Required items", 14.5, 700, INK)
     s.text(MW - PAD, y, "7 of 7", 13, 700, GREEN_D, anchor="end")
@@ -622,12 +621,12 @@ def m12_close():
         s.icon("info", PAD + 12, y + 15, 20, GREEN_D, 2)
         para(s, PAD + 42, y + 22, "Submitting with every item counts as a conversion, whatever the approval decision.",
              MW - 2 * PAD - 54, 12, 600, GREEN_D, lh=17)
-    footer(s, "Submit application", "m13", icon="send", color=GREEN)
+    footer(s, "Submit application", "m15", icon="send", color=GREEN)
     return s
 
 
-def m13_success():
-    s = phone("M13 Conversion recorded", bg=CARD, time="11:42")
+def m15_success():
+    s = phone("M15 Conversion recorded", bg=CARD, time="11:42")
     with s.g("confetti"):
         for i, (x, y, k) in enumerate([(40, 120, 18), (300, 90, 14), (270, 200, 10), (70, 250, 12), (320, 300, 16),
                                        (30, 330, 9), (190, 70, 11)]):
@@ -654,7 +653,7 @@ def m13_success():
     button(s, PAD, MH - 140, "Next stop: Ivan Kasozi", "primary", icon="navigation", w=MW - 2 * PAD, h=48)
     s.link(PAD, MH - 140, MW - 2 * PAD, 48, "m04")
     button(s, PAD, MH - 82, "View Florence's record", "ghost", w=MW - 2 * PAD, h=44)
-    s.link(PAD, MH - 82, MW - 2 * PAD, 44, "m15")
+    s.link(PAD, MH - 82, MW - 2 * PAD, 44, "m17")
     gesture(s)
     return s
 
@@ -669,9 +668,10 @@ MY_CLIENTS = [
 ]
 
 
-def m14_clients():
-    s = phone("M14 My clients", bg=BG, time="11:44")
-    app_bar(s, "My clients", sub="32 open · all stored with Letshego", right="search")
+def m16_clients():
+    s = phone("M16 My clients", bg=BG, time="11:44")
+    app_bar(s, "My clients", sub="32 open · all stored with Letshego", right="userplus")
+    s.link(MW - 60, 24, 60, 56, "m06")
     with s.g("filter chips"):
         x = PAD
         for lab, on in [("All 32", True), ("Interested 14", False), ("KYC 9", False), ("Negotiation 6", False)]:
@@ -691,24 +691,40 @@ def m14_clients():
             s.icon("clock", PAD + 18, y + 58, 14, INK2, 2)
             s.text(PAD + 38, y + 70, nxt, 12.5, 600, INK2)
         if nm == CLIENT["name"]:
-            s.link(PAD, y, MW - 2 * PAD, 84, "m15")
+            s.link(PAD, y, MW - 2 * PAD, 84, "m17")
         y += 92
     bottom_nav(s, "Clients")
     return s
 
 
-def m15_client():
-    s = phone("M15 Client timeline", bg=BG, time="11:45")
-    app_bar(s, CLIENT["name"], back="m14", sub="Client " + CLIENT["id"], right="phone")
+def m17_client():
+    s = phone("M17 Client record", bg=BG, time="11:45")
+    app_bar(s, CLIENT["name"], back="m16", sub="Client " + CLIENT["id"] + " · owned by Letshego", right="more")
     with s.g("client header"):
         y = 92
-        s.rect(PAD, y, MW - 2 * PAD, 104, fill=CARD, rx=14, stroke=LINE)
+        s.rect(PAD, y, MW - 2 * PAD, 150, fill=CARD, rx=14, stroke=LINE)
         avatar(s, PAD + 36, y + 36, 22, "FN", GREEN)
         s.text(PAD + 68, y + 32, "Nambi Tailoring & Fabrics", 14, 600, INK)
         s.text(PAD + 68, y + 51, "Kiwatule · 0772 418 ···", 12.5, 400, MUTED)
         x = PAD + 16
         x += chip(s, x, y + 68, "Applied", GREEN, h=24, size=11.5, dot=True) + 8
         chip(s, x, y + 68, "MSE Business Loan", PRODUCT["MSE Business Loan"], h=24, size=11.5)
+        bw = (MW - 2 * PAD - 32 - 16) / 3
+        for i, (ic, lab) in enumerate([("phone", "Call"), ("navigation", "Directions"), ("edit", "Note")]):
+            bx = PAD + 16 + i * (bw + 8)
+            s.rect(bx, y + 104, bw, 34, fill=tint(BRAND, 0.08), rx=8)
+            s.icon(ic, bx + bw / 2 - tw(lab, 12.5, 600) / 2 - 12, y + 113, 16, BRAND, 2)
+            s.text(bx + bw / 2 + 10, y + 126, lab, 12.5, 600, BRAND, anchor="middle")
+    with s.g("tabs"):
+        y = 256
+        x = PAD
+        for lab, on in [("Journey", True), ("Details", False), ("Documents 6", False), ("Visits 3", False)]:
+            w = tw(lab, 13, 600) + 20
+            s.text(x + 10, y + 18, lab, 13, 600, BRAND if on else MUTED)
+            if on:
+                s.rect(x + 4, y + 28, w - 8, 3, fill=BRAND, rx=1.5)
+            x += w + 4
+        s.line(0, y + 31, MW, y + 31, LINE)
     steps = [("Visited", "John Mugisha · 29 Jul", "Visited", True),
              ("Interested", "Moved to you 12 Aug when John left", "Interested", True),
              ("KYC captured", "Today 11:16 · 6 photos", "KYC captured", True),
@@ -716,33 +732,120 @@ def m15_client():
              ("Negotiation", "UGX 6M · 18 months", "Negotiation", True),
              ("Applied: converted", "Today 11:42 · " + CLIENT["app_id"], "Applied", True),
              ("Supervisor decision", "Waiting for Moses Okello", None, False)]
-    y = 226
-    s.text(PAD, y, "Journey", 15, 700, INK)
-    y += 26
+    y = 318
     for i, (lab, sub, st, done) in enumerate(steps):
         col = STAGE[st] if st else "#C4C7D6"
         with s.g(f"step {lab}"):
             if i < len(steps) - 1:
-                s.line(PAD + 16, y + 14, PAD + 16, y + 56, col if steps[i + 1][3] else LINE, 2,
+                s.line(PAD + 16, y + 12, PAD + 16, y + 46, col if steps[i + 1][3] else LINE, 2,
                        dash=None if steps[i + 1][3] else "4 4")
-            s.circle(PAD + 16, y, 12, fill=col if done else CARD, stroke=col, sw=2)
+            s.circle(PAD + 16, y, 11, fill=col if done else CARD, stroke=col, sw=2)
             if done:
                 s.icon("check", PAD + 10, y - 6, 12, "#FFFFFF", 3.2)
             else:
                 s.icon("clock", PAD + 9, y - 7, 14, MUTED, 2)
-            s.text(PAD + 40, y - 1, lab, 14, 600, INK if done else MUTED)
-            s.text(PAD + 40, y + 17, sub, 12, 400, MUTED, maxw=MW - 2 * PAD - 50)
-        y += 56
-    with s.g("actions"):
-        bw = (MW - 2 * PAD - 10) / 2
-        button(s, PAD, MH - 70, "Directions", "secondary", icon="navigation", w=bw, h=46)
-        button(s, PAD + bw + 10, MH - 70, "Add a note", "primary", icon="edit", w=bw, h=46)
+            s.text(PAD + 38, y - 1, lab, 13.5, 600, INK if done else MUTED)
+            s.text(PAD + 38, y + 16, sub, 12, 400, MUTED, maxw=MW - 2 * PAD - 50)
+        y += 48
+    with s.g("next step"):
+        y += 2
+        s.rect(PAD, y, MW - 2 * PAD, 50, fill=tint(AMBER, 0.12), rx=12)
+        s.icon("clock", PAD + 14, y + 14, 20, AMBER_D, 2)
+        s.text(PAD + 44, y + 22, "Next: supervisor decision", 13, 600, INK)
+        s.text(PAD + 44, y + 39, "You'll be notified · then plan the disbursement visit", 12, 400, MUTED)
+    footer(s, "Start a visit with Florence", "m07", icon="pin")
+    return s
+
+
+def m05_start_visit():
+    s = phone("M5 Start a visit: choose the client", bg=BG, time="11:12")
+    app_bar(s, "Start a visit", back="m03", sub="Who are you visiting?")
+    with s.g("search"):
+        s.rect(PAD, 92, MW - 2 * PAD, 44, fill=CARD, rx=10, stroke="#CDD0DE")
+        s.icon("search", PAD + 12, 104, 20, MUTED)
+        s.text(PAD + 42, 119, "Search name, phone or NIN", 14, 400, FAINT)
+    with s.g("new client"):
+        y = 148
+        s.rect(PAD, y, MW - 2 * PAD, 58, fill=tint(YELLOW, 0.2), rx=12, stroke=YELLOW_D, sw=1.2, dash="5 4")
+        s.circle(PAD + 30, y + 29, 16, fill=YELLOW)
+        s.icon("userplus", PAD + 20, y + 19, 20, BRAND_D, 2.2)
+        s.text(PAD + 56, y + 25, "New client (first visit)", 14.5, 700, INK)
+        s.text(PAD + 56, y + 43, "Not in Letshego's records yet", 12, 400, YELLOW_D)
+        s.icon("chevright", MW - PAD - 30, y + 19, 20, YELLOW_D)
+        s.link(PAD, y, MW - 2 * PAD, 58, "m06")
+    y = 234
+    s.text(PAD, y, "ON TODAY'S PLAN", 11, 700, MUTED, spacing=0.8)
+    s.text(MW - PAD, y, "5 left", 12, 600, BRAND, anchor="end")
+    rows = [(CLIENT["name"], "Interested · ready to apply", "0.6 km", BLUE, True),
+            ("Ivan Kasozi", "Negotiation · 12:30", "1.4 km", AMBER, False),
+            ("Aisha Nalubega", "Interested · bring ID", "2.1 km", BLUE, False)]
+    y += 12
+    for nm, sub, dist, col, nxt in rows:
+        with s.g(f"planned {nm}"):
+            s.rect(PAD, y, MW - 2 * PAD, 60, fill=CARD, rx=12, stroke=BRAND if nxt else LINE, sw=2 if nxt else 1)
+            s.rect(PAD, y + 12, 4, 36, fill=col, rx=2)
+            s.text(PAD + 18, y + 25, nm, 14, 600, INK)
+            s.text(PAD + 18, y + 44, sub, 12, 400, MUTED)
+            if nxt:
+                button(s, MW - PAD - 12, y + 14, "Check in", "primary", h=32, size=12.5, anchor="end")
+            else:
+                s.text(MW - PAD - 14, y + 35, dist, 12, 600, INK2, anchor="end")
+        if nxt:
+            s.link(PAD, y, MW - 2 * PAD, 60, "m07")
+        y += 68
+    y += 14
+    s.text(PAD, y, "NEAR YOU, NOT ON TODAY'S PLAN", 11, 700, MUTED, spacing=0.8)
+    y += 12
+    for nm, sub, dist in [("Charles Ssempijja", "Interested · follow-up due Fri", "0.9 km"),
+                          ("Sarah Namutebi", "KYC captured · payslip pending", "1.1 km")]:
+        with s.g(f"nearby {nm}"):
+            s.rect(PAD, y, MW - 2 * PAD, 56, fill=CARD, rx=12, stroke=LINE)
+            s.text(PAD + 16, y + 23, nm, 14, 600, INK)
+            s.text(PAD + 16, y + 41, sub, 12, 400, MUTED)
+            s.text(MW - PAD - 14, y + 33, dist, 12, 600, INK2, anchor="end")
+        y += 62
+    with s.g("off-plan note"):
+        s.icon("info", PAD, y + 4, 16, MUTED, 2)
+        para(s, PAD + 24, y + 16, "Visits outside your plan are fine; they show as off-plan on the dashboard.",
+             MW - 2 * PAD - 30, 12, 400, MUTED, lh=17)
+    bottom_nav(s, "Visit")
+    return s
+
+
+def m06_new_client():
+    s = phone("M6 New client: first visit", bg=CARD, time="10:55")
+    app_bar(s, "New client", back="m05", sub="First visit · checked in 10:52 · Ntinda")
+    with s.g("gps"):
+        y = 92
+        s.rect(PAD, y, MW - 2 * PAD, 40, fill=tint(GREEN, 0.08), rx=10)
+        s.icon("pin", PAD + 12, y + 10, 18, GREEN_D, 2)
+        s.text(PAD + 38, y + 25, "Location captured · 0.3548, 32.6141 · ±7 m", 12.5, 600, GREEN_D)
+    y = 144
+    y += m_field(s, y, "Full name", "Joseph Kiggundu", icon="user") + 8
+    y += m_field(s, y, "Phone", "0701 552 ···", icon="phone", ok="No existing Letshego client with this number") + 6
+    s.text(PAD, y + 14, "Client type", 13, 600, INK2)
+    y = pills(s, PAD, y + 22, [("Business owner", True), ("Civil servant", False), ("Salaried", False),
+                               ("Farmer", False)], h=30) + 12
+    y += m_field(s, y, "Business or employer", "Kiggundu Hardware, Ntinda", icon="store") + 6
+    s.text(PAD, y + 14, "How you met", 13, 600, INK2)
+    y = pills(s, PAD, y + 22, [("Door to door", True), ("Referral", False), ("Walk-in", False)], h=30) + 16
+    with s.g("interested question"):
+        s.rect(PAD, y, MW - 2 * PAD, 108, fill=tint(BRAND, 0.06), rx=14)
+        s.text(MW / 2, y + 28, "Is the client interested in a loan?", 15, 700, INK, anchor="middle")
+        bw = (MW - 2 * PAD - 42) / 2
+        s.rect(PAD + 16, y + 44, bw, 48, fill=CARD, rx=10, stroke=tint(RED, 0.5), sw=1.5)
+        s.icon("x", PAD + 16 + bw / 2 - 30, y + 57, 20, RED, 2.4)
+        s.text(PAD + 16 + bw / 2 + 8, y + 73, "No", 14, 700, RED, anchor="middle")
+        s.rect(PAD + 26 + bw, y + 44, bw, 48, fill=BRAND, rx=10)
+        s.icon("check", PAD + 26 + bw + bw / 2 - 42, y + 57, 20, YELLOW, 2.8)
+        s.text(PAD + 26 + bw + bw / 2 + 10, y + 73, "Yes, KYC", 14, 700, "#FFFFFF", anchor="middle")
+        s.link(PAD + 16, y + 44, bw, 48, "m08")
     gesture(s)
     return s
 
 
-def m16_me():
-    s = phone("M16 Me: my performance", bg=BG, dark=True, time="12:02")
+def m18_me():
+    s = phone("M18 Me: my performance", bg=BG, dark=True, time="12:02")
     with s.g("header"):
         s.rect(0, 0, MW, 176, fill=BRAND)
         with s.g("facets", opacity=0.08):
@@ -795,6 +898,6 @@ def m16_me():
     return s
 
 
-SCREENS = [m01_splash, m02_sign_in, m03_home, m04_route, m05_check_in, m06_not_interested, m07_kyc_details,
-           m08_kyc_id, m09_kyc_income, m10_validation, m11_negotiation, m12_close, m13_success, m14_clients,
-           m15_client, m16_me]
+SCREENS = [m01_splash, m02_sign_in, m03_home, m04_route, m05_start_visit, m06_new_client, m07_check_in, m08_not_interested, m09_kyc_details,
+           m10_kyc_id, m11_kyc_income, m12_validation, m13_negotiation, m14_close, m15_success, m16_clients,
+           m17_client, m18_me]

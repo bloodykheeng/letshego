@@ -4,7 +4,7 @@ Demo-stage prototype of a field sales app for **Letshego Uganda**: an Android ap
 
 - **Live prototype:** https://letshego-prototype.vercel.app (Vercel redeploys on every push to `main`)
 - **Team briefing** (internal, not for Letshego): [`BRIEFING.md`](BRIEFING.md) · web version at `/briefing.html`
-- **30 screens:** 14 web (1920×1080) and 16 screens of the Android agent app (360×800, to be built in Flutter)
+- **32 screens:** 14 web (1920×1080) and 18 screens of the Android agent app (360×800, to be built in Flutter)
 - All names, figures, IDs and loan products are **illustrative**. District boundaries are real (UBOS).
 - Brand colours were sampled from Letshego's LetsGo app: indigo `#2F2E80`, yellow `#FBD405`, the faceted triangle.
 
@@ -67,13 +67,13 @@ _src/briefing.py ────────────►  briefing.html         
 
 | Web | | Agent app | |
 |---|---|---|---|
-| `w00` Sign in | `w07` Approvals queue | `m01` Splash | `m09` KYC 3: earnings & collateral |
-| `w01` Sales overview | `w08` Application review | `m02` Sign in | `m10` KYC validation |
-| `w02` Agents performance | `w09` Why & why not | `m03` Home | `m11` Negotiation |
-| `w03` Agent profile | `w10` Journey plans & targets | `m04` Today's route | `m12` Close: submit application |
-| `w04` Field map | `w11` Agent handover | `m05` Check in | `m13` Conversion recorded |
-| `w05` Client pipeline | `w12` Users & territories | `m06` Not interested: why | `m14` My clients |
-| `w06` Client record | `w13` Reports & audit | `m07` KYC 1: details · `m08` KYC 2: ID & photos | `m15` Client timeline · `m16` Me |
+| `w00` Sign in | `w07` Approvals queue | `m01` Splash · `m02` Sign in | `m11` KYC 3: earnings & collateral |
+| `w01` Sales overview | `w08` Application review | `m03` Home (today's plan) | `m12` KYC validation |
+| `w02` Agents performance | `w09` Why & why not | `m04` Today's plan (map) | `m13` Negotiation |
+| `w03` Agent profile | `w10` Journey plans | `m05` Start a visit: choose the client | `m14` Close: submit application |
+| `w04` Field map | `w11` Agent handover | `m06` New client (first visit) | `m15` Conversion recorded |
+| `w05` Client pipeline | `w12` Users & territories | `m07` Check in · `m08` Not interested: why | `m16` My clients · `m17` Client record |
+| `w06` Client record | `w13` Reports & audit | `m09` KYC 1 · `m10` KYC 2 | `m18` Me |
 
 **Registration:** each module has a `SCREENS` list. Web screens are sorted by key; mobile screens run in list order. That order is what ← → steps through.
 
@@ -114,6 +114,8 @@ python briefing.py           # rewrite briefing.html from BRIEFING.md
 **Rules that keep the story consistent:**
 - **Conversion = application submitted with every required item.** Approval never changes it. Keep saying so on screens that show both.
 - **Clients belong to Letshego, not to the agent.** Handover moves clients with their full history.
+- **A visit always starts by choosing the client** (from the plan, a search, or *New client*). Visits not on the journey plan are allowed and count as off-plan.
+- **A journey plan is a list of clients**, in order, per agent per day, set by the supervisor on W10 and shown on the phone's Home.
 - The demo client is **Florence Nambi** (`CLIENT` in `data.py`): first visited by John Mugisha (left 12 Aug), moved to Sarah Namuli, KYC to application on 30 Sep 11:14–11:42, awaiting Moses Okello's approval.
 - **Roles:** Field Sales Agent (Sarah Namuli) · Branch Supervisor (Moses Okello) · Regional Manager · HQ Credit Approver · Head of Sales (Patricia Nankya) · System Admin.
 - The agent app is an **Android app built in Flutter** (not a PWA).
@@ -141,6 +143,6 @@ python briefing.py           # rewrite briefing.html from BRIEFING.md
 ## 9. Presenting
 
 - **Web:** sign in → Sales overview. The red icon next to the user's name signs out. **Clicking the name** switches between Patricia (management) and Moses (supervisor): a demo shortcut.
-- **App:** splash → sign in → Home → Check in (Florence) → Yes → KYC ×3 → validation → loan options → close → conversion. "No" shows how the reason is captured.
+- **App:** splash → sign in → Home (today's plan) → yellow Visit button → choose Florence → check in → Yes → KYC ×3 → validation → loan options → close → conversion. New client: Visit → New client (Joseph) → No → capture why.
 - The walkthrough script, questions for the client and likely questions are in [`BRIEFING.md`](BRIEFING.md).
 - **On the day:** open the link while online, wait for "✓ Offline-ready", present in Chrome full screen (**F**), and say once that the data is illustrative.

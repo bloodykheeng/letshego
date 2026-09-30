@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
-<title>M5 Check in at the client</title>
+<title>M7 Check in at the client</title>
 <rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#F5F6FA"/>
 <g id="status-bar">
 <text id="11-14" x="16.0" y="18.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#1B1C3A">11:14</text>
@@ -19,8 +19,8 @@
 <path d="M19 12H5" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 19l-7-7 7-7" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Visit" x="56.0" y="48.0" font-family="Segoe UI" font-size="16.5" font-weight="600" fill="#1B1C3A">Visit</text>
-<text id="Stop-3-of-7-started-11-14" x="56.0" y="67.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Stop 3 of 7 · started 11:14</text>
+<text id="Visit-Florence-Nambi" x="56.0" y="48.0" font-family="Segoe UI" font-size="16.5" font-weight="600" fill="#1B1C3A">Visit · Florence Nambi</text>
+<text id="On-today-s-plan-3-of-7-s" x="56.0" y="67.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">On today's plan (3 of 7) · started 11:14</text>
 </g>
 <g id="gps-card">
 <rect x="16.0" y="92.0" width="328.0" height="92.0" rx="14" fill="#FFFFFF" stroke="#8AC8AC" stroke-width="1"/>
@@ -133,15 +133,15 @@
 <path d="M12 5v14" fill="none" stroke="#1F1E57" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M5 12h14" fill="none" stroke="#1F1E57" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Visit-2" x="168.8" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="600" fill="#1F1E57">Visit</text>
+<text id="Visit" x="168.8" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="600" fill="#1F1E57">Visit</text>
 </g>
-<g id="tab-Route">
+<g id="tab-Plan">
 <g id="icon-route" transform="translate(241.0 736.0) scale(0.9167)">
 <path d="M6 16a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#4B4D6B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15" fill="none" stroke="#4B4D6B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M18 2a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#4B4D6B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Route" x="237.1" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="400" fill="#4B4D6B">Route</text>
+<text id="Plan" x="241.2" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="400" fill="#4B4D6B">Plan</text>
 </g>
 <g id="tab-Me">
 <g id="icon-user" transform="translate(313.0 736.0) scale(0.9167)">

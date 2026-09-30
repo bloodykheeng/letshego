@@ -123,8 +123,10 @@
 <line x1="0.0" y1="716.0" x2="360.0" y2="716.0" stroke="#E4E5EF" stroke-width="1"/>
 <g id="button-Check-out">
 <rect x="16.0" y="730.0" width="328.0" height="48.0" rx="12" fill="#2F2E80"/>
-<g id="icon-check-4" transform="translate(135.2 745.0) scale(0.7500)">
-<path d="M20 6L9 17l-5-5" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="icon-logout" transform="translate(135.2 745.0) scale(0.7500)">
+<path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 17l5-5-5-5" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21 12H9" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="Check-out" x="161.2" y="759.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Check out</text>
 </g>

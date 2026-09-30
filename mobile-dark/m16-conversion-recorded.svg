@@ -75,16 +75,14 @@
 </g>
 </g>
 <text id="Checked-out-11-52-38-minut" x="31.8" y="640.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">Checked out 11:52 · 38-minute visit · you'll be notified</text>
-<g id="button-Next-stop-Ivan-Kasozi">
+<g id="button-Check-out-of-this-visit">
 <rect x="16.0" y="660.0" width="328.0" height="48.0" rx="12" fill="#4F4CC9"/>
-<g id="icon-navigation" transform="translate(97.1 675.0) scale(0.7500)">
-<path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="icon-logout" transform="translate(98.7 675.0) scale(0.7500)">
+<path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 17l5-5-5-5" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21 12H9" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Next-stop-Ivan-Kasozi" x="123.1" y="689.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Next stop: Ivan Kasozi</text>
-</g>
-<g id="button-View-Florence-s-record">
-<rect x="16.0" y="718.0" width="328.0" height="44.0" rx="12" fill="none"/>
-<text id="View-Florence-s-record" x="109.3" y="745.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#A09FDD">View Florence's record</text>
+<text id="Check-out-of-this-visit" x="124.7" y="689.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Check out of this visit</text>
 </g>
 <rect id="gesture-bar" x="126.0" y="792.0" width="108.0" height="4.0" rx="2" fill="#1B1C3A" fill-opacity="0.45"/>
 </svg>

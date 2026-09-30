@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
+<title>M18c Florence: Loan tab</title>
+<defs><filter id="soft" x="-20%" y="-20%" width="140%" height="170%"><feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#1B1C3A" flood-opacity="0.07"/></filter></defs>
+<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#121319"/>
+<g id="status-bar">
+<text id="11-53" x="16.0" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#CBCCE7">11:53</text>
+<rect id="battery" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#CBCCE7" stroke-width="1.2"/>
+<rect x="324.0" y="10.0" width="13.0" height="6.0" rx="1" fill="#1B1C3A"/>
+<rect x="342.5" y="11.0" width="2.0" height="4.0" rx="1" fill="#1B1C3A"/>
+<rect id="signal-bar" x="292.0" y="14.0" width="3.0" height="3.0" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-2" x="297.0" y="11.8" width="3.0" height="5.2" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-3" x="302.0" y="9.6" width="3.0" height="7.4" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-4" x="307.0" y="7.4" width="3.0" height="9.6" rx="0.8" fill="#1B1C3A" fill-opacity="0.3"/>
+<text id="network" x="270.5" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#CBCCE7">4G</text>
+</g>
+<g id="app-bar">
+<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#1D1E27"/>
+<line x1="0.0" y1="80.0" x2="360.0" y2="80.0" stroke="#282932" stroke-width="1"/>
+<g id="icon-arrowleft" transform="translate(16.0 40.0) scale(1.0000)">
+<path d="M19 12H5" fill="none" stroke="#CBCCE7" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 19l-7-7 7-7" fill="none" stroke="#CBCCE7" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Florence-Nambi" x="56.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#CBCCE7">Florence Nambi</text>
+<text id="Client-CL-0021457-Kiwatule" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Client CL-0021457 · Kiwatule market route</text>
+<g id="icon-more" transform="translate(320.0 40.0) scale(1.0000)">
+<path d="M12 12h.01" fill="none" stroke="#CBCCE7" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19 12h.01" fill="none" stroke="#CBCCE7" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5 12h.01" fill="none" stroke="#CBCCE7" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="client-header">
+<rect x="16.0" y="92.0" width="328.0" height="84.0" rx="18" fill="#1D1E27" filter="url(#soft)"/>
+<g id="avatar-FN">
+<circle cx="50.0" cy="134.0" r="22.0" fill="#2A3A33"/>
+<text id="FN" x="38.9" y="141.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17.6" font-weight="600" fill="#9AF0CA">FN</text>
+</g>
+<text id="Nambi-Tailoring-F" x="82.0" y="124.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#CBCCE7">Nambi Tailoring &amp; F…</text>
+<g id="chip-Applied">
+<rect x="82.0" y="136.0" width="72.9" height="22.0" rx="11.0" fill="#25332C"/>
+<circle cx="96.0" cy="147.0" r="4.0" fill="#15925A"/>
+<text id="Applied" x="106.0" y="151.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">Applied</text>
+</g>
+<g id="chip-MSE-Business-Loan">
+<rect x="160.9" y="136.0" width="114.3" height="22.0" rx="11.0" fill="#243234"/>
+<text id="MSE-Business-Loan" x="170.9" y="151.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CE8F1">MSE Business Loan</text>
+</g>
+<circle cx="318.0" cy="122.0" r="17.0" fill="#21212A"/>
+<g id="icon-phone" transform="translate(309.0 113.0) scale(0.7500)">
+<path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#A09FDD" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 18h.01" fill="none" stroke="#A09FDD" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<circle cx="274.0" cy="122.0" r="17.0" fill="#21212A"/>
+<g id="icon-navigation" transform="translate(265.0 113.0) scale(0.7500)">
+<path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#A09FDD" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="visit-bar">
+<rect x="16.0" y="186.0" width="328.0" height="44.0" rx="14" fill="#21232A"/>
+<g id="icon-history" transform="translate(28.0 198.0) scale(0.7500)">
+<path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" fill="none" stroke="#B0B1C7" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 3v5h5" fill="none" stroke="#B0B1C7" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 7v5l4 2" fill="none" stroke="#B0B1C7" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Last-visit-today-11-14-11-52" x="54.0" y="206.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#B0B1C7">Last visit today 11:14–11:52</text>
+<text id="Outcome-application-submitt" x="54.0" y="222.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#9396AA">Outcome: application submitted</text>
+</g>
+<g id="tabs">
+<text id="Overview" x="30.5" y="266.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#B0B1C7">Overview</text>
+<text id="KYC" x="127.7" y="266.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#B0B1C7">KYC</text>
+<rect x="182.0" y="244.0" width="78.0" height="34.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
+<text id="Loan" x="206.3" y="266.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#A09FDD">Loan</text>
+<text id="Visits" x="288.1" y="266.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#B0B1C7">Visits</text>
+</g>
+<g id="application">
+<rect x="16.0" y="292.0" width="328.0" height="262.0" rx="16" fill="#1D1E27" filter="url(#soft)"/>
+<text id="LOAN-APPLICATION" x="32.0" y="318.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#9396AA" letter-spacing="0.8">LOAN APPLICATION</text>
+<text id="LU-APP-2609-04817" x="32.0" y="344.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="700" fill="#CBCCE7">LU-APP-2609-04817</text>
+<g id="chip-Awaiting-approval">
+<rect x="203.4" y="304.0" width="124.6" height="22.0" rx="11.0" fill="#332C20"/>
+<circle cx="217.4" cy="315.0" r="4.0" fill="#B7791F"/>
+<text id="Awaiting-approval" x="227.4" y="319.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#EBC389">Awaiting approval</text>
+</g>
+<text id="Product" x="32.0" y="376.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">Product</text>
+<text id="MSE-Business-Loan-2" x="217.3" y="376.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#CBCCE7">MSE Business Loan</text>
+<text id="Amount" x="32.0" y="405.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">Amount</text>
+<text id="UGX-6-000-000" x="241.3" y="405.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#CBCCE7">UGX 6,000,000</text>
+<text id="Term" x="32.0" y="434.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">Term</text>
+<text id="18-months" x="265.6" y="434.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#CBCCE7">18 months</text>
+<text id="Instalment" x="32.0" y="463.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">Instalment</text>
+<text id="UGX-432-500-month" x="200.4" y="463.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#CBCCE7">UGX 432,500 / month</text>
+<text id="Submitted" x="32.0" y="492.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">Submitted</text>
+<text id="Today-11-42-to-Moses-Okell" x="152.6" y="492.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#CBCCE7">Today 11:42 · to Moses Okello</text>
+<text id="Required-items" x="32.0" y="521.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">Required items</text>
+<text id="7-of-7" x="283.0" y="521.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#A9F3D2">7 of 7 ✓</text>
+</g>
+<g id="footer">
+<rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#1D1E27"/>
+<line x1="0.0" y1="716.0" x2="360.0" y2="716.0" stroke="#282932" stroke-width="1"/>
+<g id="button-Check-in-again">
+<rect x="16.0" y="730.0" width="328.0" height="48.0" rx="12" fill="#4F4CC9"/>
+<g id="icon-pin" transform="translate(120.7 745.0) scale(0.7500)">
+<path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 7a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Check-in-again" x="146.7" y="759.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Check in again</text>
+</g>
+</g>
+<rect id="gesture-bar" x="126.0" y="792.0" width="108.0" height="4.0" rx="2" fill="#1B1C3A" fill-opacity="0.45"/>
+</svg>

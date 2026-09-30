@@ -96,7 +96,7 @@
 <path d="M20 6L9 17l-5-5" fill="none" stroke="#91EFC5" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="Yes-interested" x="70.0" y="498.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">Yes, interested</text>
-<text id="Take-KYC-now-or-book-a-KYC" x="70.0" y="516.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Take KYC now, or book a KYC visit</text>
+<text id="Book-his-KYC-visit" x="70.0" y="516.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Book his KYC visit</text>
 <g id="icon-chevright" transform="translate(316.0 491.0) scale(0.8333)">
 <path d="M9 18l6-6-6-6" fill="none" stroke="#AAACC0" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
 </g>

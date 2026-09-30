@@ -20,7 +20,7 @@
 <path d="M12 19l-7-7 7-7" fill="none" stroke="#CBCCE7" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="KYC-Florence-Nambi" x="56.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#CBCCE7">KYC · Florence Nambi</text>
-<text id="Step-1-of-3-during-the-vis" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Step 1 of 3 · during the visit · client details</text>
+<text id="KYC-1-of-3-client-details" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">KYC 1 of 3 · client details</text>
 <g id="icon-more" transform="translate(320.0 40.0) scale(1.0000)">
 <path d="M12 12h.01" fill="none" stroke="#CBCCE7" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M19 12h.01" fill="none" stroke="#CBCCE7" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>

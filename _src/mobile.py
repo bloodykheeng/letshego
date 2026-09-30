@@ -20,6 +20,7 @@ NAV_H = 76
 
 def phone(title: str, bg=BG, dark=False, time="11:05"):
     s = SVG(MW, MH, title)
+    s.soft = True
     s.rect(0, 0, MW, MH, fill=bg, name="screen background")
     status_bar(s, dark, time)
     return s
@@ -64,31 +65,27 @@ def app_bar(s: SVG, title, back=None, sub=None, right=None, dark=False):
 def bottom_nav(s: SVG, active="Home"):
     items = [("Home", "home", "m03"), ("Clients", "users", "m17"), ("Visit", None, "m05"), ("Plans", "route", "m04"),
              ("Me", "user", "m19")]
-    w = MW / 5
+    bx, by, bw, bh = 12, MH - 84, MW - 24, 64
+    w = bw / 5
     for i, (_, _, tgt) in enumerate(items):
-        s.link(i * w, MH - NAV_H - (18 if i == 2 else 0), w, NAV_H + (18 if i == 2 else 0), tgt)
+        s.link(bx + i * w, by - (24 if i == 2 else 0), w, bh + (24 if i == 2 else 0), tgt)
     with s.g("bottom navigation"):
-        s.rect(0, MH - NAV_H, MW, NAV_H, fill=CARD, name="nav bg")
-        s.line(0, MH - NAV_H, MW, MH - NAV_H, LINE)
+        s.rect(bx, by, bw, bh, fill=CARD, rx=24, shadow=True, name="nav bg")
         for i, (lab, ic, _) in enumerate(items):
-            cx = i * w + w / 2
+            cx = bx + i * w + w / 2
             on = lab == active
             with s.g(f"tab {lab}"):
                 if ic is None:
-                    if on:
-                        s.circle(cx, MH - NAV_H - 2, 34, fill=YELLOW, op=0.3, name="visit active halo")
-                    s.circle(cx, MH - NAV_H - 2, 27, fill=BRAND if on else YELLOW, stroke=CARD, sw=4,
+                    s.circle(cx, by + 4, 27, fill=BRAND if on else YELLOW, stroke=BG, sw=5, shadow=True,
                              name="visit button")
-                    s.icon("plus", cx - 13, MH - NAV_H - 15, 26, YELLOW if on else BRAND_D, 2.6)
-                    s.text(cx, MH - 24, lab, 11.5, 700 if on else 600, BRAND if on else INK2, anchor="middle")
-                    if on:
-                        s.rect(cx - 12, MH - 14, 24, 3, fill=BRAND, rx=1.5, name="active bar")
+                    s.icon("plus", cx - 12, by - 8, 24, YELLOW if on else BRAND_D, 2.8)
+                    s.text(cx, by + bh - 11, lab, 11, 700 if on else 600, BRAND if on else INK2, anchor="middle")
                     continue
                 if on:
-                    s.rect(cx - 28, MH - 68, 56, 30, fill=tint(BRAND, 0.12), rx=15, name="indicator")
-                s.icon(ic, cx - 11, MH - 64, 22, BRAND if on else INK2, 2)
-                s.text(cx, MH - 24, lab, 11.5, 600 if on else 400, BRAND if on else INK2, anchor="middle")
-        s.rect(MW / 2 - 54, MH - 8, 108, 4, fill=INK, rx=2, op=0.3, name="gesture bar")
+                    s.rect(cx - 24, by + 9, 48, 30, fill=tint(BRAND, 0.1), rx=15, name="indicator")
+                s.icon(ic, cx - 11, by + 13, 22, BRAND if on else "#9A9CB0", 2)
+                s.text(cx, by + bh - 11, lab, 11, 700 if on else 400, BRAND if on else "#8A8DA6", anchor="middle")
+    s.rect(MW / 2 - 54, MH - 8, 108, 4, fill=INK, rx=2, op=0.3, name="gesture bar")
 
 
 def gesture(s: SVG, dark=False):
@@ -230,107 +227,97 @@ def m02_sign_in():
     return s
 
 
+HERO = "#16171F"
+
+
 def m03_home():
-    s = phone("M3 Home", bg=BG, dark=True)
-    with s.g("header"):
-        s.rect(0, 0, MW, 262, fill=BRAND, name="header bg")
-        with s.g("facets", opacity=0.08):
-            s.poly([(300, 40), (430, 262), (170, 262)], fill="#FFFFFF")
-            s.poly([(40, 150), (120, 262), (-40, 262)], fill="#FFFFFF")
-        s.text(PAD, 54, "Good morning,", 13, 400, "#C9C8EE")
-        s.text(PAD, 78, "Sarah Namuli", 20, 700, "#FFFFFF")
-        s.icon("bell", MW - PAD - 24, 40, 24, "#FFFFFF", 2)
-        s.circle(MW - PAD - 4, 42, 6, fill=YELLOW)
-        with s.g("sync pill"):
-            s.rect(MW - PAD - 132, 64, 90, 22, fill="#FFFFFF", op=0.12, rx=11)
-            s.circle(MW - PAD - 120, 75, 3.5, fill="#6EE7A8")
-            s.text(MW - PAD - 112, 79, "Synced 11:04", 11, 600, "#FFFFFF")
-    status_bar(s, True, "11:05")
-    with s.g("target ring"):
-        cx, cy = PAD + 52, 164
-        ring(s, cx, cy, 49, 10, 18 / 22, YELLOW, bg="#4F4D9C")
-        s.text(cx, cy + 2, "18", 24, 700, "#FFFFFF", anchor="middle")
-        s.text(cx, cy + 19, "of 22", 11.5, 400, "#C9C8EE", anchor="middle")
-    with s.g("target text"):
-        x = PAD + 118
-        s.text(x, 140, "Q3 CONVERSIONS", 10.5, 700, "#C9C8EE", spacing=0.8)
-        s.text(x, 170, "4 to go", 24, 700, "#FFFFFF")
-        s.text(x, 190, "82% of your target · ends today", 12, 400, "#DCDBF6")
-        chip(s, x, 202, "Rank 3 of 62", YELLOW, h=24, size=11.5, solid=True, icon="trophy")
-    with s.g("stat tiles"):
-        y = 234
-        tw3 = (MW - 2 * PAD - 16) / 3
-        tiles = [("pin", BRAND, "3", "Visits today", "2 planned · 1 off", INK2),
-                 ("idcard", TEAL, "4", "KYCs this week", "▲ 2 vs last week", GREEN_D),
-                 ("check", GREEN, "1", "Conversions", "this week", INK2)]
-        for i, (ic, col, val, lab, sub, subcol) in enumerate(tiles):
-            x = PAD + i * (tw3 + 8)
-            s.rect(x, y, tw3, 96, fill=CARD, rx=14, stroke=LINE)
-            s.circle(x + 24, y + 24, 13, fill=tint(col, 0.14))
-            s.icon(ic, x + 16, y + 16, 16, shade(col, 0.1), 2.2)
-            s.text(x + 44, y + 31, val, 22, 700, INK)
-            s.text(x + 12, y + 62, lab, 11.5, 600, INK2, maxw=tw3 - 18)
-            s.text(x + 12, y + 80, sub, 10.5, 400 if subcol == INK2 else 600, subcol, maxw=tw3 - 18)
-    with s.g("weekly chart"):
-        y = 342
-        s.rect(PAD, y, MW - 2 * PAD, 124, fill=CARD, rx=14, stroke=LINE)
-        s.text(PAD + 14, y + 24, "Your visits per week", 13.5, 700, INK)
-        s.text(MW - PAD - 14, y + 24, "Q3", 12, 600, MUTED, anchor="end")
-        weeks = [22, 18, 15, 14, 16, 15, 17, 14, 16, 17, 16, 18, 16]
-        x0, base, ch = PAD + 16, y + 98, 52
-        bw = (MW - 2 * PAD - 32) / 13
-        for i, v in enumerate(weeks):
-            h_ = ch * v / 22
-            cur = i == 12
-            s.rect(x0 + i * bw + 3, base - h_, bw - 6, h_, fill=YELLOW if cur else tint(BRAND, 0.55), rx=3)
-            if cur:
-                s.text(x0 + i * bw + bw / 2, base - h_ - 5, "16", 10.5, 700, YELLOW_D, anchor="middle")
-        s.line(x0, base, MW - PAD - 16, base, LINE)
-        for i in (0, 6, 12):
-            s.text(x0 + i * bw + bw / 2, base + 13, f"W{i + 1}", 10, 400, MUTED, anchor="middle")
-        s.icon("check", PAD + 14, y + 31, 13, GREEN, 3)
-        s.text(PAD + 32, y + 42, "No quiet weeks this quarter", 11.5, 600, GREEN_D)
-    with s.g("next visit"):
-        y = 478
-        s.rect(PAD, y, MW - 2 * PAD, 88, fill=BRAND, rx=14)
-        with s.g("facet", opacity=0.1):
-            s.poly([(MW - PAD - 70, y), (MW - PAD, y), (MW - PAD, y + 88), (MW - PAD - 20, y + 88)], fill="#FFFFFF")
-        s.text(PAD + 14, y + 22, "NEXT VISIT · KIWATULE FOLLOW-UPS", 10, 700, YELLOW, spacing=0.6)
-        s.text(PAD + 14, y + 46, CLIENT["name"], 16, 700, "#FFFFFF")
-        s.text(PAD + 14, y + 66, "Take KYC · 0.6 km · 4 min", 12, 400, "#DCDBF6")
-        with s.g("check in"):
-            s.rect(MW - PAD - 108, y + 26, 94, 36, fill=YELLOW, rx=10)
-            s.icon("pin", MW - PAD - 98, y + 35, 18, BRAND_D, 2.2)
-            s.text(MW - PAD - 74, y + 49, "Check in", 13, 700, BRAND_D)
-        s.link(PAD, y, MW - 2 * PAD, 88, "m09")
-    with s.g("today timeline"):
-        y = 580
-        s.text(PAD, y + 12, "Today", 14.5, 700, INK)
-        s.text(PAD + 52, y + 12, "5 visits · 2 left", 12, 400, MUTED)
-        s.text(MW - PAD, y + 12, "Plans →", 12.5, 600, BRAND, anchor="end")
-        s.link(MW - 80, y - 6, 80, 26, "m04")
+    s = phone("M3 Home", bg=BG)
+    with s.g("top"):
+        s.circle(PAD + 22, 70, 22, fill=YELLOW)
+        s.text(PAD + 22, 76, "SN", 15, 700, BRAND_D, anchor="middle")
+        s.text(PAD + 54, 63, "Good morning", 12.5, 400, MUTED)
+        s.text(PAD + 54, 84, "Sarah Namuli", 19, 700, INK)
+        for i, ic in enumerate(["search", "bell"]):
+            cx = MW - PAD - 20 - i * 48
+            s.circle(cx, 70, 20, fill=CARD, shadow=True)
+            s.icon(ic, cx - 10, 60, 20, INK, 2)
+        s.circle(MW - PAD - 12, 60, 4.5, fill=RED)
+    with s.g("hero"):
+        y = 108
+        s.rect(PAD, y, MW - 2 * PAD, 164, fill=HERO, rx=24, name="hero bg")
+        s.text(PAD + 20, y + 30, "Q3 CONVERSIONS", 10.5, 700, "#A7A9B8", spacing=1)
+        s.text(PAD + 20, y + 80, "18", 46, 700, "#FFFFFF")
+        s.text(PAD + 22 + tw("18", 46, 700), y + 80, "/22", 20, 400, "#7E8094")
+        s.text(PAD + 20, y + 104, "4 to go · quarter ends today", 12.5, 400, "#C9CAD6")
+        with s.g("mini chart"):
+            weeks = [22, 18, 15, 14, 16, 15, 17, 14, 16, 17, 16, 18, 16]
+            x0, x1, base = MW - PAD - 136, MW - PAD - 20, y + 86
+            bw = (x1 - x0) / 13
+            s.text(x0, y + 30, "Visits / week", 10.5, 600, "#A7A9B8")
+            for i, v in enumerate(weeks):
+                h_ = 44 * v / 22
+                s.rect(x0 + i * bw + 2, base - h_, bw - 4, h_, fill=YELLOW if i == 12 else "#3A3C4C", rx=2.5)
+            s.text(x0, y + 104, "✓ no quiet weeks", 10.5, 600, "#6EE7A8")
+        s.rect(PAD + 20, y + 122, MW - 2 * PAD - 40, 6, fill="#2C2E3A", rx=3)
+        s.rect(PAD + 20, y + 122, (MW - 2 * PAD - 40) * 18 / 22, 6, fill=YELLOW, rx=3)
+        s.text(PAD + 20, y + 150, "82% of target", 12, 600, "#FFFFFF")
+        s.icon("trophy", MW - PAD - 120, y + 138, 14, YELLOW, 2)
+        s.text(MW - PAD - 20, y + 150, "Rank 3 of 62", 12, 600, YELLOW, anchor="end")
+    with s.g("stats"):
+        y = 286
+        cw = (MW - 2 * PAD - 16) / 3
+        for i, (lab, val, sub, subcol) in enumerate([("Visits today", "3", "2 planned · 1 off", MUTED),
+                                                      ("KYCs · week", "4", "▲ 2 vs last week", GREEN_D),
+                                                      ("Conv. · week", "1", "Florence is next", MUTED)]):
+            x = PAD + i * (cw + 8)
+            s.rect(x, y, cw, 84, fill=CARD, rx=18, stroke=LINE)
+            s.text(x + 14, y + 24, lab, 11, 600, MUTED, maxw=cw - 20)
+            s.text(x + 14, y + 55, val, 24, 700, INK)
+            s.text(x + 14, y + 73, sub, 10.5, 600 if subcol != MUTED else 400, subcol, maxw=cw - 20)
+    with s.g("up next"):
+        s.text(PAD, 400, "Up next", 15, 700, INK)
+        s.text(MW - PAD, 400, "Kiwatule follow-ups", 12, 400, MUTED, anchor="end")
+        y = 412
+        s.rect(PAD, y, MW - 2 * PAD, 76, fill=CARD, rx=20, stroke=LINE)
+        avatar(s, PAD + 38, y + 38, 22, "FN", GREEN)
+        s.text(PAD + 70, y + 34, CLIENT["name"], 15, 700, INK)
+        s.text(PAD + 70, y + 54, "Take KYC · 0.6 km · 4 min", 12, 400, MUTED)
+        s.circle(MW - PAD - 38, y + 38, 22, fill=BRAND)
+        s.icon("arrowright", MW - PAD - 48, y + 28, 20, "#FFFFFF", 2.4)
+        s.link(PAD, y, MW - 2 * PAD, 76, "m09")
+    with s.g("today"):
+        s.text(PAD, 516, "Today", 15, 700, INK)
+        s.text(PAD + 52, 516, "5 visits · 2 left", 12, 400, MUTED)
+        y = 528
+        s.rect(PAD, y, MW - 2 * PAD, 92, fill=CARD, rx=20, stroke=LINE)
         items = [("KL", "Kenneth", "09:05", "done", False), ("BN", "Betty", "10:20", "done", False),
-                 ("JK", "Joseph", "10:58", "done", True), ("FN", "Florence", "Next", "next", False),
+                 ("JK", "Joseph", "off plan", "done", True), ("FN", "Florence", "Next", "next", False),
                  ("IK", "Ivan", "12:30", "later", False)]
         n = len(items)
-        x0, x1 = PAD + 26, MW - PAD - 26
-        cy = y + 46
-        s.line(x0, cy, x1, cy, LINE, 2)
-        s.line(x0, cy, x0 + (x1 - x0) * 3 / (n - 1), cy, GREEN, 2)
+        x0, x1 = PAD + 36, MW - PAD - 36
+        cy = y + 34
+        s.line(x0, cy, x1, cy, LINE2, 2)
+        s.line(x0, cy, x0 + (x1 - x0) * 3 / (n - 1), cy, tint(GREEN, 0.5), 2)
         for i, (ini, nm, tm, st, off) in enumerate(items):
             cx = x0 + (x1 - x0) * i / (n - 1)
-            col = {"done": "#8A8DA6" if off else GREEN, "next": BRAND}.get(st, "#C4C7D6")
+            col = {"done": "#B5B7C6" if off else GREEN, "next": BRAND}.get(st, "#D5D7E0")
             if st == "next":
-                s.circle(cx, cy, 21, fill=YELLOW, op=0.35)
-            s.circle(cx, cy, 16, fill=col if st != "later" else CARD, stroke=col, sw=2)
-            s.text(cx, cy + 4, ini, 10.5, 700, "#FFFFFF" if st != "later" else INK2, anchor="middle")
-            if st == "done":
-                s.circle(cx + 12, cy - 12, 6.5, fill=CARD)
-                s.icon("check", cx + 7.5, cy - 16.5, 9, GREEN if not off else "#8A8DA6", 3.4)
-            s.text(cx, cy + 32, nm, 11, 600 if st == "next" else 400, INK if st == "next" else INK2, anchor="middle")
-            s.text(cx, cy + 46, "off plan" if off else tm, 10, 600 if off or st == "next" else 400,
+                s.circle(cx, cy, 21, fill=tint(BRAND, 0.14))
+            s.circle(cx, cy, 15, fill=col if st != "later" else CARD, stroke=col, sw=2)
+            s.text(cx, cy + 4, ini, 10, 700, "#FFFFFF" if st != "later" else INK2, anchor="middle")
+            s.text(cx, cy + 32, nm, 11, 700 if st == "next" else 400, INK if st == "next" else INK2, anchor="middle")
+            s.text(cx, cy + 46, tm, 10, 600 if (off or st == "next") else 400,
                    AMBER_D if off else (BRAND if st == "next" else MUTED), anchor="middle")
         s.link(x0 + (x1 - x0) * 3 / (n - 1) - 22, cy - 22, 44, 70, "m09")
+    with s.g("plans shortcut"):
+        y = 634
+        s.rect(PAD, y, MW - 2 * PAD, 50, fill=CARD, rx=16, stroke=LINE)
+        s.rect(PAD + 10, y + 9, 32, 32, fill=tint(YELLOW, 0.3), rx=10)
+        s.icon("route", PAD + 17, y + 16, 18, YELLOW_D, 2.2)
+        s.text(PAD + 54, y + 22, "2 active journey plans", 13, 700, INK)
+        s.text(PAD + 54, y + 39, "Kiwatule follow-ups · 7 of 12 visited", 11.5, 400, MUTED)
+        s.icon("chevright", MW - PAD - 30, y + 15, 20, FAINT)
+        s.link(PAD, y, MW - 2 * PAD, 50, "m04")
     bottom_nav(s, "Home")
     return s
 
@@ -1012,20 +999,16 @@ def m06_new_client():
     return s
 
 def m19_me():
-    s = phone("M19 Me: my performance", bg=BG, dark=True, time="12:02")
+    s = phone("M19 Me: my performance", bg=BG, time="12:02")
     with s.g("header"):
-        s.rect(0, 0, MW, 176, fill=BRAND)
-        with s.g("facets", opacity=0.08):
-            s.poly([(290, 20), (420, 220), (160, 220)], fill="#FFFFFF")
         s.circle(PAD + 32, 88, 30, fill=YELLOW)
         s.text(PAD + 32, 97, "SN", 20, 700, BRAND_D, anchor="middle")
-        s.text(PAD + 76, 82, "Sarah Namuli", 19, 700, "#FFFFFF")
-        s.text(PAD + 76, 104, "Field Sales Agent · LU-0877", 12.5, 400, "#C9C8EE")
-        s.text(PAD + 76, 124, "Supervisor: Moses Okello", 12.5, 400, "#C9C8EE")
-    status_bar(s, True, "12:02")
+        s.text(PAD + 76, 82, "Sarah Namuli", 19, 700, INK)
+        s.text(PAD + 76, 104, "Field Sales Agent · LU-0877", 12.5, 400, MUTED)
+        s.text(PAD + 76, 124, "Supervisor: Moses Okello", 12.5, 400, MUTED)
     with s.g("quarter"):
         y = 140
-        s.rect(PAD, y, MW - 2 * PAD, 116, fill=CARD, rx=16, stroke=LINE)
+        s.rect(PAD, y, MW - 2 * PAD, 116, fill=CARD, rx=20, stroke=LINE)
         s.text(PAD + 16, y + 28, "Q3 2026", 14, 700, INK)
         chip(s, MW - PAD - 16 - tw("Rank 3 of 62", 11, 600) - 34, y + 12, "Rank 3 of 62", GREEN, h=22, size=11,
              icon="trophy")

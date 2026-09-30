@@ -14,7 +14,7 @@ from xml.sax.saxutils import escape
 
 from PIL import ImageFont
 
-FONT_FAMILY = "Segoe UI"
+FONT_FAMILY = "Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
 FONT_FILES = {
     300: "C:/Windows/Fonts/segoeuisl.ttf",
     400: "C:/Windows/Fonts/segoeui.ttf",
@@ -298,6 +298,8 @@ class SVG:
         self.parts: list[str] = []
         self._ids: dict[str, int] = {}
         self.links: list[tuple] = []  # (x, y, w, h, target) hotspots for the clickable prototype
+        self.soft = False      # phone screens: white bordered cards become soft-shadow cards
+        self._shadow = False
 
     def link(self, x, y, w, h, target):
         if target:
@@ -326,11 +328,18 @@ class SVG:
         yield
         self.parts.append("</g>")
 
-    def rect(self, x, y, w, h, fill=CARD, rx=0, stroke=None, sw=1, name=None, op=None, dash=None):
+    def rect(self, x, y, w, h, fill=CARD, rx=0, stroke=None, sw=1, name=None, op=None, dash=None, shadow=None):
+        if shadow is None:
+            shadow = self.soft and fill in (CARD, "#FFFFFF") and stroke == LINE and rx and rx >= 10
+        if shadow:
+            self._shadow = True
+            stroke = None if stroke == LINE else stroke
         a = f'x="{x:.1f}" y="{y:.1f}" width="{max(w, 0):.1f}" height="{max(h, 0):.1f}"'
         if rx:
             a += f' rx="{rx}"'
         a += f' fill="{fill}"'
+        if shadow:
+            a += ' filter="url(#soft)"'
         if stroke:
             a += f' stroke="{stroke}" stroke-width="{sw}"'
         if dash:
@@ -339,8 +348,11 @@ class SVG:
             a += f' fill-opacity="{op}"'
         self.parts.append(f"<rect{self._id(name)} {a}/>")
 
-    def circle(self, cx, cy, r, fill=CARD, stroke=None, sw=1, name=None, op=None):
+    def circle(self, cx, cy, r, fill=CARD, stroke=None, sw=1, name=None, op=None, shadow=False):
         a = f'cx="{cx:.1f}" cy="{cy:.1f}" r="{r:.1f}" fill="{fill}"'
+        if shadow:
+            self._shadow = True
+            a += ' filter="url(#soft)"'
         if stroke:
             a += f' stroke="{stroke}" stroke-width="{sw}"'
         if op is not None:
@@ -420,8 +432,11 @@ class SVG:
 
     def svg(self) -> str:
         body = "\n".join(self.parts)
+        defs = ('<defs><filter id="soft" x="-20%" y="-20%" width="140%" height="170%">'
+                '<feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#1B1C3A" flood-opacity="0.07"/>'
+                '</filter></defs>\n') if self._shadow else ""
         return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{self.w}" height="{self.h}" '
-                f'viewBox="0 0 {self.w} {self.h}">\n<title>{escape(self.title)}</title>\n{body}\n</svg>\n')
+                f'viewBox="0 0 {self.w} {self.h}">\n<title>{escape(self.title)}</title>\n{defs}{body}\n</svg>\n')
 
     def save(self, path):
         with open(path, "w", encoding="utf-8") as f:
@@ -469,7 +484,7 @@ def button(s: SVG, x, y, label, kind="primary", icon=None, h=40, size=14, w=None
     else:
         bg, fg, st = CARD, INK, LINE
     with s.g(f"button {label or icon}"):
-        s.rect(x, y, bw, h, fill=bg, rx=8, stroke=st)
+        s.rect(x, y, bw, h, fill=bg, rx=12 if s.soft else 8, stroke=st, shadow=False)
         content = iw + gap + (tw(label, size, 600) if label else 0)
         cx = x + (bw - content) / 2
         if icon:
@@ -537,7 +552,8 @@ def field(s: SVG, x, y, w, label, value="", h=44, placeholder=False, icon=None, 
             s.text(x + lw + 4, y + 14, "*", 13, 600, STATUS["Rejected"], name="required")
         by = y + 22
         border = STATUS["Rejected"] if error else (BRAND if focus else "#CDD0DE")
-        s.rect(x, by, w, h, fill=CARD, rx=8, stroke=border, sw=1.5 if (error or focus) else 1, name="input")
+        s.rect(x, by, w, h, fill=CARD, rx=12 if s.soft else 8, stroke=border, sw=1.5 if (error or focus) else 1,
+               name="input", shadow=False)
         tx = x + 14
         if icon:
             s.icon(icon, x + 12, by + (h - 18) / 2, 18, MUTED)

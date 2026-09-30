@@ -1,8 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
 <title>M14 Negotiation: pick a loan product</title>
+<defs><filter id="soft" x="-20%" y="-20%" width="140%" height="170%"><feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#1B1C3A" flood-opacity="0.07"/></filter></defs>
 <rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#FFFFFF"/>
 <g id="status-bar">
-<text id="11-30" x="16.0" y="18.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#1B1C3A">11:30</text>
+<text id="11-30" x="16.0" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1B1C3A">11:30</text>
 <rect id="battery" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#1B1C3A" stroke-width="1.2"/>
 <rect x="324.0" y="10.0" width="13.0" height="6.0" rx="1" fill="#1B1C3A"/>
 <rect x="342.5" y="11.0" width="2.0" height="4.0" rx="1" fill="#1B1C3A"/>
@@ -10,7 +11,7 @@
 <rect id="signal-bar-2" x="297.0" y="11.8" width="3.0" height="5.2" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
 <rect id="signal-bar-3" x="302.0" y="9.6" width="3.0" height="7.4" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
 <rect id="signal-bar-4" x="307.0" y="7.4" width="3.0" height="9.6" rx="0.8" fill="#1B1C3A" fill-opacity="0.3"/>
-<text id="network" x="270.5" y="18.0" font-family="Segoe UI" font-size="10.5" font-weight="700" fill="#1B1C3A">4G</text>
+<text id="network" x="270.5" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#1B1C3A">4G</text>
 </g>
 <g id="app-bar">
 <rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#FFFFFF"/>
@@ -19,73 +20,73 @@
 <path d="M19 12H5" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 19l-7-7 7-7" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Loan-options" x="56.0" y="48.0" font-family="Segoe UI" font-size="16.5" font-weight="600" fill="#1B1C3A">Loan options</text>
-<text id="Negotiation-Florence-Nambi" x="56.0" y="67.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Negotiation · Florence Nambi</text>
+<text id="Loan-options" x="56.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#1B1C3A">Loan options</text>
+<text id="Negotiation-Florence-Nambi" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Negotiation · Florence Nambi</text>
 </g>
-<text id="Suggested-for-Florence" x="16.0" y="100.0" font-family="Segoe UI" font-size="14.5" font-weight="700" fill="#1B1C3A">Suggested for Florence</text>
+<text id="Suggested-for-Florence" x="16.0" y="100.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1B1C3A">Suggested for Florence</text>
 <g id="product-MSE-Business-Loan">
 <rect x="16.0" y="112.0" width="328.0" height="60.0" rx="12" fill="#F3F2F7" stroke="#2F2E80" stroke-width="2"/>
 <g id="radio">
 <circle cx="40.0" cy="142.0" r="9.0" fill="#FFFFFF" stroke="#2F2E80" stroke-width="1.8"/>
 <circle cx="40.0" cy="142.0" r="4.5" fill="#2F2E80"/>
 </g>
-<text id="MSE-Business-Loan" x="60.0" y="138.0" font-family="Segoe UI" font-size="14" font-weight="700" fill="#1B1C3A">MSE Business Loan</text>
-<text id="Best-fit-business-owner-st" x="60.0" y="157.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Best fit: business owner, steady sales</text>
+<text id="MSE-Business-Loan" x="60.0" y="138.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">MSE Business Loan</text>
+<text id="Best-fit-business-owner-st" x="60.0" y="157.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Best fit: business owner, steady sales</text>
 <g id="chip-Best-fit">
 <rect x="277.1" y="122.0" width="54.9" height="20.0" rx="10.0" fill="#E3F2EB"/>
-<text id="Best-fit" x="287.1" y="136.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#12804F">Best fit</text>
+<text id="Best-fit" x="287.1" y="136.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#12804F">Best fit</text>
 </g>
 </g>
 <g id="product-School-Fees-Loan">
-<rect x="16.0" y="182.0" width="328.0" height="60.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<rect x="16.0" y="182.0" width="328.0" height="60.0" rx="12" fill="#FFFFFF" filter="url(#soft)"/>
 <g id="radio-2">
 <circle cx="40.0" cy="212.0" r="9.0" fill="#FFFFFF" stroke="#C4C7D6" stroke-width="1.8"/>
 </g>
-<text id="School-Fees-Loan" x="60.0" y="208.0" font-family="Segoe UI" font-size="14" font-weight="700" fill="#1B1C3A">School Fees Loan</text>
-<text id="3-children-in-school" x="60.0" y="227.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">3 children in school</text>
+<text id="School-Fees-Loan" x="60.0" y="208.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">School Fees Loan</text>
+<text id="3-children-in-school" x="60.0" y="227.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">3 children in school</text>
 </g>
 <g id="calculator">
-<text id="Amount" x="16.0" y="268.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">Amount</text>
-<text id="UGX-6-000-000" x="233.1" y="268.0" font-family="Segoe UI" font-size="16" font-weight="700" fill="#1B1C3A">UGX 6,000,000</text>
+<text id="Amount" x="16.0" y="268.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Amount</text>
+<text id="UGX-6-000-000" x="233.1" y="268.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1B1C3A">UGX 6,000,000</text>
 <rect x="16.0" y="282.0" width="328.0" height="10.0" rx="5" fill="#EFF0F6"/>
 <rect x="16.0" y="282.0" width="131.2" height="10.0" rx="5" fill="#FBD405"/>
 <circle cx="147.2" cy="287.0" r="11.0" fill="#FFFFFF" stroke="#8C6A00" stroke-width="2"/>
-<text id="UGX-500K" x="16.0" y="310.0" font-family="Segoe UI" font-size="11" font-weight="400" fill="#7D8099">UGX 500K</text>
-<text id="UGX-15M" x="297.9" y="310.0" font-family="Segoe UI" font-size="11" font-weight="400" fill="#7D8099">UGX 15M</text>
-<text id="Months-to-repay" x="16.0" y="340.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">Months to repay</text>
+<text id="UGX-500K" x="16.0" y="310.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#7D8099">UGX 500K</text>
+<text id="UGX-15M" x="297.9" y="310.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#7D8099">UGX 15M</text>
+<text id="Months-to-repay" x="16.0" y="340.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Months to repay</text>
 <rect x="16.0" y="350.0" width="76.0" height="40.0" rx="8" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
-<text id="6" x="50.0" y="375.0" font-family="Segoe UI" font-size="14" font-weight="700" fill="#4B4D6B">6</text>
+<text id="6" x="50.0" y="375.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#4B4D6B">6</text>
 <rect x="100.0" y="350.0" width="76.0" height="40.0" rx="8" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
-<text id="12" x="129.9" y="375.0" font-family="Segoe UI" font-size="14" font-weight="700" fill="#4B4D6B">12</text>
+<text id="12" x="129.9" y="375.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#4B4D6B">12</text>
 <rect x="184.0" y="350.0" width="76.0" height="40.0" rx="8" fill="#FBD405"/>
-<text id="18" x="213.9" y="375.0" font-family="Segoe UI" font-size="14" font-weight="700" fill="#1F1E57">18</text>
+<text id="18" x="213.9" y="375.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1F1E57">18</text>
 <rect x="268.0" y="350.0" width="76.0" height="40.0" rx="8" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
-<text id="24" x="297.9" y="375.0" font-family="Segoe UI" font-size="14" font-weight="700" fill="#4B4D6B">24</text>
+<text id="24" x="297.9" y="375.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#4B4D6B">24</text>
 <rect x="16.0" y="404.0" width="328.0" height="76.0" rx="14" fill="#2F2E80"/>
-<text id="Monthly-instalment-indicati" x="32.0" y="430.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#C9C8EE">Monthly instalment (indicative)</text>
-<text id="UGX-432-500" x="32.0" y="460.0" font-family="Segoe UI" font-size="22" font-weight="700" fill="#FFFFFF">UGX 432,500</text>
-<text id="35-of-free-income" x="211.4" y="460.0" font-family="Segoe UI" font-size="12" font-weight="600" fill="#FBD405">35% of free income ✓</text>
+<text id="Monthly-instalment-indicati" x="32.0" y="430.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#C9C8EE">Monthly instalment (indicative)</text>
+<text id="UGX-432-500" x="32.0" y="460.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">UGX 432,500</text>
+<text id="35-of-free-income" x="211.4" y="460.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#FBD405">35% of free income ✓</text>
 </g>
-<text id="Why-this-product-for-the-su" x="16.0" y="506.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">Why this product (for the supervisor)</text>
+<text id="Why-this-product-for-the-su" x="16.0" y="506.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Why this product (for the supervisor)</text>
 <rect x="16.0" y="516.0" width="328.0" height="62.0" rx="10" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
 <g id="para-Wants-a-2nd-industri">
-<text id="line" x="28.0" y="540.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Wants a 2nd industrial machine before January;</text>
-<text id="line-2" x="28.0" y="559.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">uniform orders each term.</text>
+<text id="line" x="28.0" y="540.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Wants a 2nd industrial machine before January;</text>
+<text id="line-2" x="28.0" y="559.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">uniform orders each term.</text>
 </g>
 <g id="footer">
 <rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#FFFFFF"/>
 <line x1="0.0" y1="716.0" x2="360.0" y2="716.0" stroke="#E4E5EF" stroke-width="1"/>
 <g id="button-Back">
-<rect x="16.0" y="730.0" width="100.0" height="48.0" rx="8" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Back" x="51.2" y="759.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Back</text>
+<rect x="16.0" y="730.0" width="100.0" height="48.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<text id="Back" x="51.2" y="759.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Back</text>
 </g>
 <g id="button-Client-agrees-close">
-<rect x="128.0" y="730.0" width="216.0" height="48.0" rx="8" fill="#2F2E80"/>
+<rect x="128.0" y="730.0" width="216.0" height="48.0" rx="12" fill="#2F2E80"/>
 <g id="icon-arrowright" transform="translate(162.2 745.0) scale(0.7500)">
 <path d="M5 12h14" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 5l7 7-7 7" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Client-agrees-close" x="188.2" y="759.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#FFFFFF">Client agrees: close</text>
+<text id="Client-agrees-close" x="188.2" y="759.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Client agrees: close</text>
 </g>
 </g>
 <rect id="gesture-bar" x="126.0" y="792.0" width="108.0" height="4.0" rx="2" fill="#1B1C3A" fill-opacity="0.45"/>

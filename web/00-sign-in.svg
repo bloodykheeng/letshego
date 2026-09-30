@@ -36,22 +36,22 @@
 <path d="M101.5 83.6 L103.8 107.4 L119.7 118.7 Z" fill="#E9B800"/>
 <path d="M81.1 118.7 L103.8 107.4 L119.7 118.7 Z" fill="#FFE457"/>
 </g>
-<text id="Letshego" x="130.3" y="116.0" font-family="Segoe UI" font-size="34" font-weight="700" fill="#FFFFFF" font-style="italic">Letshego</text>
+<text id="Letshego" x="130.3" y="116.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF" font-style="italic">Letshego</text>
 </g>
-<text id="Field-Sales-Uganda" x="82.0" y="146.0" font-family="Segoe UI" font-size="16" font-weight="400" fill="#C9C8EE">Field Sales · Uganda</text>
-<text id="headline-1" x="80.0" y="290.0" font-family="Segoe UI" font-size="46" font-weight="700" fill="#FFFFFF">Every client visit,</text>
-<text id="headline-2" x="80.0" y="346.0" font-family="Segoe UI" font-size="46" font-weight="700" fill="#FBD405">every week of the quarter.</text>
+<text id="Field-Sales-Uganda" x="82.0" y="146.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#C9C8EE">Field Sales · Uganda</text>
+<text id="headline-1" x="80.0" y="290.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="46" font-weight="700" fill="#FFFFFF">Every client visit,</text>
+<text id="headline-2" x="80.0" y="346.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="46" font-weight="700" fill="#FBD405">every week of the quarter.</text>
 <g id="para-Agents-record-each-v">
-<text id="line" x="80.0" y="400.0" font-family="Segoe UI" font-size="17" font-weight="400" fill="#DCDBF6">Agents record each visit, KYC and application from the phone. Supervisors approve</text>
-<text id="line-2" x="80.0" y="428.0" font-family="Segoe UI" font-size="17" font-weight="400" fill="#DCDBF6">the same day. Management sees who is bringing in clients, and who isn't, while there</text>
-<text id="line-3" x="80.0" y="456.0" font-family="Segoe UI" font-size="17" font-weight="400" fill="#DCDBF6">is still time to act.</text>
+<text id="line" x="80.0" y="400.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="400" fill="#DCDBF6">Agents record each visit, KYC and application from the phone. Supervisors approve</text>
+<text id="line-2" x="80.0" y="428.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="400" fill="#DCDBF6">the same day. Management sees who is bringing in clients, and who isn't, while there</text>
+<text id="line-3" x="80.0" y="456.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="400" fill="#DCDBF6">is still time to act.</text>
 </g>
 <rect x="80.0" y="519.0" width="34.0" height="34.0" rx="8" fill="#FFFFFF" fill-opacity="0.12"/>
 <g id="icon-pin" transform="translate(88.0 527.0) scale(0.7500)">
 <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z" fill="none" stroke="#FBD405" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 7a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#FBD405" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="GPS-stamped-visits-and-clien" x="128.0" y="541.0" font-family="Segoe UI" font-size="16" font-weight="400" fill="#FFFFFF">GPS-stamped visits and client locations</text>
+<text id="GPS-stamped-visits-and-clien" x="128.0" y="541.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#FFFFFF">GPS-stamped visits and client locations</text>
 <rect x="80.0" y="571.0" width="34.0" height="34.0" rx="8" fill="#FFFFFF" fill-opacity="0.12"/>
 <g id="icon-idcard" transform="translate(88.0 579.0) scale(0.7500)">
 <path d="M4 5h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z" fill="none" stroke="#FBD405" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
@@ -60,59 +60,59 @@
 <path d="M14 10h5" fill="none" stroke="#FBD405" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M14 14h3" fill="none" stroke="#FBD405" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="KYC-with-NIRA-ID-photos-ear" x="128.0" y="593.0" font-family="Segoe UI" font-size="16" font-weight="400" fill="#FFFFFF">KYC with NIRA ID photos, earnings and collateral</text>
+<text id="KYC-with-NIRA-ID-photos-ear" x="128.0" y="593.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#FFFFFF">KYC with NIRA ID photos, earnings and collateral</text>
 <rect x="80.0" y="623.0" width="34.0" height="34.0" rx="8" fill="#FFFFFF" fill-opacity="0.12"/>
 <g id="icon-shield" transform="translate(88.0 631.0) scale(0.7500)">
 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" fill="none" stroke="#FBD405" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M9 12l2 2 4-4" fill="none" stroke="#FBD405" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Client-records-belong-to-Let" x="128.0" y="645.0" font-family="Segoe UI" font-size="16" font-weight="400" fill="#FFFFFF">Client records belong to Letshego, not to the agent</text>
-<text id="footer" x="80.0" y="1032.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#A9A8DC">Letshego Uganda · Improving lives · Prototype with illustrative data</text>
+<text id="Client-records-belong-to-Let" x="128.0" y="645.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#FFFFFF">Client records belong to Letshego, not to the agent</text>
+<text id="footer" x="80.0" y="1032.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#A9A8DC">Letshego Uganda · Improving lives · Prototype with illustrative data</text>
 </g>
 <g id="sign-in-form">
-<text id="Sign-in" x="1180.0" y="250.0" font-family="Segoe UI" font-size="32" font-weight="700" fill="#1B1C3A">Sign in</text>
-<text id="Letshego-staff-head-office" x="1180.0" y="282.0" font-family="Segoe UI" font-size="15" font-weight="400" fill="#7D8099">Letshego staff: head office, branches and field.</text>
+<text id="Sign-in" x="1180.0" y="250.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="32" font-weight="700" fill="#1B1C3A">Sign in</text>
+<text id="Letshego-staff-head-office" x="1180.0" y="282.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#7D8099">Letshego staff: head office, branches and field.</text>
 <g id="button-Continue-with-Microsoft-Letshego-staff">
 <rect x="1180.0" y="318.0" width="440.0" height="48.0" rx="8" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
 <g id="icon-sparkle" transform="translate(1258.3 333.0) scale(0.7500)">
 <path d="M12 3l1.9 5.8a2 2 0 0 0 1.3 1.3L21 12l-5.8 1.9a2 2 0 0 0-1.3 1.3L12 21l-1.9-5.8a2 2 0 0 0-1.3-1.3L3 12l5.8-1.9a2 2 0 0 0 1.3-1.3z" fill="none" stroke="#1B1C3A" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Continue-with-Microsoft-Let" x="1284.3" y="347.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Continue with Microsoft (Letshego staff)</text>
+<text id="Continue-with-Microsoft-Let" x="1284.3" y="347.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Continue with Microsoft (Letshego staff)</text>
 </g>
 <g id="divider">
 <line x1="1180.0" y1="400.0" x2="1370.0" y2="400.0" stroke="#E4E5EF" stroke-width="1"/>
-<text id="or" x="1393.9" y="405.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#7D8099">or</text>
+<text id="or" x="1393.9" y="405.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">or</text>
 <line x1="1430.0" y1="400.0" x2="1620.0" y2="400.0" stroke="#E4E5EF" stroke-width="1"/>
 </g>
 <g id="field-Staff-ID">
-<text id="label" x="1180.0" y="442.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">Staff ID</text>
+<text id="label" x="1180.0" y="442.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Staff ID</text>
 <rect id="input" x="1180.0" y="450.0" width="440.0" height="48.0" rx="8" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
 <g id="icon-user" transform="translate(1192.0 465.0) scale(0.7500)">
 <path d="M12 3a5 5 0 1 0 0 10 5 5 0 1 0 0-10z" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M20 21a8 8 0 0 0-16 0" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="value" x="1220.0" y="479.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#1B1C3A">LU-0142</text>
+<text id="value" x="1220.0" y="479.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#1B1C3A">LU-0142</text>
 </g>
 <g id="field-Password">
-<text id="label-2" x="1180.0" y="526.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">Password</text>
+<text id="label-2" x="1180.0" y="526.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Password</text>
 <rect id="input-2" x="1180.0" y="534.0" width="440.0" height="48.0" rx="8" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
 <g id="icon-lock" transform="translate(1192.0 549.0) scale(0.7500)">
 <path d="M5 11h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2z" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M7 11V7a5 5 0 0 1 10 0v4" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="value-2" x="1220.0" y="563.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#1B1C3A">••••••••••••</text>
+<text id="value-2" x="1220.0" y="563.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#1B1C3A">••••••••••••</text>
 </g>
-<text id="Forgot-password" x="1515.6" y="526.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#2F2E80">Forgot password?</text>
+<text id="Forgot-password" x="1515.6" y="526.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#2F2E80">Forgot password?</text>
 <g id="checkbox">
 <rect x="1180.0" y="604.0" width="18.0" height="18.0" rx="4" fill="#2F2E80"/>
 <g id="icon-check" transform="translate(1182.0 606.0) scale(0.5833)">
 <path d="M20 6L9 17l-5-5" fill="none" stroke="#FFFFFF" stroke-width="5.14" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
-<text id="Keep-me-signed-in-on-this-co" x="1208.0" y="618.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#4B4D6B">Keep me signed in on this computer</text>
+<text id="Keep-me-signed-in-on-this-co" x="1208.0" y="618.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#4B4D6B">Keep me signed in on this computer</text>
 <g id="button-Sign-in">
 <rect x="1180.0" y="646.0" width="440.0" height="48.0" rx="8" fill="#2F2E80"/>
-<text id="Sign-in-2" x="1376.7" y="675.4" font-family="Segoe UI" font-size="15" font-weight="600" fill="#FFFFFF">Sign in</text>
+<text id="Sign-in-2" x="1376.7" y="675.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">Sign in</text>
 </g>
 <g id="2FA-note">
 <rect x="1180.0" y="722.0" width="440.0" height="64.0" rx="10" fill="#F6F7FB" stroke="#E4E5EF" stroke-width="1"/>
@@ -127,13 +127,13 @@
 <path d="M21.8 16c.2-2 .131-5.354 0-6" fill="none" stroke="#2F2E80" stroke-width="1.96" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M9 6.8a6 6 0 0 1 9 5.2c0 .47 0 1.17-.02 2" fill="none" stroke="#2F2E80" stroke-width="1.96" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Two-step-verification-is-on" x="1232.0" y="748.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#1B1C3A">Two-step verification is on</text>
-<text id="We-ll-send-a-code-to-your-Le" x="1232.0" y="768.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">We'll send a code to your Letshego phone next.</text>
+<text id="Two-step-verification-is-on" x="1232.0" y="748.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#1B1C3A">Two-step verification is on</text>
+<text id="We-ll-send-a-code-to-your-Le" x="1232.0" y="768.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">We'll send a code to your Letshego phone next.</text>
 </g>
 <g id="app-link">
-<text id="Field-agent" x="1180.0" y="846.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#7D8099">Field agent?</text>
-<text id="Open-the-Android-app" x="1252.9" y="846.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#2F2E80">Open the Android app →</text>
+<text id="Field-agent" x="1180.0" y="846.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Field agent?</text>
+<text id="Open-the-Android-app" x="1252.9" y="846.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#2F2E80">Open the Android app →</text>
 </g>
 </g>
-<text id="Client-data-protected-under" x="1199.7" y="1032.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Client data protected under Uganda's Data Protection and Privacy Act, 2019</text>
+<text id="Client-data-protected-under" x="1199.7" y="1032.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Client data protected under Uganda's Data Protection and Privacy Act, 2019</text>
 </svg>

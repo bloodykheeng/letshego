@@ -36,27 +36,26 @@ SB_MUTED = "#9E9CD6"
 
 def shell(title: str, active: str, crumbs: list[str], user=MGMT, period="Quarter"):
     s = SVG(W, H, title)
-    s.rect(0, 0, W, H, fill=BG, name="page background")
+    s.soft = True
+    s.rect(0, 0, W, H, fill="#F6F7F9", name="page background")
 
     with s.g("sidebar"):
-        s.rect(0, 0, SB, H, fill=BRAND, name="sidebar bg")
-        # faint triangle watermark
-        with s.g("sidebar watermark", opacity=0.07):
-            s.poly([(SB - 20, H - 420), (SB + 120, H - 150), (SB - 170, H - 150)], fill="#FFFFFF")
-        wordmark(s, 26, 50, 23, "#FFFFFF")
-        s.text(26, 72, "Field Sales · Uganda", 12, 400, SB_MUTED, name="product sub")
+        s.rect(0, 0, SB, H, fill=CARD, name="sidebar bg")
+        s.line(SB, 0, SB, H, LINE)
+        wordmark(s, 26, 50, 23, INK)
+        s.text(26, 72, "Field Sales · Uganda", 12, 400, MUTED, name="product sub")
         y = 110
         for group, items in NAV:
-            s.text(28, y, group, 10.5, 600, SB_MUTED, spacing=1.2, name=f"nav group {group}")
+            s.text(28, y, group, 10.5, 600, FAINT, spacing=1.2, name=f"nav group {group}")
             y += 14
             for label, ic in items:
                 on = label == active
                 with s.g(f"nav {label}"):
                     if on:
-                        s.rect(14, y, SB - 28, 40, fill="#FFFFFF", op=0.12, rx=8, name="active bg")
-                        s.rect(14, y + 10, 3, 20, fill=YELLOW, rx=1.5, name="active bar")
-                    s.icon(ic, 30, y + 10, 20, YELLOW if on else SB_TEXT, 1.8)
-                    s.text(62, y + 25, label, 14, 600 if on else 400, "#FFFFFF" if on else SB_TEXT, name="label")
+                        s.rect(14, y, SB - 28, 40, fill=tint(BRAND, 0.08), rx=10, name="active bg", shadow=False)
+                    s.icon(ic, 30, y + 10, 20, BRAND if on else "#8A8DA6", 1.9)
+                    s.text(62, y + 25, label, 14, 600 if on else 400, BRAND_D if on else INK2,
+                           name="label")
                     if label in BADGES:
                         b, col = BADGES[label]
                         bw = tw(b, 11, 700) + 14
@@ -67,24 +66,24 @@ def shell(title: str, active: str, crumbs: list[str], user=MGMT, period="Quarter
                 y += 42
             y += 12
         with s.g("field app card"):
-            s.rect(16, H - 180, SB - 32, 88, fill="#FFFFFF", op=0.08, rx=10)
-            s.rect(30, H - 166, 30, 30, fill=YELLOW, rx=8)
+            s.rect(16, H - 180, SB - 32, 88, fill=tint(YELLOW, 0.2), rx=14, name="app card", shadow=False)
+            s.rect(30, H - 166, 30, 30, fill=YELLOW, rx=9)
             s.icon("phone", 36, H - 160, 18, BRAND_D, 2)
-            s.text(70, H - 146, "Agent field app", 13, 600, "#FFFFFF")
-            s.text(30, H - 120, "Android · works offline · GPS", 12, 400, SB_TEXT)
-            s.text(30, H - 102, "NIRA ID capture · open it →", 12, 400, SB_TEXT)
+            s.text(70, H - 146, "Agent field app", 13, 700, INK)
+            s.text(30, H - 120, "Android · works offline · GPS", 12, 400, INK2)
+            s.text(30, H - 102, "NIRA ID capture · open it →", 12, 600, YELLOW_D)
         s.link(16, H - 180, SB - 32, 88, "m03")
         # demo shortcut: click the name to switch between management and supervisor views
         s.link(0, H - 76, SB - 56, 76, "w07" if user == MGMT else "w01")
         s.link(SB - 52, H - 60, 40, 44, "w00")
         with s.g("sidebar user"):
-            s.rect(0, H - 76, SB, 76, fill=BRAND_D, name="user bg")
+            s.line(16, H - 76, SB - 16, H - 76, LINE)
             s.circle(44, H - 38, 18, fill=YELLOW)
             s.text(44, H - 32, user[2], 14, 700, BRAND_D, anchor="middle")
-            s.text(72, H - 42, user[0], 14, 600, "#FFFFFF")
-            s.text(72, H - 23, user[1], 11.5, 400, SB_MUTED, maxw=SB - 128)
-            s.rect(SB - 50, H - 58, 38, 38, fill="#FFFFFF", op=0.1, rx=8, name="sign out button")
-            s.icon("logout", SB - 41, H - 49, 20, "#FFB4B4", 2)
+            s.text(72, H - 42, user[0], 14, 600, INK)
+            s.text(72, H - 23, user[1], 11.5, 400, MUTED, maxw=SB - 128)
+            s.rect(SB - 50, H - 58, 38, 38, fill="#FDECEC", rx=10, name="sign out button", shadow=False)
+            s.icon("logout", SB - 41, H - 49, 20, RED, 2)
 
     with s.g("top bar"):
         s.rect(SB, 0, W - SB, TOP, fill=CARD, name="top bar bg")

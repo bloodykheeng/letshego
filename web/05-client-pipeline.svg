@@ -1,148 +1,146 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
 <title>05 Client pipeline</title>
-<rect id="page-background" x="0.0" y="0.0" width="1920.0" height="1080.0" fill="#F5F6FA"/>
+<defs><filter id="soft" x="-20%" y="-20%" width="140%" height="170%"><feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#1B1C3A" flood-opacity="0.07"/></filter></defs>
+<rect id="page-background" x="0.0" y="0.0" width="1920.0" height="1080.0" fill="#F6F7F9"/>
 <g id="sidebar">
-<rect id="sidebar-bg" x="0.0" y="0.0" width="264.0" height="1080.0" fill="#2F2E80"/>
-<g id="sidebar-watermark" opacity="0.07">
-<path d="M244.0 660.0 L384.0 930.0 L94.0 930.0 Z" fill="#FFFFFF"/>
-</g>
+<rect id="sidebar-bg" x="0.0" y="0.0" width="264.0" height="1080.0" fill="#FFFFFF"/>
+<line x1="264.0" y1="0.0" x2="264.0" y2="1080.0" stroke="#E4E5EF" stroke-width="1"/>
 <g id="letshego-wordmark">
 <g id="letshego-triangle">
 <path d="M40.6 28.1 L26.8 51.8 L42.1 44.2 Z" fill="#FBD405"/>
 <path d="M40.6 28.1 L42.1 44.2 L52.8 51.8 Z" fill="#E9B800"/>
 <path d="M26.8 51.8 L42.1 44.2 L52.8 51.8 Z" fill="#FFE457"/>
 </g>
-<text id="Letshego" x="60.0" y="50.0" font-family="Segoe UI" font-size="23" font-weight="700" fill="#FFFFFF" font-style="italic">Letshego</text>
+<text id="Letshego" x="60.0" y="50.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="23" font-weight="700" fill="#1B1C3A" font-style="italic">Letshego</text>
 </g>
-<text id="product-sub" x="26.0" y="72.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#9E9CD6">Field Sales · Uganda</text>
-<text id="nav-group-SALES" x="28.0" y="110.0" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#9E9CD6" letter-spacing="1.2">SALES</text>
+<text id="product-sub" x="26.0" y="72.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Field Sales · Uganda</text>
+<text id="nav-group-SALES" x="28.0" y="110.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#AAACC0" letter-spacing="1.2">SALES</text>
 <g id="nav-Overview">
 <g id="icon-grid" transform="translate(30.0 134.0) scale(0.8333)">
-<path d="M4 3h6a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 3h6a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 12h6a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1z" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M4 16h6a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1z" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4 3h6a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 3h6a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 12h6a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1z" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4 16h6a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1z" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="label" x="62.0" y="149.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#D9D8F3">Overview</text>
+<text id="label" x="62.0" y="149.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#4B4D6B">Overview</text>
 </g>
 <g id="nav-Agents">
 <g id="icon-users" transform="translate(30.0 176.0) scale(0.8333)">
-<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M9 3a4 4 0 1 0 0 8 4 4 0 1 0 0-8z" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M22 21v-2a4 4 0 0 0-3-3.87" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M16 3.13a4 4 0 0 1 0 7.75" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 3a4 4 0 1 0 0 8 4 4 0 1 0 0-8z" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 21v-2a4 4 0 0 0-3-3.87" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 3.13a4 4 0 0 1 0 7.75" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="label-2" x="62.0" y="191.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#D9D8F3">Agents</text>
+<text id="label-2" x="62.0" y="191.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#4B4D6B">Agents</text>
 <rect id="badge" x="213.7" y="177.0" width="20.3" height="18.0" rx="9" fill="#D14343"/>
-<text id="badge-n" x="220.7" y="190.0" font-family="Segoe UI" font-size="11" font-weight="700" fill="#FFFFFF">6</text>
+<text id="badge-n" x="220.7" y="190.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">6</text>
 </g>
 <g id="nav-Field-map">
 <g id="icon-map" transform="translate(30.0 218.0) scale(0.8333)">
-<path d="M14.1 5.55a2 2 0 0 0 1.8 0l3.65-1.83A1 1 0 0 1 21 4.62v12.76a1 1 0 0 1-.55.9l-4.55 2.27a2 2 0 0 1-1.8 0l-4.2-2.1a2 2 0 0 0-1.8 0l-3.65 1.83A1 1 0 0 1 3 19.38V6.62a1 1 0 0 1 .55-.9l4.55-2.27a2 2 0 0 1 1.8 0z" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M15 5.76v15" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M9 3.24v15" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.1 5.55a2 2 0 0 0 1.8 0l3.65-1.83A1 1 0 0 1 21 4.62v12.76a1 1 0 0 1-.55.9l-4.55 2.27a2 2 0 0 1-1.8 0l-4.2-2.1a2 2 0 0 0-1.8 0l-3.65 1.83A1 1 0 0 1 3 19.38V6.62a1 1 0 0 1 .55-.9l4.55-2.27a2 2 0 0 1 1.8 0z" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 5.76v15" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 3.24v15" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="label-3" x="62.0" y="233.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#D9D8F3">Field map</text>
+<text id="label-3" x="62.0" y="233.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#4B4D6B">Field map</text>
 </g>
 <g id="nav-Client-pipeline">
-<rect id="active-bg" x="14.0" y="250.0" width="236.0" height="40.0" rx="8" fill="#FFFFFF" fill-opacity="0.12"/>
-<rect id="active-bar" x="14.0" y="260.0" width="3.0" height="20.0" rx="1.5" fill="#FBD405"/>
+<rect id="active-bg" x="14.0" y="250.0" width="236.0" height="40.0" rx="10" fill="#EEEEF5"/>
 <g id="icon-workflow" transform="translate(30.0 260.0) scale(0.8333)">
-<path d="M4 3h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" fill="none" stroke="#FBD405" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M16 15h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1z" fill="none" stroke="#FBD405" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M7 9v4a2 2 0 0 0 2 2h6" fill="none" stroke="#FBD405" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4 3h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" fill="none" stroke="#2F2E80" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 15h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1z" fill="none" stroke="#2F2E80" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7 9v4a2 2 0 0 0 2 2h6" fill="none" stroke="#2F2E80" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="label-4" x="62.0" y="275.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#FFFFFF">Client pipeline</text>
+<text id="label-4" x="62.0" y="275.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1F1E57">Client pipeline</text>
 </g>
-<text id="nav-group-APPLICATIONS" x="28.0" y="304.0" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#9E9CD6" letter-spacing="1.2">APPLICATIONS</text>
+<text id="nav-group-APPLICATIONS" x="28.0" y="304.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#AAACC0" letter-spacing="1.2">APPLICATIONS</text>
 <g id="nav-Approvals">
 <g id="icon-listcheck" transform="translate(30.0 328.0) scale(0.8333)">
-<path d="M3 17l2 2 4-4" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M3 7l2 2 4-4" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M13 6h8" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M13 12h8" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M13 18h8" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 17l2 2 4-4" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 7l2 2 4-4" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 6h8" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 12h8" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 18h8" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="label-5" x="62.0" y="343.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#D9D8F3">Approvals</text>
+<text id="label-5" x="62.0" y="343.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#4B4D6B">Approvals</text>
 <rect id="badge-2" x="207.3" y="329.0" width="26.7" height="18.0" rx="9" fill="#FBD405"/>
-<text id="badge-n-2" x="214.3" y="342.0" font-family="Segoe UI" font-size="11" font-weight="700" fill="#1F1E57">14</text>
+<text id="badge-n-2" x="214.3" y="342.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="700" fill="#1F1E57">14</text>
 </g>
 <g id="nav-Why-why-not">
 <g id="icon-message" transform="translate(30.0 370.0) scale(0.8333)">
-<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="label-6" x="62.0" y="385.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#D9D8F3">Why &amp; why not</text>
+<text id="label-6" x="62.0" y="385.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#4B4D6B">Why &amp; why not</text>
 </g>
-<text id="nav-group-PLANNING" x="28.0" y="414.0" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#9E9CD6" letter-spacing="1.2">PLANNING</text>
+<text id="nav-group-PLANNING" x="28.0" y="414.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#AAACC0" letter-spacing="1.2">PLANNING</text>
 <g id="nav-Journey-plans">
 <g id="icon-route" transform="translate(30.0 438.0) scale(0.8333)">
-<path d="M6 16a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18 2a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6 16a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 2a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="label-7" x="62.0" y="453.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#D9D8F3">Journey plans</text>
+<text id="label-7" x="62.0" y="453.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#4B4D6B">Journey plans</text>
 </g>
 <g id="nav-Agent-handover">
 <g id="icon-swap" transform="translate(30.0 480.0) scale(0.8333)">
-<path d="M16 3l4 4-4 4" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M20 7H4" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M8 21l-4-4 4-4" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M4 17h16" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 3l4 4-4 4" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 7H4" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 21l-4-4 4-4" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4 17h16" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="label-8" x="62.0" y="495.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#D9D8F3">Agent handover</text>
+<text id="label-8" x="62.0" y="495.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#4B4D6B">Agent handover</text>
 </g>
-<text id="nav-group-ADMIN" x="28.0" y="524.0" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#9E9CD6" letter-spacing="1.2">ADMIN</text>
+<text id="nav-group-ADMIN" x="28.0" y="524.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#AAACC0" letter-spacing="1.2">ADMIN</text>
 <g id="nav-Users-territories">
 <g id="icon-settings" transform="translate(30.0 548.0) scale(0.8333)">
-<path d="M12 9a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 9a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="label-9" x="62.0" y="563.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#D9D8F3">Users &amp; territories</text>
+<text id="label-9" x="62.0" y="563.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#4B4D6B">Users &amp; territories</text>
 </g>
 <g id="nav-Reports-audit">
 <g id="icon-history" transform="translate(30.0 590.0) scale(0.8333)">
-<path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M3 3v5h5" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12 7v5l4 2" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 3v5h5" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 7v5l4 2" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="label-10" x="62.0" y="605.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#D9D8F3">Reports &amp; audit</text>
+<text id="label-10" x="62.0" y="605.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#4B4D6B">Reports &amp; audit</text>
 </g>
 <g id="field-app-card">
-<rect x="16.0" y="900.0" width="232.0" height="88.0" rx="10" fill="#FFFFFF" fill-opacity="0.08"/>
-<rect x="30.0" y="914.0" width="30.0" height="30.0" rx="8" fill="#FBD405"/>
+<rect id="app-card" x="16.0" y="900.0" width="232.0" height="88.0" rx="14" fill="#FEF6CD"/>
+<rect x="30.0" y="914.0" width="30.0" height="30.0" rx="9" fill="#FBD405"/>
 <g id="icon-phone" transform="translate(36.0 920.0) scale(0.7500)">
 <path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#1F1E57" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 18h.01" fill="none" stroke="#1F1E57" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Agent-field-app" x="70.0" y="934.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#FFFFFF">Agent field app</text>
-<text id="Android-works-offline-GP" x="30.0" y="960.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#D9D8F3">Android · works offline · GPS</text>
-<text id="NIRA-ID-capture-open-it" x="30.0" y="978.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#D9D8F3">NIRA ID capture · open it →</text>
+<text id="Agent-field-app" x="70.0" y="934.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1B1C3A">Agent field app</text>
+<text id="Android-works-offline-GP" x="30.0" y="960.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Android · works offline · GPS</text>
+<text id="NIRA-ID-capture-open-it" x="30.0" y="978.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#8C6A00">NIRA ID capture · open it →</text>
 </g>
 <g id="sidebar-user">
-<rect id="user-bg" x="0.0" y="1004.0" width="264.0" height="76.0" fill="#1F1E57"/>
+<line x1="16.0" y1="1004.0" x2="248.0" y2="1004.0" stroke="#E4E5EF" stroke-width="1"/>
 <circle cx="44.0" cy="1042.0" r="18.0" fill="#FBD405"/>
-<text id="PN" x="34.2" y="1048.0" font-family="Segoe UI" font-size="14" font-weight="700" fill="#1F1E57">PN</text>
-<text id="Patricia-Nankya" x="72.0" y="1038.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#FFFFFF">Patricia Nankya</text>
-<text id="Head-of-Sales" x="72.0" y="1057.0" font-family="Segoe UI" font-size="11.5" font-weight="400" fill="#9E9CD6">Head of Sales</text>
-<rect id="sign-out-button" x="214.0" y="1022.0" width="38.0" height="38.0" rx="8" fill="#FFFFFF" fill-opacity="0.1"/>
+<text id="PN" x="34.2" y="1048.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1F1E57">PN</text>
+<text id="Patricia-Nankya" x="72.0" y="1038.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Patricia Nankya</text>
+<text id="Head-of-Sales" x="72.0" y="1057.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">Head of Sales</text>
+<rect id="sign-out-button" x="214.0" y="1022.0" width="38.0" height="38.0" rx="10" fill="#FDECEC"/>
 <g id="icon-logout" transform="translate(223.0 1031.0) scale(0.8333)">
-<path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" fill="none" stroke="#FFB4B4" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M16 17l5-5-5-5" fill="none" stroke="#FFB4B4" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M21 12H9" fill="none" stroke="#FFB4B4" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" fill="none" stroke="#D14343" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 17l5-5-5-5" fill="none" stroke="#D14343" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21 12H9" fill="none" stroke="#D14343" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
 </g>
 <g id="top-bar">
 <rect id="top-bar-bg" x="264.0" y="0.0" width="1656.0" height="68.0" fill="#FFFFFF"/>
 <line x1="264.0" y1="68.0" x2="1920.0" y2="68.0" stroke="#E4E5EF" stroke-width="1"/>
-<text id="crumb-Sales" x="296.0" y="40.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#7D8099">Sales</text>
+<text id="crumb-Sales" x="296.0" y="40.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#7D8099">Sales</text>
 <g id="icon-chevright" transform="translate(333.2 29.0) scale(0.6667)">
 <path d="M9 18l6-6-6-6" fill="none" stroke="#AAACC0" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="crumb-Client-pipeline" x="355.2" y="40.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Client pipeline</text>
+<text id="crumb-Client-pipeline" x="355.2" y="40.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Client pipeline</text>
 <g id="avatar-PN">
 <circle cx="1870.0" cy="34.0" r="18.0" fill="#DEDEEB"/>
-<text id="PN-2" x="1860.2" y="40.5" font-family="Segoe UI" font-size="14.4" font-weight="600" fill="#2A2973">PN</text>
+<text id="PN-2" x="1860.2" y="40.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.4" font-weight="600" fill="#2A2973">PN</text>
 </g>
 <line x1="1836.0" y1="20.0" x2="1836.0" y2="48.0" stroke="#E4E5EF" stroke-width="1"/>
 <g id="notifications">
@@ -151,7 +149,7 @@
 <path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" fill="none" stroke="#4B4D6B" stroke-width="1.96" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <circle cx="1811.0" cy="25.0" r="7.0" fill="#D14343"/>
-<text id="5" x="1808.1" y="29.0" font-family="Segoe UI" font-size="10" font-weight="700" fill="#FFFFFF">5</text>
+<text id="5" x="1808.1" y="29.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">5</text>
 </g>
 <g id="search">
 <rect x="1502.0" y="16.0" width="266.0" height="36.0" rx="8" fill="#F4F5FA" stroke="#E4E5EF" stroke-width="1"/>
@@ -159,15 +157,15 @@
 <path d="M11 3a8 8 0 1 0 0 16 8 8 0 1 0 0-16z" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M21 21l-4.3-4.3" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Search-clients-agents-app" x="1542.0" y="39.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#AAACC0">Search clients, agents, app IDs…</text>
+<text id="Search-clients-agents-app" x="1542.0" y="39.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#AAACC0">Search clients, agents, app IDs…</text>
 </g>
 <g id="segmented-control">
 <rect x="1235.8" y="16.0" width="246.2" height="36.0" rx="8" fill="#F1F2F8" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Day" x="1253.8" y="38.7" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">Day</text>
-<text id="Week" x="1304.6" y="38.7" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">Week</text>
+<text id="Day" x="1253.8" y="38.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Day</text>
+<text id="Week" x="1304.6" y="38.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Week</text>
 <rect x="1351.4" y="20.0" width="73.7" height="28.0" rx="6" fill="#2F2E80"/>
-<text id="Quarter" x="1365.4" y="38.7" font-family="Segoe UI" font-size="13" font-weight="600" fill="#FFFFFF">Quarter</text>
-<text id="Year" x="1439.1" y="38.7" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">Year</text>
+<text id="Quarter" x="1365.4" y="38.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Quarter</text>
+<text id="Year" x="1439.1" y="38.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Year</text>
 </g>
 <g id="date-range">
 <rect x="1035.6" y="16.0" width="188.2" height="36.0" rx="8" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
@@ -177,441 +175,441 @@
 <path d="M8 2v4" fill="none" stroke="#2F2E80" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M3 10h18" fill="none" stroke="#2F2E80" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Q3-2026-1-Jul-30-Sep" x="1073.6" y="39.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#1B1C3A">Q3 2026 · 1 Jul – 30 Sep</text>
+<text id="Q3-2026-1-Jul-30-Sep" x="1073.6" y="39.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#1B1C3A">Q3 2026 · 1 Jul – 30 Sep</text>
 </g>
 </g>
-<text id="page-title" x="296.0" y="126.0" font-family="Segoe UI" font-size="26" font-weight="700" fill="#1B1C3A">Client pipeline</text>
-<text id="page-subtitle" x="296.0" y="152.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#7D8099">1,716 open clients, first visit to approval · every record belongs to Letshego</text>
+<text id="page-title" x="296.0" y="126.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="700" fill="#1B1C3A">Client pipeline</text>
+<text id="page-subtitle" x="296.0" y="152.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#7D8099">1,716 open clients, first visit to approval · every record belongs to Letshego</text>
 <g id="header-actions">
 <g id="button-Add-client">
-<rect x="1765.3" y="108.0" width="122.7" height="40.0" rx="8" fill="#2F2E80"/>
+<rect x="1765.3" y="108.0" width="122.7" height="40.0" rx="12" fill="#2F2E80"/>
 <g id="icon-userplus" transform="translate(1781.3 119.0) scale(0.7500)">
 <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M9 3a4 4 0 1 0 0 8 4 4 0 1 0 0-8z" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M19 8v6" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M22 11h-6" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Add-client" x="1807.3" y="133.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#FFFFFF">Add client</text>
+<text id="Add-client" x="1807.3" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Add client</text>
 </g>
 <g id="segmented-control-2">
 <rect x="1579.9" y="109.0" width="173.5" height="38.0" rx="8" fill="#F1F2F8" stroke="#E4E5EF" stroke-width="1"/>
 <rect x="1583.9" y="113.0" width="62.8" height="30.0" rx="6" fill="#2F2E80"/>
-<text id="Board" x="1597.9" y="132.7" font-family="Segoe UI" font-size="13" font-weight="600" fill="#FFFFFF">Board</text>
-<text id="List" x="1660.6" y="132.7" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">List</text>
-<text id="Map" x="1708.7" y="132.7" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">Map</text>
+<text id="Board" x="1597.9" y="132.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Board</text>
+<text id="List" x="1660.6" y="132.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">List</text>
+<text id="Map" x="1708.7" y="132.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Map</text>
 </g>
 <g id="filter-Agent">
 <rect x="1417.9" y="109.0" width="150.0" height="38.0" rx="8" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Agent" x="1431.9" y="133.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#7D8099">Agent:</text>
-<text id="All" x="1473.3" y="133.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#1B1C3A">All</text>
+<text id="Agent" x="1431.9" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Agent:</text>
+<text id="All" x="1473.3" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#1B1C3A">All</text>
 <g id="icon-chevdown" transform="translate(1539.9 120.0) scale(0.6667)">
 <path d="M6 9l6 6 6-6" fill="none" stroke="#7D8099" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
 <g id="filter-Product">
 <rect x="1235.9" y="109.0" width="170.0" height="38.0" rx="8" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Product" x="1249.9" y="133.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#7D8099">Product:</text>
-<text id="All-2" x="1301.5" y="133.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#1B1C3A">All</text>
+<text id="Product" x="1249.9" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Product:</text>
+<text id="All-2" x="1301.5" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#1B1C3A">All</text>
 <g id="icon-chevdown-2" transform="translate(1377.9 120.0) scale(0.6667)">
 <path d="M6 9l6 6 6-6" fill="none" stroke="#7D8099" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
 <g id="filter-Branch">
 <rect x="1013.9" y="109.0" width="210.0" height="38.0" rx="8" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Branch" x="1027.9" y="133.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#7D8099">Branch:</text>
-<text id="Kampala-East" x="1074.0" y="133.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#1B1C3A">Kampala East</text>
+<text id="Branch" x="1027.9" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Branch:</text>
+<text id="Kampala-East" x="1074.0" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#1B1C3A">Kampala East</text>
 <g id="icon-chevdown-3" transform="translate(1195.9 120.0) scale(0.6667)">
 <path d="M6 9l6 6 6-6" fill="none" stroke="#7D8099" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
 </g>
 <g id="lost-summary">
-<rect x="296.0" y="168.0" width="1592.0" height="40.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<rect x="296.0" y="168.0" width="1592.0" height="40.0" rx="10" fill="#FFFFFF" filter="url(#soft)"/>
 <g id="icon-info" transform="translate(310.0 178.0) scale(0.8333)">
 <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z" fill="none" stroke="#2F2E80" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 16v-4" fill="none" stroke="#2F2E80" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 8h.01" fill="none" stroke="#2F2E80" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Closed-without-a-loan-this-q" x="340.0" y="193.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#1B1C3A">Closed without a loan this quarter:</text>
-<text id="Not-interested-at-first-visi" x="555.8" y="193.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#4B4D6B">Not interested at first visit </text>
-<text id="5-126" x="707.9" y="193.0" font-family="Segoe UI" font-size="13" font-weight="700" fill="#D14343">5,126</text>
-<text id="Dropped-after-KYC" x="767.3" y="193.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#4B4D6B">Dropped after KYC </text>
-<text id="486" x="877.9" y="193.0" font-family="Segoe UI" font-size="13" font-weight="700" fill="#9A6300">486</text>
-<text id="Declined-to-apply" x="926.4" y="193.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#4B4D6B">Declined to apply </text>
-<text id="367" x="1030.4" y="193.0" font-family="Segoe UI" font-size="13" font-weight="700" fill="#9A6300">367</text>
-<text id="See-the-reasons" x="1765.1" y="193.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#2F2E80">See the reasons →</text>
+<text id="Closed-without-a-loan-this-q" x="340.0" y="193.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#1B1C3A">Closed without a loan this quarter:</text>
+<text id="Not-interested-at-first-visi" x="555.8" y="193.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#4B4D6B">Not interested at first visit </text>
+<text id="5-126" x="707.9" y="193.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#D14343">5,126</text>
+<text id="Dropped-after-KYC" x="767.3" y="193.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#4B4D6B">Dropped after KYC </text>
+<text id="486" x="877.9" y="193.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#9A6300">486</text>
+<text id="Declined-to-apply" x="926.4" y="193.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#4B4D6B">Declined to apply </text>
+<text id="367" x="1030.4" y="193.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#9A6300">367</text>
+<text id="See-the-reasons" x="1765.1" y="193.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#2F2E80">See the reasons →</text>
 </g>
 <g id="column-Interested">
 <rect id="column-bg" x="296.0" y="224.0" width="253.7" height="828.0" rx="12" fill="#ECEDF4"/>
 <rect x="296.0" y="224.0" width="253.7" height="4.0" rx="2" fill="#2F6FDB"/>
-<text id="Interested" x="312.0" y="256.0" font-family="Segoe UI" font-size="14" font-weight="700" fill="#1B1C3A">Interested</text>
-<text id="1-204" x="500.2" y="256.0" font-family="Segoe UI" font-size="13" font-weight="700" fill="#2F6FDB">1,204</text>
-<text id="UGX-6-8B" x="312.0" y="276.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">UGX 6.8B</text>
+<text id="Interested" x="312.0" y="256.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Interested</text>
+<text id="1-204" x="500.2" y="256.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#2F6FDB">1,204</text>
+<text id="UGX-6-8B" x="312.0" y="276.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">UGX 6.8B</text>
 <g id="card-Charles-Ssempijja">
-<rect x="306.0" y="292.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Charles-Ssempijja" x="320.0" y="318.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Charles Ssempijja</text>
+<rect x="306.0" y="292.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" filter="url(#soft)"/>
+<text id="Charles-Ssempijja" x="320.0" y="318.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Charles Ssempijja</text>
 <g id="chip-MSE-Business-Loan">
 <rect x="320.0" y="328.0" width="110.0" height="20.0" rx="10.0" fill="#E2F1F3"/>
-<text id="MSE-Business-Loan" x="330.0" y="341.8" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#0C7B87">MSE Business Loan</text>
+<text id="MSE-Business-Loan" x="330.0" y="341.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#0C7B87">MSE Business Loan</text>
 </g>
-<text id="UGX-3-000-000" x="320.0" y="368.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 3,000,000</text>
-<text id="1-day" x="496.9" y="368.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">1 day</text>
+<text id="UGX-3-000-000" x="320.0" y="368.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">UGX 3,000,000</text>
+<text id="1-day" x="496.9" y="368.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">1 day</text>
 <line x1="320.0" y1="382.0" x2="525.7" y2="382.0" stroke="#EFF0F6" stroke-width="1"/>
 <g id="avatar-SN">
 <circle cx="332.0" cy="401.0" r="11.0" fill="#DEDEEB"/>
-<text id="SN" x="326.3" y="405.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">SN</text>
+<text id="SN" x="326.3" y="405.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="8.8" font-weight="600" fill="#2A2973">SN</text>
 </g>
-<text id="Sarah-Namuli" x="350.0" y="405.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Sarah Namuli</text>
+<text id="Sarah-Namuli" x="350.0" y="405.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Sarah Namuli</text>
 </g>
 <g id="card-Aisha-Nalubega">
-<rect x="306.0" y="430.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Aisha-Nalubega" x="320.0" y="456.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Aisha Nalubega</text>
+<rect x="306.0" y="430.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" filter="url(#soft)"/>
+<text id="Aisha-Nalubega" x="320.0" y="456.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Aisha Nalubega</text>
 <g id="chip-School-Fees-Loan">
 <rect x="320.0" y="466.0" width="101.7" height="20.0" rx="10.0" fill="#EEEBFA"/>
-<text id="School-Fees-Loan" x="330.0" y="479.8" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#634CBC">School Fees Loan</text>
+<text id="School-Fees-Loan" x="330.0" y="479.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#634CBC">School Fees Loan</text>
 </g>
-<text id="UGX-2-500-000" x="320.0" y="506.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 2,500,000</text>
-<text id="2-days" x="491.8" y="506.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">2 days</text>
+<text id="UGX-2-500-000" x="320.0" y="506.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">UGX 2,500,000</text>
+<text id="2-days" x="491.8" y="506.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">2 days</text>
 <line x1="320.0" y1="520.0" x2="525.7" y2="520.0" stroke="#EFF0F6" stroke-width="1"/>
 <g id="avatar-SN-2">
 <circle cx="332.0" cy="539.0" r="11.0" fill="#DEDEEB"/>
-<text id="SN-2" x="326.3" y="543.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">SN</text>
+<text id="SN-2" x="326.3" y="543.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="8.8" font-weight="600" fill="#2A2973">SN</text>
 </g>
-<text id="Sarah-Namuli-2" x="350.0" y="543.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Sarah Namuli</text>
+<text id="Sarah-Namuli-2" x="350.0" y="543.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Sarah Namuli</text>
 </g>
 <g id="card-Moses-Opolot">
-<rect x="306.0" y="568.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Moses-Opolot" x="320.0" y="594.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Moses Opolot</text>
+<rect x="306.0" y="568.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" filter="url(#soft)"/>
+<text id="Moses-Opolot" x="320.0" y="594.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Moses Opolot</text>
 <g id="chip-Civil-Servant-Loan">
 <rect x="320.0" y="604.0" width="104.9" height="20.0" rx="10.0" fill="#E6E6F0"/>
-<text id="Civil-Servant-Loan" x="330.0" y="617.8" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#292871">Civil Servant Loan</text>
+<text id="Civil-Servant-Loan" x="330.0" y="617.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#292871">Civil Servant Loan</text>
 </g>
-<text id="UGX-8-000-000" x="320.0" y="644.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 8,000,000</text>
-<text id="6-days" x="491.8" y="644.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">6 days</text>
+<text id="UGX-8-000-000" x="320.0" y="644.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">UGX 8,000,000</text>
+<text id="6-days" x="491.8" y="644.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">6 days</text>
 <line x1="320.0" y1="658.0" x2="525.7" y2="658.0" stroke="#EFF0F6" stroke-width="1"/>
 <g id="avatar-PK">
 <circle cx="332.0" cy="677.0" r="11.0" fill="#DEDEEB"/>
-<text id="PK" x="326.8" y="681.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">PK</text>
+<text id="PK" x="326.8" y="681.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="8.8" font-weight="600" fill="#2A2973">PK</text>
 </g>
-<text id="Peter-Kato" x="350.0" y="681.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Peter Kato</text>
-<text id="Follow-up-due" x="453.5" y="681.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#2F6FDB">Follow-up due</text>
+<text id="Peter-Kato" x="350.0" y="681.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Peter Kato</text>
+<text id="Follow-up-due" x="453.5" y="681.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#2F6FDB">Follow-up due</text>
 </g>
 <g id="card-Doreen-Atuhaire">
-<rect x="306.0" y="706.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Doreen-Atuhaire" x="320.0" y="732.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Doreen Atuhaire</text>
+<rect x="306.0" y="706.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" filter="url(#soft)"/>
+<text id="Doreen-Atuhaire" x="320.0" y="732.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Doreen Atuhaire</text>
 <g id="chip-Home-Improvement-Loan">
 <rect x="320.0" y="742.0" width="141.9" height="20.0" rx="10.0" fill="#FCF3E2"/>
-<text id="Home-Improvement-Loan" x="330.0" y="755.8" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#C8880A">Home Improvement Loan</text>
+<text id="Home-Improvement-Loan" x="330.0" y="755.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#C8880A">Home Improvement Loan</text>
 </g>
-<text id="UGX-5-000-000" x="320.0" y="782.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 5,000,000</text>
-<text id="9-days" x="491.8" y="782.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">9 days</text>
+<text id="UGX-5-000-000" x="320.0" y="782.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">UGX 5,000,000</text>
+<text id="9-days" x="491.8" y="782.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">9 days</text>
 <line x1="320.0" y1="796.0" x2="525.7" y2="796.0" stroke="#EFF0F6" stroke-width="1"/>
 <g id="avatar-RA">
 <circle cx="332.0" cy="815.0" r="11.0" fill="#DEDEEB"/>
-<text id="RA" x="326.3" y="819.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">RA</text>
+<text id="RA" x="326.3" y="819.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="8.8" font-weight="600" fill="#2A2973">RA</text>
 </g>
-<text id="Ruth-Achieng" x="350.0" y="819.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Ruth Achieng</text>
-<text id="Stuck-7-days" x="456.4" y="819.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#D14343">Stuck 7+ days</text>
+<text id="Ruth-Achieng" x="350.0" y="819.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Ruth Achieng</text>
+<text id="Stuck-7-days" x="456.4" y="819.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#D14343">Stuck 7+ days</text>
 </g>
-<text id="1-200-more" x="385.8" y="1032.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#2F2E80">+ 1,200 more</text>
+<text id="1-200-more" x="385.8" y="1032.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#2F2E80">+ 1,200 more</text>
 </g>
 <g id="column-KYC-captured">
 <rect id="column-bg-2" x="563.7" y="224.0" width="253.7" height="828.0" rx="12" fill="#ECEDF4"/>
 <rect x="563.7" y="224.0" width="253.7" height="4.0" rx="2" fill="#7056D6"/>
-<text id="KYC-captured" x="579.7" y="256.0" font-family="Segoe UI" font-size="14" font-weight="700" fill="#1B1C3A">KYC captured</text>
-<text id="212" x="778.9" y="256.0" font-family="Segoe UI" font-size="13" font-weight="700" fill="#7056D6">212</text>
-<text id="UGX-1-3B" x="579.7" y="276.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">UGX 1.3B</text>
+<text id="KYC-captured" x="579.7" y="256.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">KYC captured</text>
+<text id="212" x="778.9" y="256.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#7056D6">212</text>
+<text id="UGX-1-3B" x="579.7" y="276.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">UGX 1.3B</text>
 <g id="card-Paul-Tumusiime">
-<rect x="573.7" y="292.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Paul-Tumusiime" x="587.7" y="318.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Paul Tumusiime</text>
+<rect x="573.7" y="292.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" filter="url(#soft)"/>
+<text id="Paul-Tumusiime" x="587.7" y="318.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Paul Tumusiime</text>
 <g id="chip-Civil-Servant-Loan-2">
 <rect x="587.7" y="328.0" width="104.9" height="20.0" rx="10.0" fill="#E6E6F0"/>
-<text id="Civil-Servant-Loan-2" x="597.7" y="341.8" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#292871">Civil Servant Loan</text>
+<text id="Civil-Servant-Loan-2" x="597.7" y="341.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#292871">Civil Servant Loan</text>
 </g>
-<text id="UGX-10-000-000" x="587.7" y="368.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 10,000,000</text>
-<text id="1-day-2" x="764.6" y="368.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">1 day</text>
+<text id="UGX-10-000-000" x="587.7" y="368.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">UGX 10,000,000</text>
+<text id="1-day-2" x="764.6" y="368.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">1 day</text>
 <line x1="587.7" y1="382.0" x2="793.3" y2="382.0" stroke="#EFF0F6" stroke-width="1"/>
 <g id="avatar-IM">
 <circle cx="599.7" cy="401.0" r="11.0" fill="#DEDEEB"/>
-<text id="IM" x="594.3" y="405.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">IM</text>
+<text id="IM" x="594.3" y="405.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="8.8" font-weight="600" fill="#2A2973">IM</text>
 </g>
-<text id="Ivan-Mugabe" x="617.7" y="405.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Ivan Mugabe</text>
-<text id="Payslip-missing" x="717.7" y="405.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#D14343">Payslip missing</text>
+<text id="Ivan-Mugabe" x="617.7" y="405.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Ivan Mugabe</text>
+<text id="Payslip-missing" x="717.7" y="405.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#D14343">Payslip missing</text>
 </g>
 <g id="card-Sarah-Namutebi">
-<rect x="573.7" y="430.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Sarah-Namutebi" x="587.7" y="456.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Sarah Namutebi</text>
+<rect x="573.7" y="430.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" filter="url(#soft)"/>
+<text id="Sarah-Namutebi" x="587.7" y="456.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Sarah Namutebi</text>
 <g id="chip-MSE-Business-Loan-2">
 <rect x="587.7" y="466.0" width="110.0" height="20.0" rx="10.0" fill="#E2F1F3"/>
-<text id="MSE-Business-Loan-2" x="597.7" y="479.8" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#0C7B87">MSE Business Loan</text>
+<text id="MSE-Business-Loan-2" x="597.7" y="479.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#0C7B87">MSE Business Loan</text>
 </g>
-<text id="UGX-4-000-000" x="587.7" y="506.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 4,000,000</text>
-<text id="2-days-2" x="759.5" y="506.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">2 days</text>
+<text id="UGX-4-000-000" x="587.7" y="506.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">UGX 4,000,000</text>
+<text id="2-days-2" x="759.5" y="506.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">2 days</text>
 <line x1="587.7" y1="520.0" x2="793.3" y2="520.0" stroke="#EFF0F6" stroke-width="1"/>
 <g id="avatar-SN-3">
 <circle cx="599.7" cy="539.0" r="11.0" fill="#DEDEEB"/>
-<text id="SN-3" x="593.9" y="543.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">SN</text>
+<text id="SN-3" x="593.9" y="543.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="8.8" font-weight="600" fill="#2A2973">SN</text>
 </g>
-<text id="Sarah-Namuli-3" x="617.7" y="543.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Sarah Namuli</text>
+<text id="Sarah-Namuli-3" x="617.7" y="543.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Sarah Namuli</text>
 </g>
 <g id="card-Henry-Mukasa">
-<rect x="573.7" y="568.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Henry-Mukasa" x="587.7" y="594.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Henry Mukasa</text>
+<rect x="573.7" y="568.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" filter="url(#soft)"/>
+<text id="Henry-Mukasa" x="587.7" y="594.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Henry Mukasa</text>
 <g id="chip-Agri-Asset-Loan">
 <rect x="587.7" y="604.0" width="94.1" height="20.0" rx="10.0" fill="#E3F2EB"/>
-<text id="Agri-Asset-Loan" x="597.7" y="617.8" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#12804F">Agri Asset Loan</text>
+<text id="Agri-Asset-Loan" x="597.7" y="617.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#12804F">Agri Asset Loan</text>
 </g>
-<text id="UGX-3-500-000" x="587.7" y="644.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 3,500,000</text>
-<text id="12-days" x="753.0" y="644.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">12 days</text>
+<text id="UGX-3-500-000" x="587.7" y="644.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">UGX 3,500,000</text>
+<text id="12-days" x="753.0" y="644.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">12 days</text>
 <line x1="587.7" y1="658.0" x2="793.3" y2="658.0" stroke="#EFF0F6" stroke-width="1"/>
 <g id="avatar-BS">
 <circle cx="599.7" cy="677.0" r="11.0" fill="#DEDEEB"/>
-<text id="BS" x="594.6" y="681.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">BS</text>
+<text id="BS" x="594.6" y="681.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="8.8" font-weight="600" fill="#2A2973">BS</text>
 </g>
-<text id="Brian-Ssali" x="617.7" y="681.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Brian Ssali</text>
-<text id="Stuck-7-days-2" x="724.0" y="681.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#D14343">Stuck 7+ days</text>
+<text id="Brian-Ssali" x="617.7" y="681.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Brian Ssali</text>
+<text id="Stuck-7-days-2" x="724.0" y="681.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#D14343">Stuck 7+ days</text>
 </g>
-<text id="209-more" x="657.4" y="1032.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#2F2E80">+ 209 more</text>
+<text id="209-more" x="657.4" y="1032.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#2F2E80">+ 209 more</text>
 </g>
 <g id="column-KYC-validated">
 <rect id="column-bg-3" x="831.3" y="224.0" width="253.7" height="828.0" rx="12" fill="#ECEDF4"/>
 <rect x="831.3" y="224.0" width="253.7" height="4.0" rx="2" fill="#0E8C99"/>
-<text id="KYC-validated" x="847.3" y="256.0" font-family="Segoe UI" font-size="14" font-weight="700" fill="#1B1C3A">KYC validated</text>
-<text id="96" x="1054.0" y="256.0" font-family="Segoe UI" font-size="13" font-weight="700" fill="#0E8C99">96</text>
-<text id="UGX-0-7B" x="847.3" y="276.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">UGX 0.7B</text>
+<text id="KYC-validated" x="847.3" y="256.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">KYC validated</text>
+<text id="96" x="1054.0" y="256.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#0E8C99">96</text>
+<text id="UGX-0-7B" x="847.3" y="276.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">UGX 0.7B</text>
 <g id="card-Betty-Nakimuli">
-<rect x="841.3" y="292.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Betty-Nakimuli" x="855.3" y="318.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Betty Nakimuli</text>
+<rect x="841.3" y="292.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" filter="url(#soft)"/>
+<text id="Betty-Nakimuli" x="855.3" y="318.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Betty Nakimuli</text>
 <g id="chip-School-Fees-Loan-2">
 <rect x="855.3" y="328.0" width="101.7" height="20.0" rx="10.0" fill="#EEEBFA"/>
-<text id="School-Fees-Loan-2" x="865.3" y="341.8" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#634CBC">School Fees Loan</text>
+<text id="School-Fees-Loan-2" x="865.3" y="341.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#634CBC">School Fees Loan</text>
 </g>
-<text id="UGX-2-000-000" x="855.3" y="368.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 2,000,000</text>
-<text id="today" x="1030.9" y="368.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">today</text>
+<text id="UGX-2-000-000" x="855.3" y="368.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">UGX 2,000,000</text>
+<text id="today" x="1030.9" y="368.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">today</text>
 <line x1="855.3" y1="382.0" x2="1061.0" y2="382.0" stroke="#EFF0F6" stroke-width="1"/>
 <g id="avatar-SN-4">
 <circle cx="867.3" cy="401.0" r="11.0" fill="#DEDEEB"/>
-<text id="SN-4" x="861.6" y="405.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">SN</text>
+<text id="SN-4" x="861.6" y="405.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="8.8" font-weight="600" fill="#2A2973">SN</text>
 </g>
-<text id="Sarah-Namuli-4" x="885.3" y="405.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Sarah Namuli</text>
+<text id="Sarah-Namuli-4" x="885.3" y="405.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Sarah Namuli</text>
 </g>
 <g id="card-Robert-Kizza">
-<rect x="841.3" y="430.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Robert-Kizza" x="855.3" y="456.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Robert Kizza</text>
+<rect x="841.3" y="430.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" filter="url(#soft)"/>
+<text id="Robert-Kizza" x="855.3" y="456.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Robert Kizza</text>
 <g id="chip-MSE-Business-Loan-3">
 <rect x="855.3" y="466.0" width="110.0" height="20.0" rx="10.0" fill="#E2F1F3"/>
-<text id="MSE-Business-Loan-3" x="865.3" y="479.8" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#0C7B87">MSE Business Loan</text>
+<text id="MSE-Business-Loan-3" x="865.3" y="479.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#0C7B87">MSE Business Loan</text>
 </g>
-<text id="UGX-7-000-000" x="855.3" y="506.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 7,000,000</text>
-<text id="3-days" x="1027.2" y="506.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">3 days</text>
+<text id="UGX-7-000-000" x="855.3" y="506.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">UGX 7,000,000</text>
+<text id="3-days" x="1027.2" y="506.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">3 days</text>
 <line x1="855.3" y1="520.0" x2="1061.0" y2="520.0" stroke="#EFF0F6" stroke-width="1"/>
 <g id="avatar-EN">
 <circle cx="867.3" cy="539.0" r="11.0" fill="#DEDEEB"/>
-<text id="EN" x="861.7" y="543.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">EN</text>
+<text id="EN" x="861.7" y="543.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="8.8" font-weight="600" fill="#2A2973">EN</text>
 </g>
-<text id="Esther-Nakato" x="885.3" y="543.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Esther Nakato</text>
+<text id="Esther-Nakato" x="885.3" y="543.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Esther Nakato</text>
 </g>
 <g id="card-Susan-Akello">
-<rect x="841.3" y="568.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Susan-Akello" x="855.3" y="594.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Susan Akello</text>
+<rect x="841.3" y="568.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" filter="url(#soft)"/>
+<text id="Susan-Akello" x="855.3" y="594.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Susan Akello</text>
 <g id="chip-Civil-Servant-Loan-3">
 <rect x="855.3" y="604.0" width="104.9" height="20.0" rx="10.0" fill="#E6E6F0"/>
-<text id="Civil-Servant-Loan-3" x="865.3" y="617.8" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#292871">Civil Servant Loan</text>
+<text id="Civil-Servant-Loan-3" x="865.3" y="617.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#292871">Civil Servant Loan</text>
 </g>
-<text id="UGX-12-000-000" x="855.3" y="644.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 12,000,000</text>
-<text id="4-days" x="1027.2" y="644.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">4 days</text>
+<text id="UGX-12-000-000" x="855.3" y="644.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">UGX 12,000,000</text>
+<text id="4-days" x="1027.2" y="644.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">4 days</text>
 <line x1="855.3" y1="658.0" x2="1061.0" y2="658.0" stroke="#EFF0F6" stroke-width="1"/>
 <g id="avatar-PK-2">
 <circle cx="867.3" cy="677.0" r="11.0" fill="#DEDEEB"/>
-<text id="PK-2" x="862.1" y="681.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">PK</text>
+<text id="PK-2" x="862.1" y="681.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="8.8" font-weight="600" fill="#2A2973">PK</text>
 </g>
-<text id="Peter-Kato-2" x="885.3" y="681.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Peter Kato</text>
+<text id="Peter-Kato-2" x="885.3" y="681.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Peter Kato</text>
 </g>
-<text id="93-more" x="928.6" y="1032.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#2F2E80">+ 93 more</text>
+<text id="93-more" x="928.6" y="1032.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#2F2E80">+ 93 more</text>
 </g>
 <g id="column-Negotiation">
 <rect id="column-bg-4" x="1099.0" y="224.0" width="253.7" height="828.0" rx="12" fill="#ECEDF4"/>
 <rect x="1099.0" y="224.0" width="253.7" height="4.0" rx="2" fill="#E39A0B"/>
-<text id="Negotiation" x="1115.0" y="256.0" font-family="Segoe UI" font-size="14" font-weight="700" fill="#1B1C3A">Negotiation</text>
-<text id="131" x="1314.2" y="256.0" font-family="Segoe UI" font-size="13" font-weight="700" fill="#E39A0B">131</text>
-<text id="UGX-0-9B" x="1115.0" y="276.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">UGX 0.9B</text>
+<text id="Negotiation" x="1115.0" y="256.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Negotiation</text>
+<text id="131" x="1314.2" y="256.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#E39A0B">131</text>
+<text id="UGX-0-9B" x="1115.0" y="276.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">UGX 0.9B</text>
 <g id="card-James-Okello">
-<rect x="1109.0" y="292.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="James-Okello" x="1123.0" y="318.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">James Okello</text>
+<rect x="1109.0" y="292.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" filter="url(#soft)"/>
+<text id="James-Okello" x="1123.0" y="318.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">James Okello</text>
 <g id="chip-Civil-Servant-Loan-4">
 <rect x="1123.0" y="328.0" width="104.9" height="20.0" rx="10.0" fill="#E6E6F0"/>
-<text id="Civil-Servant-Loan-4" x="1133.0" y="341.8" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#292871">Civil Servant Loan</text>
+<text id="Civil-Servant-Loan-4" x="1133.0" y="341.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#292871">Civil Servant Loan</text>
 </g>
-<text id="UGX-9-000-000" x="1123.0" y="368.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 9,000,000</text>
-<text id="2-days-3" x="1294.8" y="368.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">2 days</text>
+<text id="UGX-9-000-000" x="1123.0" y="368.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">UGX 9,000,000</text>
+<text id="2-days-3" x="1294.8" y="368.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">2 days</text>
 <line x1="1123.0" y1="382.0" x2="1328.7" y2="382.0" stroke="#EFF0F6" stroke-width="1"/>
 <g id="avatar-JA">
 <circle cx="1135.0" cy="401.0" r="11.0" fill="#DEDEEB"/>
-<text id="JA" x="1130.4" y="405.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">JA</text>
+<text id="JA" x="1130.4" y="405.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="8.8" font-weight="600" fill="#2A2973">JA</text>
 </g>
-<text id="Joan-Auma" x="1153.0" y="405.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Joan Auma</text>
+<text id="Joan-Auma" x="1153.0" y="405.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Joan Auma</text>
 </g>
 <g id="card-Mary-Nansubuga">
-<rect x="1109.0" y="430.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Mary-Nansubuga" x="1123.0" y="456.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Mary Nansubuga</text>
+<rect x="1109.0" y="430.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" filter="url(#soft)"/>
+<text id="Mary-Nansubuga" x="1123.0" y="456.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Mary Nansubuga</text>
 <g id="chip-Home-Improvement-Loan-2">
 <rect x="1123.0" y="466.0" width="141.9" height="20.0" rx="10.0" fill="#FCF3E2"/>
-<text id="Home-Improvement-Loan-2" x="1133.0" y="479.8" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#C8880A">Home Improvement Loan</text>
+<text id="Home-Improvement-Loan-2" x="1133.0" y="479.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#C8880A">Home Improvement Loan</text>
 </g>
-<text id="UGX-6-500-000" x="1123.0" y="506.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 6,500,000</text>
-<text id="5-days" x="1294.8" y="506.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">5 days</text>
+<text id="UGX-6-500-000" x="1123.0" y="506.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">UGX 6,500,000</text>
+<text id="5-days" x="1294.8" y="506.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">5 days</text>
 <line x1="1123.0" y1="520.0" x2="1328.7" y2="520.0" stroke="#EFF0F6" stroke-width="1"/>
 <g id="avatar-RA-2">
 <circle cx="1135.0" cy="539.0" r="11.0" fill="#DEDEEB"/>
-<text id="RA-2" x="1129.3" y="543.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">RA</text>
+<text id="RA-2" x="1129.3" y="543.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="8.8" font-weight="600" fill="#2A2973">RA</text>
 </g>
-<text id="Ruth-Ac" x="1153.0" y="543.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Ruth Ac…</text>
-<text id="Wants-lower-instalment" x="1211.3" y="543.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#2F6FDB">Wants lower instalment</text>
+<text id="Ruth-Ac" x="1153.0" y="543.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Ruth Ac…</text>
+<text id="Wants-lower-instalment" x="1211.3" y="543.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#2F6FDB">Wants lower instalment</text>
 </g>
 <g id="card-Ivan-Kasozi">
-<rect x="1109.0" y="568.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Ivan-Kasozi" x="1123.0" y="594.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Ivan Kasozi</text>
+<rect x="1109.0" y="568.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" filter="url(#soft)"/>
+<text id="Ivan-Kasozi" x="1123.0" y="594.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Ivan Kasozi</text>
 <g id="chip-MSE-Business-Loan-4">
 <rect x="1123.0" y="604.0" width="110.0" height="20.0" rx="10.0" fill="#E2F1F3"/>
-<text id="MSE-Business-Loan-4" x="1133.0" y="617.8" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#0C7B87">MSE Business Loan</text>
+<text id="MSE-Business-Loan-4" x="1133.0" y="617.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#0C7B87">MSE Business Loan</text>
 </g>
-<text id="UGX-3-000-000-2" x="1123.0" y="644.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 3,000,000</text>
-<text id="1-day-3" x="1299.9" y="644.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">1 day</text>
+<text id="UGX-3-000-000-2" x="1123.0" y="644.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">UGX 3,000,000</text>
+<text id="1-day-3" x="1299.9" y="644.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">1 day</text>
 <line x1="1123.0" y1="658.0" x2="1328.7" y2="658.0" stroke="#EFF0F6" stroke-width="1"/>
 <g id="avatar-SN-5">
 <circle cx="1135.0" cy="677.0" r="11.0" fill="#DEDEEB"/>
-<text id="SN-5" x="1129.3" y="681.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">SN</text>
+<text id="SN-5" x="1129.3" y="681.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="8.8" font-weight="600" fill="#2A2973">SN</text>
 </g>
-<text id="Sarah-Namuli-5" x="1153.0" y="681.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Sarah Namuli</text>
+<text id="Sarah-Namuli-5" x="1153.0" y="681.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Sarah Namuli</text>
 </g>
-<text id="128-more" x="1193.8" y="1032.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#2F2E80">+ 128 more</text>
+<text id="128-more" x="1193.8" y="1032.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#2F2E80">+ 128 more</text>
 </g>
 <g id="column-Applied">
 <rect id="column-bg-5" x="1366.7" y="224.0" width="253.7" height="828.0" rx="12" fill="#ECEDF4"/>
 <rect x="1366.7" y="224.0" width="253.7" height="4.0" rx="2" fill="#15925A"/>
-<text id="Applied-converted" x="1382.7" y="256.0" font-family="Segoe UI" font-size="14" font-weight="700" fill="#1B1C3A">Applied = converted</text>
-<text id="73" x="1589.4" y="256.0" font-family="Segoe UI" font-size="13" font-weight="700" fill="#15925A">73</text>
-<text id="UGX-0-5B" x="1382.7" y="276.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">UGX 0.5B</text>
+<text id="Applied-converted" x="1382.7" y="256.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Applied = converted</text>
+<text id="73" x="1589.4" y="256.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#15925A">73</text>
+<text id="UGX-0-5B" x="1382.7" y="276.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">UGX 0.5B</text>
 <g id="card-Florence-Nambi">
 <rect x="1376.7" y="292.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" stroke="#2F2E80" stroke-width="2"/>
-<text id="Florence-Nambi" x="1390.7" y="318.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Florence Nambi</text>
+<text id="Florence-Nambi" x="1390.7" y="318.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Florence Nambi</text>
 <g id="chip-MSE-Business-Loan-5">
 <rect x="1390.7" y="328.0" width="110.0" height="20.0" rx="10.0" fill="#E2F1F3"/>
-<text id="MSE-Business-Loan-5" x="1400.7" y="341.8" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#0C7B87">MSE Business Loan</text>
+<text id="MSE-Business-Loan-5" x="1400.7" y="341.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#0C7B87">MSE Business Loan</text>
 </g>
-<text id="UGX-6-000-000" x="1390.7" y="368.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 6,000,000</text>
-<text id="today-2" x="1566.3" y="368.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">today</text>
+<text id="UGX-6-000-000" x="1390.7" y="368.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">UGX 6,000,000</text>
+<text id="today-2" x="1566.3" y="368.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">today</text>
 <line x1="1390.7" y1="382.0" x2="1596.3" y2="382.0" stroke="#EFF0F6" stroke-width="1"/>
 <g id="avatar-SN-6">
 <circle cx="1402.7" cy="401.0" r="11.0" fill="#DEDEEB"/>
-<text id="SN-6" x="1396.9" y="405.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">SN</text>
+<text id="SN-6" x="1396.9" y="405.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="8.8" font-weight="600" fill="#2A2973">SN</text>
 </g>
-<text id="Sarah-Namuli-6" x="1420.7" y="405.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Sarah Namuli</text>
-<text id="Awaiting-approval" x="1505.7" y="405.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#9A6300">Awaiting approval</text>
+<text id="Sarah-Namuli-6" x="1420.7" y="405.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Sarah Namuli</text>
+<text id="Awaiting-approval" x="1505.7" y="405.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9A6300">Awaiting approval</text>
 </g>
 <g id="card-Agnes-Babirye">
-<rect x="1376.7" y="430.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Agnes-Babirye" x="1390.7" y="456.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Agnes Babirye</text>
+<rect x="1376.7" y="430.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" filter="url(#soft)"/>
+<text id="Agnes-Babirye" x="1390.7" y="456.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Agnes Babirye</text>
 <g id="chip-School-Fees-Loan-3">
 <rect x="1390.7" y="466.0" width="101.7" height="20.0" rx="10.0" fill="#EEEBFA"/>
-<text id="School-Fees-Loan-3" x="1400.7" y="479.8" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#634CBC">School Fees Loan</text>
+<text id="School-Fees-Loan-3" x="1400.7" y="479.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#634CBC">School Fees Loan</text>
 </g>
-<text id="UGX-1-800-000" x="1390.7" y="506.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 1,800,000</text>
-<text id="1-day-4" x="1567.6" y="506.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">1 day</text>
+<text id="UGX-1-800-000" x="1390.7" y="506.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">UGX 1,800,000</text>
+<text id="1-day-4" x="1567.6" y="506.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">1 day</text>
 <line x1="1390.7" y1="520.0" x2="1596.3" y2="520.0" stroke="#EFF0F6" stroke-width="1"/>
 <g id="avatar-EN-2">
 <circle cx="1402.7" cy="539.0" r="11.0" fill="#DEDEEB"/>
-<text id="EN-2" x="1397.0" y="543.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">EN</text>
+<text id="EN-2" x="1397.0" y="543.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="8.8" font-weight="600" fill="#2A2973">EN</text>
 </g>
-<text id="Esther-Nakato-2" x="1420.7" y="543.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Esther Nakato</text>
-<text id="Awaiting-approval-2" x="1505.7" y="543.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#9A6300">Awaiting approval</text>
+<text id="Esther-Nakato-2" x="1420.7" y="543.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Esther Nakato</text>
+<text id="Awaiting-approval-2" x="1505.7" y="543.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9A6300">Awaiting approval</text>
 </g>
 <g id="card-Tom-Wasswa">
-<rect x="1376.7" y="568.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Tom-Wasswa" x="1390.7" y="594.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Tom Wasswa</text>
+<rect x="1376.7" y="568.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" filter="url(#soft)"/>
+<text id="Tom-Wasswa" x="1390.7" y="594.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Tom Wasswa</text>
 <g id="chip-Civil-Servant-Loan-5">
 <rect x="1390.7" y="604.0" width="104.9" height="20.0" rx="10.0" fill="#E6E6F0"/>
-<text id="Civil-Servant-Loan-5" x="1400.7" y="617.8" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#292871">Civil Servant Loan</text>
+<text id="Civil-Servant-Loan-5" x="1400.7" y="617.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#292871">Civil Servant Loan</text>
 </g>
-<text id="UGX-15-000-000" x="1390.7" y="644.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 15,000,000</text>
-<text id="2-days-4" x="1562.5" y="644.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">2 days</text>
+<text id="UGX-15-000-000" x="1390.7" y="644.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">UGX 15,000,000</text>
+<text id="2-days-4" x="1562.5" y="644.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">2 days</text>
 <line x1="1390.7" y1="658.0" x2="1596.3" y2="658.0" stroke="#EFF0F6" stroke-width="1"/>
 <g id="avatar-PK-3">
 <circle cx="1402.7" cy="677.0" r="11.0" fill="#DEDEEB"/>
-<text id="PK-3" x="1397.4" y="681.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">PK</text>
+<text id="PK-3" x="1397.4" y="681.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="8.8" font-weight="600" fill="#2A2973">PK</text>
 </g>
-<text id="Peter-Kato-3" x="1420.7" y="681.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Peter Kato</text>
-<text id="Sent-to-HQ" x="1541.2" y="681.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#9A6300">Sent to HQ</text>
+<text id="Peter-Kato-3" x="1420.7" y="681.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Peter Kato</text>
+<text id="Sent-to-HQ" x="1541.2" y="681.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9A6300">Sent to HQ</text>
 </g>
-<text id="70-more" x="1464.1" y="1032.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#2F2E80">+ 70 more</text>
+<text id="70-more" x="1464.1" y="1032.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#2F2E80">+ 70 more</text>
 </g>
 <g id="column-Decided">
 <rect id="column-bg-6" x="1634.3" y="224.0" width="253.7" height="828.0" rx="12" fill="#ECEDF4"/>
 <rect x="1634.3" y="224.0" width="253.7" height="4.0" rx="2" fill="#1F1E57"/>
-<text id="Approved-rejected" x="1650.3" y="256.0" font-family="Segoe UI" font-size="14" font-weight="700" fill="#1B1C3A">Approved / rejected</text>
-<text id="978" x="1849.6" y="256.0" font-family="Segoe UI" font-size="13" font-weight="700" fill="#4B4D6B">978</text>
-<text id="812-approved" x="1650.3" y="276.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">812 approved</text>
+<text id="Approved-rejected" x="1650.3" y="256.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Approved / rejected</text>
+<text id="978" x="1849.6" y="256.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#4B4D6B">978</text>
+<text id="812-approved" x="1650.3" y="276.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">812 approved</text>
 <g id="card-Janet-Kyomugisha">
-<rect x="1644.3" y="292.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Janet-Kyomugisha" x="1658.3" y="318.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Janet Kyomugisha</text>
+<rect x="1644.3" y="292.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" filter="url(#soft)"/>
+<text id="Janet-Kyomugisha" x="1658.3" y="318.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Janet Kyomugisha</text>
 <g id="chip-MSE-Business-Loan-6">
 <rect x="1658.3" y="328.0" width="110.0" height="20.0" rx="10.0" fill="#E2F1F3"/>
-<text id="MSE-Business-Loan-6" x="1668.3" y="341.8" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#0C7B87">MSE Business Loan</text>
+<text id="MSE-Business-Loan-6" x="1668.3" y="341.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#0C7B87">MSE Business Loan</text>
 </g>
-<text id="UGX-4-000-000-2" x="1658.3" y="368.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 4,000,000</text>
+<text id="UGX-4-000-000-2" x="1658.3" y="368.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">UGX 4,000,000</text>
 <g id="chip-Approved">
 <rect x="1784.8" y="354.0" width="83.2" height="20.0" rx="10.0" fill="#E3F2EB"/>
 <circle cx="1798.8" cy="364.0" r="4.0" fill="#15925A"/>
-<text id="Approved" x="1808.8" y="368.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#12804F">Approved</text>
+<text id="Approved" x="1808.8" y="368.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#12804F">Approved</text>
 </g>
 <line x1="1658.3" y1="382.0" x2="1864.0" y2="382.0" stroke="#EFF0F6" stroke-width="1"/>
 <g id="avatar-RA-3">
 <circle cx="1670.3" cy="401.0" r="11.0" fill="#DEDEEB"/>
-<text id="RA-3" x="1664.7" y="405.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">RA</text>
+<text id="RA-3" x="1664.7" y="405.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="8.8" font-weight="600" fill="#2A2973">RA</text>
 </g>
-<text id="Ruth-Achieng-2" x="1688.3" y="405.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Ruth Achieng</text>
+<text id="Ruth-Achieng-2" x="1688.3" y="405.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Ruth Achieng</text>
 </g>
 <g id="card-Ronald-Byamugisha">
-<rect x="1644.3" y="430.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Ronald-Byamugisha" x="1658.3" y="456.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Ronald Byamugisha</text>
+<rect x="1644.3" y="430.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" filter="url(#soft)"/>
+<text id="Ronald-Byamugisha" x="1658.3" y="456.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Ronald Byamugisha</text>
 <g id="chip-Civil-Servant-Loan-6">
 <rect x="1658.3" y="466.0" width="104.9" height="20.0" rx="10.0" fill="#E6E6F0"/>
-<text id="Civil-Servant-Loan-6" x="1668.3" y="479.8" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#292871">Civil Servant Loan</text>
+<text id="Civil-Servant-Loan-6" x="1668.3" y="479.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#292871">Civil Servant Loan</text>
 </g>
-<text id="UGX-6-000-000-2" x="1658.3" y="506.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 6,000,000</text>
+<text id="UGX-6-000-000-2" x="1658.3" y="506.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">UGX 6,000,000</text>
 <g id="chip-Approved-2">
 <rect x="1784.8" y="492.0" width="83.2" height="20.0" rx="10.0" fill="#E3F2EB"/>
 <circle cx="1798.8" cy="502.0" r="4.0" fill="#15925A"/>
-<text id="Approved-2" x="1808.8" y="506.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#12804F">Approved</text>
+<text id="Approved-2" x="1808.8" y="506.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#12804F">Approved</text>
 </g>
 <line x1="1658.3" y1="520.0" x2="1864.0" y2="520.0" stroke="#EFF0F6" stroke-width="1"/>
 <g id="avatar-IM-2">
 <circle cx="1670.3" cy="539.0" r="11.0" fill="#DEDEEB"/>
-<text id="IM-2" x="1665.0" y="543.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">IM</text>
+<text id="IM-2" x="1665.0" y="543.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="8.8" font-weight="600" fill="#2A2973">IM</text>
 </g>
-<text id="Ivan-Mugabe-2" x="1688.3" y="543.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Ivan Mugabe</text>
+<text id="Ivan-Mugabe-2" x="1688.3" y="543.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Ivan Mugabe</text>
 </g>
 <g id="card-Prossy-Namara">
-<rect x="1644.3" y="568.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Prossy-Namara" x="1658.3" y="594.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Prossy Namara</text>
+<rect x="1644.3" y="568.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" filter="url(#soft)"/>
+<text id="Prossy-Namara" x="1658.3" y="594.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Prossy Namara</text>
 <g id="chip-Agri-Asset-Loan-2">
 <rect x="1658.3" y="604.0" width="94.1" height="20.0" rx="10.0" fill="#E3F2EB"/>
-<text id="Agri-Asset-Loan-2" x="1668.3" y="617.8" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#12804F">Agri Asset Loan</text>
+<text id="Agri-Asset-Loan-2" x="1668.3" y="617.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#12804F">Agri Asset Loan</text>
 </g>
-<text id="UGX-5-000-000-2" x="1658.3" y="644.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 5,000,000</text>
+<text id="UGX-5-000-000-2" x="1658.3" y="644.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">UGX 5,000,000</text>
 <g id="chip-Rejected">
 <rect x="1791.3" y="630.0" width="76.7" height="20.0" rx="10.0" fill="#F8E7E6"/>
 <circle cx="1805.3" cy="640.0" r="4.0" fill="#C2362F"/>
-<text id="Rejected" x="1815.3" y="644.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#AB3029">Rejected</text>
+<text id="Rejected" x="1815.3" y="644.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#AB3029">Rejected</text>
 </g>
 <line x1="1658.3" y1="658.0" x2="1864.0" y2="658.0" stroke="#EFF0F6" stroke-width="1"/>
 <g id="avatar-BS-2">
 <circle cx="1670.3" cy="677.0" r="11.0" fill="#DEDEEB"/>
-<text id="BS-2" x="1665.3" y="681.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">BS</text>
+<text id="BS-2" x="1665.3" y="681.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="8.8" font-weight="600" fill="#2A2973">BS</text>
 </g>
-<text id="Brian-Ssali-2" x="1688.3" y="681.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Brian Ssali</text>
-<text id="Affordability" x="1801.3" y="681.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#D14343">Affordability</text>
+<text id="Brian-Ssali-2" x="1688.3" y="681.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Brian Ssali</text>
+<text id="Affordability" x="1801.3" y="681.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#D14343">Affordability</text>
 </g>
-<text id="975-more" x="1728.2" y="1032.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#2F2E80">+ 975 more</text>
+<text id="975-more" x="1728.2" y="1032.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#2F2E80">+ 975 more</text>
 </g>
 </svg>

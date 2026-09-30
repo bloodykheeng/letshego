@@ -95,7 +95,6 @@ PROTO = r"""<!doctype html>
   <button id="next" title="Next (→)">&#8594;</button>
   <button id="web">Web<span class="long"> console</span></button><button id="mob">Agent<span class="long"> app (Android)</span></button>
   <button id="fs" title="Full screen (F) · Esc to exit">&#x26F6;<span class="long"> Full screen</span></button>
-  <button id="theme" title="Light / dark mode (D)">&#x263E;<span class="long"> Dark</span></button>
   <span id="ready"></span><span class="sp"></span>
   <span class="hint">← → keys · H hotspots · F full screen · D dark mode · Esc exit</span>
   <span class="pill">Illustrative data</span>
@@ -148,10 +147,11 @@ function go(key, push = true) {
   }
   frame.querySelectorAll('.hot').forEach(h => h.remove());
   s.links.forEach(([x, y, w, h, t]) => {
-    if (!byKey[t]) return;
-    const a = document.createElement('div'); a.className = 'hot'; a.title = byKey[t].title;
+    if (t !== '!theme' && !byKey[t]) return;
+    const a = document.createElement('div'); a.className = 'hot';
+    a.title = t === '!theme' ? 'Light / dark mode' : byKey[t].title;
     Object.assign(a.style, { left: x / s.w * 100 + '%', top: y / s.h * 100 + '%', width: w / s.w * 100 + '%', height: h / s.h * 100 + '%' });
-    a.onclick = e => { e.stopPropagation(); go(t); };
+    a.onclick = e => { e.stopPropagation(); t === '!theme' ? toggleTheme() : go(t); };
     frame.appendChild(a);
   });
   pick.value = key; fit();
@@ -169,15 +169,12 @@ addEventListener('keydown', e => {
   if (e.key === 'ArrowRight') step(1); else if (e.key === 'ArrowLeft') step(-1);
   else if (e.key.toLowerCase() === 'h') { showAll = !showAll; frame.classList.toggle('show', showAll); }
 });
-const themeBtn = document.getElementById('theme');
-function paintTheme() { themeBtn.innerHTML = theme === 'dark' ? '&#x2600;<span class="long"> Light</span>'
-                                                               : '&#x263E;<span class="long"> Dark</span>'; }
+// the moon buttons in the console's top bar and on the app's Me screen switch light / dark
 function toggleTheme() {
   theme = theme === 'dark' ? 'light' : 'dark';
   try { localStorage.setItem('letshego-theme', theme); } catch (e) {}
-  paintTheme(); preload(); go(cur, false);
+  preload(); go(cur, false);
 }
-themeBtn.onclick = toggleTheme; paintTheme();
 addEventListener('keydown', e => { if (e.key.toLowerCase() === 'd' && e.target.tagName !== 'SELECT') toggleTheme(); });
 const fsBtn = document.getElementById('fs');
 function toggleFs() { document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen(); }

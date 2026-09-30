@@ -99,7 +99,7 @@ python briefing.py           # rewrite briefing.html from BRIEFING.md
 - `#w05` in the URL opens that screen. No hash opens `w00` (or `m01` on phones).
 - Click empty space to flash the hotspots; **H** keeps them visible; `?show` turns them on.
 - **Keys:** ← → previous/next · **F** full screen · **D** dark mode · **Esc** exit.
-- **Light / dark:** the ☾ Dark button (or **D**) switches every screen to its dark version; the choice is remembered in the browser. `CARD` is `#FFFFFE`, not pure white, so the dark-mode remap can tell cards from white text. Colours that must not change (yellows, ink on the yellow hero card, deep indigo on yellow) are listed in `KEEP` in `theme.py`.
+- **Light / dark:** the moon button in the console's top bar and on the app's Me screen (hotspot target `!theme`) switches every screen to its dark version; **D** does the same for presenters. The choice is remembered in the browser. `CARD` is `#FFFFFE`, not pure white, so the dark-mode remap can tell cards from white text. Colours that must not change (yellows, ink on the yellow hero card, deep indigo on yellow) are listed in `KEEP` in `theme.py`.
 - Splash `m01` moves to sign-in by itself after 1.8 s.
 - Loads every SVG up front; the bar shows "✓ Offline-ready" when done.
 - **≤ 760px (phones):** compact bar, app screens fill the screen with no phone frame, web screens fit the width with a "turn sideways" hint.

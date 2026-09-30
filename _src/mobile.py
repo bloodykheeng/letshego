@@ -232,12 +232,8 @@ HERO = "#16171F"
 
 def m03_home():
     s = phone("M3 Home", bg=BG)
-    s.raw('<defs><linearGradient id="wash" x1="0" y1="0" x2="0" y2="1">'
-          f'<stop offset="0" stop-color="{tint(YELLOW, 0.26)}"/><stop offset="1" stop-color="{BG}"/>'
-          '</linearGradient><linearGradient id="heroGrad" x1="0" y1="0" x2="1" y2="1">'
+    s.raw('<defs><linearGradient id="heroGrad" x1="0" y1="0" x2="1" y2="1">'
           '<stop offset="0" stop-color="#FFE45C"/><stop offset="1" stop-color="#FBC805"/></linearGradient></defs>')
-    s.rect(0, 0, MW, 330, fill="url(#wash)", name="warm wash")
-    status_bar(s, False, "11:05")
     with s.g("top"):
         s.circle(PAD + 22, 70, 22, fill=YELLOW)
         s.text(PAD + 22, 76, "SN", 15, 700, BRAND_D, anchor="middle")
@@ -1013,6 +1009,11 @@ def m19_me():
         s.text(PAD + 76, 82, "Sarah Namuli", 19, 700, INK)
         s.text(PAD + 76, 104, "Field Sales Agent · LU-0877", 12.5, 400, MUTED)
         s.text(PAD + 76, 124, "Supervisor: Moses Okello", 12.5, 400, MUTED)
+    with s.g("theme switch"):
+        s.circle(MW - PAD - 20, 60, 20, fill=CARD, shadow=True)
+        s.icon("moon", MW - PAD - 30, 50, 20, INK, 2)
+        s.text(MW - PAD - 20, 96, "Theme", 10.5, 600, MUTED, anchor="middle")
+    s.link(MW - PAD - 44, 36, 48, 68, "!theme")
     with s.g("quarter"):
         y = 140
         s.rect(PAD, y, MW - 2 * PAD, 116, fill=CARD, rx=20, stroke=LINE)

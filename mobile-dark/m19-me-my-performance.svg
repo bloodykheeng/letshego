@@ -20,6 +20,13 @@
 <text id="Field-Sales-Agent-LU-0877" x="92.0" y="104.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">Field Sales Agent · LU-0877</text>
 <text id="Supervisor-Moses-Okello" x="92.0" y="124.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">Supervisor: Moses Okello</text>
 </g>
+<g id="theme-switch">
+<circle cx="324.0" cy="60.0" r="20.0" fill="#1D1E27" filter="url(#soft)"/>
+<g id="icon-moon" transform="translate(314.0 50.0) scale(0.8333)">
+<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="none" stroke="#CBCCE7" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Theme" x="307.8" y="96.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#9396AA">Theme</text>
+</g>
 <g id="quarter">
 <rect x="16.0" y="140.0" width="328.0" height="116.0" rx="20" fill="#1D1E27" filter="url(#soft)"/>
 <text id="Q3-2026" x="32.0" y="168.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#CBCCE7">Q3 2026</text>

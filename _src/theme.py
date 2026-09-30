@@ -20,7 +20,6 @@ SURFACE = {
     "#F5F6FA": "#121319",   # BG (app)
     "#F6F7F9": "#121319",   # web page
     "#2F2E80": "#4F4CC9",   # BRAND as a fill: lift it so buttons read on dark
-    "#FEF4BE": "#121319",   # the warm wash at the top of Home: no wash in dark mode
 }
 
 _TAG = re.compile(r"<(text|rect|circle|path|line|stop)\b[^>]*>")

@@ -161,31 +161,37 @@
 <circle cx="1811.0" cy="25.0" r="7.0" fill="#D14343"/>
 <text id="5" x="1808.1" y="29.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">5</text>
 </g>
+<g id="theme-switch">
+<circle cx="1755.0" cy="34.0" r="18.0" fill="#F4F5FA"/>
+<g id="icon-moon" transform="translate(1745.0 24.0) scale(0.8333)">
+<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="none" stroke="#4B4D6B" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
 <g id="search">
-<rect x="1502.0" y="16.0" width="266.0" height="36.0" rx="8" fill="#F4F5FA" stroke="#E4E5EF" stroke-width="1"/>
-<g id="icon-search" transform="translate(1514.0 25.0) scale(0.7500)">
+<rect x="1454.0" y="16.0" width="266.0" height="36.0" rx="8" fill="#F4F5FA" stroke="#E4E5EF" stroke-width="1"/>
+<g id="icon-search" transform="translate(1466.0 25.0) scale(0.7500)">
 <path d="M11 3a8 8 0 1 0 0 16 8 8 0 1 0 0-16z" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M21 21l-4.3-4.3" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Search-clients-agents-app" x="1542.0" y="39.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#AAACC0">Search clients, agents, app IDs…</text>
+<text id="Search-clients-agents-app" x="1494.0" y="39.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#AAACC0">Search clients, agents, app IDs…</text>
 </g>
 <g id="segmented-control">
-<rect x="1235.8" y="16.0" width="246.2" height="36.0" rx="8" fill="#F1F2F8" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Day" x="1253.8" y="38.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Day</text>
-<rect x="1290.6" y="20.0" width="60.9" height="28.0" rx="6" fill="#2F2E80"/>
-<text id="Week" x="1304.6" y="38.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Week</text>
-<text id="Quarter" x="1365.4" y="38.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Quarter</text>
-<text id="Year" x="1439.1" y="38.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Year</text>
+<rect x="1187.8" y="16.0" width="246.2" height="36.0" rx="8" fill="#F1F2F8" stroke="#E4E5EF" stroke-width="1"/>
+<text id="Day" x="1205.8" y="38.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Day</text>
+<rect x="1242.6" y="20.0" width="60.9" height="28.0" rx="6" fill="#2F2E80"/>
+<text id="Week" x="1256.6" y="38.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Week</text>
+<text id="Quarter" x="1317.4" y="38.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Quarter</text>
+<text id="Year" x="1391.1" y="38.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Year</text>
 </g>
 <g id="date-range">
-<rect x="1077.8" y="16.0" width="146.1" height="36.0" rx="8" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
-<g id="icon-calendar" transform="translate(1089.8 25.0) scale(0.7500)">
+<rect x="1029.8" y="16.0" width="146.1" height="36.0" rx="8" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
+<g id="icon-calendar" transform="translate(1041.8 25.0) scale(0.7500)">
 <path d="M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" fill="none" stroke="#2F2E80" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M16 2v4" fill="none" stroke="#2F2E80" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M8 2v4" fill="none" stroke="#2F2E80" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M3 10h18" fill="none" stroke="#2F2E80" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="W13-23-30-Sep" x="1115.8" y="39.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#1B1C3A">W13 · 23–30 Sep</text>
+<text id="W13-23-30-Sep" x="1067.8" y="39.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#1B1C3A">W13 · 23–30 Sep</text>
 </g>
 </g>
 <g id="header">

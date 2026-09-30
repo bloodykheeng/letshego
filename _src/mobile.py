@@ -575,7 +575,7 @@ def m11_kyc_id():
     y += 124
     s.icon("pin", PAD, y - 2, 14, MUTED, 2)
     s.text(PAD + 20, y + 9, "Photos are GPS-stamped and never saved to the gallery", 11.5, 400, MUTED)
-    footer(s, "Next: income", "m12", icon="arrowright", secondary="Back", sec_target="m10")
+    footer(s, "Next: income", "m12", icon="arrowright", secondary="Back", sec_target="!back:m10")
     return s
 
 
@@ -611,7 +611,7 @@ def m12_kyc_income():
         checkbox(s, PAD + 14, y + 12, True)
         s.text(PAD + 42, y + 25, "Client agreed to a CRB check", 13.5, 600, INK)
         s.text(PAD + 42, y + 43, "Signed on screen 11:23", 12, 400, MUTED)
-    footer(s, "Validate KYC", "m13", icon="shield", secondary="Back", sec_target="m11")
+    footer(s, "Validate KYC", "m13", icon="shield", secondary="Back", sec_target="!back:m11")
     return s
 
 
@@ -642,13 +642,13 @@ def m13_validation():
         s.icon("wifioff", PAD + 14, y + 17, 22, AMBER_D, 2)
         para(s, PAD + 46, y + 25, "No network? Checks wait in the queue and run as soon as you're back online.",
              MW - 2 * PAD - 60, 12, 400, INK2, lh=17)
-    footer(s, "Open the Loan tab", "m14", icon="briefcase", secondary="Record", sec_target="m09")
+    footer(s, "Continue to loan", "m09c", icon="arrowright", secondary="Done", sec_target="m09")
     return s
 
 
 def m14_negotiation():
     s = phone("M14 Negotiation: pick a loan product", bg=CARD, time="11:30")
-    app_bar(s, "Loan · " + CLIENT["name"], back="m09", sub="Loan tab · KYC validated 11:24 · negotiation")
+    app_bar(s, "Loan application", back="m09c", sub=CLIENT["name"])
     y = 100
     s.text(PAD, y, "Suggested for Florence", 14.5, 700, INK)
     prods = [("MSE Business Loan", "Best fit: business owner, steady sales", True),
@@ -692,7 +692,7 @@ def m14_negotiation():
     s.rect(PAD, y + 22, MW - 2 * PAD, 62, fill=CARD, rx=10, stroke="#CDD0DE")
     para(s, PAD + 12, y + 46, "Wants a 2nd industrial machine before January; uniform orders each term.",
          MW - 2 * PAD - 24, 13, 400, INK, lh=19)
-    footer(s, "Client agrees: close", "m15", icon="arrowright", secondary="Back", sec_target="m13")
+    footer(s, "Next: submit", "m15", icon="arrowright", secondary="Back", sec_target="!back:m09c")
     return s
 
 
@@ -983,20 +983,18 @@ def info_row(s, y, icon, color, title, sub, target=None, h=58, fill=CARD, chev=T
 def client_hub(title, tab, during):
     keys = HUB_KEYS[during]
     s = phone(title, bg=BG, time="11:15" if during else "11:53")
-    app_bar(s, CLIENT["name"], back="m17", sub=f"Client {CLIENT['id']} · Kiwatule market route", right="more")
+    app_bar(s, CLIENT["name"], back="m17", sub="Kiwatule market route")
+    for i, ic in enumerate(["phone", "navigation"]):
+        s.icon(ic, MW - PAD - 24 - i * 40, 40, 22, INK, 2)
     with s.g("client header"):
         y = 92
         s.rect(PAD, y, MW - 2 * PAD, 84, fill=CARD, rx=18, stroke=LINE)
         avatar(s, PAD + 34, y + 42, 22, "FN", GREEN)
-        s.text(PAD + 66, y + 32, "Nambi Tailoring & Fabrics", 14, 700, INK, maxw=148)
+        s.text(PAD + 66, y + 32, "Nambi Tailoring & Fabrics", 14, 700, INK)
         stage = ("Interested", BLUE) if during else ("Applied", GREEN)
         x = PAD + 66
         x += chip(s, x, y + 44, stage[0], stage[1], h=22, size=11, dot=True) + 6
         chip(s, x, y + 44, "MSE Business Loan", PRODUCT["MSE Business Loan"], h=22, size=11)
-        for i, ic in enumerate(["phone", "navigation"]):
-            cx = MW - PAD - 26 - i * 44
-            s.circle(cx, y + 30, 17, fill=tint(BRAND, 0.08))
-            s.icon(ic, cx - 9, y + 21, 18, BRAND, 2)
     with s.g("visit bar"):
         y = 186
         if during:
@@ -1024,36 +1022,29 @@ def client_hub(title, tab, during):
             s.text(x + tw_ / 2, y + 22, lab, 13, 700 if on else 400, BRAND if on else INK2,
                    anchor="middle")
             if not on:
-                s.link(x, y, tw_, 34, keys[i])
+                s.link(x, y, tw_, 34, "!tab:" + keys[i])
     y = 292
     if tab == "Overview":
         journey_card(s, y, 1 if during else 5)
         y += 84
         if during:
             with s.g("why here"):
-                s.rect(PAD, y, MW - 2 * PAD, 70, fill=tint(YELLOW, 0.2), rx=14)
+                s.rect(PAD, y, MW - 2 * PAD, 54, fill=tint(YELLOW, 0.2), rx=14)
                 s.text(PAD + 14, y + 22, "WHY YOU'RE HERE · KIWATULE FOLLOW-UPS", 10, 700, YELLOW_D, spacing=0.6)
                 s.text(PAD + 14, y + 42, "Collect her ID and sales book, take KYC", 13.5, 600, INK)
-                s.text(PAD + 14, y + 60, "Last note 14 Sep: “Documents ready by month end.”", 11.5, 400, INK2,
-                       maxw=MW - 2 * PAD - 28)
-            y += 82
-            info_row(s, y, "idcard", VIOLET, "Next step: take KYC", "KYC tab · 4 short sections", keys[1])
             y += 66
-            info_row(s, y, "briefcase", TEAL, "Loan", "Opens once KYC is validated", keys[2])
+            info_row(s, y, "idcard", VIOLET, "Next: take KYC", "4 sections", "!tab:" + keys[1])
             footer(s, "Start KYC", "m10", icon="idcard")
         else:
             info_row(s, y, "clock", AMBER_D, "Next: supervisor decision", "Waiting for Moses Okello · you'll be notified",
                      None, fill=tint(AMBER, 0.12), chev=False)
             y += 66
-            info_row(s, y, "briefcase", GREEN, CLIENT["app_id"], "UGX 6,000,000 · 18 months · Loan tab", keys[2])
+            info_row(s, y, "briefcase", GREEN, CLIENT["app_id"], "UGX 6,000,000 · 18 months", "!tab:" + keys[2])
             y += 66
             info_row(s, y, "route", BRAND, "Plan: Kiwatule follow-ups", "8 of 12 visited · next: Ivan Kasozi 12:30", "m04b")
             footer(s, "Check in again", "m09", icon="pin")
     elif tab == "KYC":
-        if during:
-            s.text(PAD, y + 12, "Taken once per client, after they say they're interested.", 12, 400, MUTED)
-            y += 26
-        else:
+        if not during:
             info_row(s, y, "shield", GREEN, "KYC validated · 11:24", "6 of 6 checks · NIRA, phone, CRB, affordability",
                      None, fill=tint(GREEN, 0.08), chev=False)
             y += 70
@@ -1080,16 +1071,17 @@ def client_hub(title, tab, during):
                icon="idcard" if during else "pin")
     elif tab == "Loan":
         if during:
-            with s.g("locked"):
-                s.rect(PAD, y, MW - 2 * PAD, 104, fill=CARD, rx=16, stroke=LINE)
-                s.circle(MW / 2, y + 34, 20, fill="#EEEFF5")
-                s.icon("lock", MW / 2 - 10, y + 24, 20, INK2, 2)
-                s.text(MW / 2, y + 72, "Loan options open once KYC is validated", 13, 600, INK, anchor="middle")
-                s.text(MW / 2, y + 91, "Then choose a product, amount and term", 11.5, 400, MUTED, anchor="middle")
-            y += 116
-            s.text(PAD, y + 12, "Noted at her first visit", 13, 600, INK2)
-            pills(s, PAD, y + 22, [("MSE Business Loan", True), ("School Fees Loan", False)], h=30)
-            footer(s, "Start KYC", "m10", icon="idcard")
+            info_row(s, y, "shield", GREEN, "KYC validated", "Today 11:24 · 6 of 6 checks", None,
+                     fill=tint(GREEN, 0.08), chev=False)
+            y += 72
+            with s.g("loan start"):
+                s.rect(PAD, y, MW - 2 * PAD, 150, fill=CARD, rx=16, stroke=LINE)
+                s.text(PAD + 16, y + 28, "No loan application yet", 14, 700, INK)
+                s.text(PAD + 16, y + 48, "Suggested products", 12, 400, MUTED)
+                pills(s, PAD + 16, y + 60, [("MSE Business Loan", True), ("School Fees Loan", False)],
+                      maxw=MW - PAD - 16, h=30)
+                s.text(PAD + 16, y + 126, "Can pay up to UGX 625,000 a month", 12, 600, GREEN_D)
+            footer(s, "Take loan application", "m14", icon="briefcase")
         else:
             with s.g("application"):
                 s.rect(PAD, y, MW - 2 * PAD, 262, fill=CARD, rx=16, stroke=LINE)

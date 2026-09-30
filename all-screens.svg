@@ -11709,12 +11709,14 @@
 <path d="M12 19l-7-7 7-7" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="Florence-Nambi" x="56.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#1B1C3A">Florence Nambi</text>
-<text id="Client-CL-0021457-Kiwatule" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Client CL-0021457 · Kiwatule market route</text>
-<g id="icon-more" transform="translate(320.0 40.0) scale(1.0000)">
-<path d="M12 12h.01" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M19 12h.01" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M5 12h.01" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<text id="Kiwatule-market-route" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Kiwatule market route</text>
 </g>
+<g id="icon-phone" transform="translate(320.0 40.0) scale(0.9167)">
+<path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 18h.01" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="icon-navigation" transform="translate(280.0 40.0) scale(0.9167)">
+<path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g id="client-header">
 <rect x="16.0" y="92.0" width="328.0" height="84.0" rx="18" fill="#FFFFFE" filter="url(#soft)"/>
@@ -11722,7 +11724,7 @@
 <circle cx="50.0" cy="134.0" r="22.0" fill="#DAEEE5"/>
 <text id="FN" x="38.9" y="141.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17.6" font-weight="600" fill="#138351">FN</text>
 </g>
-<text id="Nambi-Tailoring-F" x="82.0" y="124.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Nambi Tailoring &amp; F…</text>
+<text id="Nambi-Tailoring-Fabrics" x="82.0" y="124.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Nambi Tailoring &amp; Fabrics</text>
 <g id="chip-Interested">
 <rect x="82.0" y="136.0" width="84.3" height="22.0" rx="11.0" fill="#E6EEFB"/>
 <circle cx="96.0" cy="147.0" r="4.0" fill="#2F6FDB"/>
@@ -11731,15 +11733,6 @@
 <g id="chip-MSE-Business-Loan">
 <rect x="172.3" y="136.0" width="114.3" height="22.0" rx="11.0" fill="#E2F1F3"/>
 <text id="MSE-Business-Loan" x="182.3" y="151.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#0C7B87">MSE Business Loan</text>
-</g>
-<circle cx="318.0" cy="122.0" r="17.0" fill="#EEEEF5"/>
-<g id="icon-phone" transform="translate(309.0 113.0) scale(0.7500)">
-<path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#2F2E80" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12 18h.01" fill="none" stroke="#2F2E80" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<circle cx="274.0" cy="122.0" r="17.0" fill="#EEEEF5"/>
-<g id="icon-navigation" transform="translate(265.0 113.0) scale(0.7500)">
-<path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#2F2E80" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
 <g id="visit-bar">
@@ -11779,37 +11772,23 @@
 <circle cx="316.0" cy="334.0" r="5.0" fill="#E4E5EF"/>
 <text id="Applied" x="298.9" y="354.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10" font-weight="400" fill="#AAACC0">Applied</text>
 <g id="why-here">
-<rect x="16.0" y="376.0" width="328.0" height="70.0" rx="14" fill="#FEF6CD"/>
+<rect x="16.0" y="376.0" width="328.0" height="54.0" rx="14" fill="#FEF6CD"/>
 <text id="WHY-YOU-RE-HERE-KIWATULE-F" x="30.0" y="398.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10" font-weight="700" fill="#8C6A00" letter-spacing="0.6">WHY YOU'RE HERE · KIWATULE FOLLOW-UPS</text>
 <text id="Collect-her-ID-and-sales-boo" x="30.0" y="418.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">Collect her ID and sales book, take KYC</text>
-<text id="Last-note-14-Sep-Documents" x="30.0" y="436.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#4B4D6B">Last note 14 Sep: “Documents ready by month end.”</text>
 </g>
-<g id="row-Next-step-take-KYC">
-<rect x="16.0" y="458.0" width="328.0" height="58.0" rx="14" fill="#FFFFFE" filter="url(#soft)"/>
-<circle cx="44.0" cy="487.0" r="16.0" fill="#EBE7F9"/>
-<g id="icon-idcard" transform="translate(35.0 478.0) scale(0.7500)">
+<g id="row-Next-take-KYC">
+<rect x="16.0" y="442.0" width="328.0" height="58.0" rx="14" fill="#FFFFFE" filter="url(#soft)"/>
+<circle cx="44.0" cy="471.0" r="16.0" fill="#EBE7F9"/>
+<g id="icon-idcard" transform="translate(35.0 462.0) scale(0.7500)">
 <path d="M4 5h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z" fill="none" stroke="#7056D6" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M8 9a2 2 0 1 0 0 4 2 2 0 1 0 0-4z" fill="none" stroke="#7056D6" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M5 16.5c.6-1.5 1.7-2.2 3-2.2s2.4.7 3 2.2" fill="none" stroke="#7056D6" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M14 10h5" fill="none" stroke="#7056D6" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M14 14h3" fill="none" stroke="#7056D6" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Next-step-take-KYC" x="70.0" y="484.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">Next step: take KYC</text>
-<text id="KYC-tab-4-short-sections" x="70.0" y="502.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">KYC tab · 4 short sections</text>
-<g id="icon-chevright" transform="translate(316.0 477.0) scale(0.8333)">
-<path d="M9 18l6-6-6-6" fill="none" stroke="#AAACC0" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</g>
-<g id="row-Loan">
-<rect x="16.0" y="524.0" width="328.0" height="58.0" rx="14" fill="#FFFFFE" filter="url(#soft)"/>
-<circle cx="44.0" cy="553.0" r="16.0" fill="#DDEFF1"/>
-<g id="icon-briefcase" transform="translate(35.0 544.0) scale(0.7500)">
-<path d="M4 7h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z" fill="none" stroke="#0E8C99" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" fill="none" stroke="#0E8C99" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<text id="Loan-2" x="70.0" y="550.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">Loan</text>
-<text id="Opens-once-KYC-is-validated" x="70.0" y="568.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">Opens once KYC is validated</text>
-<g id="icon-chevright-2" transform="translate(316.0 543.0) scale(0.8333)">
+<text id="Next-take-KYC" x="70.0" y="468.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">Next: take KYC</text>
+<text id="4-sections" x="70.0" y="486.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">4 sections</text>
+<g id="icon-chevright" transform="translate(316.0 461.0) scale(0.8333)">
 <path d="M9 18l6-6-6-6" fill="none" stroke="#AAACC0" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
@@ -11853,12 +11832,14 @@
 <path d="M12 19l-7-7 7-7" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="Florence-Nambi" x="56.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#1B1C3A">Florence Nambi</text>
-<text id="Client-CL-0021457-Kiwatule" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Client CL-0021457 · Kiwatule market route</text>
-<g id="icon-more" transform="translate(320.0 40.0) scale(1.0000)">
-<path d="M12 12h.01" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M19 12h.01" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M5 12h.01" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<text id="Kiwatule-market-route" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Kiwatule market route</text>
 </g>
+<g id="icon-phone" transform="translate(320.0 40.0) scale(0.9167)">
+<path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 18h.01" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="icon-navigation" transform="translate(280.0 40.0) scale(0.9167)">
+<path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g id="client-header">
 <rect x="16.0" y="92.0" width="328.0" height="84.0" rx="18" fill="#FFFFFE" filter="url(#soft)"/>
@@ -11866,7 +11847,7 @@
 <circle cx="50.0" cy="134.0" r="22.0" fill="#DAEEE5"/>
 <text id="FN" x="38.9" y="141.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17.6" font-weight="600" fill="#138351">FN</text>
 </g>
-<text id="Nambi-Tailoring-F" x="82.0" y="124.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Nambi Tailoring &amp; F…</text>
+<text id="Nambi-Tailoring-Fabrics" x="82.0" y="124.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Nambi Tailoring &amp; Fabrics</text>
 <g id="chip-Interested">
 <rect x="82.0" y="136.0" width="84.3" height="22.0" rx="11.0" fill="#E6EEFB"/>
 <circle cx="96.0" cy="147.0" r="4.0" fill="#2F6FDB"/>
@@ -11875,15 +11856,6 @@
 <g id="chip-MSE-Business-Loan">
 <rect x="172.3" y="136.0" width="114.3" height="22.0" rx="11.0" fill="#E2F1F3"/>
 <text id="MSE-Business-Loan" x="182.3" y="151.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#0C7B87">MSE Business Loan</text>
-</g>
-<circle cx="318.0" cy="122.0" r="17.0" fill="#EEEEF5"/>
-<g id="icon-phone" transform="translate(309.0 113.0) scale(0.7500)">
-<path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#2F2E80" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12 18h.01" fill="none" stroke="#2F2E80" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<circle cx="274.0" cy="122.0" r="17.0" fill="#EEEEF5"/>
-<g id="icon-navigation" transform="translate(265.0 113.0) scale(0.7500)">
-<path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#2F2E80" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
 <g id="visit-bar">
@@ -11906,50 +11878,49 @@
 <text id="Loan" x="207.1" y="266.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#4B4D6B">Loan</text>
 <text id="Visits" x="288.1" y="266.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#4B4D6B">Visits</text>
 </g>
-<text id="Taken-once-per-client-after" x="16.0" y="304.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Taken once per client, after they say they're interested.</text>
 <g id="kyc-Client-details">
-<rect x="16.0" y="318.0" width="328.0" height="58.0" rx="14" fill="#FFFFFE" filter="url(#soft)"/>
-<circle cx="42.0" cy="347.0" r="13.0" fill="#FFFFFE" stroke="#C4C7D6" stroke-width="2"/>
-<text id="1" x="38.5" y="351.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#4B4D6B">1</text>
+<rect x="16.0" y="292.0" width="328.0" height="58.0" rx="14" fill="#FFFFFE" filter="url(#soft)"/>
+<circle cx="42.0" cy="321.0" r="13.0" fill="#FFFFFE" stroke="#C4C7D6" stroke-width="2"/>
+<text id="1" x="38.5" y="325.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#4B4D6B">1</text>
 <g id="chip-To-do">
-<rect x="282.2" y="336.0" width="47.8" height="22.0" rx="11.0" fill="#F1F1F4"/>
-<text id="To-do" x="292.2" y="351.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#797C92">To do</text>
+<rect x="282.2" y="310.0" width="47.8" height="22.0" rx="11.0" fill="#F1F1F4"/>
+<text id="To-do" x="292.2" y="325.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#797C92">To do</text>
 </g>
-<text id="Client-details" x="66.0" y="343.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">Client details</text>
-<text id="Name-phone-age-family-wo" x="66.0" y="361.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">Name, phone, age, family, work</text>
+<text id="Client-details" x="66.0" y="317.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">Client details</text>
+<text id="Name-phone-age-family-wo" x="66.0" y="335.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">Name, phone, age, family, work</text>
 </g>
 <g id="kyc-National-ID-photos">
-<rect x="16.0" y="382.0" width="328.0" height="58.0" rx="14" fill="#FFFFFE" filter="url(#soft)"/>
-<circle cx="42.0" cy="411.0" r="13.0" fill="#FFFFFE" stroke="#C4C7D6" stroke-width="2"/>
-<text id="2" x="38.5" y="415.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#4B4D6B">2</text>
+<rect x="16.0" y="356.0" width="328.0" height="58.0" rx="14" fill="#FFFFFE" filter="url(#soft)"/>
+<circle cx="42.0" cy="385.0" r="13.0" fill="#FFFFFE" stroke="#C4C7D6" stroke-width="2"/>
+<text id="2" x="38.5" y="389.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#4B4D6B">2</text>
 <g id="chip-To-do-2">
-<rect x="282.2" y="400.0" width="47.8" height="22.0" rx="11.0" fill="#F1F1F4"/>
-<text id="To-do-2" x="292.2" y="415.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#797C92">To do</text>
+<rect x="282.2" y="374.0" width="47.8" height="22.0" rx="11.0" fill="#F1F1F4"/>
+<text id="To-do-2" x="292.2" y="389.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#797C92">To do</text>
 </g>
-<text id="National-ID-photos" x="66.0" y="407.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">National ID &amp; photos</text>
-<text id="NIRA-ID-live-selfie-premis" x="66.0" y="425.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">NIRA ID, live selfie, premises</text>
+<text id="National-ID-photos" x="66.0" y="381.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">National ID &amp; photos</text>
+<text id="NIRA-ID-live-selfie-premis" x="66.0" y="399.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">NIRA ID, live selfie, premises</text>
 </g>
 <g id="kyc-Earnings-collateral">
-<rect x="16.0" y="446.0" width="328.0" height="58.0" rx="14" fill="#FFFFFE" filter="url(#soft)"/>
-<circle cx="42.0" cy="475.0" r="13.0" fill="#FFFFFE" stroke="#C4C7D6" stroke-width="2"/>
-<text id="3" x="38.5" y="479.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#4B4D6B">3</text>
+<rect x="16.0" y="420.0" width="328.0" height="58.0" rx="14" fill="#FFFFFE" filter="url(#soft)"/>
+<circle cx="42.0" cy="449.0" r="13.0" fill="#FFFFFE" stroke="#C4C7D6" stroke-width="2"/>
+<text id="3" x="38.5" y="453.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#4B4D6B">3</text>
 <g id="chip-To-do-3">
-<rect x="282.2" y="464.0" width="47.8" height="22.0" rx="11.0" fill="#F1F1F4"/>
-<text id="To-do-3" x="292.2" y="479.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#797C92">To do</text>
+<rect x="282.2" y="438.0" width="47.8" height="22.0" rx="11.0" fill="#F1F1F4"/>
+<text id="To-do-3" x="292.2" y="453.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#797C92">To do</text>
 </g>
-<text id="Earnings-collateral" x="66.0" y="471.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">Earnings &amp; collateral</text>
-<text id="Income-other-loans-collate" x="66.0" y="489.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">Income, other loans, collateral</text>
+<text id="Earnings-collateral" x="66.0" y="445.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">Earnings &amp; collateral</text>
+<text id="Income-other-loans-collate" x="66.0" y="463.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">Income, other loans, collateral</text>
 </g>
 <g id="kyc-Validation">
-<rect x="16.0" y="510.0" width="328.0" height="58.0" rx="14" fill="#FFFFFE" filter="url(#soft)"/>
-<circle cx="42.0" cy="539.0" r="13.0" fill="#FFFFFE" stroke="#C4C7D6" stroke-width="2"/>
-<text id="4" x="38.5" y="543.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#4B4D6B">4</text>
+<rect x="16.0" y="484.0" width="328.0" height="58.0" rx="14" fill="#FFFFFE" filter="url(#soft)"/>
+<circle cx="42.0" cy="513.0" r="13.0" fill="#FFFFFE" stroke="#C4C7D6" stroke-width="2"/>
+<text id="4" x="38.5" y="517.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#4B4D6B">4</text>
 <g id="chip-To-do-4">
-<rect x="282.2" y="528.0" width="47.8" height="22.0" rx="11.0" fill="#F1F1F4"/>
-<text id="To-do-4" x="292.2" y="543.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#797C92">To do</text>
+<rect x="282.2" y="502.0" width="47.8" height="22.0" rx="11.0" fill="#F1F1F4"/>
+<text id="To-do-4" x="292.2" y="517.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#797C92">To do</text>
 </g>
-<text id="Validation" x="66.0" y="535.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">Validation</text>
-<text id="Automatic-checks" x="66.0" y="553.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">Automatic checks</text>
+<text id="Validation" x="66.0" y="509.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">Validation</text>
+<text id="Automatic-checks" x="66.0" y="527.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">Automatic checks</text>
 </g>
 <g id="footer">
 <rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#FFFFFE"/>
@@ -11991,12 +11962,14 @@
 <path d="M12 19l-7-7 7-7" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="Florence-Nambi" x="56.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#1B1C3A">Florence Nambi</text>
-<text id="Client-CL-0021457-Kiwatule" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Client CL-0021457 · Kiwatule market route</text>
-<g id="icon-more" transform="translate(320.0 40.0) scale(1.0000)">
-<path d="M12 12h.01" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M19 12h.01" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M5 12h.01" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<text id="Kiwatule-market-route" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Kiwatule market route</text>
 </g>
+<g id="icon-phone" transform="translate(320.0 40.0) scale(0.9167)">
+<path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 18h.01" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="icon-navigation" transform="translate(280.0 40.0) scale(0.9167)">
+<path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g id="client-header">
 <rect x="16.0" y="92.0" width="328.0" height="84.0" rx="18" fill="#FFFFFE" filter="url(#soft)"/>
@@ -12004,7 +11977,7 @@
 <circle cx="50.0" cy="134.0" r="22.0" fill="#DAEEE5"/>
 <text id="FN" x="38.9" y="141.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17.6" font-weight="600" fill="#138351">FN</text>
 </g>
-<text id="Nambi-Tailoring-F" x="82.0" y="124.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Nambi Tailoring &amp; F…</text>
+<text id="Nambi-Tailoring-Fabrics" x="82.0" y="124.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Nambi Tailoring &amp; Fabrics</text>
 <g id="chip-Interested">
 <rect x="82.0" y="136.0" width="84.3" height="22.0" rx="11.0" fill="#E6EEFB"/>
 <circle cx="96.0" cy="147.0" r="4.0" fill="#2F6FDB"/>
@@ -12013,15 +11986,6 @@
 <g id="chip-MSE-Business-Loan">
 <rect x="172.3" y="136.0" width="114.3" height="22.0" rx="11.0" fill="#E2F1F3"/>
 <text id="MSE-Business-Loan" x="182.3" y="151.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#0C7B87">MSE Business Loan</text>
-</g>
-<circle cx="318.0" cy="122.0" r="17.0" fill="#EEEEF5"/>
-<g id="icon-phone" transform="translate(309.0 113.0) scale(0.7500)">
-<path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#2F2E80" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12 18h.01" fill="none" stroke="#2F2E80" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<circle cx="274.0" cy="122.0" r="17.0" fill="#EEEEF5"/>
-<g id="icon-navigation" transform="translate(265.0 113.0) scale(0.7500)">
-<path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#2F2E80" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
 <g id="visit-bar">
@@ -12044,41 +12008,43 @@
 <text id="Loan" x="206.3" y="266.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#2F2E80">Loan</text>
 <text id="Visits" x="288.1" y="266.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#4B4D6B">Visits</text>
 </g>
-<g id="locked">
-<rect x="16.0" y="292.0" width="328.0" height="104.0" rx="16" fill="#FFFFFE" filter="url(#soft)"/>
-<circle cx="180.0" cy="326.0" r="20.0" fill="#EEEFF5"/>
-<g id="icon-lock" transform="translate(170.0 316.0) scale(0.8333)">
-<path d="M5 11h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2z" fill="none" stroke="#4B4D6B" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M7 11V7a5 5 0 0 1 10 0v4" fill="none" stroke="#4B4D6B" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="row-KYC-validated">
+<rect x="16.0" y="292.0" width="328.0" height="58.0" rx="14" fill="#ECF6F2"/>
+<circle cx="44.0" cy="321.0" r="16.0" fill="#DEF0E8"/>
+<g id="icon-shield" transform="translate(35.0 312.0) scale(0.7500)">
+<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" fill="none" stroke="#15925A" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 12l2 2 4-4" fill="none" stroke="#15925A" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Loan-options-open-once-KYC-i" x="60.5" y="364.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#1B1C3A">Loan options open once KYC is validated</text>
-<text id="Then-choose-a-product-amoun" x="74.6" y="383.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">Then choose a product, amount and term</text>
+<text id="KYC-validated" x="70.0" y="318.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">KYC validated</text>
+<text id="Today-11-24-6-of-6-checks" x="70.0" y="336.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">Today 11:24 · 6 of 6 checks</text>
 </g>
-<text id="Noted-at-her-first-visit" x="16.0" y="420.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Noted at her first visit</text>
+<g id="loan-start">
+<rect x="16.0" y="364.0" width="328.0" height="150.0" rx="16" fill="#FFFFFE" filter="url(#soft)"/>
+<text id="No-loan-application-yet" x="32.0" y="392.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">No loan application yet</text>
+<text id="Suggested-products" x="32.0" y="412.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Suggested products</text>
 <g id="pill-MSE-Business-Loan">
-<rect x="16.0" y="430.0" width="145.2" height="30.0" rx="15.0" fill="#EAEAF2" stroke="#2F2E80" stroke-width="1"/>
-<g id="icon-check" transform="translate(27.0 438.0) scale(0.5833)">
+<rect x="32.0" y="424.0" width="145.2" height="30.0" rx="15.0" fill="#EAEAF2" stroke="#2F2E80" stroke-width="1"/>
+<g id="icon-check" transform="translate(43.0 432.0) scale(0.5833)">
 <path d="M20 6L9 17l-5-5" fill="none" stroke="#2F2E80" stroke-width="4.46" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="MSE-Business-Loan-2" x="45.0" y="449.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#2F2E80">MSE Business Loan</text>
+<text id="MSE-Business-Loan-2" x="61.0" y="443.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#2F2E80">MSE Business Loan</text>
 </g>
 <g id="pill-School-Fees-Loan">
-<rect x="169.2" y="430.0" width="123.2" height="30.0" rx="15.0" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
-<text id="School-Fees-Loan" x="182.2" y="449.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">School Fees Loan</text>
+<rect x="185.2" y="424.0" width="123.2" height="30.0" rx="15.0" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
+<text id="School-Fees-Loan" x="198.2" y="443.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">School Fees Loan</text>
+</g>
+<text id="Can-pay-up-to-UGX-625-000-a" x="32.0" y="490.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#0E6B41">Can pay up to UGX 625,000 a month</text>
 </g>
 <g id="footer">
 <rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#FFFFFE"/>
 <line x1="0.0" y1="716.0" x2="360.0" y2="716.0" stroke="#E4E5EF" stroke-width="1"/>
-<g id="button-Start-KYC">
+<g id="button-Take-loan-application">
 <rect x="16.0" y="730.0" width="328.0" height="48.0" rx="12" fill="#2F2E80"/>
-<g id="icon-idcard" transform="translate(137.5 745.0) scale(0.7500)">
-<path d="M4 5h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M8 9a2 2 0 1 0 0 4 2 2 0 1 0 0-4z" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M5 16.5c.6-1.5 1.7-2.2 3-2.2s2.4.7 3 2.2" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 10h5" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 14h3" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="icon-briefcase" transform="translate(100.1 745.0) scale(0.7500)">
+<path d="M4 7h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Start-KYC" x="163.5" y="759.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Start KYC</text>
+<text id="Take-loan-application" x="126.1" y="759.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Take loan application</text>
 </g>
 </g>
 <rect id="gesture-bar" x="126.0" y="792.0" width="108.0" height="4.0" rx="2" fill="#1B1C3A" fill-opacity="0.45"/>
@@ -12106,12 +12072,14 @@
 <path d="M12 19l-7-7 7-7" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="Florence-Nambi" x="56.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#1B1C3A">Florence Nambi</text>
-<text id="Client-CL-0021457-Kiwatule" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Client CL-0021457 · Kiwatule market route</text>
-<g id="icon-more" transform="translate(320.0 40.0) scale(1.0000)">
-<path d="M12 12h.01" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M19 12h.01" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M5 12h.01" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<text id="Kiwatule-market-route" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Kiwatule market route</text>
 </g>
+<g id="icon-phone" transform="translate(320.0 40.0) scale(0.9167)">
+<path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 18h.01" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="icon-navigation" transform="translate(280.0 40.0) scale(0.9167)">
+<path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g id="client-header">
 <rect x="16.0" y="92.0" width="328.0" height="84.0" rx="18" fill="#FFFFFE" filter="url(#soft)"/>
@@ -12119,7 +12087,7 @@
 <circle cx="50.0" cy="134.0" r="22.0" fill="#DAEEE5"/>
 <text id="FN" x="38.9" y="141.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17.6" font-weight="600" fill="#138351">FN</text>
 </g>
-<text id="Nambi-Tailoring-F" x="82.0" y="124.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Nambi Tailoring &amp; F…</text>
+<text id="Nambi-Tailoring-Fabrics" x="82.0" y="124.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Nambi Tailoring &amp; Fabrics</text>
 <g id="chip-Interested">
 <rect x="82.0" y="136.0" width="84.3" height="22.0" rx="11.0" fill="#E6EEFB"/>
 <circle cx="96.0" cy="147.0" r="4.0" fill="#2F6FDB"/>
@@ -12128,15 +12096,6 @@
 <g id="chip-MSE-Business-Loan">
 <rect x="172.3" y="136.0" width="114.3" height="22.0" rx="11.0" fill="#E2F1F3"/>
 <text id="MSE-Business-Loan" x="182.3" y="151.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#0C7B87">MSE Business Loan</text>
-</g>
-<circle cx="318.0" cy="122.0" r="17.0" fill="#EEEEF5"/>
-<g id="icon-phone" transform="translate(309.0 113.0) scale(0.7500)">
-<path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#2F2E80" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12 18h.01" fill="none" stroke="#2F2E80" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<circle cx="274.0" cy="122.0" r="17.0" fill="#EEEEF5"/>
-<g id="icon-navigation" transform="translate(265.0 113.0) scale(0.7500)">
-<path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#2F2E80" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
 <g id="visit-bar">
@@ -12725,17 +12684,17 @@
 <g id="footer">
 <rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#FFFFFE"/>
 <line x1="0.0" y1="716.0" x2="360.0" y2="716.0" stroke="#E4E5EF" stroke-width="1"/>
-<g id="button-Record">
+<g id="button-Done">
 <rect x="16.0" y="730.0" width="100.0" height="48.0" rx="12" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Record" x="43.9" y="759.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Record</text>
+<text id="Done" x="49.0" y="759.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Done</text>
 </g>
-<g id="button-Open-the-Loan-tab">
+<g id="button-Continue-to-loan">
 <rect x="128.0" y="730.0" width="216.0" height="48.0" rx="12" fill="#2F2E80"/>
-<g id="icon-briefcase" transform="translate(163.9 745.0) scale(0.7500)">
-<path d="M4 7h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="icon-arrowright" transform="translate(170.0 745.0) scale(0.7500)">
+<path d="M5 12h14" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 5l7 7-7 7" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Open-the-Loan-tab" x="189.9" y="759.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Open the Loan tab</text>
+<text id="Continue-to-loan" x="196.0" y="759.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Continue to loan</text>
 </g>
 </g>
 <rect id="gesture-bar" x="126.0" y="792.0" width="108.0" height="4.0" rx="2" fill="#1B1C3A" fill-opacity="0.45"/>
@@ -12762,8 +12721,8 @@
 <path d="M19 12H5" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 19l-7-7 7-7" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Loan-Florence-Nambi" x="56.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#1B1C3A">Loan · Florence Nambi</text>
-<text id="Loan-tab-KYC-validated-11" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Loan tab · KYC validated 11:24 · negotiation</text>
+<text id="Loan-application" x="56.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#1B1C3A">Loan application</text>
+<text id="Florence-Nambi" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Florence Nambi</text>
 </g>
 <text id="Suggested-for-Florence" x="16.0" y="100.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1B1C3A">Suggested for Florence</text>
 <g id="product-MSE-Business-Loan">
@@ -12822,13 +12781,13 @@
 <rect x="16.0" y="730.0" width="100.0" height="48.0" rx="12" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <text id="Back" x="51.2" y="759.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Back</text>
 </g>
-<g id="button-Client-agrees-close">
+<g id="button-Next-submit">
 <rect x="128.0" y="730.0" width="216.0" height="48.0" rx="12" fill="#2F2E80"/>
-<g id="icon-arrowright" transform="translate(162.2 745.0) scale(0.7500)">
+<g id="icon-arrowright" transform="translate(182.4 745.0) scale(0.7500)">
 <path d="M5 12h14" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 5l7 7-7 7" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Client-agrees-close" x="188.2" y="759.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Client agrees: close</text>
+<text id="Next-submit" x="208.4" y="759.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Next: submit</text>
 </g>
 </g>
 <rect id="gesture-bar" x="126.0" y="792.0" width="108.0" height="4.0" rx="2" fill="#1B1C3A" fill-opacity="0.45"/>
@@ -13345,12 +13304,14 @@
 <path d="M12 19l-7-7 7-7" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="Florence-Nambi" x="56.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#1B1C3A">Florence Nambi</text>
-<text id="Client-CL-0021457-Kiwatule" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Client CL-0021457 · Kiwatule market route</text>
-<g id="icon-more" transform="translate(320.0 40.0) scale(1.0000)">
-<path d="M12 12h.01" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M19 12h.01" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M5 12h.01" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<text id="Kiwatule-market-route" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Kiwatule market route</text>
 </g>
+<g id="icon-phone" transform="translate(320.0 40.0) scale(0.9167)">
+<path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 18h.01" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="icon-navigation" transform="translate(280.0 40.0) scale(0.9167)">
+<path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g id="client-header">
 <rect x="16.0" y="92.0" width="328.0" height="84.0" rx="18" fill="#FFFFFE" filter="url(#soft)"/>
@@ -13358,7 +13319,7 @@
 <circle cx="50.0" cy="134.0" r="22.0" fill="#DAEEE5"/>
 <text id="FN" x="38.9" y="141.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17.6" font-weight="600" fill="#138351">FN</text>
 </g>
-<text id="Nambi-Tailoring-F" x="82.0" y="124.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Nambi Tailoring &amp; F…</text>
+<text id="Nambi-Tailoring-Fabrics" x="82.0" y="124.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Nambi Tailoring &amp; Fabrics</text>
 <g id="chip-Applied">
 <rect x="82.0" y="136.0" width="72.9" height="22.0" rx="11.0" fill="#E3F2EB"/>
 <circle cx="96.0" cy="147.0" r="4.0" fill="#15925A"/>
@@ -13367,15 +13328,6 @@
 <g id="chip-MSE-Business-Loan">
 <rect x="160.9" y="136.0" width="114.3" height="22.0" rx="11.0" fill="#E2F1F3"/>
 <text id="MSE-Business-Loan" x="170.9" y="151.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#0C7B87">MSE Business Loan</text>
-</g>
-<circle cx="318.0" cy="122.0" r="17.0" fill="#EEEEF5"/>
-<g id="icon-phone" transform="translate(309.0 113.0) scale(0.7500)">
-<path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#2F2E80" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12 18h.01" fill="none" stroke="#2F2E80" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<circle cx="274.0" cy="122.0" r="17.0" fill="#EEEEF5"/>
-<g id="icon-navigation" transform="translate(265.0 113.0) scale(0.7500)">
-<path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#2F2E80" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
 <g id="visit-bar">
@@ -13429,7 +13381,7 @@
 <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" fill="none" stroke="#15925A" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="LU-APP-2609-04817" x="70.0" y="468.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">LU-APP-2609-04817</text>
-<text id="UGX-6-000-000-18-months" x="70.0" y="486.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">UGX 6,000,000 · 18 months · Loan tab</text>
+<text id="UGX-6-000-000-18-months" x="70.0" y="486.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">UGX 6,000,000 · 18 months</text>
 <g id="icon-chevright" transform="translate(316.0 461.0) scale(0.8333)">
 <path d="M9 18l6-6-6-6" fill="none" stroke="#AAACC0" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
@@ -13485,12 +13437,14 @@
 <path d="M12 19l-7-7 7-7" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="Florence-Nambi" x="56.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#1B1C3A">Florence Nambi</text>
-<text id="Client-CL-0021457-Kiwatule" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Client CL-0021457 · Kiwatule market route</text>
-<g id="icon-more" transform="translate(320.0 40.0) scale(1.0000)">
-<path d="M12 12h.01" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M19 12h.01" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M5 12h.01" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<text id="Kiwatule-market-route" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Kiwatule market route</text>
 </g>
+<g id="icon-phone" transform="translate(320.0 40.0) scale(0.9167)">
+<path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 18h.01" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="icon-navigation" transform="translate(280.0 40.0) scale(0.9167)">
+<path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g id="client-header">
 <rect x="16.0" y="92.0" width="328.0" height="84.0" rx="18" fill="#FFFFFE" filter="url(#soft)"/>
@@ -13498,7 +13452,7 @@
 <circle cx="50.0" cy="134.0" r="22.0" fill="#DAEEE5"/>
 <text id="FN" x="38.9" y="141.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17.6" font-weight="600" fill="#138351">FN</text>
 </g>
-<text id="Nambi-Tailoring-F" x="82.0" y="124.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Nambi Tailoring &amp; F…</text>
+<text id="Nambi-Tailoring-Fabrics" x="82.0" y="124.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Nambi Tailoring &amp; Fabrics</text>
 <g id="chip-Applied">
 <rect x="82.0" y="136.0" width="72.9" height="22.0" rx="11.0" fill="#E3F2EB"/>
 <circle cx="96.0" cy="147.0" r="4.0" fill="#15925A"/>
@@ -13507,15 +13461,6 @@
 <g id="chip-MSE-Business-Loan">
 <rect x="160.9" y="136.0" width="114.3" height="22.0" rx="11.0" fill="#E2F1F3"/>
 <text id="MSE-Business-Loan" x="170.9" y="151.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#0C7B87">MSE Business Loan</text>
-</g>
-<circle cx="318.0" cy="122.0" r="17.0" fill="#EEEEF5"/>
-<g id="icon-phone" transform="translate(309.0 113.0) scale(0.7500)">
-<path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#2F2E80" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12 18h.01" fill="none" stroke="#2F2E80" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<circle cx="274.0" cy="122.0" r="17.0" fill="#EEEEF5"/>
-<g id="icon-navigation" transform="translate(265.0 113.0) scale(0.7500)">
-<path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#2F2E80" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
 <g id="visit-bar">
@@ -13622,12 +13567,14 @@
 <path d="M12 19l-7-7 7-7" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="Florence-Nambi" x="56.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#1B1C3A">Florence Nambi</text>
-<text id="Client-CL-0021457-Kiwatule" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Client CL-0021457 · Kiwatule market route</text>
-<g id="icon-more" transform="translate(320.0 40.0) scale(1.0000)">
-<path d="M12 12h.01" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M19 12h.01" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M5 12h.01" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<text id="Kiwatule-market-route" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Kiwatule market route</text>
 </g>
+<g id="icon-phone" transform="translate(320.0 40.0) scale(0.9167)">
+<path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 18h.01" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="icon-navigation" transform="translate(280.0 40.0) scale(0.9167)">
+<path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g id="client-header">
 <rect x="16.0" y="92.0" width="328.0" height="84.0" rx="18" fill="#FFFFFE" filter="url(#soft)"/>
@@ -13635,7 +13582,7 @@
 <circle cx="50.0" cy="134.0" r="22.0" fill="#DAEEE5"/>
 <text id="FN" x="38.9" y="141.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17.6" font-weight="600" fill="#138351">FN</text>
 </g>
-<text id="Nambi-Tailoring-F" x="82.0" y="124.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Nambi Tailoring &amp; F…</text>
+<text id="Nambi-Tailoring-Fabrics" x="82.0" y="124.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Nambi Tailoring &amp; Fabrics</text>
 <g id="chip-Applied">
 <rect x="82.0" y="136.0" width="72.9" height="22.0" rx="11.0" fill="#E3F2EB"/>
 <circle cx="96.0" cy="147.0" r="4.0" fill="#15925A"/>
@@ -13644,15 +13591,6 @@
 <g id="chip-MSE-Business-Loan">
 <rect x="160.9" y="136.0" width="114.3" height="22.0" rx="11.0" fill="#E2F1F3"/>
 <text id="MSE-Business-Loan" x="170.9" y="151.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#0C7B87">MSE Business Loan</text>
-</g>
-<circle cx="318.0" cy="122.0" r="17.0" fill="#EEEEF5"/>
-<g id="icon-phone" transform="translate(309.0 113.0) scale(0.7500)">
-<path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#2F2E80" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12 18h.01" fill="none" stroke="#2F2E80" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<circle cx="274.0" cy="122.0" r="17.0" fill="#EEEEF5"/>
-<g id="icon-navigation" transform="translate(265.0 113.0) scale(0.7500)">
-<path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#2F2E80" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
 <g id="visit-bar">
@@ -13731,12 +13669,14 @@
 <path d="M12 19l-7-7 7-7" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="Florence-Nambi" x="56.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#1B1C3A">Florence Nambi</text>
-<text id="Client-CL-0021457-Kiwatule" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Client CL-0021457 · Kiwatule market route</text>
-<g id="icon-more" transform="translate(320.0 40.0) scale(1.0000)">
-<path d="M12 12h.01" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M19 12h.01" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M5 12h.01" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<text id="Kiwatule-market-route" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Kiwatule market route</text>
 </g>
+<g id="icon-phone" transform="translate(320.0 40.0) scale(0.9167)">
+<path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 18h.01" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="icon-navigation" transform="translate(280.0 40.0) scale(0.9167)">
+<path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g id="client-header">
 <rect x="16.0" y="92.0" width="328.0" height="84.0" rx="18" fill="#FFFFFE" filter="url(#soft)"/>
@@ -13744,7 +13684,7 @@
 <circle cx="50.0" cy="134.0" r="22.0" fill="#DAEEE5"/>
 <text id="FN" x="38.9" y="141.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17.6" font-weight="600" fill="#138351">FN</text>
 </g>
-<text id="Nambi-Tailoring-F" x="82.0" y="124.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Nambi Tailoring &amp; F…</text>
+<text id="Nambi-Tailoring-Fabrics" x="82.0" y="124.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Nambi Tailoring &amp; Fabrics</text>
 <g id="chip-Applied">
 <rect x="82.0" y="136.0" width="72.9" height="22.0" rx="11.0" fill="#E3F2EB"/>
 <circle cx="96.0" cy="147.0" r="4.0" fill="#15925A"/>
@@ -13753,15 +13693,6 @@
 <g id="chip-MSE-Business-Loan">
 <rect x="160.9" y="136.0" width="114.3" height="22.0" rx="11.0" fill="#E2F1F3"/>
 <text id="MSE-Business-Loan" x="170.9" y="151.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#0C7B87">MSE Business Loan</text>
-</g>
-<circle cx="318.0" cy="122.0" r="17.0" fill="#EEEEF5"/>
-<g id="icon-phone" transform="translate(309.0 113.0) scale(0.7500)">
-<path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#2F2E80" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12 18h.01" fill="none" stroke="#2F2E80" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<circle cx="274.0" cy="122.0" r="17.0" fill="#EEEEF5"/>
-<g id="icon-navigation" transform="translate(265.0 113.0) scale(0.7500)">
-<path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#2F2E80" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
 <g id="visit-bar">

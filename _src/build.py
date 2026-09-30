@@ -151,12 +151,14 @@ function go(key, push = true, record = true) {
   }
   frame.querySelectorAll('.hot').forEach(h => h.remove());
   s.links.forEach(([x, y, w, h, t]) => {
-    const isBack = t.startsWith('!back:');
-    if (t !== '!theme' && !isBack && !byKey[t]) return;
+    const isBack = t.startsWith('!back:'), isTab = t.startsWith('!tab:');
+    const dest = isTab ? t.slice(5) : t;
+    if (t !== '!theme' && !isBack && !byKey[dest]) return;
     const a = document.createElement('div'); a.className = 'hot';
-    a.title = t === '!theme' ? 'Light / dark mode' : (isBack ? 'Back' : byKey[t].title);
+    a.title = t === '!theme' ? 'Light / dark mode' : (isBack ? 'Back' : byKey[dest].title);
     Object.assign(a.style, { left: x / s.w * 100 + '%', top: y / s.h * 100 + '%', width: w / s.w * 100 + '%', height: h / s.h * 100 + '%' });
-    a.onclick = e => { e.stopPropagation(); if (t === '!theme') toggleTheme(); else if (isBack) back(t.slice(6)); else go(t); };
+    a.onclick = e => { e.stopPropagation(); if (t === '!theme') toggleTheme(); else if (isBack) back(t.slice(6));
+      else if (isTab) go(dest, true, false); else go(t); };
     frame.appendChild(a);
   });
   pick.value = key; fit();

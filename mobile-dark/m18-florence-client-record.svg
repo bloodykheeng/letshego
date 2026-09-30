@@ -21,12 +21,14 @@
 <path d="M12 19l-7-7 7-7" fill="none" stroke="#CBCCE7" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="Florence-Nambi" x="56.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#CBCCE7">Florence Nambi</text>
-<text id="Client-CL-0021457-Kiwatule" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Client CL-0021457 · Kiwatule market route</text>
-<g id="icon-more" transform="translate(320.0 40.0) scale(1.0000)">
-<path d="M12 12h.01" fill="none" stroke="#CBCCE7" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M19 12h.01" fill="none" stroke="#CBCCE7" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M5 12h.01" fill="none" stroke="#CBCCE7" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<text id="Kiwatule-market-route" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kiwatule market route</text>
 </g>
+<g id="icon-phone" transform="translate(320.0 40.0) scale(0.9167)">
+<path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#CBCCE7" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 18h.01" fill="none" stroke="#CBCCE7" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="icon-navigation" transform="translate(280.0 40.0) scale(0.9167)">
+<path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#CBCCE7" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g id="client-header">
 <rect x="16.0" y="92.0" width="328.0" height="84.0" rx="18" fill="#1D1E27" filter="url(#soft)"/>
@@ -34,7 +36,7 @@
 <circle cx="50.0" cy="134.0" r="22.0" fill="#2A3A33"/>
 <text id="FN" x="38.9" y="141.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17.6" font-weight="600" fill="#9AF0CA">FN</text>
 </g>
-<text id="Nambi-Tailoring-F" x="82.0" y="124.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#CBCCE7">Nambi Tailoring &amp; F…</text>
+<text id="Nambi-Tailoring-Fabrics" x="82.0" y="124.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#CBCCE7">Nambi Tailoring &amp; Fabrics</text>
 <g id="chip-Applied">
 <rect x="82.0" y="136.0" width="72.9" height="22.0" rx="11.0" fill="#25332C"/>
 <circle cx="96.0" cy="147.0" r="4.0" fill="#15925A"/>
@@ -43,15 +45,6 @@
 <g id="chip-MSE-Business-Loan">
 <rect x="160.9" y="136.0" width="114.3" height="22.0" rx="11.0" fill="#243234"/>
 <text id="MSE-Business-Loan" x="170.9" y="151.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CE8F1">MSE Business Loan</text>
-</g>
-<circle cx="318.0" cy="122.0" r="17.0" fill="#21212A"/>
-<g id="icon-phone" transform="translate(309.0 113.0) scale(0.7500)">
-<path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#A09FDD" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12 18h.01" fill="none" stroke="#A09FDD" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<circle cx="274.0" cy="122.0" r="17.0" fill="#21212A"/>
-<g id="icon-navigation" transform="translate(265.0 113.0) scale(0.7500)">
-<path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#A09FDD" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
 <g id="visit-bar">
@@ -105,7 +98,7 @@
 <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" fill="none" stroke="#91EFC5" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="LU-APP-2609-04817" x="70.0" y="468.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">LU-APP-2609-04817</text>
-<text id="UGX-6-000-000-18-months" x="70.0" y="486.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">UGX 6,000,000 · 18 months · Loan tab</text>
+<text id="UGX-6-000-000-18-months" x="70.0" y="486.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">UGX 6,000,000 · 18 months</text>
 <g id="icon-chevright" transform="translate(316.0 461.0) scale(0.8333)">
 <path d="M9 18l6-6-6-6" fill="none" stroke="#AAACC0" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
 </g>

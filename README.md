@@ -60,7 +60,7 @@ _src/briefing.py ────────────►  briefing.html         
 
 **Vocabularies** at the top of `kit.py`: `STAGES` (the client journey from the whiteboard, in order), `STATUS` colours, `PRODUCTS` (**placeholders** until Letshego confirms its catalogue). Change them there and every screen follows.
 
-**Hotspots:** `s.link(x, y, w, h, "w05")` records a clickable area that opens screen `w05`. The special target `"!theme"` switches light / dark instead of opening a screen.
+**Hotspots:** `s.link(x, y, w, h, "w05")` records a clickable area that opens screen `w05`. The special target `"!theme"` switches light / dark instead of opening a screen. App back arrows use `"!back:m05"`: they return to the screen the user came from, and open `m05` only when there is no history (for example after opening a screen by its link).
 
 **Soft cards.** Phone screens and the web shell set `s.soft = True`: any white card drawn with `stroke=LINE` and `rx >= 10` gets a soft drop shadow instead of a border. Pass `shadow=False` to opt out, `shadow=True` to force one.
 

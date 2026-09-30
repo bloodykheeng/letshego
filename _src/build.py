@@ -134,8 +134,11 @@ function fit() {
   const k = Math.min((st.clientWidth - pad) / s.w, (st.clientHeight - pad) / s.h, small ? 3 : (s.mobile ? 1.1 : 1));
   frame.style.width = (s.w * k + bw) + 'px'; frame.style.height = (s.h * k + bw) + 'px';
 }
-function go(key, push = true) {
+const hist = [];   // screens visited, so app back arrows return to where you came from
+function back(fallback) { const prev = hist.pop(); go(prev && byKey[prev] ? prev : fallback, true, false); }
+function go(key, push = true, record = true) {
   if (!byKey[key]) key = order[0];
+  if (record && cur && cur !== key) { hist.push(cur); if (hist.length > 60) hist.shift(); }
   cur = key; const s = byKey[key];
   frame.className = s.mobile ? 'mobile' : ''; if (showAll) frame.classList.add('show');
   const cached = CACHE[theme + key];
@@ -148,11 +151,12 @@ function go(key, push = true) {
   }
   frame.querySelectorAll('.hot').forEach(h => h.remove());
   s.links.forEach(([x, y, w, h, t]) => {
-    if (t !== '!theme' && !byKey[t]) return;
+    const isBack = t.startsWith('!back:');
+    if (t !== '!theme' && !isBack && !byKey[t]) return;
     const a = document.createElement('div'); a.className = 'hot';
-    a.title = t === '!theme' ? 'Light / dark mode' : byKey[t].title;
+    a.title = t === '!theme' ? 'Light / dark mode' : (isBack ? 'Back' : byKey[t].title);
     Object.assign(a.style, { left: x / s.w * 100 + '%', top: y / s.h * 100 + '%', width: w / s.w * 100 + '%', height: h / s.h * 100 + '%' });
-    a.onclick = e => { e.stopPropagation(); t === '!theme' ? toggleTheme() : go(t); };
+    a.onclick = e => { e.stopPropagation(); if (t === '!theme') toggleTheme(); else if (isBack) back(t.slice(6)); else go(t); };
     frame.appendChild(a);
   });
   pick.value = key; fit();

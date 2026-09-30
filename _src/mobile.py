@@ -59,7 +59,7 @@ def app_bar(s: SVG, title, back=None, sub=None, right=None, dark=False):
         if right:
             s.icon(right, MW - PAD - 24, 40, 24, fg, 2)
     if back:
-        s.link(0, 24, 56, 56, back)
+        s.link(0, 24, 56, 56, "!back:" + back)   # back to wherever the user came from; `back` if opened directly
 
 
 def bottom_nav(s: SVG, active="Home"):

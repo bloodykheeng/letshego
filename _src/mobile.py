@@ -1014,44 +1014,45 @@ def m19_me():
         s.text(MW - PAD - 20, 96, "Theme", 10.5, 600, MUTED, anchor="middle")
     s.link(MW - PAD - 44, 36, 48, 68, "!theme")
     with s.g("quarter"):
-        y = 140
-        s.rect(PAD, y, MW - 2 * PAD, 116, fill=CARD, rx=20, stroke=LINE)
-        s.text(PAD + 16, y + 28, "Q3 2026", 14, 700, INK)
-        chip(s, MW - PAD - 16 - tw("Rank 3 of 62", 11, 600) - 34, y + 12, "Rank 3 of 62", GREEN, h=22, size=11,
+        y = 136
+        s.rect(PAD, y, MW - 2 * PAD, 100, fill=CARD, rx=20, stroke=LINE)
+        s.text(PAD + 16, y + 26, "Q3 2026", 14, 700, INK)
+        chip(s, MW - PAD - 16 - tw("Rank 3 of 62", 11, 600) - 34, y + 10, "Rank 3 of 62", GREEN, h=22, size=11,
              icon="trophy")
         cw = (MW - 2 * PAD - 32) / 3
         for i, (v, lab) in enumerate([("19/22", "Conversions"), ("214", "Visits"), ("82%", "Plan kept")]):
             x = PAD + 16 + i * cw
-            s.text(x, y + 72, v, 21, 700, INK)
-            s.text(x, y + 94, lab, 12, 400, MUTED)
-    y = 282
+            s.text(x, y + 64, v, 21, 700, INK)
+            s.text(x, y + 84, lab, 12, 400, MUTED)
+    y = 262
     s.text(PAD, y, "This week", 15, 700, INK)
     s.text(MW - PAD, y, "W13 · 28 Sep – 2 Oct", 12, 400, MUTED, anchor="end")
-    y += 14
-    s.rect(PAD, y, MW - 2 * PAD, 176, fill=CARD, rx=14, stroke=LINE)
-    s.text(PAD + 16, y + 30, "Journey plan visits made", 13.5, 400, INK2)
-    s.text(MW - PAD - 16, y + 30, "15 of 18", 13.5, 700, INK, anchor="end")
-    progress(s, PAD + 16, y + 39, MW - 2 * PAD - 32, 15 / 18, BRAND, h=5)
+    y += 12
+    s.rect(PAD, y, MW - 2 * PAD, 144, fill=CARD, rx=16, stroke=LINE)
+    s.text(PAD + 16, y + 26, "Journey plan visits made", 13, 400, INK2)
+    s.text(MW - PAD - 16, y + 26, "15 of 18", 13, 700, INK, anchor="end")
+    progress(s, PAD + 16, y + 35, MW - 2 * PAD - 32, 15 / 18, BRAND, h=5)
     for i, (lab, v) in enumerate([("Off-plan visits (new clients, walk-ins)", "2"), ("KYCs completed", "5"),
                                   ("Conversions", "2")]):
-        yy = y + 76 + i * 34
-        s.text(PAD + 16, yy, lab, 13.5, 400, INK2)
-        s.text(MW - PAD - 16, yy, v, 13.5, 700, INK, anchor="end")
-    y += 194
-    rows = [("refresh", "Sync", "All synced 12:01 · nothing waiting", GREEN),
-            ("map", "Offline maps", "Kampala East downloaded", BRAND),
-            ("layers", "My territory", "Ntinda · Kiwatule · 6 routes · 212 clients", BRAND)]
-    for ic, t, sub, col in rows:
-        with s.g(f"row {t}"):
-            s.rect(PAD, y, MW - 2 * PAD, 56, fill=CARD, rx=12, stroke=LINE)
-            s.icon(ic, PAD + 14, y + 17, 22, col, 2)
-            s.text(PAD + 48, y + 25, t, 14, 600, INK)
-            s.text(PAD + 48, y + 43, sub, 12, 400, MUTED)
-            s.icon("chevright", MW - PAD - 30, y + 18, 20, FAINT)
-        y += 62
-    with s.g("sign out"):
-        s.text(MW / 2, y + 14, "Sign out", 14, 700, RED, anchor="middle")
-        s.link(MW / 2 - 60, y - 6, 120, 30, "m02")
+        yy = y + 70 + i * 26
+        s.text(PAD + 16, yy, lab, 13, 400, INK2)
+        s.text(MW - PAD - 16, yy, v, 13, 700, INK, anchor="end")
+    y += 160
+    rows = [("refresh", "Sync", "All synced 12:01 · nothing waiting", GREEN, None),
+            ("map", "Offline maps", "Kampala East downloaded", BRAND, None),
+            ("layers", "My territory", "Ntinda · Kiwatule · 6 routes · 212 clients", BRAND, None),
+            ("logout", "Sign out", "You can sign back in offline with your PIN", RED, "m02")]
+    for ic, t_, sub, col, tgt in rows:
+        with s.g(f"row {t_}"):
+            s.rect(PAD, y, MW - 2 * PAD, 48, fill=CARD, rx=14, stroke=LINE)
+            s.icon(ic, PAD + 14, y + 13, 22, col, 2)
+            s.text(PAD + 48, y + 21, t_, 13.5, 600, RED if tgt else INK)
+            s.text(PAD + 48, y + 38, sub, 11.5, 400, MUTED)
+            if not tgt:
+                s.icon("chevright", MW - PAD - 30, y + 14, 20, FAINT)
+        if tgt:
+            s.link(PAD, y, MW - 2 * PAD, 48, tgt)
+        y += 54
     bottom_nav(s, "Me")
     return s
 

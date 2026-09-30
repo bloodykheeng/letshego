@@ -35,6 +35,7 @@
 | **Region › Branch › Territory › Route** | Letshego's geography, as in NICE. A **territory** is a real area (e.g. Ntinda · Kiwatule) covered by one agent; it holds several **routes** (e.g. Kiwatule market). Every client sits on a route, placed automatically from GPS when registered, so each client falls under one territory and its agent. |
 | **Affordability / DSR** | Whether the instalment fits the client's income. We show "instalment as a % of free income" (income minus expenses), with a 50% ceiling as a placeholder. |
 | **SPLY** | **Same Period Last Year.** A comparison NICE's dashboards use; we show conversions "vs Q3 2025" on the overview. |
+| **Check-in / check-out** | The start and end of a visit, stamped with GPS and time. The outcome is recorded before check-out. |
 | **Silent agent** | Our word for an agent with no check-in for 14+ days. Not a client term. |
 
 ---
@@ -112,12 +113,14 @@ The stages come straight from the whiteboard (Figure 1 in the brief).
 
 | Role | Person in the prototype | What they do | Sees |
 |---|---|---|---|
-| **Field Sales Agent** | Sarah Namuli, Kampala East | Visits, KYC, negotiation, submits applications | Own clients only |
-| **Branch Supervisor** | Moses Okello, Kampala East | Approves applications, creates journey plans, assigns territories to agents | Their branch |
-| **Regional Manager** | (not shown) | Oversees several branches | Their region |
-| **HQ Credit Approver** | (not shown) | Decides loans above the branch limit | All, above limit |
+| **Field Sales Agent** | Sarah Namuli, Kampala East | Visits, KYC, negotiation, submits applications; can propose journey plans | Clients in their own territories |
+| **Branch Supervisor** | Moses Okello, Kampala East | Approves applications, creates journey plans, adds routes, assigns territories to agents | Their branch |
+| **Regional Manager** | Agnes Nabwire, Central (on [W12](https://letshego-prototype.vercel.app/prototype.html#w12)) | Oversees several branches | Their region |
+| **HQ Credit Approver** | Daniel Ssekandi (on [W12](https://letshego-prototype.vercel.app/prototype.html#w12)) | Decides loans above the branch limit | All, above limit |
 | **Head of Sales / Management** | Patricia Nankya | Watches performance and acts on silent agents | All branches |
 | **System Admin** | (not shown) | Users, devices, settings | Settings only |
+
+What each person sees is set by the **locations in their user form** (region, branch, territories), as in NICE. See [W12c Roles & access](https://letshego-prototype.vercel.app/prototype.html#w12c).
 
 In the web console, **click the name at the bottom left** to switch between Patricia (management) and Moses (supervisor). That's a demo shortcut, not a real feature.
 
@@ -139,12 +142,12 @@ Everything is stored on Letshego's servers, not only on the phone. Every change 
 
 ## 8. Walkthrough script (about 8 minutes)
 
-1. **[W00 Sign in](https://letshego-prototype.vercel.app/prototype.html#w00):** "One sign-in for head office, branches and the field, with two-step verification."
+1. **[W00 Sign in](https://letshego-prototype.vercel.app/prototype.html#w00):** "One sign-in for head office, branches and the field, with two-step verification." The cards around the form preview what's inside. The moon (top right, and in every screen's top bar) switches to dark mode; use it once to show it exists.
 2. **[W01 Sales overview](https://letshego-prototype.vercel.app/prototype.html#w01):** "This is the quarter you described: week 1 busy, the middle quiet, the rush at the end. Here's the funnel from visit to application, and the agents who need a call today."
 3. **[W02 Agents](https://letshego-prototype.vercel.app/prototype.html#w02):** "Each row is an agent; each little square is a week. Red outlines are weeks with no visits. You see the slump per person, not just in total."
 4. **[W04 Field map](https://letshego-prototype.vercel.app/prototype.html#w04):** "Where agents are right now and every visit today, coloured by outcome." Click the popup → **[W06](https://letshego-prototype.vercel.app/prototype.html#w06)**.
 5. **[W06 Client record](https://letshego-prototype.vercel.app/prototype.html#w06):** "Florence's whole story: first visited by John, who left; the record stayed with Letshego and moved to Sarah. KYC photos, checks, and the application."
-6. **Switch to the app** (bottom bar, *Agent app*): [M3 Home](https://letshego-prototype.vercel.app/prototype.html#m03) shows what's due today from Sarah's [journey plans](https://letshego-prototype.vercel.app/prototype.html#m04) → yellow **Visit** button → [M5 choose the client](https://letshego-prototype.vercel.app/prototype.html#m05).
+6. **Switch to the app** (bottom bar, *Agent app*): [M2 PIN sign-in](https://letshego-prototype.vercel.app/prototype.html#m02) → [M3 Home](https://letshego-prototype.vercel.app/prototype.html#m03): her Q3 number and rank, "no quiet weeks", **Up next** (Florence) and today's timeline from her [journey plans](https://letshego-prototype.vercel.app/prototype.html#m04) → yellow **Visit** button → [M5 choose the client](https://letshego-prototype.vercel.app/prototype.html#m05).
    - **New client:** [M6 register Joseph](https://letshego-prototype.vercel.app/prototype.html#m06) (light details, no KYC) → [M7 first visit](https://letshego-prototype.vercel.app/prototype.html#m07): needs and products that might suit → "No" → [M8 capture why](https://letshego-prototype.vercel.app/prototype.html#m08) → check out. "We always capture why."
    - **Returning client:** Florence → [M9 visit](https://letshego-prototype.vercel.app/prototype.html#m09): where she is in the journey, why Sarah is there, what happened. She's ready, so KYC [M10](https://letshego-prototype.vercel.app/prototype.html#m10)–[M12](https://letshego-prototype.vercel.app/prototype.html#m12) → [M13 validated](https://letshego-prototype.vercel.app/prototype.html#m13) → [M14 product](https://letshego-prototype.vercel.app/prototype.html#m14) → [M15 close](https://letshego-prototype.vercel.app/prototype.html#m15) → [M16 conversion and check-out](https://letshego-prototype.vercel.app/prototype.html#m16). Finish on [M18](https://letshego-prototype.vercel.app/prototype.html#m18), her record.
 7. **Back to the web** as Moses: [W07 Approvals](https://letshego-prototype.vercel.app/prototype.html#w07) → [W08 Decision](https://letshego-prototype.vercel.app/prototype.html#w08). "Conversion already counted; the decision is separate."
@@ -162,7 +165,7 @@ The brief asks us to bring these. Our current assumptions are in brackets; each 
 - Does a conversion need the loan application ID at submission, or can it follow later? (We assumed at submission.)
 - Who approves what: branch supervisor up to what amount, HQ above? (Placeholder: UGX 10M branch limit.)
 - Can a supervisor return an application for more documents without losing the conversion? (We assumed yes.)
-- How are territories drawn today: by area, by employer (for payroll loans), or both?
+- How are territories drawn today: by area, by employer (for payroll loans), or both? And the real list of regions, branches and territories. (We showed 4 regions, 14 branches, 64 territories, 251 routes; illustrative.)
 
 **Products and rules**
 - The real product list, amounts, terms and rates. (We used five illustrative products and 2.9% a month only for the calculator.)
@@ -219,8 +222,8 @@ A proposal to discuss, not a commitment.
 
 | Part | Proposal |
 |---|---|
-| Agent app | Flutter, Android first. Offline-first local database, background sync, camera with GPS stamping, fingerprint/PIN sign-in, remote wipe. |
-| Web console | Dashboards, approvals, pipeline, maps, plans, users. Role- and territory-based access. |
+| Agent app | Flutter, Android first. Offline-first local database, background sync, camera with GPS stamping, fingerprint/PIN sign-in, remote wipe, light and dark mode. |
+| Web console | Dashboards, approvals, pipeline, maps, journey plans, locations, users. Access scoped by role and assigned locations. Light and dark mode. |
 | API and data | One back end for app and web; client records owned by Letshego; full audit log; daily backups. |
 | Integrations | Loan system (application ID and status), NIRA gateway, CRB, SMS. Each with a manual or file fallback. |
 | Rollout | Demo → pilot at one or two branches (e.g. Kampala East) → all branches. Train supervisors first. |
@@ -233,4 +236,6 @@ A proposal to discuss, not a commitment.
 - **Brand colours were sampled from Letshego's LetsGo app** (indigo #2F2E80, yellow #FBD405, the triangle mark). Ask for their brand guidelines before any production design.
 - **Don't promise NIRA or CRB integration dates.** Access depends on Letshego's agreements.
 - **Open the link while online** and wait for "✓ Offline-ready" in the bottom bar; present full screen (**F**).
+- **Light or dark:** pick one before you start (moon button, or **D**) and stay in it; the choice is remembered.
+- **Demo shortcut:** clicking the name at the bottom left of the console switches between Patricia and Moses. Don't present it as a feature.
 - The client asked about "who is not bringing in clients". Lead with W01 → W02; that is their pain.

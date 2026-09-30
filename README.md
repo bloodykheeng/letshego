@@ -7,6 +7,7 @@ Demo-stage prototype of a field sales app for **Letshego Uganda**: an Android ap
 - **40 screens:** 19 web (1920×1080) and 21 screens of the Android agent app (360×800, to be built in Flutter)
 - All names, figures, IDs and loan products are **illustrative**. District boundaries are real (UBOS).
 - Brand colours were sampled from Letshego's LetsGo app: indigo `#2F2E80`, yellow `#FBD405`, the faceted triangle.
+- **Light and dark mode** for every screen, switched from inside the product (moon button).
 
 This README is for anyone, human or AI, who needs to change or extend the prototype. It follows the same method as the SNV prototype (`../../snv/mockups`).
 
@@ -36,12 +37,12 @@ _src/briefing.py ────────────►  briefing.html         
 | `all-screens.svg` | **Generated** by `_src/combine.py`. |
 | `BRIEFING.md` | Team briefing (hand-written). `briefing.html` is **generated** from it by `_src/briefing.py`. |
 | `favicon.svg`, `favicon-32.png`, `apple-touch-icon.png`, `og-image.jpg` | Tab icon and link-preview image (1200×630). |
-| `_src/kit.py` | Drawing kit: SVG builder, text measuring, palette, stages, products, icons, UI components, Letshego wordmark. |
+| `_src/kit.py` | Drawing kit: SVG builder (with soft shadows), text measuring, palette, stages, products, icons, UI components, Letshego wordmark and triangle. |
 | `_src/charts.py` | Uganda branch map, stylised street map, funnel, weekly heat strip, rings, line charts. |
 | `_src/data.py` | Shared illustrative data (quarter numbers, agents, the demo client), so every screen agrees. |
 | `_src/web.py` | Web shell (sidebar, top bar, Day/Week/Quarter/Year switch) and screens 00–06. |
 | `_src/web2.py` | Web screens 07–13: approvals, reasons, plans, territories, users, reports. |
-| `_src/mobile.py` | Phone shell (status bar, app bar, bottom nav with Visit button) and screens M1–M16. |
+| `_src/mobile.py` | Phone shell (status bar, app bar, floating bottom bar with the Visit button) and screens M1–M19. |
 | `_src/theme.py` | Dark mode: remaps each screen's colours (light surfaces → dark, dark text → light, brand colours kept). |
 | `_src/build.py` | Builds every screen (light and dark) and writes `prototype.html`. |
 | `_src/data/districts.geojson` | Uganda's 137 district boundaries, copied from the SNV prototype. |
@@ -59,7 +60,9 @@ _src/briefing.py ────────────►  briefing.html         
 
 **Vocabularies** at the top of `kit.py`: `STAGES` (the client journey from the whiteboard, in order), `STATUS` colours, `PRODUCTS` (**placeholders** until Letshego confirms its catalogue). Change them there and every screen follows.
 
-**Hotspots:** `s.link(x, y, w, h, "w05")` records a clickable area that opens screen `w05`.
+**Hotspots:** `s.link(x, y, w, h, "w05")` records a clickable area that opens screen `w05`. The special target `"!theme"` switches light / dark instead of opening a screen.
+
+**Soft cards.** Phone screens and the web shell set `s.soft = True`: any white card drawn with `stroke=LINE` and `rx >= 10` gets a soft drop shadow instead of a border. Pass `shadow=False` to opt out, `shadow=True` to force one.
 
 ---
 
@@ -89,7 +92,7 @@ python combine.py            # rewrite all-screens.svg
 python briefing.py           # rewrite briefing.html from BRIEFING.md
 ```
 
-**Renaming a screen changes its file name.** Delete the old SVG from `web/` or `mobile/`.
+**Renaming a screen changes its file name.** Delete the old SVG from `web/` and `web-dark/` (or `mobile/` and `mobile-dark/`), for example with `git rm`.
 
 ---
 
@@ -98,6 +101,7 @@ python briefing.py           # rewrite briefing.html from BRIEFING.md
 - Shows one screen scaled to the window; hotspots are placed in percentages so they stay aligned at any size.
 - `#w05` in the URL opens that screen. No hash opens `w00` (or `m01` on phones).
 - Click empty space to flash the hotspots; **H** keeps them visible; `?show` turns them on.
+- The **Web console** / **Agent app (Android)** buttons jump to each side and light up yellow for the side on screen.
 - **Keys:** ← → previous/next · **F** full screen · **D** dark mode · **Esc** exit.
 - **Light / dark:** the moon button in the console's top bar and on the app's Me screen (hotspot target `!theme`) switches every screen to its dark version; **D** does the same for presenters. The choice is remembered in the browser. `CARD` is `#FFFFFE`, not pure white, so the dark-mode remap can tell cards from white text. Colours that must not change (yellows, ink on the yellow hero card, deep indigo on yellow) are listed in `KEEP` in `theme.py`.
 - Splash `m01` moves to sign-in by itself after 1.8 s.
@@ -127,26 +131,40 @@ python briefing.py           # rewrite briefing.html from BRIEFING.md
 
 ---
 
-## 7. Environment
+## 7. Visual style
+
+Based on current fintech and CRM app patterns: light, restrained, one strong accent.
+
+- **Surfaces:** light grey page (`#F5F6FA` app, `#F6F7F9` web), white cards with soft shadows and large radii (14–24 px), no heavy colour blocks. The web sidebar is white too.
+- **Colour:** indigo only for actions and active states; Letshego yellow for highlights (the Visit button, the Q3 card on Home, badges). Status and stage colours come from `STATUS` / `STAGES` in `kit.py`.
+- **Home (M3):** one yellow gradient card with the Q3 number, target bar, weekly visits chart and rank; three stat cards; a single "Up next" action; today's timeline; a journey plans shortcut.
+- **Sign-in:** web (W00) is a centred card with floating product previews; the app (M2) is a PIN pad with the agent's avatar and fingerprint.
+- **Type:** Segoe UI for layout and measuring; the SVGs fall back to Roboto / Helvetica / Arial on phones.
+- **Dark mode:** generated, not drawn (`theme.py`). If a new colour looks wrong in dark, add it to `KEEP` or `SURFACE` there.
+
+---
+
+## 8. Environment
 
 - **Windows.** Fonts come from `C:/Windows/Fonts` (Segoe UI) in `kit.py`.
 - **Python 3 + Pillow** (`pip install pillow`). Nothing else.
 - **PNG previews** use headless Chrome at `C:\Program Files\Google\Chrome\Application\chrome.exe`. It won't render narrower than about 500px, so phone PNGs look cut off even when the real page is fine.
 - **Vercel:** framework preset "Other", no build command, output directory = repo root. Generated files are committed; Vercel never runs Python.
+- **The URL `letshego-prototype.vercel.app` is assumed.** If the Vercel project gets another name, update it in the `PROTO` template (`build.py`), `index.html`, `_src/briefing.py` and the links in `BRIEFING.md`, then rebuild.
 
 ---
 
-## 8. Adobe XD
+## 9. Adobe XD
 
 - **All at once:** File → Import → `all-screens.svg` → ungroup once. Each screen becomes a named group.
-- **One at a time:** import any file from `web/` or `mobile/`.
+- **One at a time:** import any file from `web/` or `mobile/` (or the `-dark` folders).
 - Edits made in XD are lost when a screen is regenerated; for lasting changes, edit the Python.
 
 ---
 
-## 9. Presenting
+## 10. Presenting
 
-- **Web:** sign in → Sales overview. The red icon next to the user's name signs out. **Clicking the name** switches between Patricia (management) and Moses (supervisor): a demo shortcut.
-- **App:** splash → sign in → Home (due today) → Plans (M4 → M4b) or the yellow Visit button → choose the client. New client: register Joseph → first visit → No → capture why → check out. Returning client: Florence → visit screen → take KYC ×3 → validation → loan options → close → conversion and check-out.
+- **Web:** sign in → Sales overview. The red icon next to the user's name signs out. **Clicking the name** switches between Patricia (management) and Moses (supervisor): a demo shortcut. The moon in the top bar switches to dark mode.
+- **App:** splash → PIN sign-in → Home (Q3 card, Up next, today's timeline) → Plans (M4 → M4b) or the yellow Visit button → choose the client. New client: register Joseph → first visit → No → capture why → check out. Returning client: Florence → visit screen → take KYC ×3 → validation → loan options → close → conversion and check-out.
 - The walkthrough script, questions for the client and likely questions are in [`BRIEFING.md`](BRIEFING.md).
 - **On the day:** open the link while online, wait for "✓ Offline-ready", present in Chrome full screen (**F**), and say once that the data is illustrative.

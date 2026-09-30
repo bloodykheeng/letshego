@@ -40,7 +40,7 @@ _src/briefing.py ────────────►  briefing.html         
 | `_src/charts.py` | Uganda branch map, stylised street map, funnel, weekly heat strip, rings, line charts. |
 | `_src/data.py` | Shared illustrative data (quarter numbers, agents, the demo client), so every screen agrees. |
 | `_src/web.py` | Web shell (sidebar, top bar, Day/Week/Quarter/Year switch) and screens 00–06. |
-| `_src/web2.py` | Web screens 07–13: approvals, reasons, plans, handover, users, reports. |
+| `_src/web2.py` | Web screens 07–13: approvals, reasons, plans, territories, users, reports. |
 | `_src/mobile.py` | Phone shell (status bar, app bar, bottom nav with Visit button) and screens M1–M16. |
 | `_src/theme.py` | Dark mode: remaps each screen's colours (light surfaces → dark, dark text → light, brand colours kept). |
 | `_src/build.py` | Builds every screen (light and dark) and writes `prototype.html`. |
@@ -73,8 +73,8 @@ _src/briefing.py ────────────►  briefing.html         
 | `w01` Sales overview | `w08` Application review | `m03` Home (due today) | `m13` KYC validation |
 | `w02` Agents performance | `w09` Why & why not | `m04` My journey plans · `m04b` one plan · `m04c` new plan | `m14` Negotiation |
 | `w03` Agent profile | `w10` Journey plans · `w10b` one plan · `w10c` new plan | `m05` Start a visit: choose the client | `m15` Close: submit application |
-| `w04` Field map | `w11` Agent handover | `m06` New client: register | `m16` Conversion + check-out |
-| `w05` Client pipeline | `w12` Users & territories | `m07` First visit: interested? · `m08` Not interested: why | `m17` My clients · `m18` Client record |
+| `w04` Field map | `w11` Territories | `m06` New client: register | `m16` Conversion + check-out |
+| `w05` Client pipeline | `w12` Users & roles | `m07` First visit: interested? · `m08` Not interested: why | `m17` My clients · `m18` Client record |
 | `w06` Client record | `w13` Reports & audit | `m09` Visit (returning client) · `m10` KYC 1 | `m19` Me |
 
 **Registration:** each module has a `SCREENS` list. Web screens are sorted by key; mobile screens run in list order. That order is what ← → steps through.
@@ -116,7 +116,7 @@ python briefing.py           # rewrite briefing.html from BRIEFING.md
 
 **Rules that keep the story consistent:**
 - **Conversion = application submitted with every required item.** Approval never changes it. Keep saying so on screens that show both.
-- **Clients belong to Letshego, not to the agent.** Handover moves clients with their full history.
+- **Clients belong to territories, not to agents** (Region › Branch › Territory › Route, as in NICE). Reassigning a territory moves all its clients, routes and plans to the new agent.
 - **A visit has a purpose and an outcome.** KYC is done during a visit, once per client, after they say they're interested; never when a client is added.
 - **A visit always starts by choosing the client** (from the plan, a search, or *New client*). Visits not on the journey plan are allowed and count as off-plan.
 - **A journey plan is a named list of clients** with an agent, start and end dates, a description and a goal. An agent can have several. Supervisors create them (W10c); agents can create their own for approval (M4c). Home shows what's due today across all plans.

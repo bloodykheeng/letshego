@@ -28,14 +28,14 @@
 </g>
 </g>
 <g id="filter-chips">
-<rect x="16.0" y="94.0" width="51.6" height="32.0" rx="16" fill="#4F4CC9"/>
-<text id="All-4" x="29.0" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#FFFFFF">All 4</text>
-<rect x="75.6" y="94.0" width="71.3" height="32.0" rx="16" fill="#1D1E27" stroke="#393B45" stroke-width="1"/>
-<text id="Active-2" x="88.6" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">Active 2</text>
-<rect x="154.9" y="94.0" width="95.2" height="32.0" rx="16" fill="#1D1E27" stroke="#393B45" stroke-width="1"/>
-<text id="Scheduled-2" x="167.9" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">Scheduled 2</text>
-<rect x="258.1" y="94.0" width="71.8" height="32.0" rx="16" fill="#1D1E27" stroke="#393B45" stroke-width="1"/>
-<text id="Done-12" x="271.1" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">Done 12</text>
+<rect x="16.0" y="94.0" width="51.3" height="32.0" rx="16" fill="#4F4CC9"/>
+<text id="All-3" x="29.0" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#FFFFFF">All 3</text>
+<rect x="75.3" y="94.0" width="71.3" height="32.0" rx="16" fill="#1D1E27" stroke="#393B45" stroke-width="1"/>
+<text id="Active-2" x="88.3" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">Active 2</text>
+<rect x="154.6" y="94.0" width="93.3" height="32.0" rx="16" fill="#1D1E27" stroke="#393B45" stroke-width="1"/>
+<text id="Scheduled-1" x="167.6" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">Scheduled 1</text>
+<rect x="255.9" y="94.0" width="71.8" height="32.0" rx="16" fill="#1D1E27" stroke="#393B45" stroke-width="1"/>
+<text id="Done-12" x="268.9" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">Done 12</text>
 </g>
 <g id="plan-Kiwatule-follow-ups">
 <rect x="16.0" y="138.0" width="328.0" height="120.0" rx="14" fill="#1D1E27" stroke="#A09FDD" stroke-width="2"/>
@@ -81,9 +81,9 @@
 </g>
 <text id="6-of-15-visited-none-due-t" x="30.0" y="376.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#B0B1C7">6 of 15 visited · none due today</text>
 </g>
-<g id="plan-Daniel-Okumu-s-clients">
+<g id="plan-Kyanja-market-prospecting">
 <rect x="16.0" y="398.0" width="328.0" height="120.0" rx="14" fill="#1D1E27" filter="url(#soft)"/>
-<text id="Daniel-Okumu-s-clients" x="30.0" y="424.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#CBCCE7">Daniel Okumu's clients</text>
+<text id="Kyanja-market-prospecting" x="30.0" y="424.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#CBCCE7">Kyanja market prospecting</text>
 <g id="chip-Scheduled">
 <rect x="244.2" y="410.0" width="85.8" height="22.0" rx="11.0" fill="#1A2433"/>
 <circle cx="258.2" cy="421.0" r="4.0" fill="#2F6FDB"/>
@@ -95,33 +95,12 @@
 <path d="M8 2v4" fill="none" stroke="#B0B1C7" stroke-width="3.43" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M3 10h18" fill="none" stroke="#B0B1C7" stroke-width="3.43" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="1-9-Oct-by-Moses-Okello" x="50.0" y="446.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#B0B1C7">1 – 9 Oct · by Moses Okello</text>
-<text id="3-clients-moving-to-you-int" x="30.0" y="466.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">3 clients moving to you: introduce yourself</text>
+<text id="1-31-Oct-by-You-approv" x="50.0" y="446.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#B0B1C7">1 – 31 Oct · by You · approved by Moses</text>
+<text id="New-area-market-vendors-3" x="30.0" y="466.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">New area: market vendors, 3 new clients a day</text>
 <g id="progress-3">
 <rect x="30.0" y="482.0" width="300.0" height="6.0" rx="3.0" fill="#202129"/>
 </g>
-<text id="0-of-3-visited-starts-tomo" x="30.0" y="506.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#B0B1C7">0 of 3 visited · starts tomorrow</text>
-</g>
-<g id="plan-Kyanja-market-prospecting">
-<rect x="16.0" y="528.0" width="328.0" height="120.0" rx="14" fill="#1D1E27" filter="url(#soft)"/>
-<text id="Kyanja-market-prospecting" x="30.0" y="554.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#CBCCE7">Kyanja market prospecting</text>
-<g id="chip-Scheduled-2">
-<rect x="244.2" y="540.0" width="85.8" height="22.0" rx="11.0" fill="#1A2433"/>
-<circle cx="258.2" cy="551.0" r="4.0" fill="#2F6FDB"/>
-<text id="Scheduled-2" x="268.2" y="555.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#769FE2">Scheduled</text>
-</g>
-<g id="icon-calendar-4" transform="translate(30.0 564.0) scale(0.5833)">
-<path d="M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" fill="none" stroke="#B0B1C7" stroke-width="3.43" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M16 2v4" fill="none" stroke="#B0B1C7" stroke-width="3.43" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M8 2v4" fill="none" stroke="#B0B1C7" stroke-width="3.43" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M3 10h18" fill="none" stroke="#B0B1C7" stroke-width="3.43" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<text id="1-31-Oct-by-You-approv" x="50.0" y="576.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#B0B1C7">1 – 31 Oct · by You · approved by Moses</text>
-<text id="New-area-market-vendors-3" x="30.0" y="596.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">New area: market vendors, 3 new clients a day</text>
-<g id="progress-4">
-<rect x="30.0" y="612.0" width="300.0" height="6.0" rx="3.0" fill="#202129"/>
-</g>
-<text id="0-of-8-visited-starts-tomo" x="30.0" y="636.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#B0B1C7">0 of 8 visited · starts tomorrow</text>
+<text id="0-of-8-visited-starts-tomo" x="30.0" y="506.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#B0B1C7">0 of 8 visited · starts tomorrow</text>
 </g>
 <g id="bottom-navigation">
 <rect id="nav-bg" x="12.0" y="716.0" width="336.0" height="64.0" rx="24" fill="#1D1E27" filter="url(#soft)"/>

@@ -22,12 +22,12 @@ Y0 = TOP + 28
 NAV = [
     ("SALES", [("Overview", "grid"), ("Agents", "users"), ("Field map", "map"), ("Client pipeline", "workflow")]),
     ("APPLICATIONS", [("Approvals", "listcheck"), ("Why & why not", "message")]),
-    ("PLANNING", [("Journey plans", "route"), ("Agent handover", "swap")]),
-    ("ADMIN", [("Users & territories", "settings"), ("Reports & audit", "history")]),
+    ("PLANNING", [("Journey plans", "route"), ("Territories", "layers")]),
+    ("ADMIN", [("Users & roles", "settings"), ("Reports & audit", "history")]),
 ]
 NAV_TARGET = {"Overview": "w01", "Agents": "w02", "Field map": "w04", "Client pipeline": "w05", "Approvals": "w07",
-              "Why & why not": "w09", "Journey plans": "w10", "Agent handover": "w11",
-              "Users & territories": "w12", "Reports & audit": "w13"}
+              "Why & why not": "w09", "Journey plans": "w10", "Territories": "w11",
+              "Users & roles": "w12", "Reports & audit": "w13"}
 BADGES = {"Agents": ("6", RED), "Approvals": ("14", YELLOW)}
 
 SB_TEXT = "#D9D8F3"
@@ -567,7 +567,7 @@ def w03_agent():
         s.text(X0 + 120, Y0 + 98, "Supervisor Moses Okello · staff ID LU-0877 · device: Samsung A15 (registered)", 13,
                400, MUTED)
         x = X1 - 24
-        x -= button(s, x, Y0 + 39, "Reassign clients", "secondary", icon="swap", anchor="end") + 10
+        x -= button(s, x, Y0 + 39, "Her territory", "secondary", icon="layers", anchor="end") + 10
         s.link(x, Y0 + 39, 170, 40, "w11")
         x -= button(s, x, Y0 + 39, "Live map", "secondary", icon="map", anchor="end") + 10
         s.link(x, Y0 + 39, 150, 40, "w04")
@@ -633,11 +633,11 @@ def w03_agent():
 
     cx = X0 + mw + 20
     cw2 = 440
-    card(s, cx, by, cw2, bh, "Her journey plans", "2 active · 2 starting tomorrow", action="All →")
+    card(s, cx, by, cw2, bh, "Her journey plans", "2 active · 1 starting tomorrow", action="All →")
     plans = [("Kiwatule follow-ups", "28 Sep – 2 Oct", 8, 12, "Active"),
              ("Ntinda schools: payroll teachers", "21 Sep – 9 Oct", 6, 15, "Active"),
              ("Kyanja market prospecting", "1 – 31 Oct · her own plan", 0, 8, "Scheduled"),
-             ("Daniel Okumu's clients", "1 – 9 Oct", 0, 3, "Scheduled")]
+             ]
     y = by + 72
     for nm, dates, v, n, st in plans:
         with s.g(f"plan {nm}"):
@@ -904,12 +904,12 @@ def w06_client():
         s.text(X0 + 112, Y0 + 74, f"Client {c['id']} · {c['business']} · 0772 418 ··· · NIN {c['nin']}", 14, 400,
                INK2)
         s.icon("shield", X0 + 112, Y0 + 83, 16, BRAND, 2)
-        s.text(X0 + 134, Y0 + 96, "Owned by Letshego Uganda · assigned to Sarah Namuli since 12 Aug 2026 (handed over "
-                                  "from John Mugisha, who left)", 13, 600, BRAND)
+        s.text(X0 + 134, Y0 + 96, "Central › Kampala East › Ntinda · Kiwatule › Kiwatule market route · covered by "
+                                  "Sarah Namuli since 12 Aug (territory moved from John Mugisha)", 13, 600, BRAND)
         x = X1 - 24
         x -= button(s, x, Y0 + 35, "Open approval", "primary", icon="listcheck", anchor="end") + 10
         s.link(x + 10, Y0 + 35, 170, 40, "w08")
-        button(s, x, Y0 + 35, "Reassign", "secondary", icon="swap", anchor="end")
+        button(s, x, Y0 + 35, "Territory", "secondary", icon="layers", anchor="end")
         s.link(x - 120, Y0 + 35, 120, 40, "w11")
 
     ty = Y0 + 128

@@ -336,8 +336,6 @@ MY_PLANS = [
      "2 due today", "Moses Okello", "Active"),
     ("Ntinda schools: payroll teachers", "21 Sep – 9 Oct", "Teachers at 5 schools · Civil Servant Loan", 6, 15,
      "none due today", "Moses Okello", "Active"),
-    ("Daniel Okumu's clients", "1 – 9 Oct", "3 clients moving to you: introduce yourself", 0, 3, "starts tomorrow",
-     "Moses Okello", "Scheduled"),
     ("Kyanja market prospecting", "1 – 31 Oct", "New area: market vendors, 3 new clients a day", 0, 8,
      "starts tomorrow", "You · approved by Moses", "Scheduled"),
 ]
@@ -349,7 +347,7 @@ def m04_plans():
     s.link(MW - 60, 24, 60, 56, "m04c")
     with s.g("filter chips"):
         x = PAD
-        for lab, on in [("All 4", True), ("Active 2", False), ("Scheduled 2", False), ("Done 12", False)]:
+        for lab, on in [("All 3", True), ("Active 2", False), ("Scheduled 1", False), ("Done 12", False)]:
             w = tw(lab, 12.5, 600) + 26
             s.rect(x, 94, w, 32, fill=BRAND if on else CARD, rx=16, stroke=None if on else "#CDD0DE")
             s.text(x + 13, 114.5, lab, 12.5, 600, "#FFFFFF" if on else INK2)
@@ -495,7 +493,7 @@ def m09_visit():
         s.rect(PAD, y, MW - 2 * PAD, 64, fill=CARD, rx=12, stroke=LINE)
         avatar(s, PAD + 32, y + 32, 20, "FN", GREEN)
         s.text(PAD + 62, y + 28, "Nambi Tailoring & Fabrics", 14, 600, INK)
-        s.text(PAD + 62, y + 47, "First visited by John Mugisha · yours since 12 Aug", 11.5, 400, MUTED,
+        s.text(PAD + 62, y + 47, "Kiwatule market route · your territory since 12 Aug", 11.5, 400, MUTED,
                maxw=MW - 2 * PAD - 76)
     with s.g("where she is"):
         y = 198
@@ -991,7 +989,7 @@ def m06_new_client():
         y = 92
         s.rect(PAD, y, MW - 2 * PAD, 36, fill=tint(GREEN, 0.08), rx=10)
         s.icon("pin", PAD + 12, y + 9, 18, GREEN_D, 2)
-        s.text(PAD + 38, y + 23, "Location captured · 0.3548, 32.6141 · ±7 m", 12.5, 600, GREEN_D)
+        s.text(PAD + 38, y + 23, "From GPS: Ntinda · Kiwatule › Ntinda stage route", 12.5, 600, GREEN_D)
     y = 138
     y += m_field(s, y, "Full name", "Joseph Kiggundu", icon="user", h=42) + 6
     y += m_field(s, y, "Phone", "0701 552 ···", icon="phone", h=42, ok="No existing Letshego client with this number") + 2
@@ -1042,7 +1040,7 @@ def m19_me():
     y += 194
     rows = [("refresh", "Sync", "All synced 12:01 · nothing waiting", GREEN),
             ("map", "Offline maps", "Kampala East downloaded", BRAND),
-            ("globe", "Language", "English · Luganda available", BRAND)]
+            ("layers", "My territory", "Ntinda · Kiwatule · 6 routes · 212 clients", BRAND)]
     for ic, t, sub, col in rows:
         with s.g(f"row {t}"):
             s.rect(PAD, y, MW - 2 * PAD, 56, fill=CARD, rx=12, stroke=LINE)

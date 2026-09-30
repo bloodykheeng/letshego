@@ -32,7 +32,7 @@
 | **Conversion** | The success measure: client agrees and submits every required item. The **loan application ID** is captured at this point. |
 | **Loan application ID** | The number Letshego's loan system gives an application. Capturing it in the app ties the field record to the real loan. |
 | **Journey plan** | A **named list of clients** to visit, with an agent, start and end dates, a description and a goal (e.g. "Kiwatule follow-ups, 28 Sep – 2 Oct"). An agent can have several at once. The supervisor creates them, or the agent does and the supervisor approves. "Journey plan adherence" = planned client visits actually made; visits not on any plan count as **off-plan**. |
-| **Territory** | The area an agent covers (e.g. Ntinda and Kiwatule). Each client belongs to one territory. |
+| **Region › Branch › Territory › Route** | Letshego's geography, as in NICE. A **territory** is a real area (e.g. Ntinda · Kiwatule) covered by one agent; it holds several **routes** (e.g. Kiwatule market). Every client sits on a route, placed automatically from GPS when registered, so each client falls under one territory and its agent. |
 | **Affordability / DSR** | Whether the instalment fits the client's income. We show "instalment as a % of free income" (income minus expenses), with a 50% ceiling as a placeholder. |
 | **SPLY** | **Same Period Last Year.** A comparison NICE's dashboards use; we show conversions "vs Q3 2025" on the overview. |
 | **Silent agent** | Our word for an agent with no check-in for 14+ days. Not a client term. |
@@ -98,7 +98,7 @@ The stages come straight from the whiteboard (Figure 1 in the brief).
 | Demographic data and agent's notes on suitable products | [M10](https://letshego-prototype.vercel.app/prototype.html#m10), [M14](https://letshego-prototype.vercel.app/prototype.html#m14), [W09](https://letshego-prototype.vercel.app/prototype.html#w09) product-fit grid | Notes feed a product-fit view by client type. |
 | Loan product(s) chosen and the loan application ID | [M14](https://letshego-prototype.vercel.app/prototype.html#m14), [M15](https://letshego-prototype.vercel.app/prototype.html#m15) | The app checks the ID against the loan system (proposed). |
 | Notes on why clients took a loan, and why not | [M8](https://letshego-prototype.vercel.app/prototype.html#m08), [M15](https://letshego-prototype.vercel.app/prototype.html#m15), [W09](https://letshego-prototype.vercel.app/prototype.html#w09) | Tap-to-pick reasons plus a free note (or voice note). |
-| Client records stay with Letshego if an agent leaves | [W11 Agent handover](https://letshego-prototype.vercel.app/prototype.html#w11), W06 header | Nothing lives only on the phone. Handover moves clients with full history. |
+| Client records stay with Letshego if an agent leaves | [W11 Territories](https://letshego-prototype.vercel.app/prototype.html#w11), W06 header | Clients belong to territories, not agents. When an agent leaves, the supervisor reassigns the territory: every client, route and running plan moves with it in one step. |
 | Applications go to supervisors or HQ for approval | [W07](https://letshego-prototype.vercel.app/prototype.html#w07), [W08](https://letshego-prototype.vercel.app/prototype.html#w08) | Branch limit decides whether HQ is needed (UGX 10M placeholder). |
 | Dashboard by day, week, quarter or year: who isn't bringing in clients | [W01](https://letshego-prototype.vercel.app/prototype.html#w01), [W02](https://letshego-prototype.vercel.app/prototype.html#w02), [W03](https://letshego-prototype.vercel.app/prototype.html#w03) | The Day / Week / Quarter / Year switch is in the top bar of every screen. |
 | Agents add new clients in the field | [M6 New client](https://letshego-prototype.vercel.app/prototype.html#m06), also from [M17 My clients](https://letshego-prototype.vercel.app/prototype.html#m17) | Duplicate check on the phone number before saving. |
@@ -113,7 +113,7 @@ The stages come straight from the whiteboard (Figure 1 in the brief).
 | Role | Person in the prototype | What they do | Sees |
 |---|---|---|---|
 | **Field Sales Agent** | Sarah Namuli, Kampala East | Visits, KYC, negotiation, submits applications | Own clients only |
-| **Branch Supervisor** | Moses Okello, Kampala East | Approves applications, plans routes, sets weekly minimums, reassigns clients | Their branch |
+| **Branch Supervisor** | Moses Okello, Kampala East | Approves applications, creates journey plans, assigns territories to agents | Their branch |
 | **Regional Manager** | (not shown) | Oversees several branches | Their region |
 | **HQ Credit Approver** | (not shown) | Decides loans above the branch limit | All, above limit |
 | **Head of Sales / Management** | Patricia Nankya | Watches performance and acts on silent agents | All branches |
@@ -150,7 +150,7 @@ Everything is stored on Letshego's servers, not only on the phone. Every change 
 7. **Back to the web** as Moses: [W07 Approvals](https://letshego-prototype.vercel.app/prototype.html#w07) → [W08 Decision](https://letshego-prototype.vercel.app/prototype.html#w08). "Conversion already counted; the decision is separate."
 8. **[W09 Why & why not](https://letshego-prototype.vercel.app/prototype.html#w09):** "What agents hear in the field, turned into numbers for product and pricing."
 9. **[W10 Journey plans](https://letshego-prototype.vercel.app/prototype.html#w10):** "Every plan is a named list of clients with dates and a goal. Open one ([W10b](https://letshego-prototype.vercel.app/prototype.html#w10b)): who has been visited, what happened, what's due, on a map. Creating one ([W10c](https://letshego-prototype.vercel.app/prototype.html#w10c)) means picking clients from the pipeline. The agent sees the same plans on the phone ([M4](https://letshego-prototype.vercel.app/prototype.html#m04) → [M4b](https://letshego-prototype.vercel.app/prototype.html#m04b))."
-10. **[W11 Handover](https://letshego-prototype.vercel.app/prototype.html#w11):** "When an agent leaves, clients move with their history in one step."
+10. **[W11 Territories](https://letshego-prototype.vercel.app/prototype.html#w11):** "Clients live in territories. Daniel is leaving today, so Moses gives his territory to Peter next door: 46 clients, 4 routes and the running plan move in one step. Peter gets a journey plan to meet them all ([W10](https://letshego-prototype.vercel.app/prototype.html#w10))."
 
 ---
 
@@ -197,7 +197,7 @@ No. Adding a client is quick registration. KYC is taken on a visit once the clie
 Check-in needs GPS within a set distance of the client, and photos are taken in the app with GPS and time stamps; they can't be picked from the gallery. The map shows each agent's trail.
 
 **"What happens to clients when an agent leaves?"**
-They never belonged to the agent. The supervisor reassigns them in one step ([W11](https://letshego-prototype.vercel.app/prototype.html#w11)); the new agent gets the full history, and the old phone is wiped.
+They never belonged to the agent; they belong to a territory. The supervisor gives the territory to another agent in one step ([W11](https://letshego-prototype.vercel.app/prototype.html#w11)); the new agent sees every client with the full history, and the old phone is wiped.
 
 **"Does approval change the agent's numbers?"**
 No. The agent's conversion counts at submission, as Letshego defined it. Approval rates are reported separately.

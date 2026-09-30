@@ -947,7 +947,7 @@ HUB_KEYS = {True: ["m09", "m09b", "m09c", "m09d"], False: ["m18", "m18b", "m18c"
 def journey_card(s, y, reached):
     """reached: index of the furthest stage done (1 = Interested, 5 = Applied)."""
     s.rect(PAD, y, MW - 2 * PAD, 72, fill=CARD, rx=16, stroke=LINE)
-    s.text(PAD + 14, y + 22, "WHERE SHE IS IN THE JOURNEY", 10.5, 700, MUTED, spacing=0.8)
+    s.text(PAD + 14, y + 22, "LOAN PROGRESS", 10.5, 700, MUTED, spacing=0.8)
     labels = ["Visited", "Interested", "KYC", "Validated", "Negotiate", "Applied"]
     n = len(labels)
     x0, x1 = PAD + 28, MW - PAD - 28

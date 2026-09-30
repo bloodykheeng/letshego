@@ -68,7 +68,7 @@
 <text id="Visits" x="288.1" y="266.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#4B4D6B">Visits</text>
 </g>
 <rect x="16.0" y="292.0" width="328.0" height="72.0" rx="16" fill="#FFFFFE" filter="url(#soft)"/>
-<text id="WHERE-SHE-IS-IN-THE-JOURNEY" x="30.0" y="314.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#7D8099" letter-spacing="0.8">WHERE SHE IS IN THE JOURNEY</text>
+<text id="LOAN-PROGRESS" x="30.0" y="314.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#7D8099" letter-spacing="0.8">LOAN PROGRESS</text>
 <line x1="44.0" y1="334.0" x2="316.0" y2="334.0" stroke="#E4E5EF" stroke-width="2"/>
 <line x1="44.0" y1="334.0" x2="98.4" y2="334.0" stroke="#2F6FDB" stroke-width="2"/>
 <circle cx="44.0" cy="334.0" r="6.5" fill="#2F6FDB"/>

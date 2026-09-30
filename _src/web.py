@@ -269,63 +269,92 @@ def doc_thumb(s: SVG, x, y, w, h, kind, label, ok=True):
 # =====================================================================================
 def w00_sign_in():
     s = SVG(W, H, "00 Sign in")
-    s.rect(0, 0, W, H, fill=CARD, name="page background")
-    with s.g("brand panel"):
-        s.rect(0, 0, 880, H, fill=BRAND, name="brand bg")
-        with s.g("facets", opacity=0.10):
-            s.poly([(560, 380), (980, 1080), (180, 1080)], fill="#FFFFFF")
-            s.poly([(760, 120), (1000, 560), (560, 560)], fill="#FFFFFF")
-        with s.g("route illustration"):
-            pts = [(140, 930), (300, 860), (420, 900), (560, 800), (700, 850)]
-            s.poly(pts, stroke=YELLOW, sw=3, closed=False, dash="2 9")
-            for i, (px, py) in enumerate(pts):
-                map_pin(s, px, py, [GREEN, BLUE, RED, GREEN, YELLOW][i], None, 1.25, name=f"visit {i + 1}")
-        wordmark(s, 80, 116, 34, "#FFFFFF")
-        s.text(82, 146, "Field Sales · Uganda", 16, 400, "#C9C8EE")
-        s.text(80, 290, "Every client visit,", 46, 700, "#FFFFFF", name="headline 1")
-        s.text(80, 346, "every week of the quarter.", 46, 700, YELLOW, name="headline 2")
-        para(s, 80, 400, "Agents record each visit, KYC and application from the phone. Supervisors approve the same "
-                         "day. Management sees who is bringing in clients, and who isn't, while there is still time "
-                         "to act.", 640, 17, 400, "#DCDBF6", lh=28)
-        y = 540
-        for ic, t in [("pin", "GPS-stamped visits and client locations"),
-                      ("idcard", "KYC with NIRA ID photos, earnings and collateral"),
-                      ("shield", "Client records belong to Letshego, not to the agent")]:
-            s.rect(80, y - 21, 34, 34, fill="#FFFFFF", op=0.12, rx=8)
-            s.icon(ic, 88, y - 13, 18, YELLOW, 2)
-            s.text(128, y + 1, t, 16, 400, "#FFFFFF")
-            y += 52
-        s.text(80, H - 48, "Letshego Uganda · Improving lives · Prototype with illustrative data", 12.5, 400, "#A9A8DC",
-               name="footer")
+    s.soft = True
+    s.rect(0, 0, W, H, fill="#F6F7F9", name="page background")
+    s.raw('<defs>'
+          '<radialGradient id="glowY"><stop offset="0" stop-color="#FFE45C" stop-opacity="0.3"/>'
+          '<stop offset="1" stop-color="#FFE45C" stop-opacity="0"/></radialGradient>'
+          '<radialGradient id="glowI"><stop offset="0" stop-color="#8E8CF0" stop-opacity="0.35"/>'
+          '<stop offset="1" stop-color="#8E8CF0" stop-opacity="0"/></radialGradient></defs>')
+    s.circle(260, 180, 520, fill="url(#glowY)", name="yellow glow")
+    s.circle(1700, 940, 560, fill="url(#glowI)", name="indigo glow")
+    with s.g("faint mark", opacity=0.05):
+        triangle(s, 1380, 60, 420)
 
-    fx = 880 + (W - 880 - 440) / 2
+    wordmark(s, 64, 78, 26, INK)
+    s.text(66, 102, "Field Sales · Uganda", 13, 400, MUTED)
+    with s.g("theme switch"):
+        s.circle(W - 84, 66, 22, fill=CARD, shadow=True)
+        s.icon("moon", W - 95, 55, 22, INK, 2)
+    s.link(W - 108, 42, 48, 48, "!theme")
+
+    # ---- floating product previews
+    with s.g("preview conversions", transform="rotate(-3 470 360)"):
+        x, y = 320, 290
+        s.rect(x, y, 300, 136, fill=CARD, rx=20, stroke=LINE)
+        s.text(x + 22, y + 32, "Q3 conversions", 13, 600, MUTED)
+        s.text(x + 22, y + 76, "1,051", 34, 700, INK)
+        s.icon("trendup", x + 130, y + 56, 18, GREEN, 2.4)
+        s.text(x + 152, y + 72, "+20%", 14, 700, GREEN_D)
+        sparkline(s, x + 22, y + 92, 256, 28, [9, 7, 3, 2, 2, 2, 2, 2, 3, 5, 11, 18, 26], GREEN)
+    with s.g("preview notification", transform="rotate(2 420 600)"):
+        x, y = 250, 540
+        s.rect(x, y, 350, 84, fill=CARD, rx=20, stroke=LINE)
+        s.circle(x + 40, y + 42, 20, fill=tint(GREEN, 0.15))
+        s.icon("check", x + 30, y + 32, 20, GREEN, 2.8)
+        s.text(x + 72, y + 36, "Application submitted", 14.5, 700, INK)
+        s.text(x + 72, y + 58, "Florence Nambi · MSE loan · 11:42", 12.5, 400, MUTED)
+    with s.g("preview plan kept", transform="rotate(3 1450 330)"):
+        x, y = 1310, 250
+        s.rect(x, y, 290, 150, fill=CARD, rx=20, stroke=LINE)
+        ring(s, x + 70, y + 75, 44, 10, 0.70, BRAND)
+        s.text(x + 70, y + 82, "70%", 18, 700, INK, anchor="middle")
+        s.text(x + 136, y + 64, "Journey plans", 13, 600, MUTED)
+        s.text(x + 136, y + 88, "kept this", 15, 700, INK)
+        s.text(x + 136, y + 108, "quarter", 15, 700, INK)
+    with s.g("preview live map", transform="rotate(-2 1500 640)"):
+        x, y = 1340, 540
+        s.rect(x, y, 320, 190, fill=CARD, rx=20, stroke=LINE)
+        m = StreetMap(s, x + 12, y + 12, 296, 118, seed=11, lake=False, dense=0.6)
+        for fx, fy, col in [(0.25, 0.4, GREEN), (0.5, 0.62, RED), (0.72, 0.35, BLUE)]:
+            map_pin(s, *m.P(fx, fy), col, None, 0.8)
+        agent_dot(s, *m.P(0.6, 0.3), "SN", GREEN)
+        s.text(x + 18, y + 158, "Sarah Namuli", 14, 700, INK)
+        s.text(x + 18, y + 177, "At a client · Kiwatule · 11:14", 12, 400, MUTED)
+
+    # ---- the card
+    cw, ch = 480, 640
+    cx, cy = (W - cw) / 2, 200
+    s.rect(cx, cy, cw, ch, fill=CARD, rx=28, stroke=LINE, name="sign-in card")
+    fx, fw = cx + 48, cw - 96
     with s.g("sign-in form"):
-        s.text(fx, 250, "Sign in", 32, 700, INK)
-        s.text(fx, 282, "Letshego staff: head office, branches and field.", 15, 400, MUTED)
-        button(s, fx, 318, "Continue with Microsoft (Letshego staff)", "secondary", icon="sparkle", w=440, h=48)
-        with s.g("divider"):
-            s.line(fx, 400, fx + 190, 400, LINE)
-            s.text(fx + 220, 405, "or", 13, 400, MUTED, anchor="middle")
-            s.line(fx + 250, 400, fx + 440, 400, LINE)
-        field(s, fx, 428, 440, "Staff ID", "LU-0142", h=48, icon="user")
-        field(s, fx, 512, 440, "Password", "••••••••••••", h=48, icon="lock")
-        s.text(fx + 440, 526, "Forgot password?", 13, 600, BRAND, anchor="end")
-        checkbox(s, fx, 604, True)
-        s.text(fx + 28, 618, "Keep me signed in on this computer", 13, 400, INK2)
-        button(s, fx, 646, "Sign in", "primary", w=440, h=48, size=15)
-        s.link(fx, 646, 440, 48, "w01")
-        s.link(fx, 318, 440, 48, "w01")
-        with s.g("2FA note"):
-            s.rect(fx, 722, 440, 64, fill="#F6F7FB", rx=10, stroke=LINE)
-            s.icon("fingerprint", fx + 16, 742, 22, BRAND, 1.8)
-            s.text(fx + 52, 748, "Two-step verification is on", 13, 600, INK)
-            s.text(fx + 52, 768, "We'll send a code to your Letshego phone next.", 12, 400, MUTED)
-        with s.g("app link"):
-            s.text(fx, 846, "Field agent?", 13, 400, MUTED)
-            s.text(fx + tw("Field agent? ", 13), 846, "Open the Android app →", 13, 600, BRAND)
-            s.link(fx, 830, 300, 24, "m01")
-    s.text(880 + (W - 880) / 2, H - 48, "Client data protected under Uganda's Data Protection and Privacy Act, 2019",
-           12, 400, MUTED, anchor="middle")
+        s.rect(fx, cy + 48, 52, 52, fill=BRAND, rx=16)
+        triangle(s, fx + 12, cy + 58, 28)
+        s.text(fx, cy + 150, "Welcome back", 30, 700, INK)
+        s.text(fx, cy + 180, "Sign in with your Letshego staff account.", 15, 400, MUTED)
+        button(s, fx, cy + 212, "Continue with Microsoft", "secondary", icon="sparkle", w=fw, h=50)
+        s.link(fx, cy + 212, fw, 50, "w01")
+        s.line(fx, cy + 296, fx + fw / 2 - 70, cy + 296, LINE)
+        s.text(fx + fw / 2, cy + 300, "or use your staff ID", 12.5, 400, MUTED, anchor="middle")
+        s.line(fx + fw / 2 + 70, cy + 296, fx + fw, cy + 296, LINE)
+        field(s, fx, cy + 322, fw, "Staff ID", "LU-0142", h=48, icon="user")
+        field(s, fx, cy + 404, fw, "Password", "••••••••••••", h=48, icon="lock")
+        s.text(fx + fw, cy + 418, "Forgot?", 13, 600, BRAND, anchor="end")
+        checkbox(s, fx, cy + 492, True)
+        s.text(fx + 28, cy + 506, "Keep me signed in on this computer", 13, 400, INK2)
+        button(s, fx, cy + 530, "Sign in", "primary", icon="arrowright", w=fw, h=52, size=15)
+        s.link(fx, cy + 530, fw, 52, "w01")
+        s.icon("fingerprint", fx, cy + 598, 16, GREEN, 2)
+        s.text(fx + 24, cy + 611, "Two-step verification is on for your account", 12.5, 400, MUTED)
+    with s.g("agent app link"):
+        s.rect(cx, cy + ch + 20, cw, 56, fill=CARD, rx=18, stroke=LINE)
+        s.rect(cx + 16, cy + ch + 32, 32, 32, fill=YELLOW, rx=10, shadow=False)
+        s.icon("phone", cx + 23, cy + ch + 39, 18, BRAND_D, 2)
+        s.text(cx + 62, cy + ch + 54, "Field agent? Use the Android app", 14, 600, INK)
+        s.text(cx + cw - 20, cy + ch + 54, "Open →", 13, 700, BRAND, anchor="end")
+        s.link(cx, cy + ch + 20, cw, 56, "m01")
+    s.text(W / 2, H - 28, "Letshego Uganda · Improving lives · client data protected under the Data Protection and "
+                         "Privacy Act, 2019", 12, 400, MUTED, anchor="middle")
     return s
 
 

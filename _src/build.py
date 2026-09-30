@@ -71,6 +71,7 @@ PROTO = r"""<!doctype html>
   #bar button, #bar select { background:#2B2A5C; color:var(--ink); border:1px solid #3A3972; border-radius:6px; height:30px; padding:0 10px; font:inherit; cursor:pointer; }
   #bar select { max-width:340px; }
   #bar .sp { flex:1; }
+  #bar button.on { background:var(--accent); color:#14142B; border-color:var(--accent); font-weight:600; }
   #bar > * { white-space:nowrap; flex-shrink:0; }
   #bar .hint { overflow:hidden; text-overflow:ellipsis; flex-shrink:1; min-width:0; }
   @media (max-width:1500px) { #bar .hint { display:none; } }
@@ -155,6 +156,8 @@ function go(key, push = true) {
     frame.appendChild(a);
   });
   pick.value = key; fit();
+  document.getElementById('web').classList.toggle('on', !s.mobile);
+  document.getElementById('mob').classList.toggle('on', s.mobile);
   clearTimeout(window._auto); if (AUTO[key]) window._auto = setTimeout(() => go(AUTO[key][0]), AUTO[key][1]);
   if (push) history.replaceState(null, '', '#' + key);
 }

@@ -188,46 +188,45 @@ def m01_splash():
 
 
 def m02_sign_in():
-    s = phone("M2 Sign in", bg=BRAND, dark=True, time="08:02")
-    with s.g("facets", opacity=0.08):
-        s.poly([(290, 60), (420, 300), (160, 300)], fill="#FFFFFF")
-    wordmark(s, PAD + 4, 96, 28, "#FFFFFF")
-    s.text(PAD + 4, 124, "Field Sales · Uganda", 14, 400, "#C9C8EE")
-    s.text(PAD + 4, 190, "Welcome back,", 15, 400, "#DCDBF6")
-    s.text(PAD + 4, 218, "Sarah", 26, 700, "#FFFFFF")
-    with s.g("sheet"):
-        s.rect(0, 256, MW, MH - 256, fill=CARD, rx=24, name="sheet bg")
-        s.rect(0, 290, MW, MH - 290, fill=CARD)
-        y = 284
-        y += m_field(s, y, "Staff ID", "LU-0877", icon="user") + 14
-        s.text(PAD, y + 14, "PIN", 13, 600, INK2)
-        with s.g("pin boxes"):
-            bw = (MW - 2 * PAD - 5 * 8) / 6
-            for i in range(6):
-                x = PAD + i * (bw + 8)
-                s.rect(x, y + 24, bw, 50, fill=CARD, rx=10, stroke=BRAND if i == 4 else "#CDD0DE",
-                       sw=2 if i == 4 else 1)
-                if i < 4:
-                    s.circle(x + bw / 2, y + 49, 6, fill=INK)
-        y += 96
-        button(s, PAD, y, "Sign in", "primary", w=MW - 2 * PAD, h=50, size=15.5)
-        s.link(PAD, y, MW - 2 * PAD, 50, "m03")
-        y += 66
-        with s.g("fingerprint"):
-            s.icon("fingerprint", MW / 2 - 18, y, 36, BRAND, 1.8)
-            s.text(MW / 2, y + 58, "Use fingerprint", 13, 600, BRAND, anchor="middle")
-        s.link(MW / 2 - 70, y, 140, 70, "m03")
-        with s.g("device note"):
-            yy = MH - 110
-            s.rect(PAD, yy, MW - 2 * PAD, 62, fill="#F5F5FB", rx=12)
-            s.icon("shield", PAD + 14, yy + 18, 22, BRAND, 2)
-            s.text(PAD + 46, yy + 27, "This phone is registered to you", 13, 600, INK)
-            s.text(PAD + 46, yy + 46, "Sign-in works offline after the first time", 12, 400, MUTED)
+    s = phone("M2 Sign in", bg=BG, time="08:02")
+    with s.g("brand"):
+        s.rect(MW / 2 - 26, 64, 52, 52, fill=BRAND, rx=16)
+        triangle(s, MW / 2 - 14, 74, 28)
+        s.text(MW / 2, 140, "Letshego Field Sales", 13, 600, MUTED, anchor="middle")
+    with s.g("who"):
+        s.circle(MW / 2, 196, 30, fill=YELLOW)
+        s.text(MW / 2, 204, "SN", 20, 700, BRAND_D, anchor="middle")
+        s.text(MW / 2, 254, "Welcome back, Sarah", 20, 700, INK, anchor="middle")
+        s.text(MW / 2, 276, "Staff ID LU-0877 · Not you?", 12.5, 400, MUTED, anchor="middle")
+    s.text(MW / 2, 322, "Enter your 6-digit PIN", 13.5, 600, INK2, anchor="middle")
+    with s.g("pin dots"):
+        for i in range(6):
+            cx = MW / 2 - 70 + i * 28
+            if i < 4:
+                s.circle(cx, 348, 7, fill=BRAND)
+            else:
+                s.circle(cx, 348, 7, fill=CARD, stroke="#C4C7D6", sw=2)
+    with s.g("keypad"):
+        keys = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "fp", "0", "del"]
+        kw, kh, gap = 84, 58, 14
+        x0 = (MW - 3 * kw - 2 * gap) / 2
+        for i, k in enumerate(keys):
+            x = x0 + (i % 3) * (kw + gap)
+            y = 380 + (i // 3) * (kh + 10)
+            if k == "fp":
+                s.icon("fingerprint", x + kw / 2 - 15, y + kh / 2 - 15, 30, BRAND, 1.9)
+            elif k == "del":
+                s.icon("arrowleft", x + kw / 2 - 12, y + kh / 2 - 12, 24, INK2, 2)
+            else:
+                s.rect(x, y, kw, kh, fill=CARD, rx=18, stroke=LINE)
+                s.text(x + kw / 2, y + kh / 2 + 9, k, 24, 400, INK, anchor="middle")
+        s.link(x0, 380, 3 * kw + 2 * gap, 4 * (kh + 10), "m03")
+    with s.g("offline note"):
+        y = MH - 72
+        s.icon("shield", MW / 2 - 118, y - 13, 16, GREEN, 2)
+        s.text(MW / 2 - 96, y, "Phone registered to you · works offline", 12, 400, MUTED)
     gesture(s)
     return s
-
-
-HERO = "#16171F"
 
 
 def m03_home():

@@ -642,7 +642,7 @@ def m13_validation():
         s.icon("wifioff", PAD + 14, y + 17, 22, AMBER_D, 2)
         para(s, PAD + 46, y + 25, "No network? Checks wait in the queue and run as soon as you're back online.",
              MW - 2 * PAD - 60, 12, 400, INK2, lh=17)
-    footer(s, "Continue to loan", "m09c", icon="arrowright", secondary="Done", sec_target="m09")
+    footer(s, "Continue to loan", "m09c", icon="arrowright", secondary="Done", sec_target="m09f")
     return s
 
 
@@ -980,10 +980,11 @@ def info_row(s, y, icon, color, title, sub, target=None, h=58, fill=CARD, chev=T
         s.link(PAD, y, MW - 2 * PAD, h, target)
 
 
-def client_hub(title, tab, during, applied=None):
+def client_hub(title, tab, during, applied=None, kyc_done=None):
     keys = HUB_KEYS[during]
     applied = (not during) if applied is None else applied
-    s = phone(title, bg=BG, time=("11:43" if applied else "11:15") if during else "11:53")
+    kyc_done = (applied or not during) if kyc_done is None else kyc_done
+    s = phone(title, bg=BG, time=("11:43" if applied else ("11:25" if kyc_done else "11:15")) if during else "11:53")
     app_bar(s, CLIENT["name"], back="m17", sub="Kiwatule market route")
     for i, ic in enumerate(["phone", "navigation"]):
         s.icon(ic, MW - PAD - 24 - i * 40, 40, 22, INK, 2)
@@ -992,7 +993,7 @@ def client_hub(title, tab, during, applied=None):
         s.rect(PAD, y, MW - 2 * PAD, 84, fill=CARD, rx=18, stroke=LINE)
         avatar(s, PAD + 34, y + 42, 22, "FN", GREEN)
         s.text(PAD + 66, y + 32, "Nambi Tailoring & Fabrics", 14, 700, INK)
-        stage = ("Applied", GREEN) if applied else ("Interested", BLUE)
+        stage = ("Applied", GREEN) if applied else (("KYC validated", TEAL) if kyc_done else ("Interested", BLUE))
         x = PAD + 66
         x += chip(s, x, y + 44, stage[0], stage[1], h=22, size=11, dot=True) + 6
         chip(s, x, y + 44, "MSE Business Loan", PRODUCT["MSE Business Loan"], h=22, size=11)
@@ -1043,7 +1044,7 @@ def client_hub(title, tab, during, applied=None):
             y += 66
             info_row(s, y, "route", BRAND, "Plan: Kiwatule follow-ups", "8 of 12 visited · next: Ivan Kasozi 12:30", "m04b")
     elif tab == "KYC":
-        if not during:
+        if kyc_done:
             info_row(s, y, "shield", GREEN, "KYC validated · 11:24", "6 of 6 checks · NIRA, phone, CRB, affordability",
                      None, fill=tint(GREEN, 0.08), chev=False)
             y += 70
@@ -1054,7 +1055,7 @@ def client_hub(title, tab, during, applied=None):
         for n, t_, sub, tgt, tm in secs:
             with s.g(f"kyc {t_}"):
                 s.rect(PAD, y, MW - 2 * PAD, 58, fill=CARD, rx=14, stroke=LINE)
-                if during:
+                if not kyc_done:
                     s.circle(PAD + 26, y + 29, 13, fill=CARD, stroke="#C4C7D6", sw=2)
                     s.text(PAD + 26, y + 33.5, n, 12, 700, INK2, anchor="middle")
                     chip(s, MW - PAD - 14 - tw("To do", 11, 600) - 20, y + 18, "To do", "#8A8DA6", h=22, size=11)
@@ -1117,6 +1118,8 @@ def client_hub(title, tab, during, applied=None):
         (False, "KYC"): ("Update KYC", "m10", "idcard"),
         (False, "Visits"): ("Check in", "m09b", "pin"),
     }
+    if during and kyc_done and tab == "KYC":
+        actions[(True, "KYC")] = ("Continue to loan", "m09c", "arrowright")
     if during and applied and tab == "Loan":
         actions[(True, "Loan")] = ("Check out", "m16b", "logout")
     if (during, tab) in actions:
@@ -1141,6 +1144,10 @@ def m09c_hub_loan():
 
 def m09d_hub_visits():
     return client_hub("M9d Florence: Visits tab (visit in progress)", "Visits", True)
+
+
+def m09f_hub_kyc_done():
+    return client_hub("M9f Florence: KYC tab, KYC validated (visit in progress)", "KYC", True, kyc_done=True)
 
 
 def m09e_hub_applied():
@@ -1227,7 +1234,7 @@ def m07b_next_visit():
 
 SCREENS = [m01_splash, m02_sign_in, m03_home, m04_plans, m04b_plan, m04c_new_plan,
            m05_start_visit, m06_new_client, m07_first_visit, m07b_next_visit, m08_not_interested,
-           m09_hub, m09b_hub_kyc, m09c_hub_loan, m09d_hub_visits, m09e_hub_applied,
+           m09_hub, m09b_hub_kyc, m09c_hub_loan, m09d_hub_visits, m09e_hub_applied, m09f_hub_kyc_done,
            m10_kyc_details, m11_kyc_id, m12_kyc_income, m13_validation, m14_negotiation, m15_close,
            m16_success, m16b_check_out, m17_clients,
            m18_client, m18b_client_kyc, m18c_client_loan, m18d_client_visits, m19_me]

@@ -78,7 +78,7 @@ _src/briefing.py ────────────►  briefing.html         
 | `w03` Agent profile | `w10` Journey plans · `w10b` one plan · `w10c` new plan | `m05` Start a visit: choose the client | `m15` Close: submit application |
 | `w04` Field map | `w11` Locations · `w11b` New route | `m06` New client: register | `m16` Conversion recorded · `m16b` Check out |
 | `w05` Client pipeline | `w12` Users · `w12b` Edit user · `w12c` Roles & access | `m07` First visit: interested? · `m07b` Book the next visit · `m08` Not interested: why | `m17` My clients |
-| `w06` Client record | `w13` Reports & audit | `m09`–`m09d` Client record during a visit: Overview · KYC · Loan · Visits tabs · `m09e` Loan tab once the application is sent · `m10` KYC 1 | `m18`–`m18d` Client record after the visit (same tabs) · `m19` Me |
+| `w06` Client record | `w13` Reports & audit | `m09`–`m09d` Client record during a visit: Overview · KYC · Loan · Visits tabs · `m09f` KYC tab once validated (Done lands here) · `m09e` Loan tab once the application is sent · `m10` KYC 1 | `m18`–`m18d` Client record after the visit (same tabs) · `m19` Me |
 
 **Registration:** each module has a `SCREENS` list. Web screens are sorted by key; mobile screens run in list order. That order is what ← → steps through.
 

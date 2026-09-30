@@ -562,111 +562,296 @@ def _territory_polys(m):
     return polys
 
 
-def w11_territories():
-    s = shell("11 Territories: who covers which clients", "Territories", ["Planning", "Territories"],
-              user=SUPERVISOR)
-    page_head(s, "Territories", "Every client sits on a route inside a territory; each territory has one agent · "
-                                "reassign a territory and its clients move with it")
+def w11_locations():
+    s = shell("11 Locations", "Locations", ["Admin", "Locations"], user=SUPERVISOR)
+    page_head(s, "Locations", "Letshego's field geography · clients sit on routes · people are given locations when "
+                              "their user is created")
     with s.g("header actions"):
         x = X1
-        x -= button(s, x, Y0 + 12, "Add territory", "secondary", icon="plus", anchor="end") + 12
-        button(s, x, Y0 + 12, "Move a route", "secondary", icon="route", anchor="end")
+        x -= button(s, x, Y0 + 12, "Add territory", "primary", icon="plus", anchor="end") + 12
+        bw = button(s, x, Y0 + 12, "Add route", "secondary", icon="route", anchor="end")
+        s.link(x - bw, Y0 + 12, bw, 40, "w11b")
     ty = Y0 + 84
-    th = H - 28 - ty
-    lw = 440
-    card(s, X0, ty, lw, th, "Kampala East · 8 territories", "Central region › Kampala East branch · Moses Okello")
-    y = ty + 78
+    cw = (CW - 3 * 36) / 4
+    tabs = [("globe", "Regions", "4", "Central · Eastern · Northern · Western", False),
+            ("store", "Branches", "14", "e.g. Kampala East, Mbarara, Gulu", False),
+            ("layers", "Territories", "64", "one agent covers each", True),
+            ("route", "Routes", "251", "clients sit on a route", False)]
+    for i, (ic, lab, n, sub, on) in enumerate(tabs):
+        x = X0 + i * (cw + 36)
+        with s.g(f"level {lab}"):
+            s.rect(x, ty, cw, 88, fill=CARD, rx=14, stroke=BRAND if on else LINE, sw=2 if on else 1,
+                   shadow=not on)
+            s.rect(x + 18, ty + 22, 44, 44, fill=tint(BRAND, 0.1) if on else "#F4F5FA", rx=12, shadow=False)
+            s.icon(ic, x + 29, ty + 33, 22, BRAND if on else INK2, 2)
+            s.text(x + 78, ty + 42, n, 22, 700, INK)
+            s.text(x + 84 + tw(n, 22, 700), ty + 41, lab, 14, 600, BRAND if on else INK2)
+            s.text(x + 78, ty + 64, sub, 12, 400, MUTED, maxw=cw - 96)
+        if i < 3:
+            s.icon("chevright", x + cw + 8, ty + 34, 20, FAINT, 2)
+    fy = ty + 110
+    with s.g("filters"):
+        x = X0
+        x += filter_btn(s, x, fy, "Region", "Central", w=180) + 12
+        x += filter_btn(s, x, fy, "Branch", "Kampala East", w=220) + 12
+        s.rect(x, fy, 280, 38, fill=CARD, rx=8, stroke=LINE, shadow=False)
+        s.icon("search", x + 12, fy + 10, 18, MUTED)
+        s.text(x + 40, fy + 24, "Search territories", 13, 400, FAINT)
+        s.text(X1, fy + 24, "8 territories in Kampala East", 13, 400, MUTED, anchor="end")
+    tby = fy + 54
+    cols = [("Territory", 300, "start"), ("Branch", 170, "start"), ("Region", 130, "start"), ("Routes", 90, "end"),
+            ("Clients", 100, "end"), ("Agent", 330, "start"), ("Status", 190, "start"), ("", 282, "end")]
+    rows = []
     for nm, ag, ini, n, routes, col, st in TERRITORIES:
         leaving = st != "Active"
-        with s.g(f"territory {nm}"):
-            if leaving:
-                s.rect(X0 + 10, y - 4, lw - 20, 64, fill=tint(col, 0.08), rx=12, stroke=col, sw=1.5, shadow=False)
-            else:
-                s.line(X0 + 24, y - 4, X0 + lw - 24, y - 4, LINE2)
-            s.rect(X0 + 24, y + 12, 12, 32, fill=col, rx=4, op=0.75)
-            s.text(X0 + 48, y + 24, nm, 14, 600, INK, maxw=230)
-            avatar(s, X0 + 58, y + 42, 9, ini, col)
-            s.text(X0 + 72, y + 46, ag, 12, 400, INK2)
-            if leaving:
-                chip(s, X0 + 78 + tw(ag, 12), y + 33, "Leaving today", col, h=18, size=10)
-            s.text(X0 + lw - 24, y + 24, f"{n} clients", 13, 700, INK, anchor="end")
-            s.text(X0 + lw - 24, y + 44, f"{routes} routes", 12, 400, MUTED, anchor="end")
-        y += 64
-    with s.g("note"):
-        s.rect(X0 + 16, y + 10, lw - 32, 76, fill="#F7F7FC", rx=12, shadow=False)
-        s.icon("info", X0 + 30, y + 26, 18, BRAND, 2)
-        para(s, X0 + 56, y + 38, "New clients are placed on a route automatically from their GPS location when "
-                                 "the agent registers them.", lw - 96, 12.5, 400, INK2, lh=19)
+        rows.append([
+            (lambda nm_, col_: lambda s_, x, y, w, h: (s_.rect(x + 16, y + h / 2 - 12, 8, 24, fill=col_, rx=3, op=0.8),
+                                                       s_.text(x + 36, y + h / 2 + 5, nm_, 14, 600, INK)))(nm, col),
+            "Kampala East", "Central", str(routes), str(n),
+            agent_cell(ag, ini, "leaves today, 18:00" if leaving else "Field Sales Agent", col),
+            chip_cell("Needs an agent" if leaving else "Active", RED if leaving else GREEN, status=False),
+            (lambda lv: lambda s_, x, y, w, h: button(s_, x + w - 16, y + h / 2 - 16,
+                                                      "Assign agent" if lv else "Edit",
+                                                      "primary" if lv else "secondary", h=32, size=12.5,
+                                                      anchor="end"))(leaving)])
+    rh = (H - 28 - tby - 40 - 40) / len(rows)
+    table(s, X0, tby, cols, rows, row_h=rh, head_h=40)
+    s.link(X1 - 150, tby + 40 + 7 * rh, 150, rh, "w12b")
+    s.text(X0 + 16, H - 44, "Showing 8 of 64 territories · the other levels use the same list, one tab each", 13,
+           400, MUTED)
+    return s
+
+
+def w11b_new_route():
+    s = shell("11b New route", "Locations", ["Admin", "Locations", "New route"], user=SUPERVISOR)
+    page_head(s, "New route", "A route groups the clients to visit inside one territory · routes added from the app "
+                              "wait for a supervisor's approval")
+    with s.g("header actions"):
+        x = X1
+        bw = button(s, x, Y0 + 12, "Save route", "primary", icon="check", anchor="end")
+        s.link(x - bw, Y0 + 12, bw, 40, "w11")
+        x -= bw + 12
+        bw = button(s, x, Y0 + 12, "Cancel", "secondary", anchor="end")
+        s.link(x - bw, Y0 + 12, bw, 40, "w11")
+    ty = Y0 + 84
+    th = H - 28 - ty
+    lw = 540
+    card(s, X0, ty, lw, th, "Where it sits", "Pick from the top down")
+    fx, fw = X0 + 24, lw - 48
+    y = ty + 76
+    for i, (lab, val, hint) in enumerate([("Region", "Central", None), ("Branch", "Kampala East", None),
+                                          ("Territory", "Ntinda · Kiwatule", "Covered by Sarah Namuli · 6 routes")]):
+        with s.g(f"step {lab}"):
+            s.circle(fx + 12, y + 40, 12, fill=BRAND)
+            s.text(fx + 12, y + 44.5, str(i + 1), 11.5, 700, "#FFFFFF", anchor="middle")
+            field(s, fx + 36, y, fw - 36, lab, val, dropdown=True, required=True, ok=hint)
+        y += 96 if hint else 80
+    s.line(fx, y + 4, fx + fw, y + 4, LINE)
+    y += 24
+    s.text(fx, y + 10, "Route details", 15, 700, INK)
+    y += 24
+    y += field(s, fx, y, fw, "Route name", "Kiwatule new estates", required=True) + 12
+    s.text(fx, y + 14, "Description", 13, 600, INK2)
+    s.rect(fx, y + 22, fw, 76, fill=CARD, rx=8, stroke="#CDD0DE", shadow=False)
+    para(s, fx + 14, y + 48, "New housing estates north of Kiwatule market; mostly salaried workers and small "
+                             "shops.", fw - 28, 13.5, 400, INK, lh=21)
+    y += 118
+    for lab, on in [("Active", True), ("Place existing clients inside the area on this route", True)]:
+        s.text(fx, y + 14, lab, 13.5, 400, INK2)
+        toggle(s, fx + fw - 36, y, on)
+        y += 38
 
     mx = X0 + lw + 20
-    mw = 560
-    card(s, mx, ty, mw, th, "Map", "Territories and their routes")
-    m = StreetMap(s, mx + 16, ty + 70, mw - 32, th - 90, seed=5, lake=False, dense=0.8)
-    for (nm, ag, ini, n, routes, col, st), pts in zip(TERRITORIES, _territory_polys(m)):
-        leaving = st != "Active"
-        s.poly(pts, fill=col, op=0.22 if leaving else 0.13, stroke=col, sw=2.5 if leaving else 1.2,
-               dash="6 4" if leaving else None, name=f"zone {nm}")
-        cx = sum(p[0] for p in pts) / 4
-        cy = sum(p[1] for p in pts) / 4
-        w = tw(nm, 11.5, 700)
-        s.rect(cx - w / 2 - 6, cy - 14, w + 12, 34, fill="#FFFFFF", rx=8, op=0.9, shadow=False)
-        s.text(cx, cy, nm, 11.5, 700, INK, anchor="middle")
-        s.text(cx, cy + 14, ag, 10.5, 400, MUTED, anchor="middle")
+    mw = X1 - mx
+    card(s, mx, ty, mw, th, "Draw the route area", "Click to add points · 23 clients fall inside")
+    m = StreetMap(s, mx + 16, ty + 70, mw - 32, th - 86, seed=11, lake=False, dense=0.8,
+                  places=[("Ntinda", 0.24, 0.3), ("Kiwatule", 0.66, 0.44)])
+    terr = [m.P(*p) for p in [(0.06, 0.08), (0.94, 0.1), (0.9, 0.92), (0.1, 0.9)]]
+    s.poly(terr, fill=BRAND, op=0.04, stroke=BRAND, sw=2, dash="7 5", name="territory boundary")
+    for pts, lab in [([(0.12, 0.62), (0.3, 0.55), (0.45, 0.75)], "Ntinda stage"),
+                     ([(0.5, 0.8), (0.64, 0.66), (0.82, 0.74)], "Kiwatule market"),
+                     ([(0.14, 0.2), (0.28, 0.34), (0.4, 0.22)], "Ntinda schools")]:
+        pp = [m.P(*p) for p in pts]
+        s.poly(pp, stroke=MUTED, sw=3, closed=False, dash="2 6", name=f"route {lab}")
+        s.text(pp[-1][0] + 8, pp[-1][1] + 4, lab, 11.5, 600, MUTED)
+    new = [m.P(*p) for p in [(0.52, 0.14), (0.84, 0.18), (0.86, 0.46), (0.6, 0.52), (0.5, 0.34)]]
+    s.poly(new, fill=YELLOW, op=0.28, stroke=YELLOW_D, sw=2.5, name="new route area")
+    for px, py in new:
+        s.circle(px, py, 6, fill=CARD, stroke=YELLOW_D, sw=2.5)
+    import random
+    rnd = random.Random(4)
+    for _ in range(23):
+        fx_, fy_ = rnd.uniform(0.56, 0.8), rnd.uniform(0.22, 0.46)
+        s.circle(*m.P(fx_, fy_), 4, fill=BRAND, stroke="#FFFFFF", sw=1.2)
+    cx, cy = m.P(0.68, 0.33)
+    w = tw("Kiwatule new estates", 12.5, 700)
+    s.rect(cx - w / 2 - 10, cy - 38, w + 20, 26, fill="#FFFFFF", rx=8, shadow=False)
+    s.text(cx, cy - 20, "Kiwatule new estates", 12.5, 700, INK, anchor="middle")
+    return s
+
+
+USERS_LIST = [
+    ("Patricia Nankya", "PN", "LU-0142", "Head of Sales", "All", "All", "—", "Active", "Today 09:12", BRAND),
+    ("Agnes Nabwire", "AN", "LU-0310", "Regional Manager", "Central", "All 4 branches", "—", "Active", "Today 08:40",
+     VIOLET),
+    ("Moses Okello", "MO", "LU-0421", "Branch Supervisor", "Central", "Kampala East", "All 8", "Active", "Today 12:03",
+     TEAL),
+    ("Daniel Ssekandi", "DS", "LU-0198", "HQ Credit Approver", "All", "All", "Loans above UGX 10M", "Active",
+     "Yesterday 17:20", AMBER),
+    ("Sarah Namuli", "SN", "LU-0877", "Field Sales Agent", "Central", "Kampala East", "Ntinda · Kiwatule", "Active",
+     "Today 12:01", GREEN),
+    ("Peter Kato", "PK", "LU-0912", "Field Sales Agent", "Central", "Kampala East", "Kireka · Bweyogerere", "Active",
+     "Today 11:39", GREEN),
+    ("Ruth Achieng", "RA", "LU-0930", "Field Sales Agent", "Central", "Kampala East", "Naalya · Kira", "Active",
+     "Today 11:31", GREEN),
+    ("Daniel Okumu", "DO", "LU-1033", "Field Sales Agent", "Central", "Kampala East", "Namugongo · Kyaliwajjala",
+     "Leaving today", "Today 10:12", RED),
+    ("Robert Ouma", "RO", "LU-0655", "Field Sales Agent", "Central", "Kampala Central", "Wandegeya · Makerere",
+     "Active", "Today 10:15", GREEN),
+    ("Allan Tumwine", "AT", "LU-0702", "Field Sales Agent", "Western", "Mbarara", "Mbarara town · Kakoba", "Active",
+     "Today 09:58", GREEN),
+]
+
+
+def w12_users():
+    s = shell("12 Users", "Users", ["Admin", "Users"], user=SUPERVISOR)
+    page_head(s, "Users", "Everyone who uses the app or the console · each user's locations decide what they see")
+    with s.g("header actions"):
+        x = X1
+        bw = button(s, x, Y0 + 12, "Add user", "primary", icon="userplus", anchor="end")
+        s.link(x - bw, Y0 + 12, bw, 40, "w12b")
+        x -= bw + 12
+        x -= filter_btn(s, x - 190, Y0 + 13, "Branch", "Kampala East", w=190) + 12
+        x -= filter_btn(s, x - 160, Y0 + 13, "Region", "Central", w=160) + 12
+        filter_btn(s, x - 150, Y0 + 13, "Role", "All", w=150)
+    by = Y0 + 80
+    with s.g("leaving banner"):
+        s.rect(X0, by, CW, 52, fill=tint(RED, 0.07), rx=12, stroke=tint(RED, 0.35), shadow=False)
+        s.icon("alert", X0 + 18, by + 15, 22, RED, 2)
+        s.text(X0 + 52, by + 32, "Daniel Okumu leaves today. His territory Namugongo · Kyaliwajjala (46 clients) needs "
+                                 "an agent before 18:00.", 14, 600, INK)
+        bw = button(s, X1 - 16, by + 10, "Give it to someone", "primary", h=32, size=12.5, anchor="end")
+        s.link(X1 - 16 - bw, by + 10, bw, 32, "w12b")
+    tby = by + 70
+    cols = [("User", 290, "start"), ("Role", 190, "start"), ("Region", 120, "start"), ("Branch", 170, "start"),
+            ("Territories", 290, "start"), ("Status", 170, "start"), ("Last active", 170, "start"), ("", 192, "end")]
+    rows = []
+    for nm, ini, staff, role, reg, br, terr, st, last, col in USERS_LIST:
+        rows.append([agent_cell(nm, ini, f"Staff ID {staff}", col), role, reg, br, terr, chip_cell(st), last,
+                     (lambda: lambda s_, x, y, w, h: button(s_, x + w - 16, y + h / 2 - 16, "Edit", "secondary", h=32,
+                                                            size=12.5, anchor="end"))()])
+    rh = (H - 28 - tby - 40 - 40) / len(rows)
+    table(s, X0, tby, cols, rows, row_h=rh, head_h=40, hl=5)
+    s.link(X0, tby + 40 + 5 * rh, CW, rh, "w12b")
+    s.text(X0 + 16, H - 44, "Showing 10 of 94 users", 13, 400, MUTED)
+    return s
+
+
+def w12b_edit_user():
+    s = shell("12b Edit user: Peter Kato", "Users", ["Admin", "Users", "Peter Kato"], user=SUPERVISOR)
+    with s.g("user header"):
+        s.rect(X0, Y0, CW, 96, fill=CARD, rx=14, stroke=LINE)
+        avatar(s, X0 + 52, Y0 + 48, 28, "PK", GREEN)
+        s.text(X0 + 96, Y0 + 44, "Peter Kato", 22, 700, INK)
+        chip(s, X0 + 106 + tw("Peter Kato", 22, 700), Y0 + 26, "Field Sales Agent", GREEN, h=24, size=11.5)
+        s.text(X0 + 96, Y0 + 70, "Staff ID LU-0912 · 0701 223 ··· · joined Feb 2024 · supervisor Moses Okello", 13.5,
+               400, MUTED)
+        x = X1 - 24
+        bw = button(s, x, Y0 + 28, "Save changes", "primary", icon="check", anchor="end")
+        s.link(x - bw, Y0 + 28, bw, 40, "w12")
+        x -= bw + 10
+        bw = button(s, x, Y0 + 28, "Cancel", "secondary", anchor="end")
+        s.link(x - bw, Y0 + 28, bw, 40, "w12")
+    ty = Y0 + 112
+    th = H - 28 - ty
+    lw = 420
+    card(s, X0, ty, lw, th, "Profile")
+    fx, fw = X0 + 24, lw - 48
+    y = ty + 64
+    for lab, val, dd in [("Full name", "Peter Kato", False), ("Staff ID", "LU-0912", False),
+                         ("Phone", "0701 223 ···", False), ("Role", "Field Sales Agent", True),
+                         ("Supervisor", "Moses Okello", True)]:
+        y += field(s, fx, y, fw, lab, val, dropdown=dd, required=True) + 12
+    y += 6
+    for lab, sub, on in [("Active", "Can sign in to the app", True), ("Phone registered", "Samsung A14 · since Feb 2024", True)]:
+        s.text(fx, y + 12, lab, 13.5, 600, INK)
+        s.text(fx, y + 30, sub, 12, 400, MUTED)
+        toggle(s, fx + fw - 36, y + 6, on)
+        y += 50
+
+    mx = X0 + lw + 20
+    mw = 620
+    card(s, mx, ty, mw, th, "Where Peter works", "Region › Branch › Territories › Routes · as in the user form "
+                                                 "cascade")
+    fx, fw = mx + 24, mw - 48
+    hw = (fw - 12) / 2
+    field(s, fx, ty + 76, hw, "Region", "Central", dropdown=True, required=True)
+    field(s, fx + hw + 12, ty + 76, hw, "Branch", "Kampala East", dropdown=True, required=True)
+    y = ty + 168
+    s.text(fx, y, "Territories", 13, 600, INK2)
+    s.text(fx + fw, y, "one agent per territory", 12, 400, MUTED, anchor="end")
+    y += 12
+    for nm, ag, ini, n, routes, col, st in TERRITORIES:
+        mine = nm in ("Kireka · Bweyogerere", "Namugongo · Kyaliwajjala")
+        new = nm == "Namugongo · Kyaliwajjala"
+        with s.g(f"territory {nm}"):
+            if new:
+                s.rect(fx - 8, y, fw + 16, 50, fill=tint(GREEN, 0.07), rx=10, stroke=tint(GREEN, 0.5), shadow=False)
+            else:
+                s.line(fx, y, fx + fw, y, LINE2)
+            checkbox(s, fx + 2, y + 16, mine, color=GREEN if new else BRAND)
+            s.text(fx + 32, y + 22, nm, 13.5, 600, INK if mine else FAINT)
+            sub = ("From Daniel Okumu, who leaves today" if new else
+                   ("Peter's territory" if mine else f"Covered by {ag}"))
+            s.text(fx + 32, y + 39, sub, 11.5, 600 if new else 400, GREEN_D if new else MUTED)
+            s.text(fx + fw, y + 30, f"{n} clients · {routes} routes", 12, 400, INK2 if mine else FAINT, anchor="end")
+        y += 52
+    y += 14
+    s.text(fx, y, "Routes", 13, 600, INK2)
+    radio(s, fx + 10, y + 24, True)
+    s.text(fx + 28, y + 29, "All routes in these territories (9)", 13, 400, INK)
+    radio(s, fx + 290, y + 24, False)
+    s.text(fx + 308, y + 29, "Only some routes", 13, 400, INK2)
 
     rx = mx + mw + 20
     rw = X1 - rx
-    card(s, rx, ty, rw, th, "Namugongo · Kyaliwajjala", "Daniel Okumu resigned · last day today")
-    status_chip(s, rx + rw - 24 - tw("Leaving today", 11, 600) - 34, ty + 24, "Leaving today", h=22, size=11)
-    tw2 = (rw - 48 - 12) / 2
-    for i, (val, lab) in enumerate([("46", "clients"), ("4", "routes"), ("2", "open applications"),
-                                    ("1", "journey plan running")]):
-        x = rx + 24 + (i % 2) * (tw2 + 12)
-        y = ty + 80 + (i // 2) * 62
-        s.rect(x, y, tw2, 52, fill="#F7F7FC", rx=12, shadow=False)
-        s.text(x + 14, y + 33, val, 20, 700, INK)
-        s.text(x + 22 + tw(val, 20, 700), y + 32, lab, 12.5, 400, INK2)
-    y = ty + 222
-    s.text(rx + 24, y, "Routes", 14, 700, INK)
-    for nm, n in [("Kyaliwajjala market", 16), ("Namugongo shrine road", 14), ("Namugongo estates", 9),
-                  ("Sonde stage", 7)]:
-        y += 34
-        s.icon("route", rx + 24, y - 13, 16, MUTED, 2)
-        s.text(rx + 48, y, nm, 13, 400, INK2)
-        s.text(rx + rw - 24, y, f"{n} clients", 12.5, 600, INK, anchor="end")
-    y += 36
-    s.line(rx + 24, y, rx + rw - 24, y, LINE)
-    y += 16
-    field(s, rx + 24, y, rw - 48, "Reassign the territory to", "Peter Kato", dropdown=True, icon="user",
-          ok="Covers Kireka · Bweyogerere next door · 188 → 234 clients", required=True)
-    y += 118
-    s.text(rx + 24, y, "Also nearby: Ruth Achieng (Naalya · Kira, 176 clients)", 12.5, 400, MUTED)
-    y += 30
-    for t_ in ["All 46 clients, 4 routes and the running plan move to Peter",
-               "The 2 open applications stay credited to Daniel",
-               "Clients get an SMS introducing Peter · logged in the audit trail"]:
+    card(s, rx, ty, rw, th, "What changes when you save")
+    y = ty + 70
+    for val, lab in [("+46", "clients · 188 → 234"), ("+4", "routes · 5 → 9"),
+                     ("+1", "journey plan: meet your new clients")]:
+        s.rect(rx + 24, y, rw - 48, 50, fill="#F7F7FC", rx=12, shadow=False)
+        s.text(rx + 40, y + 32, val, 18, 700, GREEN_D)
+        s.text(rx + 48 + tw(val, 18, 700), y + 31, lab, 13, 400, INK2, maxw=rw - 120)
+        y += 58
+    m = StreetMap(s, rx + 24, y + 6, rw - 48, 230, seed=5, lake=False, dense=0.7)
+    polys = _territory_polys(m)
+    for (nm, *_r, col, st), pts in zip(TERRITORIES, polys):
+        on = nm in ("Kireka · Bweyogerere", "Namugongo · Kyaliwajjala")
+        s.poly(pts, fill=GREEN if on else "#8A8DA6", op=0.3 if on else 0.06, stroke=GREEN if on else "#C4C7D6",
+               sw=2 if on else 1, name=f"zone {nm}")
+    y += 252
+    for t_ in ["Daniel's 2 open applications stay credited to him",
+               "Clients get an SMS introducing Peter",
+               "Logged in the audit trail with the old and new agent"]:
         s.icon("check", rx + 24, y - 12, 16, GREEN, 2.6)
         s.text(rx + 48, y, t_, 12.5, 400, INK2, maxw=rw - 72)
         y += 28
-    button(s, rx + 24, H - 100, "Reassign territory to Peter", "primary", icon="swap", w=rw - 48, h=48)
-    s.link(rx + 24, H - 100, rw - 48, 48, "w10")
-    s.text(rx + rw / 2, H - 38, "Or move single routes to different agents", 12.5, 600, BRAND, anchor="middle")
     return s
 
 
 # =====================================================================================
-def w12_users():
-    s = shell("12 Users and roles", "Users & roles", ["Admin", "Users & roles"])
-    page_head(s, "Users & roles", "Who can see and do what · scope limits each person to their "
-                                   "territories, branch or region")
+def w12c_roles():
+    s = shell("12c Roles and access", "Roles & access", ["Admin", "Roles & access"])
+    page_head(s, "Roles & access", "What each role can do, and how its locations are set")
     with s.g("header actions"):
-        button(s, X1, Y0 + 12, "Invite user", "primary", icon="userplus", anchor="end")
+        button(s, X1, Y0 + 12, "Add role", "secondary", icon="plus", anchor="end")
     ty = Y0 + 84
     rw_ = 1040
     card(s, X0, ty, rw_, 520, "Roles", "Permissions are configurable; these are the defaults we propose")
     roles = [("Field Sales Agent", "Own territories", 62), ("Branch Supervisor", "Branch", 14),
              ("Regional Manager", "Region", 4), ("HQ Credit Approver", "All · above limit", 3),
              ("Head of Sales / Management", "All branches", 5), ("System Admin", "Settings only", 2)]
-    perms = ["Visits & KYC", "Approve", "Reassign", "Set plans", "Dashboards", "Users"]
+    perms = ["Visits & KYC", "Approve", "Locations", "Set plans", "Dashboards", "Users"]
     matrix = [[1, 0, 0, 0, 0, 0], [1, 1, 1, 1, 1, 0], [0, 1, 1, 1, 1, 0], [0, 1, 0, 0, 1, 0], [0, 0, 1, 1, 1, 0],
               [0, 0, 0, 0, 0, 1]]
     gx = X0 + 420
@@ -702,28 +887,24 @@ def w12_users():
 
     tx = X0 + rw_ + 20
     tw2 = X1 - tx
-    card(s, tx, ty, tw2, H - 28 - ty, "Users and what they cover", "Scope is set when the user is created: all "
-                                                                    "regions, a region, a branch or territories",
-         action="Territories →")
-    s.link(tx + tw2 - 140, ty + 20, 140, 30, "w11")
-    people = [("Patricia Nankya", "PN", "Head of Sales", "All regions", BRAND),
-              ("Agnes Nabwire", "AN", "Regional Manager", "Central region · 5 branches", VIOLET),
-              ("Moses Okello", "MO", "Branch Supervisor", "Kampala East branch · 8 territories", TEAL),
-              ("Daniel Ssekandi", "DS", "HQ Credit Approver", "All branches · loans above UGX 10M", AMBER),
-              ("Sarah Namuli", "SN", "Field Sales Agent", "Ntinda · Kiwatule", GREEN),
-              ("Peter Kato", "PK", "Field Sales Agent", "Kireka · Bweyogerere", GREEN),
-              ("Ruth Achieng", "RA", "Field Sales Agent", "Naalya · Kira", GREEN),
-              ("Daniel Okumu", "DO", "Field Sales Agent", "Namugongo · Kyaliwajjala · leaving today", RED)]
+    card(s, tx, ty, tw2, H - 28 - ty, "How locations are set", "Chosen in the user form, from the top down")
     y = ty + 80
-    for nm, ini, role, scope, col in people:
-        with s.g(f"user {nm}"):
-            s.line(tx + 24, y, tx + tw2 - 24, y, LINE2)
-            avatar(s, tx + 44, y + 32, 17, ini, col)
-            s.text(tx + 72, y + 28, nm, 14, 600, INK)
-            s.text(tx + 72, y + 47, role, 12, 400, MUTED)
-            s.text(tx + tw2 - 24, y + 37, scope, 12.5, 600, INK2 if col != RED else RED, anchor="end", maxw=260)
-        y += 66
-    s.text(tx + 24, y + 30, "Showing 8 of 94 users", 12.5, 400, MUTED)
+    for role, how in [("Field Sales Agent", "Region › Branch › one or more territories (or single routes)"),
+                      ("Branch Supervisor", "Region › Branch · sees every territory in it"),
+                      ("Regional Manager", "One or more regions · sees every branch in them"),
+                      ("HQ Credit Approver", "All branches · loans above the branch limit"),
+                      ("Head of Sales", "Everything"),
+                      ("System Admin", "No field data · settings only")]:
+        s.line(tx + 24, y, tx + tw2 - 24, y, LINE2)
+        s.text(tx + 24, y + 28, role, 14, 600, INK)
+        para(s, tx + 24, y + 50, how, tw2 - 48, 12.5, 400, INK2, lh=18)
+        y += 84
+    with s.g("note"):
+        s.rect(tx + 24, y + 12, tw2 - 48, 80, fill=tint(BRAND, 0.06), rx=12, shadow=False)
+        s.icon("info", tx + 40, y + 30, 18, BRAND, 2)
+        para(s, tx + 68, y + 42, "Scope decides what each person sees on the dashboard and in the app. Change it on "
+                                 "the user's page.", tw2 - 110, 12.5, 400, INK2, lh=19)
+        s.link(tx + 24, y + 12, tw2 - 48, 80, "w12")
     return s
 
 
@@ -786,4 +967,5 @@ def w13_reports():
     return s
 
 
-SCREENS = [w07_approvals, w08_review, w09_reasons, w10_plans, w10b_plan, w10c_new_plan, w11_territories, w12_users, w13_reports]
+SCREENS = [w07_approvals, w08_review, w09_reasons, w10_plans, w10b_plan, w10c_new_plan, w11_locations,
+           w11b_new_route, w12_users, w12b_edit_user, w12c_roles, w13_reports]

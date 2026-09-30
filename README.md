@@ -4,7 +4,7 @@ Demo-stage prototype of a field sales app for **Letshego Uganda**: an Android ap
 
 - **Live prototype:** https://letshego-prototype.vercel.app (Vercel redeploys on every push to `main`)
 - **Team briefing** (internal, not for Letshego): [`BRIEFING.md`](BRIEFING.md) · web version at `/briefing.html`
-- **37 screens:** 16 web (1920×1080) and 21 screens of the Android agent app (360×800, to be built in Flutter)
+- **40 screens:** 19 web (1920×1080) and 21 screens of the Android agent app (360×800, to be built in Flutter)
 - All names, figures, IDs and loan products are **illustrative**. District boundaries are real (UBOS).
 - Brand colours were sampled from Letshego's LetsGo app: indigo `#2F2E80`, yellow `#FBD405`, the faceted triangle.
 
@@ -73,8 +73,8 @@ _src/briefing.py ────────────►  briefing.html         
 | `w01` Sales overview | `w08` Application review | `m03` Home (due today) | `m13` KYC validation |
 | `w02` Agents performance | `w09` Why & why not | `m04` My journey plans · `m04b` one plan · `m04c` new plan | `m14` Negotiation |
 | `w03` Agent profile | `w10` Journey plans · `w10b` one plan · `w10c` new plan | `m05` Start a visit: choose the client | `m15` Close: submit application |
-| `w04` Field map | `w11` Territories | `m06` New client: register | `m16` Conversion + check-out |
-| `w05` Client pipeline | `w12` Users & roles | `m07` First visit: interested? · `m08` Not interested: why | `m17` My clients · `m18` Client record |
+| `w04` Field map | `w11` Locations · `w11b` New route | `m06` New client: register | `m16` Conversion + check-out |
+| `w05` Client pipeline | `w12` Users · `w12b` Edit user · `w12c` Roles & access | `m07` First visit: interested? · `m08` Not interested: why | `m17` My clients · `m18` Client record |
 | `w06` Client record | `w13` Reports & audit | `m09` Visit (returning client) · `m10` KYC 1 | `m19` Me |
 
 **Registration:** each module has a `SCREENS` list. Web screens are sorted by key; mobile screens run in list order. That order is what ← → steps through.
@@ -116,7 +116,7 @@ python briefing.py           # rewrite briefing.html from BRIEFING.md
 
 **Rules that keep the story consistent:**
 - **Conversion = application submitted with every required item.** Approval never changes it. Keep saying so on screens that show both.
-- **Clients belong to territories, not to agents** (Region › Branch › Territory › Route, as in NICE). Reassigning a territory moves all its clients, routes and plans to the new agent.
+- **Clients belong to territories, not to agents** (Region › Branch › Territory › Route, as in NICE). Locations are master data (W11, W11b) and are given to people in the user form (W12b), as in NICE; ticking a territory on another agent's page moves all its clients, routes and plans.
 - **A visit has a purpose and an outcome.** KYC is done during a visit, once per client, after they say they're interested; never when a client is added.
 - **A visit always starts by choosing the client** (from the plan, a search, or *New client*). Visits not on the journey plan are allowed and count as off-plan.
 - **A journey plan is a named list of clients** with an agent, start and end dates, a description and a goal. An agent can have several. Supervisors create them (W10c); agents can create their own for approval (M4c). Home shows what's due today across all plans.

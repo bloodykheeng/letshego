@@ -22,12 +22,12 @@ Y0 = TOP + 28
 NAV = [
     ("SALES", [("Overview", "grid"), ("Agents", "users"), ("Field map", "map"), ("Client pipeline", "workflow")]),
     ("APPLICATIONS", [("Approvals", "listcheck"), ("Why & why not", "message")]),
-    ("PLANNING", [("Journey plans", "route"), ("Territories", "layers")]),
-    ("ADMIN", [("Users & roles", "settings"), ("Reports & audit", "history")]),
+    ("PLANNING", [("Journey plans", "route")]),
+    ("ADMIN", [("Locations", "layers"), ("Users", "user"), ("Roles & access", "shield"), ("Reports & audit", "history")]),
 ]
 NAV_TARGET = {"Overview": "w01", "Agents": "w02", "Field map": "w04", "Client pipeline": "w05", "Approvals": "w07",
-              "Why & why not": "w09", "Journey plans": "w10", "Territories": "w11",
-              "Users & roles": "w12", "Reports & audit": "w13"}
+              "Why & why not": "w09", "Journey plans": "w10", "Locations": "w11",
+              "Users": "w12", "Roles & access": "w12c", "Reports & audit": "w13"}
 BADGES = {"Agents": ("6", RED), "Approvals": ("14", YELLOW)}
 
 SB_TEXT = "#D9D8F3"

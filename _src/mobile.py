@@ -758,9 +758,9 @@ def m16_success():
         s.text(PAD + 16, y + 28, "Q3: 19 of 22 conversions", 14.5, 700, INK)
         s.text(MW - PAD - 16, y + 28, "+1", 14.5, 700, GREEN_D, anchor="end")
         progress(s, PAD + 16, y + 44, MW - 2 * PAD - 32, 19 / 22, BRAND, h=8, bg="#FFFFFF")
-    s.text(MW / 2, 640, "Checked out 11:52 · 38-minute visit · you'll be notified", 12.5, 400, MUTED, anchor="middle")
-    button(s, PAD, MH - 140, "Check out of this visit", "primary", icon="logout", w=MW - 2 * PAD, h=48)
-    s.link(PAD, MH - 140, MW - 2 * PAD, 48, "m16b")
+    s.text(MW / 2, 640, "You'll be notified when Moses decides", 12.5, 400, MUTED, anchor="middle")
+    button(s, PAD, MH - 140, "Close", "primary", icon="x", w=MW - 2 * PAD, h=48)
+    s.link(PAD, MH - 140, MW - 2 * PAD, 48, "m09e")
     gesture(s)
     return s
 
@@ -980,9 +980,10 @@ def info_row(s, y, icon, color, title, sub, target=None, h=58, fill=CARD, chev=T
         s.link(PAD, y, MW - 2 * PAD, h, target)
 
 
-def client_hub(title, tab, during):
+def client_hub(title, tab, during, applied=None):
     keys = HUB_KEYS[during]
-    s = phone(title, bg=BG, time="11:15" if during else "11:53")
+    applied = (not during) if applied is None else applied
+    s = phone(title, bg=BG, time=("11:43" if applied else "11:15") if during else "11:53")
     app_bar(s, CLIENT["name"], back="m17", sub="Kiwatule market route")
     for i, ic in enumerate(["phone", "navigation"]):
         s.icon(ic, MW - PAD - 24 - i * 40, 40, 22, INK, 2)
@@ -991,7 +992,7 @@ def client_hub(title, tab, during):
         s.rect(PAD, y, MW - 2 * PAD, 84, fill=CARD, rx=18, stroke=LINE)
         avatar(s, PAD + 34, y + 42, 22, "FN", GREEN)
         s.text(PAD + 66, y + 32, "Nambi Tailoring & Fabrics", 14, 700, INK)
-        stage = ("Interested", BLUE) if during else ("Applied", GREEN)
+        stage = ("Applied", GREEN) if applied else ("Interested", BLUE)
         x = PAD + 66
         x += chip(s, x, y + 44, stage[0], stage[1], h=22, size=11, dot=True) + 6
         chip(s, x, y + 44, "MSE Business Loan", PRODUCT["MSE Business Loan"], h=22, size=11)
@@ -1066,7 +1067,7 @@ def client_hub(title, tab, during):
             s.link(PAD, y, MW - 2 * PAD, 58, tgt)
             y += 64
     elif tab == "Loan":
-        if during:
+        if not applied:
             info_row(s, y, "shield", GREEN, "KYC validated", "Today 11:24 · 6 of 6 checks", None,
                      fill=tint(GREEN, 0.08), chev=False)
             y += 72
@@ -1116,6 +1117,8 @@ def client_hub(title, tab, during):
         (False, "KYC"): ("Update KYC", "m10", "idcard"),
         (False, "Visits"): ("Check in", "m09b", "pin"),
     }
+    if during and applied and tab == "Loan":
+        actions[(True, "Loan")] = ("Check out", "m16b", "logout")
     if (during, tab) in actions:
         lab, tgt, ic = actions[(during, tab)]
         footer(s, lab, tgt, icon=ic)
@@ -1140,6 +1143,10 @@ def m09d_hub_visits():
     return client_hub("M9d Florence: Visits tab (visit in progress)", "Visits", True)
 
 
+def m09e_hub_applied():
+    return client_hub("M9e Florence: Loan tab, application sent (visit in progress)", "Loan", True, applied=True)
+
+
 def m18_client():
     return client_hub("M18 Florence: client record", "Overview", False)
 
@@ -1158,7 +1165,7 @@ def m18d_client_visits():
 
 def m16b_check_out():
     s = phone("M16b Check out: what happened?", bg=CARD, time="11:52")
-    app_bar(s, "Check out", back="m16", sub=f"{CLIENT['name']} · 11:14–11:52 · 38 min")
+    app_bar(s, "Check out", back="m09e", sub=f"{CLIENT['name']} · 11:14–11:52 · 38 min")
     y = 100
     s.text(PAD, y, "What happened on this visit?", 15, 700, INK)
     y += 14
@@ -1220,7 +1227,7 @@ def m07b_next_visit():
 
 SCREENS = [m01_splash, m02_sign_in, m03_home, m04_plans, m04b_plan, m04c_new_plan,
            m05_start_visit, m06_new_client, m07_first_visit, m07b_next_visit, m08_not_interested,
-           m09_hub, m09b_hub_kyc, m09c_hub_loan, m09d_hub_visits,
+           m09_hub, m09b_hub_kyc, m09c_hub_loan, m09d_hub_visits, m09e_hub_applied,
            m10_kyc_details, m11_kyc_id, m12_kyc_income, m13_validation, m14_negotiation, m15_close,
            m16_success, m16b_check_out, m17_clients,
            m18_client, m18b_client_kyc, m18c_client_loan, m18d_client_visits, m19_me]

@@ -1,0 +1,4 @@
+# Internal working files: kept in git, never deployed to the public prototype
+.claude
+_src
+_previews

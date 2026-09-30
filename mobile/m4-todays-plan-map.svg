@@ -173,7 +173,7 @@
 <path d="M12 5v14" fill="none" stroke="#1F1E57" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M5 12h14" fill="none" stroke="#1F1E57" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Visit" x="168.8" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="600" fill="#1F1E57">Visit</text>
+<text id="Visit" x="168.8" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="600" fill="#4B4D6B">Visit</text>
 </g>
 <g id="tab-Plan">
 <rect id="indicator" x="224.0" y="732.0" width="56.0" height="30.0" rx="15" fill="#E6E6F0"/>

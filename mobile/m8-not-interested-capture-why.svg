@@ -19,8 +19,8 @@
 <path d="M19 12H5" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 19l-7-7 7-7" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Close-the-visit" x="56.0" y="48.0" font-family="Segoe UI" font-size="16.5" font-weight="600" fill="#1B1C3A">Close the visit</text>
-<text id="Joseph-Kiggundu-new-client" x="56.0" y="67.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Joseph Kiggundu · new client · 10:58</text>
+<text id="Not-interested-why" x="56.0" y="48.0" font-family="Segoe UI" font-size="16.5" font-weight="600" fill="#1B1C3A">Not interested: why?</text>
+<text id="Joseph-Kiggundu-first-visi" x="56.0" y="67.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Joseph Kiggundu · first visit · 10:58</text>
 </g>
 <text id="Why-not-Pick-all-that-apply" x="16.0" y="104.0" font-family="Segoe UI" font-size="14.5" font-weight="700" fill="#1B1C3A">Why not? Pick all that apply</text>
 <g id="pill-Has-a-loan-elsewhere">
@@ -64,10 +64,10 @@
 <text id="Agent-s-note" x="16.0" y="296.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">Agent's note</text>
 <g id="note-box">
 <rect x="16.0" y="306.0" width="328.0" height="96.0" rx="10" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
-<g id="para-Took-a-SACCO-loan-in">
-<text id="line" x="30.0" y="332.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#1B1C3A">Took a SACCO loan in August for school fees.</text>
-<text id="line-2" x="30.0" y="352.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#1B1C3A">Open to an MSE loan in January when it's</text>
-<text id="line-3" x="30.0" y="372.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#1B1C3A">cleared. Wife runs the shop.</text>
+<g id="para-SACCO-loan-ends-in-D">
+<text id="line" x="30.0" y="332.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#1B1C3A">SACCO loan ends in December. His wife</text>
+<text id="line-2" x="30.0" y="352.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#1B1C3A">co-owns the shop and must agree before</text>
+<text id="line-3" x="30.0" y="372.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#1B1C3A">any new loan.</text>
 </g>
 <circle cx="322.0" cy="380.0" r="16.0" fill="#EAEAF2"/>
 <g id="icon-mic" transform="translate(313.0 371.0) scale(0.7500)">
@@ -121,12 +121,12 @@
 <g id="footer">
 <rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#FFFFFF"/>
 <line x1="0.0" y1="716.0" x2="360.0" y2="716.0" stroke="#E4E5EF" stroke-width="1"/>
-<g id="button-Close-visit">
+<g id="button-Check-out">
 <rect x="16.0" y="730.0" width="328.0" height="48.0" rx="8" fill="#2F2E80"/>
 <g id="icon-check-4" transform="translate(135.2 745.0) scale(0.7500)">
 <path d="M20 6L9 17l-5-5" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Close-visit" x="161.2" y="759.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#FFFFFF">Close visit</text>
+<text id="Check-out" x="161.2" y="759.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#FFFFFF">Check out</text>
 </g>
 </g>
 <rect id="gesture-bar" x="126.0" y="792.0" width="108.0" height="4.0" rx="2" fill="#1B1C3A" fill-opacity="0.45"/>

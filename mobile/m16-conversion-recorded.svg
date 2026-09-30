@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
-<title>M15 Conversion recorded</title>
+<title>M16 Conversion recorded</title>
 <rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#FFFFFF"/>
 <g id="status-bar">
 <text id="11-42" x="16.0" y="18.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#1B1C3A">11:42</text>
@@ -74,7 +74,7 @@
 <rect x="32.0" y="584.0" width="255.6" height="8.0" rx="4.0" fill="#2F2E80"/>
 </g>
 </g>
-<text id="You-ll-get-a-notification-wh" x="65.8" y="640.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#7D8099">You'll get a notification when it's decided.</text>
+<text id="Checked-out-11-52-38-minut" x="31.8" y="640.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#7D8099">Checked out 11:52 · 38-minute visit · you'll be notified</text>
 <g id="button-Next-stop-Ivan-Kasozi">
 <rect x="16.0" y="660.0" width="328.0" height="48.0" rx="8" fill="#2F2E80"/>
 <g id="icon-navigation" transform="translate(97.1 675.0) scale(0.7500)">

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
-<title>M16 My clients</title>
+<title>M17 My clients</title>
 <rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#F5F6FA"/>
 <g id="status-bar">
 <text id="11-44" x="16.0" y="18.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#1B1C3A">11:44</text>
@@ -156,7 +156,7 @@
 <path d="M12 5v14" fill="none" stroke="#1F1E57" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M5 12h14" fill="none" stroke="#1F1E57" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Visit" x="168.8" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="600" fill="#1F1E57">Visit</text>
+<text id="Visit" x="168.8" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="600" fill="#4B4D6B">Visit</text>
 </g>
 <g id="tab-Plan">
 <g id="icon-route" transform="translate(241.0 736.0) scale(0.9167)">

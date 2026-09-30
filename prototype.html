@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Letshego Field Sales Prototype</title>
+<meta name="description" content="Clickable prototype of the Letshego Uganda Field Sales app: the agent's Android app (visits, KYC with NIRA ID, loan applications) and the web console for supervisors and management.">
+<meta name="theme-color" content="#2F2E80">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Letshego Field Sales prototype">
+<meta property="og:title" content="Letshego Field Sales: clickable prototype">
+<meta property="og:description" content="Track every client from first visit to loan application: agent app with KYC and GPS, approvals, and dashboards showing who is and isn't bringing in clients. Illustrative data.">
+<meta property="og:url" content="https://letshego-prototype.vercel.app/prototype.html">
+<meta property="og:image" content="https://letshego-prototype.vercel.app/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://letshego-prototype.vercel.app/og-image.jpg">
+<style>
+  :root { --bg:#14142B; --bar:#1F1E45; --ink:#ECECF8; --muted:#A3A2C9; --accent:#FBD405; }
+  html, body { margin:0; height:100%; background:var(--bg); color:var(--ink); font:14px "Segoe UI", system-ui, sans-serif; overflow:hidden; }
+  body.fs #stage { inset:0; }
+  body.fs #bar { transform:translateY(100%); transition:transform .25s; }
+  body.fs.peek #bar { transform:none; }
+  #stage { position:absolute; inset:0 0 44px 0; display:flex; align-items:center; justify-content:center; }
+  #frame { position:relative; }
+  #frame.mobile { border:10px solid #0A0A18; border-radius:36px; box-shadow:0 0 0 2px #333; overflow:hidden; }
+  #frame img { display:block; width:100%; height:100%; user-select:none; -webkit-user-drag:none; transition:opacity .15s; }
+  #frame.loading img { opacity:.25; }
+  #msg { position:absolute; inset:0; display:none; align-items:center; justify-content:center; text-align:center; color:#fff; background:rgba(20,20,43,.85); font-size:15px; padding:20px; }
+  #frame.failed #msg { display:flex; }
+  #ready { color:var(--muted); font-size:12.5px; }
+  .hot { position:absolute; cursor:pointer; border-radius:6px; }
+  .flash .hot, .show .hot { background:rgba(251,212,5,.20); outline:2px solid rgba(251,212,5,.85); }
+  .flash .hot { transition:background .6s, outline-color .6s; }
+  #bar { position:absolute; left:0; right:0; bottom:0; height:44px; background:var(--bar); display:flex; align-items:center; gap:10px; padding:0 14px; }
+  #bar button, #bar select { background:#2B2A5C; color:var(--ink); border:1px solid #3A3972; border-radius:6px; height:30px; padding:0 10px; font:inherit; cursor:pointer; }
+  #bar select { max-width:340px; }
+  #bar .sp { flex:1; }
+  #bar > * { white-space:nowrap; flex-shrink:0; }
+  #bar .hint { overflow:hidden; text-overflow:ellipsis; flex-shrink:1; min-width:0; }
+  @media (max-width:1500px) { #bar .hint { display:none; } }
+  /* phones */
+  #rotate { position:absolute; left:50%; bottom:52px; transform:translateX(-50%); background:#2B2A5C; color:var(--ink); font-size:12.5px; padding:6px 12px; border-radius:999px; display:none; white-space:nowrap; }
+  body.small.portrait.webscreen #rotate { display:block; }
+  @media (max-width:760px) {
+    #bar { gap:6px; padding:0 8px; }
+    #bar .pill, #bar #ready, #bar .sp, #bar .long { display:none; }
+    #bar select { flex:1 1 auto; min-width:0; max-width:none; }
+    #bar button { padding:0 9px; }
+    #frame.mobile { border:0; border-radius:0; box-shadow:none; }
+  }
+  #bar .hint { color:var(--muted); font-size:12.5px; }
+  #bar .pill { color:#14142B; background:var(--accent); border-radius:10px; padding:1px 8px; font-weight:600; font-size:12px; }
+</style></head><body>
+<div id="stage"><div id="frame"><img id="img" alt=""><div id="msg">This screen could not load. Check the internet connection, then press → or pick it again.</div></div></div>
+<div id="rotate">Turn your phone sideways for the web screens</div>
+<div id="bar">
+  <button id="prev" title="Previous (←)">&#8592;</button>
+  <select id="pick"></select>
+  <button id="next" title="Next (→)">&#8594;</button>
+  <button id="web">Web<span class="long"> console</span></button><button id="mob">Agent<span class="long"> app (Android)</span></button>
+  <button id="fs" title="Full screen (F) · Esc to exit">&#x26F6;<span class="long"> Full screen</span></button>
+  <span id="ready"></span><span class="sp"></span>
+  <span class="hint">← → keys · H hotspots · F full screen · Esc exit</span>
+  <span class="pill">Illustrative data</span>
+</div>
+<script>
+const SCREENS = [{"key": "w00", "title": "00 Sign in", "src": "web/00-sign-in.svg", "w": 1920, "h": 1080, "mobile": false, "links": [[1180.0, 646, 440, 48, "w01"], [1180.0, 318, 440, 48, "w01"], [1180.0, 830, 300, 24, "m01"]]}, {"key": "w01", "title": "01 Sales overview", "src": "web/01-sales-overview.svg", "w": 1920, "h": 1080, "mobile": false, "links": [[14, 124, 236, 40, "w01"], [14, 166, 236, 40, "w02"], [14, 208, 236, 40, "w04"], [14, 250, 236, 40, "w05"], [14, 318, 236, 40, "w07"], [14, 360, 236, 40, "w09"], [14, 428, 236, 40, "w10"], [14, 470, 236, 40, "w11"], [14, 538, 236, 40, "w12"], [14, 580, 236, 40, "w13"], [16, 900, 232, 88, "m03"], [0, 1004, 208, 76, "w07"], [212, 1020, 40, 44, "w00"], [296.0, 180, 252.0, 150, "w04"], [564.0, 180, 252.0, 150, "w05"], [832.0, 180, 252.0, 150, "w05"], [1100.0, 180, 252.0, 150, "w05"], [1368.0, 180, 252.0, 150, "w07"], [1636.0, 180, 252.0, 150, "w02"], [296, 346, 1010, 370, "w02"], [1326, 346, 562, 370, "w05"], [296, 732, 830, 320, "w02"], [1146, 732, 742, 320, "w02"]]}, {"key": "w02", "title": "02 Agents performance", "src": "web/02-agents-performance.svg", "w": 1920, "h": 1080, "mobile": false, "links": [[14, 124, 236, 40, "w01"], [14, 166, 236, 40, "w02"], [14, 208, 236, 40, "w04"], [14, 250, 236, 40, "w05"], [14, 318, 236, 40, "w07"], [14, 360, 236, 40, "w09"], [14, 428, 236, 40, "w10"], [14, 470, 236, 40, "w11"], [14, 538, 236, 40, "w12"], [14, 580, 236, 40, "w13"], [16, 900, 232, 88, "m03"], [0, 1004, 208, 76, "w07"], [212, 1020, 40, 44, "w00"], [296, 386, 1592, 51.8, "w03"]]}, {"key": "w03", "title": "03 Agent profile (Sarah Namuli)", "src": "web/03-agent-profile-sarah-namuli.svg", "w": 1920, "h": 1080, "mobile": false, "links": [[14, 124, 236, 40, "w01"], [14, 166, 236, 40, "w02"], [14, 208, 236, 40, "w04"], [14, 250, 236, 40, "w05"], [14, 318, 236, 40, "w07"], [14, 360, 236, 40, "w09"], [14, 428, 236, 40, "w10"], [14, 470, 236, 40, "w11"], [14, 538, 236, 40, "w12"], [14, 580, 236, 40, "w13"], [16, 900, 232, 88, "m03"], [0, 1004, 208, 76, "w07"], [212, 1020, 40, 44, "w00"], [1696.1, 135, 170, 40, "w11"], [1543.4, 135, 150, 40, "w04"], [296, 734, 640, 318, "w04"], [956, 734, 440, 318, "w05"], [1416, 804, 472, 44, "w06"]]}, {"key": "w04", "title": "04 Field map (live)", "src": "web/04-field-map-live.svg", "w": 1920, "h": 1080, "mobile": false, "links": [[14, 124, 236, 40, "w01"], [14, 166, 236, 40, "w02"], [14, 208, 236, 40, "w04"], [14, 250, 236, 40, "w05"], [14, 318, 236, 40, "w07"], [14, 360, 236, 40, "w09"], [14, 428, 236, 40, "w10"], [14, 470, 236, 40, "w11"], [14, 538, 236, 40, "w12"], [14, 580, 236, 40, "w13"], [16, 900, 232, 88, "m03"], [0, 1004, 208, 76, "w07"], [212, 1020, 40, 44, "w00"], [1061.2, 341.6, 300, 134, "w06"], [1496, 246, 382, 64, "w03"], [1486, 776, 402, 276, "w01"]]}, {"key": "w05", "title": "05 Client pipeline", "src": "web/05-client-pipeline.svg", "w": 1920, "h": 1080, "mobile": false, "links": [[14, 124, 236, 40, "w01"], [14, 166, 236, 40, "w02"], [14, 208, 236, 40, "w04"], [14, 250, 236, 40, "w05"], [14, 318, 236, 40, "w07"], [14, 360, 236, 40, "w09"], [14, 428, 236, 40, "w10"], [14, 470, 236, 40, "w11"], [14, 538, 236, 40, "w12"], [14, 580, 236, 40, "w13"], [16, 900, 232, 88, "m03"], [0, 1004, 208, 76, "w07"], [212, 1020, 40, 44, "w00"], [1708, 168, 180, 40, "w09"], [1376.7, 292, 233.7, 128, "w06"]]}, {"key": "w06", "title": "06 Client record (Florence Nambi)", "src": "web/06-client-record-florence-nambi.svg", "w": 1920, "h": 1080, "mobile": false, "links": [[14, 124, 236, 40, "w01"], [14, 166, 236, 40, "w02"], [14, 208, 236, 40, "w04"], [14, 250, 236, 40, "w05"], [14, 318, 236, 40, "w07"], [14, 360, 236, 40, "w09"], [14, 428, 236, 40, "w10"], [14, 470, 236, 40, "w11"], [14, 538, 236, 40, "w12"], [14, 580, 236, 40, "w13"], [16, 900, 232, 88, "m03"], [0, 1004, 208, 76, "w07"], [212, 1020, 40, 44, "w00"], [1712.1, 131, 170, 40, "w08"], [1582.1, 131, 120, 40, "w11"]]}, {"key": "w07", "title": "07 Approvals queue (supervisor)", "src": "web/07-approvals-queue-supervisor.svg", "w": 1920, "h": 1080, "mobile": false, "links": [[14, 124, 236, 40, "w01"], [14, 166, 236, 40, "w02"], [14, 208, 236, 40, "w04"], [14, 250, 236, 40, "w05"], [14, 318, 236, 40, "w07"], [14, 360, 236, 40, "w09"], [14, 428, 236, 40, "w10"], [14, 470, 236, 40, "w11"], [14, 538, 236, 40, "w12"], [14, 580, 236, 40, "w13"], [16, 900, 232, 88, "m03"], [0, 1004, 208, 76, "w01"], [212, 1020, 40, 44, "w00"], [296, 444, 1592, 71.0, "w08"]]}, {"key": "w08", "title": "08 Application review and decision", "src": "web/08-application-review-and-decision.svg", "w": 1920, "h": 1080, "mobile": false, "links": [[14, 124, 236, 40, "w01"], [14, 166, 236, 40, "w02"], [14, 208, 236, 40, "w04"], [14, 250, 236, 40, "w05"], [14, 318, 236, 40, "w07"], [14, 360, 236, 40, "w09"], [14, 428, 236, 40, "w10"], [14, 470, 236, 40, "w11"], [14, 538, 236, 40, "w12"], [14, 580, 236, 40, "w13"], [16, 900, 232, 88, "m03"], [0, 1004, 208, 76, "w01"], [212, 1020, 40, 44, "w00"], [1748.5, 108, 160, 40, "w06"], [1568.5, 108, 170, 40, "w07"], [1540, 732, 324, 48, "w07"]]}, {"key": "w09", "title": "09 Why clients do and don't take loans", "src": "web/09-why-clients-do-and-dont-take-loans.svg", "w": 1920, "h": 1080, "mobile": false, "links": [[14, 124, 236, 40, "w01"], [14, 166, 236, 40, "w02"], [14, 208, 236, 40, "w04"], [14, 250, 236, 40, "w05"], [14, 318, 236, 40, "w07"], [14, 360, 236, 40, "w09"], [14, 428, 236, 40, "w10"], [14, 470, 236, 40, "w11"], [14, 538, 236, 40, "w12"], [14, 580, 236, 40, "w13"], [16, 900, 232, 88, "m03"], [0, 1004, 208, 76, "w07"], [212, 1020, 40, 44, "w00"]]}, {"key": "w10", "title": "10 Journey plans and weekly targets", "src": "web/10-journey-plans-and-weekly-targets.svg", "w": 1920, "h": 1080, "mobile": false, "links": [[14, 124, 236, 40, "w01"], [14, 166, 236, 40, "w02"], [14, 208, 236, 40, "w04"], [14, 250, 236, 40, "w05"], [14, 318, 236, 40, "w07"], [14, 360, 236, 40, "w09"], [14, 428, 236, 40, "w10"], [14, 470, 236, 40, "w11"], [14, 538, 236, 40, "w12"], [14, 580, 236, 40, "w13"], [16, 900, 232, 88, "m03"], [0, 1004, 208, 76, "w01"], [212, 1020, 40, 44, "w00"]]}, {"key": "w11", "title": "11 Agent handover (clients stay with Letshego)", "src": "web/11-agent-handover-clients-stay-with-letshego.svg", "w": 1920, "h": 1080, "mobile": false, "links": [[14, 124, 236, 40, "w01"], [14, 166, 236, 40, "w02"], [14, 208, 236, 40, "w04"], [14, 250, 236, 40, "w05"], [14, 318, 236, 40, "w07"], [14, 360, 236, 40, "w09"], [14, 428, 236, 40, "w10"], [14, 470, 236, 40, "w11"], [14, 538, 236, 40, "w12"], [14, 580, 236, 40, "w13"], [16, 900, 232, 88, "m03"], [0, 1004, 208, 76, "w01"], [212, 1020, 40, 44, "w00"], [1560, 980, 304, 48, "w06"]]}, {"key": "w12", "title": "12 Users, roles and territories", "src": "web/12-users-roles-and-territories.svg", "w": 1920, "h": 1080, "mobile": false, "links": [[14, 124, 236, 40, "w01"], [14, 166, 236, 40, "w02"], [14, 208, 236, 40, "w04"], [14, 250, 236, 40, "w05"], [14, 318, 236, 40, "w07"], [14, 360, 236, 40, "w09"], [14, 428, 236, 40, "w10"], [14, 470, 236, 40, "w11"], [14, 538, 236, 40, "w12"], [14, 580, 236, 40, "w13"], [16, 900, 232, 88, "m03"], [0, 1004, 208, 76, "w07"], [212, 1020, 40, 44, "w00"]]}, {"key": "w13", "title": "13 Reports, integrations and audit trail", "src": "web/13-reports-integrations-and-audit-trail.svg", "w": 1920, "h": 1080, "mobile": false, "links": [[14, 124, 236, 40, "w01"], [14, 166, 236, 40, "w02"], [14, 208, 236, 40, "w04"], [14, 250, 236, 40, "w05"], [14, 318, 236, 40, "w07"], [14, 360, 236, 40, "w09"], [14, 428, 236, 40, "w10"], [14, 470, 236, 40, "w11"], [14, 538, 236, 40, "w12"], [14, 580, 236, 40, "w13"], [16, 900, 232, 88, "m03"], [0, 1004, 208, 76, "w07"], [212, 1020, 40, 44, "w00"]]}, {"key": "m01", "title": "M1 Splash", "src": "mobile/m1-splash.svg", "w": 360, "h": 800, "mobile": true, "links": [[0, 0, 360, 800, "m02"]]}, {"key": "m02", "title": "M2 Sign in", "src": "mobile/m2-sign-in.svg", "w": 360, "h": 800, "mobile": true, "links": [[16, 462, 328, 50, "m03"], [110.0, 528, 140, 70, "m03"]]}, {"key": "m03", "title": "M3 Home", "src": "mobile/m3-home.svg", "w": 360, "h": 800, "mobile": true, "links": [[270, 362, 90, 28, "m04"], [16, 514, 328, 54, "m05"], [16, 636, 328, 50, "m14"], [0.0, 724, 72.0, 76, "m03"], [72.0, 724, 72.0, 76, "m14"], [144.0, 706, 72.0, 94, "m05"], [216.0, 724, 72.0, 76, "m04"], [288.0, 724, 72.0, 76, "m16"]]}, {"key": "m04", "title": "M4 Today's route", "src": "mobile/m4-todays-route.svg", "w": 360, "h": 800, "mobile": true, "links": [[0, 24, 56, 56, "m03"], [185.0, 658, 159.0, 44, "m05"], [0.0, 724, 72.0, 76, "m03"], [72.0, 724, 72.0, 76, "m14"], [144.0, 706, 72.0, 94, "m05"], [216.0, 724, 72.0, 76, "m04"], [288.0, 724, 72.0, 76, "m16"]]}, {"key": "m05", "title": "M5 Check in at the client", "src": "mobile/m5-check-in-at-the-client.svg", "w": 360, "h": 800, "mobile": true, "links": [[0, 24, 56, 56, "m04"], [32, 482, 143.0, 64, "m06"], [185.0, 482, 143.0, 64, "m07"], [0.0, 724, 72.0, 76, "m03"], [72.0, 724, 72.0, 76, "m14"], [144.0, 706, 72.0, 94, "m05"], [216.0, 724, 72.0, 76, "m04"], [288.0, 724, 72.0, 76, "m16"]]}, {"key": "m06", "title": "M6 Not interested: capture why", "src": "mobile/m6-not-interested-capture-why.svg", "w": 360, "h": 800, "mobile": true, "links": [[0, 24, 56, 56, "m05"], [16, 730, 328, 48, "m03"]]}, {"key": "m07", "title": "M7 KYC 1: personal details", "src": "mobile/m7-kyc-1-personal-details.svg", "w": 360, "h": 800, "mobile": true, "links": [[0, 24, 56, 56, "m05"], [16, 730, 100, 48, "m03"], [128, 730, 216, 48, "m08"]]}, {"key": "m08", "title": "M8 KYC 2: NIRA ID and photos", "src": "mobile/m8-kyc-2-nira-id-and-photos.svg", "w": 360, "h": 800, "mobile": true, "links": [[0, 24, 56, 56, "m07"], [16, 730, 100, 48, "m07"], [128, 730, 216, 48, "m09"]]}, {"key": "m09", "title": "M9 KYC 3: earnings and collateral", "src": "mobile/m9-kyc-3-earnings-and-collateral.svg", "w": 360, "h": 800, "mobile": true, "links": [[0, 24, 56, 56, "m08"], [16, 730, 100, 48, "m08"], [128, 730, 216, 48, "m10"]]}, {"key": "m10", "title": "M10 KYC validation", "src": "mobile/m10-kyc-validation.svg", "w": 360, "h": 800, "mobile": true, "links": [[0, 24, 56, 56, "m09"], [16, 730, 328, 48, "m11"]]}, {"key": "m11", "title": "M11 Negotiation: pick a loan product", "src": "mobile/m11-negotiation-pick-a-loan-product.svg", "w": 360, "h": 800, "mobile": true, "links": [[0, 24, 56, 56, "m10"], [16, 730, 100, 48, "m10"], [128, 730, 216, 48, "m12"]]}, {"key": "m12", "title": "M12 Close: submit the loan application", "src": "mobile/m12-close-submit-the-loan-application.svg", "w": 360, "h": 800, "mobile": true, "links": [[0, 24, 56, 56, "m11"], [185.0, 114, 159.0, 44, "m06"], [16, 730, 328, 48, "m13"]]}, {"key": "m13", "title": "M13 Conversion recorded", "src": "mobile/m13-conversion-recorded.svg", "w": 360, "h": 800, "mobile": true, "links": [[16, 660, 328, 48, "m04"], [16, 718, 328, 44, "m15"]]}, {"key": "m14", "title": "M14 My clients", "src": "mobile/m14-my-clients.svg", "w": 360, "h": 800, "mobile": true, "links": [[16, 140, 328, 84, "m15"], [0.0, 724, 72.0, 76, "m03"], [72.0, 724, 72.0, 76, "m14"], [144.0, 706, 72.0, 94, "m05"], [216.0, 724, 72.0, 76, "m04"], [288.0, 724, 72.0, 76, "m16"]]}, {"key": "m15", "title": "M15 Client timeline", "src": "mobile/m15-client-timeline.svg", "w": 360, "h": 800, "mobile": true, "links": [[0, 24, 56, 56, "m14"]]}, {"key": "m16", "title": "M16 Me: my performance", "src": "mobile/m16-me-my-performance.svg", "w": 360, "h": 800, "mobile": true, "links": [[120.0, 670, 120, 30, "m02"], [0.0, 724, 72.0, 76, "m03"], [72.0, 724, 72.0, 76, "m14"], [144.0, 706, 72.0, 94, "m05"], [216.0, 724, 72.0, 76, "m04"], [288.0, 724, 72.0, 76, "m16"]]}];
+const AUTO = { m01: ['m02', 1800] };  // splash moves on by itself
+const order = SCREENS.map(s => s.key);
+const byKey = Object.fromEntries(SCREENS.map(s => [s.key, s]));
+// Download every screen up front so the walkthrough keeps working if the connection drops.
+const CACHE = {}; let loaded = 0;
+SCREENS.forEach(s => {
+  const im = new Image();
+  im.onload = () => { loaded++; document.getElementById('ready').textContent =
+    loaded === SCREENS.length ? '✓ Offline-ready' : `Loading ${loaded}/${SCREENS.length}…`; };
+  im.src = s.src; CACHE[s.key] = im;
+});
+const img = document.getElementById('img'), frame = document.getElementById('frame'), pick = document.getElementById('pick');
+let cur = null, showAll = location.search.includes('show');
+SCREENS.forEach(s => { const o = document.createElement('option'); o.value = s.key; o.textContent = s.title; pick.appendChild(o); });
+function fit() {
+  if (!cur) return;
+  const s = byKey[cur], st = document.getElementById('stage');
+  const small = innerWidth <= 760;
+  document.body.classList.toggle('small', small);
+  document.body.classList.toggle('portrait', innerHeight > innerWidth);
+  document.body.classList.toggle('webscreen', !s.mobile);
+  const pad = small ? 0 : (s.mobile ? 60 : 16), bw = (s.mobile && !small) ? 20 : 0;
+  const k = Math.min((st.clientWidth - pad) / s.w, (st.clientHeight - pad) / s.h, small ? 3 : (s.mobile ? 1.1 : 1));
+  frame.style.width = (s.w * k + bw) + 'px'; frame.style.height = (s.h * k + bw) + 'px';
+}
+function go(key, push = true) {
+  if (!byKey[key]) key = order[0];
+  cur = key; const s = byKey[key];
+  frame.className = s.mobile ? 'mobile' : ''; if (showAll) frame.classList.add('show');
+  const cached = CACHE[key];
+  if (cached && cached.complete && cached.naturalWidth) { img.src = cached.src; }
+  else {
+    frame.classList.add('loading');
+    img.onload = () => frame.classList.remove('loading', 'failed');
+    img.onerror = () => { frame.classList.remove('loading'); frame.classList.add('failed'); };
+    img.src = s.src;
+  }
+  frame.querySelectorAll('.hot').forEach(h => h.remove());
+  s.links.forEach(([x, y, w, h, t]) => {
+    if (!byKey[t]) return;
+    const a = document.createElement('div'); a.className = 'hot'; a.title = byKey[t].title;
+    Object.assign(a.style, { left: x / s.w * 100 + '%', top: y / s.h * 100 + '%', width: w / s.w * 100 + '%', height: h / s.h * 100 + '%' });
+    a.onclick = e => { e.stopPropagation(); go(t); };
+    frame.appendChild(a);
+  });
+  pick.value = key; fit();
+  clearTimeout(window._auto); if (AUTO[key]) window._auto = setTimeout(() => go(AUTO[key][0]), AUTO[key][1]);
+  if (push) history.replaceState(null, '', '#' + key);
+}
+frame.addEventListener('click', () => { frame.classList.add('flash'); setTimeout(() => frame.classList.remove('flash'), 700); });
+function step(d) { const i = order.indexOf(cur); go(order[(i + d + order.length) % order.length]); }
+document.getElementById('prev').onclick = () => step(-1);
+document.getElementById('next').onclick = () => step(1);
+document.getElementById('web').onclick = () => go('w00');
+document.getElementById('mob').onclick = () => go('m01');
+pick.onchange = () => go(pick.value);
+addEventListener('keydown', e => {
+  if (e.key === 'ArrowRight') step(1); else if (e.key === 'ArrowLeft') step(-1);
+  else if (e.key.toLowerCase() === 'h') { showAll = !showAll; frame.classList.toggle('show', showAll); }
+});
+const fsBtn = document.getElementById('fs');
+function toggleFs() { document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen(); }
+fsBtn.onclick = toggleFs;
+document.addEventListener('fullscreenchange', () => {
+  const on = !!document.fullscreenElement;
+  document.body.classList.toggle('fs', on);
+  fsBtn.innerHTML = on ? '&#x2715; Exit full screen' : '&#x26F6; Full screen';
+  setTimeout(fit, 50);
+});
+// in full screen the bar hides; move the mouse to the bottom edge to bring it back
+addEventListener('mousemove', e => document.body.classList.toggle('peek', e.clientY > innerHeight - 70));
+addEventListener('keydown', e => { if (e.key.toLowerCase() === 'f' && e.target.tagName !== 'SELECT') toggleFs(); });
+addEventListener('resize', fit);
+go(location.hash.slice(1) || (innerWidth <= 760 ? 'm01' : 'w00'), false);
+</script></body></html>

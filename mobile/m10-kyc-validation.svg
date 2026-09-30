@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
+<title>M10 KYC validation</title>
+<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#F5F6FA"/>
+<g id="status-bar">
+<text id="11-24" x="16.0" y="18.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#1B1C3A">11:24</text>
+<rect id="battery" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#1B1C3A" stroke-width="1.2"/>
+<rect x="324.0" y="10.0" width="13.0" height="6.0" rx="1" fill="#1B1C3A"/>
+<rect x="342.5" y="11.0" width="2.0" height="4.0" rx="1" fill="#1B1C3A"/>
+<rect id="signal-bar" x="292.0" y="14.0" width="3.0" height="3.0" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-2" x="297.0" y="11.8" width="3.0" height="5.2" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-3" x="302.0" y="9.6" width="3.0" height="7.4" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-4" x="307.0" y="7.4" width="3.0" height="9.6" rx="0.8" fill="#1B1C3A" fill-opacity="0.3"/>
+<text id="network" x="270.5" y="18.0" font-family="Segoe UI" font-size="10.5" font-weight="700" fill="#1B1C3A">4G</text>
+</g>
+<g id="app-bar">
+<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#FFFFFF"/>
+<line x1="0.0" y1="80.0" x2="360.0" y2="80.0" stroke="#E4E5EF" stroke-width="1"/>
+<g id="icon-arrowleft" transform="translate(16.0 40.0) scale(1.0000)">
+<path d="M19 12H5" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 19l-7-7 7-7" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="KYC-validation" x="56.0" y="48.0" font-family="Segoe UI" font-size="16.5" font-weight="600" fill="#1B1C3A">KYC validation</text>
+<text id="Florence-Nambi" x="56.0" y="67.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Florence Nambi</text>
+</g>
+<g id="result">
+<rect x="16.0" y="96.0" width="328.0" height="104.0" rx="14" fill="#FFFFFF" stroke="#8AC8AC" stroke-width="1"/>
+<g id="progress-ring">
+<circle cx="68.0" cy="148.0" r="30.5" fill="none" stroke="#EFF0F6" stroke-width="7"/>
+<path d="M68.00 117.50 A30.5 30.5 0 1 1 67.98 117.50" fill="none" stroke="#15925A" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="icon-check" transform="translate(54.0 134.0) scale(1.1667)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#15925A" stroke-width="2.57" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="KYC-validated" x="118.0" y="140.0" font-family="Segoe UI" font-size="18" font-weight="700" fill="#1B1C3A">KYC validated</text>
+<text id="6-of-6-checks-passed" x="118.0" y="162.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#0E6B41">6 of 6 checks passed</text>
+<text id="Checked-online-in-8-seconds" x="118.0" y="181.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Checked online in 8 seconds</text>
+</g>
+<rect x="16.0" y="218.0" width="328.0" height="346.0" rx="14" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<circle cx="30.0" cy="246.0" r="12.0" fill="#DCEFE6"/>
+<g id="icon-check-2" transform="translate(22.0 238.0) scale(0.6667)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#15925A" stroke-width="4.20" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="NIRA-ID-is-genuine-and-matc" x="52.0" y="245.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">NIRA: ID is genuine and matches</text>
+<text id="NIN-name-date-of-birth-ph" x="52.0" y="263.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">NIN, name, date of birth, photo</text>
+<circle cx="30.0" cy="301.0" r="12.0" fill="#DCEFE6"/>
+<g id="icon-check-3" transform="translate(22.0 293.0) scale(0.6667)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#15925A" stroke-width="4.20" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Phone-is-in-her-name" x="52.0" y="300.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">Phone is in her name</text>
+<text id="MTN-registration-check" x="52.0" y="318.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">MTN registration check</text>
+<circle cx="30.0" cy="356.0" r="12.0" fill="#DCEFE6"/>
+<g id="icon-check-4" transform="translate(22.0 348.0) scale(0.6667)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#15925A" stroke-width="4.20" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Not-already-a-Letshego-clien" x="52.0" y="355.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">Not already a Letshego client</text>
+<text id="Checked-in-the-loan-system" x="52.0" y="373.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Checked in the loan system</text>
+<circle cx="30.0" cy="411.0" r="12.0" fill="#DCEFE6"/>
+<g id="icon-check-5" transform="translate(22.0 403.0) scale(0.6667)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#15925A" stroke-width="4.20" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Location-inside-your-territo" x="52.0" y="410.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">Location inside your territory</text>
+<text id="Kiwatule-0-3712-32-6205" x="52.0" y="428.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Kiwatule · 0.3712, 32.6205</text>
+<circle cx="30.0" cy="466.0" r="12.0" fill="#DCEFE6"/>
+<g id="icon-check-6" transform="translate(22.0 458.0) scale(0.6667)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#15925A" stroke-width="4.20" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Affordable" x="52.0" y="465.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">Affordable</text>
+<text id="Can-pay-up-to-UGX-625-000-a" x="52.0" y="483.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Can pay up to UGX 625,000 a month</text>
+<circle cx="30.0" cy="521.0" r="12.0" fill="#DCEFE6"/>
+<g id="icon-check-7" transform="translate(22.0 513.0) scale(0.6667)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#15925A" stroke-width="4.20" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="CRB-clear" x="52.0" y="520.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">CRB clear</text>
+<text id="No-active-loans-consent-si" x="52.0" y="538.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">No active loans · consent signed</text>
+<g id="offline-note">
+<rect x="16.0" y="580.0" width="328.0" height="58.0" rx="12" fill="#FCF3E2"/>
+<g id="icon-wifioff" transform="translate(30.0 597.0) scale(0.9167)">
+<path d="M2 2l20 20" fill="none" stroke="#9A6300" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8.5 16.5a5 5 0 0 1 7 0" fill="none" stroke="#9A6300" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2 8.82a15 15 0 0 1 4.17-2.65" fill="none" stroke="#9A6300" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.66 5c4.01-.36 8.14.9 11.34 3.76" fill="none" stroke="#9A6300" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16.85 11.25a10 10 0 0 1 2.22 1.68" fill="none" stroke="#9A6300" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5 13a10 10 0 0 1 5.24-2.76" fill="none" stroke="#9A6300" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 20h.01" fill="none" stroke="#9A6300" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="para-No-network-Checks-w">
+<text id="line" x="62.0" y="605.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">No network? Checks wait in the queue and run as</text>
+<text id="line-2" x="62.0" y="622.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">soon as you're back online.</text>
+</g>
+</g>
+<g id="footer">
+<rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#FFFFFF"/>
+<line x1="0.0" y1="716.0" x2="360.0" y2="716.0" stroke="#E4E5EF" stroke-width="1"/>
+<g id="button-Continue-loan-options">
+<rect x="16.0" y="730.0" width="328.0" height="48.0" rx="8" fill="#2F2E80"/>
+<g id="icon-arrowright" transform="translate(94.9 745.0) scale(0.7500)">
+<path d="M5 12h14" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 5l7 7-7 7" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Continue-loan-options" x="120.9" y="759.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#FFFFFF">Continue: loan options</text>
+</g>
+</g>
+<rect id="gesture-bar" x="126.0" y="792.0" width="108.0" height="4.0" rx="2" fill="#1B1C3A" fill-opacity="0.45"/>
+</svg>

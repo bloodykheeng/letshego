@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
+<title>M1 Splash</title>
+<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#2F2E80"/>
+<g id="status-bar">
+<text id="08-02" x="16.0" y="18.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#FFFFFF">08:02</text>
+<rect id="battery" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#FFFFFF" stroke-width="1.2"/>
+<rect x="324.0" y="10.0" width="13.0" height="6.0" rx="1" fill="#FFFFFF"/>
+<rect x="342.5" y="11.0" width="2.0" height="4.0" rx="1" fill="#FFFFFF"/>
+<rect id="signal-bar" x="292.0" y="14.0" width="3.0" height="3.0" rx="0.8" fill="#FFFFFF" fill-opacity="1"/>
+<rect id="signal-bar-2" x="297.0" y="11.8" width="3.0" height="5.2" rx="0.8" fill="#FFFFFF" fill-opacity="1"/>
+<rect id="signal-bar-3" x="302.0" y="9.6" width="3.0" height="7.4" rx="0.8" fill="#FFFFFF" fill-opacity="1"/>
+<rect id="signal-bar-4" x="307.0" y="7.4" width="3.0" height="9.6" rx="0.8" fill="#FFFFFF" fill-opacity="0.3"/>
+<text id="network" x="270.5" y="18.0" font-family="Segoe UI" font-size="10.5" font-weight="700" fill="#FFFFFF">4G</text>
+</g>
+<g id="facets" opacity="0.08">
+<path d="M250.0 470.0 L470.0 860.0 L30.0 860.0 Z" fill="#FFFFFF"/>
+<path d="M60.0 60.0 L200.0 300.0 L-80.0 300.0 Z" fill="#FFFFFF"/>
+</g>
+<g id="letshego-triangle">
+<path d="M182.7 275.3 L134.7 358.0 L188.0 331.3 Z" fill="#FBD405"/>
+<path d="M182.7 275.3 L188.0 331.3 L225.3 358.0 Z" fill="#E9B800"/>
+<path d="M134.7 358.0 L188.0 331.3 L225.3 358.0 Z" fill="#FFE457"/>
+</g>
+<text id="Letshego" x="97.8" y="420.0" font-family="Segoe UI" font-size="40" font-weight="700" fill="#FFFFFF" font-style="italic">Letshego</text>
+<text id="Field-Sales" x="141.0" y="452.0" font-family="Segoe UI" font-size="17" font-weight="400" fill="#C9C8EE">Field Sales</text>
+<g id="loader">
+<circle cx="164.0" cy="560.0" r="4.0" fill="#FBD405" fill-opacity="1.0"/>
+<circle cx="180.0" cy="560.0" r="4.0" fill="#FBD405" fill-opacity="0.7"/>
+<circle cx="196.0" cy="560.0" r="4.0" fill="#FBD405" fill-opacity="0.4"/>
+</g>
+<text id="Improving-lives" x="136.4" y="760.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#A9A8DC">Improving lives</text>
+<rect id="gesture-bar" x="126.0" y="792.0" width="108.0" height="4.0" rx="2" fill="#FFFFFF" fill-opacity="0.45"/>
+</svg>

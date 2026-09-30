@@ -1,0 +1,495 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<title>10 Journey plans and weekly targets</title>
+<rect id="page-background" x="0.0" y="0.0" width="1920.0" height="1080.0" fill="#F5F6FA"/>
+<g id="sidebar">
+<rect id="sidebar-bg" x="0.0" y="0.0" width="264.0" height="1080.0" fill="#2F2E80"/>
+<g id="sidebar-watermark" opacity="0.07">
+<path d="M244.0 660.0 L384.0 930.0 L94.0 930.0 Z" fill="#FFFFFF"/>
+</g>
+<g id="letshego-wordmark">
+<g id="letshego-triangle">
+<path d="M40.6 28.1 L26.8 51.8 L42.1 44.2 Z" fill="#FBD405"/>
+<path d="M40.6 28.1 L42.1 44.2 L52.8 51.8 Z" fill="#E9B800"/>
+<path d="M26.8 51.8 L42.1 44.2 L52.8 51.8 Z" fill="#FFE457"/>
+</g>
+<text id="Letshego" x="60.0" y="50.0" font-family="Segoe UI" font-size="23" font-weight="700" fill="#FFFFFF" font-style="italic">Letshego</text>
+</g>
+<text id="product-sub" x="26.0" y="72.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#9E9CD6">Field Sales · Uganda</text>
+<text id="nav-group-SALES" x="28.0" y="110.0" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#9E9CD6" letter-spacing="1.2">SALES</text>
+<g id="nav-Overview">
+<g id="icon-grid" transform="translate(30.0 134.0) scale(0.8333)">
+<path d="M4 3h6a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 3h6a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 12h6a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1z" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4 16h6a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1z" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="label" x="62.0" y="149.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#D9D8F3">Overview</text>
+</g>
+<g id="nav-Agents">
+<g id="icon-users" transform="translate(30.0 176.0) scale(0.8333)">
+<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 3a4 4 0 1 0 0 8 4 4 0 1 0 0-8z" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 21v-2a4 4 0 0 0-3-3.87" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 3.13a4 4 0 0 1 0 7.75" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="label-2" x="62.0" y="191.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#D9D8F3">Agents</text>
+<rect id="badge" x="213.7" y="177.0" width="20.3" height="18.0" rx="9" fill="#D14343"/>
+<text id="badge-n" x="220.7" y="190.0" font-family="Segoe UI" font-size="11" font-weight="700" fill="#FFFFFF">6</text>
+</g>
+<g id="nav-Field-map">
+<g id="icon-map" transform="translate(30.0 218.0) scale(0.8333)">
+<path d="M14.1 5.55a2 2 0 0 0 1.8 0l3.65-1.83A1 1 0 0 1 21 4.62v12.76a1 1 0 0 1-.55.9l-4.55 2.27a2 2 0 0 1-1.8 0l-4.2-2.1a2 2 0 0 0-1.8 0l-3.65 1.83A1 1 0 0 1 3 19.38V6.62a1 1 0 0 1 .55-.9l4.55-2.27a2 2 0 0 1 1.8 0z" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 5.76v15" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 3.24v15" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="label-3" x="62.0" y="233.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#D9D8F3">Field map</text>
+</g>
+<g id="nav-Client-pipeline">
+<g id="icon-workflow" transform="translate(30.0 260.0) scale(0.8333)">
+<path d="M4 3h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 15h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1z" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7 9v4a2 2 0 0 0 2 2h6" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="label-4" x="62.0" y="275.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#D9D8F3">Client pipeline</text>
+</g>
+<text id="nav-group-APPLICATIONS" x="28.0" y="304.0" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#9E9CD6" letter-spacing="1.2">APPLICATIONS</text>
+<g id="nav-Approvals">
+<g id="icon-listcheck" transform="translate(30.0 328.0) scale(0.8333)">
+<path d="M3 17l2 2 4-4" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 7l2 2 4-4" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 6h8" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 12h8" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 18h8" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="label-5" x="62.0" y="343.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#D9D8F3">Approvals</text>
+<rect id="badge-2" x="207.3" y="329.0" width="26.7" height="18.0" rx="9" fill="#FBD405"/>
+<text id="badge-n-2" x="214.3" y="342.0" font-family="Segoe UI" font-size="11" font-weight="700" fill="#1F1E57">14</text>
+</g>
+<g id="nav-Why-why-not">
+<g id="icon-message" transform="translate(30.0 370.0) scale(0.8333)">
+<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="label-6" x="62.0" y="385.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#D9D8F3">Why &amp; why not</text>
+</g>
+<text id="nav-group-PLANNING" x="28.0" y="414.0" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#9E9CD6" letter-spacing="1.2">PLANNING</text>
+<g id="nav-Journey-plans-targets">
+<rect id="active-bg" x="14.0" y="428.0" width="236.0" height="40.0" rx="8" fill="#FFFFFF" fill-opacity="0.12"/>
+<rect id="active-bar" x="14.0" y="438.0" width="3.0" height="20.0" rx="1.5" fill="#FBD405"/>
+<g id="icon-route" transform="translate(30.0 438.0) scale(0.8333)">
+<path d="M6 16a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#FBD405" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15" fill="none" stroke="#FBD405" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 2a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#FBD405" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="label-7" x="62.0" y="453.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#FFFFFF">Journey plans &amp; targets</text>
+</g>
+<g id="nav-Agent-handover">
+<g id="icon-swap" transform="translate(30.0 480.0) scale(0.8333)">
+<path d="M16 3l4 4-4 4" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 7H4" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 21l-4-4 4-4" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4 17h16" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="label-8" x="62.0" y="495.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#D9D8F3">Agent handover</text>
+</g>
+<text id="nav-group-ADMIN" x="28.0" y="524.0" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#9E9CD6" letter-spacing="1.2">ADMIN</text>
+<g id="nav-Users-territories">
+<g id="icon-settings" transform="translate(30.0 548.0) scale(0.8333)">
+<path d="M12 9a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="label-9" x="62.0" y="563.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#D9D8F3">Users &amp; territories</text>
+</g>
+<g id="nav-Reports-audit">
+<g id="icon-history" transform="translate(30.0 590.0) scale(0.8333)">
+<path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 3v5h5" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 7v5l4 2" fill="none" stroke="#D9D8F3" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="label-10" x="62.0" y="605.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#D9D8F3">Reports &amp; audit</text>
+</g>
+<g id="field-app-card">
+<rect x="16.0" y="900.0" width="232.0" height="88.0" rx="10" fill="#FFFFFF" fill-opacity="0.08"/>
+<rect x="30.0" y="914.0" width="30.0" height="30.0" rx="8" fill="#FBD405"/>
+<g id="icon-phone" transform="translate(36.0 920.0) scale(0.7500)">
+<path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#1F1E57" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 18h.01" fill="none" stroke="#1F1E57" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Agent-field-app" x="70.0" y="934.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#FFFFFF">Agent field app</text>
+<text id="Android-works-offline-GP" x="30.0" y="960.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#D9D8F3">Android · works offline · GPS</text>
+<text id="NIRA-ID-capture-open-it" x="30.0" y="978.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#D9D8F3">NIRA ID capture · open it →</text>
+</g>
+<g id="sidebar-user">
+<rect id="user-bg" x="0.0" y="1004.0" width="264.0" height="76.0" fill="#1F1E57"/>
+<circle cx="44.0" cy="1042.0" r="18.0" fill="#FBD405"/>
+<text id="MO" x="32.0" y="1048.0" font-family="Segoe UI" font-size="14" font-weight="700" fill="#1F1E57">MO</text>
+<text id="Moses-Okello" x="72.0" y="1038.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#FFFFFF">Moses Okello</text>
+<text id="Branch-Supervisor-Kam" x="72.0" y="1057.0" font-family="Segoe UI" font-size="11.5" font-weight="400" fill="#9E9CD6">Branch Supervisor · Kam…</text>
+<rect id="sign-out-button" x="214.0" y="1022.0" width="38.0" height="38.0" rx="8" fill="#FFFFFF" fill-opacity="0.1"/>
+<g id="icon-logout" transform="translate(223.0 1031.0) scale(0.8333)">
+<path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" fill="none" stroke="#FFB4B4" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 17l5-5-5-5" fill="none" stroke="#FFB4B4" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21 12H9" fill="none" stroke="#FFB4B4" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<g id="top-bar">
+<rect id="top-bar-bg" x="264.0" y="0.0" width="1656.0" height="68.0" fill="#FFFFFF"/>
+<line x1="264.0" y1="68.0" x2="1920.0" y2="68.0" stroke="#E4E5EF" stroke-width="1"/>
+<text id="crumb-Planning" x="296.0" y="40.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#7D8099">Planning</text>
+<g id="icon-chevright" transform="translate(355.8 29.0) scale(0.6667)">
+<path d="M9 18l6-6-6-6" fill="none" stroke="#AAACC0" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="crumb-Journey-plans-targets" x="377.8" y="40.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Journey plans &amp; targets</text>
+<g id="avatar-MO">
+<circle cx="1870.0" cy="34.0" r="18.0" fill="#DEDEEB"/>
+<text id="MO-2" x="1857.8" y="40.5" font-family="Segoe UI" font-size="14.4" font-weight="600" fill="#2A2973">MO</text>
+</g>
+<line x1="1836.0" y1="20.0" x2="1836.0" y2="48.0" stroke="#E4E5EF" stroke-width="1"/>
+<g id="notifications">
+<g id="icon-bell" transform="translate(1792.0 23.0) scale(0.9167)">
+<path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" fill="none" stroke="#4B4D6B" stroke-width="1.96" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" fill="none" stroke="#4B4D6B" stroke-width="1.96" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<circle cx="1811.0" cy="25.0" r="7.0" fill="#D14343"/>
+<text id="5" x="1808.1" y="29.0" font-family="Segoe UI" font-size="10" font-weight="700" fill="#FFFFFF">5</text>
+</g>
+<g id="search">
+<rect x="1502.0" y="16.0" width="266.0" height="36.0" rx="8" fill="#F4F5FA" stroke="#E4E5EF" stroke-width="1"/>
+<g id="icon-search" transform="translate(1514.0 25.0) scale(0.7500)">
+<path d="M11 3a8 8 0 1 0 0 16 8 8 0 1 0 0-16z" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21 21l-4.3-4.3" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Search-clients-agents-app" x="1542.0" y="39.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#AAACC0">Search clients, agents, app IDs…</text>
+</g>
+<g id="segmented-control">
+<rect x="1235.8" y="16.0" width="246.2" height="36.0" rx="8" fill="#F1F2F8" stroke="#E4E5EF" stroke-width="1"/>
+<text id="Day" x="1253.8" y="38.7" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">Day</text>
+<rect x="1290.6" y="20.0" width="60.9" height="28.0" rx="6" fill="#2F2E80"/>
+<text id="Week" x="1304.6" y="38.7" font-family="Segoe UI" font-size="13" font-weight="600" fill="#FFFFFF">Week</text>
+<text id="Quarter" x="1365.4" y="38.7" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">Quarter</text>
+<text id="Year" x="1439.1" y="38.7" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">Year</text>
+</g>
+<g id="date-range">
+<rect x="1077.8" y="16.0" width="146.1" height="36.0" rx="8" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<g id="icon-calendar" transform="translate(1089.8 25.0) scale(0.7500)">
+<path d="M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" fill="none" stroke="#2F2E80" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 2v4" fill="none" stroke="#2F2E80" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 2v4" fill="none" stroke="#2F2E80" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 10h18" fill="none" stroke="#2F2E80" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="W13-23-30-Sep" x="1115.8" y="39.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#1B1C3A">W13 · 23–30 Sep</text>
+</g>
+</g>
+<text id="page-title" x="296.0" y="126.0" font-family="Segoe UI" font-size="26" font-weight="700" fill="#1B1C3A">Journey plans &amp; targets</text>
+<text id="page-subtitle" x="296.0" y="152.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#7D8099">Kampala East · plan next week so every agent keeps visiting, not just in week 1 and the last three weeks</text>
+<g id="header-actions">
+<g id="button-Publish-to-agents-phones">
+<rect x="1666.2" y="108.0" width="221.8" height="40.0" rx="8" fill="#2F2E80"/>
+<g id="icon-send" transform="translate(1682.2 119.0) scale(0.7500)">
+<path d="M22 2l-7 20-4-9-9-4z" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 2L11 13" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Publish-to-agents-phones" x="1708.2" y="133.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#FFFFFF">Publish to agents' phones</text>
+</g>
+<g id="button-Suggest-a-plan">
+<rect x="1502.4" y="108.0" width="151.8" height="40.0" rx="8" fill="#EAEAF2"/>
+<g id="icon-sparkle" transform="translate(1518.4 119.0) scale(0.7500)">
+<path d="M12 3l1.9 5.8a2 2 0 0 0 1.3 1.3L21 12l-5.8 1.9a2 2 0 0 0-1.3 1.3L12 21l-1.9-5.8a2 2 0 0 0-1.3-1.3L3 12l5.8-1.9a2 2 0 0 0 1.3-1.3z" fill="none" stroke="#2D2C7A" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Suggest-a-plan" x="1544.4" y="133.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#2D2C7A">Suggest a plan</text>
+</g>
+<g id="filter-Week">
+<rect x="1280.4" y="109.0" width="210.0" height="38.0" rx="8" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<text id="Week-2" x="1294.4" y="133.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#7D8099">Week:</text>
+<text id="Next-5-10-Oct" x="1332.9" y="133.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#1B1C3A">Next · 5–10 Oct</text>
+<g id="icon-chevdown" transform="translate(1462.4 120.0) scale(0.6667)">
+<path d="M6 9l6 6 6-6" fill="none" stroke="#7D8099" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<rect id="Next-week-s-visits-per-agent-bg" x="296.0" y="180.0" width="1080.0" height="872.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<text id="title" x="320.0" y="218.0" font-family="Segoe UI" font-size="17" font-weight="600" fill="#1B1C3A">Next week's visits per agent</text>
+<text id="subtitle" x="320.0" y="240.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#7D8099">Planned visits per day · the phone shows each agent their route in order</text>
+<text id="Mon-5" x="585.2" y="276.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#4B4D6B">Mon 5</text>
+<text id="Tue-6" x="703.4" y="276.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#4B4D6B">Tue 6</text>
+<text id="Wed-7" x="815.5" y="276.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#4B4D6B">Wed 7</text>
+<text id="Thu-8" x="932.6" y="276.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#4B4D6B">Thu 8</text>
+<text id="Fri-9" x="1051.2" y="276.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#4B4D6B">Fri 9</text>
+<text id="Sat-10" x="1161.9" y="276.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#4B4D6B">Sat 10</text>
+<text id="Total" x="1292.3" y="276.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#4B4D6B">Total</text>
+<g id="plan-Sarah-Namuli">
+<line x1="320.0" y1="294.0" x2="1352.0" y2="294.0" stroke="#EFF0F6" stroke-width="1"/>
+<g id="avatar-SN">
+<circle cx="340.0" cy="335.0" r="17.0" fill="#DEDEEB"/>
+<text id="SN" x="331.1" y="341.1" font-family="Segoe UI" font-size="13.600000000000001" font-weight="600" fill="#2A2973">SN</text>
+</g>
+<text id="Sarah-Namuli" x="368.0" y="332.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Sarah Namuli</text>
+<text id="Ntinda-Kiwatule" x="368.0" y="350.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Ntinda · Kiwatule</text>
+<rect x="551.0" y="304.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.72"/>
+<text id="5-2" x="599.2" y="336.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">5</text>
+<text id="visits" x="592.2" y="351.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="666.0" y="304.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.72"/>
+<text id="5-3" x="714.2" y="336.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">5</text>
+<text id="visits-2" x="707.2" y="351.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="781.0" y="304.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.6"/>
+<text id="4" x="829.2" y="336.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">4</text>
+<text id="visits-3" x="822.2" y="351.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="896.0" y="304.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.72"/>
+<text id="5-4" x="944.2" y="336.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">5</text>
+<text id="visits-4" x="937.2" y="351.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="1011.0" y="304.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.6"/>
+<text id="4-2" x="1059.2" y="336.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">4</text>
+<text id="visits-5" x="1052.2" y="351.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="1126.0" y="304.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.36"/>
+<text id="2" x="1174.2" y="336.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#1F1E57">2</text>
+<text id="visits-6" x="1167.2" y="351.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#4B4D6B">visits</text>
+<text id="25" x="1296.8" y="336.0" font-family="Segoe UI" font-size="16" font-weight="700" fill="#15925A">25</text>
+<text id="min-20" x="1283.8" y="353.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#15925A">✓ min 20</text>
+</g>
+<g id="plan-Peter-Kato">
+<line x1="320.0" y1="376.0" x2="1352.0" y2="376.0" stroke="#EFF0F6" stroke-width="1"/>
+<g id="avatar-PK">
+<circle cx="340.0" cy="417.0" r="17.0" fill="#DEDEEB"/>
+<text id="PK" x="331.9" y="423.1" font-family="Segoe UI" font-size="13.600000000000001" font-weight="600" fill="#2A2973">PK</text>
+</g>
+<text id="Peter-Kato" x="368.0" y="414.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Peter Kato</text>
+<text id="Kireka-Bweyogerere" x="368.0" y="432.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Kireka · Bweyogerere</text>
+<rect x="551.0" y="386.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.6"/>
+<text id="4-3" x="599.2" y="418.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">4</text>
+<text id="visits-7" x="592.2" y="433.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="666.0" y="386.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.72"/>
+<text id="5-5" x="714.2" y="418.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">5</text>
+<text id="visits-8" x="707.2" y="433.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="781.0" y="386.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.72"/>
+<text id="5-6" x="829.2" y="418.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">5</text>
+<text id="visits-9" x="822.2" y="433.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="896.0" y="386.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.6"/>
+<text id="4-4" x="944.2" y="418.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">4</text>
+<text id="visits-10" x="937.2" y="433.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="1011.0" y="386.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.6"/>
+<text id="4-5" x="1059.2" y="418.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">4</text>
+<text id="visits-11" x="1052.2" y="433.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="1126.0" y="386.0" width="105.0" height="62.0" rx="8" fill="none" stroke="#E4E5EF" stroke-width="1" stroke-dasharray="4 4"/>
+<text id="22" x="1296.8" y="418.0" font-family="Segoe UI" font-size="16" font-weight="700" fill="#15925A">22</text>
+<text id="min-20-2" x="1283.8" y="435.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#15925A">✓ min 20</text>
+</g>
+<g id="plan-Ruth-Achieng">
+<line x1="320.0" y1="458.0" x2="1352.0" y2="458.0" stroke="#EFF0F6" stroke-width="1"/>
+<g id="avatar-RA">
+<circle cx="340.0" cy="499.0" r="17.0" fill="#DEDEEB"/>
+<text id="RA" x="331.3" y="505.1" font-family="Segoe UI" font-size="13.600000000000001" font-weight="600" fill="#2A2973">RA</text>
+</g>
+<text id="Ruth-Achieng" x="368.0" y="496.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Ruth Achieng</text>
+<text id="Naalya-Kira" x="368.0" y="514.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Naalya · Kira</text>
+<rect x="551.0" y="468.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.72"/>
+<text id="5-7" x="599.2" y="500.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">5</text>
+<text id="visits-12" x="592.2" y="515.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="666.0" y="468.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.6"/>
+<text id="4-6" x="714.2" y="500.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">4</text>
+<text id="visits-13" x="707.2" y="515.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="781.0" y="468.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.72"/>
+<text id="5-8" x="829.2" y="500.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">5</text>
+<text id="visits-14" x="822.2" y="515.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="896.0" y="468.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.72"/>
+<text id="5-9" x="944.2" y="500.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">5</text>
+<text id="visits-15" x="937.2" y="515.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="1011.0" y="468.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.48"/>
+<text id="3" x="1059.2" y="500.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#1F1E57">3</text>
+<text id="visits-16" x="1052.2" y="515.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#4B4D6B">visits</text>
+<rect x="1126.0" y="468.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.36"/>
+<text id="2-2" x="1174.2" y="500.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#1F1E57">2</text>
+<text id="visits-17" x="1167.2" y="515.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#4B4D6B">visits</text>
+<text id="24" x="1296.8" y="500.0" font-family="Segoe UI" font-size="16" font-weight="700" fill="#15925A">24</text>
+<text id="min-20-3" x="1283.8" y="517.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#15925A">✓ min 20</text>
+</g>
+<g id="plan-Esther-Nakato">
+<line x1="320.0" y1="540.0" x2="1352.0" y2="540.0" stroke="#EFF0F6" stroke-width="1"/>
+<g id="avatar-EN">
+<circle cx="340.0" cy="581.0" r="17.0" fill="#DEDEEB"/>
+<text id="EN" x="331.3" y="587.1" font-family="Segoe UI" font-size="13.600000000000001" font-weight="600" fill="#2A2973">EN</text>
+</g>
+<text id="Esther-Nakato" x="368.0" y="578.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Esther Nakato</text>
+<text id="Bukoto-Kisaasi" x="368.0" y="596.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Bukoto · Kisaasi</text>
+<rect x="551.0" y="550.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.6"/>
+<text id="4-7" x="599.2" y="582.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">4</text>
+<text id="visits-18" x="592.2" y="597.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="666.0" y="550.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.6"/>
+<text id="4-8" x="714.2" y="582.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">4</text>
+<text id="visits-19" x="707.2" y="597.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="781.0" y="550.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.6"/>
+<text id="4-9" x="829.2" y="582.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">4</text>
+<text id="visits-20" x="822.2" y="597.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="896.0" y="550.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.6"/>
+<text id="4-10" x="944.2" y="582.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">4</text>
+<text id="visits-21" x="937.2" y="597.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="1011.0" y="550.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.6"/>
+<text id="4-11" x="1059.2" y="582.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">4</text>
+<text id="visits-22" x="1052.2" y="597.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="1126.0" y="550.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.36"/>
+<text id="2-3" x="1174.2" y="582.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#1F1E57">2</text>
+<text id="visits-23" x="1167.2" y="597.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#4B4D6B">visits</text>
+<text id="22-2" x="1296.8" y="582.0" font-family="Segoe UI" font-size="16" font-weight="700" fill="#15925A">22</text>
+<text id="min-20-4" x="1283.8" y="599.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#15925A">✓ min 20</text>
+</g>
+<g id="plan-Ivan-Mugabe">
+<line x1="320.0" y1="622.0" x2="1352.0" y2="622.0" stroke="#EFF0F6" stroke-width="1"/>
+<g id="avatar-IM">
+<circle cx="340.0" cy="663.0" r="17.0" fill="#DEDEEB"/>
+<text id="IM" x="331.8" y="669.1" font-family="Segoe UI" font-size="13.600000000000001" font-weight="600" fill="#2A2973">IM</text>
+</g>
+<text id="Ivan-Mugabe" x="368.0" y="660.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Ivan Mugabe</text>
+<text id="Kigoowa-Kyanja" x="368.0" y="678.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Kigoowa · Kyanja</text>
+<rect x="551.0" y="632.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.48"/>
+<text id="3-2" x="599.2" y="664.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#1F1E57">3</text>
+<text id="visits-24" x="592.2" y="679.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#4B4D6B">visits</text>
+<rect x="666.0" y="632.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.6"/>
+<text id="4-12" x="714.2" y="664.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">4</text>
+<text id="visits-25" x="707.2" y="679.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="781.0" y="632.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.6"/>
+<text id="4-13" x="829.2" y="664.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">4</text>
+<text id="visits-26" x="822.2" y="679.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="896.0" y="632.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.48"/>
+<text id="3-3" x="944.2" y="664.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#1F1E57">3</text>
+<text id="visits-27" x="937.2" y="679.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#4B4D6B">visits</text>
+<rect x="1011.0" y="632.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.6"/>
+<text id="4-14" x="1059.2" y="664.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">4</text>
+<text id="visits-28" x="1052.2" y="679.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="1126.0" y="632.0" width="105.0" height="62.0" rx="8" fill="none" stroke="#E4E5EF" stroke-width="1" stroke-dasharray="4 4"/>
+<text id="18" x="1296.8" y="664.0" font-family="Segoe UI" font-size="16" font-weight="700" fill="#D14343">18</text>
+<text id="below-20" x="1283.3" y="681.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#D14343">below 20</text>
+</g>
+<g id="plan-Brian-Ssali">
+<line x1="320.0" y1="704.0" x2="1352.0" y2="704.0" stroke="#EFF0F6" stroke-width="1"/>
+<g id="avatar-BS">
+<circle cx="340.0" cy="745.0" r="17.0" fill="#DEDEEB"/>
+<text id="BS" x="332.2" y="751.1" font-family="Segoe UI" font-size="13.600000000000001" font-weight="600" fill="#2A2973">BS</text>
+</g>
+<text id="Brian-Ssali" x="368.0" y="742.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Brian Ssali</text>
+<text id="Banda-Kyambogo" x="368.0" y="760.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Banda · Kyambogo</text>
+<rect x="551.0" y="714.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.6"/>
+<text id="4-15" x="599.2" y="746.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">4</text>
+<text id="visits-29" x="592.2" y="761.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="666.0" y="714.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.6"/>
+<text id="4-16" x="714.2" y="746.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">4</text>
+<text id="visits-30" x="707.2" y="761.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="781.0" y="714.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.48"/>
+<text id="3-4" x="829.2" y="746.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#1F1E57">3</text>
+<text id="visits-31" x="822.2" y="761.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#4B4D6B">visits</text>
+<rect x="896.0" y="714.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.6"/>
+<text id="4-17" x="944.2" y="746.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">4</text>
+<text id="visits-32" x="937.2" y="761.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="1011.0" y="714.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.6"/>
+<text id="4-18" x="1059.2" y="746.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#FFFFFF">4</text>
+<text id="visits-33" x="1052.2" y="761.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#E4E3F7">visits</text>
+<rect x="1126.0" y="714.0" width="105.0" height="62.0" rx="8" fill="none" stroke="#E4E5EF" stroke-width="1" stroke-dasharray="4 4"/>
+<text id="19" x="1296.8" y="746.0" font-family="Segoe UI" font-size="16" font-weight="700" fill="#D14343">19</text>
+<text id="below-20-2" x="1283.3" y="763.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#D14343">below 20</text>
+</g>
+<g id="plan-Joan-Auma">
+<line x1="320.0" y1="786.0" x2="1352.0" y2="786.0" stroke="#EFF0F6" stroke-width="1"/>
+<g id="avatar-JA">
+<circle cx="340.0" cy="827.0" r="17.0" fill="#DEDEEB"/>
+<text id="JA" x="333.0" y="833.1" font-family="Segoe UI" font-size="13.600000000000001" font-weight="600" fill="#2A2973">JA</text>
+</g>
+<text id="Joan-Auma" x="368.0" y="824.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Joan Auma</text>
+<text id="Nakawa-Mbuya" x="368.0" y="842.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Nakawa · Mbuya</text>
+<rect x="551.0" y="796.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.36"/>
+<text id="2-4" x="599.2" y="828.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#1F1E57">2</text>
+<text id="visits-34" x="592.2" y="843.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#4B4D6B">visits</text>
+<rect x="666.0" y="796.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.48"/>
+<text id="3-5" x="714.2" y="828.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#1F1E57">3</text>
+<text id="visits-35" x="707.2" y="843.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#4B4D6B">visits</text>
+<rect x="781.0" y="796.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.48"/>
+<text id="3-6" x="829.2" y="828.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#1F1E57">3</text>
+<text id="visits-36" x="822.2" y="843.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#4B4D6B">visits</text>
+<rect x="896.0" y="796.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.36"/>
+<text id="2-5" x="944.2" y="828.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#1F1E57">2</text>
+<text id="visits-37" x="937.2" y="843.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#4B4D6B">visits</text>
+<rect x="1011.0" y="796.0" width="105.0" height="62.0" rx="8" fill="#2F2E80" fill-opacity="0.48"/>
+<text id="3-7" x="1059.2" y="828.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#1F1E57">3</text>
+<text id="visits-38" x="1052.2" y="843.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#4B4D6B">visits</text>
+<rect x="1126.0" y="796.0" width="105.0" height="62.0" rx="8" fill="none" stroke="#E4E5EF" stroke-width="1" stroke-dasharray="4 4"/>
+<text id="13" x="1296.8" y="828.0" font-family="Segoe UI" font-size="16" font-weight="700" fill="#D14343">13</text>
+<text id="below-20-3" x="1283.3" y="845.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#D14343">below 20</text>
+</g>
+<g id="plan-footer">
+<rect x="320.0" y="886.0" width="1032.0" height="58.0" rx="10" fill="#FCF3E2"/>
+<g id="icon-alert" transform="translate(336.0 904.0) scale(0.9167)">
+<path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" fill="none" stroke="#9A6300" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 9v4" fill="none" stroke="#9A6300" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 17h.01" fill="none" stroke="#9A6300" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="3-agents-are-planned-below-t" x="370.0" y="912.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">3 agents are planned below the weekly minimum of 20: Joan (13), Ivan (18), Brian (19).</text>
+<text id="Add-follow-ups-from-their-in" x="370.0" y="931.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">Add follow-ups from their interested clients who haven't done KYC yet?</text>
+<g id="button-Add-follow-ups">
+<rect x="1216.6" y="898.0" width="119.4" height="34.0" rx="8" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<text id="Add-follow-ups" x="1232.6" y="919.5" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#1B1C3A">Add follow-ups</text>
+</g>
+</g>
+<rect id="Q4-targets-spread-evenly-bg" x="1396.0" y="180.0" width="492.0" height="380.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<text id="title-2" x="1420.0" y="218.0" font-family="Segoe UI" font-size="17" font-weight="600" fill="#1B1C3A">Q4 targets, spread evenly</text>
+<text id="subtitle-2" x="1420.0" y="240.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#7D8099">Weekly pace for the branch instead of one target at the end of the quarter</text>
+<rect x="1424.0" y="360.0" width="26.2" height="120.0" rx="3" fill="#C4E4D6"/>
+<text id="W1" x="1429.3" y="498.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#7D8099">W1</text>
+<rect x="1458.2" y="360.0" width="26.2" height="120.0" rx="3" fill="#C4E4D6"/>
+<text id="W2" x="1463.5" y="498.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#7D8099">W2</text>
+<rect x="1492.3" y="360.0" width="26.2" height="120.0" rx="3" fill="#C4E4D6"/>
+<text id="W3" x="1497.7" y="498.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#7D8099">W3</text>
+<rect x="1526.5" y="360.0" width="26.2" height="120.0" rx="3" fill="#C4E4D6"/>
+<text id="W4" x="1531.8" y="498.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#7D8099">W4</text>
+<rect x="1560.6" y="360.0" width="26.2" height="120.0" rx="3" fill="#C4E4D6"/>
+<text id="W5" x="1566.0" y="498.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#7D8099">W5</text>
+<rect x="1594.8" y="360.0" width="26.2" height="120.0" rx="3" fill="#C4E4D6"/>
+<text id="W6" x="1600.1" y="498.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#7D8099">W6</text>
+<rect x="1628.9" y="360.0" width="26.2" height="120.0" rx="3" fill="#C4E4D6"/>
+<text id="W7" x="1634.3" y="498.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#7D8099">W7</text>
+<rect x="1663.1" y="360.0" width="26.2" height="120.0" rx="3" fill="#C4E4D6"/>
+<text id="W8" x="1668.4" y="498.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#7D8099">W8</text>
+<rect x="1697.2" y="360.0" width="26.2" height="120.0" rx="3" fill="#C4E4D6"/>
+<text id="W9" x="1702.6" y="498.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#7D8099">W9</text>
+<rect x="1731.4" y="360.0" width="26.2" height="120.0" rx="3" fill="#C4E4D6"/>
+<text id="W10" x="1733.9" y="498.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#7D8099">W10</text>
+<rect x="1765.5" y="360.0" width="26.2" height="120.0" rx="3" fill="#C4E4D6"/>
+<text id="W11" x="1768.1" y="498.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#7D8099">W11</text>
+<rect x="1799.7" y="360.0" width="26.2" height="120.0" rx="3" fill="#C4E4D6"/>
+<text id="W12" x="1802.2" y="498.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#7D8099">W12</text>
+<rect x="1833.8" y="360.0" width="26.2" height="120.0" rx="3" fill="#C4E4D6"/>
+<text id="W13" x="1836.4" y="498.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#7D8099">W13</text>
+<rect x="1424.0" y="348.0" width="26.2" height="132.0" rx="3" fill="#15925A"/>
+<text id="15-conversions-a-week-195" x="1420.0" y="290.0" font-family="Segoe UI" font-size="14" font-weight="700" fill="#0E6B41">15 conversions a week · 195 for the quarter</text>
+<text id="Next-week-planned-16-a" x="1420.0" y="312.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">Next week planned: 16 ✓ · a week turns red after 2 slow weeks</text>
+<line x1="1420.0" y1="360.0" x2="1864.0" y2="360.0" stroke="#4B4D6B" stroke-width="1.5" stroke-dasharray="5 4"/>
+<rect id="Weekly-minimums-per-agent-bg" x="1396.0" y="580.0" width="492.0" height="472.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<text id="title-3" x="1420.0" y="618.0" font-family="Segoe UI" font-size="17" font-weight="600" fill="#1B1C3A">Weekly minimums per agent</text>
+<text id="subtitle-3" x="1420.0" y="640.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#7D8099">Set by you; the phone shows progress every day</text>
+<text id="Client-visits" x="1420.0" y="676.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#4B4D6B">Client visits</text>
+<text id="20-a-week" x="1744.9" y="676.0" font-family="Segoe UI" font-size="13.5" font-weight="700" fill="#1B1C3A">20 a week</text>
+<g id="toggle">
+<rect x="1824.0" y="662.0" width="36.0" height="20.0" rx="10" fill="#2F2E80"/>
+<circle cx="1850.0" cy="672.0" r="7.5" fill="#FFFFFF"/>
+</g>
+<text id="New-interested-clients" x="1420.0" y="716.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#4B4D6B">New interested clients</text>
+<text id="6-a-week" x="1752.7" y="716.0" font-family="Segoe UI" font-size="13.5" font-weight="700" fill="#1B1C3A">6 a week</text>
+<g id="toggle-2">
+<rect x="1824.0" y="702.0" width="36.0" height="20.0" rx="10" fill="#2F2E80"/>
+<circle cx="1850.0" cy="712.0" r="7.5" fill="#FFFFFF"/>
+</g>
+<text id="KYC-completed" x="1420.0" y="756.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#4B4D6B">KYC completed</text>
+<text id="3-a-week" x="1752.7" y="756.0" font-family="Segoe UI" font-size="13.5" font-weight="700" fill="#1B1C3A">3 a week</text>
+<g id="toggle-3">
+<rect x="1824.0" y="742.0" width="36.0" height="20.0" rx="10" fill="#2F2E80"/>
+<circle cx="1850.0" cy="752.0" r="7.5" fill="#FFFFFF"/>
+</g>
+<text id="Conversions" x="1420.0" y="796.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#4B4D6B">Conversions</text>
+<text id="2-a-week" x="1752.7" y="796.0" font-family="Segoe UI" font-size="13.5" font-weight="700" fill="#1B1C3A">2 a week</text>
+<g id="toggle-4">
+<rect x="1824.0" y="782.0" width="36.0" height="20.0" rx="10" fill="#2F2E80"/>
+<circle cx="1850.0" cy="792.0" r="7.5" fill="#FFFFFF"/>
+</g>
+<text id="Alert-me-when-an-agent-has-n" x="1420.0" y="836.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#4B4D6B">Alert me when an agent has no check-in for</text>
+<text id="2-working-days" x="1711.7" y="836.0" font-family="Segoe UI" font-size="13.5" font-weight="700" fill="#1B1C3A">2 working days</text>
+<g id="toggle-5">
+<rect x="1824.0" y="822.0" width="36.0" height="20.0" rx="10" fill="#2F2E80"/>
+<circle cx="1850.0" cy="832.0" r="7.5" fill="#FFFFFF"/>
+</g>
+</svg>

@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
+<title>M4 Today's route</title>
+<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#FFFFFF"/>
+<g id="status-bar">
+<text id="11-05" x="16.0" y="18.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#1B1C3A">11:05</text>
+<rect id="battery" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#1B1C3A" stroke-width="1.2"/>
+<rect x="324.0" y="10.0" width="13.0" height="6.0" rx="1" fill="#1B1C3A"/>
+<rect x="342.5" y="11.0" width="2.0" height="4.0" rx="1" fill="#1B1C3A"/>
+<rect id="signal-bar" x="292.0" y="14.0" width="3.0" height="3.0" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-2" x="297.0" y="11.8" width="3.0" height="5.2" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-3" x="302.0" y="9.6" width="3.0" height="7.4" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-4" x="307.0" y="7.4" width="3.0" height="9.6" rx="0.8" fill="#1B1C3A" fill-opacity="0.3"/>
+<text id="network" x="270.5" y="18.0" font-family="Segoe UI" font-size="10.5" font-weight="700" fill="#1B1C3A">4G</text>
+</g>
+<g id="app-bar">
+<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#FFFFFF"/>
+<line x1="0.0" y1="80.0" x2="360.0" y2="80.0" stroke="#E4E5EF" stroke-width="1"/>
+<g id="icon-arrowleft" transform="translate(16.0 40.0) scale(1.0000)">
+<path d="M19 12H5" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 19l-7-7 7-7" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Today-s-route" x="56.0" y="48.0" font-family="Segoe UI" font-size="16.5" font-weight="600" fill="#1B1C3A">Today's route</text>
+<text id="7-stops-11-4-km-2-done" x="56.0" y="67.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">7 stops · 11.4 km · 2 done</text>
+<g id="icon-layers" transform="translate(320.0 40.0) scale(1.0000)">
+<path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 17.65l-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 12.65l-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="street-map">
+<rect id="land" x="0.0" y="80.0" width="360.0" height="480.0" fill="#F2F1EC"/>
+<path id="park" d="M199.8 319.0 L192.3 337.3 L170.0 343.2 L146.9 343.1 L130.1 328.9 L128.2 308.5 L149.5 298.4 L170.2 293.5 L187.6 303.7 Z" fill="#DDEBD3"/>
+<path id="park-2" d="M299.2 370.3 L293.4 397.6 L283.3 411.7 L273.2 401.0 L267.7 381.7 L265.0 356.3 L273.5 340.8 L282.8 334.9 L291.6 346.7 Z" fill="#DDEBD3"/>
+<path id="park-3" d="M52.6 282.2 L47.6 307.1 L32.0 318.5 L14.7 316.0 L4.9 294.6 L6.3 270.5 L13.2 244.5 L32.8 239.4 L49.0 255.6 Z" fill="#DDEBD3"/>
+<path id="park-4" d="M264.5 225.1 L264.3 241.5 L250.7 247.3 L236.0 247.8 L229.1 232.7 L225.3 215.8 L236.0 202.3 L250.2 206.1 L261.2 211.6 Z" fill="#DDEBD3"/>
+<path id="park-5" d="M343.8 284.5 L342.0 302.0 L319.9 312.6 L296.3 305.2 L283.8 292.1 L280.8 276.1 L291.8 258.2 L319.8 256.5 L337.0 270.0 Z" fill="#DDEBD3"/>
+<g id="minor-streets">
+<line x1="8.0" y1="94.2" x2="49.5" y2="93.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="8.0" y1="209.2" x2="57.3" y2="224.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="8.0" y1="266.7" x2="17.3" y2="304.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="8.0" y1="496.7" x2="62.6" y2="493.0" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="65.5" y1="116.9" x2="98.3" y2="110.9" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="65.5" y1="231.9" x2="67.4" y2="258.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="65.5" y1="289.4" x2="101.1" y2="278.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="65.5" y1="404.4" x2="59.5" y2="432.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="65.5" y1="461.9" x2="97.5" y2="458.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="123.0" y1="121.7" x2="160.7" y2="126.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="123.0" y1="179.2" x2="150.7" y2="177.8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="123.0" y1="236.7" x2="131.1" y2="285.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="123.0" y1="294.2" x2="126.9" y2="324.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="123.0" y1="409.2" x2="170.5" y2="408.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="123.0" y1="524.2" x2="153.3" y2="532.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="180.5" y1="81.0" x2="184.5" y2="106.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="180.5" y1="138.5" x2="208.5" y2="131.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="180.5" y1="196.0" x2="175.7" y2="244.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="180.5" y1="311.0" x2="220.1" y2="321.8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="180.5" y1="368.5" x2="173.4" y2="392.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="180.5" y1="483.5" x2="187.3" y2="543.0" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="238.0" y1="294.9" x2="224.2" y2="348.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="238.0" y1="352.4" x2="281.5" y2="362.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="238.0" y1="467.4" x2="264.8" y2="469.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="295.5" y1="252.1" x2="297.5" y2="306.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="295.5" y1="309.6" x2="322.5" y2="306.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="295.5" y1="367.1" x2="341.6" y2="367.0" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="295.5" y1="482.1" x2="324.6" y2="479.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+</g>
+<path id="main-road-casing" d="M0.0 185.6 C108.0 224.0 198.0 166.4 360.0 214.4" fill="none" stroke="#E7D7B4" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road" d="M0.0 185.6 C108.0 224.0 198.0 166.4 360.0 214.4" fill="none" stroke="#FBF3DE" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road-casing-2" d="M0.0 377.6 C100.8 344.0 180.0 368.0 223.2 483.2" fill="none" stroke="#E7D7B4" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road-2" d="M0.0 377.6 C100.8 344.0 180.0 368.0 223.2 483.2" fill="none" stroke="#FBF3DE" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road-casing-3" d="M64.8 80.0 C93.6 248.0 72.0 416.0 108.0 560.0" fill="none" stroke="#E7D7B4" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road-3" d="M64.8 80.0 C93.6 248.0 72.0 416.0 108.0 560.0" fill="none" stroke="#FBF3DE" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road-casing-4" d="M208.8 80.0 C187.2 224.0 237.6 320.0 342.0 368.0" fill="none" stroke="#E7D7B4" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road-4" d="M208.8 80.0 C187.2 224.0 237.6 320.0 342.0 368.0" fill="none" stroke="#FBF3DE" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road-casing-5" d="M280.8 80.0 C288.0 176.0 324.0 248.0 360.0 272.0" fill="none" stroke="#E7D7B4" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road-5" d="M280.8 80.0 C288.0 176.0 324.0 248.0 360.0 272.0" fill="none" stroke="#FBF3DE" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<g id="place-names">
+<text id="Ntinda" x="82.2" y="176.0" font-family="Segoe UI" font-size="12" font-weight="600" fill="#8A8C9E">Ntinda</text>
+<text id="Kiwatule" x="235.9" y="224.0" font-family="Segoe UI" font-size="12" font-weight="600" fill="#8A8C9E">Kiwatule</text>
+<text id="Kigoowa" x="48.3" y="377.6" font-family="Segoe UI" font-size="12" font-weight="600" fill="#8A8C9E">Kigoowa</text>
+<text id="Najjera" x="261.3" y="435.2" font-family="Segoe UI" font-size="12" font-weight="600" fill="#8A8C9E">Najjera</text>
+</g>
+</g>
+<path id="route-done" d="M64.8 137.6 L129.6 224.0 L201.6 281.6" fill="none" stroke="#2F2E80" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="route-planned" d="M201.6 281.6 L259.2 358.4 L180.0 416.0 L108.0 473.6 L295.2 492.8" fill="none" stroke="#2F2E80" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="2 7"/>
+<g id="stop-1">
+<path d="M64.8 137.6 C61.2 130.4 54.0 126.8 54.0 118.7 A10.8 10.8 0 1 1 75.6 118.7 C75.6 126.8 68.4 130.4 64.8 137.6 Z" fill="#D14343" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="pin-label" x="61.9" y="122.8" font-family="Segoe UI" font-size="9.9" font-weight="700" fill="#FFFFFF">1</text>
+</g>
+<g id="stop-2">
+<path d="M129.6 224.0 C126.0 216.8 118.8 213.2 118.8 205.1 A10.8 10.8 0 1 1 140.4 205.1 C140.4 213.2 133.2 216.8 129.6 224.0 Z" fill="#0E8C99" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="pin-label-2" x="126.7" y="209.2" font-family="Segoe UI" font-size="9.9" font-weight="700" fill="#FFFFFF">2</text>
+</g>
+<g id="stop-3">
+<path d="M201.6 281.6 C197.4 273.2 189.0 269.0 189.0 259.6 A12.6 12.6 0 1 1 214.2 259.6 C214.2 269.0 205.8 273.2 201.6 281.6 Z" fill="#2F2E80" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="pin-label-3" x="198.3" y="264.3" font-family="Segoe UI" font-size="11.55" font-weight="700" fill="#FFFFFF">3</text>
+</g>
+<g id="stop-4">
+<path d="M259.2 358.4 C255.6 351.2 248.4 347.6 248.4 339.5 A10.8 10.8 0 1 1 270.0 339.5 C270.0 347.6 262.8 351.2 259.2 358.4 Z" fill="#8A8DA6" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="pin-label-4" x="256.3" y="343.5" font-family="Segoe UI" font-size="9.9" font-weight="700" fill="#FFFFFF">4</text>
+</g>
+<g id="stop-5">
+<path d="M180.0 416.0 C176.4 408.8 169.2 405.2 169.2 397.1 A10.8 10.8 0 1 1 190.8 397.1 C190.8 405.2 183.6 408.8 180.0 416.0 Z" fill="#8A8DA6" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="pin-label-5" x="177.1" y="401.1" font-family="Segoe UI" font-size="9.9" font-weight="700" fill="#FFFFFF">5</text>
+</g>
+<g id="stop-6">
+<path d="M108.0 473.6 C104.4 466.4 97.2 462.8 97.2 454.7 A10.8 10.8 0 1 1 118.8 454.7 C118.8 462.8 111.6 466.4 108.0 473.6 Z" fill="#8A8DA6" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="pin-label-6" x="105.1" y="458.7" font-family="Segoe UI" font-size="9.9" font-weight="700" fill="#FFFFFF">6</text>
+</g>
+<g id="stop-7">
+<path d="M295.2 492.8 C291.6 485.6 284.4 482.0 284.4 473.9 A10.8 10.8 0 1 1 306.0 473.9 C306.0 482.0 298.8 485.6 295.2 492.8 Z" fill="#8A8DA6" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="pin-label-7" x="292.3" y="477.9" font-family="Segoe UI" font-size="9.9" font-weight="700" fill="#FFFFFF">7</text>
+</g>
+<g id="me">
+<circle cx="169.2" cy="252.8" r="16.0" fill="#2F6FDB" fill-opacity="0.18"/>
+<circle cx="169.2" cy="252.8" r="7.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="2.5"/>
+</g>
+<g id="next-stop-sheet">
+<rect x="0.0" y="520.0" width="360.0" height="214.0" rx="20" fill="#FFFFFF"/>
+<rect x="160.0" y="530.0" width="40.0" height="4.0" rx="2" fill="#E4E5EF"/>
+<text id="NEXT-STOP-3-OF-7" x="16.0" y="562.0" font-family="Segoe UI" font-size="11" font-weight="700" fill="#2F2E80" letter-spacing="0.8">NEXT STOP · 3 OF 7</text>
+<text id="Florence-Nambi" x="16.0" y="588.0" font-family="Segoe UI" font-size="19" font-weight="700" fill="#1B1C3A">Florence Nambi</text>
+<text id="Nambi-Tailoring-Fabrics" x="16.0" y="610.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#4B4D6B">Nambi Tailoring &amp; Fabrics · Kiwatule</text>
+<g id="chip-Interested-since-29-Jul">
+<rect x="16.0" y="622.0" width="135.4" height="24.0" rx="12.0" fill="#E6EEFB"/>
+<text id="Interested-since-29-Jul" x="26.0" y="638.1" font-family="Segoe UI" font-size="11.5" font-weight="600" fill="#2962C1">Interested since 29 Jul</text>
+</g>
+<g id="chip-0-6-km-4-min">
+<rect x="159.4" y="622.0" width="113.7" height="24.0" rx="12.0" fill="#F1F1F4"/>
+<g id="icon-navigation" transform="translate(169.4 627.0) scale(0.5833)">
+<path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#797C92" stroke-width="3.43" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="0-6-km-4-min" x="189.4" y="638.1" font-family="Segoe UI" font-size="11.5" font-weight="600" fill="#797C92">0.6 km · 4 min</text>
+</g>
+<g id="button-Directions">
+<rect x="16.0" y="658.0" width="159.0" height="44.0" rx="8" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<g id="icon-navigation-2" transform="translate(50.5 671.0) scale(0.7500)">
+<path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#1B1C3A" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Directions" x="76.5" y="685.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Directions</text>
+</g>
+<g id="button-Check-in">
+<rect x="185.0" y="658.0" width="159.0" height="44.0" rx="8" fill="#2F2E80"/>
+<g id="icon-pin" transform="translate(224.6 671.0) scale(0.7500)">
+<path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 7a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Check-in" x="250.6" y="685.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#FFFFFF">Check in</text>
+</g>
+</g>
+<g id="bottom-navigation">
+<rect id="nav-bg" x="0.0" y="724.0" width="360.0" height="76.0" fill="#FFFFFF"/>
+<line x1="0.0" y1="724.0" x2="360.0" y2="724.0" stroke="#E4E5EF" stroke-width="1"/>
+<g id="tab-Home">
+<g id="icon-home" transform="translate(25.0 736.0) scale(0.9167)">
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" fill="none" stroke="#4B4D6B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 22V12h6v10" fill="none" stroke="#4B4D6B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Home" x="20.6" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="400" fill="#4B4D6B">Home</text>
+</g>
+<g id="tab-Clients">
+<g id="icon-users" transform="translate(97.0 736.0) scale(0.9167)">
+<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" fill="none" stroke="#4B4D6B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 3a4 4 0 1 0 0 8 4 4 0 1 0 0-8z" fill="none" stroke="#4B4D6B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 21v-2a4 4 0 0 0-3-3.87" fill="none" stroke="#4B4D6B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 3.13a4 4 0 0 1 0 7.75" fill="none" stroke="#4B4D6B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Clients" x="91.0" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="400" fill="#4B4D6B">Clients</text>
+</g>
+<g id="tab-Visit">
+<circle id="visit-button" cx="180.0" cy="722.0" r="27.0" fill="#FBD405" stroke="#FFFFFF" stroke-width="4"/>
+<g id="icon-plus" transform="translate(167.0 709.0) scale(1.0833)">
+<path d="M12 5v14" fill="none" stroke="#1F1E57" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5 12h14" fill="none" stroke="#1F1E57" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Visit" x="168.8" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="600" fill="#1F1E57">Visit</text>
+</g>
+<g id="tab-Route">
+<rect id="indicator" x="224.0" y="732.0" width="56.0" height="30.0" rx="15" fill="#E6E6F0"/>
+<g id="icon-route" transform="translate(241.0 736.0) scale(0.9167)">
+<path d="M6 16a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#2F2E80" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15" fill="none" stroke="#2F2E80" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 2a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#2F2E80" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Route" x="236.7" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="600" fill="#2F2E80">Route</text>
+</g>
+<g id="tab-Me">
+<g id="icon-user" transform="translate(313.0 736.0) scale(0.9167)">
+<path d="M12 3a5 5 0 1 0 0 10 5 5 0 1 0 0-10z" fill="none" stroke="#4B4D6B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 21a8 8 0 0 0-16 0" fill="none" stroke="#4B4D6B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Me" x="315.8" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="400" fill="#4B4D6B">Me</text>
+</g>
+<rect id="gesture-bar" x="126.0" y="792.0" width="108.0" height="4.0" rx="2" fill="#1B1C3A" fill-opacity="0.3"/>
+</g>
+</svg>

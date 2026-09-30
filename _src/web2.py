@@ -1,4 +1,4 @@
-"""Web console screens 07-13: approvals, reasons, journey plans, handover, users, reports."""
+"""Web console screens 07-13: approvals, reasons, journey plans, locations, users, reports."""
 from __future__ import annotations
 
 from charts import StreetMap, donut, map_pin
@@ -937,7 +937,7 @@ def w13_reports():
               "Proposed", BLUE),
              ("shield", "Credit reference bureau (CRB)", "Credit check with the client's signed consent", "Proposed",
               BLUE),
-             ("message", "SMS gateway", "OTPs, client notifications, handover messages", "Ready", GREEN),
+             ("message", "SMS gateway", "OTPs, client notifications, new-agent introductions", "Ready", GREEN),
              ("download", "Excel / CSV export", "Any table, any time, for Letshego's own analysis", "Ready", GREEN)]
     y = ty + 88
     for ic, t, sub, st, col in conns:
@@ -959,8 +959,8 @@ def w13_reports():
              "Phone · 0.3712, 32.6205"],
             ["30 Sep 10:58", "Sarah Namuli", "Checked out visit: not interested", "Joseph Kiggundu",
              "Reason: already has a SACCO loan", "Phone · Ntinda"],
-            ["30 Sep 09:12", "Patricia Nankya", "Changed weekly minimum", "Kampala East", "Visits 15 → 20 a week",
-             "Web · Head office"],
+            ["30 Sep 09:12", "Moses Okello", "Published journey plan", "Kiwatule follow-ups", "12 clients · 28 Sep – 2 Oct",
+             "Web · Kampala"],
             ["12 Aug 17:05", "Moses Okello", "Reassigned territory", "Ntinda · Kiwatule", "John Mugisha (left) → Sarah Namuli",
              "Web · Kampala"]]
     table(s, X0 + 1, ay + 76, cols, rows, row_h=(H - 28 - ay - 76 - 16) / 5 - 8, head_h=36)

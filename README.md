@@ -77,7 +77,7 @@ _src/briefing.py ────────────►  briefing.html         
 | `w02` Agents performance | `w09` Why & why not | `m04` My journey plans · `m04b` one plan · `m04c` new plan | `m14` Negotiation |
 | `w03` Agent profile | `w10` Journey plans · `w10b` one plan · `w10c` new plan | `m05` Start a visit: choose the client | `m15` Close: submit application |
 | `w04` Field map | `w11` Locations · `w11b` New route | `m06` New client: register | `m16` Conversion recorded · `m16b` Check out |
-| `w05` Client pipeline | `w12` Users · `w12b` Edit user · `w12c` Roles & access | `m07` First visit: interested? · `m07b` Book the next visit · `m08` Not interested: why | `m17` My clients |
+| `w05` Client pipeline | `w12` Users · `w12b` Edit user · `w12c` Roles & access | `m07` Joseph's record, first visit · `m07b` Joseph check out: interested? + next visit · `m08` Not interested: why | `m17` My clients |
 | `w06` Client record | `w13` Reports & audit | `m09`–`m09d` Client record during a visit: Overview · KYC · Loan · Visits tabs · `m09f` KYC tab once validated (Done lands here) · `m09e` Loan tab once the application is sent · `m10` KYC 1 | `m18`–`m18d` Client record after the visit (same tabs) · `m19` Me |
 
 **Registration:** each module has a `SCREENS` list. Web screens are sorted by key; mobile screens run in list order. That order is what ← → steps through.
@@ -166,6 +166,6 @@ Based on current fintech and CRM app patterns: light, restrained, one strong acc
 ## 10. Presenting
 
 - **Web:** sign in → Sales overview. The red icon next to the user's name signs out. **Clicking the name** switches between Patricia (management) and Moses (supervisor): a demo shortcut. The moon in the top bar switches to dark mode.
-- **App:** splash → PIN sign-in → Home (Q3 card, Up next, today's timeline) → Plans (M4 → M4b) or the yellow Visit button → choose the client. New client: register Joseph → first visit → No → capture why → check out. Returning client: Florence → her record (visit in progress) → KYC tab → 3 sections → validation → Loan tab → Take loan application → submit → Conversion recorded → Close (back to the Loan tab, visit still open) → Check out → conversion → check out → her record.
+- **App:** splash → PIN sign-in → Home (Q3 card, Up next, today's timeline) → Plans (M4 → M4b) or the yellow Visit button → choose the client. New client: register Joseph → Save & start visit → his record (first-visit notes) → Check out: interested? + next visit, or Not interested → capture why → My clients. Returning client: Florence → her record (visit in progress) → KYC tab → 3 sections → validation → Loan tab → Take loan application → submit → Conversion recorded → Close (back to the Loan tab, visit still open) → Check out → conversion → check out → her record.
 - The walkthrough script, questions for the client and likely questions are in [`BRIEFING.md`](BRIEFING.md).
 - **On the day:** open the link while online, wait for "✓ Offline-ready", present in Chrome full screen (**F**), and say once that the data is illustrative.

@@ -449,39 +449,9 @@ def m04c_new_plan():
     return s
 
 
-def m07_first_visit():
-    s = phone("M7 First visit: is the client interested?", bg=BG, time="10:56")
-    app_bar(s, "First visit · Joseph Kiggundu", back="m06", sub="Kiggundu Hardware · Ntinda · off plan")
-    visit_bar(s, "Visit in progress · checked in 10:52 · GPS ±7 m")
-    with s.g("purpose"):
-        y = 122
-        s.rect(PAD, y, MW - 2 * PAD, 58, fill=CARD, rx=12, stroke=LINE)
-        s.text(PAD + 14, y + 22, "PURPOSE OF THIS VISIT", 10.5, 700, MUTED, spacing=0.8)
-        s.text(PAD + 14, y + 43, "Introduce Letshego and find out his needs", 13.5, 600, INK)
-    y = 200
-    s.text(PAD, y + 4, "What would he need money for?", 13, 600, INK2)
-    y = pills(s, PAD, y + 14, [("Business stock", True), ("School fees", True), ("Equipment", False),
-                               ("Home", False), ("Emergency", False)], h=30) + 14
-    s.text(PAD, y + 4, "Products that might suit (your notes)", 13, 600, INK2)
-    y = pills(s, PAD, y + 14, [("MSE Business Loan", True), ("School Fees Loan", True), ("Home Improvement", False)],
-              h=30) + 12
-    with s.g("note"):
-        s.rect(PAD, y, MW - 2 * PAD, 50, fill=CARD, rx=10, stroke="#CDD0DE")
-        s.text(PAD + 12, y + 30, "Busy shop. Pays a SACCO loan until December.", 13, 400, INK, maxw=MW - 2 * PAD - 50)
-        s.icon("mic", MW - PAD - 32, y + 15, 18, BRAND, 2)
-    y += 68
-    s.text(PAD, y + 4, "Is he interested in a loan?", 15, 700, INK)
-    y += 16
-    option_row(s, y, "check", GREEN, "Yes, interested", "Book his KYC visit", "m07b")
-    option_row(s, y + 60, "calendar", BLUE, "Needs time to think", "Book a follow-up visit", "m07b")
-    option_row(s, y + 120, "x", RED, "No", "Capture why, then check out", "m08")
-    gesture(s)
-    return s
-
-
 def m08_not_interested():
     s = phone("M8 Not interested: capture why", bg=CARD, time="10:58")
-    app_bar(s, "Not interested: why?", back="m07", sub="Joseph Kiggundu · first visit · 10:58")
+    app_bar(s, "Not interested: why?", back="m07b", sub="Joseph Kiggundu · first visit · 10:58")
     y = 104
     s.text(PAD, y, "Why not? Pick all that apply", 14.5, 700, INK)
     y = pills(s, PAD, y + 14, [("Has a loan elsewhere", True), ("Interest rate / cost", False),
@@ -1199,41 +1169,99 @@ def m16b_check_out():
     return s
 
 
-def m07b_next_visit():
-    s = phone("M7b Joseph: book the next visit", bg=CARD, time="10:57")
-    app_bar(s, "Next visit · Joseph Kiggundu", back="m07", sub="Kiggundu Hardware · Ntinda")
-    visit_bar(s, "Visit in progress · checked in 10:52 · GPS ±7 m")
-    y = 128
-    s.text(PAD, y, "What is the next visit for?", 14.5, 700, INK)
+
+def m07_joseph_record():
+    s = phone("M7 Joseph: client record, first visit", bg=BG, time="10:53")
+    app_bar(s, "Joseph Kiggundu", back="m17", sub="Ntinda stage route · new client")
+    for i, ic in enumerate(["phone", "navigation"]):
+        s.icon(ic, MW - PAD - 24 - i * 40, 40, 22, INK, 2)
+    with s.g("client header"):
+        y = 92
+        s.rect(PAD, y, MW - 2 * PAD, 84, fill=CARD, rx=18, stroke=LINE)
+        avatar(s, PAD + 34, y + 42, 22, "JK", BLUE)
+        s.text(PAD + 66, y + 32, "Kiggundu Hardware, Ntinda", 14, 700, INK)
+        x = PAD + 66
+        x += chip(s, x, y + 44, "New client", "#8A8DA6", h=22, size=11, dot=True) + 6
+        chip(s, x, y + 44, "Off plan", AMBER, h=22, size=11)
+    with s.g("visit bar"):
+        y = 186
+        s.rect(PAD, y, MW - 2 * PAD, 44, fill=tint(GREEN, 0.1), rx=14)
+        s.circle(PAD + 18, y + 22, 5, fill=GREEN)
+        s.text(PAD + 32, y + 20, "First visit in progress", 13, 700, GREEN_D)
+        s.text(PAD + 32, y + 36, "Checked in 10:52 · GPS ✓ 7 m", 11, 400, GREEN_D)
+        s.rect(MW - PAD - 104, y + 8, 92, 28, fill=CARD, rx=10, stroke=tint(GREEN, 0.6), shadow=False)
+        s.icon("logout", MW - PAD - 94, y + 14, 15, GREEN_D, 2.2)
+        s.text(MW - PAD - 74, y + 26.5, "Check out", 12, 700, GREEN_D)
+        s.link(MW - PAD - 104, y + 8, 92, 28, "m07b")
+    with s.g("tabs"):
+        y = 244
+        tw_ = (MW - 2 * PAD) / 4
+        for i, lab in enumerate(["Overview", "KYC", "Loan", "Visits"]):
+            x = PAD + i * tw_
+            on = i == 0
+            if on:
+                s.rect(x + 2, y, tw_ - 4, 34, fill=CARD, rx=12, stroke=LINE, shadow=True)
+            s.text(x + tw_ / 2, y + 22, lab, 13, 700 if on else 400, BRAND if on else FAINT, anchor="middle")
+    y = 292
+    with s.g("purpose"):
+        s.rect(PAD, y, MW - 2 * PAD, 54, fill=tint(YELLOW, 0.2), rx=14)
+        s.text(PAD + 14, y + 22, "FIRST VISIT", 10, 700, YELLOW_D, spacing=0.6)
+        s.text(PAD + 14, y + 42, "Introduce Letshego, find out his needs", 13.5, 600, INK)
+    y += 70
+    s.text(PAD, y + 4, "What would he need money for?", 13, 600, INK2)
+    y = pills(s, PAD, y + 14, [("Business stock", True), ("School fees", True), ("Equipment", False),
+                               ("Home", False)], h=30) + 14
+    s.text(PAD, y + 4, "Products that might suit", 13, 600, INK2)
+    y = pills(s, PAD, y + 14, [("MSE Business Loan", True), ("School Fees Loan", True)], h=30) + 12
+    with s.g("note"):
+        s.rect(PAD, y, MW - 2 * PAD, 48, fill=CARD, rx=12, stroke="#CDD0DE", shadow=False)
+        s.text(PAD + 12, y + 29, "Busy shop. Pays a SACCO loan until December.", 13, 400, INK, maxw=MW - 2 * PAD - 50)
+        s.icon("mic", MW - PAD - 32, y + 14, 18, BRAND, 2)
+    footer(s, "Check out", "m07b", icon="logout")
+    return s
+
+
+def m07b_joseph_check_out():
+    s = phone("M7b Joseph: check out", bg=CARD, time="10:58")
+    app_bar(s, "Check out", back="m07", sub="Joseph Kiggundu · first visit · 10:52–10:58")
+    y = 100
+    s.text(PAD, y, "Is he interested in a loan?", 15, 700, INK)
+    y += 14
+    opts = [("Interested", "Book a visit to take KYC", True, GREEN, None),
+            ("Needs time to think", "Book a follow-up visit", False, BLUE, None),
+            ("Not interested", "Capture why", False, RED, "m08"),
+            ("Not available", "Logged as a visit attempt", False, "#8A8DA6", None)]
+    for lab, sub, on, col, tgt in opts:
+        with s.g(f"outcome {lab}"):
+            s.rect(PAD, y, MW - 2 * PAD, 50, fill=tint(col, 0.07) if on else CARD, rx=12,
+                   stroke=col if on else LINE, sw=2 if on else 1, shadow=False)
+            radio(s, PAD + 22, y + 25, on, color=col)
+            s.text(PAD + 42, y + 21, lab, 13.5, 600, INK)
+            s.text(PAD + 42, y + 39, sub, 11.5, 400, MUTED)
+        if tgt:
+            s.link(PAD, y, MW - 2 * PAD, 50, tgt)
+        y += 56
+    y += 8
+    s.text(PAD, y + 4, "Next visit", 14, 700, INK)
     y += 12
-    for lab, sub, on, col in [("Take KYC", "He's interested; bring the documents", True, VIOLET),
-                              ("Follow up", "He needs time to think", False, BLUE)]:
-        s.rect(PAD, y, MW - 2 * PAD, 52, fill=tint(col, 0.07) if on else CARD, rx=12,
-               stroke=col if on else LINE, sw=2 if on else 1, shadow=False)
-        radio(s, PAD + 22, y + 26, on, color=col)
-        s.text(PAD + 42, y + 22, lab, 13.5, 600, INK)
-        s.text(PAD + 42, y + 40, sub, 11.5, 400, MUTED)
-        y += 58
-    y += 6
     hw = (MW - 2 * PAD - 10) / 2
     field(s, PAD, y, hw, "Date", "Fri 2 Oct", h=42, icon="calendar", size=13.5, required=True)
     field(s, PAD + hw + 10, y, hw, "Time", "10:00", h=42, icon="clock", size=13.5)
-    y += 80
+    y += 78
     s.text(PAD, y + 14, "Ask him to have ready", 13, 600, INK2)
-    y = pills(s, PAD, y + 22, [("National ID", True), ("Trading licence", True), ("Sales book", True),
-                               ("Collateral papers", False)], h=30) + 16
+    y = pills(s, PAD, y + 22, [("National ID", True), ("Trading licence", True), ("Sales book", True)], h=30) + 14
     with s.g("add to plan"):
-        s.rect(PAD, y, MW - 2 * PAD, 56, fill="#F5F5FB", rx=12, shadow=False)
-        s.icon("route", PAD + 14, y + 17, 20, BRAND, 2)
-        s.text(PAD + 44, y + 24, "Add to a journey plan", 13.5, 600, INK)
-        s.text(PAD + 44, y + 42, "Kiwatule follow-ups", 11.5, 400, MUTED)
-        toggle(s, MW - PAD - 50, y + 18, True)
+        s.rect(PAD, y, MW - 2 * PAD, 50, fill="#F5F5FB", rx=12, shadow=False)
+        s.icon("route", PAD + 14, y + 14, 20, BRAND, 2)
+        s.text(PAD + 44, y + 21, "Add to a journey plan", 13.5, 600, INK)
+        s.text(PAD + 44, y + 38, "Kiwatule follow-ups", 11.5, 400, MUTED)
+        toggle(s, MW - PAD - 50, y + 15, True)
     footer(s, "Check out", "m17", icon="logout")
     return s
 
 
 SCREENS = [m01_splash, m02_sign_in, m03_home, m04_plans, m04b_plan, m04c_new_plan,
-           m05_start_visit, m06_new_client, m07_first_visit, m07b_next_visit, m08_not_interested,
+           m05_start_visit, m06_new_client, m07_joseph_record, m07b_joseph_check_out, m08_not_interested,
            m09_hub, m09b_hub_kyc, m09c_hub_loan, m09d_hub_visits, m09e_hub_applied, m09f_hub_kyc_done,
            m10_kyc_details, m11_kyc_id, m12_kyc_income, m13_validation, m14_negotiation, m15_close,
            m16_success, m16b_check_out, m17_clients,

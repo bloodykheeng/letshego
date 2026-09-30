@@ -303,7 +303,7 @@
 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" fill="none" stroke="#15925A" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="SMS-gateway" x="1014.0" y="471.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">SMS gateway</text>
-<text id="OTPs-client-notifications" x="1014.0" y="490.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#7D8099">OTPs, client notifications, handover messages</text>
+<text id="OTPs-client-notifications" x="1014.0" y="490.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#7D8099">OTPs, client notifications, new-agent introductions</text>
 <g id="chip-Ready">
 <rect x="1799.6" y="463.0" width="64.4" height="22.0" rx="11.0" fill="#E3F2EB"/>
 <circle cx="1813.6" cy="474.0" r="4.0" fill="#15925A"/>
@@ -364,20 +364,20 @@
 <g id="row-4">
 <line x1="297.0" y1="912.0" x2="1889.0" y2="912.0" stroke="#EFF0F6" stroke-width="1"/>
 <text id="30-Sep-09-12" x="313.0" y="946.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">30 Sep 09:12</text>
-<text id="Patricia-Nankya-2" x="503.0" y="946.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Patricia Nankya</text>
-<text id="Changed-weekly-minimum" x="733.0" y="946.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Changed weekly minimum</text>
-<text id="Kampala-East" x="993.0" y="946.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Kampala East</text>
-<text id="Visits-15-20-a-week" x="1293.0" y="946.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Visits 15 → 20 a week</text>
-<text id="Web-Head-office" x="1713.0" y="946.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Web · Head office</text>
+<text id="Moses-Okello-2" x="503.0" y="946.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Moses Okello</text>
+<text id="Published-journey-plan" x="733.0" y="946.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Published journey plan</text>
+<text id="Kiwatule-follow-ups" x="993.0" y="946.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Kiwatule follow-ups</text>
+<text id="12-clients-28-Sep-2-Oct" x="1293.0" y="946.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">12 clients · 28 Sep – 2 Oct</text>
+<text id="Web-Kampala-2" x="1713.0" y="946.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Web · Kampala</text>
 </g>
 <g id="row-5">
 <line x1="297.0" y1="972.0" x2="1889.0" y2="972.0" stroke="#EFF0F6" stroke-width="1"/>
 <text id="12-Aug-17-05" x="313.0" y="1006.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">12 Aug 17:05</text>
-<text id="Moses-Okello-2" x="503.0" y="1006.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Moses Okello</text>
+<text id="Moses-Okello-3" x="503.0" y="1006.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Moses Okello</text>
 <text id="Reassigned-territory" x="733.0" y="1006.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Reassigned territory</text>
 <text id="Ntinda-Kiwatule" x="993.0" y="1006.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Ntinda · Kiwatule</text>
 <text id="John-Mugisha-left-Sarah" x="1293.0" y="1006.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">John Mugisha (left) → Sarah Namuli</text>
-<text id="Web-Kampala-2" x="1713.0" y="1006.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Web · Kampala</text>
+<text id="Web-Kampala-3" x="1713.0" y="1006.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Web · Kampala</text>
 </g>
 </g>
 </svg>

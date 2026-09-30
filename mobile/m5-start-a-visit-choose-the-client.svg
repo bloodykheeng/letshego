@@ -45,8 +45,8 @@
 <path d="M9 18l6-6-6-6" fill="none" stroke="#8C6A00" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
-<text id="ON-TODAY-S-PLAN" x="16.0" y="234.0" font-family="Segoe UI" font-size="11" font-weight="700" fill="#7D8099" letter-spacing="0.8">ON TODAY'S PLAN</text>
-<text id="5-left" x="315.8" y="234.0" font-family="Segoe UI" font-size="12" font-weight="600" fill="#2F2E80">5 left</text>
+<text id="DUE-TODAY-IN-YOUR-PLANS" x="16.0" y="234.0" font-family="Segoe UI" font-size="11" font-weight="700" fill="#7D8099" letter-spacing="0.8">DUE TODAY IN YOUR PLANS</text>
+<text id="2-left" x="315.8" y="234.0" font-family="Segoe UI" font-size="12" font-weight="600" fill="#2F2E80">2 left</text>
 <g id="planned-Florence-Nambi">
 <rect x="16.0" y="246.0" width="328.0" height="60.0" rx="12" fill="#FFFFFF" stroke="#2F2E80" stroke-width="2"/>
 <rect x="16.0" y="258.0" width="4.0" height="36.0" rx="2" fill="#2F6FDB"/>
@@ -64,35 +64,34 @@
 <text id="Negotiation-12-30" x="34.0" y="358.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Negotiation · 12:30</text>
 <text id="1-4-km" x="295.1" y="349.0" font-family="Segoe UI" font-size="12" font-weight="600" fill="#4B4D6B">1.4 km</text>
 </g>
-<g id="planned-Aisha-Nalubega">
-<rect x="16.0" y="382.0" width="328.0" height="60.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<rect x="16.0" y="394.0" width="4.0" height="36.0" rx="2" fill="#2F6FDB"/>
-<text id="Aisha-Nalubega" x="34.0" y="407.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Aisha Nalubega</text>
-<text id="Interested-bring-ID" x="34.0" y="426.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Interested · bring ID</text>
-<text id="2-1-km" x="295.4" y="417.0" font-family="Segoe UI" font-size="12" font-weight="600" fill="#4B4D6B">2.1 km</text>
+<text id="NEAR-YOU-NOT-DUE-TODAY" x="16.0" y="396.0" font-family="Segoe UI" font-size="11" font-weight="700" fill="#7D8099" letter-spacing="0.8">NEAR YOU, NOT DUE TODAY</text>
+<g id="nearby-Aisha-Nalubega">
+<rect x="16.0" y="408.0" width="328.0" height="56.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<text id="Aisha-Nalubega" x="32.0" y="431.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Aisha Nalubega</text>
+<text id="Interested-due-Thu-in-your" x="32.0" y="449.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Interested · due Thu in your plan</text>
+<text id="0-7-km" x="293.8" y="441.0" font-family="Segoe UI" font-size="12" font-weight="600" fill="#4B4D6B">0.7 km</text>
 </g>
-<text id="NEAR-YOU-NOT-ON-TODAY-S-PLA" x="16.0" y="464.0" font-family="Segoe UI" font-size="11" font-weight="700" fill="#7D8099" letter-spacing="0.8">NEAR YOU, NOT ON TODAY'S PLAN</text>
 <g id="nearby-Charles-Ssempijja">
-<rect x="16.0" y="476.0" width="328.0" height="56.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Charles-Ssempijja" x="32.0" y="499.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Charles Ssempijja</text>
-<text id="Interested-follow-up-due-F" x="32.0" y="517.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Interested · follow-up due Fri</text>
-<text id="0-9-km" x="293.5" y="509.0" font-family="Segoe UI" font-size="12" font-weight="600" fill="#4B4D6B">0.9 km</text>
+<rect x="16.0" y="470.0" width="328.0" height="56.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<text id="Charles-Ssempijja" x="32.0" y="493.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Charles Ssempijja</text>
+<text id="Interested-follow-up-due-F" x="32.0" y="511.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Interested · follow-up due Fri</text>
+<text id="0-9-km" x="293.5" y="503.0" font-family="Segoe UI" font-size="12" font-weight="600" fill="#4B4D6B">0.9 km</text>
 </g>
 <g id="nearby-Sarah-Namutebi">
-<rect x="16.0" y="538.0" width="328.0" height="56.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Sarah-Namutebi" x="32.0" y="561.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Sarah Namutebi</text>
-<text id="KYC-captured-payslip-pendi" x="32.0" y="579.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">KYC captured · payslip pending</text>
-<text id="1-1-km" x="297.2" y="571.0" font-family="Segoe UI" font-size="12" font-weight="600" fill="#4B4D6B">1.1 km</text>
+<rect x="16.0" y="532.0" width="328.0" height="56.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<text id="Sarah-Namutebi" x="32.0" y="555.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Sarah Namutebi</text>
+<text id="KYC-captured-payslip-pendi" x="32.0" y="573.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">KYC captured · payslip pending</text>
+<text id="1-1-km" x="297.2" y="565.0" font-family="Segoe UI" font-size="12" font-weight="600" fill="#4B4D6B">1.1 km</text>
 </g>
 <g id="off-plan-note">
-<g id="icon-info" transform="translate(16.0 604.0) scale(0.6667)">
+<g id="icon-info" transform="translate(16.0 598.0) scale(0.6667)">
 <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z" fill="none" stroke="#7D8099" stroke-width="3.00" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 16v-4" fill="none" stroke="#7D8099" stroke-width="3.00" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 8h.01" fill="none" stroke="#7D8099" stroke-width="3.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g id="para-Visits-outside-your">
-<text id="line" x="40.0" y="616.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Visits outside your plan are fine; they show as off-plan</text>
-<text id="line-2" x="40.0" y="633.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">on the dashboard.</text>
+<text id="line" x="40.0" y="610.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Visits outside your plans are fine; they show as off-plan</text>
+<text id="line-2" x="40.0" y="627.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">on the dashboard.</text>
 </g>
 </g>
 <g id="bottom-navigation">
@@ -124,13 +123,13 @@
 <text id="Visit" x="168.1" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="700" fill="#2F2E80">Visit</text>
 <rect id="active-bar" x="168.0" y="786.0" width="24.0" height="3.0" rx="1.5" fill="#2F2E80"/>
 </g>
-<g id="tab-Plan">
+<g id="tab-Plans">
 <g id="icon-route" transform="translate(241.0 736.0) scale(0.9167)">
 <path d="M6 16a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#4B4D6B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15" fill="none" stroke="#4B4D6B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M18 2a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#4B4D6B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Plan" x="241.2" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="400" fill="#4B4D6B">Plan</text>
+<text id="Plans" x="238.8" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="400" fill="#4B4D6B">Plans</text>
 </g>
 <g id="tab-Me">
 <g id="icon-user" transform="translate(313.0 736.0) scale(0.9167)">

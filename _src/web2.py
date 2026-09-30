@@ -282,106 +282,255 @@ def w09_reasons():
 
 
 # =====================================================================================
-PLAN_REASON = {"Follow-up": BLUE, "Finish KYC": VIOLET, "Offer loan": TEAL, "Negotiate": AMBER,
-               "From handover": "#D9651B", "Prospecting": "#8A8DA6"}
+PLANS = [
+    ("Kiwatule follow-ups", "Interested clients from September; take KYC where ready", "Sarah Namuli", "SN",
+     "28 Sep – 2 Oct", 12, 8, "Active", "Moses Okello"),
+    ("Ntinda schools: payroll teachers", "Teachers at 5 schools · Civil Servant Loan", "Sarah Namuli", "SN",
+     "21 Sep – 9 Oct", 15, 6, "Active", "Moses Okello"),
+    ("Kireka boda stages", "Boda riders at 4 stages · MSE Business Loan", "Peter Kato", "PK", "28 Sep – 4 Oct", 14, 9,
+     "Active", "Moses Okello"),
+    ("Naalya estate homes", "Home improvement leads from the estate", "Ruth Achieng", "RA", "29 Sep – 6 Oct", 10, 4,
+     "Active", "Ruth Achieng (agent)"),
+    ("Bukoto: finish KYC", "Clients stuck at KYC captured", "Esther Nakato", "EN", "30 Sep – 2 Oct", 6, 1, "Active",
+     "Moses Okello"),
+    ("Banda follow-ups", "Interested clients with no visit in 14+ days", "Brian Ssali", "BS", "28 Sep – 2 Oct", 9, 1,
+     "Active", "Moses Okello"),
+    ("Kyanja market prospecting", "New area: market vendors, 3 new clients a day", "Sarah Namuli", "SN",
+     "1 – 31 Oct", 8, 0, "Scheduled", "Sarah Namuli (agent)"),
+    ("Daniel Okumu's clients", "Introduce the new agents to his 46 clients", "5 agents", "5+", "1 – 9 Oct", 46, 0,
+     "Scheduled", "Moses Okello"),
+    ("Q3 week 1 blitz", "Every interested client from Q2", "7 agents", "7+", "1 – 7 Jul", 34, 30, "Completed",
+     "Moses Okello"),
+]
 
 
 def w10_plans():
-    s = shell("10 Journey plans: which clients each agent visits", "Journey plans",
-              ["Planning", "Journey plans"], user=SUPERVISOR, period="Day")
-    page_head(s, "Journey plans", "Which clients each agent visits tomorrow, and in what order · published to "
-                                  "agents' phones at 18:00")
+    s = shell("10 Journey plans", "Journey plans", ["Planning", "Journey plans"], user=SUPERVISOR, period="Week")
+    page_head(s, "Journey plans", "Named lists of clients to visit, each with an agent, start and end dates and a "
+                                  "goal · Kampala East")
     with s.g("header actions"):
         x = X1
-        x -= button(s, x, Y0 + 12, "Publish plans to phones", "primary", icon="send", anchor="end") + 12
-        x -= button(s, x, Y0 + 12, "Copy last Thursday", "secondary", icon="copy", anchor="end") + 12
-        x -= filter_btn(s, x - 230, Y0 + 13, "Day", "Thu 1 Oct (tomorrow)", w=230) + 12
+        bw = button(s, x, Y0 + 12, "New journey plan", "primary", icon="plus", anchor="end")
+        s.link(x - bw, Y0 + 12, bw, 40, "w10c")
+        x -= bw + 12
+        x -= filter_btn(s, x - 160, Y0 + 13, "Agent", "All 7", w=160) + 12
+    ky = Y0 + 84
+    kw = (CW - 3 * 16) / 4
+    for i, (ic, col, lab, val, sub, fr) in enumerate([
+            ("route", BRAND, "Active plans", "6", "2 scheduled to start · 1 completed this quarter", None),
+            ("users", TEAL, "Clients in active plans", "66", "across 5 agents", None),
+            ("check", GREEN, "Visited so far", "29 of 66", "44% · active plans end 2–9 Oct", 29 / 66),
+            ("clock", AMBER, "Due today, not visited yet", "11", "Ivan Kasozi and 10 more", None)]):
+        kpi(s, X0 + i * (kw + 16), ky, kw, 140, ic, col, lab, val, sub, fr)
+    ty = ky + 160
+    seg(s, X0, ty, ["All 9", "Active 6", "Scheduled 2", "Completed 1"], "All 9", h=38)
+    s.text(X1, ty + 24, "A client can sit on more than one plan; each visit counts once", 12.5, 400, MUTED,
+           anchor="end")
+    tby = ty + 54
+    cols = [("Plan", 420, "start"), ("Agent", 210, "start"), ("Dates", 170, "start"), ("Clients", 90, "end"),
+            ("Visited", 240, "start"), ("Status", 150, "start"), ("Created by", 190, "start"), ("", 122, "end")]
+    rows = []
+    for (nm, desc, ag, ini, dates, n, v, st, by) in PLANS:
+        rows.append([
+            (lambda a, b: lambda s_, x, y, w, h: (s_.text(x + 16, y + h / 2 - 3, a, 14, 600, INK, maxw=w - 24),
+                                                  s_.text(x + 16, y + h / 2 + 15, b, 12, 400, MUTED,
+                                                          maxw=w - 24)))(nm, desc),
+            agent_cell(ag, ini, "Kampala East"), dates, str(n),
+            (lambda v_, n_: lambda s_, x, y, w, h: (progress(s_, x + 16, y + h / 2 - 3, 130, v_ / n_,
+                                                             GREEN if v_ / n_ >= 0.5 else (AMBER if v_ else LINE), h=7),
+                                                    s_.text(x + 158, y + h / 2 + 5, f"{v_} of {n_}", 12.5, 400,
+                                                            INK2)))(v, n),
+            chip_cell(st), by,
+            (lambda: lambda s_, x, y, w, h: button(s_, x + w - 12, y + h / 2 - 16, "Open", "soft", h=32, size=12.5,
+                                                   anchor="end"))(),
+        ])
+    rh = (H - 28 - tby - 40 - 36) / len(rows)
+    table(s, X0, tby, cols, rows, row_h=rh, head_h=40, hl=0)
+    s.link(X0, tby + 40, CW, rh, "w10b")
+    s.text(X0 + 16, H - 44, "Supervisors create plans for their agents; agents can create their own, which the "
+                            "supervisor approves", 13, 400, MUTED)
+    return s
 
+
+PLAN_CLIENTS = [
+    ("Charles Ssempijja", "Interested", "Mon 28", "28 Sep · follow-up booked for Fri", "Visited"),
+    ("Sarah Namutebi", "KYC captured", "Mon 28", "28 Sep · KYC captured, payslip pending", "Visited"),
+    ("Hassan Mugerwa", "Interested", "Tue 29", "29 Sep · needs time to think", "Visited"),
+    ("Annet Namubiru", "Negotiation", "Tue 29", "29 Sep · comparing with a SACCO offer", "Visited"),
+    ("Doreen Kyomuhendo", "Not interested", "Tue 29", "29 Sep · not interested: interest rate", "Visited"),
+    ("Kenneth Lubega", "KYC captured", "Wed 30", "30 Sep 09:05 · employer letter pending", "Visited"),
+    ("Betty Nakimuli", "KYC validated", "Wed 30", "30 Sep 10:20 · KYC validated", "Visited"),
+    ("Florence Nambi", "Applied", "Wed 30", "30 Sep 11:42 · application submitted", "Visited"),
+    ("Ivan Kasozi", "Negotiation", "Wed 30", "Planned for 12:30", "Due today"),
+    ("Aisha Nalubega", "Interested", "Thu 1", "—", "Not yet due"),
+    ("Juliet Kobusingye", "Interested", "Thu 1", "—", "Not yet due"),
+    ("Tom Ssebaggala", "Interested", "Fri 2", "—", "Not yet due"),
+]
+
+
+def w10b_plan():
+    s = shell("10b Journey plan: Kiwatule follow-ups", "Journey plans",
+              ["Planning", "Journey plans", "Kiwatule follow-ups"], user=SUPERVISOR, period="Week")
+    with s.g("plan header"):
+        s.rect(X0, Y0, CW, 124, fill=CARD, rx=12, stroke=LINE)
+        s.rect(X0 + 24, Y0 + 24, 52, 52, fill=tint(BRAND, 0.1), rx=12)
+        s.icon("route", X0 + 36, Y0 + 36, 28, BRAND, 2)
+        s.text(X0 + 96, Y0 + 50, "Kiwatule follow-ups", 24, 700, INK)
+        status_chip(s, X0 + 106 + tw("Kiwatule follow-ups", 24, 700), Y0 + 31, "Active")
+        s.text(X0 + 96, Y0 + 78, "Interested clients from September; take KYC where they are ready and close "
+                                 "applications before the quarter ends.", 14, 400, INK2)
+        s.text(X0 + 96, Y0 + 102, "Agent Sarah Namuli · 28 Sep – 2 Oct 2026 (5 days) · goal: 4 KYCs, 2 applications "
+                                  "· created by Moses Okello on 27 Sep", 13, 400, MUTED)
+        x = X1 - 24
+        bw = button(s, x, Y0 + 40, "Edit plan", "primary", icon="edit", anchor="end")
+        s.link(x - bw, Y0 + 40, bw, 40, "w10c")
+        x -= bw + 10
+        bw = button(s, x, Y0 + 40, "Add clients", "secondary", icon="userplus", anchor="end")
+        s.link(x - bw, Y0 + 40, bw, 40, "w10c")
+        x -= bw + 10
+        button(s, x, Y0 + 40, "Duplicate", "secondary", icon="copy", anchor="end")
+    ky = Y0 + 140
+    kw = (CW - 4 * 16) / 5
+    for i, (ic, col, lab, val, sub, fr) in enumerate([
+            ("users", BRAND, "Clients in plan", "12", "in visit order", None),
+            ("check", GREEN, "Visited", "8 of 12", "67% · on day 3 of 5", 8 / 12),
+            ("clock", AMBER, "Due today", "1", "Ivan Kasozi at 12:30", None),
+            ("calendar", "#8A8DA6", "Still to come", "3", "Thu 1 and Fri 2 Oct", None),
+            ("trendup", TEAL, "Moved forward", "5", "4 KYC steps · 1 application", None)]):
+        kpi(s, X0 + i * (kw + 16), ky, kw, 140, ic, col, lab, val, sub, fr)
+    ty = ky + 156
+    th = H - 28 - ty
+    lw = 980
+    card(s, X0, ty, lw, th, "Clients in visit order", "What happened at each visit · the agent's phone shows the same "
+                                                      "list")
+    cols = [("#", 50, "start"), ("Client", 220, "start"), ("Stage now", 170, "start"), ("Due", 90, "start"),
+            ("Visit", 312, "start"), ("", 136, "start")]
+    rows = []
+    for i, (nm, stage, due, visit, st) in enumerate(PLAN_CLIENTS):
+        rows.append([str(i + 1), nm,
+                     (lambda st_: lambda s_, x, y, w, h: chip(s_, x + 12, y + h / 2 - 11, st_,
+                                                              STAGE.get(st_, STATUS.get(st_, MUTED)), h=22, size=11,
+                                                              dot=True))(stage),
+                     due, visit, chip_cell(st)])
+    table(s, X0 + 1, ty + 72, cols, rows, row_h=(th - 72 - 36 - 10) / len(rows), head_h=36, size=13, hl=7)
+    s.link(X0 + 1, ty + 72 + 36 + 7 * (th - 72 - 36 - 10) / len(rows), lw - 2, (th - 72 - 36 - 10) / len(rows), "w06")
+    mx = X0 + lw + 20
+    mw = X1 - mx
+    card(s, mx, ty, mw, th, "Map", "Numbered in visit order")
+    m = StreetMap(s, mx + 16, ty + 70, mw - 32, th - 140, seed=5, lake=False, dense=0.8,
+                  places=[("Ntinda", 0.22, 0.2), ("Kiwatule", 0.6, 0.18), ("Kigoowa", 0.3, 0.84)])
+    spots = [(0.16, 0.14), (0.3, 0.1), (0.44, 0.16), (0.58, 0.1), (0.76, 0.14), (0.82, 0.32), (0.66, 0.4),
+             (0.52, 0.46), (0.36, 0.52), (0.24, 0.66), (0.44, 0.76), (0.68, 0.8)]
+    pts = [m.P(*q) for q in spots]
+    s.poly(pts, stroke=BRAND, sw=2.5, closed=False, dash="2 6", name="plan route")
+    for i, ((qx, qy), (_, _, _, _, st)) in enumerate(zip(pts, PLAN_CLIENTS)):
+        col = {"Visited": GREEN, "Due today": BRAND}.get(st, "#8A8DA6")
+        map_pin(s, qx, qy, col, str(i + 1), 0.85, name=f"client {i + 1}")
+    with s.g("legend"):
+        lx, ly = mx + 24, ty + th - 40
+        for lab, col in [("Visited", GREEN), ("Due today", BRAND), ("Still to come", "#8A8DA6")]:
+            s.circle(lx + 6, ly, 6, fill=col)
+            lx += s.text(lx + 18, ly + 4, lab, 12.5, 400, INK2) + 40
+    return s
+
+
+CANDIDATES = [("Brenda Atuhaire", "Interested", "Last visit 12 Sep · Kigoowa", True),
+              ("Sam Wamala", "Interested", "Last visit 9 Sep · Kyanja", True),
+              ("Rose Nakitto", "KYC captured", "Last visit 15 Sep · Kigoowa", True),
+              ("Denis Kato", "Negotiation", "Last visit 18 Sep · Kyanja", True),
+              ("Faith Ahimbisibwe", "Interested", "Last visit 2 Sep · Kyanja", True),
+              ("Lillian Nabirye", "Interested", "Last visit 11 Sep · Kigoowa", True),
+              ("Ronald Mubiru", "Interested", "Last visit 24 Sep · Kyanja", False),
+              ("Irene Kansiime", "KYC validated", "Last visit 26 Sep · Kigoowa", False),
+              ("Tony Kizito", "Interested", "Last visit 25 Sep · Kyanja", False)]
+
+
+def w10c_new_plan():
+    s = shell("10c New journey plan", "Journey plans", ["Planning", "Journey plans", "New plan"], user=SUPERVISOR,
+              period="Week")
+    page_head(s, "New journey plan", "Name it, give it dates, pick the clients · it goes to the agent's phone when "
+                                     "you publish")
+    with s.g("header actions"):
+        x = X1
+        bw = button(s, x, Y0 + 12, "Publish to Sarah's phone", "primary", icon="send", anchor="end")
+        s.link(x - bw, Y0 + 12, bw, 40, "w10")
+        x -= bw + 12
+        bw = button(s, x, Y0 + 12, "Save draft", "secondary", anchor="end")
+        s.link(x - bw, Y0 + 12, bw, 40, "w10")
     ty = Y0 + 84
     th = H - 28 - ty
-    # --- agents
-    aw = 350
-    card(s, X0, ty, aw, th, "Agents", "Kampala East · clients planned for Thu")
-    plans = [("Sarah Namuli", "SN", 8, 21, True), ("Peter Kato", "PK", 7, 22, True), ("Ruth Achieng", "RA", 8, 24, True),
-             ("Esther Nakato", "EN", 7, 22, True), ("Ivan Mugabe", "IM", 6, 18, False),
-             ("Brian Ssali", "BS", 6, 19, False), ("Joan Auma", "JA", 3, 13, False)]
-    y = ty + 78
-    for nm, ini, n, wk, ok in plans:
-        on = nm == "Sarah Namuli"
-        with s.g(f"agent {nm}"):
-            if on:
-                s.rect(X0 + 10, y, aw - 20, 68, fill=tint(BRAND, 0.07), rx=10, stroke=tint(BRAND, 0.4))
-            avatar(s, X0 + 40, y + 34, 17, ini, BRAND)
-            s.text(X0 + 68, y + 29, nm, 14, 600, INK)
-            s.text(X0 + 68, y + 48, f"Week: {wk} planned · min 20", 12, 400, GREEN_D if ok else RED)
-            s.text(X0 + aw - 26, y + 36, str(n), 20, 700, INK if n >= 5 else RED, anchor="end")
-            s.text(X0 + aw - 26, y + 53, "clients", 11, 400, MUTED, anchor="end")
-        y += 74
-    with s.g("warning"):
-        s.rect(X0 + 16, y + 6, aw - 32, 84, fill=tint(AMBER, 0.12), rx=10)
-        s.icon("alert", X0 + 30, y + 22, 20, AMBER_D, 2)
-        para(s, X0 + 60, y + 34, "Joan has 3 clients planned. Add from her 9 interested clients waiting for KYC?",
-             aw - 100, 12.5, 400, INK2, lh=18)
+    aw = 460
+    card(s, X0, ty, aw, th, "Plan details")
+    fx, fw = X0 + 24, aw - 48
+    y = ty + 72
+    y += field(s, fx, y, fw, "Plan name", "Kigoowa & Kyanja: October follow-ups", required=True) + 14
+    s.text(fx, y + 14, "Description", 13, 600, INK2)
+    s.rect(fx, y + 22, fw, 84, fill=CARD, rx=8, stroke="#CDD0DE")
+    para(s, fx + 14, y + 48, "Interested clients from September who haven't done KYC. Take KYC where ready; book "
+                             "the rest for a second visit.", fw - 28, 13.5, 400, INK, lh=21)
+    y += 120
+    y += field(s, fx, y, fw, "Agent", "Sarah Namuli · Kampala East", dropdown=True, icon="user", required=True) + 14
+    hw = (fw - 12) / 2
+    field(s, fx, y, hw, "Start date", "Mon 5 Oct 2026", icon="calendar", required=True)
+    field(s, fx + hw + 12, y, hw, "End date", "Fri 16 Oct 2026", icon="calendar", required=True)
+    y += 80
+    s.text(fx, y + 14, "Visit days", 13, 600, INK2)
+    x = fx
+    for d, on in [("Mon", True), ("Tue", True), ("Wed", True), ("Thu", True), ("Fri", True), ("Sat", False)]:
+        s.rect(x, y + 24, 60, 34, fill=BRAND if on else CARD, rx=8, stroke=None if on else "#CDD0DE")
+        s.text(x + 30, y + 46, d, 13, 600, "#FFFFFF" if on else INK2, anchor="middle")
+        x += 68
+    y += 76
+    y += field(s, fx, y, fw, "Goal (optional)", "4 KYCs · 2 applications") + 18
+    for lab, on in [("Agent can change the visit order", True), ("Remind the agent the evening before", True)]:
+        s.text(fx, y + 14, lab, 13.5, 400, INK2)
+        toggle(s, fx + fw - 36, y, on)
+        y += 36
 
-    # --- Sarah's plan, in visit order
-    px = X0 + aw + 20
-    pw = 620
-    card(s, px, ty, pw, th, "Sarah Namuli · Thu 1 Oct", "8 clients in visit order · drag to reorder · "
-                                                         "about 12.6 km")
-    stops = [("08:30", "Charles Ssempijja", "Interested", "Follow-up", "Asked to come back after payday"),
-             ("09:15", "Sarah Namutebi", "KYC captured", "Finish KYC", "Collect payslip, then validate"),
-             ("10:00", "Betty Nakimuli", "KYC validated", "Offer loan", "School Fees Loan: 3 children"),
-             ("10:45", "Juliet Kobusingye", "Interested", "From handover", "Was Daniel Okumu's client: introduce"),
-             ("11:30", "Ivan Kasozi", "Negotiation", "Negotiate", "Wants 12 months; bring the new quote"),
-             ("13:30", "Aisha Nalubega", "Interested", "Follow-up", "Bring National ID this time"),
-             ("14:30", "Kyanja market", "Prospecting", "Prospecting", "New area · aim for 3 new clients"),
-             ("16:00", "Annet Namubiru", "Negotiation", "Negotiate", "Compare with SACCO offer")]
-    y = ty + 80
-    rh = (th - 80 - 70) / len(stops)
-    for i, (tm, nm, stage, reason, note) in enumerate(stops):
-        with s.g(f"stop {i + 1} {nm}"):
-            if i:
-                s.line(px + 20, y, px + pw - 20, y, LINE2)
-            s.icon("menu", px + 20, y + rh / 2 - 8, 16, FAINT, 2)
-            s.circle(px + 60, y + rh / 2, 13, fill=BRAND)
-            s.text(px + 60, y + rh / 2 + 4.5, str(i + 1), 12, 700, "#FFFFFF", anchor="middle")
-            s.text(px + 86, y + rh / 2 - 4, nm, 14, 600, INK)
-            s.text(px + 86, y + rh / 2 + 15, note, 12, 400, MUTED, maxw=260)
-            chip(s, px + 360, y + rh / 2 - 11, reason, PLAN_REASON[reason], h=22, size=11)
-            s.text(px + pw - 24, y + rh / 2 + 5, tm, 13, 600, INK2, anchor="end")
-        y += rh
-    with s.g("plan footer"):
-        fy = ty + th - 60
-        s.rect(px + 16, fy, pw - 32, 44, fill="#F5F5FB", rx=10)
-        s.text(px + 32, fy + 27, "Starts 08:30 near Ntinda stage · ends about 16:40 · 21 clients this week (min 20 ✓)",
-               12.5, 600, INK2)
-    s.link(px, ty + 80, pw, rh, "w06")
+    bx = X0 + aw + 20
+    bw_ = 560
+    card(s, bx, ty, bw_, th, "Add clients", "Sarah's clients, filtered · tick to add")
+    with s.g("search"):
+        s.rect(bx + 24, ty + 76, bw_ - 48, 40, fill="#F4F5FA", rx=8, stroke=LINE)
+        s.icon("search", bx + 36, ty + 87, 18, MUTED)
+        s.text(bx + 64, ty + 101, "Search name, phone or area", 13, 400, FAINT)
+    x = bx + 24
+    for lab, on in [("Stage: Interested +2", True), ("Area: Kigoowa, Kyanja", True), ("No visit 14+ days", False)]:
+        w = chip(s, x, ty + 128, lab, BRAND if on else "#8A8DA6", h=28, size=12, icon="filter" if on else None)
+        x += w + 8
+    y = ty + 172
+    for nm, st, sub, on in CANDIDATES:
+        with s.g(f"candidate {nm}"):
+            s.line(bx + 24, y, bx + bw_ - 24, y, LINE2)
+            checkbox(s, bx + 28, y + 17, on)
+            s.text(bx + 60, y + 24, nm, 14, 600, INK)
+            s.text(bx + 60, y + 42, sub, 12, 400, MUTED)
+            chip(s, bx + bw_ - 24 - tw(st, 11, 600) - 34, y + 17, st, STAGE[st], h=22, size=11, dot=True)
+        y += 58
+    bw2 = button(s, bx + bw_ - 24, ty + th - 64, "Add 6 selected", "primary", icon="plus", anchor="end")
 
-    # --- map + suggestions
-    rx = px + pw + 20
-    rw = X1 - rx
-    mh = 330
-    card(s, rx, ty, rw, mh, "Route", "Planned order on the map")
-    m = StreetMap(s, rx + 16, ty + 70, rw - 32, mh - 86, seed=5, lake=False, dense=0.8,
-                  places=[("Ntinda", 0.25, 0.25), ("Kiwatule", 0.62, 0.2), ("Kyanja", 0.3, 0.8)])
-    pts = [m.P(*q) for q in [(0.2, 0.3), (0.34, 0.18), (0.5, 0.26), (0.64, 0.34), (0.74, 0.52), (0.56, 0.62),
-                             (0.34, 0.76), (0.18, 0.6)]]
-    s.poly(pts, stroke=BRAND, sw=3, closed=False, dash="2 6", name="planned route")
+    cx = bx + bw_ + 20
+    cw = X1 - cx
+    card(s, cx, ty, cw, th, "In this plan (6)", "Suggested order by distance · drag to change")
+    m = StreetMap(s, cx + 16, ty + 72, cw - 32, 220, seed=11, lake=False, dense=0.7,
+                  places=[("Kigoowa", 0.25, 0.3), ("Kyanja", 0.7, 0.7)])
+    spots = [(0.15, 0.2), (0.32, 0.35), (0.48, 0.25), (0.6, 0.5), (0.78, 0.62), (0.88, 0.82)]
+    pts = [m.P(*q) for q in spots]
+    s.poly(pts, stroke=BRAND, sw=2.5, closed=False, dash="2 6")
     for i, (qx, qy) in enumerate(pts):
-        map_pin(s, qx, qy, BRAND if i != 6 else "#8A8DA6", str(i + 1), 0.85, name=f"stop {i + 1}")
-    sy = ty + mh + 16
-    card(s, rx, sy, rw, H - 28 - sy, "Suggested to add", "Sarah's clients who need a visit but aren't planned")
-    sugg = [("Hassan Mugerwa", "Interested 16 days, no KYC", "Follow-up"),
-            ("Rehema Nakalema", "Moving from Daniel Okumu today", "From handover"),
-            ("Paul Tumusiime", "Application returned: payslip", "Finish KYC"),
-            ("Kigoowa stage", "No visits this quarter", "Prospecting")]
-    y = sy + 80
-    for nm, why, reason in sugg:
-        with s.g(f"suggestion {nm}"):
-            s.circle(rx + 30, y + 14, 5, fill=PLAN_REASON[reason])
-            s.text(rx + 44, y + 12, nm, 13.5, 600, INK)
-            s.text(rx + 44, y + 30, why, 12, 400, MUTED, maxw=rw - 150)
-            button(s, rx + rw - 20, y, "Add", "soft", icon="plus", h=30, size=12, anchor="end")
+        map_pin(s, qx, qy, BRAND, str(i + 1), 0.8, name=f"client {i + 1}")
+    button(s, cx + cw - 24, ty + 304, "Optimise order", "soft", icon="route", h=32, size=12.5, anchor="end")
+    y = ty + 352
+    days = ["Mon 5", "Mon 5", "Tue 6", "Tue 6", "Wed 7", "Wed 7"]
+    for i, ((nm, st, sub, on), d) in enumerate(zip([c for c in CANDIDATES if c[3]], days)):
+        with s.g(f"planned {nm}"):
+            s.line(cx + 24, y, cx + cw - 24, y, LINE2)
+            s.icon("menu", cx + 24, y + 17, 16, FAINT, 2)
+            s.circle(cx + 62, y + 25, 12, fill=BRAND)
+            s.text(cx + 62, y + 29.5, str(i + 1), 11.5, 700, "#FFFFFF", anchor="middle")
+            s.text(cx + 84, y + 30, nm, 13.5, 600, INK)
+            s.text(cx + cw - 56, y + 30, d, 12.5, 400, INK2, anchor="end")
+            s.icon("x", cx + cw - 44, y + 17, 16, MUTED, 2)
         y += 50
     return s
 
@@ -603,4 +752,4 @@ def w13_reports():
     return s
 
 
-SCREENS = [w07_approvals, w08_review, w09_reasons, w10_plans, w11_handover, w12_users, w13_reports]
+SCREENS = [w07_approvals, w08_review, w09_reasons, w10_plans, w10b_plan, w10c_new_plan, w11_handover, w12_users, w13_reports]

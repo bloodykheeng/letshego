@@ -273,11 +273,11 @@
 <text id="UGX-2-500-000" x="320.0" y="506.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 2,500,000</text>
 <text id="2-days" x="491.8" y="506.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">2 days</text>
 <line x1="320.0" y1="520.0" x2="525.7" y2="520.0" stroke="#EFF0F6" stroke-width="1"/>
-<g id="avatar-EN">
+<g id="avatar-SN-2">
 <circle cx="332.0" cy="539.0" r="11.0" fill="#DEDEEB"/>
-<text id="EN" x="326.4" y="543.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">EN</text>
+<text id="SN-2" x="326.3" y="543.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">SN</text>
 </g>
-<text id="Esther-Nakato" x="350.0" y="543.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Esther Nakato</text>
+<text id="Sarah-Namuli-2" x="350.0" y="543.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Sarah Namuli</text>
 </g>
 <g id="card-Moses-Opolot">
 <rect x="306.0" y="568.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
@@ -348,11 +348,11 @@
 <text id="UGX-4-000-000" x="587.7" y="506.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 4,000,000</text>
 <text id="2-days-2" x="759.5" y="506.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">2 days</text>
 <line x1="587.7" y1="520.0" x2="793.3" y2="520.0" stroke="#EFF0F6" stroke-width="1"/>
-<g id="avatar-SN-2">
+<g id="avatar-SN-3">
 <circle cx="599.7" cy="539.0" r="11.0" fill="#DEDEEB"/>
-<text id="SN-2" x="593.9" y="543.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">SN</text>
+<text id="SN-3" x="593.9" y="543.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">SN</text>
 </g>
-<text id="Sarah-Namuli-2" x="617.7" y="543.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Sarah Namuli</text>
+<text id="Sarah-Namuli-3" x="617.7" y="543.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Sarah Namuli</text>
 </g>
 <g id="card-Henry-Mukasa">
 <rect x="573.7" y="568.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
@@ -389,11 +389,11 @@
 <text id="UGX-2-000-000" x="855.3" y="368.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 2,000,000</text>
 <text id="today" x="1030.9" y="368.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">today</text>
 <line x1="855.3" y1="382.0" x2="1061.0" y2="382.0" stroke="#EFF0F6" stroke-width="1"/>
-<g id="avatar-SN-3">
+<g id="avatar-SN-4">
 <circle cx="867.3" cy="401.0" r="11.0" fill="#DEDEEB"/>
-<text id="SN-3" x="861.6" y="405.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">SN</text>
+<text id="SN-4" x="861.6" y="405.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">SN</text>
 </g>
-<text id="Sarah-Namuli-3" x="885.3" y="405.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Sarah Namuli</text>
+<text id="Sarah-Namuli-4" x="885.3" y="405.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Sarah Namuli</text>
 </g>
 <g id="card-Robert-Kizza">
 <rect x="841.3" y="430.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
@@ -405,11 +405,11 @@
 <text id="UGX-7-000-000" x="855.3" y="506.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 7,000,000</text>
 <text id="3-days" x="1027.2" y="506.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">3 days</text>
 <line x1="855.3" y1="520.0" x2="1061.0" y2="520.0" stroke="#EFF0F6" stroke-width="1"/>
-<g id="avatar-EN-2">
+<g id="avatar-EN">
 <circle cx="867.3" cy="539.0" r="11.0" fill="#DEDEEB"/>
-<text id="EN-2" x="861.7" y="543.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">EN</text>
+<text id="EN" x="861.7" y="543.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">EN</text>
 </g>
-<text id="Esther-Nakato-2" x="885.3" y="543.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Esther Nakato</text>
+<text id="Esther-Nakato" x="885.3" y="543.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Esther Nakato</text>
 </g>
 <g id="card-Susan-Akello">
 <rect x="841.3" y="568.0" width="233.7" height="128.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
@@ -478,11 +478,11 @@
 <text id="UGX-3-000-000-2" x="1123.0" y="644.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 3,000,000</text>
 <text id="1-day-3" x="1299.9" y="644.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">1 day</text>
 <line x1="1123.0" y1="658.0" x2="1328.7" y2="658.0" stroke="#EFF0F6" stroke-width="1"/>
-<g id="avatar-SN-4">
+<g id="avatar-SN-5">
 <circle cx="1135.0" cy="677.0" r="11.0" fill="#DEDEEB"/>
-<text id="SN-4" x="1129.3" y="681.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">SN</text>
+<text id="SN-5" x="1129.3" y="681.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">SN</text>
 </g>
-<text id="Sarah-Namuli-4" x="1153.0" y="681.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Sarah Namuli</text>
+<text id="Sarah-Namuli-5" x="1153.0" y="681.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Sarah Namuli</text>
 </g>
 <text id="128-more" x="1193.8" y="1032.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#2F2E80">+ 128 more</text>
 </g>
@@ -502,11 +502,11 @@
 <text id="UGX-6-000-000" x="1390.7" y="368.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 6,000,000</text>
 <text id="today-2" x="1566.3" y="368.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">today</text>
 <line x1="1390.7" y1="382.0" x2="1596.3" y2="382.0" stroke="#EFF0F6" stroke-width="1"/>
-<g id="avatar-SN-5">
+<g id="avatar-SN-6">
 <circle cx="1402.7" cy="401.0" r="11.0" fill="#DEDEEB"/>
-<text id="SN-5" x="1396.9" y="405.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">SN</text>
+<text id="SN-6" x="1396.9" y="405.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">SN</text>
 </g>
-<text id="Sarah-Namuli-5" x="1420.7" y="405.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Sarah Namuli</text>
+<text id="Sarah-Namuli-6" x="1420.7" y="405.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Sarah Namuli</text>
 <text id="Awaiting-approval" x="1505.7" y="405.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#9A6300">Awaiting approval</text>
 </g>
 <g id="card-Agnes-Babirye">
@@ -519,11 +519,11 @@
 <text id="UGX-1-800-000" x="1390.7" y="506.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">UGX 1,800,000</text>
 <text id="1-day-4" x="1567.6" y="506.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">1 day</text>
 <line x1="1390.7" y1="520.0" x2="1596.3" y2="520.0" stroke="#EFF0F6" stroke-width="1"/>
-<g id="avatar-EN-3">
+<g id="avatar-EN-2">
 <circle cx="1402.7" cy="539.0" r="11.0" fill="#DEDEEB"/>
-<text id="EN-3" x="1397.0" y="543.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">EN</text>
+<text id="EN-2" x="1397.0" y="543.0" font-family="Segoe UI" font-size="8.8" font-weight="600" fill="#2A2973">EN</text>
 </g>
-<text id="Esther-Nakato-3" x="1420.7" y="543.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Esther Nakato</text>
+<text id="Esther-Nakato-2" x="1420.7" y="543.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Esther Nakato</text>
 <text id="Awaiting-approval-2" x="1505.7" y="543.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#9A6300">Awaiting approval</text>
 </g>
 <g id="card-Tom-Wasswa">

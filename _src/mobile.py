@@ -62,7 +62,7 @@ def app_bar(s: SVG, title, back=None, sub=None, right=None, dark=False):
 
 
 def bottom_nav(s: SVG, active="Home"):
-    items = [("Home", "home", "m03"), ("Clients", "users", "m17"), ("Visit", None, "m05"), ("Plan", "route", "m04"),
+    items = [("Home", "home", "m03"), ("Clients", "users", "m17"), ("Visit", None, "m05"), ("Plans", "route", "m04"),
              ("Me", "user", "m19")]
     w = MW / 5
     for i, (_, _, tgt) in enumerate(items):
@@ -265,14 +265,14 @@ def m03_home():
         s.text(PAD + 32, y + 35, "18", 11, 700, BRAND_D, anchor="middle")
         s.text(PAD + 62, y + 27, "Q3: 18 of 22 conversions", 14, 700, INK)
         s.text(PAD + 62, y + 46, "Last day of the quarter · 4 to go", 12, 400, YELLOW_D)
-    s.text(PAD, 380, "Today's plan", 15.5, 700, INK)
-    s.text(PAD + 104, 380, "7 clients · by Moses", 12, 400, MUTED)
-    s.text(MW - PAD, 380, "Map →", 13, 600, BRAND, anchor="end")
+    s.text(PAD, 380, "Due today", 15.5, 700, INK)
+    s.text(PAD + 84, 380, "from 2 journey plans", 12, 400, MUTED)
+    s.text(MW - PAD, 380, "Plans →", 13, 600, BRAND, anchor="end")
     s.link(MW - 90, 362, 90, 28, "m04")
     stops = [("+", "Joseph Kiggundu", "New client, off plan · not interested", RED, "Done"),
-             ("2", "Betty Nakimuli", "10:20 · KYC validated", TEAL, "Done"),
-             ("3", "Florence Nambi", "Kiwatule · 0.6 km · ready to apply", BRAND, "Next"),
-             ("4", "Ivan Kasozi", "12:30 · negotiation", "#8A8DA6", "Planned")]
+             ("7", "Betty Nakimuli", "Kiwatule follow-ups · KYC validated", TEAL, "Done"),
+             ("8", "Florence Nambi", "Kiwatule follow-ups · 0.6 km", BRAND, "Next"),
+             ("9", "Ivan Kasozi", "Kiwatule follow-ups · 12:30", "#8A8DA6", "Planned")]
     y = 394
     for n, nm, sub, col, st in stops:
         nxt = st == "Next"
@@ -305,41 +305,128 @@ def m03_home():
     return s
 
 
-ROUTE = [(0.18, 0.12, RED, "done"), (0.36, 0.3, TEAL, "done"), (0.56, 0.42, BRAND, "next"),
-         (0.72, 0.58, "#8A8DA6", "plan"), (0.5, 0.7, "#8A8DA6", "plan"), (0.3, 0.82, "#8A8DA6", "plan"),
-         (0.82, 0.86, "#8A8DA6", "plan")]
+MY_PLANS = [
+    ("Kiwatule follow-ups", "28 Sep – 2 Oct", "Interested clients from September; take KYC where ready", 7, 12,
+     "2 due today", "Moses Okello", "Active"),
+    ("Ntinda schools: payroll teachers", "21 Sep – 9 Oct", "Teachers at 5 schools · Civil Servant Loan", 6, 15,
+     "none due today", "Moses Okello", "Active"),
+    ("Daniel Okumu's clients", "1 – 9 Oct", "3 clients moving to you: introduce yourself", 0, 3, "starts tomorrow",
+     "Moses Okello", "Scheduled"),
+    ("Kyanja market prospecting", "1 – 31 Oct", "New area: market vendors, 3 new clients a day", 0, 8,
+     "starts tomorrow", "You · approved by Moses", "Scheduled"),
+]
 
 
-def m04_route():
-    s = phone("M4 Today's plan (map)", bg=CARD)
-    app_bar(s, "Today's plan", back="m03", sub="7 clients · planned by Moses Okello · 2 done", right="layers")
-    m = StreetMap(s, 0, 80, MW, 480, seed=11, lake=False, dense=0.8,
-                  places=[("Ntinda", 0.28, 0.2), ("Kiwatule", 0.72, 0.3), ("Kigoowa", 0.2, 0.62),
-                          ("Najjera", 0.78, 0.74)])
-    pts = [m.P(fx, fy) for fx, fy, *_ in ROUTE]
-    s.poly(pts[:3], stroke=BRAND, sw=3.5, closed=False, name="route done")
-    s.poly(pts[2:], stroke=BRAND, sw=3, closed=False, dash="2 7", name="route planned")
-    for i, ((fx, fy, col, st), p) in enumerate(zip(ROUTE, pts)):
-        map_pin(s, p[0], p[1], col, str(i + 1), 1.05 if st == "next" else 0.9, name=f"stop {i + 1}")
-    with s.g("me"):
-        mx, my = m.P(0.47, 0.36)
-        s.circle(mx, my, 16, fill=BLUE, op=0.18)
-        s.circle(mx, my, 7, fill=BLUE, stroke="#FFFFFF", sw=2.5)
-    with s.g("next stop sheet"):
-        y = 520
-        s.rect(0, y, MW, MH - y - NAV_H + 10, fill=CARD, rx=20)
-        s.rect(MW / 2 - 20, y + 10, 40, 4, fill=LINE, rx=2)
-        s.text(PAD, y + 42, "NEXT ON YOUR PLAN · 3 OF 7", 11, 700, BRAND, spacing=0.8)
-        s.text(PAD, y + 68, CLIENT["name"], 19, 700, INK)
-        s.text(PAD, y + 90, "Nambi Tailoring & Fabrics · Kiwatule", 13, 400, INK2)
+def m04_plans():
+    s = phone("M4 Journey plans", bg=BG, time="11:06")
+    app_bar(s, "Journey plans", back="m03", sub="Client lists with dates · from Moses or you", right="plus")
+    s.link(MW - 60, 24, 60, 56, "m04c")
+    with s.g("filter chips"):
         x = PAD
-        x += chip(s, x, y + 102, "Interested since 29 Jul", BLUE, h=24, size=11.5) + 8
-        chip(s, x, y + 102, "0.6 km · 4 min", "#8A8DA6", h=24, size=11.5, icon="navigation")
-        bw = (MW - 2 * PAD - 10) / 2
-        button(s, PAD, y + 138, "Directions", "secondary", icon="navigation", w=bw, h=44)
-        button(s, PAD + bw + 10, y + 138, "Check in", "primary", icon="pin", w=bw, h=44)
-        s.link(PAD + bw + 10, y + 138, bw, 44, "m09")
-    bottom_nav(s, "Plan")
+        for lab, on in [("All 4", True), ("Active 2", False), ("Scheduled 2", False), ("Done 12", False)]:
+            w = tw(lab, 12.5, 600) + 26
+            s.rect(x, 94, w, 32, fill=BRAND if on else CARD, rx=16, stroke=None if on else "#CDD0DE")
+            s.text(x + 13, 114.5, lab, 12.5, 600, "#FFFFFF" if on else INK2)
+            x += w + 8
+    y = 138
+    for i, (nm, dates, desc, v, n, due, by, st) in enumerate(MY_PLANS):
+        with s.g(f"plan {nm}"):
+            s.rect(PAD, y, MW - 2 * PAD, 120, fill=CARD, rx=14, stroke=BRAND if i == 0 else LINE, sw=2 if i == 0 else 1)
+            s.text(PAD + 14, y + 26, nm, 14.5, 700, INK, maxw=MW - 2 * PAD - 110)
+            chip(s, MW - PAD - 14 - tw(st, 11, 600) - 34, y + 12, st, STATUS[st], h=22, size=11, dot=True)
+            s.icon("calendar", PAD + 14, y + 36, 14, INK2, 2)
+            s.text(PAD + 34, y + 48, f"{dates} · by {by}", 12, 600, INK2, maxw=MW - 2 * PAD - 50)
+            s.text(PAD + 14, y + 68, desc, 12, 400, MUTED, maxw=MW - 2 * PAD - 28)
+            progress(s, PAD + 14, y + 84, MW - 2 * PAD - 28, v / n, GREEN if v else LINE, h=6)
+            s.text(PAD + 14, y + 108, f"{v} of {n} visited · {due}", 12, 600, INK2)
+        if i == 0:
+            s.link(PAD, y, MW - 2 * PAD, 120, "m04b")
+        y += 130
+    bottom_nav(s, "Plans")
+    return s
+
+
+def m04b_plan():
+    s = phone("M4b Journey plan: Kiwatule follow-ups", bg=BG, time="11:07")
+    app_bar(s, "Kiwatule follow-ups", back="m04", sub="28 Sep – 2 Oct · set by Moses Okello", right="more")
+    with s.g("plan info"):
+        y = 92
+        s.rect(PAD, y, MW - 2 * PAD, 68, fill=CARD, rx=12, stroke=LINE)
+        s.text(PAD + 14, y + 22, "Interested clients from September; take KYC", 12.5, 400, INK2, maxw=MW - 2 * PAD - 28)
+        s.text(PAD + 14, y + 38, "where ready · goal: 4 KYCs, 2 applications", 12.5, 400, INK2)
+        progress(s, PAD + 14, y + 50, MW - 2 * PAD - 110, 7 / 12, GREEN, h=6)
+        s.text(MW - PAD - 14, y + 56, "7 of 12", 12.5, 700, INK, anchor="end")
+    m = StreetMap(s, PAD, 172, MW - 2 * PAD, 196, seed=11, lake=False, dense=0.7,
+                  places=[("Ntinda", 0.25, 0.2), ("Kiwatule", 0.7, 0.3)])
+    s.rect(PAD, 172, MW - 2 * PAD, 196, fill="none", rx=12, stroke=LINE)
+    spots = [(0.1, 0.15), (0.22, 0.3), (0.34, 0.18), (0.46, 0.34), (0.3, 0.52), (0.42, 0.66), (0.56, 0.54),
+             (0.66, 0.4), (0.8, 0.52), (0.88, 0.72), (0.7, 0.84), (0.52, 0.86)]
+    pts = [m.P(*q) for q in spots]
+    s.poly(pts, stroke=BRAND, sw=2.5, closed=False, dash="2 6", name="plan route")
+    for i, (qx, qy) in enumerate(pts):
+        col = GREEN if i < 7 else (BRAND if i < 9 else "#8A8DA6")
+        map_pin(s, qx, qy, col, str(i + 1), 0.72, name=f"client {i + 1}")
+    s.text(PAD, 394, "Clients in visit order", 15, 700, INK)
+    s.text(MW - PAD, 394, "Show visited (7)", 12.5, 600, BRAND, anchor="end")
+    rows = [("6", "Kenneth Lubega", "Visited 09:05 · employer letter pending", "done"),
+            ("7", "Betty Nakimuli", "Visited 10:20 · KYC validated", "done"),
+            ("8", CLIENT["name"], "Due today · Interested · 0.6 km", "next"),
+            ("9", "Ivan Kasozi", "Due today 12:30 · Negotiation", "due"),
+            ("10", "Aisha Nalubega", "Thu 1 Oct · Interested", "later")]
+    y = 408
+    for n, nm, sub, st in rows:
+        nxt = st == "next"
+        with s.g(f"row {nm}"):
+            s.rect(PAD, y, MW - 2 * PAD, 50, fill=CARD, rx=12, stroke=BRAND if nxt else LINE, sw=2 if nxt else 1)
+            col = {"done": GREEN, "next": BRAND, "due": BRAND}.get(st, "#8A8DA6")
+            s.circle(PAD + 24, y + 25, 12, fill=col if st != "later" else CARD, stroke=col, sw=2)
+            if st == "done":
+                s.icon("check", PAD + 18, y + 19, 12, "#FFFFFF", 3.2)
+            else:
+                s.text(PAD + 24, y + 29.5, n, 11, 700, "#FFFFFF" if st in ("next", "due") else INK2, anchor="middle")
+            s.text(PAD + 46, y + 21, nm, 13.5, 600, INK)
+            s.text(PAD + 46, y + 38, sub, 11.5, 400, MUTED, maxw=190 if nxt else 250)
+            if nxt:
+                button(s, MW - PAD - 10, y + 10, "Check in", "primary", h=30, size=12, anchor="end")
+        if nxt:
+            s.link(PAD, y, MW - 2 * PAD, 50, "m09")
+        y += 56
+    bottom_nav(s, "Plans")
+    return s
+
+
+def m04c_new_plan():
+    s = phone("M4c New journey plan (by the agent)", bg=CARD, time="11:08")
+    app_bar(s, "New journey plan", back="m04", sub="Moses approves plans you create")
+    y = 96
+    y += m_field(s, y, "Plan name", "Kyanja market prospecting", h=42) + 10
+    s.text(PAD, y + 14, "Description", 13, 600, INK2)
+    s.rect(PAD, y + 22, MW - 2 * PAD, 62, fill=CARD, rx=8, stroke="#CDD0DE")
+    para(s, PAD + 12, y + 45, "New area. Market vendors and boda riders; aim for 3 new clients a day.",
+         MW - 2 * PAD - 24, 13, 400, INK, lh=19)
+    y += 96
+    hw = (MW - 2 * PAD - 10) / 2
+    field(s, PAD, y, hw, "Start", "Thu 1 Oct", h=42, icon="calendar", size=13.5, required=True)
+    field(s, PAD + hw + 10, y, hw, "End", "Sat 31 Oct", h=42, icon="calendar", size=13.5, required=True)
+    y += 78
+    s.text(PAD, y + 14, "Clients (3)", 14, 700, INK)
+    s.text(MW - PAD, y + 14, "+ Add clients", 13, 600, BRAND, anchor="end")
+    y += 26
+    for nm, sub in [("Tony Kizito", "Interested · Kyanja"), ("Ronald Mubiru", "Interested · Kyanja"),
+                    ("Faith Ahimbisibwe", "Interested · Kyanja market")]:
+        with s.g(f"client {nm}"):
+            s.rect(PAD, y, MW - 2 * PAD, 44, fill="#F7F7FC", rx=10)
+            s.icon("menu", PAD + 10, y + 14, 16, FAINT, 2)
+            s.text(PAD + 36, y + 19, nm, 13.5, 600, INK)
+            s.text(PAD + 36, y + 35, sub, 11.5, 400, MUTED)
+            s.icon("x", MW - PAD - 28, y + 14, 16, MUTED, 2)
+        y += 50
+    with s.g("new clients slots"):
+        y += 4
+        s.text(PAD, y + 14, "Leave room for new clients", 13.5, 600, INK)
+        s.text(PAD, y + 32, "3 a day · counted as planned visits", 12, 400, MUTED)
+        toggle(s, MW - PAD - 36, y + 8, True)
+    footer(s, "Send to Moses for approval", "m04", icon="send")
     return s
 
 
@@ -375,7 +462,7 @@ def m07_first_visit():
 
 def m09_visit():
     s = phone("M9 Visit: Florence Nambi (returning client)", bg=BG, time="11:15")
-    app_bar(s, "Visit · " + CLIENT["name"], back="m05", sub="On today's plan · stop 3 of 7 · her 3rd visit")
+    app_bar(s, "Visit · " + CLIENT["name"], back="m05", sub="Plan: Kiwatule follow-ups · her 3rd visit")
     visit_bar(s, "Visit in progress · checked in 11:14 · GPS ✓ 9 m")
     with s.g("client"):
         y = 122
@@ -833,11 +920,10 @@ def m05_start_visit():
         s.icon("chevright", MW - PAD - 30, y + 19, 20, YELLOW_D)
         s.link(PAD, y, MW - 2 * PAD, 58, "m06")
     y = 234
-    s.text(PAD, y, "ON TODAY'S PLAN", 11, 700, MUTED, spacing=0.8)
-    s.text(MW - PAD, y, "5 left", 12, 600, BRAND, anchor="end")
+    s.text(PAD, y, "DUE TODAY IN YOUR PLANS", 11, 700, MUTED, spacing=0.8)
+    s.text(MW - PAD, y, "2 left", 12, 600, BRAND, anchor="end")
     rows = [(CLIENT["name"], "Interested · ready to apply", "0.6 km", BLUE, True),
-            ("Ivan Kasozi", "Negotiation · 12:30", "1.4 km", AMBER, False),
-            ("Aisha Nalubega", "Interested · bring ID", "2.1 km", BLUE, False)]
+            ("Ivan Kasozi", "Negotiation · 12:30", "1.4 km", AMBER, False)]
     y += 12
     for nm, sub, dist, col, nxt in rows:
         with s.g(f"planned {nm}"):
@@ -853,9 +939,10 @@ def m05_start_visit():
             s.link(PAD, y, MW - 2 * PAD, 60, "m09")
         y += 68
     y += 14
-    s.text(PAD, y, "NEAR YOU, NOT ON TODAY'S PLAN", 11, 700, MUTED, spacing=0.8)
+    s.text(PAD, y, "NEAR YOU, NOT DUE TODAY", 11, 700, MUTED, spacing=0.8)
     y += 12
-    for nm, sub, dist in [("Charles Ssempijja", "Interested · follow-up due Fri", "0.9 km"),
+    for nm, sub, dist in [("Aisha Nalubega", "Interested · due Thu in your plan", "0.7 km"),
+                          ("Charles Ssempijja", "Interested · follow-up due Fri", "0.9 km"),
                           ("Sarah Namutebi", "KYC captured · payslip pending", "1.1 km")]:
         with s.g(f"nearby {nm}"):
             s.rect(PAD, y, MW - 2 * PAD, 56, fill=CARD, rx=12, stroke=LINE)
@@ -865,7 +952,7 @@ def m05_start_visit():
         y += 62
     with s.g("off-plan note"):
         s.icon("info", PAD, y + 4, 16, MUTED, 2)
-        para(s, PAD + 24, y + 16, "Visits outside your plan are fine; they show as off-plan on the dashboard.",
+        para(s, PAD + 24, y + 16, "Visits outside your plans are fine; they show as off-plan on the dashboard.",
              MW - 2 * PAD - 30, 12, 400, MUTED, lh=17)
     bottom_nav(s, "Visit")
     return s
@@ -948,6 +1035,7 @@ def m19_me():
     return s
 
 
-SCREENS = [m01_splash, m02_sign_in, m03_home, m04_route, m05_start_visit, m06_new_client, m07_first_visit,
+SCREENS = [m01_splash, m02_sign_in, m03_home, m04_plans, m04b_plan, m04c_new_plan,
+           m05_start_visit, m06_new_client, m07_first_visit,
            m08_not_interested, m09_visit, m10_kyc_details, m11_kyc_id, m12_kyc_income, m13_validation,
            m14_negotiation, m15_close, m16_success, m17_clients, m18_client, m19_me]

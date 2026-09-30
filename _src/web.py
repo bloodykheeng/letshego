@@ -781,7 +781,7 @@ def w04_field_map():
 # =====================================================================================
 PIPE = {
     "Interested": [("Charles Ssempijja", "MSE Business Loan", 3_000_000, "Sarah Namuli", "SN", "1 day", None),
-                   ("Aisha Nalubega", "School Fees Loan", 2_500_000, "Esther Nakato", "EN", "2 days", None),
+                   ("Aisha Nalubega", "School Fees Loan", 2_500_000, "Sarah Namuli", "SN", "2 days", None),
                    ("Moses Opolot", "Civil Servant Loan", 8_000_000, "Peter Kato", "PK", "6 days", "Follow-up due"),
                    ("Doreen Atuhaire", "Home Improvement Loan", 5_000_000, "Ruth Achieng", "RA", "9 days",
                     "Stuck 7+ days")],

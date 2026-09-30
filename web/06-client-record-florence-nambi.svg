@@ -265,23 +265,24 @@
 </g>
 </g>
 <text id="Visits-3" x="320.0" y="906.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#1B1C3A">Visits (3)</text>
+<text id="purpose-outcome" x="634.5" y="906.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">purpose → outcome</text>
 <g id="icon-pin" transform="translate(320.0 928.0) scale(0.6667)">
 <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z" fill="none" stroke="#2F2E80" stroke-width="3.00" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 7a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#2F2E80" stroke-width="3.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="KYC-negotiation-and-applica" x="344.0" y="941.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#1B1C3A">KYC, negotiation and application · 38 min</text>
+<text id="Take-KYC-application-submi" x="344.0" y="941.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#1B1C3A">Take KYC → application submitted</text>
 <text id="30-Sep-11-14" x="674.3" y="941.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">30 Sep 11:14</text>
 <g id="icon-pin-2" transform="translate(320.0 958.0) scale(0.6667)">
 <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z" fill="none" stroke="#2F2E80" stroke-width="3.00" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 7a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#2F2E80" stroke-width="3.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Follow-up-asked-her-to-prep" x="344.0" y="971.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#1B1C3A">Follow-up: asked her to prepare ID and sales book</text>
+<text id="Follow-up-needs-time-ID" x="344.0" y="971.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#1B1C3A">Follow-up → needs time (ID, sales book)</text>
 <text id="14-Sep-09-40" x="674.3" y="971.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">14 Sep 09:40</text>
 <g id="icon-pin-3" transform="translate(320.0 988.0) scale(0.6667)">
 <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z" fill="none" stroke="#2F2E80" stroke-width="3.00" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 7a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#2F2E80" stroke-width="3.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="First-visit-John-Mugisha" x="344.0" y="1001.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#1B1C3A">First visit (John Mugisha) · interested</text>
+<text id="First-visit-John-interes" x="344.0" y="1001.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#1B1C3A">First visit (John) → interested</text>
 <text id="29-Jul-10-05" x="680.0" y="1001.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">29 Jul 10:05</text>
 <rect id="KYC-documents-checks-bg" x="786.0" y="224.0" width="560.0" height="828.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
 <text id="title-2" x="810.0" y="262.0" font-family="Segoe UI" font-size="17" font-weight="600" fill="#1B1C3A">KYC documents &amp; checks</text>

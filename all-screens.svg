@@ -364,29 +364,29 @@
 <path d="M12 7a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#2A2973" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="Client-visits" x="366.0" y="216.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">Client visits</text>
-<g id="chip-Plan-9-300">
-<rect x="366.0" y="223.0" width="71.6" height="20.0" rx="10.0" fill="#E6E6F0"/>
-<text id="Plan-9-300" x="376.0" y="237.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#292871">Plan 9,300</text>
+<g id="chip-Plan-kept-70">
+<rect x="366.0" y="223.0" width="90.8" height="20.0" rx="10.0" fill="#E6E6F0"/>
+<text id="Plan-kept-70" x="376.0" y="237.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#292871">Plan kept 70%</text>
 </g>
 <text id="value" x="316.0" y="278.0" font-family="Segoe UI" font-size="30" font-weight="700" fill="#1B1C3A">8,412</text>
-<text id="sub" x="316.0" y="300.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#7D8099">6,930 different clients</text>
+<text id="sub" x="316.0" y="300.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#7D8099">6,510 on journey plans · 1,902 off plan</text>
 <g id="progress">
 <rect x="316.0" y="316.0" width="212.0" height="6.0" rx="3.0" fill="#EFF0F6"/>
-<rect x="316.0" y="316.0" width="190.8" height="6.0" rx="3.0" fill="#2F2E80"/>
+<rect x="316.0" y="316.0" width="148.4" height="6.0" rx="3.0" fill="#2F2E80"/>
 </g>
 </g>
-<g id="kpi-Interested">
+<g id="kpi-New-clients-added">
 <rect id="bg-2" x="564.0" y="180.0" width="252.0" height="150.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
 <rect id="icon-bg-2" x="584.0" y="200.0" width="38.0" height="38.0" rx="9" fill="#E4ECFA"/>
-<g id="icon-hand" transform="translate(593.0 209.0) scale(0.8333)">
-<path d="M18 11V6a2 2 0 0 0-4 0" fill="none" stroke="#2A64C5" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 10V4a2 2 0 0 0-4 0v2" fill="none" stroke="#2A64C5" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10 10.5V6a2 2 0 0 0-4 0v8" fill="none" stroke="#2A64C5" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15" fill="none" stroke="#2A64C5" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="icon-userplus" transform="translate(593.0 209.0) scale(0.8333)">
+<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" fill="none" stroke="#2A64C5" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 3a4 4 0 1 0 0 8 4 4 0 1 0 0-8z" fill="none" stroke="#2A64C5" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19 8v6" fill="none" stroke="#2A64C5" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 11h-6" fill="none" stroke="#2A64C5" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Interested" x="634.0" y="216.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">Interested</text>
-<text id="value-2" x="584.0" y="278.0" font-family="Segoe UI" font-size="30" font-weight="700" fill="#1B1C3A">3,286</text>
-<text id="sub-2" x="584.0" y="300.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#7D8099">39% of visits</text>
+<text id="New-clients-added" x="634.0" y="216.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">New clients added</text>
+<text id="value-2" x="584.0" y="278.0" font-family="Segoe UI" font-size="30" font-weight="700" fill="#1B1C3A">2,140</text>
+<text id="sub-2" x="584.0" y="300.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#7D8099">at first visits · 61% interested</text>
 </g>
 <g id="kpi-KYC-validated">
 <rect id="bg-3" x="832.0" y="180.0" width="252.0" height="150.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
@@ -1818,22 +1818,22 @@
 </g>
 <text id="Reassign-clients" x="1748.1" y="160.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Reassign clients</text>
 </g>
-<g id="button-Today-s-route">
-<rect x="1553.4" y="135.0" width="142.8" height="40.0" rx="8" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<g id="icon-map-2" transform="translate(1569.4 146.0) scale(0.7500)">
+<g id="button-Live-map">
+<rect x="1581.2" y="135.0" width="114.9" height="40.0" rx="8" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<g id="icon-map-2" transform="translate(1597.2 146.0) scale(0.7500)">
 <path d="M14.1 5.55a2 2 0 0 0 1.8 0l3.65-1.83A1 1 0 0 1 21 4.62v12.76a1 1 0 0 1-.55.9l-4.55 2.27a2 2 0 0 1-1.8 0l-4.2-2.1a2 2 0 0 0-1.8 0l-3.65 1.83A1 1 0 0 1 3 19.38V6.62a1 1 0 0 1 .55-.9l4.55-2.27a2 2 0 0 1 1.8 0z" fill="none" stroke="#1B1C3A" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M15 5.76v15" fill="none" stroke="#1B1C3A" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M9 3.24v15" fill="none" stroke="#1B1C3A" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Today-s-route" x="1595.4" y="160.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Today's route</text>
+<text id="Live-map" x="1623.2" y="160.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Live map</text>
 </g>
 <g id="button-Call">
-<rect x="1462.0" y="135.0" width="81.3" height="40.0" rx="8" fill="#2F2E80"/>
-<g id="icon-phone-2" transform="translate(1478.0 146.0) scale(0.7500)">
+<rect x="1489.9" y="135.0" width="81.3" height="40.0" rx="8" fill="#2F2E80"/>
+<g id="icon-phone-2" transform="translate(1505.9 146.0) scale(0.7500)">
 <path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 18h.01" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Call" x="1504.0" y="160.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#FFFFFF">Call</text>
+<text id="Call" x="1531.9" y="160.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#FFFFFF">Call</text>
 </g>
 </g>
 <g id="kpi-Visits-this-quarter">
@@ -1994,117 +1994,116 @@
 <text id="of-visits-label-6" x="1829.1" y="680.0" font-family="Segoe UI" font-size="10.5" font-weight="400" fill="#7D8099">of visits</text>
 <text id="step-conversion-5" x="1628.0" y="649.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7D8099">↓ 70%</text>
 </g>
-<rect id="Today-s-route-bg" x="296.0" y="734.0" width="640.0" height="318.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="title-3" x="320.0" y="772.0" font-family="Segoe UI" font-size="17" font-weight="600" fill="#1B1C3A">Today's route</text>
-<text id="subtitle-3" x="320.0" y="794.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#7D8099">7 check-ins · 11.4 km · started 08:12</text>
-<text id="card-action" x="835.4" y="772.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#2F2E80">Open map →</text>
-<g id="street-map">
-<rect id="land" x="312.0" y="804.0" width="608.0" height="232.0" fill="#F2F1EC"/>
-<path id="park" d="M649.4 919.5 L636.7 928.4 L599.1 931.2 L560.2 931.1 L531.7 924.3 L528.5 914.4 L564.6 909.6 L599.5 907.2 L628.8 912.1 Z" fill="#DDEBD3"/>
-<path id="park-2" d="M817.3 944.3 L807.5 957.5 L790.4 964.3 L773.4 959.2 L764.1 949.8 L759.5 937.6 L773.9 930.0 L789.7 927.2 L804.5 932.9 Z" fill="#DDEBD3"/>
-<path id="park-3" d="M400.9 901.7 L392.4 913.8 L366.1 919.3 L336.8 918.1 L320.2 907.7 L322.7 896.1 L334.3 883.5 L367.4 881.0 L394.7 888.9 Z" fill="#DDEBD3"/>
-<path id="park-4" d="M758.7 874.1 L758.3 882.1 L735.4 884.9 L710.6 885.1 L698.9 877.8 L692.4 869.6 L710.5 863.1 L734.6 864.9 L753.2 867.6 Z" fill="#DDEBD3"/>
-<path id="park-5" d="M892.6 902.8 L889.6 911.3 L852.2 916.4 L812.3 912.8 L791.3 906.5 L786.3 898.8 L804.8 890.1 L852.1 889.3 L881.1 895.8 Z" fill="#DDEBD3"/>
-<path id="park-6" d="M502.0 834.4 L499.1 845.7 L482.0 851.1 L464.7 847.7 L448.8 840.8 L454.3 829.2 L462.5 818.6 L481.4 819.6 L498.1 823.5 Z" fill="#DDEBD3"/>
-<path id="park-7" d="M515.6 865.7 L511.9 878.4 L468.4 881.1 L429.5 880.2 L394.4 872.4 L398.7 859.4 L432.7 852.7 L471.3 845.6 L500.9 855.6 Z" fill="#DDEBD3"/>
-<g id="minor-streets">
-<line x1="320.0" y1="861.9" x2="321.9" y2="888.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="320.0" y1="907.9" x2="355.6" y2="896.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="366.0" y1="867.8" x2="398.3" y2="874.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="366.0" y1="913.8" x2="403.7" y2="918.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="366.0" y1="959.8" x2="393.7" y2="958.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="412.0" y1="907.8" x2="469.0" y2="923.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="412.0" y1="953.8" x2="410.0" y2="1008.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="458.0" y1="862.9" x2="495.4" y2="852.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="458.0" y1="908.9" x2="494.5" y2="901.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="504.0" y1="865.2" x2="561.2" y2="868.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="504.0" y1="911.2" x2="496.6" y2="969.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="504.0" y1="957.2" x2="554.3" y2="956.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="504.0" y1="1003.2" x2="546.1" y2="991.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="596.0" y1="958.2" x2="639.5" y2="968.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="642.0" y1="913.6" x2="695.0" y2="930.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="688.0" y1="853.9" x2="720.3" y2="853.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="688.0" y1="945.9" x2="691.7" y2="970.0" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="688.0" y1="991.9" x2="739.1" y2="992.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="734.0" y1="865.8" x2="781.7" y2="860.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="734.0" y1="911.8" x2="724.3" y2="962.0" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="734.0" y1="957.8" x2="778.9" y2="954.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="734.0" y1="1003.8" x2="769.7" y2="995.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="780.0" y1="845.2" x2="812.6" y2="854.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="780.0" y1="891.2" x2="781.0" y2="948.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="826.0" y1="888.7" x2="871.4" y2="882.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
-<line x1="826.0" y1="1026.7" x2="856.8" y2="1024.9" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<rect id="Today-s-visits-bg" x="296.0" y="734.0" width="640.0" height="318.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<text id="title-3" x="320.0" y="772.0" font-family="Segoe UI" font-size="17" font-weight="600" fill="#1B1C3A">Today's visits</text>
+<text id="subtitle-3" x="320.0" y="794.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#7D8099">3 of 4 planned visits made · 1 off plan · same list as her phone</text>
+<text id="card-action" x="870.6" y="772.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#2F2E80">Map →</text>
+<g id="visit-Kenneth-Lubega">
+<line x1="320.0" y1="804.0" x2="912.0" y2="804.0" stroke="#EFF0F6" stroke-width="1"/>
+<text id="09-05" x="320.0" y="833.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#4B4D6B">09:05</text>
+<circle cx="382.0" cy="827.0" r="6.0" fill="#7056D6" stroke="#7056D6" stroke-width="2"/>
+<text id="Kenneth-Lubega" x="400.0" y="824.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">Kenneth Lubega</text>
+<text id="Kiwatule-follow-ups-finish" x="400.0" y="842.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Kiwatule follow-ups · finish KYC</text>
+<text id="KYC-captured" x="835.8" y="833.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#5F49B6">KYC captured</text>
 </g>
-<path id="main-road-casing" d="M312.0 855.0 C494.4 873.6 646.4 845.8 920.0 869.0" fill="none" stroke="#E7D7B4" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
-<path id="main-road" d="M312.0 855.0 C494.4 873.6 646.4 845.8 920.0 869.0" fill="none" stroke="#FBF3DE" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
-<path id="main-road-casing-2" d="M312.0 947.8 C482.2 931.6 616.0 943.2 689.0 998.9" fill="none" stroke="#E7D7B4" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
-<path id="main-road-2" d="M312.0 947.8 C482.2 931.6 616.0 943.2 689.0 998.9" fill="none" stroke="#FBF3DE" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
-<path id="main-road-casing-3" d="M421.4 804.0 C470.1 885.2 433.6 966.4 494.4 1036.0" fill="none" stroke="#E7D7B4" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
-<path id="main-road-3" d="M421.4 804.0 C470.1 885.2 433.6 966.4 494.4 1036.0" fill="none" stroke="#FBF3DE" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
-<path id="main-road-casing-4" d="M664.6 804.0 C628.2 873.6 713.3 920.0 889.6 943.2" fill="none" stroke="#E7D7B4" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
-<path id="main-road-4" d="M664.6 804.0 C628.2 873.6 713.3 920.0 889.6 943.2" fill="none" stroke="#FBF3DE" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
-<path id="main-road-casing-5" d="M786.2 804.0 C798.4 850.4 859.2 885.2 920.0 896.8" fill="none" stroke="#E7D7B4" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
-<path id="main-road-5" d="M786.2 804.0 C798.4 850.4 859.2 885.2 920.0 896.8" fill="none" stroke="#FBF3DE" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
-<g id="place-names">
-<text id="Ntinda" x="475.8" y="873.6" font-family="Segoe UI" font-size="12" font-weight="600" fill="#8A8C9E">Ntinda</text>
-<text id="Kiwatule" x="714.3" y="908.4" font-family="Segoe UI" font-size="12" font-weight="600" fill="#8A8C9E">Kiwatule</text>
-<text id="Kigoowa" x="409.9" y="989.6" font-family="Segoe UI" font-size="12" font-weight="600" fill="#8A8C9E">Kigoowa</text>
+<g id="visit-Betty-Nakimuli">
+<line x1="320.0" y1="850.0" x2="912.0" y2="850.0" stroke="#EFF0F6" stroke-width="1"/>
+<text id="10-20" x="320.0" y="879.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#4B4D6B">10:20</text>
+<circle cx="382.0" cy="873.0" r="6.0" fill="#0E8C99" stroke="#0E8C99" stroke-width="2"/>
+<text id="Betty-Nakimuli" x="400.0" y="870.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">Betty Nakimuli</text>
+<text id="Kiwatule-follow-ups-take-K" x="400.0" y="888.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Kiwatule follow-ups · take KYC</text>
+<text id="KYC-validated" x="834.4" y="879.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#0C7782">KYC validated</text>
 </g>
+<g id="visit-Joseph-Kiggundu">
+<line x1="320.0" y1="896.0" x2="912.0" y2="896.0" stroke="#EFF0F6" stroke-width="1"/>
+<text id="10-52" x="320.0" y="925.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#4B4D6B">10:52</text>
+<circle cx="382.0" cy="919.0" r="6.0" fill="#D14343" stroke="#D14343" stroke-width="2"/>
+<text id="Joseph-Kiggundu" x="400.0" y="916.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">Joseph Kiggundu</text>
+<g id="chip-Off-plan">
+<rect x="513.9" y="903.0" width="56.9" height="18.0" rx="9.0" fill="#FCF3E2"/>
+<text id="Off-plan" x="523.9" y="915.6" font-family="Segoe UI" font-size="10" font-weight="600" fill="#C8880A">Off plan</text>
 </g>
-<path id="trail" d="M385.0 850.4 L494.4 901.4 L567.4 873.6 L646.4 931.6 L725.4 892.2 L798.4 947.8 L859.2 989.6" fill="none" stroke="#2F2E80" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
-<circle id="check-in-1" cx="385.0" cy="850.4" r="11.0" fill="#15925A" stroke="#FFFFFF" stroke-width="2"/>
-<text id="1" x="381.8" y="854.4" font-family="Segoe UI" font-size="11" font-weight="700" fill="#FFFFFF">1</text>
-<circle id="check-in-2" cx="494.4" cy="901.4" r="11.0" fill="#D14343" stroke="#FFFFFF" stroke-width="2"/>
-<text id="2" x="491.2" y="905.4" font-family="Segoe UI" font-size="11" font-weight="700" fill="#FFFFFF">2</text>
-<circle id="check-in-3" cx="567.4" cy="873.6" r="11.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="2"/>
-<text id="3" x="564.2" y="877.6" font-family="Segoe UI" font-size="11" font-weight="700" fill="#FFFFFF">3</text>
-<circle id="check-in-4" cx="646.4" cy="931.6" r="11.0" fill="#D14343" stroke="#FFFFFF" stroke-width="2"/>
-<text id="4" x="643.2" y="935.6" font-family="Segoe UI" font-size="11" font-weight="700" fill="#FFFFFF">4</text>
-<circle id="check-in-5" cx="725.4" cy="892.2" r="11.0" fill="#15925A" stroke="#FFFFFF" stroke-width="2"/>
-<text id="5-2" x="722.3" y="896.2" font-family="Segoe UI" font-size="11" font-weight="700" fill="#FFFFFF">5</text>
-<circle id="check-in-6" cx="798.4" cy="947.8" r="11.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="2"/>
-<text id="6" x="795.2" y="951.8" font-family="Segoe UI" font-size="11" font-weight="700" fill="#FFFFFF">6</text>
-<circle id="check-in-7" cx="859.2" cy="989.6" r="11.0" fill="#2F2E80" stroke="#FFFFFF" stroke-width="2"/>
-<text id="7" x="856.0" y="993.6" font-family="Segoe UI" font-size="11" font-weight="700" fill="#FFFFFF">7</text>
-<rect id="Clients-by-stage-bg" x="956.0" y="734.0" width="440.0" height="318.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="title-4" x="980.0" y="772.0" font-family="Segoe UI" font-size="17" font-weight="600" fill="#1B1C3A">Clients by stage</text>
-<text id="subtitle-4" x="980.0" y="794.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#7D8099">Sarah's open clients</text>
-<circle cx="988.0" cy="820.0" r="6.0" fill="#2F6FDB"/>
-<text id="Interested" x="1002.0" y="825.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#4B4D6B">Interested</text>
+<text id="New-client-first-visit" x="400.0" y="934.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">New client · first visit</text>
+<text id="Not-interested" x="830.2" y="925.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#B23939">Not interested</text>
+</g>
+<g id="visit-Florence-Nambi">
+<line x1="320.0" y1="942.0" x2="912.0" y2="942.0" stroke="#EFF0F6" stroke-width="1"/>
+<text id="11-14" x="320.0" y="971.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#4B4D6B">11:14</text>
+<circle cx="382.0" cy="965.0" r="6.0" fill="#15925A" stroke="#15925A" stroke-width="2"/>
+<text id="Florence-Nambi" x="400.0" y="962.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">Florence Nambi</text>
+<text id="Kiwatule-follow-ups-take-K-2" x="400.0" y="980.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Kiwatule follow-ups · take KYC</text>
+<text id="Application-submitted" x="786.0" y="971.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#127C4C">Application submitted</text>
+</g>
+<g id="visit-Ivan-Kasozi">
+<line x1="320.0" y1="988.0" x2="912.0" y2="988.0" stroke="#EFF0F6" stroke-width="1"/>
+<text id="12-30" x="320.0" y="1017.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#4B4D6B">12:30</text>
+<circle cx="382.0" cy="1011.0" r="6.0" fill="#FFFFFF" stroke="#8A8DA6" stroke-width="2"/>
+<text id="Ivan-Kasozi" x="400.0" y="1008.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">Ivan Kasozi</text>
+<text id="Kiwatule-follow-ups-negoti" x="400.0" y="1026.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Kiwatule follow-ups · negotiate</text>
+<text id="Due" x="889.1" y="1017.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#7D8099">Due</text>
+</g>
+<rect id="Her-journey-plans-bg" x="956.0" y="734.0" width="440.0" height="318.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<text id="title-4" x="980.0" y="772.0" font-family="Segoe UI" font-size="17" font-weight="600" fill="#1B1C3A">Her journey plans</text>
+<text id="subtitle-4" x="980.0" y="794.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#7D8099">2 active · 2 starting tomorrow</text>
+<text id="card-action-2" x="1341.7" y="772.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#2F2E80">All →</text>
+<g id="plan-Kiwatule-follow-ups">
+<line x1="980.0" y1="806.0" x2="1372.0" y2="806.0" stroke="#EFF0F6" stroke-width="1"/>
+<text id="Kiwatule-follow-ups" x="980.0" y="828.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">Kiwatule follow-ups</text>
+<text id="28-Sep-2-Oct" x="980.0" y="846.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">28 Sep – 2 Oct</text>
+<g id="chip-Active">
+<rect x="1307.2" y="815.0" width="64.8" height="22.0" rx="11.0" fill="#E3F2EB"/>
+<circle cx="1321.2" cy="826.0" r="4.0" fill="#15925A"/>
+<text id="Active" x="1331.2" y="830.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#12804F">Active</text>
+</g>
 <g id="progress-4">
-<rect x="1136.0" y="817.0" width="170.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
-<rect x="1136.0" y="817.0" width="170.0" height="7.0" rx="3.5" fill="#2F6FDB"/>
+<rect x="1246.0" y="842.0" width="80.0" height="5.0" rx="2.5" fill="#EFF0F6"/>
+<rect x="1246.0" y="842.0" width="53.3" height="5.0" rx="2.5" fill="#15925A"/>
 </g>
-<text id="14" x="1358.8" y="825.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">14</text>
-<circle cx="988.0" cy="856.0" r="6.0" fill="#7056D6"/>
-<text id="KYC-captured" x="1002.0" y="861.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#4B4D6B">KYC captured</text>
+<text id="8-12" x="1348.9" y="848.0" font-family="Segoe UI" font-size="12" font-weight="600" fill="#4B4D6B">8/12</text>
+</g>
+<g id="plan-Ntinda-schools-payroll-teachers">
+<line x1="980.0" y1="864.0" x2="1372.0" y2="864.0" stroke="#EFF0F6" stroke-width="1"/>
+<text id="Ntinda-schools-payroll-teac" x="980.0" y="886.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">Ntinda schools: payroll teachers</text>
+<text id="21-Sep-9-Oct" x="980.0" y="904.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">21 Sep – 9 Oct</text>
+<g id="chip-Active-2">
+<rect x="1307.2" y="873.0" width="64.8" height="22.0" rx="11.0" fill="#E3F2EB"/>
+<circle cx="1321.2" cy="884.0" r="4.0" fill="#15925A"/>
+<text id="Active-2" x="1331.2" y="888.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#12804F">Active</text>
+</g>
 <g id="progress-5">
-<rect x="1136.0" y="853.0" width="170.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
-<rect x="1136.0" y="853.0" width="60.7" height="7.0" rx="3.5" fill="#7056D6"/>
+<rect x="1246.0" y="900.0" width="80.0" height="5.0" rx="2.5" fill="#EFF0F6"/>
+<rect x="1246.0" y="900.0" width="32.0" height="5.0" rx="2.5" fill="#15925A"/>
 </g>
-<text id="5-3" x="1364.5" y="861.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">5</text>
-<circle cx="988.0" cy="892.0" r="6.0" fill="#0E8C99"/>
-<text id="KYC-validated" x="1002.0" y="897.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#4B4D6B">KYC validated</text>
+<text id="6-15" x="1348.8" y="906.0" font-family="Segoe UI" font-size="12" font-weight="600" fill="#4B4D6B">6/15</text>
+</g>
+<g id="plan-Kyanja-market-prospecting">
+<line x1="980.0" y1="922.0" x2="1372.0" y2="922.0" stroke="#EFF0F6" stroke-width="1"/>
+<text id="Kyanja-market-prospecting" x="980.0" y="944.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">Kyanja market prospecting</text>
+<text id="1-31-Oct-her-own-plan" x="980.0" y="962.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">1 – 31 Oct · her own plan</text>
+<g id="chip-Scheduled">
+<rect x="1286.2" y="931.0" width="85.8" height="22.0" rx="11.0" fill="#E6EEFB"/>
+<circle cx="1300.2" cy="942.0" r="4.0" fill="#2F6FDB"/>
+<text id="Scheduled" x="1310.2" y="946.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#2962C1">Scheduled</text>
+</g>
 <g id="progress-6">
-<rect x="1136.0" y="889.0" width="170.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
-<rect x="1136.0" y="889.0" width="48.6" height="7.0" rx="3.5" fill="#0E8C99"/>
+<rect x="1246.0" y="958.0" width="80.0" height="5.0" rx="2.5" fill="#EFF0F6"/>
 </g>
-<text id="4-2" x="1364.2" y="897.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">4</text>
-<circle cx="988.0" cy="928.0" r="6.0" fill="#E39A0B"/>
-<text id="Negotiation" x="1002.0" y="933.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#4B4D6B">Negotiation</text>
+<text id="0-8" x="1353.7" y="964.0" font-family="Segoe UI" font-size="12" font-weight="600" fill="#4B4D6B">0/8</text>
+</g>
+<g id="plan-Daniel-Okumu-s-clients">
+<line x1="980.0" y1="980.0" x2="1372.0" y2="980.0" stroke="#EFF0F6" stroke-width="1"/>
+<text id="Daniel-Okumu-s-clients" x="980.0" y="1002.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">Daniel Okumu's clients</text>
+<text id="1-9-Oct" x="980.0" y="1020.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">1 – 9 Oct</text>
+<g id="chip-Scheduled-2">
+<rect x="1286.2" y="989.0" width="85.8" height="22.0" rx="11.0" fill="#E6EEFB"/>
+<circle cx="1300.2" cy="1000.0" r="4.0" fill="#2F6FDB"/>
+<text id="Scheduled-2" x="1310.2" y="1004.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#2962C1">Scheduled</text>
+</g>
 <g id="progress-7">
-<rect x="1136.0" y="925.0" width="170.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
-<rect x="1136.0" y="925.0" width="72.9" height="7.0" rx="3.5" fill="#E39A0B"/>
+<rect x="1246.0" y="1016.0" width="80.0" height="5.0" rx="2.5" fill="#EFF0F6"/>
 </g>
-<text id="6-2" x="1364.5" y="933.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">6</text>
-<circle cx="988.0" cy="964.0" r="6.0" fill="#15925A"/>
-<text id="Applied" x="1002.0" y="969.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#4B4D6B">Applied</text>
-<g id="progress-8">
-<rect x="1136.0" y="961.0" width="170.0" height="7.0" rx="3.5" fill="#EFF0F6"/>
-<rect x="1136.0" y="961.0" width="36.4" height="7.0" rx="3.5" fill="#15925A"/>
+<text id="0-3" x="1353.7" y="1022.0" font-family="Segoe UI" font-size="12" font-weight="600" fill="#4B4D6B">0/3</text>
 </g>
-<text id="3-2" x="1364.5" y="969.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">3</text>
-<text id="Follow-ups-due-this-week-6" x="980.0" y="1008.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#2F2E80">Follow-ups due this week: 6</text>
 <rect id="Latest-activity-bg" x="1416.0" y="734.0" width="472.0" height="318.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
 <text id="title-5" x="1440.0" y="772.0" font-family="Segoe UI" font-size="17" font-weight="600" fill="#1B1C3A">Latest activity</text>
 <text id="subtitle-5" x="1440.0" y="794.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#7D8099">From the field app, synced</text>
@@ -2113,7 +2112,7 @@
 <g id="icon-check-2" transform="translate(1446.0 830.0) scale(0.6667)">
 <path d="M20 6L9 17l-5-5" fill="none" stroke="#15925A" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Application-submitted" x="1478.0" y="834.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">Application submitted</text>
+<text id="Application-submitted-2" x="1478.0" y="834.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">Application submitted</text>
 <text id="11-42" x="1835.5" y="834.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">11:42</text>
 <text id="Florence-Nambi-LU-APP-2609" x="1478.0" y="852.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Florence Nambi · LU-APP-2609-04817</text>
 </g>
@@ -2123,7 +2122,7 @@
 <path d="M18 6L6 18" fill="none" stroke="#D14343" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M6 6l12 12" fill="none" stroke="#D14343" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Not-interested" x="1478.0" y="878.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">Not interested</text>
+<text id="Not-interested-2" x="1478.0" y="878.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">Not interested</text>
 <text id="10-58" x="1835.5" y="878.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">10:58</text>
 <text id="Joseph-Kiggundu-already-ha" x="1478.0" y="896.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Joseph Kiggundu · already has a SACCO loan</text>
 </g>
@@ -2137,20 +2136,21 @@
 <path d="M14 14h3" fill="none" stroke="#0E8C99" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="KYC-validated-2" x="1478.0" y="922.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">KYC validated</text>
-<text id="10-20" x="1835.5" y="922.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">10:20</text>
+<text id="10-20-2" x="1835.5" y="922.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">10:20</text>
 <text id="Betty-Nakimuli-NIRA-ID-mat" x="1478.0" y="940.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Betty Nakimuli · NIRA ID matched</text>
 </g>
-<g id="activity-Visit-interested">
-<circle cx="1454.0" cy="970.0" r="14.0" fill="#E2EBFA"/>
-<g id="icon-hand" transform="translate(1446.0 962.0) scale(0.6667)">
-<path d="M18 11V6a2 2 0 0 0-4 0" fill="none" stroke="#2F6FDB" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 10V4a2 2 0 0 0-4 0v2" fill="none" stroke="#2F6FDB" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10 10.5V6a2 2 0 0 0-4 0v8" fill="none" stroke="#2F6FDB" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15" fill="none" stroke="#2F6FDB" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="activity-KYC-captured">
+<circle cx="1454.0" cy="970.0" r="14.0" fill="#EBE7F9"/>
+<g id="icon-idcard-2" transform="translate(1446.0 962.0) scale(0.6667)">
+<path d="M4 5h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z" fill="none" stroke="#7056D6" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 9a2 2 0 1 0 0 4 2 2 0 1 0 0-4z" fill="none" stroke="#7056D6" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5 16.5c.6-1.5 1.7-2.2 3-2.2s2.4.7 3 2.2" fill="none" stroke="#7056D6" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 10h5" fill="none" stroke="#7056D6" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 14h3" fill="none" stroke="#7056D6" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Visit-interested" x="1478.0" y="966.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">Visit · interested</text>
-<text id="09-31" x="1835.5" y="966.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">09:31</text>
-<text id="Charles-Ssempijja-boda-bod" x="1478.0" y="984.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Charles Ssempijja · boda boda owner</text>
+<text id="KYC-captured-2" x="1478.0" y="966.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">KYC captured</text>
+<text id="09-05-2" x="1835.5" y="966.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">09:05</text>
+<text id="Kenneth-Lubega-employer-le" x="1478.0" y="984.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Kenneth Lubega · employer letter pending</text>
 </g>
 <g id="activity-Day-started">
 <circle cx="1454.0" cy="1014.0" r="14.0" fill="#EDEDF1"/>
@@ -3993,23 +3993,24 @@
 </g>
 </g>
 <text id="Visits-3" x="320.0" y="906.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#1B1C3A">Visits (3)</text>
+<text id="purpose-outcome" x="634.5" y="906.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">purpose → outcome</text>
 <g id="icon-pin" transform="translate(320.0 928.0) scale(0.6667)">
 <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z" fill="none" stroke="#2F2E80" stroke-width="3.00" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 7a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#2F2E80" stroke-width="3.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="KYC-negotiation-and-applica" x="344.0" y="941.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#1B1C3A">KYC, negotiation and application · 38 min</text>
+<text id="Take-KYC-application-submi" x="344.0" y="941.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#1B1C3A">Take KYC → application submitted</text>
 <text id="30-Sep-11-14" x="674.3" y="941.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">30 Sep 11:14</text>
 <g id="icon-pin-2" transform="translate(320.0 958.0) scale(0.6667)">
 <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z" fill="none" stroke="#2F2E80" stroke-width="3.00" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 7a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#2F2E80" stroke-width="3.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Follow-up-asked-her-to-prep" x="344.0" y="971.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#1B1C3A">Follow-up: asked her to prepare ID and sales book</text>
+<text id="Follow-up-needs-time-ID" x="344.0" y="971.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#1B1C3A">Follow-up → needs time (ID, sales book)</text>
 <text id="14-Sep-09-40" x="674.3" y="971.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">14 Sep 09:40</text>
 <g id="icon-pin-3" transform="translate(320.0 988.0) scale(0.6667)">
 <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z" fill="none" stroke="#2F2E80" stroke-width="3.00" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 7a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#2F2E80" stroke-width="3.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="First-visit-John-Mugisha" x="344.0" y="1001.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#1B1C3A">First visit (John Mugisha) · interested</text>
+<text id="First-visit-John-interes" x="344.0" y="1001.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#1B1C3A">First visit (John) → interested</text>
 <text id="29-Jul-10-05" x="680.0" y="1001.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">29 Jul 10:05</text>
 <rect id="KYC-documents-checks-bg" x="786.0" y="224.0" width="560.0" height="828.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
 <text id="title-2" x="810.0" y="262.0" font-family="Segoe UI" font-size="17" font-weight="600" fill="#1B1C3A">KYC documents &amp; checks</text>
@@ -8699,7 +8700,7 @@
 <line x1="297.0" y1="852.0" x2="1889.0" y2="852.0" stroke="#EFF0F6" stroke-width="1"/>
 <text id="30-Sep-10-58" x="313.0" y="886.5" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">30 Sep 10:58</text>
 <text id="Sarah-Namuli-2" x="503.0" y="886.5" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Sarah Namuli</text>
-<text id="Closed-visit-not-interested" x="733.0" y="886.5" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Closed visit: not interested</text>
+<text id="Checked-out-visit-not-inter" x="733.0" y="886.5" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Checked out visit: not interested</text>
 <text id="Joseph-Kiggundu" x="993.0" y="886.5" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Joseph Kiggundu</text>
 <text id="Reason-already-has-a-SACCO" x="1293.0" y="886.5" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Reason: already has a SACCO loan</text>
 <text id="Phone-Ntinda" x="1713.0" y="886.5" font-family="Segoe UI" font-size="13" font-weight="400" fill="#1B1C3A">Phone · Ntinda</text>
@@ -8856,7 +8857,7 @@
 <text id="network" x="270.5" y="18.0" font-family="Segoe UI" font-size="10.5" font-weight="700" fill="#FFFFFF">4G</text>
 </g>
 <g id="header">
-<rect id="header-bg" x="0.0" y="0.0" width="360.0" height="196.0" fill="#2F2E80"/>
+<rect id="header-bg" x="0.0" y="0.0" width="360.0" height="176.0" fill="#2F2E80"/>
 <g id="facets" opacity="0.08">
 <path d="M300.0 30.0 L420.0 230.0 L180.0 230.0 Z" fill="#FFFFFF"/>
 </g>
@@ -8869,102 +8870,109 @@
 </g>
 <circle cx="340.0" cy="42.0" r="6.0" fill="#FBD405"/>
 <g id="sync-pill">
-<rect x="16.0" y="122.0" width="138.0" height="24.0" rx="12" fill="#FFFFFF" fill-opacity="0.12"/>
-<circle cx="29.0" cy="134.0" r="4.0" fill="#6EE7A8"/>
-<text id="Synced-11-04-online" x="40.0" y="138.5" font-family="Segoe UI" font-size="11.5" font-weight="600" fill="#FFFFFF">Synced 11:04 · online</text>
+<rect x="16.0" y="120.0" width="138.0" height="24.0" rx="12" fill="#FFFFFF" fill-opacity="0.12"/>
+<circle cx="29.0" cy="132.0" r="4.0" fill="#6EE7A8"/>
+<text id="Synced-11-04-online" x="40.0" y="136.5" font-family="Segoe UI" font-size="11.5" font-weight="600" fill="#FFFFFF">Synced 11:04 · online</text>
 </g>
 </g>
-<g id="week-card">
-<rect x="16.0" y="158.0" width="328.0" height="116.0" rx="16" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="This-week" x="32.0" y="186.0" font-family="Segoe UI" font-size="14" font-weight="700" fill="#1B1C3A">This week</text>
-<text id="W13-your-minimums" x="212.1" y="186.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">W13 · your minimums</text>
-<text id="16" x="32.0" y="220.0" font-family="Segoe UI" font-size="22" font-weight="700" fill="#1B1C3A">16</text>
-<text id="20" x="60.3" y="220.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#7D8099">/20</text>
-<text id="Visits" x="32.0" y="240.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Visits</text>
+<g id="status-bar-2">
+<text id="11-05-2" x="16.0" y="18.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#FFFFFF">11:05</text>
+<rect id="battery-2" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#FFFFFF" stroke-width="1.2"/>
+<rect x="324.0" y="10.0" width="13.0" height="6.0" rx="1" fill="#FFFFFF"/>
+<rect x="342.5" y="11.0" width="2.0" height="4.0" rx="1" fill="#FFFFFF"/>
+<rect id="signal-bar-5" x="292.0" y="14.0" width="3.0" height="3.0" rx="0.8" fill="#FFFFFF" fill-opacity="1"/>
+<rect id="signal-bar-6" x="297.0" y="11.8" width="3.0" height="5.2" rx="0.8" fill="#FFFFFF" fill-opacity="1"/>
+<rect id="signal-bar-7" x="302.0" y="9.6" width="3.0" height="7.4" rx="0.8" fill="#FFFFFF" fill-opacity="1"/>
+<rect id="signal-bar-8" x="307.0" y="7.4" width="3.0" height="9.6" rx="0.8" fill="#FFFFFF" fill-opacity="0.3"/>
+<text id="network-2" x="270.5" y="18.0" font-family="Segoe UI" font-size="10.5" font-weight="700" fill="#FFFFFF">4G</text>
+</g>
+<g id="today-card">
+<rect x="16.0" y="156.0" width="328.0" height="124.0" rx="16" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<text id="Today" x="32.0" y="183.0" font-family="Segoe UI" font-size="14" font-weight="700" fill="#1B1C3A">Today</text>
+<text id="Wed-30-Sep" x="264.7" y="183.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Wed 30 Sep</text>
+<text id="2" x="32.0" y="218.0" font-family="Segoe UI" font-size="22" font-weight="700" fill="#1B1C3A">2</text>
+<text id="of-4" x="46.7" y="218.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#7D8099"> of 4</text>
+<text id="Planned-visits" x="32.0" y="237.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Planned visits</text>
+<text id="1" x="130.7" y="218.0" font-family="Segoe UI" font-size="22" font-weight="700" fill="#1B1C3A">1</text>
+<text id="Off-plan-visit" x="130.7" y="237.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Off-plan visit</text>
+<text id="0" x="229.3" y="218.0" font-family="Segoe UI" font-size="22" font-weight="700" fill="#1B1C3A">0</text>
+<text id="Conversions" x="229.3" y="237.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Conversions</text>
+<line x1="32.0" y1="250.0" x2="328.0" y2="250.0" stroke="#EFF0F6" stroke-width="1"/>
+<text id="Q3-target" x="32.0" y="269.0" font-family="Segoe UI" font-size="12" font-weight="600" fill="#4B4D6B">Q3 target</text>
 <g id="progress">
-<rect x="32.0" y="252.0" width="84.7" height="5.0" rx="2.5" fill="#EFF0F6"/>
-<rect x="32.0" y="252.0" width="67.7" height="5.0" rx="2.5" fill="#2F2E80"/>
+<rect x="100.0" y="262.0" width="118.0" height="6.0" rx="3.0" fill="#EFF0F6"/>
+<rect x="100.0" y="262.0" width="96.5" height="6.0" rx="3.0" fill="#2F2E80"/>
 </g>
-<text id="4" x="130.7" y="220.0" font-family="Segoe UI" font-size="22" font-weight="700" fill="#1B1C3A">4</text>
-<text id="3" x="146.3" y="220.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#7D8099">/3</text>
-<text id="KYC-done" x="130.7" y="240.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">KYC done</text>
-<g id="progress-2">
-<rect x="130.7" y="252.0" width="84.7" height="5.0" rx="2.5" fill="#EFF0F6"/>
-<rect x="130.7" y="252.0" width="84.7" height="5.0" rx="2.5" fill="#15925A"/>
+<text id="18-of-22-ends-today" x="215.9" y="269.0" font-family="Segoe UI" font-size="12" font-weight="600" fill="#1B1C3A">18 of 22 · ends today</text>
 </g>
-<text id="1" x="229.3" y="220.0" font-family="Segoe UI" font-size="22" font-weight="700" fill="#1B1C3A">1</text>
-<text id="2" x="245.0" y="220.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#7D8099">/2</text>
-<text id="Conversions" x="229.3" y="240.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#4B4D6B">Conversions</text>
-<g id="progress-3">
-<rect x="229.3" y="252.0" width="84.7" height="5.0" rx="2.5" fill="#EFF0F6"/>
-<rect x="229.3" y="252.0" width="42.3" height="5.0" rx="2.5" fill="#15925A"/>
+<g id="next-visit">
+<rect x="16.0" y="292.0" width="328.0" height="104.0" rx="14" fill="#FFFFFF" stroke="#2F2E80" stroke-width="2"/>
+<text id="NEXT-VISIT-KIWATULE-FOLLOW" x="30.0" y="314.0" font-family="Segoe UI" font-size="10.5" font-weight="700" fill="#2F2E80" letter-spacing="0.6">NEXT VISIT · KIWATULE FOLLOW-UPS</text>
+<text id="Florence-Nambi" x="30.0" y="338.0" font-family="Segoe UI" font-size="16" font-weight="700" fill="#1B1C3A">Florence Nambi</text>
+<text id="Take-KYC-ID-and-sales-book" x="30.0" y="358.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#4B4D6B">Take KYC: ID and sales book</text>
+<g id="icon-navigation" transform="translate(30.0 368.0) scale(0.5417)">
+<path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#7D8099" stroke-width="3.69" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-</g>
-<g id="quarter-card">
-<rect x="16.0" y="286.0" width="328.0" height="62.0" rx="14" fill="#FEF6C8"/>
-<g id="progress-ring">
-<circle cx="48.0" cy="317.0" r="17.5" fill="none" stroke="#FFFFFF" stroke-width="5"/>
-<path d="M48.00 299.50 A17.5 17.5 0 1 1 32.08 309.73" fill="none" stroke="#2F2E80" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
-</g>
-<text id="18" x="41.7" y="321.0" font-family="Segoe UI" font-size="11" font-weight="700" fill="#1F1E57">18</text>
-<text id="Q3-18-of-22-conversions" x="78.0" y="313.0" font-family="Segoe UI" font-size="14" font-weight="700" fill="#1B1C3A">Q3: 18 of 22 conversions</text>
-<text id="Last-day-of-the-quarter-4" x="78.0" y="332.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#8C6A00">Last day of the quarter · 4 to go</text>
-</g>
-<text id="Due-today" x="16.0" y="380.0" font-family="Segoe UI" font-size="15.5" font-weight="700" fill="#1B1C3A">Due today</text>
-<text id="from-2-journey-plans" x="100.0" y="380.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">from 2 journey plans</text>
-<text id="Plans" x="298.2" y="380.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#2F2E80">Plans →</text>
-<g id="stop-Joseph-Kiggundu">
-<rect x="16.0" y="394.0" width="328.0" height="54.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<circle cx="44.0" cy="421.0" r="14.0" fill="#D14343" stroke="#D14343" stroke-width="2"/>
-<g id="icon-check" transform="translate(37.0 414.0) scale(0.5833)">
-<path d="M20 6L9 17l-5-5" fill="none" stroke="#FFFFFF" stroke-width="5.14" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<text id="Joseph-Kiggundu" x="68.0" y="417.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Joseph Kiggundu</text>
-<text id="New-client-off-plan-not-i" x="68.0" y="435.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">New client, off plan · not interested</text>
-<text id="Done" x="300.8" y="426.0" font-family="Segoe UI" font-size="12" font-weight="600" fill="#7D8099">Done</text>
-</g>
-<g id="stop-Betty-Nakimuli">
-<rect x="16.0" y="454.0" width="328.0" height="54.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<circle cx="44.0" cy="481.0" r="14.0" fill="#0E8C99" stroke="#0E8C99" stroke-width="2"/>
-<g id="icon-check-2" transform="translate(37.0 474.0) scale(0.5833)">
-<path d="M20 6L9 17l-5-5" fill="none" stroke="#FFFFFF" stroke-width="5.14" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<text id="Betty-Nakimuli" x="68.0" y="477.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Betty Nakimuli</text>
-<text id="Kiwatule-follow-ups-KYC-va" x="68.0" y="495.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Kiwatule follow-ups · KYC validated</text>
-<text id="Done-2" x="300.8" y="486.0" font-family="Segoe UI" font-size="12" font-weight="600" fill="#7D8099">Done</text>
-</g>
-<g id="stop-Florence-Nambi">
-<rect x="16.0" y="514.0" width="328.0" height="54.0" rx="12" fill="#FFFFFF" stroke="#2F2E80" stroke-width="2"/>
-<circle cx="44.0" cy="541.0" r="14.0" fill="#2F2E80" stroke="#2F2E80" stroke-width="2"/>
-<text id="8" x="40.5" y="545.5" font-family="Segoe UI" font-size="12" font-weight="700" fill="#FFFFFF">8</text>
-<text id="Florence-Nambi" x="68.0" y="537.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Florence Nambi</text>
-<text id="Kiwatule-follow-ups-0-6-km" x="68.0" y="555.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Kiwatule follow-ups · 0.6 km</text>
+<text id="0-6-km-4-min-Kiwatule" x="48.0" y="380.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">0.6 km · 4 min · Kiwatule</text>
 <g id="button-Check-in">
-<rect x="251.9" y="525.0" width="80.1" height="32.0" rx="8" fill="#2F2E80"/>
-<text id="Check-in" x="267.9" y="545.5" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#FFFFFF">Check in</text>
+<rect x="222.0" y="326.0" width="108.0" height="38.0" rx="8" fill="#2F2E80"/>
+<g id="icon-pin" transform="translate(238.0 336.0) scale(0.7500)">
+<path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 7a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Check-in" x="264.0" y="349.7" font-family="Segoe UI" font-size="13" font-weight="600" fill="#FFFFFF">Check in</text>
 </g>
 </g>
-<g id="stop-Ivan-Kasozi">
-<rect x="16.0" y="574.0" width="328.0" height="54.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<circle cx="44.0" cy="601.0" r="14.0" fill="#FFFFFF" stroke="#8A8DA6" stroke-width="2"/>
-<text id="9" x="40.5" y="605.5" font-family="Segoe UI" font-size="12" font-weight="700" fill="#4B4D6B">9</text>
-<text id="Ivan-Kasozi" x="68.0" y="597.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#1B1C3A">Ivan Kasozi</text>
-<text id="Kiwatule-follow-ups-12-30" x="68.0" y="615.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Kiwatule follow-ups · 12:30</text>
-<text id="Planned" x="286.0" y="606.0" font-family="Segoe UI" font-size="12" font-weight="600" fill="#7D8099">Planned</text>
+<text id="Today-s-visits" x="16.0" y="424.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#1B1C3A">Today's visits</text>
+<text id="Plans" x="298.2" y="424.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#2F2E80">Plans →</text>
+<g id="visit-Kenneth-Lubega">
+<rect x="16.0" y="436.0" width="328.0" height="44.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<circle cx="38.0" cy="458.0" r="11.0" fill="#15925A"/>
+<g id="icon-check" transform="translate(32.5 452.5) scale(0.4583)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#FFFFFF" stroke-width="6.98" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<g id="follow-ups">
-<rect x="16.0" y="636.0" width="328.0" height="50.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<circle cx="44.0" cy="661.0" r="15.0" fill="#E2EBFA"/>
-<g id="icon-calendar" transform="translate(36.0 653.0) scale(0.6667)">
-<path d="M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" fill="none" stroke="#2F6FDB" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M16 2v4" fill="none" stroke="#2F6FDB" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M8 2v4" fill="none" stroke="#2F6FDB" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M3 10h18" fill="none" stroke="#2F6FDB" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+<text id="Kenneth-Lubega" x="58.0" y="455.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">Kenneth Lubega</text>
+<text id="09-05-KYC-captured-letter" x="58.0" y="472.0" font-family="Segoe UI" font-size="11.5" font-weight="400" fill="#7D8099">09:05 · KYC captured, letter pending</text>
 </g>
-<text id="6-follow-ups-due-this-week" x="68.0" y="658.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">6 follow-ups due this week</text>
-<text id="Interested-clients-waiting-f" x="68.0" y="675.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Interested clients waiting for KYC</text>
-<g id="icon-chevright" transform="translate(316.0 651.0) scale(0.8333)">
-<path d="M9 18l6-6-6-6" fill="none" stroke="#AAACC0" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="visit-Betty-Nakimuli">
+<rect x="16.0" y="484.0" width="328.0" height="44.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<circle cx="38.0" cy="506.0" r="11.0" fill="#15925A"/>
+<g id="icon-check-2" transform="translate(32.5 500.5) scale(0.4583)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#FFFFFF" stroke-width="6.98" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Betty-Nakimuli" x="58.0" y="503.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">Betty Nakimuli</text>
+<text id="10-20-KYC-validated" x="58.0" y="520.0" font-family="Segoe UI" font-size="11.5" font-weight="400" fill="#7D8099">10:20 · KYC validated</text>
+</g>
+<g id="visit-Florence-Nambi">
+<rect x="16.0" y="532.0" width="328.0" height="44.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<circle cx="38.0" cy="554.0" r="11.0" fill="#2F2E80"/>
+<g id="icon-navigation-2" transform="translate(32.0 548.0) scale(0.5000)">
+<path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#FFFFFF" stroke-width="4.40" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Florence-Nambi-2" x="58.0" y="551.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">Florence Nambi</text>
+<text id="Next-interested-ready-for" x="58.0" y="568.0" font-family="Segoe UI" font-size="11.5" font-weight="400" fill="#7D8099">Next · interested, ready for KYC</text>
+</g>
+<g id="visit-Ivan-Kasozi">
+<rect x="16.0" y="580.0" width="328.0" height="44.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<circle cx="38.0" cy="602.0" r="11.0" fill="#FFFFFF" stroke="#C4C7D6" stroke-width="2"/>
+<g id="icon-clock" transform="translate(31.0 595.0) scale(0.5833)">
+<path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z" fill="none" stroke="#7D8099" stroke-width="3.43" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 6v6l4 2" fill="none" stroke="#7D8099" stroke-width="3.43" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Ivan-Kasozi" x="58.0" y="599.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">Ivan Kasozi</text>
+<text id="12-30-negotiation" x="58.0" y="616.0" font-family="Segoe UI" font-size="11.5" font-weight="400" fill="#7D8099">12:30 · negotiation</text>
+</g>
+<g id="visit-Joseph-Kiggundu">
+<rect x="16.0" y="628.0" width="328.0" height="44.0" rx="10" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<circle cx="38.0" cy="650.0" r="11.0" fill="#8A8DA6"/>
+<g id="icon-check-3" transform="translate(32.5 644.5) scale(0.4583)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#FFFFFF" stroke-width="6.98" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Joseph-Kiggundu" x="58.0" y="647.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1B1C3A">Joseph Kiggundu</text>
+<text id="10-58-new-client-not-int" x="58.0" y="664.0" font-family="Segoe UI" font-size="11.5" font-weight="400" fill="#7D8099">10:58 · new client · not interested</text>
+<g id="chip-Off-plan">
+<rect x="275.3" y="640.0" width="58.7" height="20.0" rx="10.0" fill="#FCF3E2"/>
+<text id="Off-plan" x="285.3" y="653.8" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#C8880A">Off plan</text>
 </g>
 </g>
 <g id="bottom-navigation">
@@ -11407,6 +11415,17 @@
 <text id="Field-Sales-Agent-LU-0877" x="92.0" y="104.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#C9C8EE">Field Sales Agent · LU-0877</text>
 <text id="Supervisor-Moses-Okello" x="92.0" y="124.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#C9C8EE">Supervisor: Moses Okello</text>
 </g>
+<g id="status-bar-2">
+<text id="12-02-2" x="16.0" y="18.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#FFFFFF">12:02</text>
+<rect id="battery-2" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#FFFFFF" stroke-width="1.2"/>
+<rect x="324.0" y="10.0" width="13.0" height="6.0" rx="1" fill="#FFFFFF"/>
+<rect x="342.5" y="11.0" width="2.0" height="4.0" rx="1" fill="#FFFFFF"/>
+<rect id="signal-bar-5" x="292.0" y="14.0" width="3.0" height="3.0" rx="0.8" fill="#FFFFFF" fill-opacity="1"/>
+<rect id="signal-bar-6" x="297.0" y="11.8" width="3.0" height="5.2" rx="0.8" fill="#FFFFFF" fill-opacity="1"/>
+<rect id="signal-bar-7" x="302.0" y="9.6" width="3.0" height="7.4" rx="0.8" fill="#FFFFFF" fill-opacity="1"/>
+<rect id="signal-bar-8" x="307.0" y="7.4" width="3.0" height="9.6" rx="0.8" fill="#FFFFFF" fill-opacity="0.3"/>
+<text id="network-2" x="270.5" y="18.0" font-family="Segoe UI" font-size="10.5" font-weight="700" fill="#FFFFFF">4G</text>
+</g>
 <g id="quarter">
 <rect x="16.0" y="140.0" width="328.0" height="116.0" rx="16" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
 <text id="Q3-2026" x="32.0" y="168.0" font-family="Segoe UI" font-size="14" font-weight="700" fill="#1B1C3A">Q3 2026</text>
@@ -11426,36 +11445,24 @@
 <text id="Conversions" x="32.0" y="234.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Conversions</text>
 <text id="214" x="130.7" y="212.0" font-family="Segoe UI" font-size="21" font-weight="700" fill="#1B1C3A">214</text>
 <text id="Visits" x="130.7" y="234.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Visits</text>
-<text id="8-9" x="229.3" y="212.0" font-family="Segoe UI" font-size="21" font-weight="700" fill="#1B1C3A">8.9%</text>
-<text id="Conv-rate" x="229.3" y="234.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Conv. rate</text>
+<text id="82" x="229.3" y="212.0" font-family="Segoe UI" font-size="21" font-weight="700" fill="#1B1C3A">82%</text>
+<text id="Plan-kept" x="229.3" y="234.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Plan kept</text>
 </g>
-<text id="This-week-s-minimums" x="16.0" y="282.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#1B1C3A">This week's minimums</text>
-<text id="set-by-Moses" x="274.8" y="282.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">set by Moses</text>
+<text id="This-week" x="16.0" y="282.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#1B1C3A">This week</text>
+<text id="W13-28-Sep-2-Oct" x="233.7" y="282.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">W13 · 28 Sep – 2 Oct</text>
 <rect x="16.0" y="296.0" width="328.0" height="176.0" rx="14" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Client-visits" x="32.0" y="326.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#4B4D6B">Client visits</text>
-<text id="17-20" x="283.5" y="326.0" font-family="Segoe UI" font-size="13.5" font-weight="700" fill="#1B1C3A">17 / 20</text>
+<text id="Journey-plan-visits-made" x="32.0" y="326.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#4B4D6B">Journey plan visits made</text>
+<text id="15-of-18" x="276.3" y="326.0" font-family="Segoe UI" font-size="13.5" font-weight="700" fill="#1B1C3A">15 of 18</text>
 <g id="progress">
 <rect x="32.0" y="335.0" width="296.0" height="5.0" rx="2.5" fill="#EFF0F6"/>
-<rect x="32.0" y="335.0" width="251.6" height="5.0" rx="2.5" fill="#2F2E80"/>
+<rect x="32.0" y="335.0" width="246.7" height="5.0" rx="2.5" fill="#2F2E80"/>
 </g>
-<text id="New-interested" x="32.0" y="364.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#4B4D6B">New interested</text>
-<text id="5-6" x="299.0" y="364.0" font-family="Segoe UI" font-size="13.5" font-weight="700" fill="#1B1C3A">5 / 6</text>
-<g id="progress-2">
-<rect x="32.0" y="373.0" width="296.0" height="5.0" rx="2.5" fill="#EFF0F6"/>
-<rect x="32.0" y="373.0" width="246.7" height="5.0" rx="2.5" fill="#2F2E80"/>
-</g>
-<text id="KYC-completed" x="32.0" y="402.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#4B4D6B">KYC completed</text>
-<text id="5-3" x="282.9" y="402.0" font-family="Segoe UI" font-size="13.5" font-weight="700" fill="#0E6B41">5 / 3  ✓</text>
-<g id="progress-3">
-<rect x="32.0" y="411.0" width="296.0" height="5.0" rx="2.5" fill="#EFF0F6"/>
-<rect x="32.0" y="411.0" width="296.0" height="5.0" rx="2.5" fill="#15925A"/>
-</g>
+<text id="Off-plan-visits-new-clients" x="32.0" y="372.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#4B4D6B">Off-plan visits (new clients, walk-ins)</text>
+<text id="2" x="320.2" y="372.0" font-family="Segoe UI" font-size="13.5" font-weight="700" fill="#1B1C3A">2</text>
+<text id="KYCs-completed" x="32.0" y="406.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#4B4D6B">KYCs completed</text>
+<text id="5" x="320.2" y="406.0" font-family="Segoe UI" font-size="13.5" font-weight="700" fill="#1B1C3A">5</text>
 <text id="Conversions-2" x="32.0" y="440.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#4B4D6B">Conversions</text>
-<text id="2-2" x="282.9" y="440.0" font-family="Segoe UI" font-size="13.5" font-weight="700" fill="#0E6B41">2 / 2  ✓</text>
-<g id="progress-4">
-<rect x="32.0" y="449.0" width="296.0" height="5.0" rx="2.5" fill="#EFF0F6"/>
-<rect x="32.0" y="449.0" width="296.0" height="5.0" rx="2.5" fill="#15925A"/>
-</g>
+<text id="2-2" x="320.2" y="440.0" font-family="Segoe UI" font-size="13.5" font-weight="700" fill="#1B1C3A">2</text>
 <g id="row-Sync">
 <rect x="16.0" y="490.0" width="328.0" height="56.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
 <g id="icon-refresh" transform="translate(30.0 507.0) scale(0.9167)">

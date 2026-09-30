@@ -742,7 +742,7 @@ def w13_reports():
              "Web · Kampala"],
             ["30 Sep 11:42", "Sarah Namuli", "Submitted application", "Florence Nambi", "Negotiation → Applied",
              "Phone · 0.3712, 32.6205"],
-            ["30 Sep 10:58", "Sarah Namuli", "Closed visit: not interested", "Joseph Kiggundu",
+            ["30 Sep 10:58", "Sarah Namuli", "Checked out visit: not interested", "Joseph Kiggundu",
              "Reason: already has a SACCO loan", "Phone · Ntinda"],
             ["30 Sep 09:12", "Patricia Nankya", "Changed weekly minimum", "Kampala East", "Visits 15 → 20 a week",
              "Web · Head office"],

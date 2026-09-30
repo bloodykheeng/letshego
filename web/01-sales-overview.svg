@@ -224,29 +224,29 @@
 <path d="M12 7a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#2A2973" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="Client-visits" x="366.0" y="216.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">Client visits</text>
-<g id="chip-Plan-9-300">
-<rect x="366.0" y="223.0" width="71.6" height="20.0" rx="10.0" fill="#E6E6F0"/>
-<text id="Plan-9-300" x="376.0" y="237.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#292871">Plan 9,300</text>
+<g id="chip-Plan-kept-70">
+<rect x="366.0" y="223.0" width="90.8" height="20.0" rx="10.0" fill="#E6E6F0"/>
+<text id="Plan-kept-70" x="376.0" y="237.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#292871">Plan kept 70%</text>
 </g>
 <text id="value" x="316.0" y="278.0" font-family="Segoe UI" font-size="30" font-weight="700" fill="#1B1C3A">8,412</text>
-<text id="sub" x="316.0" y="300.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#7D8099">6,930 different clients</text>
+<text id="sub" x="316.0" y="300.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#7D8099">6,510 on journey plans · 1,902 off plan</text>
 <g id="progress">
 <rect x="316.0" y="316.0" width="212.0" height="6.0" rx="3.0" fill="#EFF0F6"/>
-<rect x="316.0" y="316.0" width="190.8" height="6.0" rx="3.0" fill="#2F2E80"/>
+<rect x="316.0" y="316.0" width="148.4" height="6.0" rx="3.0" fill="#2F2E80"/>
 </g>
 </g>
-<g id="kpi-Interested">
+<g id="kpi-New-clients-added">
 <rect id="bg-2" x="564.0" y="180.0" width="252.0" height="150.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
 <rect id="icon-bg-2" x="584.0" y="200.0" width="38.0" height="38.0" rx="9" fill="#E4ECFA"/>
-<g id="icon-hand" transform="translate(593.0 209.0) scale(0.8333)">
-<path d="M18 11V6a2 2 0 0 0-4 0" fill="none" stroke="#2A64C5" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 10V4a2 2 0 0 0-4 0v2" fill="none" stroke="#2A64C5" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10 10.5V6a2 2 0 0 0-4 0v8" fill="none" stroke="#2A64C5" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15" fill="none" stroke="#2A64C5" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="icon-userplus" transform="translate(593.0 209.0) scale(0.8333)">
+<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" fill="none" stroke="#2A64C5" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 3a4 4 0 1 0 0 8 4 4 0 1 0 0-8z" fill="none" stroke="#2A64C5" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19 8v6" fill="none" stroke="#2A64C5" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 11h-6" fill="none" stroke="#2A64C5" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Interested" x="634.0" y="216.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">Interested</text>
-<text id="value-2" x="584.0" y="278.0" font-family="Segoe UI" font-size="30" font-weight="700" fill="#1B1C3A">3,286</text>
-<text id="sub-2" x="584.0" y="300.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#7D8099">39% of visits</text>
+<text id="New-clients-added" x="634.0" y="216.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#4B4D6B">New clients added</text>
+<text id="value-2" x="584.0" y="278.0" font-family="Segoe UI" font-size="30" font-weight="700" fill="#1B1C3A">2,140</text>
+<text id="sub-2" x="584.0" y="300.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#7D8099">at first visits · 61% interested</text>
 </g>
 <g id="kpi-KYC-validated">
 <rect id="bg-3" x="832.0" y="180.0" width="252.0" height="150.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>

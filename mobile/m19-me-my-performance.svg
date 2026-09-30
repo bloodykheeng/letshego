@@ -23,6 +23,17 @@
 <text id="Field-Sales-Agent-LU-0877" x="92.0" y="104.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#C9C8EE">Field Sales Agent · LU-0877</text>
 <text id="Supervisor-Moses-Okello" x="92.0" y="124.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#C9C8EE">Supervisor: Moses Okello</text>
 </g>
+<g id="status-bar-2">
+<text id="12-02-2" x="16.0" y="18.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#FFFFFF">12:02</text>
+<rect id="battery-2" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#FFFFFF" stroke-width="1.2"/>
+<rect x="324.0" y="10.0" width="13.0" height="6.0" rx="1" fill="#FFFFFF"/>
+<rect x="342.5" y="11.0" width="2.0" height="4.0" rx="1" fill="#FFFFFF"/>
+<rect id="signal-bar-5" x="292.0" y="14.0" width="3.0" height="3.0" rx="0.8" fill="#FFFFFF" fill-opacity="1"/>
+<rect id="signal-bar-6" x="297.0" y="11.8" width="3.0" height="5.2" rx="0.8" fill="#FFFFFF" fill-opacity="1"/>
+<rect id="signal-bar-7" x="302.0" y="9.6" width="3.0" height="7.4" rx="0.8" fill="#FFFFFF" fill-opacity="1"/>
+<rect id="signal-bar-8" x="307.0" y="7.4" width="3.0" height="9.6" rx="0.8" fill="#FFFFFF" fill-opacity="0.3"/>
+<text id="network-2" x="270.5" y="18.0" font-family="Segoe UI" font-size="10.5" font-weight="700" fill="#FFFFFF">4G</text>
+</g>
 <g id="quarter">
 <rect x="16.0" y="140.0" width="328.0" height="116.0" rx="16" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
 <text id="Q3-2026" x="32.0" y="168.0" font-family="Segoe UI" font-size="14" font-weight="700" fill="#1B1C3A">Q3 2026</text>
@@ -42,36 +53,24 @@
 <text id="Conversions" x="32.0" y="234.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Conversions</text>
 <text id="214" x="130.7" y="212.0" font-family="Segoe UI" font-size="21" font-weight="700" fill="#1B1C3A">214</text>
 <text id="Visits" x="130.7" y="234.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Visits</text>
-<text id="8-9" x="229.3" y="212.0" font-family="Segoe UI" font-size="21" font-weight="700" fill="#1B1C3A">8.9%</text>
-<text id="Conv-rate" x="229.3" y="234.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Conv. rate</text>
+<text id="82" x="229.3" y="212.0" font-family="Segoe UI" font-size="21" font-weight="700" fill="#1B1C3A">82%</text>
+<text id="Plan-kept" x="229.3" y="234.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">Plan kept</text>
 </g>
-<text id="This-week-s-minimums" x="16.0" y="282.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#1B1C3A">This week's minimums</text>
-<text id="set-by-Moses" x="274.8" y="282.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">set by Moses</text>
+<text id="This-week" x="16.0" y="282.0" font-family="Segoe UI" font-size="15" font-weight="700" fill="#1B1C3A">This week</text>
+<text id="W13-28-Sep-2-Oct" x="233.7" y="282.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7D8099">W13 · 28 Sep – 2 Oct</text>
 <rect x="16.0" y="296.0" width="328.0" height="176.0" rx="14" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
-<text id="Client-visits" x="32.0" y="326.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#4B4D6B">Client visits</text>
-<text id="17-20" x="283.5" y="326.0" font-family="Segoe UI" font-size="13.5" font-weight="700" fill="#1B1C3A">17 / 20</text>
+<text id="Journey-plan-visits-made" x="32.0" y="326.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#4B4D6B">Journey plan visits made</text>
+<text id="15-of-18" x="276.3" y="326.0" font-family="Segoe UI" font-size="13.5" font-weight="700" fill="#1B1C3A">15 of 18</text>
 <g id="progress">
 <rect x="32.0" y="335.0" width="296.0" height="5.0" rx="2.5" fill="#EFF0F6"/>
-<rect x="32.0" y="335.0" width="251.6" height="5.0" rx="2.5" fill="#2F2E80"/>
+<rect x="32.0" y="335.0" width="246.7" height="5.0" rx="2.5" fill="#2F2E80"/>
 </g>
-<text id="New-interested" x="32.0" y="364.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#4B4D6B">New interested</text>
-<text id="5-6" x="299.0" y="364.0" font-family="Segoe UI" font-size="13.5" font-weight="700" fill="#1B1C3A">5 / 6</text>
-<g id="progress-2">
-<rect x="32.0" y="373.0" width="296.0" height="5.0" rx="2.5" fill="#EFF0F6"/>
-<rect x="32.0" y="373.0" width="246.7" height="5.0" rx="2.5" fill="#2F2E80"/>
-</g>
-<text id="KYC-completed" x="32.0" y="402.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#4B4D6B">KYC completed</text>
-<text id="5-3" x="282.9" y="402.0" font-family="Segoe UI" font-size="13.5" font-weight="700" fill="#0E6B41">5 / 3  ✓</text>
-<g id="progress-3">
-<rect x="32.0" y="411.0" width="296.0" height="5.0" rx="2.5" fill="#EFF0F6"/>
-<rect x="32.0" y="411.0" width="296.0" height="5.0" rx="2.5" fill="#15925A"/>
-</g>
+<text id="Off-plan-visits-new-clients" x="32.0" y="372.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#4B4D6B">Off-plan visits (new clients, walk-ins)</text>
+<text id="2" x="320.2" y="372.0" font-family="Segoe UI" font-size="13.5" font-weight="700" fill="#1B1C3A">2</text>
+<text id="KYCs-completed" x="32.0" y="406.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#4B4D6B">KYCs completed</text>
+<text id="5" x="320.2" y="406.0" font-family="Segoe UI" font-size="13.5" font-weight="700" fill="#1B1C3A">5</text>
 <text id="Conversions-2" x="32.0" y="440.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#4B4D6B">Conversions</text>
-<text id="2-2" x="282.9" y="440.0" font-family="Segoe UI" font-size="13.5" font-weight="700" fill="#0E6B41">2 / 2  ✓</text>
-<g id="progress-4">
-<rect x="32.0" y="449.0" width="296.0" height="5.0" rx="2.5" fill="#EFF0F6"/>
-<rect x="32.0" y="449.0" width="296.0" height="5.0" rx="2.5" fill="#15925A"/>
-</g>
+<text id="2-2" x="320.2" y="440.0" font-family="Segoe UI" font-size="13.5" font-weight="700" fill="#1B1C3A">2</text>
 <g id="row-Sync">
 <rect x="16.0" y="490.0" width="328.0" height="56.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
 <g id="icon-refresh" transform="translate(30.0 507.0) scale(0.9167)">

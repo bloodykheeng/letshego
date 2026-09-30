@@ -233,7 +233,7 @@ def m02_sign_in():
 def m03_home():
     s = phone("M3 Home", bg=BG, dark=True)
     with s.g("header"):
-        s.rect(0, 0, MW, 196, fill=BRAND, name="header bg")
+        s.rect(0, 0, MW, 176, fill=BRAND, name="header bg")
         with s.g("facets", opacity=0.08):
             s.poly([(300, 30), (420, 230), (180, 230)], fill="#FFFFFF")
         s.text(PAD, 58, "Good morning,", 14, 400, "#C9C8EE")
@@ -242,67 +242,68 @@ def m03_home():
         s.icon("bell", MW - PAD - 24, 40, 24, "#FFFFFF", 2)
         s.circle(MW - PAD - 4, 42, 6, fill=YELLOW)
         with s.g("sync pill"):
-            s.rect(PAD, 122, 138, 24, fill="#FFFFFF", op=0.12, rx=12)
-            s.circle(PAD + 13, 134, 4, fill="#6EE7A8")
-            s.text(PAD + 24, 138.5, "Synced 11:04 · online", 11.5, 600, "#FFFFFF")
-    with s.g("week card"):
-        y = 158
-        s.rect(PAD, y, MW - 2 * PAD, 116, fill=CARD, rx=16, stroke=LINE)
-        s.text(PAD + 16, y + 28, "This week", 14, 700, INK)
-        s.text(MW - PAD - 16, y + 28, "W13 · your minimums", 12, 400, MUTED, anchor="end")
+            s.rect(PAD, 120, 138, 24, fill="#FFFFFF", op=0.12, rx=12)
+            s.circle(PAD + 13, 132, 4, fill="#6EE7A8")
+            s.text(PAD + 24, 136.5, "Synced 11:04 · online", 11.5, 600, "#FFFFFF")
+    status_bar(s, True, "11:05")
+    with s.g("today card"):
+        y = 156
+        s.rect(PAD, y, MW - 2 * PAD, 124, fill=CARD, rx=16, stroke=LINE)
+        s.text(PAD + 16, y + 27, "Today", 14, 700, INK)
+        s.text(MW - PAD - 16, y + 27, "Wed 30 Sep", 12, 400, MUTED, anchor="end")
         cw = (MW - 2 * PAD - 32) / 3
-        for i, (lab, v, t, col) in enumerate([("Visits", 16, 20, BRAND), ("KYC done", 4, 3, TEAL),
-                                              ("Conversions", 1, 2, GREEN)]):
+        for i, (big, small, lab) in enumerate([("2", " of 4", "Planned visits"), ("1", "", "Off-plan visit"),
+                                                ("0", "", "Conversions")]):
             x = PAD + 16 + i * cw
-            s.text(x, y + 62, f"{v}", 22, 700, INK)
-            s.text(x + tw(f"{v}", 22, 700) + 3, y + 62, f"/{t}", 13, 400, MUTED)
-            s.text(x, y + 82, lab, 12, 400, INK2)
-            progress(s, x, y + 94, cw - 14, v / t, col if v < t else GREEN, h=5)
-    with s.g("quarter card"):
-        y = 286
-        s.rect(PAD, y, MW - 2 * PAD, 62, fill=tint(YELLOW, 0.22), rx=14)
-        ring(s, PAD + 32, y + 31, 20, 5, 18 / 22, BRAND, bg="#FFFFFF")
-        s.text(PAD + 32, y + 35, "18", 11, 700, BRAND_D, anchor="middle")
-        s.text(PAD + 62, y + 27, "Q3: 18 of 22 conversions", 14, 700, INK)
-        s.text(PAD + 62, y + 46, "Last day of the quarter · 4 to go", 12, 400, YELLOW_D)
-    s.text(PAD, 380, "Due today", 15.5, 700, INK)
-    s.text(PAD + 84, 380, "from 2 journey plans", 12, 400, MUTED)
-    s.text(MW - PAD, 380, "Plans →", 13, 600, BRAND, anchor="end")
-    s.link(MW - 90, 362, 90, 28, "m04")
-    stops = [("+", "Joseph Kiggundu", "New client, off plan · not interested", RED, "Done"),
-             ("7", "Betty Nakimuli", "Kiwatule follow-ups · KYC validated", TEAL, "Done"),
-             ("8", "Florence Nambi", "Kiwatule follow-ups · 0.6 km", BRAND, "Next"),
-             ("9", "Ivan Kasozi", "Kiwatule follow-ups · 12:30", "#8A8DA6", "Planned")]
-    y = 394
-    for n, nm, sub, col, st in stops:
-        nxt = st == "Next"
-        with s.g(f"stop {nm}"):
-            s.rect(PAD, y, MW - 2 * PAD, 54, fill=CARD, rx=12, stroke=BRAND if nxt else LINE, sw=2 if nxt else 1)
-            s.circle(PAD + 28, y + 27, 14, fill=col if st != "Planned" else CARD, stroke=col, sw=2)
-            if st == "Done":
-                s.icon("check", PAD + 21, y + 20, 14, "#FFFFFF", 3)
+            s.text(x, y + 62, big, 22, 700, INK)
+            if small:
+                s.text(x + tw(big, 22, 700) + 2, y + 62, small, 13, 400, MUTED)
+            s.text(x, y + 81, lab, 12, 400, INK2)
+        s.line(PAD + 16, y + 94, MW - PAD - 16, y + 94, LINE2)
+        s.text(PAD + 16, y + 113, "Q3 target", 12, 600, INK2)
+        progress(s, PAD + 84, y + 106, 118, 18 / 22, BRAND, h=6)
+        s.text(MW - PAD - 16, y + 113, "18 of 22 · ends today", 12, 600, INK, anchor="end")
+    with s.g("next visit"):
+        y = 292
+        s.rect(PAD, y, MW - 2 * PAD, 104, fill=CARD, rx=14, stroke=BRAND, sw=2)
+        s.text(PAD + 14, y + 22, "NEXT VISIT · KIWATULE FOLLOW-UPS", 10.5, 700, BRAND, spacing=0.6)
+        s.text(PAD + 14, y + 46, CLIENT["name"], 16, 700, INK)
+        s.text(PAD + 14, y + 66, "Take KYC: ID and sales book", 12.5, 400, INK2, maxw=200)
+        s.icon("navigation", PAD + 14, y + 76, 13, MUTED, 2)
+        s.text(PAD + 32, y + 88, "0.6 km · 4 min · Kiwatule", 12, 400, MUTED)
+        button(s, MW - PAD - 14, y + 34, "Check in", "primary", icon="pin", h=38, size=13, anchor="end")
+        s.link(PAD, y, MW - 2 * PAD, 104, "m09")
+    s.text(PAD, 424, "Today's visits", 15, 700, INK)
+    s.text(MW - PAD, 424, "Plans →", 13, 600, BRAND, anchor="end")
+    s.link(MW - 90, 406, 90, 28, "m04")
+    rows = [("Kenneth Lubega", "09:05 · KYC captured, letter pending", "done", None),
+            ("Betty Nakimuli", "10:20 · KYC validated", "done", None),
+            (CLIENT["name"], "Next · interested, ready for KYC", "next", None),
+            ("Ivan Kasozi", "12:30 · negotiation", "later", None),
+            ("Joseph Kiggundu", "10:58 · new client · not interested", "done", "Off plan")]
+    y = 436
+    for nm, sub, st, tag in rows:
+        with s.g(f"visit {nm}"):
+            s.rect(PAD, y, MW - 2 * PAD, 44, fill=CARD, rx=10, stroke=LINE)
+            if st == "done":
+                s.circle(PAD + 22, y + 22, 11, fill=GREEN if not tag else "#8A8DA6")
+                s.icon("check", PAD + 16.5, y + 16.5, 11, "#FFFFFF", 3.2)
+            elif st == "next":
+                s.circle(PAD + 22, y + 22, 11, fill=BRAND)
+                s.icon("navigation", PAD + 16, y + 16, 12, "#FFFFFF", 2.2)
             else:
-                s.text(PAD + 28, y + 31.5, n, 12, 700, "#FFFFFF" if nxt else INK2, anchor="middle")
-            s.text(PAD + 52, y + 23, nm, 14, 600, INK)
-            s.text(PAD + 52, y + 41, sub, 12, 400, MUTED, maxw=200)
-            if nxt:
-                button(s, MW - PAD - 12, y + 11, "Check in", "primary", h=32, size=12.5, anchor="end")
-            else:
-                s.text(MW - PAD - 14, y + 32, st, 12, 600, MUTED, anchor="end")
-        if nxt:
-            s.link(PAD, y, MW - 2 * PAD, 54, "m09")
-        y += 60
-    with s.g("follow-ups"):
-        y += 2
-        s.rect(PAD, y, MW - 2 * PAD, 50, fill=CARD, rx=12, stroke=LINE)
-        s.circle(PAD + 28, y + 25, 15, fill=tint(BLUE, 0.14))
-        s.icon("calendar", PAD + 20, y + 17, 16, BLUE, 2.2)
-        s.text(PAD + 52, y + 22, "6 follow-ups due this week", 13.5, 600, INK)
-        s.text(PAD + 52, y + 39, "Interested clients waiting for KYC", 12, 400, MUTED)
-        s.icon("chevright", MW - PAD - 28, y + 15, 20, FAINT)
-        s.link(PAD, y, MW - 2 * PAD, 50, "m17")
+                s.circle(PAD + 22, y + 22, 11, fill=CARD, stroke="#C4C7D6", sw=2)
+                s.icon("clock", PAD + 15, y + 15, 14, MUTED, 2)
+            s.text(PAD + 42, y + 19, nm, 13.5, 600, INK)
+            s.text(PAD + 42, y + 36, sub, 11.5, 400, MUTED, maxw=210)
+            if tag:
+                chip(s, MW - PAD - 10 - tw(tag, 10.5, 600) - 20, y + 12, tag, AMBER, h=20, size=10.5)
+        if st == "next":
+            s.link(PAD, y, MW - 2 * PAD, 44, "m09")
+        y += 48
     bottom_nav(s, "Home")
     return s
+
 
 
 MY_PLANS = [
@@ -992,6 +993,7 @@ def m19_me():
         s.text(PAD + 76, 82, "Sarah Namuli", 19, 700, "#FFFFFF")
         s.text(PAD + 76, 104, "Field Sales Agent · LU-0877", 12.5, 400, "#C9C8EE")
         s.text(PAD + 76, 124, "Supervisor: Moses Okello", 12.5, 400, "#C9C8EE")
+    status_bar(s, True, "12:02")
     with s.g("quarter"):
         y = 140
         s.rect(PAD, y, MW - 2 * PAD, 116, fill=CARD, rx=16, stroke=LINE)
@@ -999,23 +1001,23 @@ def m19_me():
         chip(s, MW - PAD - 16 - tw("Rank 3 of 62", 11, 600) - 34, y + 12, "Rank 3 of 62", GREEN, h=22, size=11,
              icon="trophy")
         cw = (MW - 2 * PAD - 32) / 3
-        for i, (v, lab) in enumerate([("19/22", "Conversions"), ("214", "Visits"), ("8.9%", "Conv. rate")]):
+        for i, (v, lab) in enumerate([("19/22", "Conversions"), ("214", "Visits"), ("82%", "Plan kept")]):
             x = PAD + 16 + i * cw
             s.text(x, y + 72, v, 21, 700, INK)
             s.text(x, y + 94, lab, 12, 400, MUTED)
     y = 282
-    s.text(PAD, y, "This week's minimums", 15, 700, INK)
-    s.text(MW - PAD, y, "set by Moses", 12, 400, MUTED, anchor="end")
+    s.text(PAD, y, "This week", 15, 700, INK)
+    s.text(MW - PAD, y, "W13 · 28 Sep – 2 Oct", 12, 400, MUTED, anchor="end")
     y += 14
     s.rect(PAD, y, MW - 2 * PAD, 176, fill=CARD, rx=14, stroke=LINE)
-    for i, (lab, v, t) in enumerate([("Client visits", 17, 20), ("New interested", 5, 6), ("KYC completed", 5, 3),
-                                     ("Conversions", 2, 2)]):
-        yy = y + 30 + i * 38
+    s.text(PAD + 16, y + 30, "Journey plan visits made", 13.5, 400, INK2)
+    s.text(MW - PAD - 16, y + 30, "15 of 18", 13.5, 700, INK, anchor="end")
+    progress(s, PAD + 16, y + 39, MW - 2 * PAD - 32, 15 / 18, BRAND, h=5)
+    for i, (lab, v) in enumerate([("Off-plan visits (new clients, walk-ins)", "2"), ("KYCs completed", "5"),
+                                  ("Conversions", "2")]):
+        yy = y + 76 + i * 34
         s.text(PAD + 16, yy, lab, 13.5, 400, INK2)
-        ok = v >= t
-        s.text(MW - PAD - 16, yy, f"{v} / {t}" + ("  ✓" if ok else ""), 13.5, 700, GREEN_D if ok else INK,
-               anchor="end")
-        progress(s, PAD + 16, yy + 9, MW - 2 * PAD - 32, v / t, GREEN if ok else BRAND, h=5)
+        s.text(MW - PAD - 16, yy, v, 13.5, 700, INK, anchor="end")
     y += 194
     rows = [("refresh", "Sync", "All synced 12:01 · nothing waiting", GREEN),
             ("map", "Offline maps", "Kampala East downloaded", BRAND),

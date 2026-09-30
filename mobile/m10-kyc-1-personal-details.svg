@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
 <title>M10 KYC 1: personal details</title>
-<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#FFFFFF"/>
+<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#FFFFFE"/>
 <g id="status-bar">
 <text id="11-16" x="16.0" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1B1C3A">11:16</text>
 <rect id="battery" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#1B1C3A" stroke-width="1.2"/>
@@ -13,7 +13,7 @@
 <text id="network" x="270.5" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#1B1C3A">4G</text>
 </g>
 <g id="app-bar">
-<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#FFFFFF"/>
+<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#FFFFFE"/>
 <line x1="0.0" y1="80.0" x2="360.0" y2="80.0" stroke="#E4E5EF" stroke-width="1"/>
 <g id="icon-arrowleft" transform="translate(16.0 40.0) scale(1.0000)">
 <path d="M19 12H5" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
@@ -38,7 +38,7 @@
 <g id="field-Full-name-as-on-National-ID">
 <text id="label" x="16.0" y="142.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Full name (as on National ID)</text>
 <text id="required" x="191.4" y="142.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#C2362F">*</text>
-<rect id="input" x="16.0" y="150.0" width="328.0" height="46.0" rx="12" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect id="input" x="16.0" y="150.0" width="328.0" height="46.0" rx="12" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <g id="icon-user" transform="translate(28.0 164.0) scale(0.7500)">
 <path d="M12 3a5 5 0 1 0 0 10 5 5 0 1 0 0-10z" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M20 21a8 8 0 0 0-16 0" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
@@ -48,7 +48,7 @@
 <g id="field-Phone">
 <text id="label-2" x="16.0" y="220.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Phone</text>
 <text id="required-2" x="57.4" y="220.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#C2362F">*</text>
-<rect id="input-2" x="16.0" y="228.0" width="328.0" height="46.0" rx="12" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect id="input-2" x="16.0" y="228.0" width="328.0" height="46.0" rx="12" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <g id="icon-phone" transform="translate(28.0 242.0) scale(0.7500)">
 <path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 18h.01" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
@@ -64,14 +64,14 @@
 <text id="Date-of-birth" x="186.0" y="320.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Date of birth</text>
 <rect x="16.0" y="328.0" width="76.0" height="42.0" rx="8" fill="#2F2E80"/>
 <text id="Woman" x="30.2" y="354.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF">Woman</text>
-<rect x="95.0" y="328.0" width="76.0" height="42.0" rx="8" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="95.0" y="328.0" width="76.0" height="42.0" rx="8" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="Man" x="119.3" y="354.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#4B4D6B">Man</text>
-<rect x="186.0" y="328.0" width="158.0" height="42.0" rx="8" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="186.0" y="328.0" width="158.0" height="42.0" rx="8" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="12-Mar-1992-34" x="198.0" y="354.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#1B1C3A">12 Mar 1992 (34)</text>
 </g>
 <g id="field-Marital-status">
 <text id="label-3" x="16.0" y="398.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Marital status</text>
-<rect id="input-3" x="16.0" y="406.0" width="158.0" height="44.0" rx="12" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect id="input-3" x="16.0" y="406.0" width="158.0" height="44.0" rx="12" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="value-3" x="30.0" y="433.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#1B1C3A">Married</text>
 <g id="icon-chevdown" transform="translate(142.0 419.0) scale(0.7500)">
 <path d="M6 9l6 6 6-6" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
@@ -79,14 +79,14 @@
 </g>
 <g id="field-Dependants">
 <text id="label-4" x="186.0" y="398.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Dependants</text>
-<rect id="input-4" x="186.0" y="406.0" width="158.0" height="44.0" rx="12" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect id="input-4" x="186.0" y="406.0" width="158.0" height="44.0" rx="12" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="value-4" x="200.0" y="433.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#1B1C3A">3</text>
 <text id="suffix" x="308.6" y="432.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">− +</text>
 </g>
 <g id="field-Occupation">
 <text id="label-5" x="16.0" y="476.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Occupation</text>
 <text id="required-3" x="87.5" y="476.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#C2362F">*</text>
-<rect id="input-5" x="16.0" y="484.0" width="328.0" height="46.0" rx="12" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect id="input-5" x="16.0" y="484.0" width="328.0" height="46.0" rx="12" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="value-5" x="30.0" y="512.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#1B1C3A">Self-employed · tailor (6 yrs)</text>
 <g id="icon-chevdown-2" transform="translate(312.0 498.0) scale(0.7500)">
 <path d="M6 9l6 6 6-6" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
@@ -94,7 +94,7 @@
 </g>
 <g id="field-Education">
 <text id="label-6" x="16.0" y="554.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Education</text>
-<rect id="input-6" x="16.0" y="562.0" width="328.0" height="46.0" rx="12" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect id="input-6" x="16.0" y="562.0" width="328.0" height="46.0" rx="12" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="value-6" x="30.0" y="590.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#1B1C3A">Secondary (S4)</text>
 <g id="icon-chevdown-3" transform="translate(312.0 576.0) scale(0.7500)">
 <path d="M6 9l6 6 6-6" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
@@ -103,7 +103,7 @@
 <g id="field-Home-business-location">
 <text id="label-7" x="16.0" y="632.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Home / business location</text>
 <text id="required-4" x="169.5" y="632.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#C2362F">*</text>
-<rect id="input-7" x="16.0" y="640.0" width="328.0" height="46.0" rx="12" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect id="input-7" x="16.0" y="640.0" width="328.0" height="46.0" rx="12" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <g id="icon-pin" transform="translate(28.0 654.0) scale(0.7500)">
 <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 7a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
@@ -111,10 +111,10 @@
 <text id="value-7" x="56.0" y="668.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#1B1C3A">Kiwatule, Nakawa · from GPS</text>
 </g>
 <g id="footer">
-<rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#FFFFFF"/>
+<rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#FFFFFE"/>
 <line x1="0.0" y1="716.0" x2="360.0" y2="716.0" stroke="#E4E5EF" stroke-width="1"/>
 <g id="button-Save">
-<rect x="16.0" y="730.0" width="100.0" height="48.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<rect x="16.0" y="730.0" width="100.0" height="48.0" rx="12" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <text id="Save" x="51.3" y="759.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Save</text>
 </g>
 <g id="button-Next-ID-photos">

@@ -32,6 +32,7 @@ _src/briefing.py ────────────►  briefing.html         
 | `index.html` | Redirects to `prototype.html`. Carries the share-preview tags. |
 | `prototype.html` | **Generated.** The clickable prototype. Edit the `PROTO` template in `_src/build.py`, not this file. |
 | `web/`, `mobile/` | **Generated** SVG screens. File names come from each screen's title. |
+| `web-dark/`, `mobile-dark/` | **Generated** dark-mode versions of every screen (see `_src/theme.py`). |
 | `all-screens.svg` | **Generated** by `_src/combine.py`. |
 | `BRIEFING.md` | Team briefing (hand-written). `briefing.html` is **generated** from it by `_src/briefing.py`. |
 | `favicon.svg`, `favicon-32.png`, `apple-touch-icon.png`, `og-image.jpg` | Tab icon and link-preview image (1200×630). |
@@ -41,7 +42,8 @@ _src/briefing.py ────────────►  briefing.html         
 | `_src/web.py` | Web shell (sidebar, top bar, Day/Week/Quarter/Year switch) and screens 00–06. |
 | `_src/web2.py` | Web screens 07–13: approvals, reasons, plans, handover, users, reports. |
 | `_src/mobile.py` | Phone shell (status bar, app bar, bottom nav with Visit button) and screens M1–M16. |
-| `_src/build.py` | Builds every screen and writes `prototype.html`. |
+| `_src/theme.py` | Dark mode: remaps each screen's colours (light surfaces → dark, dark text → light, brand colours kept). |
+| `_src/build.py` | Builds every screen (light and dark) and writes `prototype.html`. |
 | `_src/data/districts.geojson` | Uganda's 137 district boundaries, copied from the SNV prototype. |
 | `_previews/` | PNG renders (git-ignored). |
 
@@ -96,7 +98,8 @@ python briefing.py           # rewrite briefing.html from BRIEFING.md
 - Shows one screen scaled to the window; hotspots are placed in percentages so they stay aligned at any size.
 - `#w05` in the URL opens that screen. No hash opens `w00` (or `m01` on phones).
 - Click empty space to flash the hotspots; **H** keeps them visible; `?show` turns them on.
-- **Keys:** ← → previous/next · **F** full screen · **Esc** exit.
+- **Keys:** ← → previous/next · **F** full screen · **D** dark mode · **Esc** exit.
+- **Light / dark:** the ☾ Dark button (or **D**) switches every screen to its dark version; the choice is remembered in the browser. `CARD` is `#FFFFFE`, not pure white, so the dark-mode remap can tell cards from white text. Colours that must not change (yellows, ink on the yellow hero card, deep indigo on yellow) are listed in `KEEP` in `theme.py`.
 - Splash `m01` moves to sign-in by itself after 1.8 s.
 - Loads every SVG up front; the bar shows "✓ Offline-ready" when done.
 - **≤ 760px (phones):** compact bar, app screens fill the screen with no phone frame, web screens fit the width with a "turn sideways" hint.

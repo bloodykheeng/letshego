@@ -137,7 +137,7 @@ def pills(s: SVG, x0, y, items, maxw=MW - PAD, size=12.5, h=32, gap=8):
             s.rect(x, y, w, h, fill=tint(BRAND, 0.1) if on else CARD, rx=h / 2, stroke=BRAND if on else "#CDD0DE")
             if on:
                 s.icon("check", x + 11, y + (h - 14) / 2, 14, BRAND, 2.6)
-            s.text(x + (29 if on else 13), y + h / 2 + size * 0.36, lab, size, 600, BRAND_D if on else INK2)
+            s.text(x + (29 if on else 13), y + h / 2 + size * 0.36, lab, size, 600, BRAND if on else INK2)
         x += w + gap
     return y + h
 
@@ -232,6 +232,12 @@ HERO = "#16171F"
 
 def m03_home():
     s = phone("M3 Home", bg=BG)
+    s.raw('<defs><linearGradient id="wash" x1="0" y1="0" x2="0" y2="1">'
+          f'<stop offset="0" stop-color="{tint(YELLOW, 0.26)}"/><stop offset="1" stop-color="{BG}"/>'
+          '</linearGradient><linearGradient id="heroGrad" x1="0" y1="0" x2="1" y2="1">'
+          '<stop offset="0" stop-color="#FFE45C"/><stop offset="1" stop-color="#FBC805"/></linearGradient></defs>')
+    s.rect(0, 0, MW, 330, fill="url(#wash)", name="warm wash")
+    status_bar(s, False, "11:05")
     with s.g("top"):
         s.circle(PAD + 22, 70, 22, fill=YELLOW)
         s.text(PAD + 22, 76, "SN", 15, 700, BRAND_D, anchor="middle")
@@ -244,25 +250,28 @@ def m03_home():
         s.circle(MW - PAD - 12, 60, 4.5, fill=RED)
     with s.g("hero"):
         y = 108
-        s.rect(PAD, y, MW - 2 * PAD, 164, fill=HERO, rx=24, name="hero bg")
-        s.text(PAD + 20, y + 30, "Q3 CONVERSIONS", 10.5, 700, "#A7A9B8", spacing=1)
-        s.text(PAD + 20, y + 80, "18", 46, 700, "#FFFFFF")
-        s.text(PAD + 22 + tw("18", 46, 700), y + 80, "/22", 20, 400, "#7E8094")
-        s.text(PAD + 20, y + 104, "4 to go · quarter ends today", 12.5, 400, "#C9CAD6")
+        HI, HM = "#231F0F", "#6B5A1E"
+        s.rect(PAD, y, MW - 2 * PAD, 164, fill="url(#heroGrad)", rx=24, name="hero bg")
+        s.poly([(MW - PAD - 128, y + 164), (MW - PAD, y + 36), (MW - PAD, y + 140), (MW - PAD - 24, y + 164)],
+               fill="#FFFFFF", op=0.22, name="facet")
+        s.text(PAD + 20, y + 30, "Q3 CONVERSIONS", 10.5, 700, HM, spacing=1)
+        s.text(PAD + 20, y + 80, "18", 46, 700, HI)
+        s.text(PAD + 22 + tw("18", 46, 700), y + 80, "/22", 20, 600, HM)
+        s.text(PAD + 20, y + 104, "4 to go · quarter ends today", 12.5, 600, HM)
         with s.g("mini chart"):
             weeks = [22, 18, 15, 14, 16, 15, 17, 14, 16, 17, 16, 18, 16]
             x0, x1, base = MW - PAD - 136, MW - PAD - 20, y + 86
             bw = (x1 - x0) / 13
-            s.text(x0, y + 30, "Visits / week", 10.5, 600, "#A7A9B8")
+            s.text(x0, y + 30, "Visits / week", 10.5, 700, HM)
             for i, v in enumerate(weeks):
                 h_ = 44 * v / 22
-                s.rect(x0 + i * bw + 2, base - h_, bw - 4, h_, fill=YELLOW if i == 12 else "#3A3C4C", rx=2.5)
-            s.text(x0, y + 104, "✓ no quiet weeks", 10.5, 600, "#6EE7A8")
-        s.rect(PAD + 20, y + 122, MW - 2 * PAD - 40, 6, fill="#2C2E3A", rx=3)
-        s.rect(PAD + 20, y + 122, (MW - 2 * PAD - 40) * 18 / 22, 6, fill=YELLOW, rx=3)
-        s.text(PAD + 20, y + 150, "82% of target", 12, 600, "#FFFFFF")
-        s.icon("trophy", MW - PAD - 120, y + 138, 14, YELLOW, 2)
-        s.text(MW - PAD - 20, y + 150, "Rank 3 of 62", 12, 600, YELLOW, anchor="end")
+                s.rect(x0 + i * bw + 2, base - h_, bw - 4, h_, fill=HI, rx=2.5, op=1 if i == 12 else 0.22)
+            s.text(x0, y + 104, "✓ no quiet weeks", 10.5, 700, "#0D5A34")
+        s.rect(PAD + 20, y + 122, MW - 2 * PAD - 40, 6, fill="#FFFFFF", rx=3, op=0.55)
+        s.rect(PAD + 20, y + 122, (MW - 2 * PAD - 40) * 18 / 22, 6, fill=HI, rx=3)
+        s.text(PAD + 20, y + 150, "82% of target", 12, 700, HI)
+        s.icon("trophy", MW - PAD - 120, y + 138, 14, HI, 2)
+        s.text(MW - PAD - 20, y + 150, "Rank 3 of 62", 12, 700, HI, anchor="end")
     with s.g("stats"):
         y = 286
         cw = (MW - 2 * PAD - 16) / 3

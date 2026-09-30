@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
 <title>M12 KYC 3: earnings and collateral</title>
 <defs><filter id="soft" x="-20%" y="-20%" width="140%" height="170%"><feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#1B1C3A" flood-opacity="0.07"/></filter></defs>
-<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#FFFFFF"/>
+<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#FFFFFE"/>
 <g id="status-bar">
 <text id="11-22" x="16.0" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1B1C3A">11:22</text>
 <rect id="battery" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#1B1C3A" stroke-width="1.2"/>
@@ -14,7 +14,7 @@
 <text id="network" x="270.5" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#1B1C3A">4G</text>
 </g>
 <g id="app-bar">
-<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#FFFFFF"/>
+<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#FFFFFE"/>
 <line x1="0.0" y1="80.0" x2="360.0" y2="80.0" stroke="#E4E5EF" stroke-width="1"/>
 <g id="icon-arrowleft" transform="translate(16.0 40.0) scale(1.0000)">
 <path d="M19 12H5" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
@@ -39,7 +39,7 @@
 <g id="field-Main-source-of-income">
 <text id="label" x="16.0" y="142.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Main source of income</text>
 <text id="required" x="154.5" y="142.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#C2362F">*</text>
-<rect id="input" x="16.0" y="150.0" width="328.0" height="46.0" rx="12" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect id="input" x="16.0" y="150.0" width="328.0" height="46.0" rx="12" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="value" x="30.0" y="178.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#1B1C3A">Business · tailoring shop</text>
 <g id="icon-chevdown" transform="translate(312.0 164.0) scale(0.7500)">
 <path d="M6 9l6 6 6-6" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
@@ -48,14 +48,14 @@
 <g id="field-Monthly-income">
 <text id="label-2" x="16.0" y="220.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Monthly income</text>
 <text id="required-2" x="116.5" y="220.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#C2362F">*</text>
-<rect id="input-2" x="16.0" y="228.0" width="158.0" height="44.0" rx="12" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect id="input-2" x="16.0" y="228.0" width="158.0" height="44.0" rx="12" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="value-2" x="30.0" y="255.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#1B1C3A">2,400,000</text>
 <text id="suffix" x="134.7" y="254.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">UGX</text>
 </g>
 <g id="field-Monthly-expenses">
 <text id="label-3" x="186.0" y="220.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Monthly expenses</text>
 <text id="required-3" x="297.1" y="220.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#C2362F">*</text>
-<rect id="input-3" x="186.0" y="228.0" width="158.0" height="44.0" rx="12" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect id="input-3" x="186.0" y="228.0" width="158.0" height="44.0" rx="12" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="value-3" x="200.0" y="255.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#1B1C3A">1,150,000</text>
 <text id="suffix-2" x="304.7" y="254.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">UGX</text>
 </g>
@@ -65,23 +65,23 @@
 <g id="icon-check" transform="translate(27.0 319.0) scale(0.5833)">
 <path d="M20 6L9 17l-5-5" fill="none" stroke="#2F2E80" stroke-width="4.46" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="None" x="45.0" y="330.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1F1E57">None</text>
+<text id="None" x="45.0" y="330.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#2F2E80">None</text>
 </g>
 <g id="pill-Bank">
-<rect x="93.0" y="310.0" width="53.9" height="32.0" rx="16.0" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="93.0" y="310.0" width="53.9" height="32.0" rx="16.0" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="Bank" x="106.0" y="330.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Bank</text>
 </g>
 <g id="pill-SACCO">
-<rect x="154.9" y="310.0" width="65.5" height="32.0" rx="16.0" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="154.9" y="310.0" width="65.5" height="32.0" rx="16.0" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="SACCO" x="167.9" y="330.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">SACCO</text>
 </g>
 <g id="pill-Mobile-loan">
-<rect x="228.4" y="310.0" width="93.6" height="32.0" rx="16.0" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="228.4" y="310.0" width="93.6" height="32.0" rx="16.0" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="Mobile-loan" x="241.4" y="330.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Mobile loan</text>
 </g>
 <text id="Collateral" x="16.0" y="364.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1B1C3A">Collateral</text>
 <g id="collateral-Motorcycle-UBF-412K">
-<rect x="16.0" y="376.0" width="328.0" height="58.0" rx="12" fill="#FFFFFF" filter="url(#soft)"/>
+<rect x="16.0" y="376.0" width="328.0" height="58.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
 <rect x="26.0" y="385.0" width="40.0" height="40.0" rx="8" fill="#EAEAF2"/>
 <g id="icon-briefcase" transform="translate(36.0 395.0) scale(0.8333)">
 <path d="M4 7h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z" fill="none" stroke="#2F2E80" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
@@ -92,7 +92,7 @@
 <text id="UGX-4-5M" x="266.0" y="410.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#1B1C3A">UGX 4.5M</text>
 </g>
 <g id="collateral-Sewing-machines-3">
-<rect x="16.0" y="450.0" width="328.0" height="58.0" rx="12" fill="#FFFFFF" filter="url(#soft)"/>
+<rect x="16.0" y="450.0" width="328.0" height="58.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
 <rect x="26.0" y="459.0" width="40.0" height="40.0" rx="8" fill="#EAEAF2"/>
 <g id="icon-briefcase-2" transform="translate(36.0 469.0) scale(0.8333)">
 <path d="M4 7h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z" fill="none" stroke="#2F2E80" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
@@ -115,10 +115,10 @@
 <text id="Signed-on-screen-11-23" x="58.0" y="595.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Signed on screen 11:23</text>
 </g>
 <g id="footer">
-<rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#FFFFFF"/>
+<rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#FFFFFE"/>
 <line x1="0.0" y1="716.0" x2="360.0" y2="716.0" stroke="#E4E5EF" stroke-width="1"/>
 <g id="button-Back">
-<rect x="16.0" y="730.0" width="100.0" height="48.0" rx="12" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<rect x="16.0" y="730.0" width="100.0" height="48.0" rx="12" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <text id="Back" x="51.2" y="759.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Back</text>
 </g>
 <g id="button-Validate-KYC">

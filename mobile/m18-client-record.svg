@@ -14,7 +14,7 @@
 <text id="network" x="270.5" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#1B1C3A">4G</text>
 </g>
 <g id="app-bar">
-<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#FFFFFF"/>
+<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#FFFFFE"/>
 <line x1="0.0" y1="80.0" x2="360.0" y2="80.0" stroke="#E4E5EF" stroke-width="1"/>
 <g id="icon-arrowleft" transform="translate(16.0 40.0) scale(1.0000)">
 <path d="M19 12H5" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
@@ -29,7 +29,7 @@
 </g>
 </g>
 <g id="client-header">
-<rect x="16.0" y="92.0" width="328.0" height="150.0" rx="14" fill="#FFFFFF" filter="url(#soft)"/>
+<rect x="16.0" y="92.0" width="328.0" height="150.0" rx="14" fill="#FFFFFE" filter="url(#soft)"/>
 <g id="avatar-FN">
 <circle cx="52.0" cy="128.0" r="22.0" fill="#DAEEE5"/>
 <text id="FN" x="40.9" y="135.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17.6" font-weight="600" fill="#138351">FN</text>
@@ -126,7 +126,7 @@
 <text id="Today-11-42-LU-APP-2609-04" x="54.0" y="574.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Today 11:42 · LU-APP-2609-04817</text>
 </g>
 <g id="step-Supervisor-decision">
-<circle cx="32.0" cy="606.0" r="11.0" fill="#FFFFFF" stroke="#C4C7D6" stroke-width="2"/>
+<circle cx="32.0" cy="606.0" r="11.0" fill="#FFFFFE" stroke="#C4C7D6" stroke-width="2"/>
 <g id="icon-clock" transform="translate(25.0 599.0) scale(0.5833)">
 <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z" fill="none" stroke="#7D8099" stroke-width="3.43" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 6v6l4 2" fill="none" stroke="#7D8099" stroke-width="3.43" stroke-linecap="round" stroke-linejoin="round"/>
@@ -144,7 +144,7 @@
 <text id="You-ll-be-notified-then-pl" x="60.0" y="695.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">You'll be notified · then plan the disbursement visit</text>
 </g>
 <g id="footer">
-<rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#FFFFFF"/>
+<rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#FFFFFE"/>
 <line x1="0.0" y1="716.0" x2="360.0" y2="716.0" stroke="#E4E5EF" stroke-width="1"/>
 <g id="button-Start-a-visit-with-Florence">
 <rect x="16.0" y="730.0" width="328.0" height="48.0" rx="12" fill="#2F2E80"/>

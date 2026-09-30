@@ -3,7 +3,7 @@
 <defs><filter id="soft" x="-20%" y="-20%" width="140%" height="170%"><feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#1B1C3A" flood-opacity="0.07"/></filter></defs>
 <rect id="page-background" x="0.0" y="0.0" width="1920.0" height="1080.0" fill="#F6F7F9"/>
 <g id="sidebar">
-<rect id="sidebar-bg" x="0.0" y="0.0" width="264.0" height="1080.0" fill="#FFFFFF"/>
+<rect id="sidebar-bg" x="0.0" y="0.0" width="264.0" height="1080.0" fill="#FFFFFE"/>
 <line x1="264.0" y1="0.0" x2="264.0" y2="1080.0" stroke="#E4E5EF" stroke-width="1"/>
 <g id="letshego-wordmark">
 <g id="letshego-triangle">
@@ -87,7 +87,7 @@
 <path d="M8 21l-4-4 4-4" fill="none" stroke="#2F2E80" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M4 17h16" fill="none" stroke="#2F2E80" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="label-8" x="62.0" y="495.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1F1E57">Agent handover</text>
+<text id="label-8" x="62.0" y="495.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#2F2E80">Agent handover</text>
 </g>
 <text id="nav-group-ADMIN" x="28.0" y="524.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#AAACC0" letter-spacing="1.2">ADMIN</text>
 <g id="nav-Users-territories">
@@ -131,7 +131,7 @@
 </g>
 </g>
 <g id="top-bar">
-<rect id="top-bar-bg" x="264.0" y="0.0" width="1656.0" height="68.0" fill="#FFFFFF"/>
+<rect id="top-bar-bg" x="264.0" y="0.0" width="1656.0" height="68.0" fill="#FFFFFE"/>
 <line x1="264.0" y1="68.0" x2="1920.0" y2="68.0" stroke="#E4E5EF" stroke-width="1"/>
 <text id="crumb-Planning" x="296.0" y="40.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#7D8099">Planning</text>
 <g id="icon-chevright" transform="translate(355.8 29.0) scale(0.6667)">
@@ -168,7 +168,7 @@
 <text id="Year" x="1439.1" y="38.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Year</text>
 </g>
 <g id="date-range">
-<rect x="1035.6" y="16.0" width="188.2" height="36.0" rx="8" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<rect x="1035.6" y="16.0" width="188.2" height="36.0" rx="8" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <g id="icon-calendar" transform="translate(1047.6 25.0) scale(0.7500)">
 <path d="M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" fill="none" stroke="#2F2E80" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M16 2v4" fill="none" stroke="#2F2E80" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
@@ -180,7 +180,7 @@
 </g>
 <text id="page-title" x="296.0" y="126.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="700" fill="#1B1C3A">Agent handover</text>
 <text id="page-subtitle" x="296.0" y="152.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#7D8099">When an agent leaves, their clients stay with Letshego and move to another agent with their full history</text>
-<rect id="Leaving-agent-bg" x="296.0" y="180.0" width="420.0" height="872.0" rx="12" fill="#FFFFFF" filter="url(#soft)"/>
+<rect id="Leaving-agent-bg" x="296.0" y="180.0" width="420.0" height="872.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
 <text id="title" x="320.0" y="218.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#1B1C3A">Leaving agent</text>
 <text id="subtitle" x="320.0" y="240.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Resigned · last day today · account locks at 18:00</text>
 <g id="leaver">
@@ -236,7 +236,7 @@
 </g>
 </g>
 </g>
-<rect id="Reassign-clients-bg" x="736.0" y="180.0" width="780.0" height="872.0" rx="12" fill="#FFFFFF" filter="url(#soft)"/>
+<rect id="Reassign-clients-bg" x="736.0" y="180.0" width="780.0" height="872.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
 <text id="title-2" x="760.0" y="218.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#1B1C3A">Reassign clients</text>
 <text id="subtitle-2" x="760.0" y="240.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Suggested by territory and each agent's current load · change any row</text>
 <g id="table">
@@ -261,7 +261,7 @@
 <text id="Negotiation-2" x="1027.0" y="329.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#C8880A">Negotiation</text>
 </g>
 <text id="Namugongo" x="1167.0" y="329.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Namugongo</text>
-<rect x="1313.0" y="309.0" width="176.0" height="32.0" rx="6" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<rect x="1313.0" y="309.0" width="176.0" height="32.0" rx="6" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <text id="Peter-Kato" x="1325.0" y="330.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#1B1C3A">Peter Kato</text>
 <g id="icon-chevdown" transform="translate(1463.0 317.0) scale(0.6667)">
 <path d="M6 9l6 6 6-6" fill="none" stroke="#7D8099" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
@@ -282,7 +282,7 @@
 <text id="Interested-2" x="1027.0" y="391.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#2962C1">Interested</text>
 </g>
 <text id="Kyaliwajjala" x="1167.0" y="391.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Kyaliwajjala</text>
-<rect x="1313.0" y="371.0" width="176.0" height="32.0" rx="6" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<rect x="1313.0" y="371.0" width="176.0" height="32.0" rx="6" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <text id="Ruth-Achieng" x="1325.0" y="392.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#1B1C3A">Ruth Achieng</text>
 <g id="icon-chevdown-2" transform="translate(1463.0 379.0) scale(0.6667)">
 <path d="M6 9l6 6 6-6" fill="none" stroke="#7D8099" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
@@ -303,7 +303,7 @@
 <text id="KYC-captured-2" x="1027.0" y="453.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#634CBC">KYC captured</text>
 </g>
 <text id="Namugongo-2" x="1167.0" y="453.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Namugongo</text>
-<rect x="1313.0" y="433.0" width="176.0" height="32.0" rx="6" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<rect x="1313.0" y="433.0" width="176.0" height="32.0" rx="6" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <text id="Peter-Kato-2" x="1325.0" y="454.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#1B1C3A">Peter Kato</text>
 <g id="icon-chevdown-3" transform="translate(1463.0 441.0) scale(0.6667)">
 <path d="M6 9l6 6 6-6" fill="none" stroke="#7D8099" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
@@ -324,7 +324,7 @@
 <text id="Approved" x="1027.0" y="515.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#0C5E39">Approved</text>
 </g>
 <text id="Kira" x="1167.0" y="515.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Kira</text>
-<rect x="1313.0" y="495.0" width="176.0" height="32.0" rx="6" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<rect x="1313.0" y="495.0" width="176.0" height="32.0" rx="6" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <text id="Ruth-Achieng-2" x="1325.0" y="516.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#1B1C3A">Ruth Achieng</text>
 <g id="icon-chevdown-4" transform="translate(1463.0 503.0) scale(0.6667)">
 <path d="M6 9l6 6 6-6" fill="none" stroke="#7D8099" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
@@ -345,7 +345,7 @@
 <text id="Interested-3" x="1027.0" y="577.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#2962C1">Interested</text>
 </g>
 <text id="Bweyogerere" x="1167.0" y="577.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Bweyogerere</text>
-<rect x="1313.0" y="557.0" width="176.0" height="32.0" rx="6" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<rect x="1313.0" y="557.0" width="176.0" height="32.0" rx="6" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <text id="Peter-Kato-3" x="1325.0" y="578.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#1B1C3A">Peter Kato</text>
 <g id="icon-chevdown-5" transform="translate(1463.0 565.0) scale(0.6667)">
 <path d="M6 9l6 6 6-6" fill="none" stroke="#7D8099" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
@@ -366,7 +366,7 @@
 <text id="Applied-2" x="1027.0" y="639.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#12804F">Applied</text>
 </g>
 <text id="Kyaliwajjala-2" x="1167.0" y="639.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Kyaliwajjala</text>
-<rect x="1313.0" y="619.0" width="176.0" height="32.0" rx="6" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<rect x="1313.0" y="619.0" width="176.0" height="32.0" rx="6" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <text id="Ruth-Achieng-3" x="1325.0" y="640.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#1B1C3A">Ruth Achieng</text>
 <g id="icon-chevdown-6" transform="translate(1463.0 627.0) scale(0.6667)">
 <path d="M6 9l6 6 6-6" fill="none" stroke="#7D8099" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
@@ -387,7 +387,7 @@
 <text id="KYC-validated-2" x="1027.0" y="701.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#0C7B87">KYC validated</text>
 </g>
 <text id="Kireka" x="1167.0" y="701.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Kireka</text>
-<rect x="1313.0" y="681.0" width="176.0" height="32.0" rx="6" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<rect x="1313.0" y="681.0" width="176.0" height="32.0" rx="6" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <text id="Peter-Kato-4" x="1325.0" y="702.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#1B1C3A">Peter Kato</text>
 <g id="icon-chevdown-7" transform="translate(1463.0 689.0) scale(0.6667)">
 <path d="M6 9l6 6 6-6" fill="none" stroke="#7D8099" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
@@ -408,7 +408,7 @@
 <text id="Interested-4" x="1027.0" y="763.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#2962C1">Interested</text>
 </g>
 <text id="Namugongo-3" x="1167.0" y="763.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Namugongo</text>
-<rect x="1313.0" y="743.0" width="176.0" height="32.0" rx="6" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<rect x="1313.0" y="743.0" width="176.0" height="32.0" rx="6" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <text id="Sarah-Namuli" x="1325.0" y="764.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#1B1C3A">Sarah Namuli</text>
 <g id="icon-chevdown-8" transform="translate(1463.0 751.0) scale(0.6667)">
 <path d="M6 9l6 6 6-6" fill="none" stroke="#7D8099" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
@@ -429,7 +429,7 @@
 <text id="Approved-2" x="1027.0" y="825.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#0C5E39">Approved</text>
 </g>
 <text id="Kira-2" x="1167.0" y="825.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Kira</text>
-<rect x="1313.0" y="805.0" width="176.0" height="32.0" rx="6" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<rect x="1313.0" y="805.0" width="176.0" height="32.0" rx="6" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <text id="Esther-Nakato" x="1325.0" y="826.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#1B1C3A">Esther Nakato</text>
 <g id="icon-chevdown-9" transform="translate(1463.0 813.0) scale(0.6667)">
 <path d="M6 9l6 6 6-6" fill="none" stroke="#7D8099" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
@@ -450,7 +450,7 @@
 <text id="Negotiation-3" x="1027.0" y="887.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#C8880A">Negotiation</text>
 </g>
 <text id="Bweyogerere-2" x="1167.0" y="887.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Bweyogerere</text>
-<rect x="1313.0" y="867.0" width="176.0" height="32.0" rx="6" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<rect x="1313.0" y="867.0" width="176.0" height="32.0" rx="6" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <text id="Brian-Ssali" x="1325.0" y="888.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#1B1C3A">Brian Ssali</text>
 <g id="icon-chevdown-10" transform="translate(1463.0 875.0) scale(0.6667)">
 <path d="M6 9l6 6 6-6" fill="none" stroke="#7D8099" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
@@ -458,7 +458,7 @@
 </g>
 </g>
 <text id="Showing-10-of-46-all-selec" x="760.0" y="1030.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Showing 10 of 46 · all selected</text>
-<rect id="Summary-bg" x="1536.0" y="180.0" width="352.0" height="872.0" rx="12" fill="#FFFFFF" filter="url(#soft)"/>
+<rect id="Summary-bg" x="1536.0" y="180.0" width="352.0" height="872.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
 <text id="title-3" x="1560.0" y="218.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#1B1C3A">Summary</text>
 <text id="subtitle-3" x="1560.0" y="240.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">What happens when you confirm</text>
 <g id="avatar-PK">

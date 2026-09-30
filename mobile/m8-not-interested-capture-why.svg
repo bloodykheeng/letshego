@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
 <title>M8 Not interested: capture why</title>
-<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#FFFFFF"/>
+<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#FFFFFE"/>
 <g id="status-bar">
 <text id="10-58" x="16.0" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1B1C3A">10:58</text>
 <rect id="battery" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#1B1C3A" stroke-width="1.2"/>
@@ -13,7 +13,7 @@
 <text id="network" x="270.5" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#1B1C3A">4G</text>
 </g>
 <g id="app-bar">
-<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#FFFFFF"/>
+<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#FFFFFE"/>
 <line x1="0.0" y1="80.0" x2="360.0" y2="80.0" stroke="#E4E5EF" stroke-width="1"/>
 <g id="icon-arrowleft" transform="translate(16.0 40.0) scale(1.0000)">
 <path d="M19 12H5" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
@@ -28,14 +28,14 @@
 <g id="icon-check" transform="translate(27.0 127.0) scale(0.5833)">
 <path d="M20 6L9 17l-5-5" fill="none" stroke="#2F2E80" stroke-width="4.46" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Has-a-loan-elsewhere" x="45.0" y="138.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1F1E57">Has a loan elsewhere</text>
+<text id="Has-a-loan-elsewhere" x="45.0" y="138.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#2F2E80">Has a loan elsewhere</text>
 </g>
 <g id="pill-Interest-rate-cost">
-<rect x="180.8" y="118.0" width="130.0" height="32.0" rx="16.0" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="180.8" y="118.0" width="130.0" height="32.0" rx="16.0" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="Interest-rate-cost" x="193.8" y="138.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Interest rate / cost</text>
 </g>
 <g id="pill-Not-eligible">
-<rect x="16.0" y="158.0" width="92.4" height="32.0" rx="16.0" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="16.0" y="158.0" width="92.4" height="32.0" rx="16.0" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="Not-eligible" x="29.0" y="178.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Not eligible</text>
 </g>
 <g id="pill-Ask-spouse-family">
@@ -43,27 +43,27 @@
 <g id="icon-check-2" transform="translate(127.4 167.0) scale(0.5833)">
 <path d="M20 6L9 17l-5-5" fill="none" stroke="#2F2E80" stroke-width="4.46" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Ask-spouse-family" x="145.4" y="178.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1F1E57">Ask spouse / family</text>
+<text id="Ask-spouse-family" x="145.4" y="178.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#2F2E80">Ask spouse / family</text>
 </g>
 <g id="pill-Not-now">
-<rect x="16.0" y="198.0" width="75.2" height="32.0" rx="16.0" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="16.0" y="198.0" width="75.2" height="32.0" rx="16.0" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="Not-now" x="29.0" y="218.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Not now</text>
 </g>
 <g id="pill-Doesn-t-trust-lenders">
-<rect x="99.2" y="198.0" width="143.5" height="32.0" rx="16.0" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="99.2" y="198.0" width="143.5" height="32.0" rx="16.0" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="Doesn-t-trust-lenders" x="112.2" y="218.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Doesn't trust lenders</text>
 </g>
 <g id="pill-Needs-a-bigger-amount">
-<rect x="16.0" y="238.0" width="159.9" height="32.0" rx="16.0" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="16.0" y="238.0" width="159.9" height="32.0" rx="16.0" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="Needs-a-bigger-amount" x="29.0" y="258.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Needs a bigger amount</text>
 </g>
 <g id="pill-Other">
-<rect x="183.9" y="238.0" width="58.5" height="32.0" rx="16.0" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="183.9" y="238.0" width="58.5" height="32.0" rx="16.0" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="Other" x="196.9" y="258.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Other</text>
 </g>
 <text id="Agent-s-note" x="16.0" y="296.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Agent's note</text>
 <g id="note-box">
-<rect x="16.0" y="306.0" width="328.0" height="96.0" rx="10" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="16.0" y="306.0" width="328.0" height="96.0" rx="10" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <g id="para-SACCO-loan-ends-in-D">
 <text id="line" x="30.0" y="332.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#1B1C3A">SACCO loan ends in December. His wife</text>
 <text id="line-2" x="30.0" y="352.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#1B1C3A">co-owns the shop and must agree before</text>
@@ -82,14 +82,14 @@
 <g id="icon-check-3" transform="translate(27.0 443.0) scale(0.5833)">
 <path d="M20 6L9 17l-5-5" fill="none" stroke="#2F2E80" stroke-width="4.46" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="MSE-Business-Loan" x="45.0" y="454.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1F1E57">MSE Business Loan</text>
+<text id="MSE-Business-Loan" x="45.0" y="454.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#2F2E80">MSE Business Loan</text>
 </g>
 <g id="pill-School-Fees-Loan">
-<rect x="169.2" y="434.0" width="123.2" height="32.0" rx="16.0" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="169.2" y="434.0" width="123.2" height="32.0" rx="16.0" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="School-Fees-Loan" x="182.2" y="454.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">School Fees Loan</text>
 </g>
 <g id="pill-Home-Improvement">
-<rect x="16.0" y="474.0" width="140.4" height="32.0" rx="16.0" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="16.0" y="474.0" width="140.4" height="32.0" rx="16.0" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="Home-Improvement" x="29.0" y="494.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Home Improvement</text>
 </g>
 <g id="follow-up">
@@ -119,7 +119,7 @@
 </g>
 </g>
 <g id="footer">
-<rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#FFFFFF"/>
+<rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#FFFFFE"/>
 <line x1="0.0" y1="716.0" x2="360.0" y2="716.0" stroke="#E4E5EF" stroke-width="1"/>
 <g id="button-Check-out">
 <rect x="16.0" y="730.0" width="328.0" height="48.0" rx="12" fill="#2F2E80"/>

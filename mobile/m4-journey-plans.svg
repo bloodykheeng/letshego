@@ -14,7 +14,7 @@
 <text id="network" x="270.5" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#1B1C3A">4G</text>
 </g>
 <g id="app-bar">
-<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#FFFFFF"/>
+<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#FFFFFE"/>
 <line x1="0.0" y1="80.0" x2="360.0" y2="80.0" stroke="#E4E5EF" stroke-width="1"/>
 <g id="icon-arrowleft" transform="translate(16.0 40.0) scale(1.0000)">
 <path d="M19 12H5" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
@@ -30,15 +30,15 @@
 <g id="filter-chips">
 <rect x="16.0" y="94.0" width="51.6" height="32.0" rx="16" fill="#2F2E80"/>
 <text id="All-4" x="29.0" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#FFFFFF">All 4</text>
-<rect x="75.6" y="94.0" width="71.3" height="32.0" rx="16" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="75.6" y="94.0" width="71.3" height="32.0" rx="16" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="Active-2" x="88.6" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Active 2</text>
-<rect x="154.9" y="94.0" width="95.2" height="32.0" rx="16" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="154.9" y="94.0" width="95.2" height="32.0" rx="16" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="Scheduled-2" x="167.9" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Scheduled 2</text>
-<rect x="258.1" y="94.0" width="71.8" height="32.0" rx="16" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="258.1" y="94.0" width="71.8" height="32.0" rx="16" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="Done-12" x="271.1" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Done 12</text>
 </g>
 <g id="plan-Kiwatule-follow-ups">
-<rect x="16.0" y="138.0" width="328.0" height="120.0" rx="14" fill="#FFFFFF" stroke="#2F2E80" stroke-width="2"/>
+<rect x="16.0" y="138.0" width="328.0" height="120.0" rx="14" fill="#FFFFFE" stroke="#2F2E80" stroke-width="2"/>
 <text id="Kiwatule-follow-ups" x="30.0" y="164.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1B1C3A">Kiwatule follow-ups</text>
 <g id="chip-Active">
 <rect x="265.2" y="150.0" width="64.8" height="22.0" rx="11.0" fill="#E3F2EB"/>
@@ -60,7 +60,7 @@
 <text id="7-of-12-visited-2-due-toda" x="30.0" y="246.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#4B4D6B">7 of 12 visited · 2 due today</text>
 </g>
 <g id="plan-Ntinda-schools-payroll-teachers">
-<rect x="16.0" y="268.0" width="328.0" height="120.0" rx="14" fill="#FFFFFF" filter="url(#soft)"/>
+<rect x="16.0" y="268.0" width="328.0" height="120.0" rx="14" fill="#FFFFFE" filter="url(#soft)"/>
 <text id="Ntinda-schools-payroll-teac" x="30.0" y="294.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1B1C3A">Ntinda schools: payroll teachers</text>
 <g id="chip-Active-2">
 <rect x="265.2" y="280.0" width="64.8" height="22.0" rx="11.0" fill="#E3F2EB"/>
@@ -82,7 +82,7 @@
 <text id="6-of-15-visited-none-due-t" x="30.0" y="376.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#4B4D6B">6 of 15 visited · none due today</text>
 </g>
 <g id="plan-Daniel-Okumu-s-clients">
-<rect x="16.0" y="398.0" width="328.0" height="120.0" rx="14" fill="#FFFFFF" filter="url(#soft)"/>
+<rect x="16.0" y="398.0" width="328.0" height="120.0" rx="14" fill="#FFFFFE" filter="url(#soft)"/>
 <text id="Daniel-Okumu-s-clients" x="30.0" y="424.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1B1C3A">Daniel Okumu's clients</text>
 <g id="chip-Scheduled">
 <rect x="244.2" y="410.0" width="85.8" height="22.0" rx="11.0" fill="#E6EEFB"/>
@@ -103,7 +103,7 @@
 <text id="0-of-3-visited-starts-tomo" x="30.0" y="506.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#4B4D6B">0 of 3 visited · starts tomorrow</text>
 </g>
 <g id="plan-Kyanja-market-prospecting">
-<rect x="16.0" y="528.0" width="328.0" height="120.0" rx="14" fill="#FFFFFF" filter="url(#soft)"/>
+<rect x="16.0" y="528.0" width="328.0" height="120.0" rx="14" fill="#FFFFFE" filter="url(#soft)"/>
 <text id="Kyanja-market-prospecting" x="30.0" y="554.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1B1C3A">Kyanja market prospecting</text>
 <g id="chip-Scheduled-2">
 <rect x="244.2" y="540.0" width="85.8" height="22.0" rx="11.0" fill="#E6EEFB"/>
@@ -124,7 +124,7 @@
 <text id="0-of-8-visited-starts-tomo" x="30.0" y="636.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#4B4D6B">0 of 8 visited · starts tomorrow</text>
 </g>
 <g id="bottom-navigation">
-<rect id="nav-bg" x="12.0" y="716.0" width="336.0" height="64.0" rx="24" fill="#FFFFFF" filter="url(#soft)"/>
+<rect id="nav-bg" x="12.0" y="716.0" width="336.0" height="64.0" rx="24" fill="#FFFFFE" filter="url(#soft)"/>
 <g id="tab-Home">
 <g id="icon-home" transform="translate(34.6 729.0) scale(0.9167)">
 <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>

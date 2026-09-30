@@ -14,7 +14,7 @@
 <text id="network" x="270.5" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#1B1C3A">4G</text>
 </g>
 <g id="app-bar">
-<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#FFFFFF"/>
+<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#FFFFFE"/>
 <line x1="0.0" y1="80.0" x2="360.0" y2="80.0" stroke="#E4E5EF" stroke-width="1"/>
 <g id="icon-arrowleft" transform="translate(16.0 40.0) scale(1.0000)">
 <path d="M19 12H5" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
@@ -29,7 +29,7 @@
 </g>
 </g>
 <g id="plan-info">
-<rect x="16.0" y="92.0" width="328.0" height="68.0" rx="12" fill="#FFFFFF" filter="url(#soft)"/>
+<rect x="16.0" y="92.0" width="328.0" height="68.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
 <text id="Interested-clients-from-Sept" x="30.0" y="114.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#4B4D6B">Interested clients from September; take KYC</text>
 <text id="where-ready-goal-4-KYCs" x="30.0" y="130.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#4B4D6B">where ready · goal: 4 KYCs, 2 applications</text>
 <g id="progress">
@@ -121,7 +121,7 @@
 <text id="Clients-in-visit-order" x="16.0" y="394.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#1B1C3A">Clients in visit order</text>
 <text id="Show-visited-7" x="254.2" y="394.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#2F2E80">Show visited (7)</text>
 <g id="row-Kenneth-Lubega">
-<rect x="16.0" y="408.0" width="328.0" height="50.0" rx="12" fill="#FFFFFF" filter="url(#soft)"/>
+<rect x="16.0" y="408.0" width="328.0" height="50.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
 <circle cx="40.0" cy="433.0" r="12.0" fill="#15925A" stroke="#15925A" stroke-width="2"/>
 <g id="icon-check" transform="translate(34.0 427.0) scale(0.5000)">
 <path d="M20 6L9 17l-5-5" fill="none" stroke="#FFFFFF" stroke-width="6.40" stroke-linecap="round" stroke-linejoin="round"/>
@@ -130,7 +130,7 @@
 <text id="Visited-09-05-employer-let" x="62.0" y="446.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">Visited 09:05 · employer letter pending</text>
 </g>
 <g id="row-Betty-Nakimuli">
-<rect x="16.0" y="464.0" width="328.0" height="50.0" rx="12" fill="#FFFFFF" filter="url(#soft)"/>
+<rect x="16.0" y="464.0" width="328.0" height="50.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
 <circle cx="40.0" cy="489.0" r="12.0" fill="#15925A" stroke="#15925A" stroke-width="2"/>
 <g id="icon-check-2" transform="translate(34.0 483.0) scale(0.5000)">
 <path d="M20 6L9 17l-5-5" fill="none" stroke="#FFFFFF" stroke-width="6.40" stroke-linecap="round" stroke-linejoin="round"/>
@@ -139,7 +139,7 @@
 <text id="Visited-10-20-KYC-validate" x="62.0" y="502.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">Visited 10:20 · KYC validated</text>
 </g>
 <g id="row-Florence-Nambi">
-<rect x="16.0" y="520.0" width="328.0" height="50.0" rx="12" fill="#FFFFFF" stroke="#2F2E80" stroke-width="2"/>
+<rect x="16.0" y="520.0" width="328.0" height="50.0" rx="12" fill="#FFFFFE" stroke="#2F2E80" stroke-width="2"/>
 <circle cx="40.0" cy="545.0" r="12.0" fill="#2F2E80" stroke="#2F2E80" stroke-width="2"/>
 <text id="8" x="36.8" y="549.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">8</text>
 <text id="Florence-Nambi" x="62.0" y="541.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">Florence Nambi</text>
@@ -150,21 +150,21 @@
 </g>
 </g>
 <g id="row-Ivan-Kasozi">
-<rect x="16.0" y="576.0" width="328.0" height="50.0" rx="12" fill="#FFFFFF" filter="url(#soft)"/>
+<rect x="16.0" y="576.0" width="328.0" height="50.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
 <circle cx="40.0" cy="601.0" r="12.0" fill="#2F2E80" stroke="#2F2E80" stroke-width="2"/>
 <text id="9" x="36.8" y="605.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">9</text>
 <text id="Ivan-Kasozi" x="62.0" y="597.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">Ivan Kasozi</text>
 <text id="Due-today-12-30-Negotiatio" x="62.0" y="614.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">Due today 12:30 · Negotiation</text>
 </g>
 <g id="row-Aisha-Nalubega">
-<rect x="16.0" y="632.0" width="328.0" height="50.0" rx="12" fill="#FFFFFF" filter="url(#soft)"/>
-<circle cx="40.0" cy="657.0" r="12.0" fill="#FFFFFF" stroke="#8A8DA6" stroke-width="2"/>
+<rect x="16.0" y="632.0" width="328.0" height="50.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
+<circle cx="40.0" cy="657.0" r="12.0" fill="#FFFFFE" stroke="#8A8DA6" stroke-width="2"/>
 <text id="10" x="33.7" y="661.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="700" fill="#4B4D6B">10</text>
 <text id="Aisha-Nalubega" x="62.0" y="653.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">Aisha Nalubega</text>
 <text id="Thu-1-Oct-Interested" x="62.0" y="670.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">Thu 1 Oct · Interested</text>
 </g>
 <g id="bottom-navigation">
-<rect id="nav-bg" x="12.0" y="716.0" width="336.0" height="64.0" rx="24" fill="#FFFFFF" filter="url(#soft)"/>
+<rect id="nav-bg" x="12.0" y="716.0" width="336.0" height="64.0" rx="24" fill="#FFFFFE" filter="url(#soft)"/>
 <g id="tab-Home">
 <g id="icon-home" transform="translate(34.6 729.0) scale(0.9167)">
 <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>

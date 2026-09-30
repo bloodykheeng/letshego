@@ -59,7 +59,7 @@ FAINT = "#AAACC0"
 LINE = "#E4E5EF"
 LINE2 = "#EFF0F6"
 BG = "#F5F6FA"
-CARD = "#FFFFFF"
+CARD = "#FFFFFE"   # not #FFFFFF, so dark mode can tell cards from white text
 
 BRAND = "#2F2E80"      # Letshego indigo
 BRAND_D = "#1F1E57"

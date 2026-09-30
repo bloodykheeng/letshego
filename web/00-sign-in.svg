@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
 <title>00 Sign in</title>
-<rect id="page-background" x="0.0" y="0.0" width="1920.0" height="1080.0" fill="#FFFFFF"/>
+<rect id="page-background" x="0.0" y="0.0" width="1920.0" height="1080.0" fill="#FFFFFE"/>
 <g id="brand-panel">
 <rect id="brand-bg" x="0.0" y="0.0" width="880.0" height="1080.0" fill="#2F2E80"/>
 <g id="facets" opacity="0.1">
@@ -73,7 +73,7 @@
 <text id="Sign-in" x="1180.0" y="250.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="32" font-weight="700" fill="#1B1C3A">Sign in</text>
 <text id="Letshego-staff-head-office" x="1180.0" y="282.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#7D8099">Letshego staff: head office, branches and field.</text>
 <g id="button-Continue-with-Microsoft-Letshego-staff">
-<rect x="1180.0" y="318.0" width="440.0" height="48.0" rx="8" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<rect x="1180.0" y="318.0" width="440.0" height="48.0" rx="8" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <g id="icon-sparkle" transform="translate(1258.3 333.0) scale(0.7500)">
 <path d="M12 3l1.9 5.8a2 2 0 0 0 1.3 1.3L21 12l-5.8 1.9a2 2 0 0 0-1.3 1.3L12 21l-1.9-5.8a2 2 0 0 0-1.3-1.3L3 12l5.8-1.9a2 2 0 0 0 1.3-1.3z" fill="none" stroke="#1B1C3A" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
@@ -86,7 +86,7 @@
 </g>
 <g id="field-Staff-ID">
 <text id="label" x="1180.0" y="442.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Staff ID</text>
-<rect id="input" x="1180.0" y="450.0" width="440.0" height="48.0" rx="8" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect id="input" x="1180.0" y="450.0" width="440.0" height="48.0" rx="8" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <g id="icon-user" transform="translate(1192.0 465.0) scale(0.7500)">
 <path d="M12 3a5 5 0 1 0 0 10 5 5 0 1 0 0-10z" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M20 21a8 8 0 0 0-16 0" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
@@ -95,7 +95,7 @@
 </g>
 <g id="field-Password">
 <text id="label-2" x="1180.0" y="526.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Password</text>
-<rect id="input-2" x="1180.0" y="534.0" width="440.0" height="48.0" rx="8" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect id="input-2" x="1180.0" y="534.0" width="440.0" height="48.0" rx="8" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <g id="icon-lock" transform="translate(1192.0 549.0) scale(0.7500)">
 <path d="M5 11h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2z" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M7 11V7a5 5 0 0 1 10 0v4" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>

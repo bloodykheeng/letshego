@@ -14,6 +14,7 @@ OUT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 
 import mobile  # noqa: E402
+import theme  # noqa: E402
 import web  # noqa: E402
 import web2  # noqa: E402
 
@@ -94,8 +95,9 @@ PROTO = r"""<!doctype html>
   <button id="next" title="Next (→)">&#8594;</button>
   <button id="web">Web<span class="long"> console</span></button><button id="mob">Agent<span class="long"> app (Android)</span></button>
   <button id="fs" title="Full screen (F) · Esc to exit">&#x26F6;<span class="long"> Full screen</span></button>
+  <button id="theme" title="Light / dark mode (D)">&#x263E;<span class="long"> Dark</span></button>
   <span id="ready"></span><span class="sp"></span>
-  <span class="hint">← → keys · H hotspots · F full screen · Esc exit</span>
+  <span class="hint">← → keys · H hotspots · F full screen · D dark mode · Esc exit</span>
   <span class="pill">Illustrative data</span>
 </div>
 <script>
@@ -104,13 +106,20 @@ const AUTO = { m01: ['m02', 1800] };  // splash moves on by itself
 const order = SCREENS.map(s => s.key);
 const byKey = Object.fromEntries(SCREENS.map(s => [s.key, s]));
 // Download every screen up front so the walkthrough keeps working if the connection drops.
+let theme = 'light';
+try { theme = localStorage.getItem('letshego-theme') || 'light'; } catch (e) {}
+const srcOf = s => theme === 'dark' ? s.src.replace(/^(web|mobile)\//, '$1-dark/') : s.src;
 const CACHE = {}; let loaded = 0;
-SCREENS.forEach(s => {
-  const im = new Image();
-  im.onload = () => { loaded++; document.getElementById('ready').textContent =
-    loaded === SCREENS.length ? '✓ Offline-ready' : `Loading ${loaded}/${SCREENS.length}…`; };
-  im.src = s.src; CACHE[s.key] = im;
-});
+function preload() {
+  loaded = 0;
+  SCREENS.forEach(s => {
+    const im = new Image();
+    im.onload = () => { loaded++; document.getElementById('ready').textContent =
+      loaded === SCREENS.length ? '✓ Offline-ready' : `Loading ${loaded}/${SCREENS.length}…`; };
+    im.src = srcOf(s); CACHE[theme + s.key] = im;
+  });
+}
+preload();
 const img = document.getElementById('img'), frame = document.getElementById('frame'), pick = document.getElementById('pick');
 let cur = null, showAll = location.search.includes('show');
 SCREENS.forEach(s => { const o = document.createElement('option'); o.value = s.key; o.textContent = s.title; pick.appendChild(o); });
@@ -129,13 +138,13 @@ function go(key, push = true) {
   if (!byKey[key]) key = order[0];
   cur = key; const s = byKey[key];
   frame.className = s.mobile ? 'mobile' : ''; if (showAll) frame.classList.add('show');
-  const cached = CACHE[key];
+  const cached = CACHE[theme + key];
   if (cached && cached.complete && cached.naturalWidth) { img.src = cached.src; }
   else {
     frame.classList.add('loading');
     img.onload = () => frame.classList.remove('loading', 'failed');
     img.onerror = () => { frame.classList.remove('loading'); frame.classList.add('failed'); };
-    img.src = s.src;
+    img.src = srcOf(s);
   }
   frame.querySelectorAll('.hot').forEach(h => h.remove());
   s.links.forEach(([x, y, w, h, t]) => {
@@ -160,6 +169,16 @@ addEventListener('keydown', e => {
   if (e.key === 'ArrowRight') step(1); else if (e.key === 'ArrowLeft') step(-1);
   else if (e.key.toLowerCase() === 'h') { showAll = !showAll; frame.classList.toggle('show', showAll); }
 });
+const themeBtn = document.getElementById('theme');
+function paintTheme() { themeBtn.innerHTML = theme === 'dark' ? '&#x2600;<span class="long"> Light</span>'
+                                                               : '&#x263E;<span class="long"> Dark</span>'; }
+function toggleTheme() {
+  theme = theme === 'dark' ? 'light' : 'dark';
+  try { localStorage.setItem('letshego-theme', theme); } catch (e) {}
+  paintTheme(); preload(); go(cur, false);
+}
+themeBtn.onclick = toggleTheme; paintTheme();
+addEventListener('keydown', e => { if (e.key.toLowerCase() === 'd' && e.target.tagName !== 'SELECT') toggleTheme(); });
 const fsBtn = document.getElementById('fs');
 function toggleFs() { document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen(); }
 fsBtn.onclick = toggleFs;
@@ -200,6 +219,9 @@ def main():
             name = slug(s.title)
             path = os.path.join(OUT, folder, name + ".svg")
             s.save(path)
+            os.makedirs(os.path.join(OUT, folder + "-dark"), exist_ok=True)
+            with open(os.path.join(OUT, folder + "-dark", name + ".svg"), "w", encoding="utf-8") as f:
+                f.write(theme.dark_svg(s.svg()))
             built.append((folder, name, s.w, s.h, path, fn.__name__.split('_')[0], s.title, s.links))
             print(f"{folder}/{name}.svg  {os.path.getsize(path) // 1024} KB")
     if not only:

@@ -3,7 +3,7 @@
 <defs><filter id="soft" x="-20%" y="-20%" width="140%" height="170%"><feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#1B1C3A" flood-opacity="0.07"/></filter></defs>
 <rect id="page-background" x="0.0" y="0.0" width="1920.0" height="1080.0" fill="#F6F7F9"/>
 <g id="sidebar">
-<rect id="sidebar-bg" x="0.0" y="0.0" width="264.0" height="1080.0" fill="#FFFFFF"/>
+<rect id="sidebar-bg" x="0.0" y="0.0" width="264.0" height="1080.0" fill="#FFFFFE"/>
 <line x1="264.0" y1="0.0" x2="264.0" y2="1080.0" stroke="#E4E5EF" stroke-width="1"/>
 <g id="letshego-wordmark">
 <g id="letshego-triangle">
@@ -42,7 +42,7 @@
 <path d="M15 5.76v15" fill="none" stroke="#2F2E80" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M9 3.24v15" fill="none" stroke="#2F2E80" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="label-3" x="62.0" y="233.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1F1E57">Field map</text>
+<text id="label-3" x="62.0" y="233.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#2F2E80">Field map</text>
 </g>
 <g id="nav-Client-pipeline">
 <g id="icon-workflow" transform="translate(30.0 260.0) scale(0.8333)">
@@ -131,7 +131,7 @@
 </g>
 </g>
 <g id="top-bar">
-<rect id="top-bar-bg" x="264.0" y="0.0" width="1656.0" height="68.0" fill="#FFFFFF"/>
+<rect id="top-bar-bg" x="264.0" y="0.0" width="1656.0" height="68.0" fill="#FFFFFE"/>
 <line x1="264.0" y1="68.0" x2="1920.0" y2="68.0" stroke="#E4E5EF" stroke-width="1"/>
 <text id="crumb-Sales" x="296.0" y="40.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#7D8099">Sales</text>
 <g id="icon-chevright" transform="translate(333.2 29.0) scale(0.6667)">
@@ -168,7 +168,7 @@
 <text id="Year" x="1439.1" y="38.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Year</text>
 </g>
 <g id="date-range">
-<rect x="1071.0" y="16.0" width="152.9" height="36.0" rx="8" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<rect x="1071.0" y="16.0" width="152.9" height="36.0" rx="8" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <g id="icon-calendar" transform="translate(1083.0 25.0) scale(0.7500)">
 <path d="M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" fill="none" stroke="#2F2E80" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M16 2v4" fill="none" stroke="#2F2E80" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
@@ -182,7 +182,7 @@
 <text id="page-subtitle" x="296.0" y="152.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#7D8099">Where agents are right now, and every visit today · Kampala East branch · updated 11:42</text>
 <g id="header-actions">
 <g id="filter-Branch">
-<rect x="1668.0" y="109.0" width="220.0" height="38.0" rx="8" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<rect x="1668.0" y="109.0" width="220.0" height="38.0" rx="8" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <text id="Branch" x="1682.0" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Branch:</text>
 <text id="Kampala-East" x="1728.1" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#1B1C3A">Kampala East</text>
 <g id="icon-chevdown" transform="translate(1860.0 120.0) scale(0.6667)">
@@ -190,7 +190,7 @@
 </g>
 </g>
 <g id="filter-Agents">
-<rect x="1496.0" y="109.0" width="160.0" height="38.0" rx="8" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<rect x="1496.0" y="109.0" width="160.0" height="38.0" rx="8" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <text id="Agents" x="1510.0" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Agents:</text>
 <text id="All-7" x="1556.9" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#1B1C3A">All 7</text>
 <g id="icon-chevdown-2" transform="translate(1628.0 120.0) scale(0.6667)">
@@ -198,7 +198,7 @@
 </g>
 </g>
 <g id="filter-Date">
-<rect x="1334.0" y="109.0" width="150.0" height="38.0" rx="8" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<rect x="1334.0" y="109.0" width="150.0" height="38.0" rx="8" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <text id="Date" x="1348.0" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Date:</text>
 <text id="Today" x="1381.8" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#1B1C3A">Today</text>
 <g id="icon-chevdown-3" transform="translate(1456.0 120.0) scale(0.6667)">
@@ -218,7 +218,7 @@
 <text id="Agent-trails" x="1070.0" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#4B4D6B">Agent trails</text>
 </g>
 </g>
-<rect id="map-card" x="296.0" y="176.0" width="1170.0" height="876.0" rx="12" fill="#FFFFFF" filter="url(#soft)"/>
+<rect id="map-card" x="296.0" y="176.0" width="1170.0" height="876.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
 <g id="street-map">
 <rect id="land" x="297.0" y="177.0" width="1168.0" height="874.0" fill="#F2F1EC"/>
 <path id="park" d="M1124.0 739.4 L1102.5 792.3 L1025.4 798.3 L958.4 800.7 L896.2 767.7 L906.4 713.5 L950.3 668.5 L1025.9 678.4 L1089.7 693.8 Z" fill="#DDEBD3"/>
@@ -531,7 +531,7 @@
 <path d="M997.8 281.9 C994.2 274.7 987.0 271.1 987.0 263.0 A10.8 10.8 0 1 1 1008.6 263.0 C1008.6 271.1 1001.4 274.7 997.8 281.9 Z" fill="#D14343" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
 <circle cx="997.8" cy="263.0" r="3.8" fill="#FFFFFF"/>
 </g>
-<circle id="planned-stop" cx="1138.0" cy="334.3" r="8.0" fill="#FFFFFF" stroke="#E39A0B" stroke-width="3"/>
+<circle id="planned-stop" cx="1138.0" cy="334.3" r="8.0" fill="#FFFFFE" stroke="#E39A0B" stroke-width="3"/>
 <g id="pin-7">
 <path d="M1278.1 351.8 C1274.5 344.6 1267.3 341.0 1267.3 332.9 A10.8 10.8 0 1 1 1288.9 332.9 C1288.9 341.0 1281.7 344.6 1278.1 351.8 Z" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
 <circle cx="1278.1" cy="332.9" r="3.8" fill="#FFFFFF"/>
@@ -544,7 +544,7 @@
 <path d="M1208.0 544.1 C1204.4 536.9 1197.2 533.3 1197.2 525.2 A10.8 10.8 0 1 1 1218.8 525.2 C1218.8 533.3 1211.6 536.9 1208.0 544.1 Z" fill="#D14343" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
 <circle cx="1208.0" cy="525.2" r="3.8" fill="#FFFFFF"/>
 </g>
-<circle id="planned-stop-2" cx="1114.6" cy="657.7" r="8.0" fill="#FFFFFF" stroke="#E39A0B" stroke-width="3"/>
+<circle id="planned-stop-2" cx="1114.6" cy="657.7" r="8.0" fill="#FFFFFE" stroke="#E39A0B" stroke-width="3"/>
 <g id="pin-10">
 <path d="M974.4 771.3 C970.8 764.1 963.6 760.5 963.6 752.4 A10.8 10.8 0 1 1 985.2 752.4 C985.2 760.5 978.0 764.1 974.4 771.3 Z" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
 <circle cx="974.4" cy="752.4" r="3.8" fill="#FFFFFF"/>
@@ -557,7 +557,7 @@
 <path d="M717.5 736.4 C713.9 729.2 706.7 725.6 706.7 717.5 A10.8 10.8 0 1 1 728.3 717.5 C728.3 725.6 721.1 729.2 717.5 736.4 Z" fill="#15925A" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
 <circle cx="717.5" cy="717.5" r="3.8" fill="#FFFFFF"/>
 </g>
-<circle id="planned-stop-3" cx="577.3" cy="718.9" r="8.0" fill="#FFFFFF" stroke="#E39A0B" stroke-width="3"/>
+<circle id="planned-stop-3" cx="577.3" cy="718.9" r="8.0" fill="#FFFFFE" stroke="#E39A0B" stroke-width="3"/>
 <g id="pin-13">
 <path d="M460.5 561.6 C456.9 554.4 449.7 550.8 449.7 542.7 A10.8 10.8 0 1 1 471.3 542.7 C471.3 550.8 464.1 554.4 460.5 561.6 Z" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
 <circle cx="460.5" cy="542.7" r="3.8" fill="#FFFFFF"/>
@@ -570,7 +570,7 @@
 <path d="M554.0 334.3 C550.4 327.1 543.2 323.5 543.2 315.4 A10.8 10.8 0 1 1 564.8 315.4 C564.8 323.5 557.6 327.1 554.0 334.3 Z" fill="#15925A" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
 <circle cx="554.0" cy="315.4" r="3.8" fill="#FFFFFF"/>
 </g>
-<circle id="planned-stop-4" cx="857.6" cy="299.4" r="8.0" fill="#FFFFFF" stroke="#E39A0B" stroke-width="3"/>
+<circle id="planned-stop-4" cx="857.6" cy="299.4" r="8.0" fill="#FFFFFE" stroke="#E39A0B" stroke-width="3"/>
 <g id="pin-16">
 <path d="M1067.9 579.0 C1064.3 571.8 1057.1 568.2 1057.1 560.1 A10.8 10.8 0 1 1 1078.7 560.1 C1078.7 568.2 1071.5 571.8 1067.9 579.0 Z" fill="#D14343" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
 <circle cx="1067.9" cy="560.1" r="3.8" fill="#FFFFFF"/>
@@ -583,7 +583,7 @@
 <path d="M483.9 841.2 C480.3 834.0 473.1 830.4 473.1 822.3 A10.8 10.8 0 1 1 494.7 822.3 C494.7 830.4 487.5 834.0 483.9 841.2 Z" fill="#D14343" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
 <circle cx="483.9" cy="822.3" r="3.8" fill="#FFFFFF"/>
 </g>
-<circle id="planned-stop-5" cx="1301.5" cy="701.4" r="8.0" fill="#FFFFFF" stroke="#E39A0B" stroke-width="3"/>
+<circle id="planned-stop-5" cx="1301.5" cy="701.4" r="8.0" fill="#FFFFFE" stroke="#E39A0B" stroke-width="3"/>
 </g>
 <path id="Sarah-trail" d="M647.4 369.3 L717.5 474.2 L764.2 404.2 L834.3 526.6 L904.4 439.2 L974.4 526.6 L1021.2 491.6" fill="none" stroke="#2F2E80" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
 <circle id="check-in-1" cx="717.5" cy="474.2" r="10.0" fill="#2F2E80" stroke="#FFFFFF" stroke-width="2"/>
@@ -635,7 +635,7 @@
 <text id="JA" x="589.4" y="914.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF">JA</text>
 </g>
 <g id="popup">
-<rect x="1061.2" y="341.6" width="300.0" height="134.0" rx="10" fill="#FFFFFF" filter="url(#soft)"/>
+<rect x="1061.2" y="341.6" width="300.0" height="134.0" rx="10" fill="#FFFFFE" filter="url(#soft)"/>
 <text id="Florence-Nambi" x="1077.2" y="369.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#1B1C3A">Florence Nambi</text>
 <g id="chip-Applied">
 <rect x="1272.3" y="353.6" width="72.9" height="22.0" rx="11.0" fill="#E3F2EB"/>
@@ -648,7 +648,7 @@
 <text id="Open-client" x="1077.2" y="459.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#2F2E80">Open client →</text>
 </g>
 <g id="legend">
-<rect x="316.0" y="920.0" width="330.0" height="112.0" rx="10" fill="#FFFFFF" filter="url(#soft)" fill-opacity="0.96"/>
+<rect x="316.0" y="920.0" width="330.0" height="112.0" rx="10" fill="#FFFFFE" filter="url(#soft)" fill-opacity="0.96"/>
 <text id="Legend" x="332.0" y="944.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1B1C3A">Legend</text>
 <circle cx="340.0" cy="960.0" r="6.0" fill="#15925A"/>
 <text id="Converted-application-submi" x="354.0" y="964.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Converted (application submitted)</text>
@@ -656,18 +656,18 @@
 <text id="In-progress-interested-KYC" x="354.0" y="982.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">In progress (interested, KYC, negotiation)</text>
 <circle cx="340.0" cy="996.0" r="6.0" fill="#D14343"/>
 <text id="Not-interested-reason-captu" x="354.0" y="1000.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Not interested (reason captured)</text>
-<circle cx="340.0" cy="1014.0" r="5.0" fill="#FFFFFF" stroke="#E39A0B" stroke-width="2.5"/>
+<circle cx="340.0" cy="1014.0" r="5.0" fill="#FFFFFE" stroke="#E39A0B" stroke-width="2.5"/>
 <text id="Planned-stop-not-yet-visite" x="354.0" y="1018.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Planned stop, not yet visited</text>
 </g>
 <g id="map-controls">
-<rect x="1410.0" y="196.0" width="38.0" height="38.0" rx="8" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<rect x="1410.0" y="196.0" width="38.0" height="38.0" rx="8" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <g id="icon-plus" transform="translate(1419.0 205.0) scale(0.8333)">
 <path d="M12 5v14" fill="none" stroke="#4B4D6B" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M5 12h14" fill="none" stroke="#4B4D6B" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<rect x="1410.0" y="242.0" width="38.0" height="38.0" rx="8" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<rect x="1410.0" y="242.0" width="38.0" height="38.0" rx="8" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <line x1="1421.0" y1="261.0" x2="1437.0" y2="261.0" stroke="#4B4D6B" stroke-width="2.2" stroke-linecap="round"/>
-<rect x="1410.0" y="288.0" width="38.0" height="38.0" rx="8" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<rect x="1410.0" y="288.0" width="38.0" height="38.0" rx="8" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <g id="icon-crosshair" transform="translate(1419.0 297.0) scale(0.8333)">
 <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z" fill="none" stroke="#4B4D6B" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M22 12h-4" fill="none" stroke="#4B4D6B" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
@@ -675,14 +675,14 @@
 <path d="M12 6V2" fill="none" stroke="#4B4D6B" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 22v-4" fill="none" stroke="#4B4D6B" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<rect x="1410.0" y="334.0" width="38.0" height="38.0" rx="8" fill="#FFFFFF" stroke="#E4E5EF" stroke-width="1"/>
+<rect x="1410.0" y="334.0" width="38.0" height="38.0" rx="8" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <g id="icon-layers" transform="translate(1419.0 343.0) scale(0.8333)">
 <path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z" fill="none" stroke="#4B4D6B" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M22 17.65l-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65" fill="none" stroke="#4B4D6B" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M22 12.65l-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65" fill="none" stroke="#4B4D6B" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
-<rect id="Agents-today-bg" x="1486.0" y="176.0" width="402.0" height="580.0" rx="12" fill="#FFFFFF" filter="url(#soft)"/>
+<rect id="Agents-today-bg" x="1486.0" y="176.0" width="402.0" height="580.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
 <text id="title" x="1510.0" y="214.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#1B1C3A">Agents today</text>
 <text id="subtitle" x="1510.0" y="236.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Kampala East · 7 agents · tap to show a trail</text>
 <g id="agent-row-Sarah-Namuli">
@@ -784,7 +784,7 @@
 </g>
 <text id="0-visits-0-conv" x="1779.5" y="720.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#4B4D6B">0 visits · 0 conv.</text>
 </g>
-<rect id="All-branches-bg" x="1486.0" y="776.0" width="402.0" height="276.0" rx="12" fill="#FFFFFF" filter="url(#soft)"/>
+<rect id="All-branches-bg" x="1486.0" y="776.0" width="402.0" height="276.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
 <text id="title-2" x="1510.0" y="814.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#1B1C3A">All branches</text>
 <text id="subtitle-2" x="1510.0" y="836.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Tap a branch to jump</text>
 <g id="Uganda-districts">

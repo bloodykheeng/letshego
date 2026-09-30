@@ -14,7 +14,7 @@
 <text id="network" x="270.5" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#1B1C3A">4G</text>
 </g>
 <g id="app-bar">
-<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#FFFFFF"/>
+<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#FFFFFE"/>
 <line x1="0.0" y1="80.0" x2="360.0" y2="80.0" stroke="#E4E5EF" stroke-width="1"/>
 <text id="My-clients" x="16.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#1B1C3A">My clients</text>
 <text id="32-open-all-stored-with-Le" x="16.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">32 open · all stored with Letshego</text>
@@ -28,15 +28,15 @@
 <g id="filter-chips">
 <rect x="16.0" y="94.0" width="58.2" height="32.0" rx="16" fill="#2F2E80"/>
 <text id="All-32" x="29.0" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#FFFFFF">All 32</text>
-<rect x="82.2" y="94.0" width="98.9" height="32.0" rx="16" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="82.2" y="94.0" width="98.9" height="32.0" rx="16" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="Interested-14" x="95.2" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Interested 14</text>
-<rect x="189.1" y="94.0" width="58.7" height="32.0" rx="16" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="189.1" y="94.0" width="58.7" height="32.0" rx="16" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="KYC-9" x="202.1" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">KYC 9</text>
-<rect x="255.8" y="94.0" width="104.5" height="32.0" rx="16" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="255.8" y="94.0" width="104.5" height="32.0" rx="16" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="Negotiation-6" x="268.8" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Negotiation 6</text>
 </g>
 <g id="client-Florence-Nambi">
-<rect x="16.0" y="140.0" width="328.0" height="84.0" rx="12" fill="#FFFFFF" filter="url(#soft)"/>
+<rect x="16.0" y="140.0" width="328.0" height="84.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
 <rect x="16.0" y="152.0" width="4.0" height="60.0" rx="2" fill="#15925A"/>
 <text id="Florence-Nambi" x="34.0" y="166.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#1B1C3A">Florence Nambi</text>
 <g id="chip-Applied">
@@ -52,7 +52,7 @@
 <text id="Awaiting-approval-11-42" x="54.0" y="210.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Awaiting approval · 11:42</text>
 </g>
 <g id="client-Betty-Nakimuli">
-<rect x="16.0" y="232.0" width="328.0" height="84.0" rx="12" fill="#FFFFFF" filter="url(#soft)"/>
+<rect x="16.0" y="232.0" width="328.0" height="84.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
 <rect x="16.0" y="244.0" width="4.0" height="60.0" rx="2" fill="#0E8C99"/>
 <text id="Betty-Nakimuli" x="34.0" y="258.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#1B1C3A">Betty Nakimuli</text>
 <g id="chip-KYC-validated">
@@ -68,7 +68,7 @@
 <text id="Offer-a-loan-validated-tod" x="54.0" y="302.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Offer a loan · validated today</text>
 </g>
 <g id="client-Ivan-Kasozi">
-<rect x="16.0" y="324.0" width="328.0" height="84.0" rx="12" fill="#FFFFFF" filter="url(#soft)"/>
+<rect x="16.0" y="324.0" width="328.0" height="84.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
 <rect x="16.0" y="336.0" width="4.0" height="60.0" rx="2" fill="#E39A0B"/>
 <text id="Ivan-Kasozi" x="34.0" y="350.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#1B1C3A">Ivan Kasozi</text>
 <g id="chip-Negotiation">
@@ -84,7 +84,7 @@
 <text id="Visit-today-12-30" x="54.0" y="394.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Visit today 12:30</text>
 </g>
 <g id="client-Sarah-Namutebi">
-<rect x="16.0" y="416.0" width="328.0" height="84.0" rx="12" fill="#FFFFFF" filter="url(#soft)"/>
+<rect x="16.0" y="416.0" width="328.0" height="84.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
 <rect x="16.0" y="428.0" width="4.0" height="60.0" rx="2" fill="#7056D6"/>
 <text id="Sarah-Namutebi" x="34.0" y="442.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#1B1C3A">Sarah Namutebi</text>
 <g id="chip-KYC-captured">
@@ -100,7 +100,7 @@
 <text id="Validate-payslip-pending" x="54.0" y="486.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Validate · payslip pending</text>
 </g>
 <g id="client-Charles-Ssempijja">
-<rect x="16.0" y="508.0" width="328.0" height="84.0" rx="12" fill="#FFFFFF" filter="url(#soft)"/>
+<rect x="16.0" y="508.0" width="328.0" height="84.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
 <rect x="16.0" y="520.0" width="4.0" height="60.0" rx="2" fill="#2F6FDB"/>
 <text id="Charles-Ssempijja" x="34.0" y="534.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#1B1C3A">Charles Ssempijja</text>
 <g id="chip-Interested">
@@ -116,7 +116,7 @@
 <text id="Follow-up-Fri-2-Oct" x="54.0" y="578.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Follow up Fri 2 Oct</text>
 </g>
 <g id="client-Joseph-Kiggundu">
-<rect x="16.0" y="600.0" width="328.0" height="84.0" rx="12" fill="#FFFFFF" filter="url(#soft)"/>
+<rect x="16.0" y="600.0" width="328.0" height="84.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
 <rect x="16.0" y="612.0" width="4.0" height="60.0" rx="2" fill="#C2362F"/>
 <text id="Joseph-Kiggundu" x="34.0" y="626.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#1B1C3A">Joseph Kiggundu</text>
 <g id="chip-Not-interested">
@@ -132,7 +132,7 @@
 <text id="Revisit-Jan-2027" x="54.0" y="670.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Revisit Jan 2027</text>
 </g>
 <g id="bottom-navigation">
-<rect id="nav-bg" x="12.0" y="716.0" width="336.0" height="64.0" rx="24" fill="#FFFFFF" filter="url(#soft)"/>
+<rect id="nav-bg" x="12.0" y="716.0" width="336.0" height="64.0" rx="24" fill="#FFFFFE" filter="url(#soft)"/>
 <g id="tab-Home">
 <g id="icon-home" transform="translate(34.6 729.0) scale(0.9167)">
 <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>

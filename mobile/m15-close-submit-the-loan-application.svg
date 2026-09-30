@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
 <title>M15 Close: submit the loan application</title>
-<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#FFFFFF"/>
+<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#FFFFFE"/>
 <g id="status-bar">
 <text id="11-41" x="16.0" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1B1C3A">11:41</text>
 <rect id="battery" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#1B1C3A" stroke-width="1.2"/>
@@ -13,7 +13,7 @@
 <text id="network" x="270.5" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#1B1C3A">4G</text>
 </g>
 <g id="app-bar">
-<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#FFFFFF"/>
+<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#FFFFFE"/>
 <line x1="0.0" y1="80.0" x2="360.0" y2="80.0" stroke="#E4E5EF" stroke-width="1"/>
 <g id="icon-arrowleft" transform="translate(16.0 40.0) scale(1.0000)">
 <path d="M19 12H5" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
@@ -28,7 +28,7 @@
 <path d="M20 6L9 17l-5-5" fill="none" stroke="#FFFFFF" stroke-width="3.36" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="Yes" x="88.6" y="142.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#FFFFFF">Yes</text>
-<rect x="185.0" y="114.0" width="159.0" height="44.0" rx="10" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="185.0" y="114.0" width="159.0" height="44.0" rx="10" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="No-capture-why" x="214.3" y="142.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#4B4D6B">No, capture why</text>
 <text id="Required-items" x="16.0" y="180.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1B1C3A">Required items</text>
 <text id="7-of-7" x="309.1" y="180.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#0E6B41">7 of 7</text>
@@ -63,7 +63,7 @@
 <g id="field-Loan-application-ID-from-the-loan-system">
 <text id="label" x="16.0" y="334.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Loan application ID (from the loan system)</text>
 <text id="required" x="271.0" y="334.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#C2362F">*</text>
-<rect id="input" x="16.0" y="342.0" width="328.0" height="46.0" rx="12" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect id="input" x="16.0" y="342.0" width="328.0" height="46.0" rx="12" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <g id="icon-scan" transform="translate(28.0 356.0) scale(0.7500)">
 <path d="M3 7V5a2 2 0 0 1 2-2h2" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M17 3h2a2 2 0 0 1 2 2v2" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
@@ -83,18 +83,18 @@
 <g id="icon-check-10" transform="translate(27.0 455.0) scale(0.5833)">
 <path d="M20 6L9 17l-5-5" fill="none" stroke="#2F2E80" stroke-width="4.46" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Business-equipment" x="45.0" y="466.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1F1E57">Business equipment</text>
+<text id="Business-equipment" x="45.0" y="466.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#2F2E80">Business equipment</text>
 </g>
 <g id="pill-Stock">
-<rect x="175.4" y="446.0" width="56.8" height="32.0" rx="16.0" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="175.4" y="446.0" width="56.8" height="32.0" rx="16.0" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="Stock" x="188.4" y="466.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Stock</text>
 </g>
 <g id="pill-School-fees">
-<rect x="240.2" y="446.0" width="90.6" height="32.0" rx="16.0" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="240.2" y="446.0" width="90.6" height="32.0" rx="16.0" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="School-fees" x="253.2" y="466.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">School fees</text>
 </g>
 <g id="pill-Other">
-<rect x="16.0" y="486.0" width="58.5" height="32.0" rx="16.0" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="16.0" y="486.0" width="58.5" height="32.0" rx="16.0" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="Other" x="29.0" y="506.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Other</text>
 </g>
 <g id="rule">
@@ -110,7 +110,7 @@
 </g>
 </g>
 <g id="footer">
-<rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#FFFFFF"/>
+<rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#FFFFFE"/>
 <line x1="0.0" y1="716.0" x2="360.0" y2="716.0" stroke="#E4E5EF" stroke-width="1"/>
 <g id="button-Submit-application">
 <rect x="16.0" y="730.0" width="328.0" height="48.0" rx="12" fill="#15925A"/>

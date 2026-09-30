@@ -54,7 +54,7 @@ def shell(title: str, active: str, crumbs: list[str], user=MGMT, period="Quarter
                     if on:
                         s.rect(14, y, SB - 28, 40, fill=tint(BRAND, 0.08), rx=10, name="active bg", shadow=False)
                     s.icon(ic, 30, y + 10, 20, BRAND if on else "#8A8DA6", 1.9)
-                    s.text(62, y + 25, label, 14, 600 if on else 400, BRAND_D if on else INK2,
+                    s.text(62, y + 25, label, 14, 600 if on else 400, BRAND if on else INK2,
                            name="label")
                     if label in BADGES:
                         b, col = BADGES[label]

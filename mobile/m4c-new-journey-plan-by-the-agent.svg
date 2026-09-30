@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
 <title>M4c New journey plan (by the agent)</title>
-<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#FFFFFF"/>
+<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#FFFFFE"/>
 <g id="status-bar">
 <text id="11-08" x="16.0" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1B1C3A">11:08</text>
 <rect id="battery" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#1B1C3A" stroke-width="1.2"/>
@@ -13,7 +13,7 @@
 <text id="network" x="270.5" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#1B1C3A">4G</text>
 </g>
 <g id="app-bar">
-<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#FFFFFF"/>
+<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#FFFFFE"/>
 <line x1="0.0" y1="80.0" x2="360.0" y2="80.0" stroke="#E4E5EF" stroke-width="1"/>
 <g id="icon-arrowleft" transform="translate(16.0 40.0) scale(1.0000)">
 <path d="M19 12H5" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
@@ -25,11 +25,11 @@
 <g id="field-Plan-name">
 <text id="label" x="16.0" y="110.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Plan name</text>
 <text id="required" x="81.7" y="110.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#C2362F">*</text>
-<rect id="input" x="16.0" y="118.0" width="328.0" height="42.0" rx="12" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect id="input" x="16.0" y="118.0" width="328.0" height="42.0" rx="12" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="value" x="30.0" y="144.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#1B1C3A">Kyanja market prospecting</text>
 </g>
 <text id="Description" x="16.0" y="184.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Description</text>
-<rect x="16.0" y="192.0" width="328.0" height="62.0" rx="8" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect x="16.0" y="192.0" width="328.0" height="62.0" rx="8" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <g id="para-New-area-Market-ven">
 <text id="line" x="28.0" y="215.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">New area. Market vendors and boda riders; aim for 3</text>
 <text id="line-2" x="28.0" y="234.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">new clients a day.</text>
@@ -37,7 +37,7 @@
 <g id="field-Start">
 <text id="label-2" x="16.0" y="280.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Start</text>
 <text id="required-2" x="48.1" y="280.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#C2362F">*</text>
-<rect id="input-2" x="16.0" y="288.0" width="159.0" height="42.0" rx="12" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect id="input-2" x="16.0" y="288.0" width="159.0" height="42.0" rx="12" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <g id="icon-calendar" transform="translate(28.0 300.0) scale(0.7500)">
 <path d="M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M16 2v4" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
@@ -49,7 +49,7 @@
 <g id="field-End">
 <text id="label-3" x="185.0" y="280.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">End</text>
 <text id="required-3" x="211.1" y="280.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#C2362F">*</text>
-<rect id="input-3" x="185.0" y="288.0" width="159.0" height="42.0" rx="12" fill="#FFFFFF" stroke="#CDD0DE" stroke-width="1"/>
+<rect id="input-3" x="185.0" y="288.0" width="159.0" height="42.0" rx="12" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <g id="icon-calendar-2" transform="translate(197.0 300.0) scale(0.7500)">
 <path d="M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M16 2v4" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
@@ -111,7 +111,7 @@
 </g>
 </g>
 <g id="footer">
-<rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#FFFFFF"/>
+<rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#FFFFFE"/>
 <line x1="0.0" y1="716.0" x2="360.0" y2="716.0" stroke="#E4E5EF" stroke-width="1"/>
 <g id="button-Send-to-Moses-for-approval">
 <rect x="16.0" y="730.0" width="328.0" height="48.0" rx="12" fill="#2F2E80"/>

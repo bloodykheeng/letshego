@@ -7,7 +7,7 @@ the client brief, using the same Python → SVG → `prototype.html` method as t
 `bloodykheeng/letshego` for Vercel.
 
 ## Status
-Done for a first demo: 49 screens (19 web, 30 app), light + dark, all links valid, all pushed to `main`.
+Done for a first demo: 50 screens (19 web, 31 app), light + dark, all links valid, all pushed to `main`.
 Vercel project not yet connected by the user.
 
 ## What changed
@@ -19,7 +19,8 @@ Vercel project not yet connected by the user.
   W05 pipeline · W06 client record · W07–W08 approvals · W09 why / why not · W10–W10c journey plans ·
   W11–W11b locations · W12–W12c users, edit user, roles & access · W13 reports & audit.
 - Agent app: M1–M3 splash, PIN sign-in, Home · M4–M4c journey plans · M5 start a visit · M6 new client ·
-  M7/M7b first visit + book next visit · M8 why not · **M9–M9e client record during a visit (tabs)** ·
+  M7 Joseph's record (first visit) · M7b Joseph check out (interested? + next visit) · M8 why not ·
+  **M9–M9d client record during a visit (tabs)** · M9e Loan tab once applied · M9f KYC tab once validated ·
   M10–M13 KYC · M14–M15 loan application · M16 conversion · M16b check out · M17 my clients ·
   M18–M18d client record after the visit · M19 Me.
 - Docs: [README.md](../../README.md) (how it works, rules, visual style) and
@@ -52,6 +53,11 @@ Vercel project not yet connected by the user.
   KYC / Loan / Visits; **one bottom action per tab** (Overview: Check in / Check out · KYC: Start /
   Update KYC · Loan: Take loan application · after submit: Check out). KYC and loan are separate tabs,
   never one wizard. M16 conversion has **Close** (back to the Loan tab, visit still open), not check-out.
+  KYC validation **Done** returns to the KYC tab with every section done (M9f), whose action is
+  "Continue to loan". The progress strip is labelled **Loan progress** (not "where she is in the journey").
+- **New clients use the same pattern**: Save & start visit → the client's record (first-visit notes on
+  Overview) → Check out asks "interested?" and books the next visit, or captures why not → My clients.
+  Rejected: the separate first-visit wizard and book-next-visit screens (confusing, back looped).
 - **Back arrows go to a fixed parent** (record → My clients, loan form → Loan tab, KYC form → KYC tab);
   switching tabs never adds a Back step (`!tab:`). Only New client uses history (`!back:`).
 - **Journey plan = a named list of clients** with agent, start/end dates, description, goal; many per
@@ -89,7 +95,7 @@ Vercel project not yet connected by the user.
 
 ## How to verify
 - `cd _src && python build.py && python combine.py && python briefing.py` (all run clean;
-  expect "19 web + 30 mobile")
+  expect "19 web + 31 mobile")
 - Link check: every hotspot target in `prototype.html` exists and every screen is reachable
   (strip `!back:` / `!tab:` prefixes; skip `!theme`)
 - Open `prototype.html?show#m09` and walk: Home → Florence → KYC tab → Start KYC → … → Loan tab →

@@ -60,7 +60,7 @@ _src/briefing.py ────────────►  briefing.html         
 
 **Vocabularies** at the top of `kit.py`: `STAGES` (the client journey from the whiteboard, in order), `STATUS` colours, `PRODUCTS` (**placeholders** until Letshego confirms its catalogue). Change them there and every screen follows.
 
-**Hotspots:** `s.link(x, y, w, h, "w05")` records a clickable area that opens screen `w05`. The special target `"!theme"` switches light / dark instead of opening a screen. Tabs use `"!tab:m09b"` so switching tabs doesn't add a Back step. App back arrows use `"!back:m05"`: they return to the screen the user came from, and open `m05` only when there is no history (for example after opening a screen by its link).
+**Hotspots:** `s.link(x, y, w, h, "w05")` records a clickable area that opens screen `w05`. The special target `"!theme"` switches light / dark instead of opening a screen. Tabs use `"!tab:m09b"` so switching tabs doesn't add a Back step. Back arrows go to a fixed parent screen; only New client (`history=True`) uses `"!back:m05"` to return to wherever it was opened from.
 
 **Soft cards.** Phone screens and the web shell set `s.soft = True`: any white card drawn with `stroke=LINE` and `rx >= 10` gets a soft drop shadow instead of a border. Pass `shadow=False` to opt out, `shadow=True` to force one.
 
@@ -121,7 +121,7 @@ python briefing.py           # rewrite briefing.html from BRIEFING.md
 **Rules that keep the story consistent:**
 - **Conversion = application submitted with every required item.** Approval never changes it. Keep saying so on screens that show both.
 - **Clients belong to territories, not to agents** (Region › Branch › Territory › Route, as in NICE). Locations are master data (W11, W11b) and are given to people in the user form (W12b), as in NICE; ticking a territory on another agent's page moves all its clients, routes and plans.
-- **The client record is the hub.** Checking in opens the client's record (M9) with a "visit in progress" bar; KYC and the loan live in their own tabs; checking out (M16b) records what happened and returns to the record (M18). Never chain KYC straight into the loan.
+- **The client record is the hub.** Checking in opens the client's record (M9) with a "visit in progress" bar; KYC and the loan live in their own tabs; checking out (M16b) records what happened and returns to the record (M18). Never chain KYC straight into the loan. Each tab has one bottom action (`actions` in `client_hub`); back from the record always goes to My clients.
 - **A visit has a purpose and an outcome.** KYC is done during a visit, once per client, after they say they're interested; never when a client is added.
 - **A visit always starts by choosing the client** (from the plan, a search, or *New client*). Visits not on the journey plan are allowed and count as off-plan.
 - **A journey plan is a named list of clients** with an agent, start and end dates, a description and a goal. An agent can have several. Supervisors create them (W10c); agents can create their own for approval (M4c). Home shows what's due today across all plans.

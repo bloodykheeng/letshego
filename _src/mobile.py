@@ -40,7 +40,7 @@ def status_bar(s: SVG, dark=False, time="11:05"):
         s.text(x - 60, 18, "4G", 10.5, 700, fg, anchor="end", name="network")
 
 
-def app_bar(s: SVG, title, back=None, sub=None, right=None, dark=False):
+def app_bar(s: SVG, title, back=None, sub=None, right=None, dark=False, history=False):
     bg = BRAND if dark else CARD
     fg = "#FFFFFF" if dark else INK
     with s.g("app bar"):
@@ -59,7 +59,7 @@ def app_bar(s: SVG, title, back=None, sub=None, right=None, dark=False):
         if right:
             s.icon(right, MW - PAD - 24, 40, 24, fg, 2)
     if back:
-        s.link(0, 24, 56, 56, "!back:" + back)   # back to wherever the user came from; `back` if opened directly
+        s.link(0, 24, 56, 56, ("!back:" + back) if history else back)
 
 
 def bottom_nav(s: SVG, active="Home"):
@@ -288,7 +288,7 @@ def m03_home():
         s.text(PAD + 70, y + 54, "Take KYC · 0.6 km · 4 min", 12, 400, MUTED)
         s.circle(MW - PAD - 38, y + 38, 22, fill=BRAND)
         s.icon("arrowright", MW - PAD - 48, y + 28, 20, "#FFFFFF", 2.4)
-        s.link(PAD, y, MW - 2 * PAD, 76, "m09")
+        s.link(PAD, y, MW - 2 * PAD, 76, "m09b")
     with s.g("today"):
         s.text(PAD, 516, "Today", 15, 700, INK)
         s.text(PAD + 52, 516, "5 visits · 2 left", 12, 400, MUTED)
@@ -312,7 +312,7 @@ def m03_home():
             s.text(cx, cy + 32, nm, 11, 700 if st == "next" else 400, INK if st == "next" else INK2, anchor="middle")
             s.text(cx, cy + 46, tm, 10, 600 if (off or st == "next") else 400,
                    AMBER_D if off else (BRAND if st == "next" else MUTED), anchor="middle")
-        s.link(x0 + (x1 - x0) * 3 / (n - 1) - 22, cy - 22, 44, 70, "m09")
+        s.link(x0 + (x1 - x0) * 3 / (n - 1) - 22, cy - 22, 44, 70, "m09b")
     with s.g("plans shortcut"):
         y = 634
         s.rect(PAD, y, MW - 2 * PAD, 50, fill=CARD, rx=16, stroke=LINE)
@@ -408,7 +408,7 @@ def m04b_plan():
             if nxt:
                 button(s, MW - PAD - 10, y + 10, "Check in", "primary", h=30, size=12, anchor="end")
         if nxt:
-            s.link(PAD, y, MW - 2 * PAD, 50, "m09")
+            s.link(PAD, y, MW - 2 * PAD, 50, "m09b")
         y += 56
     bottom_nav(s, "Plans")
     return s
@@ -517,7 +517,7 @@ def m08_not_interested():
 
 def m10_kyc_details():
     s = phone("M10 KYC 1: personal details", bg=CARD, time="11:16")
-    app_bar(s, "KYC · " + CLIENT["name"], back="m09", sub="KYC 1 of 3 · client details", right="more")
+    app_bar(s, "KYC · " + CLIENT["name"], back="m09b", sub="KYC 1 of 3 · client details", right="more")
     stepper(s, 92, 1)
     y = 128
     y += m_field(s, y, "Full name (as on National ID)", CLIENT["name"], icon="user") + 10
@@ -575,7 +575,7 @@ def m11_kyc_id():
     y += 124
     s.icon("pin", PAD, y - 2, 14, MUTED, 2)
     s.text(PAD + 20, y + 9, "Photos are GPS-stamped and never saved to the gallery", 11.5, 400, MUTED)
-    footer(s, "Next: income", "m12", icon="arrowright", secondary="Back", sec_target="!back:m10")
+    footer(s, "Next: income", "m12", icon="arrowright", secondary="Back", sec_target="m10")
     return s
 
 
@@ -611,7 +611,7 @@ def m12_kyc_income():
         checkbox(s, PAD + 14, y + 12, True)
         s.text(PAD + 42, y + 25, "Client agreed to a CRB check", 13.5, 600, INK)
         s.text(PAD + 42, y + 43, "Signed on screen 11:23", 12, 400, MUTED)
-    footer(s, "Validate KYC", "m13", icon="shield", secondary="Back", sec_target="!back:m11")
+    footer(s, "Validate KYC", "m13", icon="shield", secondary="Back", sec_target="m11")
     return s
 
 
@@ -692,7 +692,7 @@ def m14_negotiation():
     s.rect(PAD, y + 22, MW - 2 * PAD, 62, fill=CARD, rx=10, stroke="#CDD0DE")
     para(s, PAD + 12, y + 46, "Wants a 2nd industrial machine before January; uniform orders each term.",
          MW - 2 * PAD - 24, 13, 400, INK, lh=19)
-    footer(s, "Next: submit", "m15", icon="arrowright", secondary="Back", sec_target="!back:m09c")
+    footer(s, "Next: submit", "m15", icon="arrowright", secondary="Back", sec_target="m09c")
     return s
 
 
@@ -837,7 +837,7 @@ def m05_start_visit():
             else:
                 s.text(MW - PAD - 14, y + 35, dist, 12, 600, INK2, anchor="end")
         if nxt:
-            s.link(PAD, y, MW - 2 * PAD, 60, "m09")
+            s.link(PAD, y, MW - 2 * PAD, 60, "m09b")
         y += 68
     y += 14
     s.text(PAD, y, "NEAR YOU, NOT DUE TODAY", 11, 700, MUTED, spacing=0.8)
@@ -861,7 +861,7 @@ def m05_start_visit():
 
 def m06_new_client():
     s = phone("M6 New client: register", bg=CARD, time="10:52")
-    app_bar(s, "New client", back="m05", sub="Register first · KYC comes later, if interested")
+    app_bar(s, "New client", back="m05", sub="Register first · KYC comes later, if interested", history=True)
     with s.g("gps"):
         y = 92
         s.rect(PAD, y, MW - 2 * PAD, 36, fill=tint(GREEN, 0.08), rx=10)
@@ -1034,7 +1034,6 @@ def client_hub(title, tab, during):
                 s.text(PAD + 14, y + 42, "Collect her ID and sales book, take KYC", 13.5, 600, INK)
             y += 66
             info_row(s, y, "idcard", VIOLET, "Next: take KYC", "4 sections", "!tab:" + keys[1])
-            footer(s, "Start KYC", "m10", icon="idcard")
         else:
             info_row(s, y, "clock", AMBER_D, "Next: supervisor decision", "Waiting for Moses Okello · you'll be notified",
                      None, fill=tint(AMBER, 0.12), chev=False)
@@ -1042,7 +1041,6 @@ def client_hub(title, tab, during):
             info_row(s, y, "briefcase", GREEN, CLIENT["app_id"], "UGX 6,000,000 · 18 months", "!tab:" + keys[2])
             y += 66
             info_row(s, y, "route", BRAND, "Plan: Kiwatule follow-ups", "8 of 12 visited · next: Ivan Kasozi 12:30", "m04b")
-            footer(s, "Check in again", "m09", icon="pin")
     elif tab == "KYC":
         if not during:
             info_row(s, y, "shield", GREEN, "KYC validated · 11:24", "6 of 6 checks · NIRA, phone, CRB, affordability",
@@ -1067,8 +1065,6 @@ def client_hub(title, tab, during):
                 s.text(PAD + 50, y + 43, sub, 11.5, 400, MUTED)
             s.link(PAD, y, MW - 2 * PAD, 58, tgt)
             y += 64
-        footer(s, "Start KYC" if during else "Check in again", "m10" if during else "m09",
-               icon="idcard" if during else "pin")
     elif tab == "Loan":
         if during:
             info_row(s, y, "shield", GREEN, "KYC validated", "Today 11:24 · 6 of 6 checks", None,
@@ -1081,7 +1077,6 @@ def client_hub(title, tab, during):
                 pills(s, PAD + 16, y + 60, [("MSE Business Loan", True), ("School Fees Loan", False)],
                       maxw=MW - PAD - 16, h=30)
                 s.text(PAD + 16, y + 126, "Can pay up to UGX 625,000 a month", 12, 600, GREEN_D)
-            footer(s, "Take loan application", "m14", icon="briefcase")
         else:
             with s.g("application"):
                 s.rect(PAD, y, MW - 2 * PAD, 262, fill=CARD, rx=16, stroke=LINE)
@@ -1097,7 +1092,6 @@ def client_hub(title, tab, during):
                     s.text(PAD + 16, yy, lab, 12.5, 400, MUTED)
                     s.text(MW - PAD - 16, yy, val, 12.5, 700, GREEN_D if "✓" in val else INK, anchor="end")
                     yy += 29
-            footer(s, "Check in again", "m09", icon="pin")
     else:
         visits = [("Today 11:14" + ("" if during else "–11:52"), "Sarah Namuli · take KYC",
                    "In progress" if during else "Application submitted", GREEN),
@@ -1111,8 +1105,22 @@ def client_hub(title, tab, during):
                 s.text(PAD + 18, y + 43, who, 12, 400, MUTED)
                 s.text(PAD + 18, y + 61, out, 12, 600, shade(col, 0.15))
             y += 80
-        footer(s, "Check out" if during else "Check in again", "m16b" if during else "m09",
-               icon="logout" if during else "pin")
+
+    # one action per tab
+    actions = {
+        (True, "Overview"): ("Check out", "m16b", "logout"),
+        (True, "KYC"): ("Start KYC", "m10", "idcard"),
+        (True, "Loan"): ("Take loan application", "m14", "briefcase"),
+        (True, "Visits"): ("Check out", "m16b", "logout"),
+        (False, "Overview"): ("Check in", "m09b", "pin"),
+        (False, "KYC"): ("Update KYC", "m10", "idcard"),
+        (False, "Visits"): ("Check in", "m09b", "pin"),
+    }
+    if (during, tab) in actions:
+        lab, tgt, ic = actions[(during, tab)]
+        footer(s, lab, tgt, icon=ic)
+    else:
+        gesture(s)
     return s
 
 

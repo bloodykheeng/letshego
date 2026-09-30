@@ -88,13 +88,13 @@
 <g id="footer">
 <rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#1D1E27"/>
 <line x1="0.0" y1="716.0" x2="360.0" y2="716.0" stroke="#282932" stroke-width="1"/>
-<g id="button-Check-in-again">
+<g id="button-Check-in">
 <rect x="16.0" y="730.0" width="328.0" height="48.0" rx="12" fill="#4F4CC9"/>
-<g id="icon-pin" transform="translate(120.7 745.0) scale(0.7500)">
+<g id="icon-pin" transform="translate(140.1 745.0) scale(0.7500)">
 <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 7a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Check-in-again" x="146.7" y="759.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Check in again</text>
+<text id="Check-in" x="166.1" y="759.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Check in</text>
 </g>
 </g>
 <rect id="gesture-bar" x="126.0" y="792.0" width="108.0" height="4.0" rx="2" fill="#1B1C3A" fill-opacity="0.45"/>

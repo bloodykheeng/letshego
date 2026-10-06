@@ -51,7 +51,7 @@
 </g>
 <text id="label-4" x="62.0" y="275.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#4B4D6B">Client pipeline</text>
 </g>
-<text id="nav-group-APPLICATIONS" x="28.0" y="304.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#AAACC0" letter-spacing="1.2">APPLICATIONS</text>
+<text id="nav-group-LOANS" x="28.0" y="304.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#AAACC0" letter-spacing="1.2">LOANS</text>
 <g id="nav-Approvals">
 <g id="icon-listcheck" transform="translate(30.0 328.0) scale(0.8333)">
 <path d="M3 17l2 2 4-4" fill="none" stroke="#8A8DA6" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
@@ -118,16 +118,16 @@
 <path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#1F1E57" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 18h.01" fill="none" stroke="#1F1E57" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Agent-field-app" x="70.0" y="934.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1B1C3A">Agent field app</text>
-<text id="Android-works-offline-GP" x="30.0" y="960.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Android · works offline · GPS</text>
-<text id="NIRA-ID-capture-open-it" x="30.0" y="978.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#8C6A00">NIRA ID capture · open it →</text>
+<text id="Field-app" x="70.0" y="934.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1B1C3A">Field app</text>
+<text id="Sales-agents-relationship" x="30.0" y="960.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Sales agents · relationship officers</text>
+<text id="Android-offline-GPS-op" x="30.0" y="978.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#8C6A00">Android · offline · GPS · open it →</text>
 </g>
 <g id="sidebar-user">
 <line x1="16.0" y1="1004.0" x2="248.0" y2="1004.0" stroke="#E4E5EF" stroke-width="1"/>
 <circle cx="44.0" cy="1042.0" r="18.0" fill="#FBD405"/>
 <text id="MO" x="32.0" y="1048.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1F1E57">MO</text>
 <text id="Moses-Okello" x="72.0" y="1038.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Moses Okello</text>
-<text id="Branch-Supervisor-Kam" x="72.0" y="1057.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">Branch Supervisor · Kam…</text>
+<text id="Branch-Manager-Kampa" x="72.0" y="1057.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">Branch Manager · Kampa…</text>
 <rect id="sign-out-button" x="214.0" y="1022.0" width="38.0" height="38.0" rx="10" fill="#FDECEC"/>
 <g id="icon-logout" transform="translate(223.0 1031.0) scale(0.8333)">
 <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" fill="none" stroke="#D14343" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
@@ -173,7 +173,7 @@
 <path d="M11 3a8 8 0 1 0 0 16 8 8 0 1 0 0-16z" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M21 21l-4.3-4.3" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Search-clients-agents-app" x="1494.0" y="39.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#AAACC0">Search clients, agents, app IDs…</text>
+<text id="Search-prospects-leads-age" x="1494.0" y="39.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#AAACC0">Search prospects, leads, agents…</text>
 </g>
 <g id="segmented-control">
 <rect x="1187.8" y="16.0" width="246.2" height="36.0" rx="8" fill="#F1F2F8" stroke="#E4E5EF" stroke-width="1"/>
@@ -201,11 +201,11 @@
 <text id="PK" x="334.6" y="154.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="22.400000000000002" font-weight="600" fill="#138351">PK</text>
 </g>
 <text id="Peter-Kato" x="392.0" y="140.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#1B1C3A">Peter Kato</text>
-<g id="chip-Field-Sales-Agent">
-<rect x="510.0" y="122.0" width="109.1" height="24.0" rx="12.0" fill="#E3F2EB"/>
-<text id="Field-Sales-Agent" x="520.0" y="138.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#12804F">Field Sales Agent</text>
+<g id="chip-Sales-Agent">
+<rect x="510.0" y="122.0" width="81.1" height="24.0" rx="12.0" fill="#E3F2EB"/>
+<text id="Sales-Agent" x="520.0" y="138.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#12804F">Sales Agent</text>
 </g>
-<text id="Staff-ID-LU-0912-0701-223" x="392.0" y="166.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#7D8099">Staff ID LU-0912 · 0701 223 ··· · joined Feb 2024 · supervisor Moses Okello</text>
+<text id="Staff-ID-LU-0912-0701-223" x="392.0" y="166.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#7D8099">Staff ID LU-0912 · 0701 223 ··· · joined Feb 2024 · branch manager Moses Okello</text>
 <g id="button-Save-changes">
 <rect x="1720.7" y="124.0" width="143.3" height="40.0" rx="12" fill="#2F2E80"/>
 <g id="icon-check" transform="translate(1736.7 135.0) scale(0.7500)">
@@ -238,18 +238,18 @@
 <rect id="input-3" x="320.0" y="450.0" width="372.0" height="44.0" rx="12" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="value-3" x="334.0" y="477.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#1B1C3A">0701 223 ···</text>
 </g>
-<g id="field-Role">
-<text id="label-15" x="320.0" y="520.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Role</text>
-<text id="required-4" x="349.8" y="520.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#C2362F">*</text>
+<g id="field-Roles">
+<text id="label-15" x="320.0" y="520.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Roles</text>
+<text id="required-4" x="355.4" y="520.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#C2362F">*</text>
 <rect id="input-4" x="320.0" y="528.0" width="372.0" height="44.0" rx="12" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
-<text id="value-4" x="334.0" y="555.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#1B1C3A">Field Sales Agent</text>
+<text id="value-4" x="334.0" y="555.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#1B1C3A">Sales Agent · + add a role</text>
 <g id="icon-chevdown" transform="translate(660.0 541.0) scale(0.7500)">
 <path d="M6 9l6 6 6-6" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
-<g id="field-Supervisor">
-<text id="label-16" x="320.0" y="598.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Supervisor</text>
-<text id="required-5" x="386.9" y="598.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#C2362F">*</text>
+<g id="field-Branch-manager">
+<text id="label-16" x="320.0" y="598.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Branch manager</text>
+<text id="required-5" x="420.5" y="598.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#C2362F">*</text>
 <rect id="input-5" x="320.0" y="606.0" width="372.0" height="44.0" rx="12" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="value-5" x="334.0" y="633.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#1B1C3A">Moses Okello</text>
 <g id="icon-chevdown-2" transform="translate(660.0 619.0) scale(0.7500)">
@@ -270,22 +270,13 @@
 </g>
 <rect id="Where-Peter-works-bg" x="736.0" y="208.0" width="620.0" height="844.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
 <text id="title-2" x="760.0" y="246.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#1B1C3A">Where Peter works</text>
-<text id="subtitle" x="760.0" y="268.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Region › Branch › Territories › Routes · as in the user form cascade</text>
-<g id="field-Region">
-<text id="label-17" x="760.0" y="298.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Region</text>
-<text id="required-6" x="805.2" y="298.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#C2362F">*</text>
-<rect id="input-6" x="760.0" y="306.0" width="280.0" height="44.0" rx="12" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
-<text id="value-6" x="774.0" y="333.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#1B1C3A">Central</text>
-<g id="icon-chevdown-3" transform="translate(1008.0 319.0) scale(0.7500)">
-<path d="M6 9l6 6 6-6" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</g>
+<text id="subtitle" x="760.0" y="268.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Branch › Territories › Routes</text>
 <g id="field-Branch">
-<text id="label-18" x="1052.0" y="298.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Branch</text>
-<text id="required-7" x="1096.7" y="298.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#C2362F">*</text>
-<rect id="input-7" x="1052.0" y="306.0" width="280.0" height="44.0" rx="12" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
-<text id="value-7" x="1066.0" y="333.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#1B1C3A">Kampala East</text>
-<g id="icon-chevdown-4" transform="translate(1300.0 319.0) scale(0.7500)">
+<text id="label-17" x="760.0" y="298.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Branch</text>
+<text id="required-6" x="804.7" y="298.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#C2362F">*</text>
+<rect id="input-6" x="760.0" y="306.0" width="572.0" height="44.0" rx="12" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
+<text id="value-6" x="774.0" y="333.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#1B1C3A">Kampala East</text>
+<g id="icon-chevdown-3" transform="translate(1300.0 319.0) scale(0.7500)">
 <path d="M6 9l6 6 6-6" fill="none" stroke="#7D8099" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
@@ -388,8 +379,8 @@
 <text id="4" x="1416.0" y="368.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="700" fill="#0E6B41">+4</text>
 <text id="routes-5-9" x="1447.1" y="367.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#4B4D6B">routes · 5 → 9</text>
 <rect x="1400.0" y="394.0" width="464.0" height="50.0" rx="12" fill="#F7F7FC"/>
-<text id="1" x="1416.0" y="426.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="700" fill="#0E6B41">+1</text>
-<text id="journey-plan-meet-your-new" x="1447.1" y="425.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#4B4D6B">journey plan: meet your new clients</text>
+<text id="4-2" x="1416.0" y="426.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="700" fill="#0E6B41">+4</text>
+<text id="routes-for-his-next-route-jo" x="1447.1" y="425.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#4B4D6B">routes for his next route journey plan</text>
 <g id="street-map">
 <rect id="land" x="1400.0" y="458.0" width="464.0" height="230.0" fill="#F2F1EC"/>
 <path id="park" d="M1728.5 606.0 L1720.0 619.9 L1689.4 621.5 L1662.7 622.1 L1638.0 613.5 L1642.1 599.2 L1659.5 587.3 L1689.6 589.9 L1714.9 594.0 Z" fill="#DDEBD3"/>
@@ -435,7 +426,7 @@
 <g id="icon-check-5" transform="translate(1400.0 720.0) scale(0.6667)">
 <path d="M20 6L9 17l-5-5" fill="none" stroke="#15925A" stroke-width="3.90" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Clients-get-an-SMS-introduci" x="1424.0" y="732.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#4B4D6B">Clients get an SMS introducing Peter</text>
+<text id="Daniel-s-prospects-and-leads" x="1424.0" y="732.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#4B4D6B">Daniel's prospects and leads move to Peter</text>
 <g id="icon-check-6" transform="translate(1400.0 748.0) scale(0.6667)">
 <path d="M20 6L9 17l-5-5" fill="none" stroke="#15925A" stroke-width="3.90" stroke-linecap="round" stroke-linejoin="round"/>
 </g>

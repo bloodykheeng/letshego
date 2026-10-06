@@ -52,7 +52,7 @@
 </g>
 <text id="label-4" x="62.0" y="275.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#B0B1C7">Client pipeline</text>
 </g>
-<text id="nav-group-APPLICATIONS" x="28.0" y="304.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#AAACC0" letter-spacing="1.2">APPLICATIONS</text>
+<text id="nav-group-LOANS" x="28.0" y="304.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#AAACC0" letter-spacing="1.2">LOANS</text>
 <g id="nav-Approvals">
 <g id="icon-listcheck" transform="translate(30.0 328.0) scale(0.8333)">
 <path d="M3 17l2 2 4-4" fill="none" stroke="#898CA5" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
@@ -118,9 +118,9 @@
 <path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#1F1E57" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 18h.01" fill="none" stroke="#1F1E57" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Agent-field-app" x="70.0" y="934.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#CBCCE7">Agent field app</text>
-<text id="Android-works-offline-GP" x="30.0" y="960.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#B0B1C7">Android · works offline · GPS</text>
-<text id="NIRA-ID-capture-open-it" x="30.0" y="978.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#F1DD9F">NIRA ID capture · open it →</text>
+<text id="Field-app" x="70.0" y="934.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#CBCCE7">Field app</text>
+<text id="Sales-agents-relationship" x="30.0" y="960.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#B0B1C7">Sales agents · relationship officers</text>
+<text id="Android-offline-GPS-op" x="30.0" y="978.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#F1DD9F">Android · offline · GPS · open it →</text>
 </g>
 <g id="sidebar-user">
 <line x1="16.0" y1="1004.0" x2="248.0" y2="1004.0" stroke="#282932" stroke-width="1"/>
@@ -169,7 +169,7 @@
 <path d="M11 3a8 8 0 1 0 0 16 8 8 0 1 0 0-16z" fill="none" stroke="#9396AA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M21 21l-4.3-4.3" fill="none" stroke="#9396AA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Search-clients-agents-app" x="1494.0" y="39.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#AAACC0">Search clients, agents, app IDs…</text>
+<text id="Search-prospects-leads-age" x="1494.0" y="39.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#AAACC0">Search prospects, leads, agents…</text>
 </g>
 <g id="segmented-control">
 <rect x="1187.8" y="16.0" width="246.2" height="36.0" rx="8" fill="#1E1F28" stroke="#282932" stroke-width="1"/>
@@ -190,8 +190,8 @@
 <text id="Q3-2026-1-Jul-30-Sep" x="1025.6" y="39.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#CBCCE7">Q3 2026 · 1 Jul – 30 Sep</text>
 </g>
 </g>
-<text id="page-title" x="296.0" y="126.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="700" fill="#CBCCE7">Agents</text>
-<text id="page-subtitle" x="296.0" y="152.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#9396AA">62 field agents · Q3 2026 · conversions against target, weekly visits, and how much of their journey plan they kept</text>
+<text id="page-title" x="296.0" y="126.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="700" fill="#CBCCE7">Sales agents</text>
+<text id="page-subtitle" x="296.0" y="152.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#9396AA">62 sales agents · Q3 2026 · prospects against route targets, leads, and how many of their prospects became clients</text>
 <g id="header-actions">
 <g id="button-Export">
 <rect x="1788.3" y="108.0" width="99.7" height="40.0" rx="12" fill="#1D1E27" stroke="#282932" stroke-width="1"/>
@@ -203,28 +203,26 @@
 <text id="Export" x="1830.3" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">Export</text>
 </g>
 <g id="filter-Sort">
-<rect x="1576.3" y="109.0" width="200.0" height="38.0" rx="8" fill="#1D1E27" stroke="#282932" stroke-width="1"/>
-<text id="Sort" x="1590.3" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">Sort:</text>
-<text id="Conversions" x="1620.6" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#CBCCE7">Conversions ↓</text>
+<rect x="1556.3" y="109.0" width="220.0" height="38.0" rx="8" fill="#1D1E27" stroke="#282932" stroke-width="1"/>
+<text id="Sort" x="1570.3" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">Sort:</text>
+<text id="KYC-completed" x="1600.6" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#CBCCE7">KYC completed ↓</text>
 <g id="icon-chevdown" transform="translate(1748.3 120.0) scale(0.6667)">
 <path d="M6 9l6 6 6-6" fill="none" stroke="#9396AA" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
 <g id="filter-Branch">
-<rect x="1374.3" y="109.0" width="190.0" height="38.0" rx="8" fill="#1D1E27" stroke="#282932" stroke-width="1"/>
-<text id="Branch" x="1388.3" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">Branch:</text>
-<text id="All-branches" x="1434.4" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#CBCCE7">All branches</text>
-<g id="icon-chevdown-2" transform="translate(1536.3 120.0) scale(0.6667)">
+<rect x="1354.3" y="109.0" width="190.0" height="38.0" rx="8" fill="#1D1E27" stroke="#282932" stroke-width="1"/>
+<text id="Branch" x="1368.3" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">Branch:</text>
+<text id="All-branches" x="1414.4" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#CBCCE7">All branches</text>
+<g id="icon-chevdown-2" transform="translate(1516.3 120.0) scale(0.6667)">
 <path d="M6 9l6 6 6-6" fill="none" stroke="#9396AA" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
-<g id="search-agents">
-<rect x="1112.3" y="109.0" width="250.0" height="38.0" rx="8" fill="#1D1E27" stroke="#282932" stroke-width="1"/>
-<g id="icon-search-2" transform="translate(1124.3 119.0) scale(0.7500)">
-<path d="M11 3a8 8 0 1 0 0 16 8 8 0 1 0 0-16z" fill="none" stroke="#9396AA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M21 21l-4.3-4.3" fill="none" stroke="#9396AA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<text id="Search-agents" x="1152.3" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#AAACC0">Search agents</text>
+<g id="segmented-control-2">
+<rect x="1051.8" y="109.0" width="290.5" height="38.0" rx="8" fill="#1E1F28" stroke="#282932" stroke-width="1"/>
+<rect x="1055.8" y="113.0" width="118.8" height="30.0" rx="6" fill="#4F4CC9"/>
+<text id="Sales-agents-62" x="1069.8" y="132.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Sales agents 62</text>
+<text id="Relationship-officers-18" x="1188.6" y="132.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Relationship officers 18</text>
 </g>
 </g>
 <g id="stat-On-track">
@@ -235,7 +233,7 @@
 <path d="M16 7h6v6" fill="none" stroke="#91EFC5" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="On-track" x="376.0" y="222.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#B0B1C7">On track</text>
-<text id="85-of-target" x="376.0" y="244.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">≥ 85% of target</text>
+<text id="85-of-route-targets" x="376.0" y="244.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">≥ 85% of route targets</text>
 <text id="21" x="621.2" y="238.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="32" font-weight="700" fill="#91EFC5">21</text>
 <g id="progress">
 <rect x="376.0" y="256.0" width="216.0" height="5.0" rx="2.5" fill="#202129"/>
@@ -250,7 +248,7 @@
 <path d="M3.34 19a10 10 0 1 1 17.32 0" fill="none" stroke="#EABF6C" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="At-risk" x="778.0" y="222.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#B0B1C7">At risk</text>
-<text id="60-84-of-target" x="778.0" y="244.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">60–84% of target</text>
+<text id="60-84-of-route-targets" x="778.0" y="244.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">60–84% of route targets</text>
 <text id="25" x="1023.2" y="238.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="32" font-weight="700" fill="#EABF6C">25</text>
 <g id="progress-2">
 <rect x="778.0" y="256.0" width="216.0" height="5.0" rx="2.5" fill="#202129"/>
@@ -265,7 +263,7 @@
 <path d="M16 17h6v-6" fill="none" stroke="#D96565" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="Behind" x="1180.0" y="222.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#B0B1C7">Behind</text>
-<text id="under-60-of-target" x="1180.0" y="244.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">under 60% of target</text>
+<text id="under-60-of-route-targets" x="1180.0" y="244.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">under 60% of route targets</text>
 <text id="10" x="1425.2" y="238.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="32" font-weight="700" fill="#D96565">10</text>
 <g id="progress-3">
 <rect x="1180.0" y="256.0" width="216.0" height="5.0" rx="2.5" fill="#202129"/>
@@ -282,7 +280,7 @@
 <path d="M22 8l-5 5" fill="none" stroke="#E89595" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="Silent" x="1582.0" y="222.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#B0B1C7">Silent</text>
-<text id="no-visit-in-14-days" x="1582.0" y="244.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">no visit in 14+ days</text>
+<text id="no-prospect-in-14-days" x="1582.0" y="244.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">no prospect in 14+ days</text>
 <text id="6" x="1845.6" y="238.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="32" font-weight="700" fill="#E89595">6</text>
 <g id="progress-4">
 <rect x="1582.0" y="256.0" width="216.0" height="5.0" rx="2.5" fill="#202129"/>
@@ -290,7 +288,7 @@
 </g>
 </g>
 <g id="tabs">
-<g id="segmented-control-2">
+<g id="segmented-control-3">
 <rect x="296.0" y="292.0" width="404.3" height="38.0" rx="8" fill="#1E1F28" stroke="#282932" stroke-width="1"/>
 <rect x="300.0" y="296.0" width="61.6" height="30.0" rx="6" fill="#4F4CC9"/>
 <text id="All-62" x="314.0" y="315.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">All 62</text>
@@ -299,299 +297,307 @@
 <text id="At-risk-25" x="532.6" y="315.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">At risk 25</text>
 <text id="On-track-21" x="616.0" y="315.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">On track 21</text>
 </g>
-<text id="Weekly-visits-darker-more" x="1515.4" y="316.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">Weekly visits: darker = more visits · red outline = no visits that week</text>
+<text id="Weekly-prospects-darker-m" x="1535.8" y="316.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">Weekly prospects: darker = more · red outline = none that week</text>
 </g>
 <g id="table">
 <rect id="header-bg" x="296.0" y="346.0" width="1592.0" height="40.0" fill="#1A1D24"/>
 <text id="AGENT" x="312.0" y="370.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">AGENT</text>
-<text id="TERRITORY" x="602.0" y="370.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">TERRITORY</text>
-<text id="WEEKLY-VISITS-W1-W13" x="762.0" y="370.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">WEEKLY VISITS W1–W13</text>
-<text id="VISITS" x="1045.5" y="370.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">VISITS</text>
-<text id="PLAN-KEPT" x="1119.3" y="370.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">PLAN KEPT</text>
-<text id="CONV" x="1215.6" y="370.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">CONV.</text>
-<text id="CONVERSIONS-VS-TARGET" x="1282.0" y="370.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">CONVERSIONS VS TARGET</text>
-<text id="CONV-RATE" x="1494.4" y="370.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">CONV. RATE</text>
-<text id="LAST-CHECK-IN" x="1592.0" y="370.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">LAST CHECK-IN</text>
-<text id="STATUS" x="1742.0" y="370.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">STATUS</text>
+<text id="TERRITORY" x="572.0" y="370.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">TERRITORY</text>
+<text id="WEEKLY-PROSPECTS-W1-W13" x="722.0" y="370.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">WEEKLY PROSPECTS W1–W13</text>
+<text id="PROSPECTS" x="996.7" y="370.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">PROSPECTS</text>
+<text id="VS-ROUTE-TARGET" x="1092.0" y="370.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">VS ROUTE TARGET</text>
+<text id="LEADS" x="1275.2" y="370.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">LEADS</text>
+<text id="KYC-COMPLETED" x="1337.7" y="370.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">KYC COMPLETED</text>
+<text id="CONV" x="1485.6" y="370.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">CONV.</text>
+<text id="HOURS-DAY" x="1555.8" y="370.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">HOURS / DAY</text>
+<text id="LAST-PING" x="1662.0" y="370.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">LAST PING</text>
+<text id="STATUS" x="1782.0" y="370.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">STATUS</text>
 <g id="row-1">
-<rect x="296.0" y="386.0" width="1592.0" height="51.8" fill="#211F27"/>
 <line x1="296.0" y1="386.0" x2="1888.0" y2="386.0" stroke="#202129" stroke-width="1"/>
-<g id="avatar-SN">
+<g id="avatar-AK">
 <circle cx="326.0" cy="411.9" r="16.0" fill="#2C2C37"/>
-<text id="SN" x="317.6" y="417.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#A8A7E0">SN</text>
+<text id="AK" x="317.8" y="417.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#A8A7E0">AK</text>
 </g>
-<text id="Sarah-Namuli" x="352.0" y="409.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Sarah Namuli</text>
-<text id="Kampala-East" x="352.0" y="426.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kampala East</text>
-<text id="Ntinda-Kiwatule" x="602.0" y="416.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Ntinda · Kiwatule</text>
+<text id="Andrew-Kasule" x="352.0" y="409.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Andrew Kasule</text>
+<text id="Kampala-Central" x="352.0" y="426.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kampala Central</text>
+<text id="Wandegeya-Maker" x="572.0" y="416.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Wandegeya · Maker…</text>
 <g id="weekly-activity">
-<rect x="762.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.7813333333333332"/>
-<rect x="781.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.6719999999999999"/>
-<rect x="800.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.59"/>
-<rect x="819.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.5626666666666666"/>
-<rect x="838.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.6173333333333333"/>
-<rect x="857.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.59"/>
-<rect x="876.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.6446666666666666"/>
-<rect x="895.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.5626666666666666"/>
-<rect x="914.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.6173333333333333"/>
-<rect x="933.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.6446666666666666"/>
-<rect x="952.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.6173333333333333"/>
-<rect x="971.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.6719999999999999"/>
-<rect x="990.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.6173333333333333"/>
+<rect x="722.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.9358260869565216"/>
+<rect x="741.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.7326086956521738"/>
+<rect x="760.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.5329565217391304"/>
+<rect x="779.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.4830434782608695"/>
+<rect x="798.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.4580869565217391"/>
+<rect x="817.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.508"/>
+<rect x="836.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.5329565217391304"/>
+<rect x="855.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.5828695652173912"/>
+<rect x="874.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.6327826086956522"/>
+<rect x="893.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.6826956521739129"/>
+<rect x="912.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.7326086956521738"/>
+<rect x="931.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.8110434782608695"/>
+<rect x="950.0" y="403.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.7825217391304347"/>
 </g>
-<text id="214" x="1059.0" y="416.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">214</text>
-<text id="82" x="1154.6" y="416.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#A9F3D2">82%</text>
-<text id="19" x="1236.0" y="416.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">19</text>
+<text id="1-702" x="1029.1" y="416.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">1,702</text>
 <g id="progress-5">
-<rect x="1282.0" y="408.9" width="100.0" height="7.0" rx="3.5" fill="#202129"/>
-<rect x="1282.0" y="408.9" width="86.4" height="7.0" rx="3.5" fill="#15925A"/>
+<rect x="1092.0" y="408.9" width="90.0" height="7.0" rx="3.5" fill="#202129"/>
+<rect x="1092.0" y="408.9" width="85.1" height="7.0" rx="3.5" fill="#15925A"/>
 </g>
-<text id="19-22-86" x="1392.0" y="416.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">19/22 · 86%</text>
-<text id="8-9" x="1532.5" y="416.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">8.9%</text>
-<text id="Today-11-42" x="1592.0" y="416.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Today 11:42</text>
+<text id="95" x="1192.0" y="416.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">95%</text>
+<text id="312" x="1289.0" y="416.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">312</text>
+<text id="46" x="1416.0" y="416.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">46</text>
+<text id="2-7" x="1490.2" y="416.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#A9F3D2">2.7%</text>
+<text id="5-4-h" x="1602.2" y="416.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">5.4 h</text>
+<text id="Today-10-15" x="1662.0" y="416.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Today 10:15</text>
 <g id="chip-On-track">
-<rect x="1738.0" y="400.9" width="76.5" height="22.0" rx="11.0" fill="#25332C"/>
-<circle cx="1752.0" cy="411.9" r="4.0" fill="#15925A"/>
-<text id="On-track-2" x="1762.0" y="415.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">On track</text>
+<rect x="1778.0" y="400.9" width="76.5" height="22.0" rx="11.0" fill="#25332C"/>
+<circle cx="1792.0" cy="411.9" r="4.0" fill="#15925A"/>
+<text id="On-track-2" x="1802.0" y="415.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">On track</text>
 </g>
 </g>
 <g id="row-2">
 <line x1="296.0" y1="437.8" x2="1888.0" y2="437.8" stroke="#202129" stroke-width="1"/>
-<g id="avatar-RO">
+<g id="avatar-AT">
 <circle cx="326.0" cy="463.8" r="16.0" fill="#2C2C37"/>
-<text id="RO" x="317.3" y="469.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#A8A7E0">RO</text>
+<text id="AT" x="318.7" y="469.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#A8A7E0">AT</text>
 </g>
-<text id="Robert-Ouma" x="352.0" y="461.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Robert Ouma</text>
-<text id="Kampala-Central" x="352.0" y="478.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kampala Central</text>
-<text id="Wandegeya-Makerere" x="602.0" y="468.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Wandegeya · Makerere</text>
+<text id="Allan-Tumwine" x="352.0" y="461.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Allan Tumwine</text>
+<text id="Mbarara" x="352.0" y="478.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Mbarara</text>
+<text id="Mbarara-town-Kak" x="572.0" y="468.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Mbarara town · Kak…</text>
 <g id="weekly-activity-2">
-<rect x="762.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="1.0"/>
-<rect x="781.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.7813333333333332"/>
-<rect x="800.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.5626666666666666"/>
-<rect x="819.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.508"/>
-<rect x="838.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.48066666666666663"/>
-<rect x="857.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.5353333333333333"/>
-<rect x="876.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.5626666666666666"/>
-<rect x="895.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.6173333333333333"/>
-<rect x="914.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.6719999999999999"/>
-<rect x="933.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.7266666666666666"/>
-<rect x="952.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.7813333333333332"/>
-<rect x="971.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.8633333333333333"/>
-<rect x="990.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.8360000000000001"/>
+<rect x="722.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.9358260869565216"/>
+<rect x="741.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.7504347826086957"/>
+<rect x="760.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.5222608695652173"/>
+<rect x="779.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.4652173913043478"/>
+<rect x="798.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.5222608695652173"/>
+<rect x="817.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.49373913043478257"/>
+<rect x="836.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.5507826086956522"/>
+<rect x="855.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.5222608695652173"/>
+<rect x="874.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.5793043478260869"/>
+<rect x="893.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.6078260869565217"/>
+<rect x="912.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.6648695652173913"/>
+<rect x="931.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.6933913043478261"/>
+<rect x="950.0" y="455.8" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.6933913043478261"/>
 </g>
-<text id="241" x="1059.0" y="468.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">241</text>
-<text id="88" x="1154.6" y="468.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#A9F3D2">88%</text>
-<text id="31" x="1236.0" y="468.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">31</text>
+<text id="1-588" x="1029.1" y="468.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">1,588</text>
 <g id="progress-6">
-<rect x="1282.0" y="460.8" width="100.0" height="7.0" rx="3.5" fill="#202129"/>
-<rect x="1282.0" y="460.8" width="100.0" height="7.0" rx="3.5" fill="#15925A"/>
+<rect x="1092.0" y="460.8" width="90.0" height="7.0" rx="3.5" fill="#202129"/>
+<rect x="1092.0" y="460.8" width="86.6" height="7.0" rx="3.5" fill="#15925A"/>
 </g>
-<text id="31-27-115" x="1392.0" y="468.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">31/27 · 115%</text>
-<text id="12-9" x="1525.5" y="468.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">12.9%</text>
-<text id="Today-10-15" x="1592.0" y="468.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Today 10:15</text>
+<text id="96" x="1192.0" y="468.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">96%</text>
+<text id="297" x="1289.0" y="468.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">297</text>
+<text id="43" x="1416.0" y="468.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">43</text>
+<text id="2-7-2" x="1490.2" y="468.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#A9F3D2">2.7%</text>
+<text id="5-2-h" x="1602.2" y="468.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">5.2 h</text>
+<text id="Today-09-58" x="1662.0" y="468.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Today 09:58</text>
 <g id="chip-On-track-2">
-<rect x="1738.0" y="452.8" width="76.5" height="22.0" rx="11.0" fill="#25332C"/>
-<circle cx="1752.0" cy="463.8" r="4.0" fill="#15925A"/>
-<text id="On-track-3" x="1762.0" y="467.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">On track</text>
+<rect x="1778.0" y="452.8" width="76.5" height="22.0" rx="11.0" fill="#25332C"/>
+<circle cx="1792.0" cy="463.8" r="4.0" fill="#15925A"/>
+<text id="On-track-3" x="1802.0" y="467.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">On track</text>
 </g>
 </g>
 <g id="row-3">
+<rect x="296.0" y="489.7" width="1592.0" height="51.8" fill="#211F27"/>
 <line x1="296.0" y1="489.7" x2="1888.0" y2="489.7" stroke="#202129" stroke-width="1"/>
-<g id="avatar-AT">
+<g id="avatar-SN">
 <circle cx="326.0" cy="515.6" r="16.0" fill="#2C2C37"/>
-<text id="AT" x="318.7" y="521.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#A8A7E0">AT</text>
+<text id="SN" x="317.6" y="521.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#A8A7E0">SN</text>
 </g>
-<text id="Allan-Tumwine" x="352.0" y="513.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Allan Tumwine</text>
-<text id="Mbarara" x="352.0" y="530.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Mbarara</text>
-<text id="Mbarara-town-Kakoba" x="602.0" y="520.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Mbarara town · Kakoba</text>
+<text id="Sarah-Namuli" x="352.0" y="513.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Sarah Namuli</text>
+<text id="Kampala-East" x="352.0" y="530.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kampala East</text>
+<text id="Ntinda-Kiwatule" x="572.0" y="520.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Ntinda · Kiwatule</text>
 <g id="weekly-activity-3">
-<rect x="762.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.8906666666666667"/>
-<rect x="781.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.7266666666666666"/>
-<rect x="800.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.508"/>
-<rect x="819.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.4533333333333333"/>
-<rect x="838.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.508"/>
-<rect x="857.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.48066666666666663"/>
-<rect x="876.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.5353333333333333"/>
-<rect x="895.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.508"/>
-<rect x="914.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.5626666666666666"/>
-<rect x="933.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.59"/>
-<rect x="952.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.6446666666666666"/>
-<rect x="971.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.6719999999999999"/>
-<rect x="990.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.6719999999999999"/>
+<rect x="722.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.7290434782608695"/>
+<rect x="741.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.6256521739130434"/>
+<rect x="760.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.5507826086956522"/>
+<rect x="779.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.5258260869565217"/>
+<rect x="798.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.5757391304347825"/>
+<rect x="817.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.5507826086956522"/>
+<rect x="836.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.6006956521739131"/>
+<rect x="855.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.5258260869565217"/>
+<rect x="874.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.5757391304347825"/>
+<rect x="893.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.6006956521739131"/>
+<rect x="912.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.5757391304347825"/>
+<rect x="931.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.6256521739130434"/>
+<rect x="950.0" y="507.6" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.5757391304347825"/>
 </g>
-<text id="198" x="1059.0" y="520.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">198</text>
-<text id="85" x="1154.6" y="520.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#A9F3D2">85%</text>
-<text id="23" x="1236.0" y="520.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">23</text>
+<text id="1-486" x="1029.1" y="520.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">1,486</text>
 <g id="progress-7">
-<rect x="1282.0" y="512.6" width="100.0" height="7.0" rx="3.5" fill="#202129"/>
-<rect x="1282.0" y="512.6" width="100.0" height="7.0" rx="3.5" fill="#15925A"/>
+<rect x="1092.0" y="512.6" width="90.0" height="7.0" rx="3.5" fill="#202129"/>
+<rect x="1092.0" y="512.6" width="81.1" height="7.0" rx="3.5" fill="#15925A"/>
 </g>
-<text id="23-22-105" x="1392.0" y="520.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">23/22 · 105%</text>
-<text id="11-6" x="1525.5" y="520.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">11.6%</text>
-<text id="Today-09-58" x="1592.0" y="520.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Today 09:58</text>
+<text id="90" x="1192.0" y="520.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">90%</text>
+<text id="286" x="1289.0" y="520.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">286</text>
+<text id="41" x="1416.0" y="520.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">41</text>
+<text id="2-8" x="1490.2" y="520.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#A9F3D2">2.8%</text>
+<text id="5-1-h" x="1602.2" y="520.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">5.1 h</text>
+<text id="Today-11-42" x="1662.0" y="520.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Today 11:42</text>
 <g id="chip-On-track-3">
-<rect x="1738.0" y="504.6" width="76.5" height="22.0" rx="11.0" fill="#25332C"/>
-<circle cx="1752.0" cy="515.6" r="4.0" fill="#15925A"/>
-<text id="On-track-4" x="1762.0" y="519.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">On track</text>
+<rect x="1778.0" y="504.6" width="76.5" height="22.0" rx="11.0" fill="#25332C"/>
+<circle cx="1792.0" cy="515.6" r="4.0" fill="#15925A"/>
+<text id="On-track-4" x="1802.0" y="519.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">On track</text>
 </g>
 </g>
 <g id="row-4">
 <line x1="296.0" y1="541.5" x2="1888.0" y2="541.5" stroke="#202129" stroke-width="1"/>
-<g id="avatar-PK">
+<g id="avatar-HN">
 <circle cx="326.0" cy="567.4" r="16.0" fill="#3D3629"/>
-<text id="PK" x="318.4" y="573.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#F1D4A0">PK</text>
+<text id="HN" x="316.4" y="573.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#F1D4A0">HN</text>
 </g>
-<text id="Peter-Kato" x="352.0" y="565.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Peter Kato</text>
-<text id="Kampala-East-2" x="352.0" y="582.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kampala East</text>
-<text id="Kireka-Bweyogerere" x="602.0" y="571.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Kireka · Bweyogerere</text>
+<text id="Harriet-Nabirye" x="352.0" y="565.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Harriet Nabirye</text>
+<text id="Jinja" x="352.0" y="582.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Jinja</text>
+<text id="Jinja-town-Walukuba" x="572.0" y="571.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Jinja town · Walukuba</text>
 <g id="weekly-activity-4">
-<rect x="762.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="1.0"/>
-<rect x="781.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.8360000000000001"/>
-<rect x="800.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.344"/>
-<rect x="819.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.28933333333333333"/>
-<rect x="838.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.262"/>
-<rect x="857.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.31666666666666665"/>
-<rect x="876.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.28933333333333333"/>
-<rect x="895.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.344"/>
-<rect x="914.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.3986666666666666"/>
-<rect x="933.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.508"/>
-<rect x="952.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.6719999999999999"/>
-<rect x="971.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.7266666666666666"/>
-<rect x="990.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.7813333333333332"/>
+<rect x="722.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.8894782608695653"/>
+<rect x="741.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.6826956521739129"/>
+<rect x="760.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.37965217391304346"/>
+<rect x="779.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.30478260869565216"/>
+<rect x="798.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.2798260869565217"/>
+<rect x="817.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.2798260869565217"/>
+<rect x="836.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.30478260869565216"/>
+<rect x="855.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.3297391304347826"/>
+<rect x="874.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.354695652173913"/>
+<rect x="893.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.4295652173913044"/>
+<rect x="912.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.5828695652173912"/>
+<rect x="931.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.6327826086956522"/>
+<rect x="950.0" y="559.4" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.6826956521739129"/>
 </g>
-<text id="162" x="1059.0" y="571.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">162</text>
-<text id="61" x="1156.6" y="572.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#F0D198">61%</text>
-<text id="15" x="1236.0" y="571.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">15</text>
+<text id="1-064" x="1029.1" y="571.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">1,064</text>
 <g id="progress-8">
-<rect x="1282.0" y="564.4" width="100.0" height="7.0" rx="3.5" fill="#202129"/>
-<rect x="1282.0" y="564.4" width="68.2" height="7.0" rx="3.5" fill="#E39A0B"/>
+<rect x="1092.0" y="564.4" width="90.0" height="7.0" rx="3.5" fill="#202129"/>
+<rect x="1092.0" y="564.4" width="63.8" height="7.0" rx="3.5" fill="#E39A0B"/>
 </g>
-<text id="15-22-68" x="1392.0" y="572.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">15/22 · 68%</text>
-<text id="9-3" x="1532.5" y="571.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">9.3%</text>
-<text id="Today-11-05" x="1592.0" y="571.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Today 11:05</text>
+<text id="71" x="1192.0" y="572.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">71%</text>
+<text id="181" x="1289.0" y="571.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">181</text>
+<text id="24" x="1416.0" y="571.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">24</text>
+<text id="2-3" x="1490.2" y="572.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#A9F3D2">2.3%</text>
+<text id="3-4-h" x="1602.2" y="571.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">3.4 h</text>
+<text id="Today-08-41" x="1662.0" y="571.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Today 08:41</text>
 <g id="chip-At-risk">
-<rect x="1738.0" y="556.4" width="65.7" height="22.0" rx="11.0" fill="#332C20"/>
-<circle cx="1752.0" cy="567.4" r="4.0" fill="#B7791F"/>
-<text id="At-risk-2" x="1762.0" y="571.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#EBC389">At risk</text>
+<rect x="1778.0" y="556.4" width="65.7" height="22.0" rx="11.0" fill="#332C20"/>
+<circle cx="1792.0" cy="567.4" r="4.0" fill="#B7791F"/>
+<text id="At-risk-2" x="1802.0" y="571.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#EBC389">At risk</text>
 </g>
 </g>
 <g id="row-5">
 <line x1="296.0" y1="593.3" x2="1888.0" y2="593.3" stroke="#202129" stroke-width="1"/>
-<g id="avatar-HN">
+<g id="avatar-PK">
 <circle cx="326.0" cy="619.2" r="16.0" fill="#3D3629"/>
-<text id="HN" x="316.4" y="625.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#F1D4A0">HN</text>
+<text id="PK" x="318.4" y="625.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#F1D4A0">PK</text>
 </g>
-<text id="Harriet-Nabirye" x="352.0" y="617.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Harriet Nabirye</text>
-<text id="Jinja" x="352.0" y="634.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Jinja</text>
-<text id="Jinja-town-Walukuba" x="602.0" y="623.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Jinja town · Walukuba</text>
+<text id="Peter-Kato" x="352.0" y="617.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Peter Kato</text>
+<text id="Kampala-East-2" x="352.0" y="634.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kampala East</text>
+<text id="Kireka-Bweyogerere" x="572.0" y="623.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Kireka · Bweyogerere</text>
 <g id="weekly-activity-5">
-<rect x="762.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.9453333333333334"/>
-<rect x="781.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.7266666666666666"/>
-<rect x="800.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.3986666666666666"/>
-<rect x="819.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.31666666666666665"/>
-<rect x="838.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.28933333333333333"/>
-<rect x="857.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.28933333333333333"/>
-<rect x="876.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.31666666666666665"/>
-<rect x="895.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.344"/>
-<rect x="914.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.3713333333333333"/>
-<rect x="933.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.4533333333333333"/>
-<rect x="952.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.6173333333333333"/>
-<rect x="971.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.6719999999999999"/>
-<rect x="990.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.7266666666666666"/>
+<rect x="722.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.9215652173913043"/>
+<rect x="741.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.7718260869565217"/>
+<rect x="760.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.3261739130434782"/>
+<rect x="779.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.2798260869565217"/>
+<rect x="798.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.2548695652173913"/>
+<rect x="817.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.30478260869565216"/>
+<rect x="836.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.2798260869565217"/>
+<rect x="855.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.3261739130434782"/>
+<rect x="874.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.3760869565217391"/>
+<rect x="893.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.47591304347826086"/>
+<rect x="912.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.6220869565217391"/>
+<rect x="931.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.6719999999999999"/>
+<rect x="950.0" y="611.2" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.7219130434782608"/>
 </g>
-<text id="151" x="1059.0" y="623.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">151</text>
-<text id="58" x="1154.6" y="624.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#F0D198">58%</text>
-<text id="14" x="1236.0" y="623.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">14</text>
+<text id="1-120" x="1029.1" y="623.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">1,120</text>
 <g id="progress-9">
-<rect x="1282.0" y="616.2" width="100.0" height="7.0" rx="3.5" fill="#202129"/>
-<rect x="1282.0" y="616.2" width="63.6" height="7.0" rx="3.5" fill="#E39A0B"/>
+<rect x="1092.0" y="616.2" width="90.0" height="7.0" rx="3.5" fill="#202129"/>
+<rect x="1092.0" y="616.2" width="61.1" height="7.0" rx="3.5" fill="#E39A0B"/>
 </g>
-<text id="14-22-64" x="1392.0" y="624.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">14/22 · 64%</text>
-<text id="9-3-2" x="1532.5" y="623.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">9.3%</text>
-<text id="Today-08-41" x="1592.0" y="623.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Today 08:41</text>
+<text id="68" x="1192.0" y="624.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">68%</text>
+<text id="198" x="1289.0" y="623.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">198</text>
+<text id="27" x="1416.0" y="623.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">27</text>
+<text id="2-4" x="1490.2" y="624.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#A9F3D2">2.4%</text>
+<text id="3-6-h" x="1602.2" y="623.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">3.6 h</text>
+<text id="Today-11-05" x="1662.0" y="623.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Today 11:05</text>
 <g id="chip-At-risk-2">
-<rect x="1738.0" y="608.2" width="65.7" height="22.0" rx="11.0" fill="#332C20"/>
-<circle cx="1752.0" cy="619.2" r="4.0" fill="#B7791F"/>
-<text id="At-risk-3" x="1762.0" y="623.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#EBC389">At risk</text>
+<rect x="1778.0" y="608.2" width="65.7" height="22.0" rx="11.0" fill="#332C20"/>
+<circle cx="1792.0" cy="619.2" r="4.0" fill="#B7791F"/>
+<text id="At-risk-3" x="1802.0" y="623.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#EBC389">At risk</text>
 </g>
 </g>
 <g id="row-6">
 <line x1="296.0" y1="645.2" x2="1888.0" y2="645.2" stroke="#202129" stroke-width="1"/>
-<g id="avatar-GA">
+<g id="avatar-RA">
 <circle cx="326.0" cy="671.1" r="16.0" fill="#3D3629"/>
-<text id="GA" x="317.3" y="676.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#F1D4A0">GA</text>
+<text id="RA" x="317.8" y="676.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#F1D4A0">RA</text>
 </g>
-<text id="Grace-Akol" x="352.0" y="669.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Grace Akol</text>
-<text id="Lira" x="352.0" y="686.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Lira</text>
-<text id="Lira-town-Adyel" x="602.0" y="675.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Lira town · Adyel</text>
+<text id="Ruth-Achieng" x="352.0" y="669.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Ruth Achieng</text>
+<text id="Kampala-East-3" x="352.0" y="686.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kampala East</text>
+<text id="Naalya-Kira" x="572.0" y="675.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Naalya · Kira</text>
 <g id="weekly-activity-6">
-<rect x="762.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.8906666666666667"/>
-<rect x="781.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.754"/>
-<rect x="800.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.3713333333333333"/>
-<rect x="819.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.262"/>
-<rect x="838.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.23466666666666666"/>
-<rect x="857.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.262"/>
-<rect x="876.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.28933333333333333"/>
-<rect x="895.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.31666666666666665"/>
-<rect x="914.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.344"/>
-<rect x="933.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.42599999999999993"/>
-<rect x="952.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.59"/>
-<rect x="971.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.6719999999999999"/>
-<rect x="990.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.7266666666666666"/>
+<rect x="722.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="1.0"/>
+<rect x="741.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.8859130434782609"/>
+<rect x="760.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.32260869565217387"/>
+<rect x="779.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.23704347826086955"/>
+<rect x="798.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="817.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="836.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.23704347826086955"/>
+<rect x="855.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.26556521739130434"/>
+<rect x="874.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.2940869565217391"/>
+<rect x="893.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.40460869565217383"/>
+<rect x="912.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.5757391304347825"/>
+<rect x="931.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.6292173913043477"/>
+<rect x="950.0" y="663.1" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.6862608695652173"/>
 </g>
-<text id="139" x="1059.0" y="675.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">139</text>
-<text id="55" x="1154.6" y="676.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#F0D198">55%</text>
-<text id="13" x="1236.0" y="675.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">13</text>
+<text id="1-012" x="1029.1" y="675.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">1,012</text>
 <g id="progress-10">
-<rect x="1282.0" y="668.1" width="100.0" height="7.0" rx="3.5" fill="#202129"/>
-<rect x="1282.0" y="668.1" width="61.9" height="7.0" rx="3.5" fill="#E39A0B"/>
+<rect x="1092.0" y="668.1" width="90.0" height="7.0" rx="3.5" fill="#202129"/>
+<rect x="1092.0" y="668.1" width="55.2" height="7.0" rx="3.5" fill="#E39A0B"/>
 </g>
-<text id="13-21-62" x="1392.0" y="676.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">13/21 · 62%</text>
-<text id="9-4" x="1532.5" y="675.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">9.4%</text>
-<text id="Yesterday-16-20" x="1592.0" y="675.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Yesterday 16:20</text>
+<text id="61" x="1192.0" y="676.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">61%</text>
+<text id="171" x="1289.0" y="675.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">171</text>
+<text id="22" x="1416.0" y="675.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">22</text>
+<text id="2-2" x="1490.2" y="676.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#A9F3D2">2.2%</text>
+<text id="3-3-h" x="1602.2" y="675.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">3.3 h</text>
+<text id="Today-10-32" x="1662.0" y="675.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Today 10:32</text>
 <g id="chip-At-risk-3">
-<rect x="1738.0" y="660.1" width="65.7" height="22.0" rx="11.0" fill="#332C20"/>
-<circle cx="1752.0" cy="671.1" r="4.0" fill="#B7791F"/>
-<text id="At-risk-4" x="1762.0" y="675.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#EBC389">At risk</text>
+<rect x="1778.0" y="660.1" width="65.7" height="22.0" rx="11.0" fill="#332C20"/>
+<circle cx="1792.0" cy="671.1" r="4.0" fill="#B7791F"/>
+<text id="At-risk-4" x="1802.0" y="675.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#EBC389">At risk</text>
 </g>
 </g>
 <g id="row-7">
 <line x1="296.0" y1="697.0" x2="1888.0" y2="697.0" stroke="#202129" stroke-width="1"/>
-<g id="avatar-RA">
+<g id="avatar-GA">
 <circle cx="326.0" cy="722.9" r="16.0" fill="#3D3629"/>
-<text id="RA" x="317.8" y="728.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#F1D4A0">RA</text>
+<text id="GA" x="317.3" y="728.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#F1D4A0">GA</text>
 </g>
-<text id="Ruth-Achieng" x="352.0" y="720.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Ruth Achieng</text>
-<text id="Kampala-East-3" x="352.0" y="737.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kampala East</text>
-<text id="Naalya-Kira" x="602.0" y="727.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Naalya · Kira</text>
+<text id="Grace-Akol" x="352.0" y="720.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Grace Akol</text>
+<text id="Lira" x="352.0" y="737.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Lira</text>
+<text id="Lira-town-Adyel" x="572.0" y="727.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Lira town · Adyel</text>
 <g id="weekly-activity-7">
-<rect x="762.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="1.0"/>
-<rect x="781.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.8633333333333333"/>
-<rect x="800.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.31666666666666665"/>
-<rect x="819.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.23466666666666666"/>
-<rect x="838.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="857.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="876.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.23466666666666666"/>
-<rect x="895.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.262"/>
-<rect x="914.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.28933333333333333"/>
-<rect x="933.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.3986666666666666"/>
-<rect x="952.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.5626666666666666"/>
-<rect x="971.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.6173333333333333"/>
-<rect x="990.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.6719999999999999"/>
+<rect x="722.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.8324347826086955"/>
+<rect x="741.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.7076521739130435"/>
+<rect x="760.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.354695652173913"/>
+<rect x="779.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.2548695652173913"/>
+<rect x="798.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.22991304347826086"/>
+<rect x="817.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.2548695652173913"/>
+<rect x="836.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.2798260869565217"/>
+<rect x="855.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.30478260869565216"/>
+<rect x="874.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.3297391304347826"/>
+<rect x="893.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.40460869565217383"/>
+<rect x="912.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.5579130434782609"/>
+<rect x="931.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.6327826086956522"/>
+<rect x="950.0" y="714.9" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.6826956521739129"/>
 </g>
-<text id="128" x="1059.0" y="727.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">128</text>
-<text id="49" x="1154.3" y="727.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#D96565">49%</text>
-<text id="11" x="1236.0" y="727.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">11</text>
+<text id="978" x="1039.0" y="727.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">978</text>
 <g id="progress-11">
-<rect x="1282.0" y="719.9" width="100.0" height="7.0" rx="3.5" fill="#202129"/>
-<rect x="1282.0" y="719.9" width="50.0" height="7.0" rx="3.5" fill="#D14343"/>
+<rect x="1092.0" y="719.9" width="90.0" height="7.0" rx="3.5" fill="#202129"/>
+<rect x="1092.0" y="719.9" width="58.7" height="7.0" rx="3.5" fill="#E39A0B"/>
 </g>
-<text id="11-22-50" x="1392.0" y="727.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">11/22 · 50%</text>
-<text id="8-6" x="1532.5" y="727.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">8.6%</text>
-<text id="Today-10-32" x="1592.0" y="727.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Today 10:32</text>
+<text id="65" x="1192.0" y="727.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">65%</text>
+<text id="160" x="1289.0" y="727.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">160</text>
+<text id="21-2" x="1416.0" y="727.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">21</text>
+<text id="2-1" x="1490.2" y="727.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#A9F3D2">2.1%</text>
+<text id="3-1-h" x="1602.2" y="727.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">3.1 h</text>
+<text id="Yesterday-16-20" x="1662.0" y="727.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Yesterday 16:20</text>
 <g id="chip-At-risk-4">
-<rect x="1738.0" y="711.9" width="65.7" height="22.0" rx="11.0" fill="#332C20"/>
-<circle cx="1752.0" cy="722.9" r="4.0" fill="#B7791F"/>
-<text id="At-risk-5" x="1762.0" y="726.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#EBC389">At risk</text>
+<rect x="1778.0" y="711.9" width="65.7" height="22.0" rx="11.0" fill="#332C20"/>
+<circle cx="1792.0" cy="722.9" r="4.0" fill="#B7791F"/>
+<text id="At-risk-5" x="1802.0" y="726.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#EBC389">At risk</text>
 </g>
 </g>
 <g id="row-8">
@@ -602,36 +608,37 @@
 </g>
 <text id="Samuel-Wandera" x="352.0" y="772.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Samuel Wandera</text>
 <text id="Mbale" x="352.0" y="789.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Mbale</text>
-<text id="Mbale-town-Namak" x="602.0" y="779.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Mbale town · Namak…</text>
+<text id="Mbale-town-Nama" x="572.0" y="779.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Mbale town · Nama…</text>
 <g id="weekly-activity-8">
-<rect x="762.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="1.0"/>
-<rect x="781.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.7813333333333332"/>
-<rect x="800.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.28933333333333333"/>
-<rect x="819.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="838.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="857.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="876.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="895.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.23466666666666666"/>
-<rect x="914.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.262"/>
-<rect x="933.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.31666666666666665"/>
-<rect x="952.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.4533333333333333"/>
-<rect x="971.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.508"/>
-<rect x="990.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.5626666666666666"/>
+<rect x="722.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="1.0"/>
+<rect x="741.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.8039130434782609"/>
+<rect x="760.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.2940869565217391"/>
+<rect x="779.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="798.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="817.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="836.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="855.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.23704347826086955"/>
+<rect x="874.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.26556521739130434"/>
+<rect x="893.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.32260869565217387"/>
+<rect x="912.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.4652173913043478"/>
+<rect x="931.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.5222608695652173"/>
+<rect x="950.0" y="766.8" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.5757391304347825"/>
 </g>
-<text id="102" x="1059.0" y="779.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">102</text>
-<text id="38" x="1154.6" y="779.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#D96565">38%</text>
-<text id="9" x="1243.0" y="779.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">9</text>
+<text id="812" x="1039.0" y="779.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">812</text>
 <g id="progress-12">
-<rect x="1282.0" y="771.8" width="100.0" height="7.0" rx="3.5" fill="#202129"/>
-<rect x="1282.0" y="771.8" width="37.5" height="7.0" rx="3.5" fill="#D14343"/>
+<rect x="1092.0" y="771.8" width="90.0" height="7.0" rx="3.5" fill="#202129"/>
+<rect x="1092.0" y="771.8" width="48.7" height="7.0" rx="3.5" fill="#D14343"/>
 </g>
-<text id="9-24-38" x="1392.0" y="779.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">9/24 · 38%</text>
-<text id="8-8" x="1532.5" y="779.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">8.8%</text>
-<text id="Today-07-55" x="1592.0" y="779.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Today 07:55</text>
+<text id="54" x="1192.0" y="779.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">54%</text>
+<text id="120" x="1289.0" y="779.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">120</text>
+<text id="14" x="1416.0" y="779.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">14</text>
+<text id="1-7" x="1490.2" y="779.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#D96565">1.7%</text>
+<text id="2-6-h" x="1602.2" y="779.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">2.6 h</text>
+<text id="Today-07-55" x="1662.0" y="779.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Today 07:55</text>
 <g id="chip-Behind">
-<rect x="1738.0" y="763.8" width="68.8" height="22.0" rx="11.0" fill="#321F1E"/>
-<circle cx="1752.0" cy="774.8" r="4.0" fill="#C2362F"/>
-<text id="Behind-2" x="1762.0" y="778.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#E18984">Behind</text>
+<rect x="1778.0" y="763.8" width="68.8" height="22.0" rx="11.0" fill="#321F1E"/>
+<circle cx="1792.0" cy="774.8" r="4.0" fill="#C2362F"/>
+<text id="Behind-2" x="1802.0" y="778.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#E18984">Behind</text>
 </g>
 </g>
 <g id="row-9">
@@ -642,36 +649,37 @@
 </g>
 <text id="Fred-Opio" x="352.0" y="824.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Fred Opio</text>
 <text id="Gulu" x="352.0" y="841.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Gulu</text>
-<text id="Gulu-town-Layibi" x="602.0" y="831.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Gulu town · Layibi</text>
+<text id="Gulu-town-Layibi" x="572.0" y="831.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Gulu town · Layibi</text>
 <g id="weekly-activity-9">
-<rect x="762.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.8906666666666667"/>
-<rect x="781.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.8360000000000001"/>
-<rect x="800.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.344"/>
-<rect x="819.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.23466666666666666"/>
-<rect x="838.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="857.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="876.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="895.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="914.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.23466666666666666"/>
-<rect x="933.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.28933333333333333"/>
-<rect x="952.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.42599999999999993"/>
-<rect x="971.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.48066666666666663"/>
-<rect x="990.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.508"/>
+<rect x="722.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.8573913043478261"/>
+<rect x="741.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.8074782608695652"/>
+<rect x="760.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.3368695652173913"/>
+<rect x="779.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.2334782608695652"/>
+<rect x="798.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="817.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="836.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="855.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="874.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.2334782608695652"/>
+<rect x="893.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.28339130434782606"/>
+<rect x="912.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.41530434782608694"/>
+<rect x="931.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.4687826086956522"/>
+<rect x="950.0" y="818.6" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.49373913043478257"/>
 </g>
-<text id="96" x="1066.0" y="831.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">96</text>
-<text id="35" x="1154.6" y="831.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#D96565">35%</text>
-<text id="8" x="1243.0" y="831.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">8</text>
+<text id="704" x="1039.0" y="831.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">704</text>
 <g id="progress-13">
-<rect x="1282.0" y="823.6" width="100.0" height="7.0" rx="3.5" fill="#202129"/>
-<rect x="1282.0" y="823.6" width="38.1" height="7.0" rx="3.5" fill="#D14343"/>
+<rect x="1092.0" y="823.6" width="90.0" height="7.0" rx="3.5" fill="#202129"/>
+<rect x="1092.0" y="823.6" width="42.2" height="7.0" rx="3.5" fill="#D14343"/>
 </g>
-<text id="8-21-38" x="1392.0" y="831.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">8/21 · 38%</text>
-<text id="8-3" x="1532.5" y="831.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">8.3%</text>
-<text id="Yesterday-15-02" x="1592.0" y="831.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Yesterday 15:02</text>
+<text id="47" x="1192.0" y="831.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">47%</text>
+<text id="98" x="1296.0" y="831.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">98</text>
+<text id="11" x="1416.0" y="831.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">11</text>
+<text id="1-6" x="1490.2" y="831.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#D96565">1.6%</text>
+<text id="2-2-h" x="1602.2" y="831.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">2.2 h</text>
+<text id="Yesterday-15-02" x="1662.0" y="831.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Yesterday 15:02</text>
 <g id="chip-Behind-2">
-<rect x="1738.0" y="815.6" width="68.8" height="22.0" rx="11.0" fill="#321F1E"/>
-<circle cx="1752.0" cy="826.6" r="4.0" fill="#C2362F"/>
-<text id="Behind-3" x="1762.0" y="830.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#E18984">Behind</text>
+<rect x="1778.0" y="815.6" width="68.8" height="22.0" rx="11.0" fill="#321F1E"/>
+<circle cx="1792.0" cy="826.6" r="4.0" fill="#C2362F"/>
+<text id="Behind-3" x="1802.0" y="830.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#E18984">Behind</text>
 </g>
 </g>
 <g id="row-10">
@@ -682,36 +690,37 @@
 </g>
 <text id="Brian-Ssali" x="352.0" y="876.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Brian Ssali</text>
 <text id="Kampala-East-4" x="352.0" y="893.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kampala East</text>
-<text id="Banda-Kyambogo" x="602.0" y="882.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Banda · Kyambogo</text>
+<text id="Banda-Kyambogo" x="572.0" y="882.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Banda · Kyambogo</text>
 <g id="weekly-activity-10">
-<rect x="762.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.8360000000000001"/>
-<rect x="781.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.7266666666666666"/>
-<rect x="800.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.31666666666666665"/>
-<rect x="819.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="838.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="857.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="876.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="895.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="914.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="933.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.262"/>
-<rect x="952.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.3713333333333333"/>
-<rect x="971.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.3713333333333333"/>
-<rect x="990.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.3986666666666666"/>
+<rect x="722.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.8253043478260869"/>
+<rect x="741.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.7183478260869565"/>
+<rect x="760.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.3154782608695652"/>
+<rect x="779.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="798.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="817.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="836.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="855.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="874.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="893.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.262"/>
+<rect x="912.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.3689565217391304"/>
+<rect x="931.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.3689565217391304"/>
+<rect x="950.0" y="870.4" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.3974782608695652"/>
 </g>
-<text id="74" x="1066.0" y="882.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">74</text>
-<text id="22" x="1154.6" y="883.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#D96565">22%</text>
-<text id="5-2" x="1243.0" y="882.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">5</text>
+<text id="560" x="1039.0" y="882.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">560</text>
 <g id="progress-14">
-<rect x="1282.0" y="875.4" width="100.0" height="7.0" rx="3.5" fill="#202129"/>
-<rect x="1282.0" y="875.4" width="22.7" height="7.0" rx="3.5" fill="#D14343"/>
+<rect x="1092.0" y="875.4" width="90.0" height="7.0" rx="3.5" fill="#202129"/>
+<rect x="1092.0" y="875.4" width="30.5" height="7.0" rx="3.5" fill="#D14343"/>
 </g>
-<text id="5-22-23" x="1392.0" y="883.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">5/22 · 23%</text>
-<text id="6-8" x="1532.5" y="882.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">6.8%</text>
-<text id="Today-09-10" x="1592.0" y="882.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Today 09:10</text>
+<text id="34" x="1192.0" y="883.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">34%</text>
+<text id="71-2" x="1296.0" y="882.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">71</text>
+<text id="7" x="1423.0" y="882.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">7</text>
+<text id="1-2" x="1490.2" y="883.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#D96565">1.2%</text>
+<text id="1-8-h" x="1602.2" y="882.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">1.8 h</text>
+<text id="Today-09-10" x="1662.0" y="882.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Today 09:10</text>
 <g id="chip-Behind-3">
-<rect x="1738.0" y="867.4" width="68.8" height="22.0" rx="11.0" fill="#321F1E"/>
-<circle cx="1752.0" cy="878.4" r="4.0" fill="#C2362F"/>
-<text id="Behind-4" x="1762.0" y="882.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#E18984">Behind</text>
+<rect x="1778.0" y="867.4" width="68.8" height="22.0" rx="11.0" fill="#321F1E"/>
+<circle cx="1792.0" cy="878.4" r="4.0" fill="#C2362F"/>
+<text id="Behind-4" x="1802.0" y="882.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#E18984">Behind</text>
 </g>
 </g>
 <g id="row-11">
@@ -722,36 +731,37 @@
 </g>
 <text id="Denis-Okiror" x="352.0" y="928.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Denis Okiror</text>
 <text id="Soroti" x="352.0" y="945.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Soroti</text>
-<text id="Soroti-town" x="602.0" y="934.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Soroti town</text>
+<text id="Soroti-town" x="572.0" y="934.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Soroti town</text>
 <g id="weekly-activity-11">
-<rect x="762.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.7813333333333332"/>
-<rect x="781.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.59"/>
-<rect x="800.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.23466666666666666"/>
-<rect x="819.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="838.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="857.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="876.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="895.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="914.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="933.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="952.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="971.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.23466666666666666"/>
-<rect x="990.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="722.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.7575652173913043"/>
+<rect x="741.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.5721739130434782"/>
+<rect x="760.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.2334782608695652"/>
+<rect x="779.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="798.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="817.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="836.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="855.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="874.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="893.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="912.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="931.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.2334782608695652"/>
+<rect x="950.0" y="922.3" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
 </g>
-<text id="41" x="1066.0" y="934.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">41</text>
-<text id="9-2" x="1161.8" y="935.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#D96565">9%</text>
-<text id="2" x="1243.0" y="934.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">2</text>
+<text id="302" x="1039.0" y="934.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">302</text>
 <g id="progress-15">
-<rect x="1282.0" y="927.3" width="100.0" height="7.0" rx="3.5" fill="#202129"/>
-<rect x="1282.0" y="927.3" width="8.3" height="7.0" rx="3.5" fill="#D14343"/>
+<rect x="1092.0" y="927.3" width="90.0" height="7.0" rx="3.5" fill="#202129"/>
+<rect x="1092.0" y="927.3" width="18.1" height="7.0" rx="3.5" fill="#D14343"/>
 </g>
-<text id="2-24-8" x="1392.0" y="935.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">2/24 · 8%</text>
-<text id="4-9" x="1532.5" y="934.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">4.9%</text>
-<text id="17-Sep-12-44" x="1592.0" y="934.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">17 Sep 12:44</text>
+<text id="20" x="1192.0" y="935.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">20%</text>
+<text id="34-2" x="1296.0" y="934.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">34</text>
+<text id="3" x="1423.0" y="934.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">3</text>
+<text id="1-0" x="1490.2" y="935.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#D96565">1.0%</text>
+<text id="0-6-h" x="1602.2" y="934.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">0.6 h</text>
+<text id="17-Sep-12-44" x="1662.0" y="934.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">17 Sep 12:44</text>
 <g id="chip-Silent">
-<rect x="1738.0" y="919.3" width="62.0" height="22.0" rx="11.0" fill="#321F1E"/>
-<circle cx="1752.0" cy="930.3" r="4.0" fill="#C2362F"/>
-<text id="Silent-2" x="1762.0" y="934.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#E18984">Silent</text>
+<rect x="1778.0" y="919.3" width="62.0" height="22.0" rx="11.0" fill="#321F1E"/>
+<circle cx="1792.0" cy="930.3" r="4.0" fill="#C2362F"/>
+<text id="Silent-2" x="1802.0" y="934.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#E18984">Silent</text>
 </g>
 </g>
 <g id="row-12">
@@ -762,41 +772,42 @@
 </g>
 <text id="Rose-Candiru" x="352.0" y="980.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Rose Candiru</text>
 <text id="Arua" x="352.0" y="997.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Arua</text>
-<text id="Arua-town-Oli" x="602.0" y="986.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Arua town · Oli</text>
+<text id="Arua-town-Oli" x="572.0" y="986.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Arua town · Oli</text>
 <g id="weekly-activity-12">
-<rect x="762.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.7266666666666666"/>
-<rect x="781.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.5626666666666666"/>
-<rect x="800.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#4F4CC9" fill-opacity="0.28933333333333333"/>
-<rect x="819.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="838.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="857.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="876.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="895.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="914.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="933.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="952.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="971.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
-<rect x="990.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="722.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.6826956521739129"/>
+<rect x="741.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.5329565217391304"/>
+<rect x="760.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#7056D6" fill-opacity="0.2798260869565217"/>
+<rect x="779.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="798.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="817.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="836.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="855.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="874.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="893.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="912.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="931.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
+<rect x="950.0" y="974.1" width="15.0" height="16.0" rx="3" fill="#301616" stroke="#562C2C" stroke-width="1"/>
 </g>
-<text id="38-2" x="1066.0" y="986.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">38</text>
-<text id="6-2" x="1161.8" y="987.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#D96565">6%</text>
-<text id="1" x="1243.0" y="986.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">1</text>
+<text id="268" x="1039.0" y="986.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">268</text>
 <g id="progress-16">
-<rect x="1282.0" y="979.1" width="100.0" height="7.0" rx="3.5" fill="#202129"/>
-<rect x="1282.0" y="979.1" width="7.0" height="7.0" rx="3.5" fill="#D14343"/>
+<rect x="1092.0" y="979.1" width="90.0" height="7.0" rx="3.5" fill="#202129"/>
+<rect x="1092.0" y="979.1" width="17.9" height="7.0" rx="3.5" fill="#D14343"/>
 </g>
-<text id="1-20-5" x="1392.0" y="987.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">1/20 · 5%</text>
-<text id="2-6" x="1532.5" y="986.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">2.6%</text>
-<text id="11-Sep-10-03" x="1592.0" y="986.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">11 Sep 10:03</text>
+<text id="20-2" x="1192.0" y="987.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">20%</text>
+<text id="22-2" x="1296.0" y="986.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">22</text>
+<text id="1" x="1423.0" y="986.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">1</text>
+<text id="0-4" x="1490.2" y="987.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#D96565">0.4%</text>
+<text id="0-4-h" x="1602.2" y="986.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">0.4 h</text>
+<text id="11-Sep-10-03" x="1662.0" y="986.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">11 Sep 10:03</text>
 <g id="chip-Silent-2">
-<rect x="1738.0" y="971.1" width="62.0" height="22.0" rx="11.0" fill="#321F1E"/>
-<circle cx="1752.0" cy="982.1" r="4.0" fill="#C2362F"/>
-<text id="Silent-3" x="1762.0" y="986.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#E18984">Silent</text>
+<rect x="1778.0" y="971.1" width="62.0" height="22.0" rx="11.0" fill="#321F1E"/>
+<circle cx="1792.0" cy="982.1" r="4.0" fill="#C2362F"/>
+<text id="Silent-3" x="1802.0" y="986.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#E18984">Silent</text>
 </g>
 </g>
 </g>
 <g id="table-footer">
-<text id="Showing-12-of-62-agents" x="312.0" y="1036.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">Showing 12 of 62 agents</text>
+<text id="Showing-12-of-62-sales-agent" x="312.0" y="1036.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">Showing 12 of 62 sales agents · conversion = their prospects whose KYC was completed</text>
 <text id="1-2-3-4-5-6" x="1776.3" y="1036.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#A09FDD">1  2  3  4  5  6  →</text>
 </g>
 </svg>

@@ -23,21 +23,21 @@
 <text id="Florence-Nambi-11-14-11-52" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Florence Nambi · 11:14–11:52 · 38 min</text>
 </g>
 <text id="What-happened-on-this-visit" x="16.0" y="100.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#1B1C3A">What happened on this visit?</text>
-<g id="outcome-Application-submitted">
+<g id="outcome-KYC-completed-application-sent">
 <rect x="16.0" y="114.0" width="328.0" height="52.0" rx="12" fill="#EFF7F3" stroke="#15925A" stroke-width="2"/>
 <g id="radio">
 <circle cx="38.0" cy="140.0" r="9.0" fill="#FFFFFE" stroke="#15925A" stroke-width="1.8"/>
 <circle cx="38.0" cy="140.0" r="4.5" fill="#15925A"/>
 </g>
-<text id="Application-submitted" x="58.0" y="136.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">Application submitted</text>
+<text id="KYC-completed-application-s" x="58.0" y="136.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">KYC completed, application sent</text>
 <text id="Detected-LU-APP-2609-04817" x="58.0" y="154.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">Detected: LU-APP-2609-04817 at 11:42</text>
 </g>
-<g id="outcome-KYC-done-loan-later">
+<g id="outcome-KYC-completed-loan-later">
 <rect x="16.0" y="172.0" width="328.0" height="52.0" rx="12" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <g id="radio-2">
 <circle cx="38.0" cy="198.0" r="9.0" fill="#FFFFFE" stroke="#C4C7D6" stroke-width="1.8"/>
 </g>
-<text id="KYC-done-loan-later" x="58.0" y="194.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">KYC done, loan later</text>
+<text id="KYC-completed-loan-later" x="58.0" y="194.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">KYC completed, loan later</text>
 <text id="Book-a-visit-to-agree-the-lo" x="58.0" y="212.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">Book a visit to agree the loan</text>
 </g>
 <g id="outcome-Needs-more-time">
@@ -46,7 +46,7 @@
 <circle cx="38.0" cy="256.0" r="9.0" fill="#FFFFFE" stroke="#C4C7D6" stroke-width="1.8"/>
 </g>
 <text id="Needs-more-time" x="58.0" y="252.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">Needs more time</text>
-<text id="Book-a-follow-up-visit" x="58.0" y="270.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">Book a follow-up visit</text>
+<text id="Book-another-visit" x="58.0" y="270.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">Book another visit</text>
 </g>
 <g id="outcome-No-longer-interested">
 <rect x="16.0" y="288.0" width="328.0" height="52.0" rx="12" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
@@ -56,12 +56,12 @@
 <text id="No-longer-interested" x="58.0" y="310.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">No longer interested</text>
 <text id="Capture-why" x="58.0" y="328.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">Capture why</text>
 </g>
-<g id="outcome-Client-not-available">
+<g id="outcome-Lead-not-available">
 <rect x="16.0" y="346.0" width="328.0" height="52.0" rx="12" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
 <g id="radio-5">
 <circle cx="38.0" cy="372.0" r="9.0" fill="#FFFFFE" stroke="#C4C7D6" stroke-width="1.8"/>
 </g>
-<text id="Client-not-available" x="58.0" y="368.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">Client not available</text>
+<text id="Lead-not-available" x="58.0" y="368.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">Lead not available</text>
 <text id="Logged-as-a-visit-attempt" x="58.0" y="386.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">Logged as a visit attempt</text>
 </g>
 <g id="field-Next-visit">

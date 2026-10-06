@@ -75,14 +75,14 @@ BLUE = "#2F6FDB"
 VIOLET = "#7056D6"
 TEAL = "#0E8C99"
 
-# Client journey, from the whiteboard session (29 Sep 2026). Order matters.
+# Client journey funnel, as Letshego described it after the first demo (2 Oct 2026). Order matters.
+# Prospect: name, phone and location captured by a sales agent in the field.
+# Lead: the agent called them; they want a loan, and the NIN, amount and location are captured.
+# KYC completed: a relationship officer visited the lead and completed KYC; the prospect is now a client (= conversion).
 STAGES = [
-    ("Visited", "#8A8DA6"),
-    ("Interested", BLUE),
-    ("KYC captured", VIOLET),
-    ("KYC validated", TEAL),
-    ("Negotiation", AMBER),
-    ("Applied", GREEN),          # = successful conversion
+    ("Prospect", VIOLET),
+    ("Lead", BLUE),
+    ("KYC completed", GREEN),
 ]
 STAGE = dict(STAGES)
 
@@ -117,6 +117,13 @@ STATUS = {
     "Pending approval": "#B7791F",
     "Verified": "#15925A",
     "Follow-up": BLUE,
+    "On a lead plan": TEAL,
+    "Visit booked": TEAL,
+    "Client": "#15925A",
+    "Outside territory": "#C2362F",
+    "Prospecting": "#15925A",
+    "Idle": "#B7791F",
+    "Offline": "#7D8099",
     **STAGE,
 }
 
@@ -245,6 +252,7 @@ ICONS: dict[str, list[str]] = {
     "phone": ["M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z", "M12 18h.01"],
     "api": ["M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1",
             "M16 21h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1"],
+    "call": ["M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"],
     "moon": ["M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"],
     "idcard": ["M4 5h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z",
                "M8 9a2 2 0 1 0 0 4 2 2 0 1 0 0-4z", "M5 16.5c.6-1.5 1.7-2.2 3-2.2s2.4.7 3 2.2", "M14 10h5", "M14 14h3"],

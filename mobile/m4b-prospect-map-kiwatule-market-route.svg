@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
+<title>M4b Prospect map: Kiwatule market route</title>
+<defs><filter id="soft" x="-20%" y="-20%" width="140%" height="170%"><feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#1B1C3A" flood-opacity="0.07"/></filter></defs>
+<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#F5F6FA"/>
+<g id="status-bar">
+<text id="11-08" x="16.0" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1B1C3A">11:08</text>
+<rect id="battery" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#1B1C3A" stroke-width="1.2"/>
+<rect x="324.0" y="10.0" width="13.0" height="6.0" rx="1" fill="#1B1C3A"/>
+<rect x="342.5" y="11.0" width="2.0" height="4.0" rx="1" fill="#1B1C3A"/>
+<rect id="signal-bar" x="292.0" y="14.0" width="3.0" height="3.0" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-2" x="297.0" y="11.8" width="3.0" height="5.2" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-3" x="302.0" y="9.6" width="3.0" height="7.4" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-4" x="307.0" y="7.4" width="3.0" height="9.6" rx="0.8" fill="#1B1C3A" fill-opacity="0.3"/>
+<text id="network" x="270.5" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#1B1C3A">4G</text>
+</g>
+<g id="app-bar">
+<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#FFFFFE"/>
+<line x1="0.0" y1="80.0" x2="360.0" y2="80.0" stroke="#E4E5EF" stroke-width="1"/>
+<g id="icon-arrowleft" transform="translate(16.0 40.0) scale(1.0000)">
+<path d="M19 12H5" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 19l-7-7 7-7" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Prospect-map" x="56.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#1B1C3A">Prospect map</text>
+<text id="Kiwatule-market-route-toda" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Kiwatule market route · today</text>
+</g>
+<g id="summary-chips">
+<g id="chip-32-prospects">
+<rect x="16.0" y="92.0" width="103.3" height="28.0" rx="14.0" fill="#EEEBFA"/>
+<circle cx="30.0" cy="106.0" r="4.0" fill="#7056D6"/>
+<text id="32-prospects" x="40.0" y="110.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#634CBC">32 prospects</text>
+</g>
+<g id="chip-3-leads">
+<rect x="127.3" y="92.0" width="72.1" height="28.0" rx="14.0" fill="#E6EEFB"/>
+<circle cx="141.3" cy="106.0" r="4.0" fill="#2F6FDB"/>
+<text id="3-leads" x="151.3" y="110.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#2962C1">3 leads</text>
+</g>
+<g id="chip-2-6-h-on-route">
+<rect x="207.4" y="92.0" width="110.5" height="28.0" rx="14.0" fill="#E3F2EB"/>
+<circle cx="221.4" cy="106.0" r="4.0" fill="#15925A"/>
+<text id="2-6-h-on-route" x="231.4" y="110.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#12804F">2.6 h on route</text>
+</g>
+</g>
+<g id="street-map">
+<rect id="land" x="16.0" y="130.0" width="328.0" height="330.0" fill="#F2F1EC"/>
+<path id="park" d="M198.0 294.3 L191.2 306.9 L170.9 311.0 L149.9 310.9 L134.5 301.1 L132.8 287.1 L152.2 280.1 L171.1 276.8 L186.9 283.8 Z" fill="#DDEBD3"/>
+<path id="park-2" d="M288.6 329.6 L283.3 348.4 L274.1 358.0 L264.9 350.7 L259.9 337.4 L257.4 320.0 L265.2 309.3 L273.7 305.2 L281.7 313.4 Z" fill="#DDEBD3"/>
+<path id="park-3" d="M64.0 269.0 L59.4 286.1 L45.2 294.0 L29.4 292.2 L20.4 277.5 L21.8 261.0 L28.0 243.1 L45.9 239.6 L60.6 250.7 Z" fill="#DDEBD3"/>
+<path id="park-4" d="M257.0 229.7 L256.8 241.0 L244.4 245.0 L231.0 245.4 L224.7 235.0 L221.2 223.3 L231.0 214.1 L244.0 216.7 L254.0 220.5 Z" fill="#DDEBD3"/>
+<path id="park-5" d="M329.2 270.6 L327.6 282.6 L307.4 289.9 L285.9 284.8 L274.6 275.8 L271.9 264.8 L281.9 252.5 L307.4 251.3 L323.0 260.6 Z" fill="#DDEBD3"/>
+<g id="minor-streets">
+<line x1="24.0" y1="145.1" x2="65.5" y2="144.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="24.0" y1="267.8" x2="73.3" y2="283.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="24.0" y1="329.1" x2="33.3" y2="367.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="85.3" y1="191.2" x2="140.0" y2="187.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="85.3" y1="313.9" x2="118.1" y2="307.9" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="146.7" y1="204.1" x2="149.9" y2="244.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="146.7" y1="326.8" x2="176.4" y2="333.8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="146.7" y1="388.1" x2="179.0" y2="394.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="146.7" y1="449.5" x2="184.4" y2="453.9" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="208.0" y1="159.6" x2="232.6" y2="153.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="208.0" y1="282.3" x2="216.2" y2="335.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="208.0" y1="404.9" x2="265.0" y2="420.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="269.3" y1="199.1" x2="306.7" y2="188.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="269.3" y1="260.4" x2="305.8" y2="252.9" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="269.3" y1="383.1" x2="278.4" y2="422.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="269.3" y1="444.4" x2="326.5" y2="447.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="330.7" y1="159.1" x2="323.6" y2="182.8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="330.7" y1="281.8" x2="337.5" y2="341.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="330.7" y1="343.1" x2="322.3" y2="398.9" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+</g>
+<path id="main-road-casing" d="M16.0 202.6 C114.4 229.0 196.4 189.4 344.0 222.4" fill="none" stroke="#E7D7B4" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road" d="M16.0 202.6 C114.4 229.0 196.4 189.4 344.0 222.4" fill="none" stroke="#FBF3DE" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road-casing-2" d="M16.0 334.6 C107.8 311.5 180.0 328.0 219.4 407.2" fill="none" stroke="#E7D7B4" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road-2" d="M16.0 334.6 C107.8 311.5 180.0 328.0 219.4 407.2" fill="none" stroke="#FBF3DE" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road-casing-3" d="M75.0 130.0 C101.3 245.5 81.6 361.0 114.4 460.0" fill="none" stroke="#E7D7B4" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road-3" d="M75.0 130.0 C101.3 245.5 81.6 361.0 114.4 460.0" fill="none" stroke="#FBF3DE" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road-casing-4" d="M206.2 130.0 C186.6 229.0 232.5 295.0 327.6 328.0" fill="none" stroke="#E7D7B4" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road-4" d="M206.2 130.0 C186.6 229.0 232.5 295.0 327.6 328.0" fill="none" stroke="#FBF3DE" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road-casing-5" d="M271.8 130.0 C278.4 196.0 311.2 245.5 344.0 262.0" fill="none" stroke="#E7D7B4" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road-5" d="M271.8 130.0 C278.4 196.0 311.2 245.5 344.0 262.0" fill="none" stroke="#FBF3DE" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<g id="place-names">
+<text id="Ntinda" x="63.0" y="182.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#8A8C9E">Ntinda</text>
+<text id="Kiwatule" x="215.7" y="202.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#8A8C9E">Kiwatule</text>
+<text id="Kiwatule-market" x="155.6" y="334.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#8A8C9E">Kiwatule market</text>
+</g>
+</g>
+<rect x="16.0" y="130.0" width="328.0" height="330.0" rx="14" fill="none" stroke="#E4E5EF" stroke-width="1"/>
+<path id="territory-geofence" d="M29.1 146.5 L330.9 149.8 L327.6 440.2 L32.4 443.5 Z" fill="none" stroke="#15925A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 5"/>
+<path id="route" d="M81.6 394.0 L127.5 347.8 L173.4 328.0 L219.4 341.2 L258.7 301.6 L291.5 248.8" fill="none" stroke="#B6B6D3" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<g id="prospects">
+<circle cx="183.7" cy="322.0" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="253.7" cy="284.3" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="261.3" cy="277.4" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="207.8" cy="334.6" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="238.1" cy="327.2" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="109.3" cy="346.8" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="211.3" cy="337.5" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="249.8" cy="313.8" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="98.2" cy="375.4" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="241.5" cy="304.9" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="133.5" cy="335.1" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="250.5" cy="310.1" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="257.3" cy="277.5" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="179.1" cy="331.9" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="263.6" cy="276.5" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="111.9" cy="377.1" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="112.4" cy="335.9" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="190.0" cy="325.6" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="209.0" cy="332.1" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="177.4" cy="316.8" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="204.1" cy="342.9" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="270.3" cy="261.6" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="209.3" cy="333.6" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="306.5" cy="239.8" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="254.4" cy="313.1" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="206.8" cy="335.4" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="236.7" cy="334.3" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="96.6" cy="384.2" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="214.0" cy="337.4" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="291.5" cy="239.3" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="253.0" cy="300.0" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="128.8" cy="341.6" r="4.5" fill="#7056D6" stroke="#FFFFFF" stroke-width="1.4"/>
+</g>
+<g id="lead">
+<path d="M134.1 328.0 C130.9 321.6 124.5 318.4 124.5 311.2 A9.6 9.6 0 1 1 143.7 311.2 C143.7 318.4 137.3 321.6 134.1 328.0 Z" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="134.1" cy="311.2" r="3.4" fill="#FFFFFF"/>
+</g>
+<g id="lead-2">
+<path d="M212.8 361.0 C209.6 354.6 203.2 351.4 203.2 344.2 A9.6 9.6 0 1 1 222.4 344.2 C222.4 351.4 216.0 354.6 212.8 361.0 Z" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="212.8" cy="344.2" r="3.4" fill="#FFFFFF"/>
+</g>
+<g id="lead-3">
+<path d="M245.6 295.0 C242.4 288.6 236.0 285.4 236.0 278.2 A9.6 9.6 0 1 1 255.2 278.2 C255.2 285.4 248.8 288.6 245.6 295.0 Z" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="245.6" cy="278.2" r="3.4" fill="#FFFFFF"/>
+</g>
+<circle cx="219.4" cy="334.6" r="16.0" fill="#2F2E80" fill-opacity="0.18"/>
+<circle id="you-are-here" cx="219.4" cy="334.6" r="8.0" fill="#2F2E80" stroke="#FFFFFF" stroke-width="2.5"/>
+<g id="legend">
+<circle cx="32.0" cy="476.0" r="5.0" fill="#7056D6"/>
+<text id="Prospect" x="42.0" y="480.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#4B4D6B">Prospect</text>
+<circle cx="106.0" cy="476.0" r="5.0" fill="#2F6FDB"/>
+<text id="Lead" x="116.0" y="480.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#4B4D6B">Lead</text>
+<circle cx="160.1" cy="476.0" r="5.0" fill="#2F2E80"/>
+<text id="You" x="170.1" y="480.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#4B4D6B">You</text>
+<line x1="202.7" y1="476.0" x2="220.7" y2="476.0" stroke="#15925A" stroke-width="2" stroke-dasharray="4 3"/>
+<text id="Territory" x="226.7" y="480.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#4B4D6B">Territory</text>
+</g>
+<text id="Latest-prospects" x="16.0" y="512.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#1B1C3A">Latest prospects</text>
+<text id="All-32" x="311.8" y="512.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#2F2E80">All 32</text>
+<g id="prospect-Joseph-Kiggundu">
+<rect x="16.0" y="524.0" width="328.0" height="54.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
+<circle cx="38.0" cy="551.0" r="5.0" fill="#7056D6"/>
+<text id="Joseph-Kiggundu" x="54.0" y="547.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">Joseph Kiggundu</text>
+<text id="10-52-0701-552" x="54.0" y="565.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">10:52 · 0701 552 ···</text>
+<g id="icon-chevright" transform="translate(314.0 541.0) scale(0.8333)">
+<path d="M9 18l6-6-6-6" fill="none" stroke="#AAACC0" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="prospect-Mariam-Nakalema">
+<rect x="16.0" y="584.0" width="328.0" height="54.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
+<circle cx="38.0" cy="611.0" r="5.0" fill="#7056D6"/>
+<text id="Mariam-Nakalema" x="54.0" y="607.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">Mariam Nakalema</text>
+<text id="10-41-0783-120" x="54.0" y="625.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">10:41 · 0783 120 ···</text>
+<g id="icon-chevright-2" transform="translate(314.0 601.0) scale(0.8333)">
+<path d="M9 18l6-6-6-6" fill="none" stroke="#AAACC0" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="floating-Add-prospect">
+<rect x="202.8" y="660.0" width="141.2" height="46.0" rx="23" fill="#2F2E80" filter="url(#soft)"/>
+<g id="icon-plus" transform="translate(218.8 673.0) scale(0.8333)">
+<path d="M12 5v14" fill="none" stroke="#FFFFFF" stroke-width="3.12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5 12h14" fill="none" stroke="#FFFFFF" stroke-width="3.12" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Add-prospect" x="244.8" y="688.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#FFFFFF">Add prospect</text>
+</g>
+<g id="bottom-navigation">
+<rect id="nav-bg" x="12.0" y="716.0" width="336.0" height="64.0" rx="24" fill="#FFFFFE" filter="url(#soft)"/>
+<g id="tab-Home">
+<g id="icon-home" transform="translate(43.0 729.0) scale(0.9167)">
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 22V12h6v10" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Home" x="39.3" y="769.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#8A8DA6">Home</text>
+</g>
+<g id="tab-Prospects">
+<rect id="indicator" x="114.0" y="725.0" width="48.0" height="30.0" rx="15" fill="#EAEAF2"/>
+<g id="icon-users" transform="translate(127.0 729.0) scale(0.9167)">
+<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" fill="none" stroke="#2F2E80" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 3a4 4 0 1 0 0 8 4 4 0 1 0 0-8z" fill="none" stroke="#2F2E80" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 21v-2a4 4 0 0 0-3-3.87" fill="none" stroke="#2F2E80" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 3.13a4 4 0 0 1 0 7.75" fill="none" stroke="#2F2E80" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Prospects" x="113.1" y="769.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="700" fill="#2F2E80">Prospects</text>
+</g>
+<g id="tab-Leads">
+<g id="icon-flag" transform="translate(211.0 729.0) scale(0.9167)">
+<path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4 22v-7" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Leads" x="208.2" y="769.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#8A8DA6">Leads</text>
+</g>
+<g id="tab-Me">
+<g id="icon-user" transform="translate(295.0 729.0) scale(0.9167)">
+<path d="M12 3a5 5 0 1 0 0 10 5 5 0 1 0 0-10z" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 21a8 8 0 0 0-16 0" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Me" x="298.2" y="769.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#8A8DA6">Me</text>
+</g>
+</g>
+<rect id="gesture-bar" x="126.0" y="792.0" width="108.0" height="4.0" rx="2" fill="#1B1C3A" fill-opacity="0.3"/>
+</svg>

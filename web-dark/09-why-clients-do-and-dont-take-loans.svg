@@ -51,7 +51,7 @@
 </g>
 <text id="label-4" x="62.0" y="275.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#B0B1C7">Client pipeline</text>
 </g>
-<text id="nav-group-APPLICATIONS" x="28.0" y="304.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#AAACC0" letter-spacing="1.2">APPLICATIONS</text>
+<text id="nav-group-LOANS" x="28.0" y="304.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#AAACC0" letter-spacing="1.2">LOANS</text>
 <g id="nav-Approvals">
 <g id="icon-listcheck" transform="translate(30.0 328.0) scale(0.8333)">
 <path d="M3 17l2 2 4-4" fill="none" stroke="#898CA5" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
@@ -118,9 +118,9 @@
 <path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#1F1E57" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 18h.01" fill="none" stroke="#1F1E57" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Agent-field-app" x="70.0" y="934.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#CBCCE7">Agent field app</text>
-<text id="Android-works-offline-GP" x="30.0" y="960.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#B0B1C7">Android · works offline · GPS</text>
-<text id="NIRA-ID-capture-open-it" x="30.0" y="978.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#F1DD9F">NIRA ID capture · open it →</text>
+<text id="Field-app" x="70.0" y="934.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#CBCCE7">Field app</text>
+<text id="Sales-agents-relationship" x="30.0" y="960.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#B0B1C7">Sales agents · relationship officers</text>
+<text id="Android-offline-GPS-op" x="30.0" y="978.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#F1DD9F">Android · offline · GPS · open it →</text>
 </g>
 <g id="sidebar-user">
 <line x1="16.0" y1="1004.0" x2="248.0" y2="1004.0" stroke="#282932" stroke-width="1"/>
@@ -139,11 +139,11 @@
 <g id="top-bar">
 <rect id="top-bar-bg" x="264.0" y="0.0" width="1656.0" height="68.0" fill="#1D1E27"/>
 <line x1="264.0" y1="68.0" x2="1920.0" y2="68.0" stroke="#282932" stroke-width="1"/>
-<text id="crumb-Applications" x="296.0" y="40.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#9396AA">Applications</text>
-<g id="icon-chevright" transform="translate(378.1 29.0) scale(0.6667)">
+<text id="crumb-Loans" x="296.0" y="40.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#9396AA">Loans</text>
+<g id="icon-chevright" transform="translate(337.8 29.0) scale(0.6667)">
 <path d="M9 18l6-6-6-6" fill="none" stroke="#AAACC0" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="crumb-Why-why-not" x="400.1" y="40.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">Why &amp; why not</text>
+<text id="crumb-Why-why-not" x="359.8" y="40.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">Why &amp; why not</text>
 <g id="avatar-PN">
 <circle cx="1870.0" cy="34.0" r="18.0" fill="#2C2C37"/>
 <text id="PN-2" x="1860.2" y="40.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.4" font-weight="600" fill="#A8A7E0">PN</text>
@@ -169,7 +169,7 @@
 <path d="M11 3a8 8 0 1 0 0 16 8 8 0 1 0 0-16z" fill="none" stroke="#9396AA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M21 21l-4.3-4.3" fill="none" stroke="#9396AA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Search-clients-agents-app" x="1494.0" y="39.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#AAACC0">Search clients, agents, app IDs…</text>
+<text id="Search-prospects-leads-age" x="1494.0" y="39.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#AAACC0">Search prospects, leads, agents…</text>
 </g>
 <g id="segmented-control">
 <rect x="1187.8" y="16.0" width="246.2" height="36.0" rx="8" fill="#1E1F28" stroke="#282932" stroke-width="1"/>
@@ -191,7 +191,7 @@
 </g>
 </g>
 <text id="page-title" x="296.0" y="126.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="700" fill="#CBCCE7">Why clients do and don't take loans</text>
-<text id="page-subtitle" x="296.0" y="152.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#9396AA">From agents' notes at every closed visit · Q3 2026 · all branches · 7,361 visits closed with a reason</text>
+<text id="page-subtitle" x="296.0" y="152.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#9396AA">From prospects, leads and officers' visits · Q3 2026 · all branches · 4,242 reasons captured</text>
 <g id="header-actions">
 <g id="button-Export">
 <rect x="1788.3" y="108.0" width="99.7" height="40.0" rx="12" fill="#1D1E27" stroke="#282932" stroke-width="1"/>
@@ -219,9 +219,9 @@
 </g>
 </g>
 </g>
-<rect id="Why-they-said-no-bg" x="296.0" y="180.0" width="517.3" height="400.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
-<text id="title" x="320.0" y="218.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#CBCCE7">Why they said no</text>
-<text id="subtitle" x="320.0" y="240.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">5,126 not interested at the first visit</text>
+<rect id="Why-prospects-said-no-bg" x="296.0" y="180.0" width="517.3" height="400.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
+<text id="title" x="320.0" y="218.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#CBCCE7">Why prospects said no</text>
+<text id="subtitle" x="320.0" y="240.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">3,826 prospects who didn't want a loan</text>
 <g id="bars">
 <text id="Already-has-a-loan-elsewhere" x="320.0" y="283.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#B0B1C7">Already has a loan elsewhere</text>
 <rect x="530.0" y="270.0" width="209.3" height="16.0" rx="4" fill="#D14343" fill-opacity="1.0"/>
@@ -248,9 +248,9 @@
 <rect x="530.0" y="494.0" width="61.1" height="16.0" rx="4" fill="#D14343" fill-opacity="0.51"/>
 <text id="7-2" x="599.1" y="507.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#CBCCE7">7%</text>
 </g>
-<rect id="Why-they-took-a-loan-bg" x="833.3" y="180.0" width="517.3" height="400.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
-<text id="title-2" x="857.3" y="218.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#CBCCE7">Why they took a loan</text>
-<text id="subtitle-2" x="857.3" y="240.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">1,051 applications</text>
+<rect id="Why-clients-took-a-loan-bg" x="833.3" y="180.0" width="517.3" height="400.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
+<text id="title-2" x="857.3" y="218.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#CBCCE7">Why clients took a loan</text>
+<text id="subtitle-2" x="857.3" y="240.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">1,051 new clients</text>
 <g id="bars-2">
 <text id="School-fees" x="857.3" y="283.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#B0B1C7">School fees</text>
 <rect x="1067.3" y="270.0" width="209.3" height="16.0" rx="4" fill="#15925A" fill-opacity="1.0"/>
@@ -276,7 +276,7 @@
 </g>
 <rect id="Why-applications-were-rejected-bg" x="1370.7" y="180.0" width="517.3" height="400.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
 <text id="title-3" x="1394.7" y="218.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#CBCCE7">Why applications were rejected</text>
-<text id="subtitle-3" x="1394.7" y="240.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">166 rejected by supervisors or HQ</text>
+<text id="subtitle-3" x="1394.7" y="240.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">166 rejected by branch managers or HQ</text>
 <g id="donut">
 <path id="Affordability" d="M1491.72 326.01 A84 84 0 0 1 1548.93 470.51 L1530.90 451.78 A58 58 0 0 0 1491.39 352.00 Z" fill="#D14343"/>
 <path id="Incomplete-KYC" d="M1547.40 471.95 A84 84 0 0 1 1446.55 481.48 L1460.20 459.36 A58 58 0 0 0 1529.84 452.77 Z" fill="#E39A0B"/>
@@ -303,7 +303,7 @@
 <text id="11-3" x="1838.8" y="440.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#CBCCE7">11%</text>
 <rect id="Which-product-fits-whom-bg" x="296.0" y="600.0" width="860.0" height="452.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
 <text id="title-4" x="320.0" y="638.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#CBCCE7">Which product fits whom</text>
-<text id="subtitle-4" x="320.0" y="660.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">Conversion rate by client type and product · darker = better · helps agents pick the right product</text>
+<text id="subtitle-4" x="320.0" y="660.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">Prospect to client rate by client type and product · darker = better · helps agents pick the right product</text>
 <text id="Civil-Servant" x="525.8" y="692.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#B0B1C7">Civil Servant</text>
 <text id="MSE-Business" x="650.1" y="692.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#B0B1C7">MSE Business</text>
 <text id="School-Fees" x="782.1" y="692.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#B0B1C7">School Fees</text>
@@ -364,9 +364,9 @@
 <text id="3-4" x="931.8" y="907.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#CBCCE7">3%</text>
 <rect x="1007.8" y="883.0" width="121.2" height="38.0" rx="6" fill="#4F4CC9" fill-opacity="0.7032258064516129"/>
 <text id="21-2" x="1055.3" y="907.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">21%</text>
-<rect id="In-the-agents-words-bg" x="1176.0" y="600.0" width="712.0" height="452.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
-<text id="title-5" x="1200.0" y="638.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#CBCCE7">In the agents' words</text>
-<text id="subtitle-5" x="1200.0" y="660.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">Recent notes, tagged automatically</text>
+<rect id="In-the-field-staff-s-words-bg" x="1176.0" y="600.0" width="712.0" height="452.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
+<text id="title-5" x="1200.0" y="638.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#CBCCE7">In the field staff's words</text>
+<text id="subtitle-5" x="1200.0" y="660.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">Recent notes from prospects and visits</text>
 <g id="note-Not-now">
 <rect x="1200.0" y="688.0" width="664.0" height="62.0" rx="10" fill="#181825"/>
 <text id="Already-borrowed-from-the-S" x="1216.0" y="714.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#CBCCE7">“Already borrowed from the SACCO for school fees; will come back in January.”</text>

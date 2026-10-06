@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
+<title>M16 Application submitted</title>
+<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#FFFFFE"/>
+<g id="status-bar">
+<text id="11-42" x="16.0" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1B1C3A">11:42</text>
+<rect id="battery" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#1B1C3A" stroke-width="1.2"/>
+<rect x="324.0" y="10.0" width="13.0" height="6.0" rx="1" fill="#1B1C3A"/>
+<rect x="342.5" y="11.0" width="2.0" height="4.0" rx="1" fill="#1B1C3A"/>
+<rect id="signal-bar" x="292.0" y="14.0" width="3.0" height="3.0" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-2" x="297.0" y="11.8" width="3.0" height="5.2" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-3" x="302.0" y="9.6" width="3.0" height="7.4" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-4" x="307.0" y="7.4" width="3.0" height="9.6" rx="0.8" fill="#1B1C3A" fill-opacity="0.3"/>
+<text id="network" x="270.5" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#1B1C3A">4G</text>
+</g>
+<g id="confetti">
+<g id="confetti-1">
+<path d="M49.5 121.0 L40.5 136.5 L50.5 131.5 Z" fill="#FBD405"/>
+<path d="M49.5 121.0 L50.5 131.5 L57.5 136.5 Z" fill="#E9B800"/>
+<path d="M40.5 136.5 L50.5 131.5 L57.5 136.5 Z" fill="#FFE457"/>
+</g>
+<g id="confetti-2">
+<path d="M307.4 90.8 L300.4 102.8 L308.2 98.9 Z" fill="#FBD405"/>
+<path d="M307.4 90.8 L308.2 98.9 L313.6 102.8 Z" fill="#E9B800"/>
+<path d="M300.4 102.8 L308.2 98.9 L313.6 102.8 Z" fill="#FFE457"/>
+</g>
+<g id="confetti-3">
+<path d="M275.3 200.6 L270.3 209.2 L275.8 206.4 Z" fill="#FBD405"/>
+<path d="M275.3 200.6 L275.8 206.4 L279.7 209.2 Z" fill="#E9B800"/>
+<path d="M270.3 209.2 L275.8 206.4 L279.7 209.2 Z" fill="#FFE457"/>
+</g>
+<g id="confetti-4">
+<path d="M76.3 250.7 L70.3 261.0 L77.0 257.7 Z" fill="#FBD405"/>
+<path d="M76.3 250.7 L77.0 257.7 L81.7 261.0 Z" fill="#E9B800"/>
+<path d="M70.3 261.0 L77.0 257.7 L81.7 261.0 Z" fill="#FFE457"/>
+</g>
+<g id="confetti-5">
+<path d="M328.4 300.9 L320.4 314.7 L329.3 310.2 Z" fill="#FBD405"/>
+<path d="M328.4 300.9 L329.3 310.2 L335.6 314.7 Z" fill="#E9B800"/>
+<path d="M320.4 314.7 L329.3 310.2 L335.6 314.7 Z" fill="#FFE457"/>
+</g>
+<g id="confetti-6">
+<path d="M34.8 330.5 L30.2 338.2 L35.2 335.8 Z" fill="#FBD405"/>
+<path d="M34.8 330.5 L35.2 335.8 L38.8 338.2 Z" fill="#E9B800"/>
+<path d="M30.2 338.2 L35.2 335.8 L38.8 338.2 Z" fill="#FFE457"/>
+</g>
+<g id="confetti-7">
+<path d="M195.8 70.6 L190.3 80.1 L196.4 77.0 Z" fill="#FBD405"/>
+<path d="M195.8 70.6 L196.4 77.0 L200.7 80.1 Z" fill="#E9B800"/>
+<path d="M190.3 80.1 L196.4 77.0 L200.7 80.1 Z" fill="#FFE457"/>
+</g>
+</g>
+<circle cx="180.0" cy="250.0" r="62.0" fill="#DEF0E8"/>
+<circle cx="180.0" cy="250.0" r="44.0" fill="#15925A"/>
+<g id="icon-check" transform="translate(156.0 226.0) scale(2.0000)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#FFFFFF" stroke-width="1.50" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Application-submitted" x="59.3" y="350.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="23" font-weight="700" fill="#1B1C3A">Application submitted</text>
+<text id="Florence-applied-for-an-MSE" x="48.4" y="376.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#4B4D6B">Florence applied for an MSE Business Loan</text>
+<g id="summary">
+<rect x="16.0" y="402.0" width="328.0" height="120.0" rx="14" fill="#F5F5FB"/>
+<text id="Application" x="32.0" y="434.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Application</text>
+<text id="LU-APP-2609-04817" x="199.3" y="434.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#1B1C3A">LU-APP-2609-04817</text>
+<text id="Amount" x="32.0" y="468.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Amount</text>
+<text id="UGX-6-000-000" x="234.4" y="468.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#1B1C3A">UGX 6,000,000</text>
+<text id="Sent-to" x="32.0" y="502.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Sent to</text>
+<text id="Moses-Okello-branch-manager" x="125.8" y="502.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#1B1C3A">Moses Okello (branch manager)</text>
+</g>
+<g id="progress">
+<rect x="16.0" y="540.0" width="328.0" height="70.0" rx="14" fill="#FEF6C8"/>
+<text id="Q3-62-of-70-clients" x="32.0" y="568.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1B1C3A">Q3: 62 of 70 clients</text>
+<text id="1-at-KYC" x="268.0" y="568.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#0E6B41">+1 at KYC</text>
+<g id="progress-2">
+<rect x="32.0" y="584.0" width="296.0" height="8.0" rx="4.0" fill="#FFFFFF"/>
+<rect x="32.0" y="584.0" width="262.2" height="8.0" rx="4.0" fill="#2F2E80"/>
+</g>
+</g>
+<text id="Sarah-is-told-too-her-lead" x="64.7" y="640.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#7D8099">Sarah is told too: her lead became a client</text>
+<g id="button-Close">
+<rect x="16.0" y="660.0" width="328.0" height="48.0" rx="12" fill="#2F2E80"/>
+<g id="icon-x" transform="translate(149.9 675.0) scale(0.7500)">
+<path d="M18 6L6 18" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6 6l12 12" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Close" x="175.9" y="689.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Close</text>
+</g>
+<rect id="gesture-bar" x="126.0" y="792.0" width="108.0" height="4.0" rx="2" fill="#1B1C3A" fill-opacity="0.45"/>
+</svg>

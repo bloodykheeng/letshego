@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
+<title>M7c Lead created</title>
+<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#FFFFFE"/>
+<g id="status-bar">
+<text id="14-25" x="16.0" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1B1C3A">14:25</text>
+<rect id="battery" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#1B1C3A" stroke-width="1.2"/>
+<rect x="324.0" y="10.0" width="13.0" height="6.0" rx="1" fill="#1B1C3A"/>
+<rect x="342.5" y="11.0" width="2.0" height="4.0" rx="1" fill="#1B1C3A"/>
+<rect id="signal-bar" x="292.0" y="14.0" width="3.0" height="3.0" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-2" x="297.0" y="11.8" width="3.0" height="5.2" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-3" x="302.0" y="9.6" width="3.0" height="7.4" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-4" x="307.0" y="7.4" width="3.0" height="9.6" rx="0.8" fill="#1B1C3A" fill-opacity="0.3"/>
+<text id="network" x="270.5" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#1B1C3A">4G</text>
+</g>
+<circle cx="180.0" cy="210.0" r="62.0" fill="#E2EBFA"/>
+<circle cx="180.0" cy="210.0" r="44.0" fill="#2F6FDB"/>
+<g id="icon-flag" transform="translate(158.0 188.0) scale(1.8333)">
+<path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" fill="none" stroke="#FFFFFF" stroke-width="1.42" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4 22v-7" fill="none" stroke="#FFFFFF" stroke-width="1.42" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Lead-created" x="111.2" y="310.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="23" font-weight="700" fill="#1B1C3A">Lead created</text>
+<text id="Aisha-Nalubega-UGX-2-000-0" x="81.1" y="336.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#4B4D6B">Aisha Nalubega · UGX 2,000,000</text>
+<g id="summary">
+<rect x="16.0" y="364.0" width="328.0" height="120.0" rx="14" fill="#F5F5FB"/>
+<text id="Lead" x="32.0" y="396.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Lead</text>
+<text id="LD-2609-1182" x="238.1" y="396.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#1B1C3A">LD-2609-1182</text>
+<text id="Goes-to" x="32.0" y="430.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Goes to</text>
+<text id="Moses-Okello-lead-journey" x="121.7" y="430.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#1B1C3A">Moses Okello · lead journey plan</text>
+<text id="Then" x="32.0" y="464.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Then</text>
+<text id="A-relationship-officer-visit" x="158.3" y="464.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#1B1C3A">A relationship officer visits</text>
+</g>
+<g id="this-week">
+<rect x="16.0" y="502.0" width="328.0" height="104.0" rx="14" fill="#FEF6C8"/>
+<text id="THIS-WEEK" x="32.0" y="528.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#8C6A00" letter-spacing="0.8">THIS WEEK</text>
+<text id="131" x="32.0" y="566.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="24" font-weight="700" fill="#1B1C3A">131</text>
+<text id="Prospects" x="32.0" y="588.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Prospects</text>
+<text id="15" x="130.7" y="566.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="24" font-weight="700" fill="#1B1C3A">15</text>
+<text id="1" x="164.3" y="566.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#0E6B41">+1</text>
+<text id="Leads" x="130.7" y="588.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Leads</text>
+<text id="3" x="229.3" y="566.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="24" font-weight="700" fill="#1B1C3A">3</text>
+<text id="KYC-completed" x="229.3" y="588.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">KYC completed</text>
+</g>
+<g id="button-Back-to-my-prospects">
+<rect x="16.0" y="660.0" width="328.0" height="48.0" rx="12" fill="#2F2E80"/>
+<g id="icon-arrowleft" transform="translate(99.2 675.0) scale(0.7500)">
+<path d="M19 12H5" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 19l-7-7 7-7" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Back-to-my-prospects" x="125.2" y="689.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Back to my prospects</text>
+</g>
+<text id="Home" x="162.1" y="736.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#2F2E80">Home</text>
+<rect id="gesture-bar" x="126.0" y="792.0" width="108.0" height="4.0" rx="2" fill="#1B1C3A" fill-opacity="0.45"/>
+</svg>

@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
+<title>M13 KYC checks</title>
+<defs><filter id="soft" x="-20%" y="-20%" width="140%" height="170%"><feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#1B1C3A" flood-opacity="0.07"/></filter></defs>
+<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#121319"/>
+<g id="status-bar">
+<text id="11-24" x="16.0" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#CBCCE7">11:24</text>
+<rect id="battery" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#CBCCE7" stroke-width="1.2"/>
+<rect x="324.0" y="10.0" width="13.0" height="6.0" rx="1" fill="#1B1C3A"/>
+<rect x="342.5" y="11.0" width="2.0" height="4.0" rx="1" fill="#1B1C3A"/>
+<rect id="signal-bar" x="292.0" y="14.0" width="3.0" height="3.0" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-2" x="297.0" y="11.8" width="3.0" height="5.2" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-3" x="302.0" y="9.6" width="3.0" height="7.4" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-4" x="307.0" y="7.4" width="3.0" height="9.6" rx="0.8" fill="#1B1C3A" fill-opacity="0.3"/>
+<text id="network" x="270.5" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#CBCCE7">4G</text>
+</g>
+<g id="app-bar">
+<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#1D1E27"/>
+<line x1="0.0" y1="80.0" x2="360.0" y2="80.0" stroke="#282932" stroke-width="1"/>
+<g id="icon-arrowleft" transform="translate(16.0 40.0) scale(1.0000)">
+<path d="M19 12H5" fill="none" stroke="#CBCCE7" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 19l-7-7 7-7" fill="none" stroke="#CBCCE7" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="KYC-checks" x="56.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#CBCCE7">KYC checks</text>
+<text id="Florence-Nambi" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Florence Nambi</text>
+</g>
+<g id="result">
+<rect x="16.0" y="96.0" width="328.0" height="104.0" rx="14" fill="#1D1E27" stroke="#8AC8AC" stroke-width="1"/>
+<g id="progress-ring">
+<circle cx="68.0" cy="148.0" r="30.5" fill="none" stroke="#202129" stroke-width="7"/>
+<path d="M68.00 117.50 A30.5 30.5 0 1 1 67.98 117.50" fill="none" stroke="#91EFC5" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="icon-check" transform="translate(54.0 134.0) scale(1.1667)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#91EFC5" stroke-width="2.57" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="KYC-completed" x="118.0" y="140.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="700" fill="#CBCCE7">KYC completed</text>
+<text id="Florence-is-now-a-client" x="118.0" y="162.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#A9F3D2">Florence is now a client</text>
+<text id="6-of-6-checks-online-in-8" x="118.0" y="181.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">6 of 6 checks · online in 8 s</text>
+</g>
+<rect x="16.0" y="218.0" width="328.0" height="346.0" rx="14" fill="#1D1E27" filter="url(#soft)"/>
+<circle cx="30.0" cy="246.0" r="12.0" fill="#283931"/>
+<g id="icon-check-2" transform="translate(22.0 238.0) scale(0.6667)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#91EFC5" stroke-width="4.20" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="NIRA-ID-is-genuine-and-matc" x="52.0" y="245.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">NIRA: ID is genuine and matches</text>
+<text id="NIN-name-date-of-birth-ph" x="52.0" y="263.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">NIN, name, date of birth, photo</text>
+<circle cx="30.0" cy="301.0" r="12.0" fill="#283931"/>
+<g id="icon-check-3" transform="translate(22.0 293.0) scale(0.6667)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#91EFC5" stroke-width="4.20" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Phone-is-in-her-name" x="52.0" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Phone is in her name</text>
+<text id="MTN-registration-check" x="52.0" y="318.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">MTN registration check</text>
+<circle cx="30.0" cy="356.0" r="12.0" fill="#283931"/>
+<g id="icon-check-4" transform="translate(22.0 348.0) scale(0.6667)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#91EFC5" stroke-width="4.20" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Not-already-a-Letshego-clien" x="52.0" y="355.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Not already a Letshego client</text>
+<text id="Checked-in-the-loan-system" x="52.0" y="373.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Checked in the loan system</text>
+<circle cx="30.0" cy="411.0" r="12.0" fill="#283931"/>
+<g id="icon-check-5" transform="translate(22.0 403.0) scale(0.6667)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#91EFC5" stroke-width="4.20" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Location-inside-the-territor" x="52.0" y="410.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Location inside the territory</text>
+<text id="Kiwatule-0-3712-32-6205" x="52.0" y="428.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kiwatule · 0.3712, 32.6205</text>
+<circle cx="30.0" cy="466.0" r="12.0" fill="#283931"/>
+<g id="icon-check-6" transform="translate(22.0 458.0) scale(0.6667)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#91EFC5" stroke-width="4.20" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Affordable" x="52.0" y="465.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Affordable</text>
+<text id="Can-pay-up-to-UGX-625-000-a" x="52.0" y="483.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Can pay up to UGX 625,000 a month</text>
+<circle cx="30.0" cy="521.0" r="12.0" fill="#283931"/>
+<g id="icon-check-7" transform="translate(22.0 513.0) scale(0.6667)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#91EFC5" stroke-width="4.20" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="CRB-clear" x="52.0" y="520.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">CRB clear</text>
+<text id="No-active-loans-consent-si" x="52.0" y="538.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">No active loans · consent signed</text>
+<g id="offline-note">
+<rect x="16.0" y="580.0" width="328.0" height="58.0" rx="12" fill="#362C19"/>
+<g id="icon-wifioff" transform="translate(30.0 597.0) scale(0.9167)">
+<path d="M2 2l20 20" fill="none" stroke="#F0D198" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8.5 16.5a5 5 0 0 1 7 0" fill="none" stroke="#F0D198" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2 8.82a15 15 0 0 1 4.17-2.65" fill="none" stroke="#F0D198" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.66 5c4.01-.36 8.14.9 11.34 3.76" fill="none" stroke="#F0D198" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16.85 11.25a10 10 0 0 1 2.22 1.68" fill="none" stroke="#F0D198" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5 13a10 10 0 0 1 5.24-2.76" fill="none" stroke="#F0D198" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 20h.01" fill="none" stroke="#F0D198" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="para-No-network-Checks-w">
+<text id="line" x="62.0" y="605.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#B0B1C7">No network? Checks wait in the queue and run as</text>
+<text id="line-2" x="62.0" y="622.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#B0B1C7">soon as you're back online.</text>
+</g>
+</g>
+<g id="footer">
+<rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#1D1E27"/>
+<line x1="0.0" y1="716.0" x2="360.0" y2="716.0" stroke="#282932" stroke-width="1"/>
+<g id="button-Done">
+<rect x="16.0" y="730.0" width="100.0" height="48.0" rx="12" fill="#1D1E27" stroke="#282932" stroke-width="1"/>
+<text id="Done" x="49.0" y="759.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">Done</text>
+</g>
+<g id="button-Continue-to-loan">
+<rect x="128.0" y="730.0" width="216.0" height="48.0" rx="12" fill="#4F4CC9"/>
+<g id="icon-arrowright" transform="translate(170.0 745.0) scale(0.7500)">
+<path d="M5 12h14" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 5l7 7-7 7" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Continue-to-loan" x="196.0" y="759.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Continue to loan</text>
+</g>
+</g>
+<rect id="gesture-bar" x="126.0" y="792.0" width="108.0" height="4.0" rx="2" fill="#1B1C3A" fill-opacity="0.45"/>
+</svg>

@@ -21,13 +21,9 @@
 <path d="M12 19l-7-7 7-7" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="Florence-Nambi" x="56.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#1B1C3A">Florence Nambi</text>
-<text id="Kiwatule-market-route" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Kiwatule market route</text>
+<text id="Lead-from-Sarah-Kiwatule-m" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Lead from Sarah · Kiwatule market</text>
 </g>
-<g id="icon-phone" transform="translate(320.0 40.0) scale(0.9167)">
-<path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12 18h.01" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<g id="icon-navigation" transform="translate(280.0 40.0) scale(0.9167)">
+<g id="icon-navigation" transform="translate(320.0 40.0) scale(0.9167)">
 <path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#1B1C3A" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g id="client-header">
@@ -37,14 +33,14 @@
 <text id="FN" x="38.9" y="141.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17.6" font-weight="600" fill="#138351">FN</text>
 </g>
 <text id="Nambi-Tailoring-Fabrics" x="82.0" y="124.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Nambi Tailoring &amp; Fabrics</text>
-<g id="chip-Applied">
-<rect x="82.0" y="136.0" width="72.9" height="22.0" rx="11.0" fill="#E3F2EB"/>
+<g id="chip-Client-KYC-completed">
+<rect x="82.0" y="136.0" width="147.4" height="22.0" rx="11.0" fill="#E3F2EB"/>
 <circle cx="96.0" cy="147.0" r="4.0" fill="#15925A"/>
-<text id="Applied" x="106.0" y="151.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#12804F">Applied</text>
+<text id="Client-KYC-completed" x="106.0" y="151.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#12804F">Client · KYC completed</text>
 </g>
-<g id="chip-MSE-Business-Loan">
-<rect x="160.9" y="136.0" width="114.3" height="22.0" rx="11.0" fill="#E2F1F3"/>
-<text id="MSE-Business-Loan" x="170.9" y="151.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#0C7B87">MSE Business Loan</text>
+<g id="chip-UGX-6M">
+<rect x="235.4" y="136.0" width="61.6" height="22.0" rx="11.0" fill="#E6E6F0"/>
+<text id="UGX-6M" x="245.4" y="151.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#292871">UGX 6M</text>
 </g>
 </g>
 <g id="visit-bar">
@@ -55,14 +51,14 @@
 <path d="M12 7v5l4 2" fill="none" stroke="#4B4D6B" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="Last-visit-today-11-14-11-52" x="54.0" y="206.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#4B4D6B">Last visit today 11:14–11:52</text>
-<text id="Outcome-application-submitt" x="54.0" y="222.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#7D8099">Outcome: application submitted</text>
+<text id="Outcome-KYC-completed-appl" x="54.0" y="222.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#7D8099">Outcome: KYC completed, application sent</text>
 </g>
 <g id="tabs">
 <text id="Overview" x="30.5" y="266.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#4B4D6B">Overview</text>
 <text id="KYC" x="127.7" y="266.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#4B4D6B">KYC</text>
 <rect x="182.0" y="244.0" width="78.0" height="34.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
 <text id="Loan" x="206.3" y="266.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#2F2E80">Loan</text>
-<text id="Visits" x="288.1" y="266.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#4B4D6B">Visits</text>
+<text id="History" x="282.6" y="266.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#4B4D6B">History</text>
 </g>
 <g id="application">
 <rect x="16.0" y="292.0" width="328.0" height="262.0" rx="16" fill="#FFFFFE" filter="url(#soft)"/>
@@ -74,7 +70,7 @@
 <text id="Awaiting-approval" x="227.4" y="319.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#A16A1B">Awaiting approval</text>
 </g>
 <text id="Product" x="32.0" y="376.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#7D8099">Product</text>
-<text id="MSE-Business-Loan-2" x="217.3" y="376.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1B1C3A">MSE Business Loan</text>
+<text id="MSE-Business-Loan" x="217.3" y="376.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1B1C3A">MSE Business Loan</text>
 <text id="Amount" x="32.0" y="405.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#7D8099">Amount</text>
 <text id="UGX-6-000-000" x="241.3" y="405.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1B1C3A">UGX 6,000,000</text>
 <text id="Term" x="32.0" y="434.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#7D8099">Term</text>

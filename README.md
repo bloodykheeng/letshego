@@ -1,10 +1,10 @@
 # Letshego Field Sales: prototype and mockups
 
-Demo-stage prototype of a field sales app for **Letshego Uganda**: an Android app for field agents and a web console for supervisors and management (brief of 29 September 2026).
+Demo-stage prototype of a field sales app for **Letshego Uganda**: an Android app for sales agents and relationship officers, and a web console for branch managers and head office (brief of 29 September 2026; reworked after the first demo, 2 October 2026).
 
 - **Live prototype:** https://letshego-prototype.vercel.app (Vercel redeploys on every push to `main`)
 - **Team briefing** (internal, not for Letshego): [`BRIEFING.md`](BRIEFING.md) · web version at `/briefing.html`
-- **48 screens:** 19 web (1920×1080) and 29 screens of the Android agent app (360×800, to be built in Flutter)
+- **59 screens:** 22 web (1920×1080) and 37 screens of the Android field app (360×800, to be built in Flutter)
 - All names, figures, IDs and loan products are **illustrative**. District boundaries are real (UBOS).
 - Brand colours were sampled from Letshego's LetsGo app: indigo `#2F2E80`, yellow `#FBD405`, the faceted triangle.
 - **Light and dark mode** for every screen, switched from inside the product (moon button).
@@ -39,10 +39,10 @@ _src/briefing.py ────────────►  briefing.html         
 | `favicon.svg`, `favicon-32.png`, `apple-touch-icon.png`, `og-image.jpg` | Tab icon and link-preview image (1200×630). |
 | `_src/kit.py` | Drawing kit: SVG builder (with soft shadows), text measuring, palette, stages, products, icons, UI components, Letshego wordmark and triangle. |
 | `_src/charts.py` | Uganda branch map, stylised street map, funnel, weekly heat strip, rings, line charts. |
-| `_src/data.py` | Shared illustrative data (quarter numbers, agents, the demo client), so every screen agrees. |
-| `_src/web.py` | Web shell (sidebar, top bar, Day/Week/Quarter/Year switch) and screens 00–06. |
-| `_src/web2.py` | Web screens 07–13: approvals, reasons, plans, territories, users, reports. |
-| `_src/mobile.py` | Phone shell (status bar, app bar, floating bottom bar with the Visit button) and screens M1–M19. |
+| `_src/data.py` | Shared illustrative data (the funnel, agents, officers, the demo client and the prospect Sarah makes a lead), so every screen agrees. |
+| `_src/web.py` | Web shell (sidebar, top bar, Day/Week/Quarter/Year switch) and screens 00–06, including 01b (branch manager's day). |
+| `_src/web2.py` | Web screens 07–13: approvals, reasons, route and lead journey plans, locations, users, reports. |
+| `_src/mobile.py` | Phone shell (status bar, app bar, bottom bar per role) and screens M1–M23: sales agent, then relationship officer. |
 | `_src/theme.py` | Dark mode: remaps each screen's colours (light surfaces → dark, dark text → light, brand colours kept). |
 | `_src/build.py` | Builds every screen (light and dark) and writes `prototype.html`. |
 | `_src/data/districts.geojson` | Uganda's 137 district boundaries, copied from the SNV prototype. |
@@ -58,9 +58,9 @@ _src/briefing.py ────────────►  briefing.html         
 
 **Components:** `chip`, `status_chip`, `button`, `card`, `progress`, `avatar`, `checkbox`, `radio`, `toggle`, `field`, `table`, `triangle`, `logo_mark`, `wordmark`.
 
-**Vocabularies** at the top of `kit.py`: `STAGES` (the client journey from the whiteboard, in order), `STATUS` colours, `PRODUCTS` (**placeholders** until Letshego confirms its catalogue). Change them there and every screen follows.
+**Vocabularies** at the top of `kit.py`: `STAGES` (the funnel: Prospect, Lead, KYC completed), `STATUS` colours, `PRODUCTS` (**placeholders** until Letshego confirms its catalogue). Change them there and every screen follows.
 
-**Hotspots:** `s.link(x, y, w, h, "w05")` records a clickable area that opens screen `w05`. The special target `"!theme"` switches light / dark instead of opening a screen. Tabs use `"!tab:m09b"` so switching tabs doesn't add a Back step. Back arrows go to a fixed parent screen; only New client (`history=True`) uses `"!back:m05"` to return to wherever it was opened from.
+**Hotspots:** `s.link(x, y, w, h, "w05")` records a clickable area that opens screen `w05`. The special target `"!theme"` switches light / dark instead of opening a screen. Tabs use `"!tab:m09b"` so switching tabs doesn't add a Back step. Back arrows go to a fixed parent screen; only Add a prospect (`history=True`) uses `"!back:m03"` to return to wherever it was opened from.
 
 **Soft cards.** Phone screens and the web shell set `s.soft = True`: any white card drawn with `stroke=LINE` and `rx >= 10` gets a soft drop shadow instead of a border. Pass `shadow=False` to opt out, `shadow=True` to force one.
 
@@ -70,15 +70,16 @@ _src/briefing.py ────────────►  briefing.html         
 
 **Every screen is a function** returning an `SVG`. The part of the name before the first underscore is its **key** (`w07_approvals` → `w07`, `m12_close` → `m12`). Hotspots and URLs use keys (`prototype.html#w07`).
 
-| Web | | Agent app | |
+| Web | | Field app: sales agent | Field app: relationship officer |
 |---|---|---|---|
-| `w00` Sign in | `w07` Approvals queue | `m01` Splash · `m02` Sign in | `m11` KYC 2: ID & photos · `m12` KYC 3 |
-| `w01` Sales overview | `w08` Application review | `m03` Home (due today) | `m13` KYC validation |
-| `w02` Agents performance | `w09` Why & why not | `m04` My journey plans · `m04b` one plan · `m04c` new plan | `m14` Negotiation |
-| `w03` Agent profile | `w10` Journey plans · `w10b` one plan · `w10c` new plan | `m05` Start a visit: choose the client | `m15` Close: submit application |
-| `w04` Field map | `w11` Locations · `w11b` New route | `m06` New client: register | `m16` Conversion recorded · `m16b` Check out |
-| `w05` Client pipeline | `w12` Users · `w12b` Edit user · `w12c` Roles & access | `m07` Joseph's record, first visit · `m07b` Joseph check out: interested? + next visit · `m08` Not interested: why | `m17` My clients |
-| `w06` Client record | `w13` Reports & audit | `m09`–`m09d` Client record during a visit: Overview · KYC · Loan · Visits tabs · `m09f` KYC tab once validated (Done lands here) · `m09e` Loan tab once the application is sent · `m10` KYC 1 | `m18`–`m18d` Client record after the visit (same tabs) · `m19` Me |
+| `w00` Sign in | `w07` Approvals queue | `m01` Splash · `m02` Sign in (demo: pick Sarah or Joel) | `m20` Home: today's lead journey plan |
+| `w01` Sales overview (head office) | `w08` Application review | `m03` Home: today's route target, this week, prospects not yet leads | `m21` My lead journey plans → `m21b` Kiwatule leads |
+| `w01b` Kampala East today (branch manager) | `w09` Why & why not | `m04` My route journey plans → `m04a` Week 40 · `m04b` Prospect map | `m09`–`m09d` Florence's record during the visit: Overview · KYC · Loan · History |
+| `w02` Sales agents | `w10` Journey plans: route journey plans and lead journey plans | `m05` Add a prospect | `m10`–`m12` KYC · `m13` KYC checks: KYC completed, now a client · `m09f` KYC tab done |
+| `w03` Agent profile: where Sarah has worked | `w10b` Route journey plan (Sarah, week 40) · `w10c` New route journey plan | `m06` My prospects (+ Add prospect) | `m14` Loan calculator · `m15` Submit · `m16` Application submitted · `m09e` Loan tab sent · `m16b` Check out |
+| `w04` Field map (geofence alert) | `w10d` Lead journey plan (Kiwatule leads) · `w10e` New lead journey plan | `m07` Prospect: Aisha · `m07b` Make a lead (NIN, amount, location) · `m07c` Lead created · `m08` No loan: why | `m18`–`m18d` Florence's record after the visit |
+| `w05` Client pipeline | `w11` Locations · `w11b` New route | `m17` My leads: where they are now | `m23` Leads & clients |
+| `w06` Client record (Florence's journey) | `w12` Users · `w12b` Edit user · `w12c` Roles & access · `w13` Reports & audit | `m19` Me | `m22` Me: also assigned a route journey plan |
 
 **Registration:** each module has a `SCREENS` list. Web screens are sorted by key; mobile screens run in list order. That order is what ← → steps through.
 
@@ -119,16 +120,17 @@ python briefing.py           # rewrite briefing.html from BRIEFING.md
 5. Commit and push; Vercel redeploys.
 
 **Rules that keep the story consistent:**
-- **Conversion = application submitted with every required item.** Approval never changes it. Keep saying so on screens that show both.
-- **Clients belong to territories, not to agents** (Region › Branch › Territory › Route, as in NICE). Locations are master data (W11, W11b) and are given to people in the user form (W12b), as in NICE; ticking a territory on another agent's page moves all its clients, routes and plans.
-- **The client record is the hub.** Checking in opens the client's record (M9) with a "visit in progress" bar; KYC and the loan live in their own tabs; checking out (M16b) records what happened and returns to the record (M18). Never chain KYC straight into the loan. Each tab has one bottom action (`actions` in `client_hub`); back from the record always goes to My clients.
-- **A visit has a purpose and an outcome.** KYC is done during a visit, once per client, after they say they're interested; never when a client is added.
-- **A visit always starts by choosing the client** (from the plan, a search, or *New client*). Visits not on the journey plan are allowed and count as off-plan.
-- **A journey plan is a named list of clients** with an agent, start and end dates, a description and a goal. An agent can have several. Supervisors create them (W10c); agents can create their own for approval (M4c). Home shows what's due today across all plans.
-- The demo client is **Florence Nambi** (`CLIENT` in `data.py`): first visited by John Mugisha (left 12 Aug), moved to Sarah Namuli, KYC to application on 30 Sep 11:14–11:42, awaiting Moses Okello's approval.
-- **Roles:** Field Sales Agent (Sarah Namuli) · Branch Supervisor (Moses Okello) · Regional Manager · HQ Credit Approver · Head of Sales (Patricia Nankya) · System Admin.
-- The agent app is an **Android app built in Flutter** (not a PWA).
-- Products, rates, the 50% affordability rule and the UGX 10M branch limit are **placeholders**.
+- **The funnel is Prospects → Leads generated → KYC completed.** Show those three numbers wherever performance is shown, in that order and in the `STAGES` colours.
+- **A prospect** is name, phone and GPS location, saved by a sales agent on a route. **A lead** is a prospect who wants a loan: NIN, amount and location are added. The app is not a dialer: follow-up calls happen on the phone, the app records the result. **KYC completed** by a relationship officer on a visit makes the lead a **client**.
+- **Conversion = prospect became a client (KYC completed).** Show it as "prospect → client %", not as a branch league table. The loan application and its approval come after and never change the conversion.
+- **Two kinds of journey plan.** Route journey plans: the branch manager gives a sales agent a route per day and a prospect target. Lead journey plans: the branch manager gives a relationship officer a list of leads to visit. Agents don't create plans.
+- **Locations are master data** (Branch › Territory › Route), set up once (W11, W11b) and given to people in the user form (W12b). Territories are geofenced: leaving one raises an alert (W04). Records belong to territories, not people.
+- **Each user has one role, but can be assigned another role's work.** Joel is a relationship officer; Moses also gives him a route journey plan for Fri 2 Oct, so he prospects that day (M22, W10, W12c).
+- **The client record is the relationship officer's hub.** Checking in opens it (M9) with a "visit in progress" bar; KYC and the loan live in their own tabs; History shows when she became a prospect and a lead. Each tab has one bottom action; back from the record goes to the lead journey plan during a visit (M21b) and to Leads & clients (M23) after it.
+- **The demo story:** Sarah Namuli (sales agent) prospected **Florence Nambi** on the Kiwatule market route on 22 Sep and made her a lead on 23 Sep (UGX 6M); Moses Okello (branch manager) put her on Joel Byaruhanga's "Kiwatule leads" plan; Joel completed her KYC on 30 Sep at 11:24 and sent the application at 11:42, awaiting Moses. On the same day Sarah turns **Aisha Nalubega**, a prospect from Monday, into a lead.
+- **Roles:** Sales Agent · Relationship Officer · Branch Manager · HQ Credit Approver · Head of Sales · System Admin.
+- The field app is an **Android app built in Flutter** (not a PWA).
+- Products, rates, route targets, the 50% affordability rule and the UGX 10M branch limit are **placeholders**.
 
 ---
 
@@ -137,9 +139,9 @@ python briefing.py           # rewrite briefing.html from BRIEFING.md
 Based on current fintech and CRM app patterns: light, restrained, one strong accent.
 
 - **Surfaces:** light grey page (`#F5F6FA` app, `#F6F7F9` web), white cards with soft shadows and large radii (14–24 px), no heavy colour blocks. The web sidebar is white too.
-- **Colour:** indigo only for actions and active states; Letshego yellow for highlights (the Visit button, the Q3 card on Home, badges). Status and stage colours come from `STATUS` / `STAGES` in `kit.py`.
-- **Home (M3):** one yellow gradient card with the Q3 number, target bar, weekly visits chart and rank; three stat cards; a single "Up next" action; today's timeline; a journey plans shortcut.
-- **Sign-in:** web (W00) is a centred card with floating product previews; the app (M2) is a PIN pad with the agent's avatar and fingerprint.
+- **Colour:** indigo only for actions and active states; Letshego yellow for highlights (the target card on Home, badges). Status and stage colours come from `STATUS` / `STAGES` in `kit.py`.
+- **Home (M3, M20):** one yellow gradient card with today's target (prospects for agents, leads visited for officers); three stat cards that follow the funnel; a single "Up next" action; the route or today's timeline; a plan shortcut.
+- **Sign-in:** web (W00) is a centred card with floating product previews; the app (M2) is a PIN pad with the user's avatar and fingerprint, plus demo buttons to sign in as Sarah or Joel.
 - **Type:** Segoe UI for layout and measuring; the SVGs fall back to Roboto / Helvetica / Arial on phones.
 - **Dark mode:** generated, not drawn (`theme.py`). If a new colour looks wrong in dark, add it to `KEEP` or `SURFACE` there.
 
@@ -165,7 +167,8 @@ Based on current fintech and CRM app patterns: light, restrained, one strong acc
 
 ## 10. Presenting
 
-- **Web:** sign in → Sales overview. The red icon next to the user's name signs out. **Clicking the name** switches between Patricia (management) and Moses (supervisor): a demo shortcut. The moon in the top bar switches to dark mode.
-- **App:** splash → PIN sign-in → Home (Q3 card, Up next, today's timeline) → Plans (M4 → M4b) or the yellow Visit button → choose the client. New client: register Joseph → Save & start visit → his record (first-visit notes) → Check out: interested? + next visit, or Not interested → capture why → My clients. Returning client: Florence → her record (visit in progress) → KYC tab → 3 sections → validation → Loan tab → Take loan application → submit → Conversion recorded → Close (back to the Loan tab, visit still open) → Check out → conversion → check out → her record.
+- **Web:** sign in → Sales overview (Patricia, head office). The red icon next to the user's name signs out. **Clicking the name** switches between Patricia and Moses (branch manager, lands on W01b): a demo shortcut. The moon in the top bar switches to dark mode.
+- **App, sales agent:** splash → PIN sign-in → pick **Sarah** → Home (today's target, this week) → **Add prospect** → My prospects → Aisha → **Make a lead** → Lead created. Also: route journey plan (M4) and prospect map (M4b), My leads (M17).
+- **App, relationship officer:** PIN sign-in → pick **Joel** → Home (today's lead journey plan) → Florence → her record (visit in progress) → KYC tab → 3 sections → KYC checks: she's a client → Loan tab → calculator → submit → Application submitted → Close → Check out → her record.
 - The walkthrough script, questions for the client and likely questions are in [`BRIEFING.md`](BRIEFING.md).
 - **On the day:** open the link while online, wait for "✓ Offline-ready", present in Chrome full screen (**F**), and say once that the data is illustrative.

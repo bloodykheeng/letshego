@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
+<title>M3 Home (sales agent)</title>
+<defs><filter id="soft" x="-20%" y="-20%" width="140%" height="170%"><feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#1B1C3A" flood-opacity="0.07"/></filter></defs>
+<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#F5F6FA"/>
+<g id="status-bar">
+<text id="11-05" x="16.0" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1B1C3A">11:05</text>
+<rect id="battery" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#1B1C3A" stroke-width="1.2"/>
+<rect x="324.0" y="10.0" width="13.0" height="6.0" rx="1" fill="#1B1C3A"/>
+<rect x="342.5" y="11.0" width="2.0" height="4.0" rx="1" fill="#1B1C3A"/>
+<rect id="signal-bar" x="292.0" y="14.0" width="3.0" height="3.0" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-2" x="297.0" y="11.8" width="3.0" height="5.2" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-3" x="302.0" y="9.6" width="3.0" height="7.4" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-4" x="307.0" y="7.4" width="3.0" height="9.6" rx="0.8" fill="#1B1C3A" fill-opacity="0.3"/>
+<text id="network" x="270.5" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#1B1C3A">4G</text>
+</g>
+<defs><linearGradient id="heroGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE45C"/><stop offset="1" stop-color="#FBC805"/></linearGradient></defs>
+<g id="top">
+<circle cx="38.0" cy="70.0" r="22.0" fill="#FBD405"/>
+<text id="SN" x="27.9" y="76.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#1F1E57">SN</text>
+<text id="Good-morning" x="70.0" y="63.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#7D8099">Good morning</text>
+<text id="Sarah-Namuli" x="70.0" y="84.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="19" font-weight="700" fill="#1B1C3A">Sarah Namuli</text>
+<circle cx="324.0" cy="70.0" r="20.0" fill="#FFFFFE" filter="url(#soft)"/>
+<g id="icon-search" transform="translate(314.0 60.0) scale(0.8333)">
+<path d="M11 3a8 8 0 1 0 0 16 8 8 0 1 0 0-16z" fill="none" stroke="#1B1C3A" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21 21l-4.3-4.3" fill="none" stroke="#1B1C3A" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<circle cx="276.0" cy="70.0" r="20.0" fill="#FFFFFE" filter="url(#soft)"/>
+<g id="icon-bell" transform="translate(266.0 60.0) scale(0.8333)">
+<path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" fill="none" stroke="#1B1C3A" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" fill="none" stroke="#1B1C3A" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<circle cx="332.0" cy="60.0" r="4.5" fill="#D14343"/>
+</g>
+<g id="hero">
+<rect id="hero-bg" x="16.0" y="108.0" width="328.0" height="164.0" rx="24" fill="url(#heroGrad)"/>
+<path id="facet" d="M216.0 272.0 L344.0 144.0 L344.0 248.0 L320.0 272.0 Z" fill="#FFFFFF" fill-opacity="0.22"/>
+<text id="TODAY-S-TARGET" x="36.0" y="138.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#6B5A1E" letter-spacing="1">TODAY'S TARGET</text>
+<text id="32" x="36.0" y="188.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="46" font-weight="700" fill="#231F0F">32</text>
+<text id="50" x="90.9" y="188.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="600" fill="#6B5A1E">/50</text>
+<text id="prospects-18-to-go" x="36.0" y="212.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#6B5A1E">prospects · 18 to go</text>
+<g id="mini-chart">
+<text id="Prospects-day" x="208.0" y="138.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#6B5A1E">Prospects / day</text>
+<rect x="219.3" y="150.0" width="16.0" height="44.0" rx="2.5" fill="#231F0F" fill-opacity="0.22"/>
+<rect x="258.0" y="154.2" width="16.0" height="39.8" rx="2.5" fill="#231F0F" fill-opacity="0.22"/>
+<rect x="296.7" y="166.9" width="16.0" height="27.1" rx="2.5" fill="#231F0F" fill-opacity="1"/>
+<text id="target-50-a-day" x="208.0" y="212.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#0D5A34">target 50 a day</text>
+</g>
+<rect x="36.0" y="230.0" width="288.0" height="6.0" rx="3" fill="#FFFFFF" fill-opacity="0.55"/>
+<rect x="36.0" y="230.0" width="184.3" height="6.0" rx="3" fill="#231F0F"/>
+<text id="64-of-today-s-target" x="36.0" y="258.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#231F0F">64% of today's target</text>
+<text id="2-6-h-prospecting" x="225.8" y="258.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#231F0F">2.6 h prospecting</text>
+</g>
+<text id="This-week" x="16.0" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#1B1C3A">This week</text>
+<text id="prospects-to-clients" x="241.4" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">prospects to clients</text>
+<g id="stats">
+<rect x="16.0" y="312.0" width="104.0" height="84.0" rx="18" fill="#FFFFFE" filter="url(#soft)"/>
+<circle cx="34.0" cy="332.0" r="4.0" fill="#7056D6"/>
+<text id="Prospects" x="44.0" y="336.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#7D8099">Prospects</text>
+<text id="131" x="30.0" y="367.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="24" font-weight="700" fill="#1B1C3A">131</text>
+<text id="32-today" x="30.0" y="385.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#7D8099">32 today</text>
+<rect x="128.0" y="312.0" width="104.0" height="84.0" rx="18" fill="#FFFFFE" filter="url(#soft)"/>
+<circle cx="146.0" cy="332.0" r="4.0" fill="#2F6FDB"/>
+<text id="Leads" x="156.0" y="336.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#7D8099">Leads</text>
+<text id="14" x="142.0" y="367.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="24" font-weight="700" fill="#1B1C3A">14</text>
+<text id="3-today" x="142.0" y="385.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#0E6B41">3 today</text>
+<rect x="240.0" y="312.0" width="104.0" height="84.0" rx="18" fill="#FFFFFE" filter="url(#soft)"/>
+<circle cx="258.0" cy="332.0" r="4.0" fill="#15925A"/>
+<text id="KYC" x="268.0" y="336.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#7D8099">KYC</text>
+<text id="3" x="254.0" y="367.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="24" font-weight="700" fill="#1B1C3A">3</text>
+<text id="completed" x="254.0" y="385.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#7D8099">completed</text>
+</g>
+<g id="route-today">
+<rect x="16.0" y="412.0" width="328.0" height="112.0" rx="20" fill="#FFFFFE" filter="url(#soft)"/>
+<rect x="30.0" y="426.0" width="36.0" height="36.0" rx="11" fill="#EAEAF2"/>
+<g id="icon-map" transform="translate(38.0 434.0) scale(0.8333)">
+<path d="M14.1 5.55a2 2 0 0 0 1.8 0l3.65-1.83A1 1 0 0 1 21 4.62v12.76a1 1 0 0 1-.55.9l-4.55 2.27a2 2 0 0 1-1.8 0l-4.2-2.1a2 2 0 0 0-1.8 0l-3.65 1.83A1 1 0 0 1 3 19.38V6.62a1 1 0 0 1 .55-.9l4.55-2.27a2 2 0 0 1 1.8 0z" fill="none" stroke="#2F2E80" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 5.76v15" fill="none" stroke="#2F2E80" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 3.24v15" fill="none" stroke="#2F2E80" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Kiwatule-market-route" x="78.0" y="442.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Kiwatule market route</text>
+<text id="Today-inside-your-territor" x="78.0" y="460.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#0E6B41">Today · inside your territory ✓</text>
+<g id="icon-chevright" transform="translate(314.0 434.0) scale(0.8333)">
+<path d="M9 18l6-6-6-6" fill="none" stroke="#AAACC0" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="button-Add-prospect">
+<rect x="30.0" y="476.0" width="145.0" height="36.0" rx="12" fill="#2F2E80"/>
+<g id="icon-plus" transform="translate(49.8 485.0) scale(0.7500)">
+<path d="M12 5v14" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5 12h14" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Add-prospect" x="75.8" y="498.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Add prospect</text>
+</g>
+<g id="button-Prospect-map">
+<rect x="185.0" y="476.0" width="145.0" height="36.0" rx="12" fill="#EAEAF2"/>
+<g id="icon-map-2" transform="translate(204.0 485.0) scale(0.7500)">
+<path d="M14.1 5.55a2 2 0 0 0 1.8 0l3.65-1.83A1 1 0 0 1 21 4.62v12.76a1 1 0 0 1-.55.9l-4.55 2.27a2 2 0 0 1-1.8 0l-4.2-2.1a2 2 0 0 0-1.8 0l-3.65 1.83A1 1 0 0 1 3 19.38V6.62a1 1 0 0 1 .55-.9l4.55-2.27a2 2 0 0 1 1.8 0z" fill="none" stroke="#2D2C7A" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 5.76v15" fill="none" stroke="#2D2C7A" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 3.24v15" fill="none" stroke="#2D2C7A" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Prospect-map" x="230.0" y="498.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#2D2C7A">Prospect map</text>
+</g>
+</g>
+<g id="waiting-prospects">
+<text id="Prospects-not-yet-leads" x="16.0" y="554.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#1B1C3A">Prospects, not yet leads</text>
+<text id="All-6" x="318.7" y="554.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#2F2E80">All 6</text>
+<rect x="16.0" y="566.0" width="328.0" height="64.0" rx="18" fill="#FFFFFE" filter="url(#soft)"/>
+<g id="avatar-AN">
+<circle cx="50.0" cy="598.0" r="19.0" fill="#E8E4F8"/>
+<text id="AN" x="39.0" y="604.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15.200000000000001" font-weight="600" fill="#654DC1">AN</text>
+</g>
+<text id="Aisha-Nalubega" x="78.0" y="594.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Aisha Nalubega</text>
+<text id="Prospect-since-Mon-Kiwatul" x="78.0" y="613.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Prospect since Mon · Kiwatule market</text>
+<g id="icon-chevright-2" transform="translate(314.0 588.0) scale(0.8333)">
+<path d="M9 18l6-6-6-6" fill="none" stroke="#AAACC0" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="plan-shortcut">
+<rect x="16.0" y="642.0" width="328.0" height="50.0" rx="16" fill="#FFFFFE" filter="url(#soft)"/>
+<rect x="26.0" y="651.0" width="32.0" height="32.0" rx="10" fill="#FEF2B4"/>
+<g id="icon-route" transform="translate(33.0 658.0) scale(0.7500)">
+<path d="M6 16a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#8C6A00" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15" fill="none" stroke="#8C6A00" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 2a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#8C6A00" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Route-journey-plans" x="70.0" y="664.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1B1C3A">Route journey plans</text>
+<text id="This-week-4-routes-230-pr" x="70.0" y="681.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#7D8099">This week: 4 routes · 230 prospects · by Moses</text>
+<g id="icon-chevright-3" transform="translate(314.0 657.0) scale(0.8333)">
+<path d="M9 18l6-6-6-6" fill="none" stroke="#AAACC0" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="bottom-navigation">
+<rect id="nav-bg" x="12.0" y="716.0" width="336.0" height="64.0" rx="24" fill="#FFFFFE" filter="url(#soft)"/>
+<g id="tab-Home">
+<rect id="indicator" x="30.0" y="725.0" width="48.0" height="30.0" rx="15" fill="#EAEAF2"/>
+<g id="icon-home" transform="translate(43.0 729.0) scale(0.9167)">
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" fill="none" stroke="#2F2E80" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 22V12h6v10" fill="none" stroke="#2F2E80" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Home" x="38.4" y="769.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="700" fill="#2F2E80">Home</text>
+</g>
+<g id="tab-Prospects">
+<g id="icon-users" transform="translate(127.0 729.0) scale(0.9167)">
+<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 3a4 4 0 1 0 0 8 4 4 0 1 0 0-8z" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 21v-2a4 4 0 0 0-3-3.87" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 3.13a4 4 0 0 1 0 7.75" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Prospects-2" x="114.6" y="769.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#8A8DA6">Prospects</text>
+</g>
+<g id="tab-Leads">
+<g id="icon-flag" transform="translate(211.0 729.0) scale(0.9167)">
+<path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4 22v-7" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Leads-2" x="208.2" y="769.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#8A8DA6">Leads</text>
+</g>
+<g id="tab-Me">
+<g id="icon-user" transform="translate(295.0 729.0) scale(0.9167)">
+<path d="M12 3a5 5 0 1 0 0 10 5 5 0 1 0 0-10z" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 21a8 8 0 0 0-16 0" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Me" x="298.2" y="769.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#8A8DA6">Me</text>
+</g>
+</g>
+<rect id="gesture-bar" x="126.0" y="792.0" width="108.0" height="4.0" rx="2" fill="#1B1C3A" fill-opacity="0.3"/>
+</svg>

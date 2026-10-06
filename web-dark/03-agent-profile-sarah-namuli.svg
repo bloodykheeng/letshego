@@ -52,7 +52,7 @@
 </g>
 <text id="label-4" x="62.0" y="275.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#B0B1C7">Client pipeline</text>
 </g>
-<text id="nav-group-APPLICATIONS" x="28.0" y="304.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#AAACC0" letter-spacing="1.2">APPLICATIONS</text>
+<text id="nav-group-LOANS" x="28.0" y="304.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#AAACC0" letter-spacing="1.2">LOANS</text>
 <g id="nav-Approvals">
 <g id="icon-listcheck" transform="translate(30.0 328.0) scale(0.8333)">
 <path d="M3 17l2 2 4-4" fill="none" stroke="#898CA5" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
@@ -118,9 +118,9 @@
 <path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#1F1E57" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 18h.01" fill="none" stroke="#1F1E57" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Agent-field-app" x="70.0" y="934.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#CBCCE7">Agent field app</text>
-<text id="Android-works-offline-GP" x="30.0" y="960.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#B0B1C7">Android · works offline · GPS</text>
-<text id="NIRA-ID-capture-open-it" x="30.0" y="978.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#F1DD9F">NIRA ID capture · open it →</text>
+<text id="Field-app" x="70.0" y="934.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#CBCCE7">Field app</text>
+<text id="Sales-agents-relationship" x="30.0" y="960.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#B0B1C7">Sales agents · relationship officers</text>
+<text id="Android-offline-GPS-op" x="30.0" y="978.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#F1DD9F">Android · offline · GPS · open it →</text>
 </g>
 <g id="sidebar-user">
 <line x1="16.0" y1="1004.0" x2="248.0" y2="1004.0" stroke="#282932" stroke-width="1"/>
@@ -173,7 +173,7 @@
 <path d="M11 3a8 8 0 1 0 0 16 8 8 0 1 0 0-16z" fill="none" stroke="#9396AA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M21 21l-4.3-4.3" fill="none" stroke="#9396AA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Search-clients-agents-app" x="1494.0" y="39.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#AAACC0">Search clients, agents, app IDs…</text>
+<text id="Search-prospects-leads-age" x="1494.0" y="39.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#AAACC0">Search prospects, leads, agents…</text>
 </g>
 <g id="segmented-control">
 <rect x="1187.8" y="16.0" width="246.2" height="36.0" rx="8" fill="#1E1F28" stroke="#282932" stroke-width="1"/>
@@ -204,8 +204,8 @@
 <circle cx="589.9" cy="138.0" r="4.0" fill="#15925A"/>
 <text id="On-track" x="599.9" y="142.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#9CF1CB">On track</text>
 </g>
-<text id="Field-Sales-Agent-Kampala" x="416.0" y="172.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#B0B1C7">Field Sales Agent · Kampala East branch · territory Ntinda · Kiwatule · joined Mar 2024</text>
-<text id="Supervisor-Moses-Okello-st" x="416.0" y="194.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">Supervisor Moses Okello · staff ID LU-0877 · device: Samsung A15 (registered)</text>
+<text id="Sales-Agent-Kampala-East-b" x="416.0" y="172.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#B0B1C7">Sales Agent · Kampala East branch · territory Ntinda · Kiwatule · joined Mar 2024</text>
+<text id="Branch-manager-Moses-Okello" x="416.0" y="194.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">Branch manager Moses Okello · staff ID LU-0877 · device: Samsung A15 (registered)</text>
 <g id="button-Her-territory">
 <rect x="1726.6" y="135.0" width="137.4" height="40.0" rx="12" fill="#1D1E27" stroke="#282932" stroke-width="1"/>
 <g id="icon-layers-2" transform="translate(1742.6 146.0) scale(0.7500)">
@@ -215,333 +215,955 @@
 </g>
 <text id="Her-territory" x="1768.6" y="160.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">Her territory</text>
 </g>
-<g id="button-Live-map">
-<rect x="1601.7" y="135.0" width="114.9" height="40.0" rx="12" fill="#1D1E27" stroke="#282932" stroke-width="1"/>
-<g id="icon-map-2" transform="translate(1617.7 146.0) scale(0.7500)">
-<path d="M14.1 5.55a2 2 0 0 0 1.8 0l3.65-1.83A1 1 0 0 1 21 4.62v12.76a1 1 0 0 1-.55.9l-4.55 2.27a2 2 0 0 1-1.8 0l-4.2-2.1a2 2 0 0 0-1.8 0l-3.65 1.83A1 1 0 0 1 3 19.38V6.62a1 1 0 0 1 .55-.9l4.55-2.27a2 2 0 0 1 1.8 0z" fill="none" stroke="#CBCCE7" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M15 5.76v15" fill="none" stroke="#CBCCE7" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M9 3.24v15" fill="none" stroke="#CBCCE7" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="button-Route-journey-plan">
+<rect x="1538.0" y="135.0" width="178.6" height="40.0" rx="12" fill="#4F4CC9"/>
+<g id="icon-route-2" transform="translate(1554.0 146.0) scale(0.7500)">
+<path d="M6 16a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 2a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Live-map" x="1643.7" y="160.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">Live map</text>
-</g>
-<g id="button-Call">
-<rect x="1510.4" y="135.0" width="81.3" height="40.0" rx="12" fill="#4F4CC9"/>
-<g id="icon-phone-2" transform="translate(1526.4 146.0) scale(0.7500)">
-<path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12 18h.01" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<text id="Call" x="1552.4" y="160.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Call</text>
+<text id="Route-journey-plan" x="1580.0" y="160.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Route journey plan</text>
 </g>
 </g>
-<g id="kpi-Visits-this-quarter">
+<g id="kpi-Prospects">
 <rect id="bg" x="296.0" y="232.0" width="305.6" height="140.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
-<rect id="icon-bg" x="316.0" y="252.0" width="38.0" height="38.0" rx="9" fill="#292932"/>
-<g id="icon-pin" transform="translate(325.0 261.0) scale(0.8333)">
-<path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z" fill="none" stroke="#A8A7E0" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12 7a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#A8A7E0" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="icon-bg" x="316.0" y="252.0" width="38.0" height="38.0" rx="9" fill="#1F1B30"/>
+<g id="icon-userplus" transform="translate(325.0 261.0) scale(0.8333)">
+<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" fill="none" stroke="#8774CF" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 3a4 4 0 1 0 0 8 4 4 0 1 0 0-8z" fill="none" stroke="#8774CF" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19 8v6" fill="none" stroke="#8774CF" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 11h-6" fill="none" stroke="#8774CF" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Visits-this-quarter" x="366.0" y="268.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Visits this quarter</text>
-<text id="value" x="316.0" y="330.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#CBCCE7">214</text>
-<text id="sub" x="316.0" y="352.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">plan 240 · 89%</text>
+<text id="Prospects" x="366.0" y="268.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Prospects</text>
+<text id="value" x="316.0" y="330.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#CBCCE7">1,486</text>
+<text id="sub" x="316.0" y="352.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">of 1,650 on her route journey plans · 90%</text>
 <g id="progress">
 <rect x="316.0" y="358.0" width="265.6" height="6.0" rx="3.0" fill="#202129"/>
-<rect x="316.0" y="358.0" width="236.8" height="6.0" rx="3.0" fill="#4F4CC9"/>
+<rect x="316.0" y="358.0" width="239.2" height="6.0" rx="3.0" fill="#7056D6"/>
 </g>
 </g>
-<g id="kpi-Conversions">
+<g id="kpi-Leads-generated">
 <rect id="bg-2" x="617.6" y="232.0" width="305.6" height="140.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
-<rect id="icon-bg-2" x="637.6" y="252.0" width="38.0" height="38.0" rx="9" fill="#26352E"/>
-<g id="icon-check" transform="translate(646.6 261.0) scale(0.8333)">
-<path d="M20 6L9 17l-5-5" fill="none" stroke="#9AF0CA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="icon-bg-2" x="637.6" y="252.0" width="38.0" height="38.0" rx="9" fill="#1C2534"/>
+<g id="icon-flag" transform="translate(646.6 261.0) scale(0.8333)">
+<path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" fill="none" stroke="#749DE1" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4 22v-7" fill="none" stroke="#749DE1" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Conversions" x="687.6" y="268.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Conversions</text>
-<text id="value-2" x="637.6" y="330.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#CBCCE7">19 / 22</text>
-<text id="sub-2" x="637.6" y="352.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">86% of target · rank 3 of 62</text>
-<g id="progress-2">
-<rect x="637.6" y="358.0" width="265.6" height="6.0" rx="3.0" fill="#202129"/>
-<rect x="637.6" y="358.0" width="229.4" height="6.0" rx="3.0" fill="#15925A"/>
+<text id="Leads-generated" x="687.6" y="268.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Leads generated</text>
+<text id="value-2" x="637.6" y="330.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#CBCCE7">286</text>
+<text id="sub-2" x="637.6" y="352.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">19% of her prospects · team 17%</text>
 </g>
-</g>
-<g id="kpi-Conversion-rate">
+<g id="kpi-KYC-completed">
 <rect id="bg-3" x="939.2" y="232.0" width="305.6" height="140.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
-<rect id="icon-bg-3" x="959.2" y="252.0" width="38.0" height="38.0" rx="9" fill="#253436"/>
-<g id="icon-activity" transform="translate(968.2 261.0) scale(0.8333)">
-<path d="M22 12h-4l-3 9L9 3l-3 9H2" fill="none" stroke="#99E8F0" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="icon-bg-3" x="959.2" y="252.0" width="38.0" height="38.0" rx="9" fill="#26352E"/>
+<g id="icon-idcard" transform="translate(968.2 261.0) scale(0.8333)">
+<path d="M4 5h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z" fill="none" stroke="#9AF0CA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 9a2 2 0 1 0 0 4 2 2 0 1 0 0-4z" fill="none" stroke="#9AF0CA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5 16.5c.6-1.5 1.7-2.2 3-2.2s2.4.7 3 2.2" fill="none" stroke="#9AF0CA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 10h5" fill="none" stroke="#9AF0CA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 14h3" fill="none" stroke="#9AF0CA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Conversion-rate" x="1009.2" y="268.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Conversion rate</text>
-<text id="value-3" x="959.2" y="330.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#CBCCE7">8.9%</text>
-<text id="sub-3" x="959.2" y="352.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">company average 12.5%</text>
+<text id="KYC-completed" x="1009.2" y="268.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">KYC completed</text>
+<text id="value-3" x="959.2" y="330.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#CBCCE7">41</text>
+<text id="sub-3" x="959.2" y="352.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">14% of her leads · rank 3 of 62</text>
 </g>
-<g id="kpi-Journey-plan-kept">
+<g id="kpi-Prospect-client">
 <rect id="bg-4" x="1260.8" y="232.0" width="305.6" height="140.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
-<rect id="icon-bg-4" x="1280.8" y="252.0" width="38.0" height="38.0" rx="9" fill="#1F1B30"/>
-<g id="icon-route-2" transform="translate(1289.8 261.0) scale(0.8333)">
-<path d="M6 16a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#8774CF" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15" fill="none" stroke="#8774CF" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18 2a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#8774CF" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="icon-bg-4" x="1280.8" y="252.0" width="38.0" height="38.0" rx="9" fill="#26352E"/>
+<g id="icon-trendup" transform="translate(1289.8 261.0) scale(0.8333)">
+<path d="M22 7l-8.5 8.5-5-5L2 17" fill="none" stroke="#9AF0CA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 7h6v6" fill="none" stroke="#9AF0CA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Journey-plan-kept" x="1330.8" y="268.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Journey plan kept</text>
-<text id="value-4" x="1280.8" y="330.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#CBCCE7">82%</text>
-<text id="sub-4" x="1280.8" y="352.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">planned visits actually made</text>
-<g id="progress-3">
-<rect x="1280.8" y="358.0" width="265.6" height="6.0" rx="3.0" fill="#202129"/>
-<rect x="1280.8" y="358.0" width="217.8" height="6.0" rx="3.0" fill="#7056D6"/>
+<text id="Prospect-client" x="1330.8" y="268.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Prospect → client</text>
+<text id="value-4" x="1280.8" y="330.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#CBCCE7">2.8%</text>
+<text id="sub-4" x="1280.8" y="352.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">company average 2.2%</text>
 </g>
-</g>
-<g id="kpi-Avg-KYC-time">
+<g id="kpi-Time-prospecting">
 <rect id="bg-5" x="1582.4" y="232.0" width="305.6" height="140.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
 <rect id="icon-bg-5" x="1602.4" y="252.0" width="38.0" height="38.0" rx="9" fill="#382F1B"/>
 <g id="icon-clock" transform="translate(1611.4 261.0) scale(0.8333)">
 <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z" fill="none" stroke="#ECC578" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 6v6l4 2" fill="none" stroke="#ECC578" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Avg-KYC-time" x="1652.4" y="268.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Avg. KYC time</text>
-<text id="value-5" x="1602.4" y="330.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#CBCCE7">18 min</text>
-<text id="sub-5" x="1602.4" y="352.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">from check-in to KYC validated</text>
+<text id="Time-prospecting" x="1652.4" y="268.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Time prospecting</text>
+<text id="value-5" x="1602.4" y="330.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#CBCCE7">5.1 h</text>
+<text id="sub-5" x="1602.4" y="352.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">a day on route days · company 4.1 h</text>
 </g>
-<rect id="Week-by-week-bg" x="296.0" y="388.0" width="1000.0" height="330.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
-<text id="title" x="320.0" y="426.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#CBCCE7">Week by week</text>
-<text id="subtitle" x="320.0" y="448.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">Sarah's visits stayed steady all quarter; the dashed line is the branch average</text>
-<g id="line-chart">
-<line x1="360.0" y1="668.0" x2="1266.0" y2="668.0" stroke="#282932" stroke-width="1"/>
-<text id="y-label" x="346.1" y="672.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#9396AA">0</text>
-<line x1="360.0" y1="604.7" x2="1266.0" y2="604.7" stroke="#202129" stroke-width="1"/>
-<text id="y-label-2" x="340.1" y="608.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#9396AA">10</text>
-<line x1="360.0" y1="541.3" x2="1266.0" y2="541.3" stroke="#202129" stroke-width="1"/>
-<text id="y-label-3" x="340.1" y="545.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#9396AA">20</text>
-<line x1="360.0" y1="478.0" x2="1266.0" y2="478.0" stroke="#202129" stroke-width="1"/>
-<text id="y-label-4" x="340.1" y="482.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#9396AA">30</text>
-<text id="x-label" x="386.7" y="688.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#9396AA">W1</text>
-<text id="x-label-2" x="456.4" y="688.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#9396AA">W2</text>
-<text id="x-label-3" x="526.1" y="688.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#9396AA">W3</text>
-<text id="x-label-4" x="595.8" y="688.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#9396AA">W4</text>
-<text id="x-label-5" x="665.5" y="688.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#9396AA">W5</text>
-<text id="x-label-6" x="735.2" y="688.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#9396AA">W6</text>
-<text id="x-label-7" x="804.9" y="688.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#9396AA">W7</text>
-<text id="x-label-8" x="874.6" y="688.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#9396AA">W8</text>
-<text id="x-label-9" x="944.3" y="688.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#9396AA">W9</text>
-<text id="x-label-10" x="1011.0" y="688.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#9396AA">W10</text>
-<text id="x-label-11" x="1080.7" y="688.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#9396AA">W11</text>
-<text id="x-label-12" x="1150.4" y="688.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#9396AA">W12</text>
-<text id="x-label-13" x="1220.1" y="688.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#9396AA">W13</text>
-<g id="series-Branch-average-last-year-style">
-<path id="line" d="M394.8 592.0 L464.5 604.7 L534.2 636.3 L603.9 649.0 L673.6 649.0 L743.3 649.0 L813.0 649.0 L882.7 642.7 L952.4 636.3 L1022.1 623.7 L1091.8 592.0 L1161.5 579.3 L1231.2 566.7" fill="none" stroke="#B0B1C7" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 5"/>
+<rect id="Where-Sarah-has-worked-Q3-to-date-bg" x="296.0" y="388.0" width="1100.0" height="664.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
+<text id="title" x="320.0" y="426.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#CBCCE7">Where Sarah has worked: Q3 to date</text>
+<text id="subtitle" x="320.0" y="448.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">Every prospect, lead and client she found, from the GPS on her phone</text>
+<g id="layer-toggles">
+<rect x="1290.9" y="412.0" width="81.1" height="30.0" rx="15" fill="#24242D"/>
+<g id="checkbox">
+<rect x="1299.9" y="419.0" width="16.0" height="16.0" rx="4" fill="#4F4CC9"/>
+<g id="icon-check" transform="translate(1301.9 421.0) scale(0.5000)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#FFFFFF" stroke-width="6.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<g id="series-Sarah-visits">
-<path id="area" d="M394.8 668.0 L394.8 528.7 L464.5 554.0 L534.2 573.0 L603.9 579.3 L673.6 566.7 L743.3 573.0 L813.0 560.3 L882.7 579.3 L952.4 566.7 L1022.1 560.3 L1091.8 566.7 L1161.5 554.0 L1231.2 566.7 L1231.2 668.0 Z" fill="#4F4CC9" fill-opacity="0.12"/>
-<path id="line-2" d="M394.8 528.7 L464.5 554.0 L534.2 573.0 L603.9 579.3 L673.6 566.7 L743.3 573.0 L813.0 560.3 L882.7 579.3 L952.4 566.7 L1022.1 560.3 L1091.8 566.7 L1161.5 554.0 L1231.2 566.7" fill="none" stroke="#A09FDD" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="394.8" cy="528.7" r="3.5" fill="#1D1E27" stroke="#A09FDD" stroke-width="2"/>
-<circle cx="464.5" cy="554.0" r="3.5" fill="#1D1E27" stroke="#A09FDD" stroke-width="2"/>
-<circle cx="534.2" cy="573.0" r="3.5" fill="#1D1E27" stroke="#A09FDD" stroke-width="2"/>
-<circle cx="603.9" cy="579.3" r="3.5" fill="#1D1E27" stroke="#A09FDD" stroke-width="2"/>
-<circle cx="673.6" cy="566.7" r="3.5" fill="#1D1E27" stroke="#A09FDD" stroke-width="2"/>
-<circle cx="743.3" cy="573.0" r="3.5" fill="#1D1E27" stroke="#A09FDD" stroke-width="2"/>
-<circle cx="813.0" cy="560.3" r="3.5" fill="#1D1E27" stroke="#A09FDD" stroke-width="2"/>
-<circle cx="882.7" cy="579.3" r="3.5" fill="#1D1E27" stroke="#A09FDD" stroke-width="2"/>
-<circle cx="952.4" cy="566.7" r="3.5" fill="#1D1E27" stroke="#A09FDD" stroke-width="2"/>
-<circle cx="1022.1" cy="560.3" r="3.5" fill="#1D1E27" stroke="#A09FDD" stroke-width="2"/>
-<circle cx="1091.8" cy="566.7" r="3.5" fill="#1D1E27" stroke="#A09FDD" stroke-width="2"/>
-<circle cx="1161.5" cy="554.0" r="3.5" fill="#1D1E27" stroke="#A09FDD" stroke-width="2"/>
-<circle cx="1231.2" cy="566.7" r="3.5" fill="#1D1E27" stroke="#A09FDD" stroke-width="2"/>
+</g>
+<text id="Routes" x="1322.9" y="432.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#ACABE1">Routes</text>
+<rect x="1187.2" y="412.0" width="95.7" height="30.0" rx="15" fill="#222F29"/>
+<g id="checkbox-2">
+<rect x="1196.2" y="419.0" width="16.0" height="16.0" rx="4" fill="#15925A"/>
+<g id="icon-check-2" transform="translate(1198.2 421.0) scale(0.5000)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#FFFFFF" stroke-width="6.00" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<text id="Clients-41" x="1219.2" y="432.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#9EF1CC">Clients 41</text>
+<rect x="1081.0" y="412.0" width="98.2" height="30.0" rx="15" fill="#1A2330"/>
+<g id="checkbox-3">
+<rect x="1090.0" y="419.0" width="16.0" height="16.0" rx="4" fill="#2F6FDB"/>
+<g id="icon-check-3" transform="translate(1092.0 421.0) scale(0.5000)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#FFFFFF" stroke-width="6.00" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<text id="Leads-286" x="1113.0" y="432.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#7AA1E2">Leads 286</text>
+<rect x="945.2" y="412.0" width="127.8" height="30.0" rx="15" fill="#1E192D"/>
+<g id="checkbox-4">
+<rect x="954.2" y="419.0" width="16.0" height="16.0" rx="4" fill="#7056D6"/>
+<g id="icon-check-4" transform="translate(956.2 421.0) scale(0.5000)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#FFFFFF" stroke-width="6.00" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<text id="Prospects-1-486" x="977.2" y="432.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#8F80CC">Prospects 1,486</text>
+</g>
+<g id="street-map">
+<rect id="land" x="312.0" y="460.0" width="1068.0" height="576.0" fill="#2B2A25"/>
+<path id="park" d="M1068.2 830.6 L1048.6 865.5 L978.0 869.4 L916.8 871.1 L859.9 849.3 L869.3 813.6 L909.4 783.9 L978.5 790.4 L1036.8 800.6 Z" fill="#353F2D"/>
+<path id="park-2" d="M676.1 739.4 L660.2 751.2 L618.7 761.9 L557.6 758.3 L534.7 745.4 L517.4 731.8 L566.7 724.3 L617.2 718.9 L656.9 728.2 Z" fill="#353F2D"/>
+<path id="park-3" d="M435.8 890.3 L418.0 909.2 L376.5 914.0 L333.0 916.4 L317.3 899.3 L317.3 880.9 L340.8 870.2 L378.9 860.9 L415.1 872.6 Z" fill="#353F2D"/>
+<path id="park-4" d="M1351.2 900.6 L1337.6 917.6 L1303.9 925.8 L1264.5 925.0 L1231.8 911.3 L1244.6 892.1 L1260.3 872.8 L1305.0 872.6 L1340.5 882.5 Z" fill="#353F2D"/>
+<path id="park-5" d="M1222.3 710.3 L1194.5 728.6 L1165.4 749.1 L1124.9 734.6 L1085.2 722.9 L1083.2 697.4 L1125.0 686.1 L1164.7 673.7 L1199.9 689.7 Z" fill="#353F2D"/>
+<path id="park-6" d="M977.6 493.0 L954.5 507.3 L930.6 519.7 L893.6 517.8 L868.9 502.8 L878.5 484.9 L898.5 472.5 L929.9 468.2 L962.1 475.4 Z" fill="#353F2D"/>
+<path id="park-7" d="M549.6 833.7 L554.4 867.0 L483.5 871.4 L423.9 870.3 L375.5 849.6 L365.7 816.1 L423.9 797.0 L488.4 782.9 L544.0 804.4 Z" fill="#353F2D"/>
+<g id="minor-streets">
+<line x1="320.0" y1="474.4" x2="365.7" y2="483.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="320.0" y1="566.4" x2="325.4" y2="591.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="320.0" y1="658.4" x2="334.7" y2="706.9" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="320.0" y1="704.4" x2="321.1" y2="743.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="320.0" y1="750.4" x2="355.4" y2="757.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="320.0" y1="796.4" x2="372.2" y2="800.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="320.0" y1="842.4" x2="322.1" y2="868.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="320.0" y1="888.4" x2="379.9" y2="886.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="366.0" y1="518.6" x2="407.8" y2="522.0" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="366.0" y1="564.6" x2="408.5" y2="564.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="366.0" y1="610.6" x2="380.3" y2="661.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="366.0" y1="656.6" x2="402.6" y2="662.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="366.0" y1="748.6" x2="374.7" y2="807.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="366.0" y1="886.6" x2="390.4" y2="887.8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="366.0" y1="932.6" x2="369.7" y2="966.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="366.0" y1="978.6" x2="370.5" y2="1025.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="412.0" y1="498.1" x2="459.5" y2="509.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="412.0" y1="636.1" x2="448.4" y2="629.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="412.0" y1="728.1" x2="461.8" y2="735.0" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="412.0" y1="774.1" x2="417.4" y2="817.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="412.0" y1="866.1" x2="456.3" y2="857.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="412.0" y1="958.1" x2="437.4" y2="960.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="412.0" y1="1004.1" x2="466.9" y2="992.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="458.0" y1="511.1" x2="494.6" y2="509.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="458.0" y1="603.1" x2="513.7" y2="593.8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="458.0" y1="649.1" x2="442.6" y2="701.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="458.0" y1="787.1" x2="492.8" y2="788.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="458.0" y1="833.1" x2="448.3" y2="866.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="458.0" y1="879.1" x2="511.2" y2="876.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="458.0" y1="971.1" x2="494.9" y2="963.0" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="458.0" y1="1017.1" x2="501.9" y2="1030.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="504.0" y1="522.2" x2="560.7" y2="515.9" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="504.0" y1="568.2" x2="499.4" y2="624.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="504.0" y1="614.2" x2="491.7" y2="654.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="504.0" y1="660.2" x2="508.0" y2="714.8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="504.0" y1="706.2" x2="498.7" y2="740.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="504.0" y1="752.2" x2="563.1" y2="745.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="504.0" y1="798.2" x2="509.5" y2="822.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="504.0" y1="936.2" x2="556.9" y2="945.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="504.0" y1="982.2" x2="510.6" y2="1022.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="550.0" y1="461.7" x2="584.0" y2="466.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="550.0" y1="507.7" x2="549.4" y2="562.8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="550.0" y1="645.7" x2="592.9" y2="640.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="550.0" y1="691.7" x2="546.4" y2="716.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="550.0" y1="737.7" x2="581.7" y2="728.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="550.0" y1="783.7" x2="592.4" y2="794.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="550.0" y1="829.7" x2="547.1" y2="878.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="596.0" y1="619.9" x2="619.9" y2="616.9" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="596.0" y1="803.9" x2="605.2" y2="844.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="596.0" y1="849.9" x2="583.3" y2="891.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="596.0" y1="895.9" x2="627.1" y2="887.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="642.0" y1="490.5" x2="624.2" y2="547.8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="642.0" y1="582.5" x2="688.5" y2="574.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="642.0" y1="720.5" x2="636.9" y2="760.0" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="642.0" y1="766.5" x2="671.8" y2="764.9" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="642.0" y1="858.5" x2="692.6" y2="863.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="642.0" y1="904.5" x2="697.0" y2="913.0" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="642.0" y1="950.5" x2="654.4" y2="997.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="688.0" y1="508.6" x2="676.8" y2="551.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="688.0" y1="600.6" x2="738.4" y2="592.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="688.0" y1="646.6" x2="742.1" y2="657.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="688.0" y1="692.6" x2="697.9" y2="741.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="688.0" y1="784.6" x2="715.6" y2="777.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="688.0" y1="876.6" x2="688.4" y2="912.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="688.0" y1="968.6" x2="696.1" y2="996.8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="734.0" y1="491.3" x2="788.9" y2="476.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="734.0" y1="537.3" x2="779.3" y2="526.9" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="734.0" y1="583.3" x2="791.0" y2="575.8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="734.0" y1="721.3" x2="729.1" y2="774.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="734.0" y1="767.3" x2="733.5" y2="812.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="734.0" y1="905.3" x2="763.4" y2="896.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="734.0" y1="951.3" x2="724.0" y2="991.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="780.0" y1="460.0" x2="784.5" y2="500.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="780.0" y1="506.0" x2="833.3" y2="491.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="780.0" y1="598.0" x2="793.0" y2="649.9" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="780.0" y1="736.0" x2="830.8" y2="731.0" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="780.0" y1="782.0" x2="827.9" y2="787.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="780.0" y1="828.0" x2="826.7" y2="816.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="780.0" y1="874.0" x2="809.6" y2="878.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="780.0" y1="920.0" x2="827.6" y2="922.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="826.0" y1="538.5" x2="832.8" y2="588.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="826.0" y1="630.5" x2="856.9" y2="624.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="826.0" y1="676.5" x2="821.2" y2="709.9" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="826.0" y1="722.5" x2="819.2" y2="760.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="826.0" y1="768.5" x2="812.4" y2="816.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="826.0" y1="814.5" x2="836.4" y2="854.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="826.0" y1="952.5" x2="877.8" y2="937.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="826.0" y1="998.5" x2="882.6" y2="1012.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="872.0" y1="560.9" x2="906.1" y2="551.8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="872.0" y1="606.9" x2="926.7" y2="610.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="872.0" y1="652.9" x2="908.8" y2="651.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="872.0" y1="698.9" x2="871.6" y2="727.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="872.0" y1="744.9" x2="865.4" y2="800.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="872.0" y1="882.9" x2="885.3" y2="933.0" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="872.0" y1="974.9" x2="913.0" y2="975.9" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="918.0" y1="588.7" x2="914.8" y2="614.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="918.0" y1="634.7" x2="904.7" y2="689.0" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="918.0" y1="680.7" x2="921.9" y2="732.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="918.0" y1="726.7" x2="913.0" y2="777.9" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="918.0" y1="818.7" x2="966.7" y2="825.8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="918.0" y1="864.7" x2="916.6" y2="900.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="918.0" y1="910.7" x2="965.8" y2="903.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="918.0" y1="956.7" x2="968.6" y2="958.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="918.0" y1="1002.7" x2="945.5" y2="994.8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="964.0" y1="614.4" x2="971.3" y2="644.8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="964.0" y1="660.4" x2="1017.7" y2="663.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="964.0" y1="752.4" x2="993.1" y2="754.8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="964.0" y1="844.4" x2="972.4" y2="878.8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="964.0" y1="936.4" x2="969.3" y2="961.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1010.0" y1="467.4" x2="1008.3" y2="495.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1010.0" y1="559.4" x2="1033.6" y2="555.0" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1010.0" y1="651.4" x2="1012.1" y2="683.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1010.0" y1="697.4" x2="1052.2" y2="692.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1010.0" y1="835.4" x2="1056.9" y2="844.8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1010.0" y1="927.4" x2="1011.8" y2="956.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1010.0" y1="1019.4" x2="1047.1" y2="1009.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1056.0" y1="494.7" x2="1106.3" y2="504.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1056.0" y1="540.7" x2="1045.5" y2="585.9" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1056.0" y1="632.7" x2="1100.4" y2="621.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1056.0" y1="770.7" x2="1098.4" y2="773.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1056.0" y1="816.7" x2="1057.7" y2="869.0" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1056.0" y1="1000.7" x2="1092.4" y2="1007.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1102.0" y1="533.3" x2="1105.3" y2="558.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1102.0" y1="763.3" x2="1151.3" y2="756.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1102.0" y1="809.3" x2="1160.1" y2="815.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1148.0" y1="488.1" x2="1179.6" y2="496.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1148.0" y1="580.1" x2="1134.0" y2="626.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1148.0" y1="626.1" x2="1192.6" y2="637.9" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1148.0" y1="672.1" x2="1202.7" y2="684.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1148.0" y1="810.1" x2="1182.4" y2="803.8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1148.0" y1="856.1" x2="1177.1" y2="863.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1148.0" y1="994.1" x2="1194.5" y2="996.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1194.0" y1="489.4" x2="1196.1" y2="528.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1194.0" y1="535.4" x2="1227.8" y2="531.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1194.0" y1="673.4" x2="1227.8" y2="665.9" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1194.0" y1="811.4" x2="1191.2" y2="858.6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1194.0" y1="949.4" x2="1203.6" y2="991.0" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1194.0" y1="995.4" x2="1240.1" y2="1005.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1240.0" y1="502.6" x2="1234.9" y2="526.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1240.0" y1="594.6" x2="1250.0" y2="639.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1240.0" y1="640.6" x2="1232.1" y2="693.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1240.0" y1="962.6" x2="1270.4" y2="968.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1240.0" y1="1008.6" x2="1288.5" y2="1007.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1286.0" y1="494.2" x2="1274.8" y2="533.4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1286.0" y1="540.2" x2="1291.5" y2="563.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1286.0" y1="586.2" x2="1278.7" y2="611.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1286.0" y1="724.2" x2="1344.8" y2="735.8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1286.0" y1="816.2" x2="1288.6" y2="850.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1286.0" y1="862.2" x2="1320.6" y2="863.8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1286.0" y1="908.2" x2="1311.8" y2="908.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1286.0" y1="954.2" x2="1335.4" y2="947.0" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1286.0" y1="1000.2" x2="1325.5" y2="1001.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1332.0" y1="560.3" x2="1336.8" y2="613.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1332.0" y1="606.3" x2="1356.5" y2="604.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1332.0" y1="652.3" x2="1316.4" y2="705.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1332.0" y1="744.3" x2="1375.7" y2="757.1" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1332.0" y1="836.3" x2="1368.6" y2="825.7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<line x1="1332.0" y1="928.3" x2="1370.6" y2="921.3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+</g>
+<path id="main-road-casing" d="M312.0 586.7 C632.4 632.8 899.4 563.7 1380.0 621.3" fill="none" stroke="#564C36" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road" d="M312.0 586.7 C632.4 632.8 899.4 563.7 1380.0 621.3" fill="none" stroke="#39311B" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road-casing-2" d="M312.0 817.1 C611.0 776.8 846.0 805.6 974.2 943.8" fill="none" stroke="#564C36" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road-2" d="M312.0 817.1 C611.0 776.8 846.0 805.6 974.2 943.8" fill="none" stroke="#39311B" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road-casing-3" d="M504.2 460.0 C589.7 661.6 525.6 863.2 632.4 1036.0" fill="none" stroke="#564C36" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road-3" d="M504.2 460.0 C589.7 661.6 525.6 863.2 632.4 1036.0" fill="none" stroke="#39311B" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road-casing-4" d="M931.4 460.0 C867.4 632.8 1016.9 748.0 1326.6 805.6" fill="none" stroke="#564C36" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road-4" d="M931.4 460.0 C867.4 632.8 1016.9 748.0 1326.6 805.6" fill="none" stroke="#39311B" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road-casing-5" d="M1145.0 460.0 C1166.4 575.2 1273.2 661.6 1380.0 690.4" fill="none" stroke="#564C36" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="main-road-5" d="M1145.0 460.0 C1166.4 575.2 1273.2 661.6 1380.0 690.4" fill="none" stroke="#39311B" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<g id="place-names">
+<text id="Ntinda" x="645.9" y="632.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#9092A3">Ntinda</text>
+<text id="Kiwatule" x="929.5" y="575.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#9092A3">Kiwatule</text>
+<text id="Naalya" x="1169.1" y="529.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#9092A3">Naalya</text>
+<text id="Kyambogo" x="752.6" y="759.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#9092A3">Kyambogo</text>
+<text id="Banda" x="882.4" y="817.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#9092A3">Banda</text>
+<text id="Bukoto" x="420.7" y="661.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#9092A3">Bukoto</text>
+<text id="Kisaasi" x="486.0" y="517.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#9092A3">Kisaasi</text>
+<text id="Kireka" x="1149.5" y="748.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#9092A3">Kireka</text>
+<text id="Nakawa" x="610.7" y="874.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#9092A3">Nakawa</text>
+<text id="Mbuya" x="506.8" y="978.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#9092A3">Mbuya</text>
+<text id="Kira" x="1294.7" y="632.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#9092A3">Kira</text>
+<text id="Kigoowa" x="768.9" y="506.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#9092A3">Kigoowa</text>
+</g>
+</g>
+<path id="her-territory" d="M525.6 506.1 L1081.0 483.0 L1145.0 748.0 L846.0 817.1 L547.0 748.0 Z" fill="#4F4CC9" stroke="#A09FDD" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill-opacity="0.05" stroke-dasharray="7 5"/>
+<path id="route-Kiwatule-market" d="M846.0 552.2 L931.4 598.2 L995.5 655.8" fill="none" stroke="#A09FDD" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="Kiwatule-market" x="1005.5" y="659.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1F1E57">Kiwatule market</text>
+<path id="route-Ntinda-stage" d="M632.4 609.8 L696.5 655.8 L760.6 701.9" fill="none" stroke="#A09FDD" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="Ntinda-stage" x="770.6" y="705.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1F1E57">Ntinda stage</text>
+<path id="route-Kigoowa-estates" d="M760.6 517.6 L846.0 506.1 L910.1 529.1" fill="none" stroke="#A09FDD" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="Kigoowa-estates" x="920.1" y="533.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1F1E57">Kigoowa estates</text>
+<path id="route-Ntinda-schools" d="M589.7 690.4 L653.8 736.5 L739.2 759.5" fill="none" stroke="#A09FDD" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="Ntinda-schools" x="749.2" y="763.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1F1E57">Ntinda schools</text>
+<g id="prospects">
+<circle cx="676.9" cy="625.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="632.0" cy="688.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="695.7" cy="694.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="967.5" cy="588.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="683.1" cy="593.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="744.2" cy="736.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="634.6" cy="682.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="1029.7" cy="649.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="768.5" cy="691.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="963.4" cy="629.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="685.9" cy="764.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="611.8" cy="697.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="801.5" cy="541.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="578.3" cy="701.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="626.6" cy="755.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="690.7" cy="735.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="878.1" cy="582.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="542.5" cy="691.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="723.6" cy="683.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="820.6" cy="523.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="852.4" cy="453.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="673.8" cy="655.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="656.4" cy="680.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="715.9" cy="649.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="895.2" cy="599.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="639.8" cy="617.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="668.4" cy="764.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="926.0" cy="593.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="572.8" cy="638.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="631.3" cy="583.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="804.7" cy="510.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="666.3" cy="676.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="797.8" cy="496.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="590.3" cy="714.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="731.2" cy="513.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="894.8" cy="545.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="886.8" cy="579.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="628.3" cy="701.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="656.0" cy="627.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="591.1" cy="578.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="835.1" cy="542.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="819.7" cy="506.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="647.1" cy="630.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="977.0" cy="610.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="789.1" cy="582.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="765.9" cy="791.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="861.2" cy="505.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="729.9" cy="686.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="924.3" cy="503.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="959.7" cy="639.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="888.7" cy="562.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="607.7" cy="596.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="746.7" cy="669.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="626.3" cy="665.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="733.8" cy="756.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="616.9" cy="734.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="591.5" cy="697.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="590.8" cy="726.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="679.3" cy="777.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="641.2" cy="751.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="802.9" cy="555.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="652.4" cy="628.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="716.9" cy="520.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="876.5" cy="548.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="833.6" cy="570.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="768.2" cy="782.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="966.4" cy="708.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="612.2" cy="689.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="574.1" cy="670.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="704.3" cy="658.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="796.5" cy="501.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="738.1" cy="668.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="657.3" cy="660.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="926.9" cy="549.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="796.4" cy="571.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="963.8" cy="548.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="804.4" cy="531.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="701.1" cy="768.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="1055.6" cy="705.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="694.5" cy="657.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="558.0" cy="587.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="756.5" cy="742.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="674.5" cy="724.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="581.8" cy="682.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="793.8" cy="757.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="586.7" cy="610.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="629.6" cy="705.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="714.0" cy="671.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="834.2" cy="539.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="1012.2" cy="636.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="786.6" cy="543.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="919.3" cy="506.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="849.8" cy="573.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="853.7" cy="520.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="577.8" cy="704.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="967.9" cy="678.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="621.5" cy="583.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="724.9" cy="608.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="823.3" cy="522.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="862.7" cy="633.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="780.3" cy="510.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="945.9" cy="532.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="674.4" cy="597.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="596.3" cy="717.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="841.1" cy="458.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="763.8" cy="548.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="874.7" cy="488.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="711.4" cy="579.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="991.7" cy="618.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="682.0" cy="694.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="789.8" cy="546.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="654.2" cy="703.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="727.6" cy="527.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="649.2" cy="765.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="657.5" cy="699.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="648.6" cy="699.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="702.5" cy="660.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="930.6" cy="507.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="622.1" cy="669.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="773.0" cy="767.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="678.9" cy="674.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="736.4" cy="750.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="740.5" cy="530.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="612.1" cy="683.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="759.8" cy="500.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="633.3" cy="555.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="955.6" cy="633.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="573.3" cy="610.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="619.3" cy="590.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="767.8" cy="529.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="918.7" cy="575.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="991.2" cy="651.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="748.3" cy="676.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="811.2" cy="481.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="724.9" cy="549.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="712.7" cy="758.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="680.2" cy="570.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="811.4" cy="679.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="849.5" cy="509.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="834.8" cy="487.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="939.7" cy="610.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="635.7" cy="620.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="943.2" cy="677.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="746.1" cy="674.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="855.2" cy="581.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="572.5" cy="626.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="920.8" cy="617.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="888.9" cy="511.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="728.9" cy="760.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="941.2" cy="562.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="666.6" cy="684.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="872.9" cy="496.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="894.3" cy="584.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="779.5" cy="717.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="910.2" cy="577.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="579.8" cy="642.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="720.1" cy="729.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="556.3" cy="682.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="600.6" cy="610.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="878.1" cy="553.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="742.1" cy="765.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="655.4" cy="594.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="788.1" cy="698.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="923.8" cy="516.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="746.5" cy="711.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="944.4" cy="556.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="849.1" cy="630.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="835.6" cy="572.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="719.1" cy="721.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="871.6" cy="570.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="687.3" cy="574.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="531.5" cy="690.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="610.1" cy="589.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="748.9" cy="516.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="855.1" cy="561.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="619.4" cy="699.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="713.4" cy="685.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="855.7" cy="449.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="897.6" cy="627.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="823.1" cy="492.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="868.7" cy="522.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="714.0" cy="486.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="794.7" cy="518.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="681.0" cy="630.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="868.6" cy="578.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="662.2" cy="583.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="761.7" cy="691.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="845.5" cy="522.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="672.7" cy="692.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="837.8" cy="567.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="605.3" cy="690.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="633.0" cy="684.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="624.7" cy="585.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="944.8" cy="593.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="623.2" cy="644.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="1007.0" cy="587.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="725.8" cy="677.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="963.7" cy="610.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="624.5" cy="737.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="912.4" cy="512.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="866.7" cy="572.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="907.5" cy="550.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="919.6" cy="596.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="1003.7" cy="672.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="827.8" cy="548.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="661.4" cy="701.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="799.8" cy="480.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="532.1" cy="651.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="712.0" cy="461.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="654.9" cy="604.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="629.4" cy="726.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="796.2" cy="492.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="919.0" cy="595.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="824.4" cy="704.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="725.3" cy="712.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="636.4" cy="726.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="608.8" cy="551.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="632.2" cy="669.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="859.5" cy="496.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="586.0" cy="711.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="972.1" cy="672.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="898.6" cy="532.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="643.8" cy="601.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="635.4" cy="595.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="915.9" cy="540.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="720.9" cy="751.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="671.7" cy="713.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="899.3" cy="595.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="723.5" cy="749.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="694.8" cy="759.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="658.0" cy="623.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="942.0" cy="578.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="723.7" cy="760.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="590.6" cy="627.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="733.0" cy="538.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="723.5" cy="524.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="659.4" cy="688.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="934.9" cy="648.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="731.2" cy="520.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="606.1" cy="639.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="715.3" cy="706.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="653.8" cy="686.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="820.0" cy="548.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="948.4" cy="603.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="674.3" cy="767.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="618.6" cy="754.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="873.5" cy="586.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="819.6" cy="569.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="689.1" cy="753.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="644.9" cy="587.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="566.5" cy="698.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="814.2" cy="521.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="613.5" cy="629.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="789.6" cy="716.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="1061.6" cy="632.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="998.4" cy="610.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="642.0" cy="740.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="734.4" cy="755.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="678.8" cy="604.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="693.1" cy="727.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="1036.6" cy="621.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="930.2" cy="578.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="922.9" cy="539.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="909.3" cy="597.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="661.1" cy="607.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="971.3" cy="677.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="707.8" cy="520.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="727.4" cy="513.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="863.3" cy="517.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="762.8" cy="783.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="667.2" cy="733.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="706.3" cy="644.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="743.3" cy="640.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="700.8" cy="593.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="773.6" cy="508.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="764.7" cy="534.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="826.8" cy="516.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="703.2" cy="651.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="708.3" cy="511.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="569.9" cy="674.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="811.5" cy="703.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="962.3" cy="626.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="793.9" cy="808.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="643.0" cy="721.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="841.9" cy="604.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="645.3" cy="790.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="758.2" cy="537.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="612.7" cy="632.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="872.5" cy="538.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="639.2" cy="711.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="783.6" cy="667.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="759.3" cy="766.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="783.1" cy="480.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="972.6" cy="503.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="685.6" cy="747.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="791.5" cy="709.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="877.9" cy="524.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="845.7" cy="551.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="893.7" cy="531.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="757.8" cy="693.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="603.6" cy="560.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="986.3" cy="643.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="587.0" cy="620.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="638.5" cy="728.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="760.1" cy="797.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="796.7" cy="538.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="766.8" cy="498.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="947.0" cy="617.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="583.7" cy="672.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="635.5" cy="767.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="609.2" cy="688.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="712.4" cy="718.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="901.0" cy="501.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="683.3" cy="722.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="935.9" cy="616.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="611.4" cy="672.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="658.8" cy="648.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="673.2" cy="676.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="831.3" cy="564.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="580.8" cy="618.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="769.0" cy="776.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="697.4" cy="619.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="989.3" cy="617.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="766.5" cy="533.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="666.8" cy="753.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="702.0" cy="533.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="692.3" cy="776.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="905.8" cy="551.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="718.9" cy="764.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="671.3" cy="602.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="829.2" cy="543.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="928.6" cy="539.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="852.1" cy="584.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="813.7" cy="496.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="865.7" cy="527.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="817.5" cy="605.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="557.5" cy="715.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="480.9" cy="718.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="718.9" cy="698.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="705.7" cy="638.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="693.8" cy="655.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="925.0" cy="550.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="589.8" cy="678.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="682.3" cy="651.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="953.0" cy="619.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="597.4" cy="694.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="900.5" cy="577.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="575.5" cy="555.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="905.9" cy="549.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="763.1" cy="750.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="816.2" cy="474.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="993.6" cy="604.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="618.7" cy="759.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="793.3" cy="514.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="643.0" cy="714.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="846.4" cy="555.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="787.2" cy="555.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="859.5" cy="484.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="758.2" cy="752.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="1022.6" cy="707.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="995.7" cy="677.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="811.3" cy="720.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="587.6" cy="667.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="657.4" cy="654.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="593.0" cy="602.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="527.9" cy="592.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="942.0" cy="541.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="627.9" cy="703.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="586.4" cy="704.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="829.1" cy="544.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="964.4" cy="653.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="590.7" cy="699.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="595.2" cy="738.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="601.5" cy="723.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="924.2" cy="513.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="621.3" cy="714.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="638.4" cy="666.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="752.5" cy="710.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="863.3" cy="522.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="919.4" cy="526.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="750.1" cy="726.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="905.5" cy="574.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="1014.4" cy="646.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="598.9" cy="709.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="525.8" cy="700.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="884.6" cy="573.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="570.6" cy="707.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="851.8" cy="545.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="673.3" cy="613.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="818.6" cy="549.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="786.9" cy="549.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="795.8" cy="711.0" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="758.8" cy="491.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="984.7" cy="657.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="942.9" cy="601.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="599.8" cy="548.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="659.1" cy="582.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="578.5" cy="638.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="769.5" cy="511.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="876.2" cy="547.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="702.0" cy="624.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="950.4" cy="623.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="654.7" cy="655.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="804.2" cy="501.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="835.8" cy="752.3" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="837.0" cy="588.8" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="757.2" cy="484.6" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="932.4" cy="492.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="908.0" cy="595.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="664.2" cy="604.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="801.2" cy="520.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="1041.2" cy="696.1" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="903.3" cy="586.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="889.6" cy="608.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="776.7" cy="545.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="769.3" cy="692.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="578.6" cy="671.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="727.9" cy="645.9" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="661.8" cy="663.2" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+<circle cx="701.1" cy="726.5" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
+</g>
+<g id="leads">
+<circle cx="939.0" cy="523.7" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="708.2" cy="769.9" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="574.9" cy="600.9" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="627.7" cy="616.6" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="640.5" cy="724.9" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="586.3" cy="621.7" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="955.0" cy="643.6" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="869.5" cy="535.8" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="776.3" cy="739.3" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="644.0" cy="680.9" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="723.7" cy="678.2" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="647.0" cy="763.9" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="946.7" cy="504.3" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="694.5" cy="716.8" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="1053.1" cy="646.1" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="722.0" cy="526.7" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="1001.8" cy="652.8" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="792.5" cy="677.3" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="635.8" cy="665.4" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="794.3" cy="505.0" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="725.0" cy="528.0" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="813.5" cy="520.2" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="857.9" cy="484.5" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="1000.6" cy="661.4" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="706.2" cy="753.9" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="841.2" cy="537.7" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="638.3" cy="617.4" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="757.4" cy="740.8" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="729.4" cy="759.5" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="627.3" cy="627.8" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="869.8" cy="495.6" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="733.9" cy="748.9" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="716.4" cy="510.9" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="734.0" cy="747.7" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="921.6" cy="513.3" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="909.8" cy="625.5" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="958.2" cy="594.0" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="726.5" cy="767.3" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="861.2" cy="514.6" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="630.4" cy="613.3" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="747.7" cy="732.0" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="1003.0" cy="585.8" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="795.2" cy="507.6" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="825.8" cy="551.6" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="856.5" cy="552.3" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="628.6" cy="599.9" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="769.5" cy="722.4" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="623.6" cy="678.6" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="736.3" cy="517.2" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="775.6" cy="689.1" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="797.5" cy="457.0" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="887.7" cy="574.3" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="725.0" cy="764.9" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="634.4" cy="750.1" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="601.0" cy="613.3" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="979.8" cy="592.7" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="922.4" cy="586.0" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="751.2" cy="754.2" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="897.7" cy="585.8" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+<circle cx="788.9" cy="511.5" r="5.0" fill="#2F6FDB" stroke="#FFFFFF" stroke-width="1.4"/>
+</g>
+<g id="clients">
+<g id="pin">
+<path d="M829.4 471.5 C826.6 465.9 821.0 463.1 821.0 456.8 A8.4 8.4 0 1 1 837.8 456.8 C837.8 463.1 832.2 465.9 829.4 471.5 Z" fill="#15925A" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="829.4" cy="456.8" r="2.9" fill="#FFFFFF"/>
+</g>
+<g id="pin-2">
+<path d="M929.9 604.8 C927.1 599.2 921.5 596.4 921.5 590.1 A8.4 8.4 0 1 1 938.3 590.1 C938.3 596.4 932.7 599.2 929.9 604.8 Z" fill="#15925A" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="929.9" cy="590.1" r="2.9" fill="#FFFFFF"/>
+</g>
+<g id="pin-3">
+<path d="M768.6 538.6 C765.8 533.0 760.2 530.2 760.2 523.9 A8.4 8.4 0 1 1 777.0 523.9 C777.0 530.2 771.4 533.0 768.6 538.6 Z" fill="#15925A" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="768.6" cy="523.9" r="2.9" fill="#FFFFFF"/>
+</g>
+<g id="pin-4">
+<path d="M1003.7 655.4 C1000.9 649.8 995.3 647.0 995.3 640.7 A8.4 8.4 0 1 1 1012.1 640.7 C1012.1 647.0 1006.5 649.8 1003.7 655.4 Z" fill="#15925A" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1003.7" cy="640.7" r="2.9" fill="#FFFFFF"/>
+</g>
+<g id="pin-5">
+<path d="M598.0 627.9 C595.2 622.3 589.6 619.5 589.6 613.2 A8.4 8.4 0 1 1 606.4 613.2 C606.4 619.5 600.8 622.3 598.0 627.9 Z" fill="#15925A" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="598.0" cy="613.2" r="2.9" fill="#FFFFFF"/>
+</g>
+<g id="pin-6">
+<path d="M854.0 496.1 C851.2 490.5 845.6 487.7 845.6 481.4 A8.4 8.4 0 1 1 862.4 481.4 C862.4 487.7 856.8 490.5 854.0 496.1 Z" fill="#15925A" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="854.0" cy="481.4" r="2.9" fill="#FFFFFF"/>
+</g>
+<g id="pin-7">
+<path d="M685.2 721.1 C682.4 715.5 676.8 712.7 676.8 706.4 A8.4 8.4 0 1 1 693.6 706.4 C693.6 712.7 688.0 715.5 685.2 721.1 Z" fill="#15925A" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="685.2" cy="706.4" r="2.9" fill="#FFFFFF"/>
+</g>
+<g id="pin-8">
+<path d="M856.5 500.6 C853.7 495.0 848.1 492.2 848.1 485.9 A8.4 8.4 0 1 1 864.9 485.9 C864.9 492.2 859.3 495.0 856.5 500.6 Z" fill="#15925A" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="856.5" cy="485.9" r="2.9" fill="#FFFFFF"/>
+</g>
+<g id="pin-9">
+<path d="M867.5 483.3 C864.7 477.7 859.1 474.9 859.1 468.6 A8.4 8.4 0 1 1 875.9 468.6 C875.9 474.9 870.3 477.7 867.5 483.3 Z" fill="#15925A" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="867.5" cy="468.6" r="2.9" fill="#FFFFFF"/>
+</g>
+<g id="pin-10">
+<path d="M802.4 723.2 C799.6 717.6 794.0 714.8 794.0 708.5 A8.4 8.4 0 1 1 810.8 708.5 C810.8 714.8 805.2 717.6 802.4 723.2 Z" fill="#15925A" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="802.4" cy="708.5" r="2.9" fill="#FFFFFF"/>
+</g>
+<g id="pin-11">
+<path d="M681.5 742.4 C678.7 736.8 673.1 734.0 673.1 727.7 A8.4 8.4 0 1 1 689.9 727.7 C689.9 734.0 684.3 736.8 681.5 742.4 Z" fill="#15925A" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="681.5" cy="727.7" r="2.9" fill="#FFFFFF"/>
+</g>
+<g id="pin-12">
+<path d="M607.6 635.4 C604.8 629.8 599.2 627.0 599.2 620.7 A8.4 8.4 0 1 1 616.0 620.7 C616.0 627.0 610.4 629.8 607.6 635.4 Z" fill="#15925A" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="607.6" cy="620.7" r="2.9" fill="#FFFFFF"/>
+</g>
+<g id="pin-13">
+<path d="M751.7 721.2 C748.9 715.6 743.3 712.8 743.3 706.5 A8.4 8.4 0 1 1 760.1 706.5 C760.1 712.8 754.5 715.6 751.7 721.2 Z" fill="#15925A" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="751.7" cy="706.5" r="2.9" fill="#FFFFFF"/>
+</g>
+<g id="pin-14">
+<path d="M911.5 606.3 C908.7 600.7 903.1 597.9 903.1 591.6 A8.4 8.4 0 1 1 919.9 591.6 C919.9 597.9 914.3 600.7 911.5 606.3 Z" fill="#15925A" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="911.5" cy="591.6" r="2.9" fill="#FFFFFF"/>
+</g>
+<g id="pin-15">
+<path d="M726.0 763.6 C723.2 758.0 717.6 755.2 717.6 748.9 A8.4 8.4 0 1 1 734.4 748.9 C734.4 755.2 728.8 758.0 726.0 763.6 Z" fill="#15925A" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="726.0" cy="748.9" r="2.9" fill="#FFFFFF"/>
+</g>
+<g id="pin-16">
+<path d="M1041.1 679.4 C1038.3 673.8 1032.7 671.0 1032.7 664.7 A8.4 8.4 0 1 1 1049.5 664.7 C1049.5 671.0 1043.9 673.8 1041.1 679.4 Z" fill="#15925A" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1041.1" cy="664.7" r="2.9" fill="#FFFFFF"/>
 </g>
 </g>
 <g id="legend">
-<line x1="996.0" y1="422.0" x2="1016.0" y2="422.0" stroke="#A09FDD" stroke-width="3"/>
-<text id="Sarah-visits" x="1022.0" y="427.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#B0B1C7">Sarah: visits</text>
-<line x1="1126.0" y1="422.0" x2="1146.0" y2="422.0" stroke="#B0B1C7" stroke-width="2" stroke-dasharray="5 4"/>
-<text id="Branch-average" x="1152.0" y="427.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#B0B1C7">Branch average</text>
+<rect x="328.0" y="932.0" width="320.0" height="88.0" rx="10" fill="#1D1E27" filter="url(#soft)" fill-opacity="0.96"/>
+<circle cx="350.0" cy="954.0" r="6.0" fill="#7056D6"/>
+<text id="Prospect-name-phone-locat" x="366.0" y="958.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#B0B1C7">Prospect: name, phone, location</text>
+<circle cx="350.0" cy="976.0" r="6.0" fill="#2F6FDB"/>
+<text id="Lead-wants-a-loan-NIN-am" x="366.0" y="980.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#B0B1C7">Lead: wants a loan · NIN, amount</text>
+<circle cx="350.0" cy="998.0" r="6.0" fill="#15925A"/>
+<text id="Client-KYC-completed-by-an" x="366.0" y="1002.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#B0B1C7">Client: KYC completed by an officer</text>
 </g>
-<rect id="Sarah-s-funnel-bg" x="1316.0" y="388.0" width="572.0" height="330.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
-<text id="title-2" x="1340.0" y="426.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#CBCCE7">Sarah's funnel</text>
-<text id="subtitle-2" x="1340.0" y="448.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">Q3 2026 · her own clients</text>
+<g id="outside-note">
+<rect x="1080.0" y="972.0" width="284.0" height="48.0" rx="10" fill="#1D1E27" filter="url(#soft)" fill-opacity="0.96"/>
+<g id="icon-shield-2" transform="translate(1094.0 986.0) scale(0.7500)">
+<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" fill="none" stroke="#A9F3D2" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 12l2 2 4-4" fill="none" stroke="#A9F3D2" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="98-of-her-prospects-inside" x="1120.0" y="1000.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#CBCCE7">98% of her prospects inside</text>
+<text id="her-territory-4-outside-a" x="1120.0" y="1016.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">her territory · 4 outside, all 14 Aug</text>
+</g>
+<rect id="Prospects-to-clients-bg" x="1416.0" y="388.0" width="472.0" height="300.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
+<text id="title-2" x="1440.0" y="426.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#CBCCE7">Prospects to clients</text>
+<text id="subtitle-2" x="1440.0" y="448.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">Q3 2026 · Sarah's own prospects</text>
 <g id="funnel">
-<text id="stage" x="1340.0" y="488.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#B0B1C7">Visited</text>
-<rect id="bar-Visited" x="1452.0" y="470.0" width="292.0" height="26.0" rx="8" fill="#8A8DA6"/>
-<text id="value-6" x="1586.8" y="487.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.0" font-weight="700" fill="#FFFFFF">214</text>
-<text id="of-visits" x="1827.7" y="484.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#CBCCE7">100%</text>
-<text id="of-visits-label" x="1829.1" y="500.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9396AA">of visits</text>
-<text id="stage-2" x="1340.0" y="524.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#B0B1C7">Interested</text>
-<rect id="bar-Interested" x="1549.6" y="506.0" width="96.9" height="26.0" rx="8" fill="#2F6FDB"/>
-<text id="value-7" x="1590.5" y="523.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.0" font-weight="700" fill="#FFFFFF">71</text>
-<text id="of-visits-2" x="1835.8" y="520.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#CBCCE7">33%</text>
-<text id="of-visits-label-2" x="1829.1" y="536.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9396AA">of visits</text>
-<text id="step-conversion" x="1658.4" y="505.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA">↓ 33%</text>
-<text id="stage-3" x="1340.0" y="560.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#B0B1C7">KYC captured</text>
-<rect id="bar-KYC-captured" x="1572.1" y="542.0" width="51.9" height="26.0" rx="8" fill="#7056D6"/>
-<text id="value-8" x="1590.5" y="559.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.0" font-weight="700" fill="#FFFFFF">38</text>
-<text id="of-visits-3" x="1835.8" y="556.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#CBCCE7">18%</text>
-<text id="of-visits-label-3" x="1829.1" y="572.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9396AA">of visits</text>
-<text id="step-conversion-2" x="1635.9" y="541.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA">↓ 54%</text>
-<text id="stage-4" x="1340.0" y="596.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#B0B1C7">KYC validated</text>
-<rect id="bar-KYC-validated" x="1575.5" y="578.0" width="45.0" height="26.0" rx="8" fill="#0E8C99"/>
-<text id="value-9" x="1590.5" y="595.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.0" font-weight="700" fill="#FFFFFF">33</text>
-<text id="of-visits-4" x="1835.8" y="592.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#CBCCE7">15%</text>
-<text id="of-visits-label-4" x="1829.1" y="608.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9396AA">of visits</text>
-<text id="step-conversion-3" x="1632.5" y="577.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA">↓ 87%</text>
-<text id="stage-5" x="1340.0" y="632.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#B0B1C7">Negotiation</text>
-<rect id="bar-Negotiation" x="1579.6" y="614.0" width="36.8" height="26.0" rx="8" fill="#E39A0B"/>
-<text id="value-10" x="1590.5" y="631.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.0" font-weight="700" fill="#FFFFFF">27</text>
-<text id="of-visits-5" x="1835.8" y="628.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#CBCCE7">13%</text>
-<text id="of-visits-label-5" x="1829.1" y="644.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9396AA">of visits</text>
-<text id="step-conversion-4" x="1628.4" y="613.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA">↓ 82%</text>
-<text id="stage-6" x="1340.0" y="668.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#B0B1C7">Applied</text>
-<rect id="bar-Applied" x="1580.0" y="650.0" width="36.0" height="26.0" rx="8" fill="#15925A"/>
-<text id="value-11" x="1590.5" y="667.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.0" font-weight="700" fill="#FFFFFF">19</text>
-<text id="of-visits-6" x="1843.8" y="664.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#CBCCE7">9%</text>
-<text id="of-visits-label-6" x="1829.1" y="680.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9396AA">of visits</text>
-<text id="step-conversion-5" x="1628.0" y="649.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA">↓ 70%</text>
+<text id="stage" x="1440.0" y="497.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#B0B1C7">Prospects</text>
+<rect id="bar-Prospects" x="1550.0" y="472.0" width="194.0" height="40.0" rx="8" fill="#7056D6"/>
+<text id="value-6" x="1627.7" y="497.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">1,486</text>
+<text id="of-visits" x="1827.7" y="493.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#CBCCE7">100%</text>
+<text id="of-label" x="1806.7" y="509.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9396AA">of prospects</text>
+<text id="stage-2" x="1440.0" y="561.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#B0B1C7">Leads</text>
+<rect id="bar-Leads" x="1628.3" y="536.0" width="37.3" height="40.0" rx="8" fill="#2F6FDB"/>
+<text id="value-7" x="1673.7" y="561.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#81A6E4">286</text>
+<text id="of-visits-2" x="1835.8" y="557.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#CBCCE7">19%</text>
+<text id="of-label-2" x="1806.7" y="573.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9396AA">of prospects</text>
+<text id="step-conversion" x="1677.7" y="535.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA">↓ 19%</text>
+<text id="stage-3" x="1440.0" y="625.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#B0B1C7">KYC completed</text>
+<rect id="bar-KYC-completed" x="1629.0" y="600.0" width="36.0" height="40.0" rx="8" fill="#15925A"/>
+<text id="value-8" x="1638.4" y="625.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">41</text>
+<text id="of-visits-3" x="1843.8" y="621.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#CBCCE7">3%</text>
+<text id="of-label-3" x="1806.7" y="637.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9396AA">of prospects</text>
+<text id="step-conversion-2" x="1677.0" y="599.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA">↓ 14%</text>
 </g>
-<rect id="Today-s-visits-bg" x="296.0" y="734.0" width="640.0" height="318.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
-<text id="title-3" x="320.0" y="772.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#CBCCE7">Today's visits</text>
-<text id="subtitle-3" x="320.0" y="794.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">3 of 4 planned visits made · 1 off plan · same list as her phone</text>
-<text id="card-action" x="870.6" y="772.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#A09FDD">Map →</text>
-<g id="visit-Kenneth-Lubega">
-<line x1="320.0" y1="804.0" x2="912.0" y2="804.0" stroke="#202129" stroke-width="1"/>
-<text id="09-05" x="320.0" y="833.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">09:05</text>
-<circle cx="382.0" cy="827.0" r="6.0" fill="#7056D6" stroke="#735AD7" stroke-width="2"/>
-<text id="Kenneth-Lubega" x="400.0" y="824.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Kenneth Lubega</text>
-<text id="Kiwatule-follow-ups-finish" x="400.0" y="842.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kiwatule follow-ups · finish KYC</text>
-<text id="KYC-captured" x="835.8" y="833.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#8F80CC">KYC captured</text>
+<rect id="Today-bg" x="1416.0" y="708.0" width="472.0" height="344.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
+<text id="title-3" x="1440.0" y="746.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#CBCCE7">Today</text>
+<text id="subtitle-3" x="1440.0" y="768.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">Kiwatule market route · 32 of 50 prospects · 2.6 h</text>
+<g id="activity-Lead-created">
+<circle cx="1454.0" cy="812.0" r="14.0" fill="#1C2636"/>
+<g id="icon-flag-2" transform="translate(1446.0 804.0) scale(0.6667)">
+<path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" fill="none" stroke="#6192E4" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4 22v-7" fill="none" stroke="#6192E4" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<g id="visit-Betty-Nakimuli">
-<line x1="320.0" y1="850.0" x2="912.0" y2="850.0" stroke="#202129" stroke-width="1"/>
-<text id="10-20" x="320.0" y="879.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">10:20</text>
-<circle cx="382.0" cy="873.0" r="6.0" fill="#0E8C99" stroke="#91E6EF" stroke-width="2"/>
-<text id="Betty-Nakimuli" x="400.0" y="870.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Betty Nakimuli</text>
-<text id="Kiwatule-follow-ups-take-K" x="400.0" y="888.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kiwatule follow-ups · take KYC</text>
-<text id="KYC-validated" x="834.4" y="879.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#9EE9F1">KYC validated</text>
+<text id="Lead-created" x="1478.0" y="808.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Lead created</text>
+<text id="14-25" x="1835.5" y="808.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">14:25</text>
+<text id="Aisha-Nalubega-UGX-2M-for" x="1478.0" y="826.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Aisha Nalubega · UGX 2M for stock</text>
 </g>
-<g id="visit-Joseph-Kiggundu">
-<line x1="320.0" y1="896.0" x2="912.0" y2="896.0" stroke="#202129" stroke-width="1"/>
-<text id="10-52" x="320.0" y="925.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">10:52</text>
-<circle cx="382.0" cy="919.0" r="6.0" fill="#D14343" stroke="#D96565" stroke-width="2"/>
-<text id="Joseph-Kiggundu" x="400.0" y="916.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Joseph Kiggundu</text>
-<g id="chip-Off-plan">
-<rect x="513.9" y="903.0" width="56.9" height="18.0" rx="9.0" fill="#362C19"/>
-<text id="Off-plan" x="523.9" y="915.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10" font-weight="600" fill="#ECC67A">Off plan</text>
+<g id="activity-Her-lead-became-a-client">
+<circle cx="1454.0" cy="862.0" r="14.0" fill="#273730"/>
+<g id="icon-idcard-2" transform="translate(1446.0 854.0) scale(0.6667)">
+<path d="M4 5h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z" fill="none" stroke="#91EFC5" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 9a2 2 0 1 0 0 4 2 2 0 1 0 0-4z" fill="none" stroke="#91EFC5" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5 16.5c.6-1.5 1.7-2.2 3-2.2s2.4.7 3 2.2" fill="none" stroke="#91EFC5" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 10h5" fill="none" stroke="#91EFC5" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 14h3" fill="none" stroke="#91EFC5" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="New-client-first-visit" x="400.0" y="934.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">New client · first visit</text>
-<text id="Not-interested" x="830.2" y="925.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#D78181">Not interested</text>
+<text id="Her-lead-became-a-client" x="1478.0" y="858.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Her lead became a client</text>
+<text id="11-24" x="1835.5" y="858.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">11:24</text>
+<text id="Florence-Nambi-KYC-by-Joel" x="1478.0" y="876.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Florence Nambi · KYC by Joel Byaruhanga</text>
 </g>
-<g id="visit-Florence-Nambi">
-<line x1="320.0" y1="942.0" x2="912.0" y2="942.0" stroke="#202129" stroke-width="1"/>
-<text id="11-14" x="320.0" y="971.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">11:14</text>
-<circle cx="382.0" cy="965.0" r="6.0" fill="#15925A" stroke="#91EFC5" stroke-width="2"/>
-<text id="Florence-Nambi" x="400.0" y="962.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Florence Nambi</text>
-<text id="Kiwatule-follow-ups-take-K-2" x="400.0" y="980.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kiwatule follow-ups · take KYC</text>
-<text id="Application-submitted" x="786.0" y="971.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#9EF1CC">Application submitted</text>
+<g id="activity-Prospect-added">
+<circle cx="1454.0" cy="912.0" r="14.0" fill="#211C32"/>
+<g id="icon-userplus-2" transform="translate(1446.0 904.0) scale(0.6667)">
+<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" fill="none" stroke="#735AD7" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 3a4 4 0 1 0 0 8 4 4 0 1 0 0-8z" fill="none" stroke="#735AD7" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19 8v6" fill="none" stroke="#735AD7" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 11h-6" fill="none" stroke="#735AD7" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<g id="visit-Ivan-Kasozi">
-<line x1="320.0" y1="988.0" x2="912.0" y2="988.0" stroke="#202129" stroke-width="1"/>
-<text id="12-30" x="320.0" y="1017.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">12:30</text>
-<circle cx="382.0" cy="1011.0" r="6.0" fill="#1D1E27" stroke="#898CA5" stroke-width="2"/>
-<text id="Ivan-Kasozi" x="400.0" y="1008.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Ivan Kasozi</text>
-<text id="Kiwatule-follow-ups-negoti" x="400.0" y="1026.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kiwatule follow-ups · negotiate</text>
-<text id="Due" x="889.1" y="1017.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#9396AA">Due</text>
+<text id="Prospect-added" x="1478.0" y="908.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Prospect added</text>
+<text id="10-52" x="1835.5" y="908.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">10:52</text>
+<text id="Joseph-Kiggundu-hardware-s" x="1478.0" y="926.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Joseph Kiggundu · hardware shop</text>
 </g>
-<rect id="Her-journey-plans-bg" x="956.0" y="734.0" width="440.0" height="318.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
-<text id="title-4" x="980.0" y="772.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#CBCCE7">Her journey plans</text>
-<text id="subtitle-4" x="980.0" y="794.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">2 active · 1 starting tomorrow</text>
-<text id="card-action-2" x="1341.7" y="772.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#A09FDD">All →</text>
-<g id="plan-Kiwatule-follow-ups">
-<line x1="980.0" y1="806.0" x2="1372.0" y2="806.0" stroke="#202129" stroke-width="1"/>
-<text id="Kiwatule-follow-ups" x="980.0" y="828.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Kiwatule follow-ups</text>
-<text id="28-Sep-2-Oct" x="980.0" y="846.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">28 Sep – 2 Oct</text>
-<g id="chip-Active">
-<rect x="1307.2" y="815.0" width="64.8" height="22.0" rx="11.0" fill="#25332C"/>
-<circle cx="1321.2" cy="826.0" r="4.0" fill="#15925A"/>
-<text id="Active" x="1331.2" y="830.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">Active</text>
-</g>
-<g id="progress-4">
-<rect x="1246.0" y="842.0" width="80.0" height="5.0" rx="2.5" fill="#202129"/>
-<rect x="1246.0" y="842.0" width="53.3" height="5.0" rx="2.5" fill="#15925A"/>
-</g>
-<text id="8-12" x="1348.9" y="848.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#B0B1C7">8/12</text>
-</g>
-<g id="plan-Ntinda-schools-payroll-teachers">
-<line x1="980.0" y1="864.0" x2="1372.0" y2="864.0" stroke="#202129" stroke-width="1"/>
-<text id="Ntinda-schools-payroll-teac" x="980.0" y="886.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Ntinda schools: payroll teachers</text>
-<text id="21-Sep-9-Oct" x="980.0" y="904.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">21 Sep – 9 Oct</text>
-<g id="chip-Active-2">
-<rect x="1307.2" y="873.0" width="64.8" height="22.0" rx="11.0" fill="#25332C"/>
-<circle cx="1321.2" cy="884.0" r="4.0" fill="#15925A"/>
-<text id="Active-2" x="1331.2" y="888.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">Active</text>
-</g>
-<g id="progress-5">
-<rect x="1246.0" y="900.0" width="80.0" height="5.0" rx="2.5" fill="#202129"/>
-<rect x="1246.0" y="900.0" width="32.0" height="5.0" rx="2.5" fill="#15925A"/>
-</g>
-<text id="6-15" x="1348.8" y="906.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#B0B1C7">6/15</text>
-</g>
-<g id="plan-Kyanja-market-prospecting">
-<line x1="980.0" y1="922.0" x2="1372.0" y2="922.0" stroke="#202129" stroke-width="1"/>
-<text id="Kyanja-market-prospecting" x="980.0" y="944.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Kyanja market prospecting</text>
-<text id="1-31-Oct-her-own-plan" x="980.0" y="962.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">1 – 31 Oct · her own plan</text>
-<g id="chip-Scheduled">
-<rect x="1286.2" y="931.0" width="85.8" height="22.0" rx="11.0" fill="#1A2433"/>
-<circle cx="1300.2" cy="942.0" r="4.0" fill="#2F6FDB"/>
-<text id="Scheduled" x="1310.2" y="946.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#769FE2">Scheduled</text>
-</g>
-<g id="progress-6">
-<rect x="1246.0" y="958.0" width="80.0" height="5.0" rx="2.5" fill="#202129"/>
-</g>
-<text id="0-8" x="1353.7" y="964.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#B0B1C7">0/8</text>
-</g>
-<rect id="Latest-activity-bg" x="1416.0" y="734.0" width="472.0" height="318.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
-<text id="title-5" x="1440.0" y="772.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#CBCCE7">Latest activity</text>
-<text id="subtitle-5" x="1440.0" y="794.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">From the field app, synced</text>
-<g id="activity-Application-submitted">
-<circle cx="1454.0" cy="838.0" r="14.0" fill="#273730"/>
-<g id="icon-check-2" transform="translate(1446.0 830.0) scale(0.6667)">
-<path d="M20 6L9 17l-5-5" fill="none" stroke="#91EFC5" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<text id="Application-submitted-2" x="1478.0" y="834.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Application submitted</text>
-<text id="11-42" x="1835.5" y="834.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">11:42</text>
-<text id="Florence-Nambi-LU-APP-2609" x="1478.0" y="852.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Florence Nambi · LU-APP-2609-04817</text>
-</g>
-<g id="activity-Not-interested">
-<circle cx="1454.0" cy="882.0" r="14.0" fill="#331D1D"/>
-<g id="icon-x" transform="translate(1446.0 874.0) scale(0.6667)">
-<path d="M18 6L6 18" fill="none" stroke="#D96565" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M6 6l12 12" fill="none" stroke="#D96565" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<text id="Not-interested-2" x="1478.0" y="878.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Not interested</text>
-<text id="10-58" x="1835.5" y="878.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">10:58</text>
-<text id="Joseph-Kiggundu-already-ha" x="1478.0" y="896.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Joseph Kiggundu · already has a SACCO loan</text>
-</g>
-<g id="activity-KYC-validated">
-<circle cx="1454.0" cy="926.0" r="14.0" fill="#263638"/>
-<g id="icon-idcard" transform="translate(1446.0 918.0) scale(0.6667)">
-<path d="M4 5h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z" fill="none" stroke="#91E6EF" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M8 9a2 2 0 1 0 0 4 2 2 0 1 0 0-4z" fill="none" stroke="#91E6EF" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M5 16.5c.6-1.5 1.7-2.2 3-2.2s2.4.7 3 2.2" fill="none" stroke="#91E6EF" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 10h5" fill="none" stroke="#91E6EF" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 14h3" fill="none" stroke="#91E6EF" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<text id="KYC-validated-2" x="1478.0" y="922.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">KYC validated</text>
-<text id="10-20-2" x="1835.5" y="922.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">10:20</text>
-<text id="Betty-Nakimuli-NIRA-ID-mat" x="1478.0" y="940.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Betty Nakimuli · NIRA ID matched</text>
-</g>
-<g id="activity-KYC-captured">
-<circle cx="1454.0" cy="970.0" r="14.0" fill="#211C32"/>
-<g id="icon-idcard-2" transform="translate(1446.0 962.0) scale(0.6667)">
-<path d="M4 5h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z" fill="none" stroke="#735AD7" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M8 9a2 2 0 1 0 0 4 2 2 0 1 0 0-4z" fill="none" stroke="#735AD7" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M5 16.5c.6-1.5 1.7-2.2 3-2.2s2.4.7 3 2.2" fill="none" stroke="#735AD7" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 10h5" fill="none" stroke="#735AD7" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 14h3" fill="none" stroke="#735AD7" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<text id="KYC-captured-2" x="1478.0" y="966.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">KYC captured</text>
-<text id="09-05-2" x="1835.5" y="966.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">09:05</text>
-<text id="Kenneth-Lubega-employer-le" x="1478.0" y="984.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kenneth Lubega · employer letter pending</text>
-</g>
-<g id="activity-Day-started">
-<circle cx="1454.0" cy="1014.0" r="14.0" fill="#26262A"/>
-<g id="icon-navigation" transform="translate(1446.0 1006.0) scale(0.6667)">
+<g id="activity-Started-her-route">
+<circle cx="1454.0" cy="962.0" r="14.0" fill="#26262A"/>
+<g id="icon-navigation" transform="translate(1446.0 954.0) scale(0.6667)">
 <path d="M3 11l19-9-9 19-2-8z" fill="none" stroke="#9396AA" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Day-started" x="1478.0" y="1010.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Day started</text>
-<text id="08-12" x="1835.5" y="1010.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">08:12</text>
-<text id="Check-in-at-Ntinda-stage" x="1478.0" y="1028.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Check-in at Ntinda stage</text>
+<text id="Started-her-route" x="1478.0" y="958.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Started her route</text>
+<text id="09-02" x="1835.5" y="958.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">09:02</text>
+<text id="Kiwatule-market-inside-ter" x="1478.0" y="976.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kiwatule market · inside territory</text>
 </g>
 </svg>

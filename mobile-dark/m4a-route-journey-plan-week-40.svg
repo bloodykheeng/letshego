@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
+<title>M4a Route journey plan: week 40</title>
+<defs><filter id="soft" x="-20%" y="-20%" width="140%" height="170%"><feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#1B1C3A" flood-opacity="0.07"/></filter></defs>
+<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#121319"/>
+<g id="status-bar">
+<text id="11-06" x="16.0" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#CBCCE7">11:06</text>
+<rect id="battery" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#CBCCE7" stroke-width="1.2"/>
+<rect x="324.0" y="10.0" width="13.0" height="6.0" rx="1" fill="#1B1C3A"/>
+<rect x="342.5" y="11.0" width="2.0" height="4.0" rx="1" fill="#1B1C3A"/>
+<rect id="signal-bar" x="292.0" y="14.0" width="3.0" height="3.0" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-2" x="297.0" y="11.8" width="3.0" height="5.2" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-3" x="302.0" y="9.6" width="3.0" height="7.4" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-4" x="307.0" y="7.4" width="3.0" height="9.6" rx="0.8" fill="#1B1C3A" fill-opacity="0.3"/>
+<text id="network" x="270.5" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#CBCCE7">4G</text>
+</g>
+<g id="app-bar">
+<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#1D1E27"/>
+<line x1="0.0" y1="80.0" x2="360.0" y2="80.0" stroke="#282932" stroke-width="1"/>
+<g id="icon-arrowleft" transform="translate(16.0 40.0) scale(1.0000)">
+<path d="M19 12H5" fill="none" stroke="#CBCCE7" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 19l-7-7 7-7" fill="none" stroke="#CBCCE7" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Week-40" x="56.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#CBCCE7">Week 40</text>
+<text id="28-Sep-2-Oct-set-by-Mose" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">28 Sep – 2 Oct · set by Moses Okello</text>
+</g>
+<g id="week-target">
+<rect x="16.0" y="94.0" width="328.0" height="96.0" rx="16" fill="#1D1E27" filter="url(#soft)"/>
+<text id="WEEK-TARGET" x="32.0" y="120.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#9396AA" letter-spacing="0.8">WEEK TARGET</text>
+<text id="131" x="32.0" y="154.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="700" fill="#CBCCE7">131</text>
+<text id="of-230-prospects" x="82.3" y="154.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#B0B1C7"> of 230 prospects</text>
+<text id="57" x="301.8" y="120.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#F0D198">57%</text>
+<g id="progress">
+<rect x="32.0" y="168.0" width="296.0" height="7.0" rx="3.5" fill="#202129"/>
+<rect x="32.0" y="168.0" width="168.6" height="7.0" rx="3.5" fill="#7056D6"/>
+</g>
+</g>
+<text id="Routes-by-day" x="16.0" y="222.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#CBCCE7">Routes by day</text>
+<text id="target-per-route" x="259.8" y="222.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">target per route</text>
+<g id="day-Mon-28">
+<rect x="16.0" y="234.0" width="328.0" height="70.0" rx="14" fill="#1D1E27" filter="url(#soft)"/>
+<rect x="28.0" y="246.0" width="46.0" height="46.0" rx="12" fill="#25332C"/>
+<text id="Mon" x="39.4" y="265.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#A9F3D2">Mon</text>
+<text id="28" x="41.8" y="284.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#A9F3D2">28</text>
+<text id="Ntinda-stage-route" x="86.0" y="262.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#CBCCE7">Ntinda stage route</text>
+<g id="progress-2">
+<rect x="86.0" y="276.0" width="150.0" height="6.0" rx="3.0" fill="#202129"/>
+<rect x="86.0" y="276.0" width="150.0" height="6.0" rx="3.0" fill="#15925A"/>
+</g>
+<text id="52-of-50" x="86.0" y="296.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#A9F3D2">52 of 50</text>
+<g id="icon-check" transform="translate(310.0 259.0) scale(0.8333)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#91EFC5" stroke-width="3.12" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="day-Tue-29">
+<rect x="16.0" y="312.0" width="328.0" height="70.0" rx="14" fill="#1D1E27" filter="url(#soft)"/>
+<rect x="28.0" y="324.0" width="46.0" height="46.0" rx="12" fill="#25332C"/>
+<text id="Tue" x="42.3" y="343.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#A9F3D2">Tue</text>
+<text id="29" x="41.8" y="362.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#A9F3D2">29</text>
+<text id="Kiwatule-market-route" x="86.0" y="340.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#CBCCE7">Kiwatule market route</text>
+<g id="progress-3">
+<rect x="86.0" y="354.0" width="150.0" height="6.0" rx="3.0" fill="#202129"/>
+<rect x="86.0" y="354.0" width="141.0" height="6.0" rx="3.0" fill="#7056D6"/>
+</g>
+<text id="47-of-50" x="86.0" y="374.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#F0D198">47 of 50</text>
+<g id="icon-clock" transform="translate(310.0 337.0) scale(0.8333)">
+<path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z" fill="none" stroke="#F0D198" stroke-width="3.12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 6v6l4 2" fill="none" stroke="#F0D198" stroke-width="3.12" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="day-Wed-30">
+<rect x="16.0" y="390.0" width="328.0" height="70.0" rx="14" fill="#1D1E27" stroke="#A09FDD" stroke-width="2"/>
+<rect x="28.0" y="402.0" width="46.0" height="46.0" rx="12" fill="#4F4CC9"/>
+<text id="Wed" x="39.6" y="421.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">Wed</text>
+<text id="30" x="41.8" y="440.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">30</text>
+<text id="Kiwatule-market-route-2" x="86.0" y="418.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#CBCCE7">Kiwatule market route</text>
+<g id="progress-4">
+<rect x="86.0" y="432.0" width="150.0" height="6.0" rx="3.0" fill="#202129"/>
+<rect x="86.0" y="432.0" width="96.0" height="6.0" rx="3.0" fill="#7056D6"/>
+</g>
+<text id="In-progress-32-of-50" x="86.0" y="452.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#A09FDD">In progress · 32 of 50</text>
+<g id="button-Map">
+<rect x="249.4" y="409.0" width="82.6" height="32.0" rx="12" fill="#24242D"/>
+<g id="icon-map" transform="translate(265.4 416.0) scale(0.7500)">
+<path d="M14.1 5.55a2 2 0 0 0 1.8 0l3.65-1.83A1 1 0 0 1 21 4.62v12.76a1 1 0 0 1-.55.9l-4.55 2.27a2 2 0 0 1-1.8 0l-4.2-2.1a2 2 0 0 0-1.8 0l-3.65 1.83A1 1 0 0 1 3 19.38V6.62a1 1 0 0 1 .55-.9l4.55-2.27a2 2 0 0 1 1.8 0z" fill="none" stroke="#A4A3DE" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 5.76v15" fill="none" stroke="#A4A3DE" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 3.24v15" fill="none" stroke="#A4A3DE" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Map" x="291.4" y="429.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#A4A3DE">Map</text>
+</g>
+</g>
+<g id="day-Thu-1">
+<rect x="16.0" y="468.0" width="328.0" height="70.0" rx="14" fill="#1D1E27" filter="url(#soft)"/>
+<rect x="28.0" y="480.0" width="46.0" height="46.0" rx="12" fill="#1E1F28"/>
+<text id="Thu" x="41.6" y="499.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#B0B1C7">Thu</text>
+<text id="1" x="46.4" y="518.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#B0B1C7">1</text>
+<text id="Kigoowa-estates-route" x="86.0" y="496.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#CBCCE7">Kigoowa estates route</text>
+<text id="Target-40-prospects" x="86.0" y="516.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Target 40 prospects</text>
+</g>
+<g id="day-Fri-2">
+<rect x="16.0" y="546.0" width="328.0" height="70.0" rx="14" fill="#1D1E27" filter="url(#soft)"/>
+<rect x="28.0" y="558.0" width="46.0" height="46.0" rx="12" fill="#1E1F28"/>
+<text id="Fri" x="44.8" y="577.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#B0B1C7">Fri</text>
+<text id="2" x="46.4" y="596.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#B0B1C7">2</text>
+<text id="Ntinda-schools-route" x="86.0" y="574.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#CBCCE7">Ntinda schools route</text>
+<text id="Target-40-prospects-2" x="86.0" y="594.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Target 40 prospects</text>
+</g>
+<g id="territory-note">
+<g id="icon-shield" transform="translate(16.0 630.0) scale(0.6667)">
+<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" fill="none" stroke="#A9F3D2" stroke-width="3.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 12l2 2 4-4" fill="none" stroke="#A9F3D2" stroke-width="3.00" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="para-All-routes-are-insid">
+<text id="line" x="40.0" y="642.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">All routes are inside your territory, Ntinda · Kiwatule.</text>
+<text id="line-2" x="40.0" y="659.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">The app tells you if you leave it.</text>
+</g>
+</g>
+<g id="bottom-navigation">
+<rect id="nav-bg" x="12.0" y="716.0" width="336.0" height="64.0" rx="24" fill="#1D1E27" filter="url(#soft)"/>
+<g id="tab-Home">
+<rect id="indicator" x="30.0" y="725.0" width="48.0" height="30.0" rx="15" fill="#24242D"/>
+<g id="icon-home" transform="translate(43.0 729.0) scale(0.9167)">
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" fill="none" stroke="#A09FDD" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 22V12h6v10" fill="none" stroke="#A09FDD" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Home" x="38.4" y="769.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="700" fill="#A09FDD">Home</text>
+</g>
+<g id="tab-Prospects">
+<g id="icon-users" transform="translate(127.0 729.0) scale(0.9167)">
+<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 3a4 4 0 1 0 0 8 4 4 0 1 0 0-8z" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 21v-2a4 4 0 0 0-3-3.87" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 3.13a4 4 0 0 1 0 7.75" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Prospects" x="114.6" y="769.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#898CA5">Prospects</text>
+</g>
+<g id="tab-Leads">
+<g id="icon-flag" transform="translate(211.0 729.0) scale(0.9167)">
+<path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4 22v-7" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Leads" x="208.2" y="769.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#898CA5">Leads</text>
+</g>
+<g id="tab-Me">
+<g id="icon-user" transform="translate(295.0 729.0) scale(0.9167)">
+<path d="M12 3a5 5 0 1 0 0 10 5 5 0 1 0 0-10z" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 21a8 8 0 0 0-16 0" fill="none" stroke="#9A9CB0" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Me" x="298.2" y="769.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#898CA5">Me</text>
+</g>
+</g>
+<rect id="gesture-bar" x="126.0" y="792.0" width="108.0" height="4.0" rx="2" fill="#1B1C3A" fill-opacity="0.3"/>
+</svg>

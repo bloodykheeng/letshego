@@ -29,7 +29,7 @@
 </g>
 <g id="preview-conversions" transform="rotate(-3 470 360)">
 <rect x="320.0" y="290.0" width="300.0" height="136.0" rx="20" fill="#FFFFFE" filter="url(#soft)"/>
-<text id="Q3-conversions" x="342.0" y="322.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#7D8099">Q3 conversions</text>
+<text id="Q3-new-clients-KYC-complete" x="342.0" y="322.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#7D8099">Q3 new clients (KYC completed)</text>
 <text id="1-051" x="342.0" y="366.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="34" font-weight="700" fill="#1B1C3A">1,051</text>
 <g id="icon-trendup" transform="translate(450.0 346.0) scale(0.7500)">
 <path d="M22 7l-8.5 8.5-5-5L2 17" fill="none" stroke="#15925A" stroke-width="3.20" stroke-linecap="round" stroke-linejoin="round"/>
@@ -48,18 +48,18 @@
 <g id="icon-check" transform="translate(280.0 572.0) scale(0.8333)">
 <path d="M20 6L9 17l-5-5" fill="none" stroke="#15925A" stroke-width="3.36" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Application-submitted" x="322.0" y="576.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1B1C3A">Application submitted</text>
-<text id="Florence-Nambi-MSE-loan" x="322.0" y="598.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#7D8099">Florence Nambi · MSE loan · 11:42</text>
+<text id="Lead-created" x="322.0" y="576.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1B1C3A">Lead created</text>
+<text id="Aisha-Nalubega-UGX-2M-by" x="322.0" y="598.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#7D8099">Aisha Nalubega · UGX 2M · by Sarah · 14:25</text>
 </g>
 <g id="preview-plan-kept" transform="rotate(3 1450 330)">
 <rect x="1310.0" y="250.0" width="290.0" height="150.0" rx="20" fill="#FFFFFE" filter="url(#soft)"/>
 <g id="progress-ring">
 <circle cx="1380.0" cy="325.0" r="39.0" fill="none" stroke="#EFF0F6" stroke-width="10"/>
-<path d="M1380.00 286.00 A39.0 39.0 0 1 1 1342.91 337.05" fill="none" stroke="#2F2E80" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1380.00 286.00 A39.0 39.0 0 1 1 1342.23 315.30" fill="none" stroke="#2F2E80" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
 </g>
-<text id="70" x="1361.8" y="332.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="700" fill="#1B1C3A">70%</text>
-<text id="Journey-plans" x="1446.0" y="314.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#7D8099">Journey plans</text>
-<text id="kept-this" x="1446.0" y="338.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#1B1C3A">kept this</text>
+<text id="79" x="1361.8" y="332.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="700" fill="#1B1C3A">79%</text>
+<text id="Route-targets" x="1446.0" y="314.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#7D8099">Route targets</text>
+<text id="met-this" x="1446.0" y="338.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#1B1C3A">met this</text>
 <text id="quarter" x="1446.0" y="358.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#1B1C3A">quarter</text>
 </g>
 <g id="preview-live-map" transform="rotate(-2 1500 640)">
@@ -103,7 +103,7 @@
 <text id="SN" x="1522.5" y="591.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF">SN</text>
 </g>
 <text id="Sarah-Namuli" x="1358.0" y="698.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Sarah Namuli</text>
-<text id="At-a-client-Kiwatule-11" x="1358.0" y="717.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">At a client · Kiwatule · 11:14</text>
+<text id="Prospecting-Kiwatule-marke" x="1358.0" y="717.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Prospecting · Kiwatule market · 32/50</text>
 </g>
 <rect id="sign-in-card" x="720.0" y="200.0" width="480.0" height="640.0" rx="28" fill="#FFFFFE" filter="url(#soft)"/>
 <g id="sign-in-form">
@@ -179,7 +179,7 @@
 <path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#1F1E57" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 18h.01" fill="none" stroke="#1F1E57" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Field-agent-Use-the-Android" x="782.0" y="894.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Field agent? Use the Android app</text>
+<text id="In-the-field-Use-the-Androi" x="782.0" y="894.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">In the field? Use the Android app</text>
 <text id="Open" x="1132.4" y="894.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#2F2E80">Open →</text>
 </g>
 <text id="Letshego-Uganda-Improving" x="680.8" y="1052.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Letshego Uganda · Improving lives · client data protected under the Data Protection and Privacy Act, 2019</text>

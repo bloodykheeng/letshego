@@ -35,7 +35,7 @@ def slug(title: str) -> str:
 PROTO = r"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Letshego Field Sales Prototype</title>
-<meta name="description" content="Clickable prototype of the Letshego Uganda Field Sales app: the agent's Android app (visits, KYC with NIRA ID, loan applications) and the web console for supervisors and management.">
+<meta name="description" content="Clickable prototype of the Letshego Uganda Field Sales app: the Android field app (prospects, leads, KYC with NIRA ID) and the web console for branch managers and head office.">
 <meta name="theme-color" content="#2F2E80">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
@@ -43,7 +43,7 @@ PROTO = r"""<!doctype html>
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Letshego Field Sales prototype">
 <meta property="og:title" content="Letshego Field Sales: clickable prototype">
-<meta property="og:description" content="Track every client from first visit to loan application: agent app with KYC and GPS, approvals, and dashboards showing who is and isn't bringing in clients. Illustrative data.">
+<meta property="og:description" content="Prospects, leads generated, KYC completed: route plans with targets, a field app with GPS, and dashboards showing which prospects became clients. Illustrative data.">
 <meta property="og:url" content="https://letshego-prototype.vercel.app/prototype.html">
 <meta property="og:image" content="https://letshego-prototype.vercel.app/og-image.jpg">
 <meta property="og:image:width" content="1200">

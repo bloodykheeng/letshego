@@ -51,7 +51,7 @@
 </g>
 <text id="label-4" x="62.0" y="275.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#B0B1C7">Client pipeline</text>
 </g>
-<text id="nav-group-APPLICATIONS" x="28.0" y="304.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#AAACC0" letter-spacing="1.2">APPLICATIONS</text>
+<text id="nav-group-LOANS" x="28.0" y="304.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#AAACC0" letter-spacing="1.2">LOANS</text>
 <g id="nav-Approvals">
 <g id="icon-listcheck" transform="translate(30.0 328.0) scale(0.8333)">
 <path d="M3 17l2 2 4-4" fill="none" stroke="#898CA5" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/>
@@ -118,16 +118,16 @@
 <path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#1F1E57" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 18h.01" fill="none" stroke="#1F1E57" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Agent-field-app" x="70.0" y="934.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#CBCCE7">Agent field app</text>
-<text id="Android-works-offline-GP" x="30.0" y="960.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#B0B1C7">Android · works offline · GPS</text>
-<text id="NIRA-ID-capture-open-it" x="30.0" y="978.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#F1DD9F">NIRA ID capture · open it →</text>
+<text id="Field-app" x="70.0" y="934.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#CBCCE7">Field app</text>
+<text id="Sales-agents-relationship" x="30.0" y="960.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#B0B1C7">Sales agents · relationship officers</text>
+<text id="Android-offline-GPS-op" x="30.0" y="978.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#F1DD9F">Android · offline · GPS · open it →</text>
 </g>
 <g id="sidebar-user">
 <line x1="16.0" y1="1004.0" x2="248.0" y2="1004.0" stroke="#282932" stroke-width="1"/>
 <circle cx="44.0" cy="1042.0" r="18.0" fill="#FBD405"/>
 <text id="MO" x="32.0" y="1048.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1F1E57">MO</text>
 <text id="Moses-Okello" x="72.0" y="1038.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">Moses Okello</text>
-<text id="Branch-Supervisor-Kam" x="72.0" y="1057.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">Branch Supervisor · Kam…</text>
+<text id="Branch-Manager-Kampa" x="72.0" y="1057.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">Branch Manager · Kampa…</text>
 <rect id="sign-out-button" x="214.0" y="1022.0" width="38.0" height="38.0" rx="10" fill="#301616"/>
 <g id="icon-logout" transform="translate(223.0 1031.0) scale(0.8333)">
 <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" fill="none" stroke="#D96565" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
@@ -169,7 +169,7 @@
 <path d="M11 3a8 8 0 1 0 0 16 8 8 0 1 0 0-16z" fill="none" stroke="#9396AA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M21 21l-4.3-4.3" fill="none" stroke="#9396AA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Search-clients-agents-app" x="1494.0" y="39.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#AAACC0">Search clients, agents, app IDs…</text>
+<text id="Search-prospects-leads-age" x="1494.0" y="39.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#AAACC0">Search prospects, leads, agents…</text>
 </g>
 <g id="segmented-control">
 <rect x="1187.8" y="16.0" width="246.2" height="36.0" rx="8" fill="#1E1F28" stroke="#282932" stroke-width="1"/>
@@ -180,37 +180,45 @@
 <text id="Year" x="1391.1" y="38.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Year</text>
 </g>
 <g id="date-range">
-<rect x="1029.8" y="16.0" width="146.1" height="36.0" rx="8" fill="#1D1E27" stroke="#282932" stroke-width="1"/>
-<g id="icon-calendar" transform="translate(1041.8 25.0) scale(0.7500)">
+<rect x="1003.4" y="16.0" width="172.5" height="36.0" rx="8" fill="#1D1E27" stroke="#282932" stroke-width="1"/>
+<g id="icon-calendar" transform="translate(1015.4 25.0) scale(0.7500)">
 <path d="M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" fill="none" stroke="#A09FDD" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M16 2v4" fill="none" stroke="#A09FDD" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M8 2v4" fill="none" stroke="#A09FDD" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M3 10h18" fill="none" stroke="#A09FDD" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="W13-23-30-Sep" x="1067.8" y="39.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#CBCCE7">W13 · 23–30 Sep</text>
+<text id="W40-28-Sep-2-Oct" x="1041.4" y="39.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#CBCCE7">W40 · 28 Sep – 2 Oct</text>
 </g>
 </g>
 <text id="page-title" x="296.0" y="126.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="700" fill="#CBCCE7">Journey plans</text>
-<text id="page-subtitle" x="296.0" y="152.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#9396AA">Named lists of clients to visit, each with an agent, start and end dates and a goal · Kampala East</text>
+<text id="page-subtitle" x="296.0" y="152.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#9396AA">Route journey plans tell sales agents where to prospect and how many; lead journey plans tell relationship officers which leads to visit · Kampala East</text>
 <g id="header-actions">
-<g id="button-New-journey-plan">
-<rect x="1717.9" y="108.0" width="170.1" height="40.0" rx="12" fill="#4F4CC9"/>
-<g id="icon-plus" transform="translate(1733.9 119.0) scale(0.7500)">
+<g id="button-New-route-journey-plan">
+<rect x="1680.0" y="108.0" width="208.0" height="40.0" rx="12" fill="#4F4CC9"/>
+<g id="icon-plus" transform="translate(1696.0 119.0) scale(0.7500)">
 <path d="M12 5v14" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M5 12h14" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="New-journey-plan" x="1759.9" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">New journey plan</text>
+<text id="New-route-journey-plan" x="1722.0" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">New route journey plan</text>
 </g>
-<g id="filter-Agent">
-<rect x="1545.9" y="109.0" width="160.0" height="38.0" rx="8" fill="#1D1E27" stroke="#282932" stroke-width="1"/>
-<text id="Agent" x="1559.9" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">Agent:</text>
-<text id="All-7" x="1601.3" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#CBCCE7">All 7</text>
-<g id="icon-chevdown" transform="translate(1677.9 120.0) scale(0.6667)">
+<g id="button-New-lead-journey-plan">
+<rect x="1467.2" y="108.0" width="200.8" height="40.0" rx="12" fill="#1D1E27" stroke="#282932" stroke-width="1"/>
+<g id="icon-plus-2" transform="translate(1483.2 119.0) scale(0.7500)">
+<path d="M12 5v14" fill="none" stroke="#CBCCE7" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5 12h14" fill="none" stroke="#CBCCE7" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="New-lead-journey-plan" x="1509.2" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">New lead journey plan</text>
+</g>
+<g id="filter-Week">
+<rect x="1265.2" y="109.0" width="190.0" height="38.0" rx="8" fill="#1D1E27" stroke="#282932" stroke-width="1"/>
+<text id="Week-2" x="1279.2" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">Week:</text>
+<text id="W40-28-Sep" x="1317.7" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#CBCCE7">W40 · 28 Sep</text>
+<g id="icon-chevdown" transform="translate(1427.2 120.0) scale(0.6667)">
 <path d="M6 9l6 6 6-6" fill="none" stroke="#9396AA" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
 </g>
-<g id="kpi-Active-plans">
+<g id="kpi-Route-journey-plans-this-week">
 <rect id="bg" x="296.0" y="180.0" width="386.0" height="140.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
 <rect id="icon-bg" x="316.0" y="200.0" width="38.0" height="38.0" rx="9" fill="#292932"/>
 <g id="icon-route-2" transform="translate(325.0 209.0) scale(0.8333)">
@@ -218,318 +226,371 @@
 <path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15" fill="none" stroke="#A8A7E0" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M18 2a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#A8A7E0" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Active-plans" x="366.0" y="216.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Active plans</text>
-<text id="value" x="316.0" y="278.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#CBCCE7">6</text>
-<text id="sub" x="316.0" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">2 scheduled to start · 1 completed this quarter</text>
+<text id="Route-journey-plans-this-wee" x="366.0" y="216.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Route journey plans this week</text>
+<text id="value" x="316.0" y="278.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#CBCCE7">8</text>
+<text id="sub" x="316.0" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">7 sales agents and 1 officer · 20 routes</text>
 </g>
-<g id="kpi-Clients-in-active-plans">
+<g id="kpi-Prospects-vs-targets">
 <rect id="bg-2" x="698.0" y="180.0" width="386.0" height="140.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
-<rect id="icon-bg-2" x="718.0" y="200.0" width="38.0" height="38.0" rx="9" fill="#253436"/>
-<g id="icon-users-2" transform="translate(727.0 209.0) scale(0.8333)">
-<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" fill="none" stroke="#99E8F0" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M9 3a4 4 0 1 0 0 8 4 4 0 1 0 0-8z" fill="none" stroke="#99E8F0" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M22 21v-2a4 4 0 0 0-3-3.87" fill="none" stroke="#99E8F0" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M16 3.13a4 4 0 0 1 0 7.75" fill="none" stroke="#99E8F0" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="icon-bg-2" x="718.0" y="200.0" width="38.0" height="38.0" rx="9" fill="#1F1B30"/>
+<g id="icon-userplus" transform="translate(727.0 209.0) scale(0.8333)">
+<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" fill="none" stroke="#8774CF" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 3a4 4 0 1 0 0 8 4 4 0 1 0 0-8z" fill="none" stroke="#8774CF" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19 8v6" fill="none" stroke="#8774CF" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 11h-6" fill="none" stroke="#8774CF" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Clients-in-active-plans" x="768.0" y="216.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Clients in active plans</text>
-<text id="value-2" x="718.0" y="278.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#CBCCE7">66</text>
-<text id="sub-2" x="718.0" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">across 5 agents</text>
-</g>
-<g id="kpi-Visited-so-far">
-<rect id="bg-3" x="1100.0" y="180.0" width="386.0" height="140.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
-<rect id="icon-bg-3" x="1120.0" y="200.0" width="38.0" height="38.0" rx="9" fill="#26352E"/>
-<g id="icon-check" transform="translate(1129.0 209.0) scale(0.8333)">
-<path d="M20 6L9 17l-5-5" fill="none" stroke="#9AF0CA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<text id="Visited-so-far" x="1170.0" y="216.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Visited so far</text>
-<text id="value-3" x="1120.0" y="278.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#CBCCE7">29 of 66</text>
-<text id="sub-3" x="1120.0" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">44% · active plans end 2–9 Oct</text>
+<text id="Prospects-vs-targets" x="768.0" y="216.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Prospects vs targets</text>
+<text id="value-2" x="718.0" y="278.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#CBCCE7">537 / 1,550</text>
+<text id="sub-2" x="718.0" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">35% · 3 days of 5 gone</text>
 <g id="progress">
-<rect x="1120.0" y="306.0" width="346.0" height="6.0" rx="3.0" fill="#202129"/>
-<rect x="1120.0" y="306.0" width="152.0" height="6.0" rx="3.0" fill="#15925A"/>
+<rect x="718.0" y="306.0" width="346.0" height="6.0" rx="3.0" fill="#202129"/>
+<rect x="718.0" y="306.0" width="119.9" height="6.0" rx="3.0" fill="#7056D6"/>
 </g>
 </g>
-<g id="kpi-Due-today-not-visited-yet">
+<g id="kpi-Lead-journey-plans">
+<rect id="bg-3" x="1100.0" y="180.0" width="386.0" height="140.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
+<rect id="icon-bg-3" x="1120.0" y="200.0" width="38.0" height="38.0" rx="9" fill="#1C2534"/>
+<g id="icon-flag" transform="translate(1129.0 209.0) scale(0.8333)">
+<path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" fill="none" stroke="#749DE1" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4 22v-7" fill="none" stroke="#749DE1" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Lead-journey-plans" x="1170.0" y="216.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Lead journey plans</text>
+<text id="value-3" x="1120.0" y="278.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#CBCCE7">3</text>
+<text id="sub-3" x="1120.0" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">2 active · 1 starts Mon 5 Oct</text>
+</g>
+<g id="kpi-Leads-waiting-for-a-plan">
 <rect id="bg-4" x="1502.0" y="180.0" width="386.0" height="140.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
 <rect id="icon-bg-4" x="1522.0" y="200.0" width="38.0" height="38.0" rx="9" fill="#382F1B"/>
 <g id="icon-clock" transform="translate(1531.0 209.0) scale(0.8333)">
 <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z" fill="none" stroke="#ECC578" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 6v6l4 2" fill="none" stroke="#ECC578" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Due-today-not-visited-yet" x="1572.0" y="216.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Due today, not visited yet</text>
-<text id="value-4" x="1522.0" y="278.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#CBCCE7">11</text>
-<text id="sub-4" x="1522.0" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">Ivan Kasozi and 10 more</text>
+<text id="Leads-waiting-for-a-plan" x="1572.0" y="216.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Leads waiting for a plan</text>
+<text id="value-4" x="1522.0" y="278.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#CBCCE7">14</text>
+<text id="sub-4" x="1522.0" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">oldest from Mon 28 Sep</text>
 </g>
-<g id="segmented-control-2">
-<rect x="296.0" y="340.0" width="339.2" height="38.0" rx="8" fill="#1E1F28" stroke="#282932" stroke-width="1"/>
-<rect x="300.0" y="344.0" width="54.3" height="30.0" rx="6" fill="#4F4CC9"/>
-<text id="All-9" x="314.0" y="363.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">All 9</text>
-<text id="Active-6" x="368.3" y="363.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Active 6</text>
-<text id="Scheduled-2" x="443.5" y="363.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Scheduled 2</text>
-<text id="Completed-1" x="543.5" y="363.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Completed 1</text>
-</g>
-<text id="A-client-can-sit-on-more-tha" x="1551.0" y="364.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">A client can sit on more than one plan; each visit counts once</text>
+<text id="Route-journey-plans-prospe" x="296.0" y="360.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="700" fill="#CBCCE7">Route journey plans · prospecting</text>
+<text id="Click-a-plan-to-see-its-days" x="1621.8" y="360.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">Click a plan to see its days, routes and prospects</text>
 <g id="table">
-<rect id="header-bg" x="296.0" y="394.0" width="1592.0" height="40.0" fill="#1A1D24"/>
-<text id="PLAN" x="312.0" y="418.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">PLAN</text>
-<text id="AGENT" x="732.0" y="418.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">AGENT</text>
-<text id="DATES" x="942.0" y="418.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">DATES</text>
-<text id="CLIENTS" x="1124.8" y="418.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">CLIENTS</text>
-<text id="VISITED" x="1202.0" y="418.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">VISITED</text>
-<text id="STATUS" x="1442.0" y="418.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">STATUS</text>
-<text id="CREATED-BY" x="1592.0" y="418.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">CREATED BY</text>
-<text x="1872.0" y="418.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6"></text>
+<rect id="header-bg" x="296.0" y="376.0" width="1592.0" height="36.0" fill="#1A1D24"/>
+<text id="ASSIGNED-TO" x="312.0" y="398.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">ASSIGNED TO</text>
+<text id="TERRITORY" x="602.0" y="398.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">TERRITORY</text>
+<text id="WEEK" x="832.0" y="398.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">WEEK</text>
+<text id="ROUTES" x="1036.5" y="398.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">ROUTES</text>
+<text id="TARGET-DAY" x="1133.3" y="398.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">TARGET / DAY</text>
+<text id="PROSPECTS-VS-TARGET" x="1242.0" y="398.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">PROSPECTS VS TARGET</text>
+<text id="STATUS" x="1542.0" y="398.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">STATUS</text>
+<text x="1872.0" y="398.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6"></text>
 <g id="row-1">
-<rect x="296.0" y="434.0" width="1592.0" height="64.7" fill="#211F27"/>
-<line x1="296.0" y1="434.0" x2="1888.0" y2="434.0" stroke="#202129" stroke-width="1"/>
-<text id="Kiwatule-follow-ups" x="312.0" y="463.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">Kiwatule follow-ups</text>
-<text id="Interested-clients-from-Sept" x="312.0" y="481.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Interested clients from September; take KYC where ready</text>
+<rect x="296.0" y="412.0" width="1592.0" height="46.0" fill="#211F27"/>
+<line x1="296.0" y1="412.0" x2="1888.0" y2="412.0" stroke="#202129" stroke-width="1"/>
 <g id="avatar-SN">
-<circle cx="746.0" cy="466.3" r="16.0" fill="#2C2C37"/>
-<text id="SN" x="737.6" y="472.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#A8A7E0">SN</text>
+<circle cx="326.0" cy="435.0" r="16.0" fill="#2C2C37"/>
+<text id="SN" x="317.6" y="440.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#A8A7E0">SN</text>
 </g>
-<text id="Sarah-Namuli" x="772.0" y="464.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Sarah Namuli</text>
-<text id="Kampala-East" x="772.0" y="481.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kampala East</text>
-<text id="28-Sep-2-Oct" x="942.0" y="470.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">28 Sep – 2 Oct</text>
-<text id="12" x="1156.0" y="470.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">12</text>
+<text id="Sarah-Namuli" x="352.0" y="433.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Sarah Namuli</text>
+<text id="Sales-Agent" x="352.0" y="450.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Sales Agent</text>
+<text id="Ntinda-Kiwatule" x="602.0" y="439.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Ntinda · Kiwatule</text>
+<text id="28-Sep-2-Oct" x="832.0" y="439.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">28 Sep – 2 Oct</text>
+<text id="4" x="1073.0" y="439.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">4</text>
+<text id="50" x="1196.0" y="439.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">50</text>
 <g id="progress-2">
-<rect x="1202.0" y="463.3" width="130.0" height="7.0" rx="3.5" fill="#202129"/>
-<rect x="1202.0" y="463.3" width="86.7" height="7.0" rx="3.5" fill="#15925A"/>
+<rect x="1242.0" y="432.0" width="160.0" height="7.0" rx="3.5" fill="#202129"/>
+<rect x="1242.0" y="432.0" width="91.1" height="7.0" rx="3.5" fill="#15925A"/>
 </g>
-<text id="8-of-12" x="1344.0" y="471.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">8 of 12</text>
+<text id="131-of-230" x="1414.0" y="440.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">131 of 230</text>
 <g id="chip-Active">
-<rect x="1438.0" y="455.3" width="64.8" height="22.0" rx="11.0" fill="#25332C"/>
-<circle cx="1452.0" cy="466.3" r="4.0" fill="#15925A"/>
-<text id="Active" x="1462.0" y="470.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">Active</text>
+<rect x="1538.0" y="424.0" width="64.8" height="22.0" rx="11.0" fill="#25332C"/>
+<circle cx="1552.0" cy="435.0" r="4.0" fill="#15925A"/>
+<text id="Active" x="1562.0" y="439.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">Active</text>
 </g>
-<text id="Moses-Okello-2" x="1592.0" y="470.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Moses Okello</text>
 <g id="button-Open">
-<rect x="1813.1" y="450.3" width="62.9" height="32.0" rx="12" fill="#24242D"/>
-<text id="Open" x="1829.1" y="470.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#A4A3DE">Open</text>
+<rect x="1813.1" y="420.0" width="62.9" height="30.0" rx="12" fill="#24242D"/>
+<text id="Open" x="1829.1" y="439.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#A4A3DE">Open</text>
 </g>
 </g>
 <g id="row-2">
-<line x1="296.0" y1="498.7" x2="1888.0" y2="498.7" stroke="#202129" stroke-width="1"/>
-<text id="Ntinda-schools-payroll-teac" x="312.0" y="528.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">Ntinda schools: payroll teachers</text>
-<text id="Teachers-at-5-schools-Civi" x="312.0" y="546.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Teachers at 5 schools · Civil Servant Loan</text>
-<g id="avatar-SN-2">
-<circle cx="746.0" cy="531.0" r="16.0" fill="#2C2C37"/>
-<text id="SN-2" x="737.6" y="536.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#A8A7E0">SN</text>
+<line x1="296.0" y1="458.0" x2="1888.0" y2="458.0" stroke="#202129" stroke-width="1"/>
+<g id="avatar-PK">
+<circle cx="326.0" cy="481.0" r="16.0" fill="#2C2C37"/>
+<text id="PK" x="318.4" y="486.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#A8A7E0">PK</text>
 </g>
-<text id="Sarah-Namuli-2" x="772.0" y="529.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Sarah Namuli</text>
-<text id="Kampala-East-2" x="772.0" y="546.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kampala East</text>
-<text id="21-Sep-9-Oct" x="942.0" y="535.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">21 Sep – 9 Oct</text>
-<text id="15" x="1156.0" y="535.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">15</text>
+<text id="Peter-Kato" x="352.0" y="479.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Peter Kato</text>
+<text id="Sales-Agent-2" x="352.0" y="496.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Sales Agent</text>
+<text id="Kireka-Bweyogerere" x="602.0" y="485.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Kireka · Bweyogerere</text>
+<text id="28-Sep-2-Oct-2" x="832.0" y="485.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">28 Sep – 2 Oct</text>
+<text id="3" x="1073.0" y="485.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">3</text>
+<text id="50-2" x="1196.0" y="485.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">50</text>
 <g id="progress-3">
-<rect x="1202.0" y="528.0" width="130.0" height="7.0" rx="3.5" fill="#202129"/>
-<rect x="1202.0" y="528.0" width="52.0" height="7.0" rx="3.5" fill="#E39A0B"/>
+<rect x="1242.0" y="478.0" width="160.0" height="7.0" rx="3.5" fill="#202129"/>
+<rect x="1242.0" y="478.0" width="68.2" height="7.0" rx="3.5" fill="#E39A0B"/>
 </g>
-<text id="6-of-15" x="1344.0" y="536.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">6 of 15</text>
+<text id="98-of-230" x="1414.0" y="486.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">98 of 230</text>
 <g id="chip-Active-2">
-<rect x="1438.0" y="520.0" width="64.8" height="22.0" rx="11.0" fill="#25332C"/>
-<circle cx="1452.0" cy="531.0" r="4.0" fill="#15925A"/>
-<text id="Active-2" x="1462.0" y="535.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">Active</text>
+<rect x="1538.0" y="470.0" width="64.8" height="22.0" rx="11.0" fill="#25332C"/>
+<circle cx="1552.0" cy="481.0" r="4.0" fill="#15925A"/>
+<text id="Active-2" x="1562.0" y="485.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">Active</text>
 </g>
-<text id="Moses-Okello-3" x="1592.0" y="535.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Moses Okello</text>
 <g id="button-Open-2">
-<rect x="1813.1" y="515.0" width="62.9" height="32.0" rx="12" fill="#24242D"/>
-<text id="Open-2" x="1829.1" y="535.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#A4A3DE">Open</text>
+<rect x="1813.1" y="466.0" width="62.9" height="30.0" rx="12" fill="#24242D"/>
+<text id="Open-2" x="1829.1" y="485.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#A4A3DE">Open</text>
 </g>
 </g>
 <g id="row-3">
-<line x1="296.0" y1="563.3" x2="1888.0" y2="563.3" stroke="#202129" stroke-width="1"/>
-<text id="Kireka-boda-stages" x="312.0" y="592.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">Kireka boda stages</text>
-<text id="Boda-riders-at-4-stages-MS" x="312.0" y="610.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Boda riders at 4 stages · MSE Business Loan</text>
-<g id="avatar-PK">
-<circle cx="746.0" cy="595.7" r="16.0" fill="#2C2C37"/>
-<text id="PK" x="738.4" y="601.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#A8A7E0">PK</text>
+<line x1="296.0" y1="504.0" x2="1888.0" y2="504.0" stroke="#202129" stroke-width="1"/>
+<g id="avatar-RA">
+<circle cx="326.0" cy="527.0" r="16.0" fill="#2C2C37"/>
+<text id="RA" x="317.8" y="532.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#A8A7E0">RA</text>
 </g>
-<text id="Peter-Kato" x="772.0" y="593.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Peter Kato</text>
-<text id="Kampala-East-3" x="772.0" y="610.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kampala East</text>
-<text id="28-Sep-4-Oct" x="942.0" y="600.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">28 Sep – 4 Oct</text>
-<text id="14" x="1156.0" y="600.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">14</text>
+<text id="Ruth-Achieng" x="352.0" y="525.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Ruth Achieng</text>
+<text id="Sales-Agent-3" x="352.0" y="542.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Sales Agent</text>
+<text id="Naalya-Kira" x="602.0" y="531.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Naalya · Kira</text>
+<text id="28-Sep-2-Oct-3" x="832.0" y="531.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">28 Sep – 2 Oct</text>
+<text id="3-2" x="1073.0" y="531.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">3</text>
+<text id="50-3" x="1196.0" y="531.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">50</text>
 <g id="progress-4">
-<rect x="1202.0" y="592.7" width="130.0" height="7.0" rx="3.5" fill="#202129"/>
-<rect x="1202.0" y="592.7" width="83.6" height="7.0" rx="3.5" fill="#15925A"/>
+<rect x="1242.0" y="524.0" width="160.0" height="7.0" rx="3.5" fill="#202129"/>
+<rect x="1242.0" y="524.0" width="72.3" height="7.0" rx="3.5" fill="#E39A0B"/>
 </g>
-<text id="9-of-14" x="1344.0" y="600.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">9 of 14</text>
+<text id="104-of-230" x="1414.0" y="532.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">104 of 230</text>
 <g id="chip-Active-3">
-<rect x="1438.0" y="584.7" width="64.8" height="22.0" rx="11.0" fill="#25332C"/>
-<circle cx="1452.0" cy="595.7" r="4.0" fill="#15925A"/>
-<text id="Active-3" x="1462.0" y="599.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">Active</text>
+<rect x="1538.0" y="516.0" width="64.8" height="22.0" rx="11.0" fill="#25332C"/>
+<circle cx="1552.0" cy="527.0" r="4.0" fill="#15925A"/>
+<text id="Active-3" x="1562.0" y="531.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">Active</text>
 </g>
-<text id="Moses-Okello-4" x="1592.0" y="600.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Moses Okello</text>
 <g id="button-Open-3">
-<rect x="1813.1" y="579.7" width="62.9" height="32.0" rx="12" fill="#24242D"/>
-<text id="Open-3" x="1829.1" y="600.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#A4A3DE">Open</text>
+<rect x="1813.1" y="512.0" width="62.9" height="30.0" rx="12" fill="#24242D"/>
+<text id="Open-3" x="1829.1" y="531.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#A4A3DE">Open</text>
 </g>
 </g>
 <g id="row-4">
-<line x1="296.0" y1="628.0" x2="1888.0" y2="628.0" stroke="#202129" stroke-width="1"/>
-<text id="Naalya-estate-homes" x="312.0" y="657.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">Naalya estate homes</text>
-<text id="Home-improvement-leads-from" x="312.0" y="675.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Home improvement leads from the estate</text>
-<g id="avatar-RA">
-<circle cx="746.0" cy="660.3" r="16.0" fill="#2C2C37"/>
-<text id="RA" x="737.8" y="666.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#A8A7E0">RA</text>
+<line x1="296.0" y1="550.0" x2="1888.0" y2="550.0" stroke="#202129" stroke-width="1"/>
+<g id="avatar-EN">
+<circle cx="326.0" cy="573.0" r="16.0" fill="#2C2C37"/>
+<text id="EN" x="317.8" y="578.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#A8A7E0">EN</text>
 </g>
-<text id="Ruth-Achieng" x="772.0" y="658.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Ruth Achieng</text>
-<text id="Kampala-East-4" x="772.0" y="675.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kampala East</text>
-<text id="29-Sep-6-Oct" x="942.0" y="664.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">29 Sep – 6 Oct</text>
-<text id="10" x="1156.0" y="664.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">10</text>
+<text id="Esther-Nakato" x="352.0" y="571.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Esther Nakato</text>
+<text id="Sales-Agent-4" x="352.0" y="588.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Sales Agent</text>
+<text id="Bukoto-Kisaasi" x="602.0" y="577.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Bukoto · Kisaasi</text>
+<text id="28-Sep-2-Oct-4" x="832.0" y="577.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">28 Sep – 2 Oct</text>
+<text id="2" x="1073.0" y="577.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">2</text>
+<text id="40" x="1196.0" y="577.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">40</text>
 <g id="progress-5">
-<rect x="1202.0" y="657.3" width="130.0" height="7.0" rx="3.5" fill="#202129"/>
-<rect x="1202.0" y="657.3" width="52.0" height="7.0" rx="3.5" fill="#E39A0B"/>
+<rect x="1242.0" y="570.0" width="160.0" height="7.0" rx="3.5" fill="#202129"/>
+<rect x="1242.0" y="570.0" width="56.8" height="7.0" rx="3.5" fill="#D14343"/>
 </g>
-<text id="4-of-10" x="1344.0" y="665.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">4 of 10</text>
+<text id="71-of-200" x="1414.0" y="578.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">71 of 200</text>
 <g id="chip-Active-4">
-<rect x="1438.0" y="649.3" width="64.8" height="22.0" rx="11.0" fill="#25332C"/>
-<circle cx="1452.0" cy="660.3" r="4.0" fill="#15925A"/>
-<text id="Active-4" x="1462.0" y="664.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">Active</text>
+<rect x="1538.0" y="562.0" width="64.8" height="22.0" rx="11.0" fill="#25332C"/>
+<circle cx="1552.0" cy="573.0" r="4.0" fill="#15925A"/>
+<text id="Active-4" x="1562.0" y="577.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">Active</text>
 </g>
-<text id="Ruth-Achieng-agent" x="1592.0" y="664.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Ruth Achieng (agent)</text>
 <g id="button-Open-4">
-<rect x="1813.1" y="644.3" width="62.9" height="32.0" rx="12" fill="#24242D"/>
-<text id="Open-4" x="1829.1" y="664.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#A4A3DE">Open</text>
+<rect x="1813.1" y="558.0" width="62.9" height="30.0" rx="12" fill="#24242D"/>
+<text id="Open-4" x="1829.1" y="577.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#A4A3DE">Open</text>
 </g>
 </g>
 <g id="row-5">
-<line x1="296.0" y1="692.7" x2="1888.0" y2="692.7" stroke="#202129" stroke-width="1"/>
-<text id="Bukoto-finish-KYC" x="312.0" y="722.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">Bukoto: finish KYC</text>
-<text id="Clients-stuck-at-KYC-capture" x="312.0" y="740.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Clients stuck at KYC captured</text>
-<g id="avatar-EN">
-<circle cx="746.0" cy="725.0" r="16.0" fill="#2C2C37"/>
-<text id="EN" x="737.8" y="730.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#A8A7E0">EN</text>
+<line x1="296.0" y1="596.0" x2="1888.0" y2="596.0" stroke="#202129" stroke-width="1"/>
+<g id="avatar-IM">
+<circle cx="326.0" cy="619.0" r="16.0" fill="#2C2C37"/>
+<text id="IM" x="318.2" y="624.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#A8A7E0">IM</text>
 </g>
-<text id="Esther-Nakato" x="772.0" y="723.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Esther Nakato</text>
-<text id="Kampala-East-5" x="772.0" y="740.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kampala East</text>
-<text id="30-Sep-2-Oct" x="942.0" y="729.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">30 Sep – 2 Oct</text>
-<text id="6" x="1163.0" y="729.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">6</text>
+<text id="Ivan-Mugabe" x="352.0" y="617.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Ivan Mugabe</text>
+<text id="Sales-Agent-5" x="352.0" y="634.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Sales Agent</text>
+<text id="Kigoowa-Kyanja" x="602.0" y="623.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Kigoowa · Kyanja</text>
+<text id="28-Sep-2-Oct-5" x="832.0" y="623.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">28 Sep – 2 Oct</text>
+<text id="3-3" x="1073.0" y="623.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">3</text>
+<text id="40-2" x="1196.0" y="623.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">40</text>
 <g id="progress-6">
-<rect x="1202.0" y="722.0" width="130.0" height="7.0" rx="3.5" fill="#202129"/>
-<rect x="1202.0" y="722.0" width="21.7" height="7.0" rx="3.5" fill="#E39A0B"/>
+<rect x="1242.0" y="616.0" width="160.0" height="7.0" rx="3.5" fill="#202129"/>
+<rect x="1242.0" y="616.0" width="35.2" height="7.0" rx="3.5" fill="#D14343"/>
 </g>
-<text id="1-of-6" x="1344.0" y="730.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">1 of 6</text>
+<text id="44-of-200" x="1414.0" y="624.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">44 of 200</text>
 <g id="chip-Active-5">
-<rect x="1438.0" y="714.0" width="64.8" height="22.0" rx="11.0" fill="#25332C"/>
-<circle cx="1452.0" cy="725.0" r="4.0" fill="#15925A"/>
-<text id="Active-5" x="1462.0" y="729.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">Active</text>
+<rect x="1538.0" y="608.0" width="64.8" height="22.0" rx="11.0" fill="#25332C"/>
+<circle cx="1552.0" cy="619.0" r="4.0" fill="#15925A"/>
+<text id="Active-5" x="1562.0" y="623.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">Active</text>
 </g>
-<text id="Moses-Okello-5" x="1592.0" y="729.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Moses Okello</text>
 <g id="button-Open-5">
-<rect x="1813.1" y="709.0" width="62.9" height="32.0" rx="12" fill="#24242D"/>
-<text id="Open-5" x="1829.1" y="729.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#A4A3DE">Open</text>
+<rect x="1813.1" y="604.0" width="62.9" height="30.0" rx="12" fill="#24242D"/>
+<text id="Open-5" x="1829.1" y="623.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#A4A3DE">Open</text>
 </g>
 </g>
 <g id="row-6">
-<line x1="296.0" y1="757.3" x2="1888.0" y2="757.3" stroke="#202129" stroke-width="1"/>
-<text id="Banda-follow-ups" x="312.0" y="786.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">Banda follow-ups</text>
-<text id="Interested-clients-with-no-v" x="312.0" y="804.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Interested clients with no visit in 14+ days</text>
+<line x1="296.0" y1="642.0" x2="1888.0" y2="642.0" stroke="#202129" stroke-width="1"/>
 <g id="avatar-BS">
-<circle cx="746.0" cy="789.7" r="16.0" fill="#2C2C37"/>
-<text id="BS" x="738.7" y="795.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#A8A7E0">BS</text>
+<circle cx="326.0" cy="665.0" r="16.0" fill="#2C2C37"/>
+<text id="BS" x="318.7" y="670.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#A8A7E0">BS</text>
 </g>
-<text id="Brian-Ssali" x="772.0" y="787.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Brian Ssali</text>
-<text id="Kampala-East-6" x="772.0" y="804.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kampala East</text>
-<text id="28-Sep-2-Oct-2" x="942.0" y="794.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">28 Sep – 2 Oct</text>
-<text id="9" x="1163.0" y="794.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">9</text>
+<text id="Brian-Ssali" x="352.0" y="663.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Brian Ssali</text>
+<text id="Sales-Agent-6" x="352.0" y="680.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Sales Agent</text>
+<text id="Banda-Kyambogo" x="602.0" y="669.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Banda · Kyambogo</text>
+<text id="28-Sep-2-Oct-6" x="832.0" y="669.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">28 Sep – 2 Oct</text>
+<text id="2-2" x="1073.0" y="669.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">2</text>
+<text id="50-4" x="1196.0" y="669.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">50</text>
 <g id="progress-7">
-<rect x="1202.0" y="786.7" width="130.0" height="7.0" rx="3.5" fill="#202129"/>
-<rect x="1202.0" y="786.7" width="14.4" height="7.0" rx="3.5" fill="#E39A0B"/>
+<rect x="1242.0" y="662.0" width="160.0" height="7.0" rx="3.5" fill="#202129"/>
+<rect x="1242.0" y="662.0" width="21.6" height="7.0" rx="3.5" fill="#D14343"/>
 </g>
-<text id="1-of-9" x="1344.0" y="794.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">1 of 9</text>
+<text id="31-of-230" x="1414.0" y="670.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">31 of 230</text>
 <g id="chip-Active-6">
-<rect x="1438.0" y="778.7" width="64.8" height="22.0" rx="11.0" fill="#25332C"/>
-<circle cx="1452.0" cy="789.7" r="4.0" fill="#15925A"/>
-<text id="Active-6" x="1462.0" y="793.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">Active</text>
+<rect x="1538.0" y="654.0" width="64.8" height="22.0" rx="11.0" fill="#25332C"/>
+<circle cx="1552.0" cy="665.0" r="4.0" fill="#15925A"/>
+<text id="Active-6" x="1562.0" y="669.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">Active</text>
 </g>
-<text id="Moses-Okello-6" x="1592.0" y="794.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Moses Okello</text>
 <g id="button-Open-6">
-<rect x="1813.1" y="773.7" width="62.9" height="32.0" rx="12" fill="#24242D"/>
-<text id="Open-6" x="1829.1" y="794.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#A4A3DE">Open</text>
+<rect x="1813.1" y="650.0" width="62.9" height="30.0" rx="12" fill="#24242D"/>
+<text id="Open-6" x="1829.1" y="669.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#A4A3DE">Open</text>
 </g>
 </g>
 <g id="row-7">
-<line x1="296.0" y1="822.0" x2="1888.0" y2="822.0" stroke="#202129" stroke-width="1"/>
-<text id="Kyanja-market-prospecting" x="312.0" y="851.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">Kyanja market prospecting</text>
-<text id="New-area-market-vendors-3" x="312.0" y="869.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">New area: market vendors, 3 new clients a day</text>
-<g id="avatar-SN-3">
-<circle cx="746.0" cy="854.3" r="16.0" fill="#2C2C37"/>
-<text id="SN-3" x="737.6" y="860.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#A8A7E0">SN</text>
+<line x1="296.0" y1="688.0" x2="1888.0" y2="688.0" stroke="#202129" stroke-width="1"/>
+<g id="avatar-JA">
+<circle cx="326.0" cy="711.0" r="16.0" fill="#2C2C37"/>
+<text id="JA" x="319.3" y="716.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#A8A7E0">JA</text>
 </g>
-<text id="Sarah-Namuli-3" x="772.0" y="852.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Sarah Namuli</text>
-<text id="Kampala-East-7" x="772.0" y="869.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kampala East</text>
-<text id="1-31-Oct" x="942.0" y="858.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">1 – 31 Oct</text>
-<text id="8" x="1163.0" y="858.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">8</text>
+<text id="Joan-Auma" x="352.0" y="709.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Joan Auma</text>
+<text id="Sales-Agent-7" x="352.0" y="726.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Sales Agent</text>
+<text id="Nakawa-Mbuya" x="602.0" y="715.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Nakawa · Mbuya</text>
+<text id="28-Sep-2-Oct-7" x="832.0" y="715.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">28 Sep – 2 Oct</text>
+<text id="2-3" x="1073.0" y="715.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">2</text>
+<text id="40-3" x="1196.0" y="715.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">40</text>
 <g id="progress-8">
-<rect x="1202.0" y="851.3" width="130.0" height="7.0" rx="3.5" fill="#202129"/>
+<rect x="1242.0" y="708.0" width="160.0" height="7.0" rx="3.5" fill="#202129"/>
+<rect x="1242.0" y="708.0" width="46.4" height="7.0" rx="3.5" fill="#D14343"/>
 </g>
-<text id="0-of-8" x="1344.0" y="859.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">0 of 8</text>
-<g id="chip-Scheduled">
-<rect x="1438.0" y="843.3" width="85.8" height="22.0" rx="11.0" fill="#1A2433"/>
-<circle cx="1452.0" cy="854.3" r="4.0" fill="#2F6FDB"/>
-<text id="Scheduled" x="1462.0" y="858.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#769FE2">Scheduled</text>
+<text id="58-of-200" x="1414.0" y="716.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">58 of 200</text>
+<g id="chip-Active-7">
+<rect x="1538.0" y="700.0" width="64.8" height="22.0" rx="11.0" fill="#25332C"/>
+<circle cx="1552.0" cy="711.0" r="4.0" fill="#15925A"/>
+<text id="Active-7" x="1562.0" y="715.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">Active</text>
 </g>
-<text id="Sarah-Namuli-agent" x="1592.0" y="858.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Sarah Namuli (agent)</text>
 <g id="button-Open-7">
-<rect x="1813.1" y="838.3" width="62.9" height="32.0" rx="12" fill="#24242D"/>
-<text id="Open-7" x="1829.1" y="858.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#A4A3DE">Open</text>
+<rect x="1813.1" y="696.0" width="62.9" height="30.0" rx="12" fill="#24242D"/>
+<text id="Open-7" x="1829.1" y="715.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#A4A3DE">Open</text>
 </g>
 </g>
 <g id="row-8">
-<line x1="296.0" y1="886.7" x2="1888.0" y2="886.7" stroke="#202129" stroke-width="1"/>
-<text id="Namugongo-meet-your-new-cli" x="312.0" y="916.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">Namugongo: meet your new clients</text>
-<text id="Territory-moved-from-Daniel" x="312.0" y="934.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Territory moved from Daniel Okumu; visit all 46</text>
-<g id="avatar-PK-2">
-<circle cx="746.0" cy="919.0" r="16.0" fill="#2C2C37"/>
-<text id="PK-2" x="738.4" y="924.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#A8A7E0">PK</text>
+<line x1="296.0" y1="734.0" x2="1888.0" y2="734.0" stroke="#202129" stroke-width="1"/>
+<g id="avatar-JB">
+<circle cx="326.0" cy="757.0" r="16.0" fill="#293A3C"/>
+<text id="JB" x="319.6" y="762.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#99E8F0">JB</text>
 </g>
-<text id="Peter-Kato-2" x="772.0" y="917.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Peter Kato</text>
-<text id="Kampala-East-8" x="772.0" y="934.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kampala East</text>
-<text id="1-9-Oct" x="942.0" y="923.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">1 – 9 Oct</text>
-<text id="46" x="1156.0" y="923.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">46</text>
+<text id="Joel-Byaruhanga" x="352.0" y="755.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Joel Byaruhanga</text>
+<text id="Relationship-Officer-assig" x="352.0" y="772.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Relationship Officer · assigned</text>
+<text id="Kigoowa-Kyanja-2" x="602.0" y="761.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Kigoowa · Kyanja</text>
+<text id="Fri-2-Oct" x="832.0" y="761.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Fri 2 Oct</text>
+<text id="1" x="1073.0" y="761.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">1</text>
+<text id="30" x="1196.0" y="761.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">30</text>
 <g id="progress-9">
-<rect x="1202.0" y="916.0" width="130.0" height="7.0" rx="3.5" fill="#202129"/>
+<rect x="1242.0" y="754.0" width="160.0" height="7.0" rx="3.5" fill="#202129"/>
 </g>
-<text id="0-of-46" x="1344.0" y="924.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">0 of 46</text>
-<g id="chip-Scheduled-2">
-<rect x="1438.0" y="908.0" width="85.8" height="22.0" rx="11.0" fill="#1A2433"/>
-<circle cx="1452.0" cy="919.0" r="4.0" fill="#2F6FDB"/>
-<text id="Scheduled-2" x="1462.0" y="923.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#769FE2">Scheduled</text>
+<text id="0-of-30" x="1414.0" y="762.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">0 of 30</text>
+<g id="chip-Scheduled">
+<rect x="1538.0" y="746.0" width="85.8" height="22.0" rx="11.0" fill="#1A2433"/>
+<circle cx="1552.0" cy="757.0" r="4.0" fill="#2F6FDB"/>
+<text id="Scheduled" x="1562.0" y="761.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#769FE2">Scheduled</text>
 </g>
-<text id="Moses-Okello-7" x="1592.0" y="923.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Moses Okello</text>
 <g id="button-Open-8">
-<rect x="1813.1" y="903.0" width="62.9" height="32.0" rx="12" fill="#24242D"/>
-<text id="Open-8" x="1829.1" y="923.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#A4A3DE">Open</text>
+<rect x="1813.1" y="742.0" width="62.9" height="30.0" rx="12" fill="#24242D"/>
+<text id="Open-8" x="1829.1" y="761.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#A4A3DE">Open</text>
 </g>
 </g>
-<g id="row-9">
-<line x1="296.0" y1="951.3" x2="1888.0" y2="951.3" stroke="#202129" stroke-width="1"/>
-<text id="Q3-week-1-blitz" x="312.0" y="980.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">Q3 week 1 blitz</text>
-<text id="Every-interested-client-from" x="312.0" y="998.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Every interested client from Q2</text>
-<g id="avatar-7">
-<circle cx="746.0" cy="983.7" r="16.0" fill="#2C2C37"/>
-<text id="7" x="738.2" y="989.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#A8A7E0">7+</text>
 </g>
-<text id="7-agents" x="772.0" y="981.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">7 agents</text>
-<text id="Kampala-East-9" x="772.0" y="998.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kampala East</text>
-<text id="1-7-Jul" x="942.0" y="988.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">1 – 7 Jul</text>
-<text id="34" x="1156.0" y="988.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">34</text>
+<text id="Lead-journey-plans-relatio" x="296.0" y="826.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="700" fill="#CBCCE7">Lead journey plans · relationship officers</text>
+<g id="table-2">
+<rect id="header-bg-2" x="296.0" y="842.0" width="1592.0" height="36.0" fill="#1A1D24"/>
+<text id="PLAN" x="312.0" y="864.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">PLAN</text>
+<text id="OFFICER" x="732.0" y="864.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">OFFICER</text>
+<text id="DATES" x="992.0" y="864.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">DATES</text>
+<text id="LEADS" x="1185.2" y="864.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">LEADS</text>
+<text id="VISITED" x="1252.0" y="864.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">VISITED</text>
+<text id="KYC-COMPLETED" x="1487.7" y="864.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">KYC COMPLETED</text>
+<text id="STATUS-2" x="1612.0" y="864.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6">STATUS</text>
+<text x="1872.0" y="864.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9396AA" letter-spacing="0.6"></text>
+<g id="row-1-2">
+<line x1="296.0" y1="878.0" x2="1888.0" y2="878.0" stroke="#202129" stroke-width="1"/>
+<text id="Kiwatule-leads" x="312.0" y="898.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">Kiwatule leads</text>
+<text id="Leads-from-Sarah-and-Peter" x="312.0" y="916.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Leads from Sarah and Peter</text>
+<g id="avatar-JB-2">
+<circle cx="746.0" cy="901.0" r="16.0" fill="#293A3C"/>
+<text id="JB-2" x="739.6" y="906.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#99E8F0">JB</text>
+</g>
+<text id="Joel-Byaruhanga-2" x="772.0" y="899.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Joel Byaruhanga</text>
+<text id="Relationship-Officer" x="772.0" y="916.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Relationship Officer</text>
+<text id="28-Sep-2-Oct-8" x="992.0" y="905.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">28 Sep – 2 Oct</text>
+<text id="12" x="1206.0" y="905.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">12</text>
 <g id="progress-10">
-<rect x="1202.0" y="980.7" width="130.0" height="7.0" rx="3.5" fill="#202129"/>
-<rect x="1202.0" y="980.7" width="114.7" height="7.0" rx="3.5" fill="#15925A"/>
+<rect x="1252.0" y="898.0" width="120.0" height="7.0" rx="3.5" fill="#202129"/>
+<rect x="1252.0" y="898.0" width="70.0" height="7.0" rx="3.5" fill="#15925A"/>
 </g>
-<text id="30-of-34" x="1344.0" y="988.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">30 of 34</text>
-<g id="chip-Completed">
-<rect x="1438.0" y="972.7" width="88.9" height="22.0" rx="11.0" fill="#243234"/>
-<circle cx="1452.0" cy="983.7" r="4.0" fill="#0E8C99"/>
-<text id="Completed" x="1462.0" y="987.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CE8F1">Completed</text>
+<text id="7-of-12" x="1384.0" y="906.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">7 of 12</text>
+<text id="4-2" x="1573.0" y="905.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">4</text>
+<g id="chip-Active-8">
+<rect x="1608.0" y="890.0" width="64.8" height="22.0" rx="11.0" fill="#25332C"/>
+<circle cx="1622.0" cy="901.0" r="4.0" fill="#15925A"/>
+<text id="Active-8" x="1632.0" y="905.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">Active</text>
 </g>
-<text id="Moses-Okello-8" x="1592.0" y="988.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Moses Okello</text>
 <g id="button-Open-9">
-<rect x="1813.1" y="967.7" width="62.9" height="32.0" rx="12" fill="#24242D"/>
-<text id="Open-9" x="1829.1" y="988.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#A4A3DE">Open</text>
+<rect x="1813.1" y="886.0" width="62.9" height="30.0" rx="12" fill="#24242D"/>
+<text id="Open-9" x="1829.1" y="905.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#A4A3DE">Open</text>
+</g>
+</g>
+<g id="row-2-2">
+<line x1="296.0" y1="924.0" x2="1888.0" y2="924.0" stroke="#202129" stroke-width="1"/>
+<text id="Kireka-Naalya-leads" x="312.0" y="944.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">Kireka &amp; Naalya leads</text>
+<text id="Leads-from-Peter-and-Ruth" x="312.0" y="962.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Leads from Peter and Ruth</text>
+<g id="avatar-CA">
+<circle cx="746.0" cy="947.0" r="16.0" fill="#293A3C"/>
+<text id="CA" x="737.8" y="952.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#99E8F0">CA</text>
+</g>
+<text id="Christine-Apio" x="772.0" y="945.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Christine Apio</text>
+<text id="Relationship-Officer-2" x="772.0" y="962.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Relationship Officer</text>
+<text id="28-Sep-2-Oct-9" x="992.0" y="951.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">28 Sep – 2 Oct</text>
+<text id="10" x="1206.0" y="951.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">10</text>
+<g id="progress-11">
+<rect x="1252.0" y="944.0" width="120.0" height="7.0" rx="3.5" fill="#202129"/>
+<rect x="1252.0" y="944.0" width="72.0" height="7.0" rx="3.5" fill="#15925A"/>
+</g>
+<text id="6-of-10" x="1384.0" y="952.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">6 of 10</text>
+<text id="3-4" x="1573.0" y="951.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">3</text>
+<g id="chip-Active-9">
+<rect x="1608.0" y="936.0" width="64.8" height="22.0" rx="11.0" fill="#25332C"/>
+<circle cx="1622.0" cy="947.0" r="4.0" fill="#15925A"/>
+<text id="Active-9" x="1632.0" y="951.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">Active</text>
+</g>
+<g id="button-Open-10">
+<rect x="1813.1" y="932.0" width="62.9" height="30.0" rx="12" fill="#24242D"/>
+<text id="Open-10" x="1829.1" y="951.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#A4A3DE">Open</text>
+</g>
+</g>
+<g id="row-3-2">
+<line x1="296.0" y1="970.0" x2="1888.0" y2="970.0" stroke="#202129" stroke-width="1"/>
+<text id="Bukoto-Kyanja-leads" x="312.0" y="990.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">Bukoto &amp; Kyanja leads</text>
+<text id="Leads-from-Esther-and-Ivan" x="312.0" y="1008.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Leads from Esther and Ivan</text>
+<g id="avatar-JB-3">
+<circle cx="746.0" cy="993.0" r="16.0" fill="#293A3C"/>
+<text id="JB-3" x="739.6" y="998.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#99E8F0">JB</text>
+</g>
+<text id="Joel-Byaruhanga-3" x="772.0" y="991.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Joel Byaruhanga</text>
+<text id="Relationship-Officer-3" x="772.0" y="1008.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Relationship Officer</text>
+<text id="5-9-Oct" x="992.0" y="997.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">5 – 9 Oct</text>
+<text id="8" x="1213.0" y="997.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">8</text>
+<g id="progress-12">
+<rect x="1252.0" y="990.0" width="120.0" height="7.0" rx="3.5" fill="#202129"/>
+</g>
+<text id="0-of-8" x="1384.0" y="998.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">0 of 8</text>
+<text id="0" x="1573.0" y="997.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">0</text>
+<g id="chip-Scheduled-2">
+<rect x="1608.0" y="982.0" width="85.8" height="22.0" rx="11.0" fill="#1A2433"/>
+<circle cx="1622.0" cy="993.0" r="4.0" fill="#2F6FDB"/>
+<text id="Scheduled-2" x="1632.0" y="997.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#769FE2">Scheduled</text>
+</g>
+<g id="button-Open-11">
+<rect x="1813.1" y="978.0" width="62.9" height="30.0" rx="12" fill="#24242D"/>
+<text id="Open-11" x="1829.1" y="997.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#A4A3DE">Open</text>
 </g>
 </g>
 </g>
-<text id="Supervisors-create-plans-for" x="312.0" y="1036.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">Supervisors create plans for their agents; agents can create their own, which the supervisor approves</text>
 </svg>

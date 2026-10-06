@@ -12,7 +12,7 @@ from kit import (BRAND, BRAND_D, CARD, FAINT, GREEN, INK, INK2, LINE, LINE2, MUT
 # Uganda district boundaries (UBOS, 137 districts), copied from the SNV prototype so the repo builds on its own.
 BOUNDARIES = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "districts.geojson")
 
-# Illustrative branch network: branch -> (district, region, agents, Q3 conversions, Q3 target)
+# Illustrative branch network: branch -> (district, region, sales agents, Q3 clients (KYC completed), Q3 target)
 BRANCHES = {
     "Kampala Central": ("Kampala", "Central", 9, 214, 240),
     "Kampala East": ("Wakiso", "Central", 7, 131, 190),
@@ -134,7 +134,7 @@ def heat_strip(s: SVG, x, y, vals, cell=14, gap=3, color=BRAND, max_v=None, h=No
     return len(vals) * (cell + gap) - gap
 
 
-def funnel(s: SVG, x, y, w, rows, row_h=46, gap=10, label_w=150, name="funnel"):
+def funnel(s: SVG, x, y, w, rows, row_h=46, gap=10, label_w=150, name="funnel", of="of prospects"):
     """rows: [(label, value, color)]. Bars centred, with step conversion % between them."""
     top = rows[0][1]
     bw_max = w - label_w - 120
@@ -152,7 +152,7 @@ def funnel(s: SVG, x, y, w, rows, row_h=46, gap=10, label_w=150, name="funnel"):
             else:
                 s.text(bx + bw + 8, yy + row_h / 2 + vs * 0.38, f"{v:,}", vs, 700, shade(col, 0.2), name="value")
             s.text(x + w, yy + row_h / 2 + 1, f"{v / top:.0%}", 14, 700, INK, anchor="end", name="of visits")
-            s.text(x + w, yy + row_h / 2 + 17, "of visits", 10.5, 400, MUTED, anchor="end", name="of visits label")
+            s.text(x + w, yy + row_h / 2 + 17, of, 10.5, 400, MUTED, anchor="end", name="of label")
             if i:
                 prev = rows[i - 1][1]
                 s.text(x + label_w + bw_max / 2 + bw / 2 + 12, yy - 1, f"↓ {v / prev:.0%}", 11, 600, MUTED,

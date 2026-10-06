@@ -33,14 +33,14 @@
 <text id="FN" x="38.9" y="141.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17.6" font-weight="600" fill="#9AF0CA">FN</text>
 </g>
 <text id="Nambi-Tailoring-Fabrics" x="82.0" y="124.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#CBCCE7">Nambi Tailoring &amp; Fabrics</text>
-<g id="chip-Client-KYC-completed">
-<rect x="82.0" y="136.0" width="147.4" height="22.0" rx="11.0" fill="#25332C"/>
+<g id="chip-KYC-completed">
+<rect x="82.0" y="136.0" width="109.9" height="22.0" rx="11.0" fill="#25332C"/>
 <circle cx="96.0" cy="147.0" r="4.0" fill="#15925A"/>
-<text id="Client-KYC-completed" x="106.0" y="151.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">Client · KYC completed</text>
+<text id="KYC-completed" x="106.0" y="151.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">KYC completed</text>
 </g>
 <g id="chip-UGX-6M">
-<rect x="235.4" y="136.0" width="61.6" height="22.0" rx="11.0" fill="#272730"/>
-<text id="UGX-6M" x="245.4" y="151.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#A9A8E0">UGX 6M</text>
+<rect x="197.9" y="136.0" width="61.6" height="22.0" rx="11.0" fill="#272730"/>
+<text id="UGX-6M" x="207.9" y="151.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#A9A8E0">UGX 6M</text>
 </g>
 </g>
 <g id="visit-bar">
@@ -71,7 +71,7 @@
 <path d="M9 12l2 2 4-4" fill="none" stroke="#91EFC5" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="KYC-completed-11-24" x="70.0" y="318.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">KYC completed · 11:24</text>
-<text id="She-s-a-client-now-6-of-6" x="70.0" y="336.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">She's a client now · 6 of 6 checks passed</text>
+<text id="6-of-6-checks-passed-ready" x="70.0" y="336.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">6 of 6 checks passed · ready for a loan</text>
 </g>
 <g id="kyc-Client-details">
 <rect x="16.0" y="362.0" width="328.0" height="58.0" rx="14" fill="#1D1E27" filter="url(#soft)"/>

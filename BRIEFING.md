@@ -15,7 +15,7 @@
 - **The problem:** field staff go out in the first week of the quarter, go quiet, then rush in the last three weeks. Management can't see what they do most of the quarter.
 - **Their priority (2 Oct):** the **front end** of the customer journey, lead generation, not back-office work after KYC.
 - **What they want to see everywhere:** one funnel, **Prospects → Leads generated → KYC completed**, and how many prospects became clients.
-- **Success:** a **conversion** is a prospect who became a client: a relationship officer completed their KYC. The loan decision is tracked separately.
+- **Success:** a **conversion** is a prospect who became a **client**, and a client is someone whose **loan was disbursed** (the team, 6 Oct). KYC completed is the last funnel stage before that.
 
 ---
 
@@ -25,7 +25,7 @@
 |---|---|
 | One field agent did everything: first visit, KYC, loan | **Sales agents** prospect and generate leads; **relationship officers** visit leads and complete KYC |
 | Funnel: Visited → Interested → KYC → Validated → Negotiation → Applied | Funnel: **Prospects → Leads generated → KYC completed** |
-| Conversion = application submitted | Conversion = **prospect became a client (KYC completed)** |
+| Conversion = application submitted | Conversion = **prospect became a client = loan disbursed** (KYC completed is not yet a client) |
 | Journey plan = a list of clients to visit | Two kinds: **route journey plans** (an agent's route per day with a prospect target) and **lead journey plans** (leads for an officer to visit) |
 | "Branch Supervisor" | **Branch Manager** (Moses Okello) |
 | Branch league table on the overview | **Prospects to clients by agent**, and a branch manager's own **Kampala East today** screen |
@@ -45,8 +45,9 @@ Still to come, from the meeting notes (not in the prototype yet): turnaround tim
 |---|---|
 | **Prospect** | Someone a sales agent met in the field: **name, phone number and location** (GPS). Nothing more. |
 | **Lead** | A prospect who wants a loan. The agent has their number and follows up (outside the app); in the app they add the **National ID number (NIN), loan amount and location**. |
-| **KYC completed** | A relationship officer visited the lead and captured **Know Your Customer** details: NIRA ID, selfie, income, collateral, CRB consent. The lead is now a **client**. |
-| **Conversion** | Prospect → client. Shown as "prospect → client %" on every dashboard. |
+| **KYC completed** | A relationship officer visited the lead and captured **Know Your Customer** details: NIRA ID, selfie, income, collateral, CRB consent. The loan application can go; the lead is **not yet a client**. |
+| **Client** | Someone whose **loan has been disbursed**. That is the conversion. |
+| **Conversion** | Prospect → client (loan disbursed). Shown as "prospect → client %" on the dashboards. |
 | **Route journey plan** | The branch manager gives a sales agent **a route for each day and a prospect target** (e.g. "Kiwatule market route, 50 prospects"). |
 | **Lead journey plan** | The branch manager gives a relationship officer **a list of leads to visit**, with dates and a goal. |
 | **Branch › Territory › Route** | Letshego's field structure: a branch manager runs a branch, the branch has territories, each territory has routes, and routes have sales agents. Territories are **geofenced**: the app knows when someone leaves theirs. |
@@ -69,8 +70,8 @@ This follows the levels in our notes from the 2 Oct meeting.
 | 2 Prospecting | Sales Agent | Meets people on the route: name, phone, GPS location | [M5 Add a prospect](https://letshego-prototype.vercel.app/prototype.html#m05) · [M4b Prospect map](https://letshego-prototype.vercel.app/prototype.html#m04b) | [W04 Field map](https://letshego-prototype.vercel.app/prototype.html#w04) |
 | 3 Lead | Sales Agent | Follows up the prospect on the phone (outside the app): "interested in a loan? how much?" Interested → NIN, amount, location | [M6 My prospects](https://letshego-prototype.vercel.app/prototype.html#m06) → [M7 Prospect](https://letshego-prototype.vercel.app/prototype.html#m07) → [M7b Make a lead](https://letshego-prototype.vercel.app/prototype.html#m07b) · no loan → [M8 why](https://letshego-prototype.vercel.app/prototype.html#m08) | [W05 Pipeline](https://letshego-prototype.vercel.app/prototype.html#w05) |
 | 4 Lead journey plan | Branch Manager | Puts new leads on an officer's lead journey plan | [M21 My lead journey plans](https://letshego-prototype.vercel.app/prototype.html#m21) → [M21b Kiwatule leads](https://letshego-prototype.vercel.app/prototype.html#m21b) | [W10d](https://letshego-prototype.vercel.app/prototype.html#w10d) · [W10e new](https://letshego-prototype.vercel.app/prototype.html#w10e) |
-| 5 KYC | Relationship Officer | Visits the lead, completes KYC: **the lead becomes a client** | [M21b](https://letshego-prototype.vercel.app/prototype.html#m21b) Check in → [M9 record](https://letshego-prototype.vercel.app/prototype.html#m09) → [M10](https://letshego-prototype.vercel.app/prototype.html#m10)–[M13](https://letshego-prototype.vercel.app/prototype.html#m13) | [W06 Client record](https://letshego-prototype.vercel.app/prototype.html#w06) |
-| After | Relationship Officer → Branch Manager / HQ | Loan application and decision (tracked, but not the conversion) | [M14](https://letshego-prototype.vercel.app/prototype.html#m14)–[M16b](https://letshego-prototype.vercel.app/prototype.html#m16b) | [W07](https://letshego-prototype.vercel.app/prototype.html#w07) → [W08](https://letshego-prototype.vercel.app/prototype.html#w08) |
+| 5 KYC | Relationship Officer | Visits the lead, completes KYC, sends the loan application | [M21b](https://letshego-prototype.vercel.app/prototype.html#m21b) Check in → [M9 record](https://letshego-prototype.vercel.app/prototype.html#m09) → [M10](https://letshego-prototype.vercel.app/prototype.html#m10)–[M13](https://letshego-prototype.vercel.app/prototype.html#m13) | [W06 Client record](https://letshego-prototype.vercel.app/prototype.html#w06) |
+| After | Relationship Officer → Branch Manager / HQ | Loan approval, then disbursement: **the lead becomes a client** (the conversion) | [M14](https://letshego-prototype.vercel.app/prototype.html#m14)–[M16b](https://letshego-prototype.vercel.app/prototype.html#m16b) | [W07](https://letshego-prototype.vercel.app/prototype.html#w07) → [W08](https://letshego-prototype.vercel.app/prototype.html#w08) |
 
 ### Getting around the app
 
@@ -79,7 +80,7 @@ This follows the levels in our notes from the 2 Oct meeting.
 - **Me** shows the role, the quarter's performance and **where you work: Branch › Territory › Routes**.
 - There is no call button anywhere: calls happen on the agent's own phone.
 
-**The demo story, Florence Nambi:** Sarah prospected her at Kiwatule market on Tue 22 Sep and made her a lead on Wed 23 Sep (wants UGX 6M for a sewing machine), Moses put her on Joel's "Kiwatule leads" plan, and Joel completed her KYC on 30 Sep at 11:24. She counts as a client for Sarah, for Joel and for the branch.
+**The demo story, Florence Nambi:** Sarah prospected her at Kiwatule market on Tue 22 Sep and made her a lead on Wed 23 Sep (wants UGX 6M for a sewing machine), Moses put her on Joel's "Kiwatule leads" plan, and Joel completed her KYC on 30 Sep at 11:24. Her loan waits for Moses's approval; when it is disbursed she becomes a client, counted for Sarah, Joel and the branch.
 
 ---
 
@@ -130,14 +131,14 @@ Everything is stored on Letshego's servers. Every change goes into the [audit tr
 ## 8. Walkthrough script (about 10 minutes)
 
 1. **[W00 Sign in](https://letshego-prototype.vercel.app/prototype.html#w00):** "One sign-in for head office, branches and the field."
-2. **[W01 Sales overview](https://letshego-prototype.vercel.app/prototype.html#w01)** (Patricia): "The funnel you asked for: prospects, leads, KYC completed. 1 in 46 prospects became a client this quarter. Here's the quarter rhythm, time spent prospecting, and who needs attention today."
+2. **[W01 Sales overview](https://letshego-prototype.vercel.app/prototype.html#w01)** (Patricia): "The funnel you asked for: prospects, leads, KYC completed. 786 loans were disbursed: 1 in 61 prospects became a client this quarter. Here's the quarter rhythm, time spent prospecting, and who needs attention today."
 3. **[W02 Sales agents](https://letshego-prototype.vercel.app/prototype.html#w02):** "Prospects against route targets, leads, clients, hours prospecting. Each square is a week of prospecting; red = none."
 4. **[W03 Sarah](https://letshego-prototype.vercel.app/prototype.html#w03):** "Where Sarah has worked this quarter: every prospect, lead and client on the map, inside her territory."
 5. **Switch to Moses** (click the name): **[W01b Kampala East today](https://letshego-prototype.vercel.app/prototype.html#w01b):** "Each agent's route and target today, live. 14 leads wait for an officer." → **[W04 Field map](https://letshego-prototype.vercel.app/prototype.html#w04):** "Brian has left his territory; Moses was told."
 6. **[W10 Journey plans](https://letshego-prototype.vercel.app/prototype.html#w10):** route journey plans for agents ([W10b Sarah's week](https://letshego-prototype.vercel.app/prototype.html#w10b), [W10c new](https://letshego-prototype.vercel.app/prototype.html#w10c)) and lead journey plans for officers ([W10d](https://letshego-prototype.vercel.app/prototype.html#w10d), [W10e new](https://letshego-prototype.vercel.app/prototype.html#w10e)).
 7. **The app as Sarah** ([M2](https://letshego-prototype.vercel.app/prototype.html#m02) → Sarah): [M3 Home](https://letshego-prototype.vercel.app/prototype.html#m03): today's target 32/50, this week's prospects, leads and KYC (tap a card to open its list) → [Route journey plans](https://letshego-prototype.vercel.app/prototype.html#m04) → [Week 40](https://letshego-prototype.vercel.app/prototype.html#m04a): her route and target for each day → back to Home → **Add prospect** → [M5 Add a prospect](https://letshego-prototype.vercel.app/prototype.html#m05) (name, phone, location) → [M6 My prospects](https://letshego-prototype.vercel.app/prototype.html#m06) → [M7 Aisha](https://letshego-prototype.vercel.app/prototype.html#m07) → **Make a lead** → [M7b NIN, amount, location](https://letshego-prototype.vercel.app/prototype.html#m07b) → [M7c Lead created](https://letshego-prototype.vercel.app/prototype.html#m07c). Say once: "Calls happen on the phone as usual; the app records the result." Also: [M4b Prospect map](https://letshego-prototype.vercel.app/prototype.html#m04b), [M17 My leads](https://letshego-prototype.vercel.app/prototype.html#m17) (where each lead is now).
-8. **The app as Joel** ([M2](https://letshego-prototype.vercel.app/prototype.html#m02) → Joel): [M20 Home](https://letshego-prototype.vercel.app/prototype.html#m20) → **Plan** tab → [M21 Lead journey plans](https://letshego-prototype.vercel.app/prototype.html#m21) → [M21b Kiwatule leads](https://letshego-prototype.vercel.app/prototype.html#m21b) → **Check in** at Florence → [M9 her record](https://letshego-prototype.vercel.app/prototype.html#m09) (Sarah's lead details on Overview) → [KYC tab](https://letshego-prototype.vercel.app/prototype.html#m09b) → [M10](https://letshego-prototype.vercel.app/prototype.html#m10)–[M12](https://letshego-prototype.vercel.app/prototype.html#m12) → [M13 KYC completed: she's a client](https://letshego-prototype.vercel.app/prototype.html#m13) → Loan tab → [M14 calculator](https://letshego-prototype.vercel.app/prototype.html#m14) → [M15](https://letshego-prototype.vercel.app/prototype.html#m15) → [M16 submitted](https://letshego-prototype.vercel.app/prototype.html#m16) → [M16b check out](https://letshego-prototype.vercel.app/prototype.html#m16b). [M22](https://letshego-prototype.vercel.app/prototype.html#m22): Joel is an officer, also assigned a route journey plan for Friday.
-9. **[W06 Florence](https://letshego-prototype.vercel.app/prototype.html#w06):** "Her whole journey: prospect, lead, lead journey plan, visit, KYC, loan." → [W07](https://letshego-prototype.vercel.app/prototype.html#w07) / [W08](https://letshego-prototype.vercel.app/prototype.html#w08): "The loan decision is separate from the conversion."
+8. **The app as Joel** ([M2](https://letshego-prototype.vercel.app/prototype.html#m02) → Joel): [M20 Home](https://letshego-prototype.vercel.app/prototype.html#m20) → **Plan** tab → [M21 Lead journey plans](https://letshego-prototype.vercel.app/prototype.html#m21) → [M21b Kiwatule leads](https://letshego-prototype.vercel.app/prototype.html#m21b) → **Check in** at Florence → [M9 her record](https://letshego-prototype.vercel.app/prototype.html#m09) (Sarah's lead details on Overview) → [KYC tab](https://letshego-prototype.vercel.app/prototype.html#m09b) → [M10](https://letshego-prototype.vercel.app/prototype.html#m10)–[M12](https://letshego-prototype.vercel.app/prototype.html#m12) → [M13 KYC completed: ready for the loan](https://letshego-prototype.vercel.app/prototype.html#m13) → Loan tab → [M14 calculator](https://letshego-prototype.vercel.app/prototype.html#m14) → [M15](https://letshego-prototype.vercel.app/prototype.html#m15) → [M16 submitted](https://letshego-prototype.vercel.app/prototype.html#m16) → [M16b check out](https://letshego-prototype.vercel.app/prototype.html#m16b). [M22](https://letshego-prototype.vercel.app/prototype.html#m22): Joel is an officer, also assigned a route journey plan for Friday.
+9. **[W06 Florence](https://letshego-prototype.vercel.app/prototype.html#w06):** "Her whole journey: prospect, lead, lead journey plan, visit, KYC, loan." → [W07](https://letshego-prototype.vercel.app/prototype.html#w07) / [W08](https://letshego-prototype.vercel.app/prototype.html#w08): "Approve, and the loan goes to disbursement: that is when she becomes a client."
 10. **[W12 Users](https://letshego-prototype.vercel.app/prototype.html#w12) → [W12c Roles](https://letshego-prototype.vercel.app/prototype.html#w12c):** "Sales agents, officers and branch managers; one role each, and the branch manager can assign anyone extra work, like a route journey plan for an officer."
 
 ---
@@ -149,7 +150,7 @@ From our team's list (2 Oct) and the meeting. Our current assumption is in brack
 1. **Fields when prospecting** (name, phone number, GPS location; nothing else).
 2. **Fields when generating a lead** (NIN, loan amount, location). Their meeting note says a lead exists once name and phone are captured; we call that a prospect, and make it a lead once NIN and amount are known. **Which do they mean?**
 3. **Fields the relationship officer captures at the visit** (full KYC: details, NIRA ID and photos, income and collateral, CRB consent).
-4. **The funnel they envisage** (Prospects → Leads generated → KYC completed; conversion = prospect became a client).
+4. **The funnel they envisage** (Prospects → Leads generated → KYC completed; client = loan disbursed, confirmed by our team 6 Oct).
 5. **The reports they envisage** (daily prospecting summary, weekly funnel, silent staff and geofence alerts, reasons report).
 6. **Users:** sales agents, relationship officers and branch managers at branches; Head of Sales at HQ; a system admin. Anyone else?
 7. **Branch manager's role:** create territories and routes, give agents routes, give officers leads to visit, see branch reports. Correct?
@@ -171,7 +172,7 @@ From our team's list (2 Oct) and the meeting. Our current assumption is in brack
 
 **"Why split prospect and lead?"** Agents can capture a name in seconds on the street; the follow-up tells us who really wants a loan. Both numbers matter: one measures effort, the other interest.
 
-**"Does the loan decision change the numbers?"** No. The prospect became a client when KYC was completed. Approval rates are reported separately.
+**"When does a prospect count as a client?"** When the loan is disbursed. Until then they are a lead with KYC completed; rejected applications never become clients.
 
 **"What happens when someone leaves?"** Prospects, leads and clients belong to territories, not people. The branch manager gives the territory to someone else ([W12b](https://letshego-prototype.vercel.app/prototype.html#w12b)).
 

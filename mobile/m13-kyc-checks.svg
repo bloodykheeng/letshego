@@ -33,7 +33,7 @@
 <path d="M20 6L9 17l-5-5" fill="none" stroke="#15925A" stroke-width="2.57" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="KYC-completed" x="118.0" y="140.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="700" fill="#1B1C3A">KYC completed</text>
-<text id="Florence-is-now-a-client" x="118.0" y="162.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#0E6B41">Florence is now a client</text>
+<text id="Ready-for-the-loan-applicati" x="118.0" y="162.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#0E6B41">Ready for the loan application</text>
 <text id="6-of-6-checks-online-in-8" x="118.0" y="181.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">6 of 6 checks · online in 8 s</text>
 </g>
 <rect x="16.0" y="218.0" width="328.0" height="346.0" rx="14" fill="#FFFFFE" filter="url(#soft)"/>

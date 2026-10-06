@@ -3,8 +3,8 @@
 All names, figures and IDs are made up for the demo.
 
 The funnel (Letshego, 2 Oct 2026): sales agents prospect on routes the branch manager gives them, turn the
-prospects who want a loan into leads, and relationship officers visit the leads and complete KYC. A prospect whose KYC is
-completed is a client: that is the conversion.
+prospects who want a loan into leads, and relationship officers visit the leads and complete KYC, and send the loan application. A prospect becomes a
+client when the loan is disbursed: that is the conversion.
 """
 from __future__ import annotations
 
@@ -31,7 +31,7 @@ def _spread(total, weights):
 
 # The pattern the client described: busy in week 1, quiet until the last three weeks.
 RHYTHM = [14, 9.5, 4.6, 3.1, 2.7, 2.5, 2.8, 3.0, 3.8, 5.6, 10.5, 15.2, 19.7]
-CONV_Q = sum(b[3] for b in BRANCHES.values())          # 1,051 clients (KYC completed) = conversions
+CONV_Q = sum(b[3] for b in BRANCHES.values())          # 1,051 KYC completed (applications sent)
 TARGET_Q = sum(b[4] for b in BRANCHES.values())        # 1,382 clients
 AGENTS_N = sum(b[2] for b in BRANCHES.values())        # 62 sales agents
 ROS_N = 18                                             # relationship officers
@@ -54,7 +54,14 @@ FUNNEL = [
     ("KYC completed", CONV_Q, STAGE["KYC completed"]),
 ]
 APPROVED, REJECTED, PENDING = 812, 166, 73
-CONV_SPLY = 874   # new clients in Q3 2025, from core banking (no field data existed before the app)
+CLIENTS_Q = 786   # loans disbursed this quarter = new clients = conversions
+CLIENTS_SPLY = 655   # new clients in Q3 2025, from core banking (no field data existed before the app)
+CONV_SPLY = CLIENTS_SPLY
+
+
+def clients(kyc):
+    """Clients (loans disbursed) from KYC completed: about three in four applications are disbursed."""
+    return round(kyc * CLIENTS_Q / CONV_Q)
 
 
 def pct(a, b, digits=0):

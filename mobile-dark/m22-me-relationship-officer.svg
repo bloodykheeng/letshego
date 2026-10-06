@@ -48,9 +48,9 @@
 <text id="Leads-visited" x="32.0" y="288.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Leads visited</text>
 <text id="61" x="130.7" y="268.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="21" font-weight="700" fill="#CBCCE7">61</text>
 <text id="KYC-completed" x="130.7" y="288.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">KYC completed</text>
-<text id="29" x="229.3" y="268.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="21" font-weight="700" fill="#CBCCE7">29%</text>
-<text id="became-clients" x="229.3" y="288.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">became clients</text>
-<text id="Target-70-clients-87" x="32.0" y="306.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#A9F3D2">Target 70 clients · 87%</text>
+<text id="46" x="229.3" y="268.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="21" font-weight="700" fill="#CBCCE7">46</text>
+<text id="clients" x="229.3" y="288.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">clients</text>
+<text id="Target-70-KYC-87-client" x="32.0" y="306.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#A9F3D2">Target 70 KYC · 87% · clients = loans disbursed</text>
 </g>
 <text id="This-week" x="16.0" y="338.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#CBCCE7">This week</text>
 <text id="W40-28-Sep-2-Oct" x="233.7" y="338.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">W40 · 28 Sep – 2 Oct</text>

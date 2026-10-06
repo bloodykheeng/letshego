@@ -33,14 +33,14 @@
 <text id="FN" x="38.9" y="141.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17.6" font-weight="600" fill="#138351">FN</text>
 </g>
 <text id="Nambi-Tailoring-Fabrics" x="82.0" y="124.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1B1C3A">Nambi Tailoring &amp; Fabrics</text>
-<g id="chip-Client-KYC-completed">
-<rect x="82.0" y="136.0" width="147.4" height="22.0" rx="11.0" fill="#E3F2EB"/>
+<g id="chip-KYC-completed">
+<rect x="82.0" y="136.0" width="109.9" height="22.0" rx="11.0" fill="#E3F2EB"/>
 <circle cx="96.0" cy="147.0" r="4.0" fill="#15925A"/>
-<text id="Client-KYC-completed" x="106.0" y="151.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#12804F">Client · KYC completed</text>
+<text id="KYC-completed" x="106.0" y="151.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#12804F">KYC completed</text>
 </g>
 <g id="chip-UGX-6M">
-<rect x="235.4" y="136.0" width="61.6" height="22.0" rx="11.0" fill="#E6E6F0"/>
-<text id="UGX-6M" x="245.4" y="151.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#292871">UGX 6M</text>
+<rect x="197.9" y="136.0" width="61.6" height="22.0" rx="11.0" fill="#E6E6F0"/>
+<text id="UGX-6M" x="207.9" y="151.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#292871">UGX 6M</text>
 </g>
 </g>
 <g id="visit-bar">

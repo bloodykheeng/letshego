@@ -17,49 +17,49 @@
 <rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#1D1E27"/>
 <line x1="0.0" y1="80.0" x2="360.0" y2="80.0" stroke="#282932" stroke-width="1"/>
 <text id="Leads-clients" x="16.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#CBCCE7">Leads &amp; clients</text>
-<text id="Your-lead-journey-plans-61" x="16.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Your lead journey plans · 61 clients this quarter</text>
+<text id="61-KYC-completed-46-client" x="16.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">61 KYC completed · 46 clients this quarter</text>
 </g>
 <g id="filter-chips">
 <rect x="16.0" y="94.0" width="56.3" height="32.0" rx="16" fill="#4F4CC9"/>
 <text id="All-18" x="29.0" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#FFFFFF">All 18</text>
 <rect x="80.3" y="94.0" width="68.6" height="32.0" rx="16" fill="#1D1E27" stroke="#393B45" stroke-width="1"/>
 <text id="Leads-9" x="93.3" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">Leads 9</text>
-<rect x="156.9" y="94.0" width="74.6" height="32.0" rx="16" fill="#1D1E27" stroke="#393B45" stroke-width="1"/>
-<text id="Clients-6" x="169.9" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">Clients 6</text>
-<rect x="239.5" y="94.0" width="59.9" height="32.0" rx="16" fill="#1D1E27" stroke="#393B45" stroke-width="1"/>
-<text id="Lost-3" x="252.5" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">Lost 3</text>
+<rect x="156.9" y="94.0" width="59.0" height="32.0" rx="16" fill="#1D1E27" stroke="#393B45" stroke-width="1"/>
+<text id="KYC-4" x="169.9" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">KYC 4</text>
+<rect x="223.9" y="94.0" width="74.5" height="32.0" rx="16" fill="#1D1E27" stroke="#393B45" stroke-width="1"/>
+<text id="Clients-2" x="236.9" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">Clients 2</text>
 </g>
 <g id="client-Florence-Nambi">
 <rect x="16.0" y="140.0" width="328.0" height="84.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
 <rect x="16.0" y="152.0" width="4.0" height="60.0" rx="2" fill="#15925A"/>
 <text id="Florence-Nambi" x="34.0" y="166.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#CBCCE7">Florence Nambi</text>
-<g id="chip-Client">
-<rect x="269.2" y="152.0" width="62.8" height="22.0" rx="11.0" fill="#25332C"/>
-<circle cx="283.2" cy="163.0" r="4.0" fill="#15925A"/>
-<text id="Client" x="293.2" y="167.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">Client</text>
+<g id="chip-KYC-completed">
+<rect x="222.1" y="152.0" width="109.9" height="22.0" rx="11.0" fill="#25332C"/>
+<circle cx="236.1" cy="163.0" r="4.0" fill="#15925A"/>
+<text id="KYC-completed" x="246.1" y="167.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">KYC completed</text>
 </g>
 <text id="UGX-6M-from-Sarah" x="34.0" y="187.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">UGX 6M · from Sarah</text>
 <g id="icon-clock" transform="translate(34.0 198.0) scale(0.5833)">
 <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z" fill="none" stroke="#B0B1C7" stroke-width="3.43" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 6v6l4 2" fill="none" stroke="#B0B1C7" stroke-width="3.43" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="KYC-completed-11-24-applic" x="54.0" y="210.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">KYC completed 11:24 · application sent</text>
+<text id="11-24-loan-sent-for-approv" x="54.0" y="210.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">11:24 · loan sent for approval</text>
 </g>
 <g id="client-Betty-Nakimuli">
 <rect x="16.0" y="232.0" width="328.0" height="84.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
 <rect x="16.0" y="244.0" width="4.0" height="60.0" rx="2" fill="#15925A"/>
 <text id="Betty-Nakimuli" x="34.0" y="258.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#CBCCE7">Betty Nakimuli</text>
-<g id="chip-Client-2">
+<g id="chip-Client">
 <rect x="269.2" y="244.0" width="62.8" height="22.0" rx="11.0" fill="#25332C"/>
 <circle cx="283.2" cy="255.0" r="4.0" fill="#15925A"/>
-<text id="Client-2" x="293.2" y="259.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">Client</text>
+<text id="Client" x="293.2" y="259.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">Client</text>
 </g>
 <text id="UGX-2M-from-Sarah" x="34.0" y="279.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">UGX 2M · from Sarah</text>
 <g id="icon-clock-2" transform="translate(34.0 290.0) scale(0.5833)">
 <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z" fill="none" stroke="#B0B1C7" stroke-width="3.43" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 6v6l4 2" fill="none" stroke="#B0B1C7" stroke-width="3.43" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="KYC-completed-today-10-20" x="54.0" y="302.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">KYC completed today 10:20</text>
+<text id="Loan-disbursed-today-10-50" x="54.0" y="302.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">Loan disbursed today 10:50</text>
 </g>
 <g id="client-Ivan-Kasozi">
 <rect x="16.0" y="324.0" width="328.0" height="84.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>

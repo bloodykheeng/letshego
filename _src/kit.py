@@ -78,7 +78,8 @@ TEAL = "#0E8C99"
 # Client journey funnel, as Letshego described it after the first demo (2 Oct 2026). Order matters.
 # Prospect: name, phone and location captured by a sales agent in the field.
 # Lead: the agent called them; they want a loan, and the NIN, amount and location are captured.
-# KYC completed: a relationship officer visited the lead and completed KYC; the prospect is now a client (= conversion).
+# KYC completed: a relationship officer visited the lead and completed KYC; the loan application can go.
+# A prospect becomes a client only when the loan is disbursed (= conversion).
 STAGES = [
     ("Prospect", VIOLET),
     ("Lead", BLUE),

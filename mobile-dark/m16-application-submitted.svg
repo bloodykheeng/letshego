@@ -67,14 +67,14 @@
 </g>
 <g id="progress">
 <rect x="16.0" y="540.0" width="328.0" height="70.0" rx="14" fill="#49421D"/>
-<text id="Q3-62-of-70-clients" x="32.0" y="568.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#CBCCE7">Q3: 62 of 70 clients</text>
-<text id="1-at-KYC" x="268.0" y="568.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#A9F3D2">+1 at KYC</text>
+<text id="Q3-62-of-70-KYC-completed" x="32.0" y="568.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#CBCCE7">Q3: 62 of 70 KYC completed</text>
+<text id="1" x="311.3" y="568.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#A9F3D2">+1</text>
 <g id="progress-2">
 <rect x="32.0" y="584.0" width="296.0" height="8.0" rx="4.0" fill="#FFFFFF"/>
 <rect x="32.0" y="584.0" width="262.2" height="8.0" rx="4.0" fill="#4F4CC9"/>
 </g>
 </g>
-<text id="Sarah-is-told-too-her-lead" x="64.7" y="640.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">Sarah is told too: her lead became a client</text>
+<text id="You-and-Sarah-are-told-when" x="42.4" y="640.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">You and Sarah are told when the loan is disbursed</text>
 <g id="button-Close">
 <rect x="16.0" y="660.0" width="328.0" height="48.0" rx="12" fill="#4F4CC9"/>
 <g id="icon-x" transform="translate(149.9 675.0) scale(0.7500)">

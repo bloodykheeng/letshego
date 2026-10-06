@@ -17,7 +17,7 @@
 <rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#1D1E27"/>
 <line x1="0.0" y1="80.0" x2="360.0" y2="80.0" stroke="#282932" stroke-width="1"/>
 <text id="My-leads" x="16.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#CBCCE7">My leads</text>
-<text id="286-this-quarter-41-became" x="16.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">286 this quarter · 41 became clients</text>
+<text id="286-this-quarter-31-became" x="16.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">286 this quarter · 31 became clients</text>
 </g>
 <g id="filter-chips">
 <rect x="16.0" y="94.0" width="56.6" height="32.0" rx="16" fill="#4F4CC9"/>
@@ -26,8 +26,8 @@
 <text id="Waiting-3" x="93.6" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">Waiting 3</text>
 <rect x="169.0" y="94.0" width="91.2" height="32.0" rx="16" fill="#1D1E27" stroke="#393B45" stroke-width="1"/>
 <text id="On-a-plan-6" x="182.0" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">On a plan 6</text>
-<rect x="268.1" y="94.0" width="74.5" height="32.0" rx="16" fill="#1D1E27" stroke="#393B45" stroke-width="1"/>
-<text id="Clients-3" x="281.1" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">Clients 3</text>
+<rect x="268.1" y="94.0" width="58.7" height="32.0" rx="16" fill="#1D1E27" stroke="#393B45" stroke-width="1"/>
+<text id="KYC-3" x="281.1" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">KYC 3</text>
 </g>
 <g id="lead-Aisha-Nalubega">
 <rect x="16.0" y="140.0" width="328.0" height="80.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
@@ -59,23 +59,23 @@
 <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z" fill="none" stroke="#9396AA" stroke-width="3.43" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 6v6l4 2" fill="none" stroke="#9396AA" stroke-width="3.43" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Joel-Byaruhanga-today-11-2" x="54.0" y="295.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Joel Byaruhanga · today 11:24 · now a client</text>
+<text id="Joel-Byaruhanga-today-11-2" x="54.0" y="295.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Joel Byaruhanga · today 11:24 · loan sent</text>
 </g>
 <g id="lead-Betty-Nakimuli">
 <rect x="16.0" y="316.0" width="328.0" height="80.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
 <rect x="16.0" y="328.0" width="4.0" height="56.0" rx="2" fill="#15925A"/>
 <text id="Betty-Nakimuli" x="34.0" y="342.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#CBCCE7">Betty Nakimuli</text>
-<g id="chip-KYC-completed-2">
-<rect x="222.1" y="328.0" width="109.9" height="22.0" rx="11.0" fill="#25332C"/>
-<circle cx="236.1" cy="339.0" r="4.0" fill="#15925A"/>
-<text id="KYC-completed-2" x="246.1" y="343.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">KYC completed</text>
+<g id="chip-Client">
+<rect x="269.2" y="328.0" width="62.8" height="22.0" rx="11.0" fill="#25332C"/>
+<circle cx="283.2" cy="339.0" r="4.0" fill="#15925A"/>
+<text id="Client" x="293.2" y="343.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#9CF1CB">Client</text>
 </g>
 <text id="UGX-2-000-000-2" x="34.0" y="362.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#B0B1C7">UGX 2,000,000</text>
 <g id="icon-clock-3" transform="translate(34.0 371.0) scale(0.5833)">
 <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z" fill="none" stroke="#9396AA" stroke-width="3.43" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 6v6l4 2" fill="none" stroke="#9396AA" stroke-width="3.43" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Joel-Byaruhanga-today-10-2" x="54.0" y="383.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Joel Byaruhanga · today 10:20</text>
+<text id="Loan-disbursed-today-KYC-b" x="54.0" y="383.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Loan disbursed today · KYC by Joel</text>
 </g>
 <g id="lead-Ivan-Kasozi">
 <rect x="16.0" y="404.0" width="328.0" height="80.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>

@@ -53,8 +53,8 @@ def w07_approvals():
     with s.g("rule banner"):
         s.rect(X0, ty, CW, 48, fill=tint(GREEN, 0.08), rx=10, stroke=tint(GREEN, 0.35))
         s.icon("info", X0 + 16, ty + 14, 20, GREEN_D, 2)
-        s.text(X0 + 46, ty + 29, "These leads became clients when their KYC was completed: that is the conversion. Your loan "
-                                 "decision is recorded separately and doesn't change it.",
+        s.text(X0 + 46, ty + 29, "KYC is completed for these leads. Approve and the loan goes to disbursement: a lead becomes a "
+                                 "client when the loan is disbursed.",
                13.5, 600, GREEN_D)
     cols = [("Application", 200, "start"), ("Client", 210, "start"), ("Officer", 210, "start"),
             ("Product", 220, "start"), ("Amount", 150, "end"), ("KYC items", 110, "start"),
@@ -222,7 +222,7 @@ def w09_reasons():
                                           ("Not now, maybe next term", 11), ("Doesn't trust lenders", 7),
                                           ("Needs a bigger amount", 6), ("Other", 7)], RED, label_w=210)
     x2 = X0 + cw3 + 20
-    card(s, x2, ry, cw3, ch, "Why clients took a loan", "1,051 new clients")
+    card(s, x2, ry, cw3, ch, "Why clients took a loan", "786 new clients (loans disbursed)")
     hbars(s, x2 + 24, ry + 90, cw3 - 48, [("School fees", 29), ("Business stock / working capital", 27),
                                           ("Home improvement", 16), ("Farm inputs / equipment", 11),
                                           ("Medical bills", 7), ("Clearing another debt", 6), ("Other", 4)], GREEN,
@@ -311,7 +311,7 @@ def w10_plans():
         kpi(s, X0 + i * (kw + 16), ky, kw, 140, ic, col, lab, val, sub, fr)
     s.link(X0 + 3 * (kw + 16), ky, kw, 140, "w10e")
     ty = ky + 160
-    s.text(X0, ty + 20, "Route journey plans · prospecting", 17, 700, INK)
+    s.text(X0, ty + 20, "Route journey plans · sales agents", 17, 700, INK)
     s.text(X1, ty + 20, "Click a plan to see its days, routes and prospects", 12.5, 400, MUTED, anchor="end")
     tby = ty + 36
     cols = [("Assigned to", 290, "start"), ("Territory", 230, "start"), ("Week", 180, "start"),
@@ -1023,7 +1023,7 @@ def w10d_lead_plan():
     for i, (ic, col, lab, val, sub, fr) in enumerate([
             ("flag", STAGE["Lead"], "Leads in plan", "12", "UGX 35.5M asked in total", None),
             ("check", TEAL, "Visited", "8 of 12", "67% · on day 3 of 5", 8 / 12),
-            ("idcard", STAGE["KYC completed"], "KYC completed", "4", "new clients · goal 8", 4 / 8),
+            ("idcard", STAGE["KYC completed"], "KYC completed", "4", "goal 8 · applications sent", 4 / 8),
             ("clock", AMBER, "Due today", "1", "Ivan Kasozi at 12:30", None),
             ("x", RED, "Said no at the visit", "1", "Doreen: interest rate", None)]):
         kpi(s, X0 + i * (kw + 16), ky, kw, 140, ic, col, lab, val, sub, fr)

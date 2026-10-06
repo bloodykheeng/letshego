@@ -51,7 +51,7 @@
 <text id="2-6-h-prospecting" x="225.8" y="258.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#231F0F">2.6 h prospecting</text>
 </g>
 <text id="This-week" x="16.0" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#1B1C3A">This week</text>
-<text id="prospects-to-clients" x="241.4" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">prospects to clients</text>
+<text id="prospects-leads-KYC" x="226.0" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">prospects · leads · KYC</text>
 <g id="stats">
 <rect x="16.0" y="312.0" width="104.0" height="84.0" rx="18" fill="#FFFFFE" filter="url(#soft)"/>
 <circle cx="34.0" cy="332.0" r="4.0" fill="#7056D6"/>

@@ -19,7 +19,7 @@ reachable, committed and pushed to `main` (cf11e7c).
   m07 prospect (Aisha) → m07b make a lead → m07c lead created · m08 no loan: why · m17 my leads · m19 Me.
 - **App, relationship officer (Joel):** m20 Home · m21 lead journey plans list → m21b Kiwatule leads ·
   m09–m09f / m18–m18d Florence's record (Overview shows lead details from Sarah; History tab) ·
-  m10–m13 KYC (m13 = KYC completed, now a client) · m14–m16b loan · m23 leads & clients · m22 Me.
+  m10–m13 KYC (m13 = KYC completed, ready for the loan) · m14–m16b loan · m23 leads & clients · m22 Me.
 - **Shell:** 4-tab bottom bar per role (`NAV_ITEMS`), no centre button; `add_button` floating action;
   M2 sign-in has demo buttons for Sarah / Joel.
 - **Console:** w01 head office (funnel, prospect → client %, time prospecting, prospects-to-clients by
@@ -49,8 +49,9 @@ reachable, committed and pushed to `main` (cf11e7c).
   manager runs the branch. Rejected: Region level and the Regional Manager role.
 - **Funnel: Prospects → Leads generated → KYC completed**, shown on cards everywhere, including Moses's side.
   "KYC captured" was renamed because it "feels weird"; small cards say "KYC" + "completed".
-- **Conversion = prospect became a client (KYC completed)**, shown as prospect → client %. Rejected:
-  branch conversion league tables ("don't show branches conversion").
+- **Client = loan disbursed; conversion = prospect → client** (team correction after this note was first
+  written: "Clients are when a loan is disbursed"). KYC completed is a funnel stage, not a client.
+  Rejected: "KYC completed = client" (my earlier assumption) and branch conversion league tables.
 - **Prospect = name, phone number, location. Lead = + NIN, loan amount, location.** Nothing else on those
   forms. Rejected: "where you met", notes, "what for", "best day to visit".
 - **No calling in the app** ("this is not a dialer app"): agents call from their own phone; the app only
@@ -58,6 +59,8 @@ reachable, committed and pushed to `main` (cf11e7c).
 - **Route journey plan** (level 1): branch manager gives a sales agent a route per day + a prospect target.
   **Lead journey plan** (level 5): branch manager gives a relationship officer leads to visit. Use these
   exact names. Plans open from a **list first**, then the plan.
+- **Console menu:** Journey plans sits right under Overview (team: it looked misplaced after Loans);
+  route journey plans are headed "sales agents", not "prospecting".
 - **One role per user**; a branch manager can *assign* other work (Joel, an officer, gets a route plan for
   Friday). Rejected: one user holding two roles.
 - **Navigation:** plain 4-tab bar; actions sit on the screen they belong to (+ Add prospect). Summary

@@ -860,11 +860,6 @@ def m19_me():
         s.text(PAD + 76, 82, "Sarah Namuli", 19, 700, INK)
         s.text(PAD + 76, 104, "Field Sales Agent · LU-0877", 12.5, 400, MUTED)
         s.text(PAD + 76, 124, "Supervisor: Moses Okello", 12.5, 400, MUTED)
-    with s.g("theme switch"):
-        s.circle(MW - PAD - 20, 60, 20, fill=CARD, shadow=True)
-        s.icon("moon", MW - PAD - 30, 50, 20, INK, 2)
-        s.text(MW - PAD - 20, 96, "Theme", 10.5, 600, MUTED, anchor="middle")
-    s.link(MW - PAD - 44, 36, 48, 68, "!theme")
     with s.g("quarter"):
         y = 136
         s.rect(PAD, y, MW - 2 * PAD, 100, fill=CARD, rx=20, stroke=LINE)

@@ -104,11 +104,6 @@ def shell(title: str, active: str, crumbs: list[str], user=MGMT, period="Quarter
             s.icon("bell", rx, 23, 22, INK2)
             s.circle(rx + 19, 25, 7, fill=RED)
             s.text(rx + 19, 29, "5", 10, 700, "#FFFFFF", anchor="middle")
-        rx -= 48
-        with s.g("theme switch"):
-            s.circle(rx + 11, 34, 18, fill="#F4F5FA", shadow=False)
-            s.icon("moon", rx + 1, 24, 20, INK2, 2)
-        s.link(rx - 8, 14, 38, 40, "!theme")
         rx -= 290
         with s.g("search"):
             s.rect(rx, 16, 266, 36, fill="#F4F5FA", rx=8, stroke=LINE)
@@ -283,10 +278,6 @@ def w00_sign_in():
 
     wordmark(s, 64, 78, 26, INK)
     s.text(66, 102, "Field Sales · Uganda", 13, 400, MUTED)
-    with s.g("theme switch"):
-        s.circle(W - 84, 66, 22, fill=CARD, shadow=True)
-        s.icon("moon", W - 95, 55, 22, INK, 2)
-    s.link(W - 108, 42, 48, 48, "!theme")
 
     # ---- floating product previews
     with s.g("preview conversions", transform="rotate(-3 470 360)"):

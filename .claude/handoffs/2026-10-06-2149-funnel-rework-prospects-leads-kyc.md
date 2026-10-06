@@ -1,5 +1,5 @@
 # Handoff: funnel rework after the first demo (prospects, leads, KYC completed)
-_Date: 2026-10-06 21:49 · Author: Claude_
+_Date: 2026-10-06 21:49 · updated 22:42 · Author: Claude_
 
 ## Goal
 Rework the prototype around what Letshego asked for at the first demo (2 Oct): lead generation, the
@@ -8,7 +8,9 @@ which are pasted below and are the reference for every decision.
 
 ## Status
 Done for the second demo: 59 screens (22 web, 37 app), light + dark, all links valid, every screen
-reachable, committed and pushed to `main` (cf11e7c).
+reachable, all committed and pushed to `main`. Commits this session: 681b378 / 6efe857 (dark mode out and
+back), cf11e7c (funnel rework), 5694906 (this note), 7cf07bb (docs), 2fa2f6d (client = loan disbursed,
+menu order), then the docs/URL/handoff refresh.
 
 ## What changed
 - **Funnel and data:** `STAGES` in [kit.py](../../_src/kit.py) is now Prospect · Lead · KYC completed;
@@ -22,17 +24,24 @@ reachable, committed and pushed to `main` (cf11e7c).
   m10–m13 KYC (m13 = KYC completed, ready for the loan) · m14–m16b loan · m23 leads & clients · m22 Me.
 - **Shell:** 4-tab bottom bar per role (`NAV_ITEMS`), no centre button; `add_button` floating action;
   M2 sign-in has demo buttons for Sarah / Joel.
-- **Console:** w01 head office (funnel, prospect → client %, time prospecting, prospects-to-clients by
-  agent) · **w01b** new, Moses's "Kampala East today" · w02 sales agents · w03 where Sarah has worked (map
+- **Console:** w01 head office (funnel, New clients = loans disbursed with conversion %, time prospecting,
+  prospects → KYC → clients by agent) · **w01b** new, Moses's "Kampala East today" · w02 sales agents · w03 where Sarah has worked (map
   layers) · w04 field map (geofence alert on Brian) · w05 pipeline · w06 Florence's journey ·
   w10 journey plans (route + lead) · **w10b–w10e** route/lead journey plan detail and new · w11/w11b
   locations without Region · w12/w12b/w12c users and roles (Regional Manager removed).
-- **Docs:** README (screen table, rules) and BRIEFING (rewritten for the second demo, incl. the team's
-  questions) are current; `briefing.html` regenerated.
+- **Client = loan disbursed** (team, late in the session): `CLIENTS_Q` = 786 and `clients()` in data.py
+  (about 3 in 4 KYC-completed leads get a loan); conversion everywhere uses disbursed loans; w07 banner,
+  w06 journey (ends at "Loan disbursed: client"), m13/m15/m16 and the app lists no longer call KYC a client.
+- **Console menu** (`NAV` in web.py): SALES (Overview) · PLANNING (Journey plans) · FIELD (Agents, Field map,
+  Client pipeline) · LOANS · ADMIN. W10 headings: "Route journey plans · sales agents".
+- **Live URL is letshego.vercel.app** (Vercel project "letshego"); build.py, index.html, briefing.py,
+  README, BRIEFING and the /handoff command were switched from letshego-prototype.vercel.app.
+- **Docs:** README (screen table §4, rules §6, presenting §10) and BRIEFING (what changed, getting around
+  the app, walkthrough, data flow, questions) are current; `briefing.html` regenerated.
 - Dark mode: removed then restored the same session; branch `with-dark-mode` on GitHub is now redundant.
 
 ## Uncommitted / in-flight
-- none: all committed and pushed (this note is committed separately).
+- none: all committed and pushed.
 
 ## Next steps
 1. Walk the demo path in the browser (BRIEFING §8) and fix whatever the user flags.
@@ -76,6 +85,8 @@ reachable, committed and pushed to `main` (cf11e7c).
 | "He selects on the leads": does the officer pick leads himself? | nothing | Currently Moses picks (w10e); add officer self-pick only if confirmed |
 | Approval matrix and roles per approval level | approvals screens detail | Ask Letshego (BRIEFING §9 items 8–9) |
 | Keep the "No loan: why" button (m08)? | nothing | Kept: the original brief asked for why/why not |
+| Per-agent client counts | nothing; illustrative | Estimated as 3 in 4 KYC-completed leads; replace with Letshego's real numbers |
+| "FIELD" as the menu heading for Agents / Field map / Client pipeline | nothing | My name for the group; rename if the user prefers |
 
 ## Gotchas & context
 - Patch big edits with Python scripts written to files; inline bash heredocs with quotes break.
@@ -83,6 +94,8 @@ reachable, committed and pushed to `main` (cf11e7c).
 - Renamed screen titles leave old SVGs in `web/`, `mobile/` and both `-dark` folders: delete them
   (tracked: `git rm -f`; untracked: `rm`) or `combine.py` picks them up.
 - `"m04"` / `"m21"` are the plan **lists**; `m04a` / `m21b` are the plans. Hub back depends on `during`.
+- "Client" now means loan disbursed: when adding numbers, KYC counts use `CONV_Q`/`c`, client counts use
+  `CLIENTS_Q`/`clients(c)`. Don't put "client" on a KYC-completed lead.
 - The user's notes (2 Oct), verbatim, for reference:
 
 ```
@@ -103,9 +116,9 @@ client journey funnel: prospects · leads generated · KYC captured (now "KYC co
 - Docs written or updated: `README.md` (rules §6, screen table §4), `BRIEFING.md` (+ `briefing.html`)
 - Previous handoff: `2026-09-30-2205-letshego-field-sales-mockups-first-build.md` (its funnel and role
   decisions are superseded by this note)
-- Live prototype: https://letshego-prototype.vercel.app (if the Vercel project name differs, see README §8)
+- Live prototype: https://letshego.vercel.app (if the Vercel project is renamed, see README §8)
 - Session transcript: `~/.claude/projects/d--coding-new-wave-letshego/942a1a9b-c475-4f20-a7cd-4780062a47ef.jsonl`
-  (~21 MB). **Grep it, never read it whole.** Last resort only, for something this note failed to capture.
+  (~22 MB). **Grep it, never read it whole.** Last resort only, for something this note failed to capture.
 
 ## How to verify
 - `cd _src && python build.py && python combine.py && python briefing.py` (expect "22 web + 37 mobile")

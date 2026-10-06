@@ -44,12 +44,12 @@ PROTO = r"""<!doctype html>
 <meta property="og:site_name" content="Letshego Field Sales prototype">
 <meta property="og:title" content="Letshego Field Sales: clickable prototype">
 <meta property="og:description" content="Prospects, leads generated, KYC completed: route plans with targets, a field app with GPS, and dashboards showing which prospects became clients. Illustrative data.">
-<meta property="og:url" content="https://letshego-prototype.vercel.app/prototype.html">
-<meta property="og:image" content="https://letshego-prototype.vercel.app/og-image.jpg">
+<meta property="og:url" content="https://letshego.vercel.app/prototype.html">
+<meta property="og:image" content="https://letshego.vercel.app/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://letshego-prototype.vercel.app/og-image.jpg">
+<meta name="twitter:image" content="https://letshego.vercel.app/og-image.jpg">
 <style>
   :root { --bg:#14142B; --bar:#1F1E45; --ink:#ECECF8; --muted:#A3A2C9; --accent:#FBD405; }
   html, body { margin:0; height:100%; background:var(--bg); color:var(--ink); font:14px "Segoe UI", system-ui, sans-serif; overflow:hidden; }

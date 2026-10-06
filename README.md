@@ -2,7 +2,7 @@
 
 Demo-stage prototype of a field sales app for **Letshego Uganda**: an Android app for sales agents and relationship officers, and a web console for branch managers and head office (brief of 29 September 2026; reworked after the first demo, 2 October 2026).
 
-- **Live prototype:** https://letshego-prototype.vercel.app (Vercel redeploys on every push to `main`)
+- **Live prototype:** https://letshego.vercel.app (Vercel redeploys on every push to `main`)
 - **Team briefing** (internal, not for Letshego): [`BRIEFING.md`](BRIEFING.md) · web version at `/briefing.html`
 - **59 screens:** 22 web (1920×1080) and 37 screens of the Android field app (360×800, to be built in Flutter)
 - All names, figures, IDs and loan products are **illustrative**. District boundaries are real (UBOS).
@@ -156,7 +156,7 @@ Based on current fintech and CRM app patterns: light, restrained, one strong acc
 - **Python 3 + Pillow** (`pip install pillow`). Nothing else.
 - **PNG previews** use headless Chrome at `C:\Program Files\Google\Chrome\Application\chrome.exe`. It won't render narrower than about 500px, so phone PNGs look cut off even when the real page is fine.
 - **Vercel:** framework preset "Other", no build command, output directory = repo root. Generated files are committed; Vercel never runs Python.
-- **The URL `letshego-prototype.vercel.app` is assumed.** If the Vercel project gets another name, update it in the `PROTO` template (`build.py`), `index.html`, `_src/briefing.py` and the links in `BRIEFING.md`, then rebuild.
+- **The live URL is `letshego.vercel.app`** (Vercel project "letshego"). If the project is ever renamed, update the URL in the `PROTO` template (`build.py`), `index.html`, `_src/briefing.py` and the links in `BRIEFING.md`, then rebuild.
 
 ---
 

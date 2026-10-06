@@ -161,7 +161,7 @@ def main():
 <meta name="description" content="Internal team briefing: the Letshego Field Sales brief in plain language, the client journey, and how the prototype answers each request.">
 <meta property="og:title" content="Letshego Field Sales: team briefing">
 <meta property="og:description" content="Internal notes: the brief in plain language, questions for the client, and the demo walkthrough.">
-<meta property="og:image" content="https://letshego-prototype.vercel.app/og-image.jpg">
+<meta property="og:image" content="https://letshego.vercel.app/og-image.jpg">
 <style>{CSS}</style>
 </head>
 <body>

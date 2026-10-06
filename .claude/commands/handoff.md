@@ -74,7 +74,7 @@ _Date: <YYYY-MM-DD HH:mm> · Author: Claude_
 
 ## Where the record lives
 - Docs written or updated: <README.md, BRIEFING.md, …: the next session reads those before the note>
-- Live prototype: https://letshego-prototype.vercel.app (if the Vercel project name differs, see README §8)
+- Live prototype: https://letshego.vercel.app (if the Vercel project is renamed, see README §8)
 - Session transcript: `~/.claude/projects/<slug>/<session-id>.jsonl` (~NN MB).
   **Grep it, never read it whole.** Last resort only, for something this note failed to capture.
 

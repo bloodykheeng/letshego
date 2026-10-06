@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
+<title>M7b Joseph: check out</title>
+<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#1D1E27"/>
+<g id="status-bar">
+<text id="10-58" x="16.0" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#CBCCE7">10:58</text>
+<rect id="battery" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#CBCCE7" stroke-width="1.2"/>
+<rect x="324.0" y="10.0" width="13.0" height="6.0" rx="1" fill="#1B1C3A"/>
+<rect x="342.5" y="11.0" width="2.0" height="4.0" rx="1" fill="#1B1C3A"/>
+<rect id="signal-bar" x="292.0" y="14.0" width="3.0" height="3.0" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-2" x="297.0" y="11.8" width="3.0" height="5.2" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-3" x="302.0" y="9.6" width="3.0" height="7.4" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-4" x="307.0" y="7.4" width="3.0" height="9.6" rx="0.8" fill="#1B1C3A" fill-opacity="0.3"/>
+<text id="network" x="270.5" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#CBCCE7">4G</text>
+</g>
+<g id="app-bar">
+<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#1D1E27"/>
+<line x1="0.0" y1="80.0" x2="360.0" y2="80.0" stroke="#282932" stroke-width="1"/>
+<g id="icon-arrowleft" transform="translate(16.0 40.0) scale(1.0000)">
+<path d="M19 12H5" fill="none" stroke="#CBCCE7" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 19l-7-7 7-7" fill="none" stroke="#CBCCE7" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Check-out" x="56.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#CBCCE7">Check out</text>
+<text id="Joseph-Kiggundu-first-visi" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Joseph Kiggundu · first visit · 10:52–10:58</text>
+</g>
+<text id="Is-he-interested-in-a-loan" x="16.0" y="100.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#CBCCE7">Is he interested in a loan?</text>
+<g id="outcome-Interested">
+<rect x="16.0" y="114.0" width="328.0" height="50.0" rx="12" fill="#1F2A24" stroke="#91EFC5" stroke-width="2"/>
+<g id="radio">
+<circle cx="38.0" cy="139.0" r="9.0" fill="#1D1E27" stroke="#91EFC5" stroke-width="1.8"/>
+<circle cx="38.0" cy="139.0" r="4.5" fill="#15925A"/>
+</g>
+<text id="Interested" x="58.0" y="135.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Interested</text>
+<text id="Book-a-visit-to-take-KYC" x="58.0" y="153.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">Book a visit to take KYC</text>
+</g>
+<g id="outcome-Needs-time-to-think">
+<rect x="16.0" y="170.0" width="328.0" height="50.0" rx="12" fill="#1D1E27" stroke="#282932" stroke-width="1"/>
+<g id="radio-2">
+<circle cx="38.0" cy="195.0" r="9.0" fill="#1D1E27" stroke="#41434C" stroke-width="1.8"/>
+</g>
+<text id="Needs-time-to-think" x="58.0" y="191.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Needs time to think</text>
+<text id="Book-a-follow-up-visit" x="58.0" y="209.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">Book a follow-up visit</text>
+</g>
+<g id="outcome-Not-interested">
+<rect x="16.0" y="226.0" width="328.0" height="50.0" rx="12" fill="#1D1E27" stroke="#282932" stroke-width="1"/>
+<g id="radio-3">
+<circle cx="38.0" cy="251.0" r="9.0" fill="#1D1E27" stroke="#41434C" stroke-width="1.8"/>
+</g>
+<text id="Not-interested" x="58.0" y="247.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Not interested</text>
+<text id="Capture-why" x="58.0" y="265.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">Capture why</text>
+</g>
+<g id="outcome-Not-available">
+<rect x="16.0" y="282.0" width="328.0" height="50.0" rx="12" fill="#1D1E27" stroke="#282932" stroke-width="1"/>
+<g id="radio-4">
+<circle cx="38.0" cy="307.0" r="9.0" fill="#1D1E27" stroke="#41434C" stroke-width="1.8"/>
+</g>
+<text id="Not-available" x="58.0" y="303.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Not available</text>
+<text id="Logged-as-a-visit-attempt" x="58.0" y="321.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">Logged as a visit attempt</text>
+</g>
+<text id="Next-visit" x="16.0" y="350.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#CBCCE7">Next visit</text>
+<g id="field-Date">
+<text id="label" x="16.0" y="372.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Date</text>
+<text id="required" x="47.6" y="372.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#DE7B76">*</text>
+<rect id="input" x="16.0" y="380.0" width="159.0" height="42.0" rx="12" fill="#1D1E27" stroke="#393B45" stroke-width="1"/>
+<g id="icon-calendar" transform="translate(28.0 392.0) scale(0.7500)">
+<path d="M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" fill="none" stroke="#9396AA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 2v4" fill="none" stroke="#9396AA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 2v4" fill="none" stroke="#9396AA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 10h18" fill="none" stroke="#9396AA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="value" x="56.0" y="405.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#CBCCE7">Fri 2 Oct</text>
+</g>
+<g id="field-Time">
+<text id="label-2" x="185.0" y="372.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Time</text>
+<rect id="input-2" x="185.0" y="380.0" width="159.0" height="42.0" rx="12" fill="#1D1E27" stroke="#393B45" stroke-width="1"/>
+<g id="icon-clock" transform="translate(197.0 392.0) scale(0.7500)">
+<path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z" fill="none" stroke="#9396AA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 6v6l4 2" fill="none" stroke="#9396AA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="value-2" x="225.0" y="405.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#CBCCE7">10:00</text>
+</g>
+<text id="Ask-him-to-have-ready" x="16.0" y="450.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Ask him to have ready</text>
+<g id="pill-National-ID">
+<rect x="16.0" y="458.0" width="102.5" height="30.0" rx="15.0" fill="#24242D" stroke="#A09FDD" stroke-width="1"/>
+<g id="icon-check" transform="translate(27.0 466.0) scale(0.5833)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#A09FDD" stroke-width="4.46" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="National-ID" x="45.0" y="477.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#A09FDD">National ID</text>
+</g>
+<g id="pill-Trading-licence">
+<rect x="126.5" y="458.0" width="122.9" height="30.0" rx="15.0" fill="#24242D" stroke="#A09FDD" stroke-width="1"/>
+<g id="icon-check-2" transform="translate(137.5 466.0) scale(0.5833)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#A09FDD" stroke-width="4.46" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Trading-licence" x="155.5" y="477.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#A09FDD">Trading licence</text>
+</g>
+<g id="pill-Sales-book">
+<rect x="16.0" y="496.0" width="99.1" height="30.0" rx="15.0" fill="#24242D" stroke="#A09FDD" stroke-width="1"/>
+<g id="icon-check-3" transform="translate(27.0 504.0) scale(0.5833)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#A09FDD" stroke-width="4.46" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Sales-book" x="45.0" y="515.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#A09FDD">Sales book</text>
+</g>
+<g id="add-to-plan">
+<rect x="16.0" y="540.0" width="328.0" height="50.0" rx="12" fill="#1A1A26"/>
+<g id="icon-route" transform="translate(30.0 554.0) scale(0.8333)">
+<path d="M6 16a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#A09FDD" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15" fill="none" stroke="#A09FDD" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 2a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#A09FDD" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Add-to-a-journey-plan" x="60.0" y="561.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Add to a journey plan</text>
+<text id="Kiwatule-follow-ups" x="60.0" y="578.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">Kiwatule follow-ups</text>
+<g id="toggle">
+<rect x="294.0" y="555.0" width="36.0" height="20.0" rx="10" fill="#4F4CC9"/>
+<circle cx="320.0" cy="565.0" r="7.5" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="footer">
+<rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#1D1E27"/>
+<line x1="0.0" y1="716.0" x2="360.0" y2="716.0" stroke="#282932" stroke-width="1"/>
+<g id="button-Check-out">
+<rect x="16.0" y="730.0" width="328.0" height="48.0" rx="12" fill="#4F4CC9"/>
+<g id="icon-logout" transform="translate(135.2 745.0) scale(0.7500)">
+<path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 17l5-5-5-5" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21 12H9" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Check-out-2" x="161.2" y="759.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Check out</text>
+</g>
+</g>
+<rect id="gesture-bar" x="126.0" y="792.0" width="108.0" height="4.0" rx="2" fill="#1B1C3A" fill-opacity="0.45"/>
+</svg>

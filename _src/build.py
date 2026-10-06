@@ -14,6 +14,7 @@ OUT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 
 import mobile  # noqa: E402
+import theme  # noqa: E402
 import web  # noqa: E402
 import web2  # noqa: E402
 
@@ -96,7 +97,7 @@ PROTO = r"""<!doctype html>
   <button id="web">Web<span class="long"> console</span></button><button id="mob">Agent<span class="long"> app (Android)</span></button>
   <button id="fs" title="Full screen (F) · Esc to exit">&#x26F6;<span class="long"> Full screen</span></button>
   <span id="ready"></span><span class="sp"></span>
-  <span class="hint">← → keys · H hotspots · F full screen · Esc exit</span>
+  <span class="hint">← → keys · H hotspots · F full screen · D dark mode · Esc exit</span>
   <span class="pill">Illustrative data</span>
 </div>
 <script>
@@ -105,7 +106,9 @@ const AUTO = { m01: ['m02', 1800] };  // splash moves on by itself
 const order = SCREENS.map(s => s.key);
 const byKey = Object.fromEntries(SCREENS.map(s => [s.key, s]));
 // Download every screen up front so the walkthrough keeps working if the connection drops.
-const srcOf = s => s.src;
+let theme = 'light';
+try { theme = localStorage.getItem('letshego-theme') || 'light'; } catch (e) {}
+const srcOf = s => theme === 'dark' ? s.src.replace(/^(web|mobile)\//, '$1-dark/') : s.src;
 const CACHE = {}; let loaded = 0;
 function preload() {
   loaded = 0;
@@ -113,7 +116,7 @@ function preload() {
     const im = new Image();
     im.onload = () => { loaded++; document.getElementById('ready').textContent =
       loaded === SCREENS.length ? '✓ Offline-ready' : `Loading ${loaded}/${SCREENS.length}…`; };
-    im.src = srcOf(s); CACHE[s.key] = im;
+    im.src = srcOf(s); CACHE[theme + s.key] = im;
   });
 }
 preload();
@@ -138,7 +141,7 @@ function go(key, push = true, record = true) {
   if (record && cur && cur !== key) { hist.push(cur); if (hist.length > 60) hist.shift(); }
   cur = key; const s = byKey[key];
   frame.className = s.mobile ? 'mobile' : ''; if (showAll) frame.classList.add('show');
-  const cached = CACHE[key];
+  const cached = CACHE[theme + key];
   if (cached && cached.complete && cached.naturalWidth) { img.src = cached.src; }
   else {
     frame.classList.add('loading');
@@ -150,11 +153,11 @@ function go(key, push = true, record = true) {
   s.links.forEach(([x, y, w, h, t]) => {
     const isBack = t.startsWith('!back:'), isTab = t.startsWith('!tab:');
     const dest = isTab ? t.slice(5) : t;
-    if (!isBack && !byKey[dest]) return;
+    if (t !== '!theme' && !isBack && !byKey[dest]) return;
     const a = document.createElement('div'); a.className = 'hot';
-    a.title = isBack ? 'Back' : byKey[dest].title;
+    a.title = t === '!theme' ? 'Light / dark mode' : (isBack ? 'Back' : byKey[dest].title);
     Object.assign(a.style, { left: x / s.w * 100 + '%', top: y / s.h * 100 + '%', width: w / s.w * 100 + '%', height: h / s.h * 100 + '%' });
-    a.onclick = e => { e.stopPropagation(); if (isBack) back(t.slice(6));
+    a.onclick = e => { e.stopPropagation(); if (t === '!theme') toggleTheme(); else if (isBack) back(t.slice(6));
       else if (isTab) go(dest, true, false); else go(t); };
     frame.appendChild(a);
   });
@@ -175,6 +178,13 @@ addEventListener('keydown', e => {
   if (e.key === 'ArrowRight') step(1); else if (e.key === 'ArrowLeft') step(-1);
   else if (e.key.toLowerCase() === 'h') { showAll = !showAll; frame.classList.toggle('show', showAll); }
 });
+// the moon buttons in the console's top bar and on the app's Me screen switch light / dark
+function toggleTheme() {
+  theme = theme === 'dark' ? 'light' : 'dark';
+  try { localStorage.setItem('letshego-theme', theme); } catch (e) {}
+  preload(); go(cur, false);
+}
+addEventListener('keydown', e => { if (e.key.toLowerCase() === 'd' && e.target.tagName !== 'SELECT') toggleTheme(); });
 const fsBtn = document.getElementById('fs');
 function toggleFs() { document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen(); }
 fsBtn.onclick = toggleFs;
@@ -215,6 +225,9 @@ def main():
             name = slug(s.title)
             path = os.path.join(OUT, folder, name + ".svg")
             s.save(path)
+            os.makedirs(os.path.join(OUT, folder + "-dark"), exist_ok=True)
+            with open(os.path.join(OUT, folder + "-dark", name + ".svg"), "w", encoding="utf-8") as f:
+                f.write(theme.dark_svg(s.svg()))
             built.append((folder, name, s.w, s.h, path, fn.__name__.split('_')[0], s.title, s.links))
             print(f"{folder}/{name}.svg  {os.path.getsize(path) // 1024} KB")
     if not only:

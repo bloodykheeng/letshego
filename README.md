@@ -4,7 +4,7 @@ Demo-stage prototype of a field sales app for **Letshego Uganda**: an Android ap
 
 - **Live prototype:** https://letshego.vercel.app (Vercel redeploys on every push to `main`)
 - **Team briefing** (internal, not for Letshego): [`BRIEFING.md`](BRIEFING.md) · web version at `/briefing.html`
-- **59 screens:** 22 web (1920×1080) and 37 screens of the Android field app (360×800, to be built in Flutter)
+- **60 screens:** 23 web (1920×1080) and 37 screens of the Android field app (360×800, to be built in Flutter)
 - All names, figures, IDs and loan products are **illustrative**. District boundaries are real (UBOS).
 - Brand colours were sampled from Letshego's LetsGo app: indigo `#2F2E80`, yellow `#FBD405`, the faceted triangle.
 - **Light and dark mode** for every screen, switched from inside the product (moon button).

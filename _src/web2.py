@@ -305,7 +305,7 @@ def w10_plans():
             ("userplus", STAGE["Prospect"], "Prospects vs targets", f"{tp} / {tt:,}", f"{tp / tt:.0%} · 3 days of 5 gone",
              tp / tt),
             ("trenddown", RED, "Behind target", "4", "under 40% with 2 days to go", None),
-            ("shield", GREEN, "Inside territory", "98%", "1 geofence alert today: Brian Ssali", None)]):
+            ("clock", AMBER, "Time prospecting", "71 h", "this week across the team · from GPS", None)]):
         kpi(s, X0 + i * (kw + 16), ky, kw, 140, ic, col, lab, val, sub, fr)
     s.link(X0 + 3 * (kw + 16), ky, kw, 140, "w04")
     ty = ky + 160
@@ -346,21 +346,6 @@ TERRITORIES = [
     ("Kireka · Bweyogerere", "Peter Kato", "PK", 188, 5, TEAL, "Active"),
     ("Namugongo · Kyaliwajjala", "Daniel Okumu", "DO", 46, 4, "#D9651B", "Leaving today"),
 ]
-_XS, _YS = [0.02, 0.27, 0.51, 0.75, 0.98], [0.03, 0.49, 0.97]
-_JIT = {(1, 1): (0.02, -0.03), (2, 1): (-0.03, 0.03), (3, 1): (0.02, 0.02)}
-
-
-def _territory_polys(m):
-    polys = []
-    for r in range(2):
-        for c in range(4):
-            def pt(ci, ri):
-                dx, dy = _JIT.get((ci, ri), (0, 0))
-                return m.P(_XS[ci] + dx, _YS[ri] + dy)
-            polys.append([pt(c, r), pt(c + 1, r), pt(c + 1, r + 1), pt(c, r + 1)])
-    return polys
-
-
 def w11_locations():
     s = shell("11 Locations", "Locations", ["Admin", "Locations"], user=SUPERVISOR)
     page_head(s, "Locations", "Branch › Territory › Route · clients sit on routes · people are given locations when "
@@ -453,37 +438,31 @@ def w11b_new_route():
     para(s, fx + 14, y + 48, "New housing estates north of Kiwatule market; mostly salaried workers and small "
                              "shops.", fw - 28, 13.5, 400, INK, lh=21)
     y += 118
-    for lab, on in [("Active", True), ("Place existing clients inside the area on this route", True)]:
+    for lab, on in [("Active", True), ("Agents can pick it when adding a prospect", True)]:
         s.text(fx, y + 14, lab, 13.5, 400, INK2)
         toggle(s, fx + fw - 36, y, on)
         y += 38
 
     mx = X0 + lw + 20
     mw = X1 - mx
-    card(s, mx, ty, mw, th, "Draw the route area", "Click to add points · 23 clients and 140 prospects fall inside")
-    m = StreetMap(s, mx + 16, ty + 70, mw - 32, th - 86, seed=11, lake=False, dense=0.8,
-                  places=[("Ntinda", 0.24, 0.3), ("Kiwatule", 0.66, 0.44)])
-    terr = [m.P(*p) for p in [(0.06, 0.08), (0.94, 0.1), (0.9, 0.92), (0.1, 0.9)]]
-    s.poly(terr, fill=BRAND, op=0.04, stroke=BRAND, sw=2, dash="7 5", name="territory boundary")
-    for pts, lab in [([(0.12, 0.62), (0.3, 0.55), (0.45, 0.75)], "Ntinda stage"),
-                     ([(0.5, 0.8), (0.64, 0.66), (0.82, 0.74)], "Kiwatule market"),
-                     ([(0.14, 0.2), (0.28, 0.34), (0.4, 0.22)], "Ntinda schools")]:
-        pp = [m.P(*p) for p in pts]
-        s.poly(pp, stroke=MUTED, sw=3, closed=False, dash="2 6", name=f"route {lab}")
-        s.text(pp[-1][0] + 8, pp[-1][1] + 4, lab, 11.5, 600, MUTED)
-    new = [m.P(*p) for p in [(0.52, 0.14), (0.84, 0.18), (0.86, 0.46), (0.6, 0.52), (0.5, 0.34)]]
-    s.poly(new, fill=YELLOW, op=0.28, stroke=YELLOW_D, sw=2.5, name="new route area")
-    for px, py in new:
-        s.circle(px, py, 6, fill=CARD, stroke=YELLOW_D, sw=2.5)
-    import random
-    rnd = random.Random(4)
-    for _ in range(23):
-        fx_, fy_ = rnd.uniform(0.56, 0.8), rnd.uniform(0.22, 0.46)
-        s.circle(*m.P(fx_, fy_), 4, fill=BRAND, stroke="#FFFFFF", sw=1.2)
-    cx, cy = m.P(0.68, 0.33)
-    w = tw("Kiwatule new estates", 12.5, 700)
-    s.rect(cx - w / 2 - 10, cy - 38, w + 20, 26, fill="#FFFFFF", rx=8, shadow=False)
-    s.text(cx, cy - 20, "Kiwatule new estates", 12.5, 700, INK, anchor="middle")
+    card(s, mx, ty, mw, th, "Routes in Ntinda · Kiwatule", "A route is a name inside a territory · no area is drawn")
+    cols = [("Route", 330, "start"), ("Sales agent this week", 260, "start"), ("Prospects (Q3)", 160, "end"),
+            ("Clients", 120, "end"), ("Status", mw - 48 - 870, "start")]
+    rows = [["Kiwatule market route", "Sarah Namuli", "612", "19", chip_cell("Active")],
+            ["Ntinda stage route", "Sarah Namuli", "398", "11", chip_cell("Active")],
+            ["Kigoowa estates route", "Sarah Namuli", "241", "6", chip_cell("Active")],
+            ["Ntinda schools route", "Sarah Namuli", "235", "5", chip_cell("Active")],
+            ["Ntinda shops route", "—", "0", "0", chip_cell("Draft")],
+            ["Kiwatule new estates", "—", "—", "—", chip_cell("Planned")]]
+    table(s, mx + 24, ty + 76, cols, rows, row_h=54, head_h=38, hl=5)
+    with s.g("how locations work"):
+        y = ty + 76 + 38 + 6 * 54 + 30
+        s.rect(mx + 24, y, mw - 48, 112, fill=tint(BRAND, 0.06), rx=12, shadow=False)
+        s.icon("pin", mx + 42, y + 20, 20, BRAND, 2)
+        s.text(mx + 72, y + 34, "Locations come from people, not shapes", 14, 700, INK)
+        para(s, mx + 72, y + 58, "Each prospect and lead is saved with the GPS point where the agent met them, and placed "
+                                 "on a route. When a relationship officer visits, the check-in must be within 50 m of "
+                                 "that point (set by an admin).", mw - 130, 13, 400, INK2, lh=20)
     return s
 
 
@@ -616,11 +595,12 @@ def w12b_edit_user():
         s.text(rx + 48 + tw(val, 18, 700), y + 31, lab, 13, 400, INK2, maxw=rw - 120)
         y += 58
     m = StreetMap(s, rx + 24, y + 6, rw - 48, 230, seed=5, lake=False, dense=0.7)
-    polys = _territory_polys(m)
-    for (nm, *_r, col, st), pts in zip(TERRITORIES, polys):
-        on = nm in ("Kireka · Bweyogerere", "Namugongo · Kyaliwajjala")
-        s.poly(pts, fill=GREEN if on else "#8A8DA6", op=0.3 if on else 0.06, stroke=GREEN if on else "#C4C7D6",
-               sw=2 if on else 1, name=f"zone {nm}")
+    import random
+    rnd = random.Random(12)
+    for (cxq, cyq), col, n_ in [((0.32, 0.4), BRAND, 26), ((0.7, 0.6), GREEN, 18)]:
+        for _ in range(n_):
+            s.circle(*m.P(cxq + rnd.gauss(0, 0.08), cyq + rnd.gauss(0, 0.08)), 3.6, fill=col, op=0.75)
+    s.text(rx + 36, y + 228, "● his clients now   ● clients moving to him (saved GPS locations)", 11.5, 400, MUTED)
     y += 252
     for t_ in ["Daniel's 2 open applications stay credited to him",
                "Daniel's prospects and leads move to Peter",
@@ -713,7 +693,7 @@ def w13_reports():
     card(s, X0, ty, c1, 420, "Scheduled reports", "Sent automatically; no one has to remember")
     y = ty + 88
     reps = [("mail", "Daily prospecting summary", "07:00 · branch managers · email + WhatsApp", True),
-            ("alert", "Silent staff and geofence alerts", "As they happen · branch managers", True),
+            ("alert", "Silent staff and refused check-ins", "As they happen · branch managers", True),
             ("bars", "Weekly funnel: prospects, leads, KYC", "Fri 17:00 · branch managers", True),
             ("file", "Quarterly performance pack (PDF)", "Day 1 of each quarter · management", True),
             ("message", "Reasons report: why / why not", "Monthly · product team", False)]
@@ -754,7 +734,7 @@ def w13_reports():
             ["30 Sep 11:24", "Joel Byaruhanga", "Completed KYC", "Florence Nambi", "Lead → client (KYC completed)",
              "Phone · 0.3712, 32.6205"],
             ["30 Sep 10:52", "Sarah Namuli", "Added a prospect", "Joseph Kiggundu",
-             "Kiwatule market route · inside territory", "Phone · Ntinda"],
+             "Kiwatule market route · GPS ±6 m", "Phone · Ntinda"],
             ["27 Sep 16:40", "Moses Okello", "Published lead journey plan", "Kiwatule leads", "12 leads · Joel · 28 Sep – 2 Oct",
              "Web · Kampala"],
             ["25 Sep 17:10", "Moses Okello", "Set prospect targets", "Sarah Namuli · week 40", "4 routes · 230 prospects",
@@ -792,7 +772,7 @@ def w10b_route_plan():
         t = "Prospect target · Sarah Namuli · week 40"
         s.text(X0 + 96, Y0 + 50, t, 24, 700, INK)
         status_chip(s, X0 + 106 + tw(t, 24, 700), Y0 + 31, "Active")
-        s.text(X0 + 96, Y0 + 78, "One route a day inside her territory, Ntinda · Kiwatule, each with a prospect "
+        s.text(X0 + 96, Y0 + 78, "One route a day in her territory, Ntinda · Kiwatule, each with a prospect "
                                  "target.", 14, 400, INK2)
         s.text(X0 + 96, Y0 + 102, "28 Sep – 2 Oct 2026 · target 230 prospects · created by Moses Okello on 25 Sep · "
                                   "on her phone since 25 Sep 17:10", 13, 400, MUTED)
@@ -808,8 +788,8 @@ def w10b_route_plan():
             ("userplus", STAGE["Prospect"], "Prospects", "131 / 230", "57% · on day 3 of 5", 131 / 230),
             ("flag", STAGE["Lead"], "Leads", "15", "11% of this week's prospects", None),
             ("idcard", STAGE["KYC completed"], "KYC completed", "3", "her leads, by Joel this week", None),
-            ("clock", AMBER, "Time prospecting", "12.9 h", "on route, inside her territory", None),
-            ("shield", GREEN, "Inside territory", "100%", "no geofence alerts this week", None)]):
+            ("clock", AMBER, "Time prospecting", "12.9 h", "on her routes, from GPS", None),
+            ("pin", GREEN, "Saved with GPS", "100%", "every prospect has a location", None)]):
         kpi(s, X0 + i * (kw + 16), ky, kw, 140, ic, col, lab, val, sub, fr)
     ty = ky + 156
     th = H - 28 - ty
@@ -838,7 +818,7 @@ def w10b_route_plan():
         y = ty + 72 + 36 + 5 * 62 + 24
         s.text(X0 + 24, y + 10, "How the plan works", 15, 700, INK)
         for i, t_ in enumerate(["A prospect counts when name, phone and GPS location are saved on the route",
-                                "Prospects outside her territory still save, but you get an alert",
+                                "Each prospect keeps the GPS point where it was saved; officers check in within 50 m of it",
                                 "Hours count time on the route, from the first prospect to the last",
                                 "Prospects who want a loan become leads; leads go to lead journey plans for officers"]):
             s.icon("check", X0 + 24, y + 30 + i * 28, 16, GREEN, 2.6)
@@ -848,8 +828,6 @@ def w10b_route_plan():
     card(s, mx, ty, mw, th, "Her routes", "Today's prospects on the Kiwatule market route")
     m = StreetMap(s, mx + 16, ty + 70, mw - 32, th - 140, seed=11, lake=False, dense=0.8,
                   places=[("Ntinda", 0.22, 0.2), ("Kiwatule", 0.68, 0.2), ("Kigoowa", 0.3, 0.84)])
-    terr = [m.P(*q) for q in [(0.04, 0.04), (0.96, 0.05), (0.95, 0.95), (0.05, 0.94)]]
-    s.poly(terr, stroke=GREEN, sw=2, dash="7 5", name="territory")
     import random
     rnd = random.Random(5)
     routes = [("Ntinda stage", [(0.12, 0.3), (0.24, 0.36), (0.36, 0.3)], "#8A8DA6"),
@@ -858,9 +836,10 @@ def w10b_route_plan():
               ("Ntinda schools", [(0.56, 0.78), (0.7, 0.84), (0.84, 0.8)], "#8A8DA6")]
     for nm, pts, col in routes:
         pp = [m.P(*q) for q in pts]
-        s.poly(pp, stroke=col, sw=5 if col == BRAND else 3, closed=False, dash=None if col == BRAND else "3 6",
-               name=f"route {nm}")
-        s.text(pp[0][0], pp[0][1] - 12, nm, 12, 700, col if col == BRAND else INK2)
+        cx_, cy_ = sum(q[0] for q in pp) / len(pp), min(q[1] for q in pp) - 24
+        w_ = tw(nm, 12, 700) + 18
+        s.rect(cx_ - w_ / 2, cy_ - 15, w_, 22, fill=CARD, rx=11, stroke=col, shadow=False)
+        s.text(cx_, cy_ + 0.5, nm, 12, 700, col if col == BRAND else INK2, anchor="middle")
     for _ in range(32):
         q = rnd.choice(routes[1][1])
         s.circle(*m.P(q[0] + rnd.gauss(0, 0.035), q[1] + rnd.gauss(0, 0.04)), 4, fill=STAGE["Prospect"],
@@ -868,8 +847,7 @@ def w10b_route_plan():
     agent_dot(s, *m.P(0.64, 0.48), "SN", GREEN)
     with s.g("legend"):
         lx, ly = mx + 24, ty + th - 40
-        for lab, col in [("Today's route", BRAND), ("Other days", "#8A8DA6"), ("Prospect", STAGE["Prospect"]),
-                         ("Territory", GREEN)]:
+        for lab, col in [("Today's route", BRAND), ("Other days", "#8A8DA6"), ("Prospect (saved GPS)", STAGE["Prospect"])]:
             s.circle(lx + 6, ly, 6, fill=col)
             lx += s.text(lx + 18, ly + 4, lab, 12.5, 400, INK2) + 36
     return s
@@ -905,7 +883,7 @@ def w10c_new_route_plan():
     para(s, fx + 14, y + 48, "Market days Tue and Fri.", fw - 28,
          13.5, 400, INK, lh=21)
     y += 124
-    for lab, on in [("Same target every day", True), ("Alert me if she leaves her territory", True),
+    for lab, on in [("Same target every day", True), ("Prospects need a GPS location", True),
                     ("Remind her the evening before", True)]:
         s.text(fx, y + 14, lab, 13.5, 400, INK2)
         toggle(s, fx + fw - 36, y, on)
@@ -943,19 +921,24 @@ def w10c_new_route_plan():
     card(s, cx, ty, cw, th, "Her territory", "Ntinda · Kiwatule · 6 routes · 212 clients")
     m = StreetMap(s, cx + 16, ty + 70, cw - 32, th - 200, seed=11, lake=False, dense=0.8,
                   places=[("Ntinda", 0.22, 0.2), ("Kiwatule", 0.68, 0.2)])
-    terr = [m.P(*q) for q in [(0.04, 0.04), (0.96, 0.05), (0.95, 0.95), (0.05, 0.94)]]
-    s.poly(terr, fill=GREEN, op=0.04, stroke=GREEN, sw=2, dash="7 5", name="territory")
     routes = [("Ntinda stage", [(0.12, 0.3), (0.24, 0.36), (0.36, 0.3)], True),
               ("Kiwatule market", [(0.5, 0.42), (0.62, 0.5), (0.76, 0.44), (0.86, 0.56)], True),
               ("Kigoowa estates", [(0.2, 0.7), (0.32, 0.78), (0.46, 0.74)], True),
               ("Ntinda schools", [(0.56, 0.78), (0.7, 0.84), (0.84, 0.8)], True),
               ("Kiwatule new estates", [(0.6, 0.14), (0.74, 0.2), (0.86, 0.16)], False),
               ("Ntinda shops", [(0.1, 0.52), (0.2, 0.56), (0.3, 0.5)], False)]
+    import random
+    rnd = random.Random(8)
     for nm, pts, used in routes:
         pp = [m.P(*q) for q in pts]
-        s.poly(pp, stroke=BRAND if used else "#8A8DA6", sw=4 if used else 3, closed=False,
-               dash=None if used else "3 6", name=f"route {nm}")
-        s.text(pp[0][0], pp[0][1] - 12, nm, 12, 700 if used else 400, BRAND_D if used else MUTED)
+        for _ in range(9):
+            q = rnd.choice(pts)
+            s.circle(*m.P(q[0] + rnd.gauss(0, 0.03), q[1] + rnd.gauss(0, 0.03)), 3.5,
+                     fill=STAGE["Prospect"] if used else "#B5B7C6", op=0.75)
+        cx_, cy_ = sum(q[0] for q in pp) / len(pp), min(q[1] for q in pp) - 22
+        w_ = tw(nm, 12, 700) + 18
+        s.rect(cx_ - w_ / 2, cy_ - 15, w_, 22, fill=CARD, rx=11, stroke=BRAND if used else LINE, shadow=False)
+        s.text(cx_, cy_ + 0.5, nm, 12, 700 if used else 400, BRAND_D if used else MUTED, anchor="middle")
     y = ty + th - 112
     s.text(cx + 24, y, "Last 4 weeks on these routes", 13, 700, INK)
     for i, (r, v) in enumerate([("Kiwatule market", "52 a day"), ("Ntinda stage", "47 a day"),

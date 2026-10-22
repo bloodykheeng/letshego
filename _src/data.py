@@ -121,7 +121,7 @@ TEAM = [
     ("Ruth Achieng", "RA", "Prospecting", "11:31", 27, 50, 4, "Naalya estates route", 2.4),
     ("Esther Nakato", "EN", "Prospecting", "11:28", 18, 40, 1, "Bukoto shops route", 1.9),
     ("Ivan Mugabe", "IM", "Idle", "09:44", 6, 40, 0, "Kyanja market route", 0.8),
-    ("Brian Ssali", "BS", "Outside territory", "11:20", 3, 50, 0, "Banda stage route", 0.5),
+    ("Brian Ssali", "BS", "Idle", "10:05", 3, 50, 0, "Banda stage route", 0.5),
     ("Joan Auma", "JA", "Offline", "Yesterday", 0, 40, 0, "Mbuya hill route", 0.0),
 ]
 # Kampala East relationship officers today: name, initials, status, last ping, lead visits today, KYC completed today,

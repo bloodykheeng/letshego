@@ -506,7 +506,7 @@ def w01_overview():
     flags = [
         ("Rose Candiru", "RC", "Arua", "No prospect for 19 days", "Silent"),
         ("Denis Okiror", "DO", "Soroti", "No prospect for 13 days", "Silent"),
-        ("Brian Ssali", "BS", "Kampala East", "Outside his territory 3 times this week", "Behind"),
+        ("Brian Ssali", "BS", "Kampala East", "3 of 50 today · idle most afternoons", "Behind"),
         ("Samuel Wandera", "SW", "Mbale", "54% of prospect targets · weeks 4–7 empty", "Behind"),
         ("Fred Opio", "FO", "Gulu", "41 prospects with no follow-up", "Behind"),
     ]
@@ -640,8 +640,6 @@ def w03_agent():
             x -= 8
     mx, my, mw, mh = X0 + 16, ry + 72, lw_ - 32, rh_ - 88
     m = StreetMap(s, mx, my, mw, mh, seed=5, places=PLACES, lake=False)
-    terr_poly = [m.P(*q) for q in [(0.2, 0.08), (0.72, 0.04), (0.78, 0.5), (0.5, 0.62), (0.22, 0.5)]]
-    s.poly(terr_poly, fill=BRAND, op=0.05, stroke=BRAND, sw=2, dash="7 5", name="her territory")
     import random
     rnd = random.Random(21)
     routes = {"Kiwatule market": [(0.5, 0.16), (0.58, 0.24), (0.64, 0.34)],
@@ -650,8 +648,11 @@ def w03_agent():
               "Ntinda schools": [(0.26, 0.4), (0.32, 0.48), (0.4, 0.52)]}
     for rname, pts in routes.items():
         pp = [m.P(*q) for q in pts]
-        s.poly(pp, stroke=BRAND, sw=4, closed=False, name=f"route {rname}")
-        s.text(pp[-1][0] + 10, pp[-1][1] + 4, rname, 11.5, 700, BRAND_D)
+        cx_ = sum(q[0] for q in pp) / len(pp)
+        cy_ = min(q[1] for q in pp) - 24
+        w_ = tw(rname, 11.5, 700) + 18
+        s.rect(cx_ - w_ / 2, cy_ - 15, w_, 22, fill=CARD, rx=11, stroke=tint(BRAND, 0.4), shadow=False)
+        s.text(cx_, cy_ + 0.5, rname, 11.5, 700, BRAND_D, anchor="middle")
     with s.g("prospects"):
         for _ in range(420):
             rname = rnd.choice(list(routes))
@@ -680,9 +681,9 @@ def w03_agent():
             s.text(lx + 38, yy, lab, 12, 400, INK2)
     with s.g("outside note"):
         s.rect(mx + mw - 300, my + mh - 64, 284, 48, fill=CARD, rx=10, stroke=LINE, op=0.96)
-        s.icon("shield", mx + mw - 286, my + mh - 50, 18, GREEN_D, 2)
-        s.text(mx + mw - 260, my + mh - 36, "98% of her prospects inside", 12.5, 700, INK)
-        s.text(mx + mw - 260, my + mh - 20, "her territory · 4 outside, all 14 Aug", 11.5, 400, MUTED)
+        s.icon("pin", mx + mw - 286, my + mh - 50, 18, GREEN_D, 2)
+        s.text(mx + mw - 260, my + mh - 36, "Each dot is a saved GPS location", 12.5, 700, INK)
+        s.text(mx + mw - 260, my + mh - 20, "where she met them · routes are labels", 11.5, 400, MUTED)
 
     fx = X0 + lw_ + 20
     fw = X1 - fx
@@ -695,7 +696,7 @@ def w03_agent():
     acts = [("14:25", "Lead created", "Aisha Nalubega · UGX 2M for stock", STAGE["Lead"], "flag"),
             ("11:24", "KYC completed on her lead", "Florence Nambi · by Joel Byaruhanga", GREEN, "idcard"),
             ("10:52", "Prospect added", "Joseph Kiggundu · hardware shop", STAGE["Prospect"], "userplus"),
-            ("09:02", "Started her route", "Kiwatule market · inside territory", MUTED, "navigation")]
+            ("09:02", "Started her route", "Kiwatule market · first prospect 09:02", MUTED, "navigation")]
     y = ay + 100
     for t_, what, who, col, ic in acts:
         with s.g(f"activity {what}"):
@@ -724,7 +725,7 @@ def w04_field_map():
         x -= filter_btn(s, x - 220, Y0 + 13, "Branch", "Kampala East", w=220) + 12
         x -= filter_btn(s, x - 150, Y0 + 13, "Date", "Today", w=150) + 16
         for lab, col in reversed([("Prospects", STAGE["Prospect"]), ("Leads", STAGE["Lead"]),
-                                  ("Officer visits", GREEN), ("Territories", BRAND)]):
+                                  ("Officer visits", GREEN), ("Field staff", BRAND)]):
             w = tw(lab, 13, 400) + 56
             x -= w
             toggle(s, x, Y0 + 22, True, color=col)
@@ -735,9 +736,6 @@ def w04_field_map():
     mh = H - 28 - my
     s.rect(X0, my, mw, mh, fill=CARD, rx=12, stroke=LINE, name="map card")
     m = StreetMap(s, X0 + 1, my + 1, mw - 2, mh - 2, seed=5, places=PLACES)
-    from web2 import TERRITORIES, _territory_polys
-    for (tn, ag, ini, n, routes, col, st), pts in zip(TERRITORIES, _territory_polys(m)):
-        s.poly(pts, fill=col, op=0.05, stroke=col, sw=1.5, dash="7 5", name=f"territory {tn}")
     import random
     rnd = random.Random(3)
     centres = [(0.36, 0.3), (0.62, 0.3), (0.86, 0.26), (0.14, 0.34), (0.44, 0.12), (0.84, 0.66), (0.62, 0.66)]
@@ -761,22 +759,23 @@ def w04_field_map():
                                                                      (0.14, 0.32), (0.44, 0.1), (0.6, 0.8),
                                                                      (0.62, 0.62)]):
         px, py = m.P(fx, fy)
-        col = {"Prospecting": GREEN, "Outside territory": RED, "Offline": "#8A8DA6"}.get(st, AMBER_D)
-        agent_dot(s, px + 18, py - 18, ini, col, live=st in ("Prospecting", "Outside territory"), name=f"agent {nm}")
+        col = {"Prospecting": GREEN, "Offline": "#8A8DA6"}.get(st, AMBER_D)
+        agent_dot(s, px + 18, py - 18, ini, col, live=st == "Prospecting", name=f"agent {nm}")
     for (nm, ini, *_r), (fx, fy) in zip(ROS, [(0.62, 0.4), (0.84, 0.52)]):
         px, py = m.P(fx, fy)
         agent_dot(s, px + 18, py - 18, ini, TEAL, live=True, name=f"officer {nm}")
-    # alert popup on Brian, who is outside his territory
+    # a refused check-in: the officer was not at the lead's saved location
     px, py = m.P(0.6, 0.8)
+    s.circle(px, py, 8, fill=CARD, stroke=RED, sw=3, name="lead Mary Nansubuga")
     with s.g("alert popup"):
         bx, by_ = px + 44, py - 160
-        s.rect(bx, by_, 320, 138, fill=CARD, rx=10, stroke=tint(RED, 0.6), sw=1.5)
+        s.rect(bx, by_, 340, 138, fill=CARD, rx=10, stroke=tint(RED, 0.6), sw=1.5)
         s.icon("alert", bx + 16, by_ + 14, 20, RED, 2)
-        s.text(bx + 44, by_ + 30, "Brian Ssali left his territory", 14.5, 700, INK)
-        s.text(bx + 16, by_ + 56, "Since 11:20 · 1.4 km outside Banda · Kyambogo", 12.5, 400, INK2)
-        s.text(bx + 16, by_ + 76, "Prospect target: Banda stage route · 3 of 50 prospects", 12.5, 400, MUTED)
-        s.text(bx + 16, by_ + 96, "He and Moses were told at 11:25", 12.5, 400, MUTED)
-        s.text(bx + 16, by_ + 124, "Open Brian's day →", 13, 600, BRAND)
+        s.text(bx + 44, by_ + 30, "Check-in refused: 1.4 km away", 14.5, 700, INK)
+        s.text(bx + 16, by_ + 56, "Christine Apio · lead Mary Nansubuga · 11:31", 12.5, 400, INK2)
+        s.text(bx + 16, by_ + 76, "Must be within 50 m of the lead's saved location", 12.5, 400, MUTED)
+        s.text(bx + 16, by_ + 96, "Location saved by Ruth Achieng on 24 Sep · ±7 m", 12.5, 400, MUTED)
+        s.text(bx + 16, by_ + 124, "Open the lead →", 13, 600, BRAND)
     with s.g("legend"):
         lx, ly = X0 + 20, my + mh - 150
         s.rect(lx, ly, 330, 130, fill=CARD, rx=10, stroke=LINE, op=0.96)
@@ -791,8 +790,8 @@ def w04_field_map():
             else:
                 s.circle(lx + 24, yy - 4, 6 if col != STAGE["Prospect"] else 4, fill=col)
             s.text(lx + 38, yy, lab, 12, 400, INK2)
-        s.line(lx + 16, ly + 118, lx + 34, ly + 118, BRAND, 1.5, dash="5 4")
-        s.text(lx + 40, ly + 122, "Territory boundary (geofence)", 12, 400, INK2)
+        s.circle(lx + 24, ly + 118, 5, fill=CARD, stroke=RED, sw=2.5)
+        s.text(lx + 38, ly + 122, "Check-in refused (over 50 m away)", 12, 400, INK2)
     with s.g("map controls"):
         cx_ = X0 + mw - 56
         for i, ic in enumerate(["plus", "minus", "crosshair", "layers"]):
@@ -810,7 +809,7 @@ def w04_field_map():
     y = my + 76
     for (nm, ini, st, t, p, tg, l, route, hrs) in TEAM:
         on = nm == "Sarah Namuli"
-        col = {"Prospecting": GREEN, "Outside territory": RED, "Offline": "#8A8DA6"}.get(st, AMBER_D)
+        col = {"Prospecting": GREEN, "Offline": "#8A8DA6"}.get(st, AMBER_D)
         with s.g(f"agent row {nm}"):
             if on:
                 s.rect(px0 + 10, y - 6, pw - 20, 74, fill=tint(BRAND, 0.07), rx=8, stroke=tint(BRAND, 0.35))
@@ -991,7 +990,7 @@ def w06_client():
     checks = [("NIRA: NIN, name and photo match", "Verified 30 Sep 11:21 · same NIN as the lead", True),
               ("Phone registered to this name (MTN)", "Verified", True),
               ("Not already a Letshego client", "No match in core banking", True),
-              ("Location inside the territory", "Kiwatule · 0.3712, 32.6205", True),
+              ("Check-in within 50 m of her location", "9 m from where Sarah saved her · 0.3712, 32.6205", True),
               ("Affordability: instalment ≤ 50% of free income", "Instalment 36% of free income", True),
               ("CRB consent signed on the phone", "Signed 30 Sep 11:23", True)]
     for lab, sub, ok in checks:
@@ -1070,7 +1069,7 @@ def w01b_branch():
             ("idcard", STAGE["KYC completed"], "KYC completed today", "3", "Joel 2, Christine 1 · applications sent", None),
             ("clock", AMBER, "Time prospecting", f"{sum(t[8] for t in TEAM):.1f} h",
              "across the team today · from GPS", None),
-            ("alert", RED, "Alerts", "2", "Brian outside territory · Ivan idle 2 h", None)]
+            ("alert", RED, "Alerts", "2", "Christine's check-in refused · Ivan idle 2 h", None)]
     for i, (ic, col, lab, val, sub, fr) in enumerate(kpis):
         kpi(s, X0 + i * (kw + 16), ky, kw, 140, ic, col, lab, val, sub, fr)
     s.link(X0 + 4 * (kw + 16), ky, kw, 140, "w04")
@@ -1085,7 +1084,7 @@ def w01b_branch():
             ("Leads", 80, "end"), ("Hours", 90, "end"), ("Status", 188, "start")]
     rows = []
     for nm, ini, st, last, p, t, l, route, hrs in TEAM:
-        col = {"Prospecting": GREEN, "Outside territory": RED, "Offline": "#8A8DA6"}.get(st, AMBER_D)
+        col = {"Prospecting": GREEN, "Offline": "#8A8DA6"}.get(st, AMBER_D)
         rows.append([agent_cell(nm, ini, f"last ping {last}", col), route,
                      (lambda p_, t_: lambda s_, x, y, w, h: (progress(s_, x + 16, y + h / 2 - 3, 140, p_ / t_,
                                                                       perf_color(p_ / t_ * 1.4), h=7),

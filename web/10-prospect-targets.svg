@@ -259,16 +259,16 @@
 <text id="value-3" x="1120.0" y="278.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#1B1C3A">4</text>
 <text id="sub-3" x="1120.0" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#7D8099">under 40% with 2 days to go</text>
 </g>
-<g id="kpi-Inside-territory">
+<g id="kpi-Time-prospecting">
 <rect id="bg-4" x="1502.0" y="180.0" width="386.0" height="140.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
-<rect id="icon-bg-4" x="1522.0" y="200.0" width="38.0" height="38.0" rx="9" fill="#E1F1EA"/>
-<g id="icon-shield-2" transform="translate(1531.0 209.0) scale(0.8333)">
-<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" fill="none" stroke="#138351" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M9 12l2 2 4-4" fill="none" stroke="#138351" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="icon-bg-4" x="1522.0" y="200.0" width="38.0" height="38.0" rx="9" fill="#FBF2DF"/>
+<g id="icon-clock" transform="translate(1531.0 209.0) scale(0.8333)">
+<path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z" fill="none" stroke="#CC8B0A" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 6v6l4 2" fill="none" stroke="#CC8B0A" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Inside-territory" x="1572.0" y="216.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Inside territory</text>
-<text id="value-4" x="1522.0" y="278.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#1B1C3A">98%</text>
-<text id="sub-4" x="1522.0" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#7D8099">1 geofence alert today: Brian Ssali</text>
+<text id="Time-prospecting" x="1572.0" y="216.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Time prospecting</text>
+<text id="value-4" x="1522.0" y="278.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#1B1C3A">71 h</text>
+<text id="sub-4" x="1522.0" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#7D8099">this week across the team · from GPS</text>
 </g>
 <text id="This-week-sales-agents" x="296.0" y="360.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="700" fill="#1B1C3A">This week · sales agents</text>
 <text id="Click-an-agent-to-see-their" x="1579.9" y="360.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#7D8099">Click an agent to see their route and target for each day</text>

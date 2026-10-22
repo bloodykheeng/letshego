@@ -219,25 +219,25 @@
 </g>
 </g>
 <g id="toggle">
-<rect x="1377.5" y="118.0" width="36.0" height="20.0" rx="10" fill="#4F4CC9"/>
-<circle cx="1403.5" cy="128.0" r="7.5" fill="#FFFFFF"/>
+<rect x="1378.7" y="118.0" width="36.0" height="20.0" rx="10" fill="#4F4CC9"/>
+<circle cx="1404.7" cy="128.0" r="7.5" fill="#FFFFFF"/>
 </g>
-<text id="Territories" x="1421.5" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#B0B1C7">Territories</text>
+<text id="Field-staff" x="1422.7" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#B0B1C7">Field staff</text>
 <g id="toggle-2">
-<rect x="1251.5" y="118.0" width="36.0" height="20.0" rx="10" fill="#15925A"/>
-<circle cx="1277.5" cy="128.0" r="7.5" fill="#FFFFFF"/>
+<rect x="1252.7" y="118.0" width="36.0" height="20.0" rx="10" fill="#15925A"/>
+<circle cx="1278.7" cy="128.0" r="7.5" fill="#FFFFFF"/>
 </g>
-<text id="Officer-visits" x="1295.5" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#B0B1C7">Officer visits</text>
+<text id="Officer-visits" x="1296.7" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#B0B1C7">Officer visits</text>
 <g id="toggle-3">
-<rect x="1162.8" y="118.0" width="36.0" height="20.0" rx="10" fill="#2F6FDB"/>
-<circle cx="1188.8" cy="128.0" r="7.5" fill="#FFFFFF"/>
+<rect x="1164.0" y="118.0" width="36.0" height="20.0" rx="10" fill="#2F6FDB"/>
+<circle cx="1190.0" cy="128.0" r="7.5" fill="#FFFFFF"/>
 </g>
-<text id="Leads" x="1206.8" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#B0B1C7">Leads</text>
+<text id="Leads" x="1208.0" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#B0B1C7">Leads</text>
 <g id="toggle-4">
-<rect x="1051.5" y="118.0" width="36.0" height="20.0" rx="10" fill="#7056D6"/>
-<circle cx="1077.5" cy="128.0" r="7.5" fill="#FFFFFF"/>
+<rect x="1052.7" y="118.0" width="36.0" height="20.0" rx="10" fill="#7056D6"/>
+<circle cx="1078.7" cy="128.0" r="7.5" fill="#FFFFFF"/>
 </g>
-<text id="Prospects" x="1095.5" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#B0B1C7">Prospects</text>
+<text id="Prospects" x="1096.7" y="133.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#B0B1C7">Prospects</text>
 </g>
 <rect id="map-card" x="296.0" y="176.0" width="1170.0" height="876.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
 <g id="street-map">
@@ -527,14 +527,6 @@
 <text id="Kigoowa" x="798.9" y="246.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#9092A3">Kigoowa</text>
 </g>
 </g>
-<path id="territory-Bukoto-Kisaasi" d="M320.4 203.2 L612.4 203.2 L635.7 579.0 L320.4 605.3 Z" fill="#E39A0B" stroke="#EABF6C" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" fill-opacity="0.05" stroke-dasharray="7 5"/>
-<path id="territory-Ntinda-Kiwatule" d="M612.4 203.2 L892.7 203.2 L857.6 631.5 L635.7 579.0 Z" fill="#4F4CC9" stroke="#A09FDD" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" fill-opacity="0.05" stroke-dasharray="7 5"/>
-<path id="territory-Kigoowa-Kyanja" d="M892.7 203.2 L1173.0 203.2 L1196.4 622.7 L857.6 631.5 Z" fill="#15925A" stroke="#91EFC5" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" fill-opacity="0.05" stroke-dasharray="7 5"/>
-<path id="territory-Naalya-Kira" d="M1173.0 203.2 L1441.6 203.2 L1441.6 605.3 L1196.4 622.7 Z" fill="#7056D6" stroke="#735AD7" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" fill-opacity="0.05" stroke-dasharray="7 5"/>
-<path id="territory-Nakawa-Mbuya" d="M320.4 605.3 L635.7 579.0 L612.4 1024.8 L320.4 1024.8 Z" fill="#2F6FDB" stroke="#6192E4" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" fill-opacity="0.05" stroke-dasharray="7 5"/>
-<path id="territory-Banda-Kyambogo" d="M635.7 579.0 L857.6 631.5 L892.7 1024.8 L612.4 1024.8 Z" fill="#D14343" stroke="#D96565" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" fill-opacity="0.05" stroke-dasharray="7 5"/>
-<path id="territory-Kireka-Bweyogerere" d="M857.6 631.5 L1196.4 622.7 L1173.0 1024.8 L892.7 1024.8 Z" fill="#0E8C99" stroke="#91E6EF" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" fill-opacity="0.05" stroke-dasharray="7 5"/>
-<path id="territory-Namugongo-Kyaliwajjala" d="M1196.4 622.7 L1441.6 605.3 L1441.6 1024.8 L1173.0 1024.8 Z" fill="#D9651B" stroke="#EA9B69" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" fill-opacity="0.05" stroke-dasharray="7 5"/>
 <g id="prospects-today">
 <circle cx="721.4" cy="482.9" r="3.6" fill="#7056D6" fill-opacity="0.7"/>
 <circle cx="679.4" cy="473.9" r="3.6" fill="#7056D6" fill-opacity="0.7"/>
@@ -731,8 +723,7 @@
 <text id="IM" x="822.2" y="250.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF">IM</text>
 </g>
 <g id="agent-Brian-Ssali">
-<circle cx="1015.8" cy="858.2" r="20.0" fill="#D14343" fill-opacity="0.15"/>
-<circle cx="1015.8" cy="858.2" r="14.0" fill="#D14343" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle cx="1015.8" cy="858.2" r="14.0" fill="#9A6300" stroke="#FFFFFF" stroke-width="2.5"/>
 <text id="BS" x="1009.5" y="862.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF">BS</text>
 </g>
 <g id="agent-Joan-Auma">
@@ -749,18 +740,19 @@
 <circle cx="1296.1" cy="613.5" r="14.0" fill="#0E8C99" stroke="#FFFFFF" stroke-width="2.5"/>
 <text id="CA" x="1289.2" y="617.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF">CA</text>
 </g>
+<circle id="lead-Mary-Nansubuga" cx="997.8" cy="876.2" r="8.0" fill="#1D1E27" stroke="#D96565" stroke-width="3"/>
 <g id="alert-popup">
-<rect x="1041.8" y="716.2" width="320.0" height="138.0" rx="10" fill="#1D1E27" stroke="#E38E8E" stroke-width="1.5"/>
+<rect x="1041.8" y="716.2" width="340.0" height="138.0" rx="10" fill="#1D1E27" stroke="#E38E8E" stroke-width="1.5"/>
 <g id="icon-alert" transform="translate(1057.8 730.2) scale(0.8333)">
 <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" fill="none" stroke="#D96565" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 9v4" fill="none" stroke="#D96565" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 17h.01" fill="none" stroke="#D96565" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Brian-Ssali-left-his-territo" x="1085.8" y="746.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#CBCCE7">Brian Ssali left his territory</text>
-<text id="Since-11-20-1-4-km-outside" x="1057.8" y="772.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">Since 11:20 · 1.4 km outside Banda · Kyambogo</text>
-<text id="Prospect-target-Banda-stage" x="1057.8" y="792.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">Prospect target: Banda stage route · 3 of 50 prospects</text>
-<text id="He-and-Moses-were-told-at-11" x="1057.8" y="812.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">He and Moses were told at 11:25</text>
-<text id="Open-Brian-s-day" x="1057.8" y="840.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#A09FDD">Open Brian's day →</text>
+<text id="Check-in-refused-1-4-km-awa" x="1085.8" y="746.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#CBCCE7">Check-in refused: 1.4 km away</text>
+<text id="Christine-Apio-lead-Mary-N" x="1057.8" y="772.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">Christine Apio · lead Mary Nansubuga · 11:31</text>
+<text id="Must-be-within-50-m-of-the-l" x="1057.8" y="792.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">Must be within 50 m of the lead's saved location</text>
+<text id="Location-saved-by-Ruth-Achie" x="1057.8" y="812.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">Location saved by Ruth Achieng on 24 Sep · ±7 m</text>
+<text id="Open-the-lead" x="1057.8" y="840.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#A09FDD">Open the lead →</text>
 </g>
 <g id="legend">
 <rect x="316.0" y="902.0" width="330.0" height="130.0" rx="10" fill="#1D1E27" filter="url(#soft)" fill-opacity="0.96"/>
@@ -773,8 +765,8 @@
 <text id="Officer-visit-KYC-completed" x="354.0" y="988.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#B0B1C7">Officer visit: KYC completed</text>
 <circle cx="340.0" cy="1004.0" r="5.0" fill="#1D1E27" stroke="#EABF6C" stroke-width="2.5"/>
 <text id="Lead-visit-planned-not-yet" x="354.0" y="1008.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#B0B1C7">Lead visit planned, not yet made</text>
-<line x1="332.0" y1="1020.0" x2="350.0" y2="1020.0" stroke="#A09FDD" stroke-width="1.5" stroke-dasharray="5 4"/>
-<text id="Territory-boundary-geofence" x="356.0" y="1024.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#B0B1C7">Territory boundary (geofence)</text>
+<circle cx="340.0" cy="1020.0" r="5.0" fill="#1D1E27" stroke="#D96565" stroke-width="2.5"/>
+<text id="Check-in-refused-over-50-m" x="354.0" y="1024.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#B0B1C7">Check-in refused (over 50 m away)</text>
 </g>
 <g id="map-controls">
 <rect x="1410.0" y="196.0" width="38.0" height="38.0" rx="8" fill="#1D1E27" stroke="#282932" stroke-width="1"/>
@@ -895,15 +887,15 @@
 </g>
 <g id="agent-row-Brian-Ssali">
 <g id="avatar-BS">
-<circle cx="1528.0" cy="678.0" r="18.0" fill="#361E1E"/>
-<text id="BS-2" x="1519.7" y="684.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.4" font-weight="600" fill="#D57B7B">BS</text>
+<circle cx="1528.0" cy="678.0" r="18.0" fill="#3D3629"/>
+<text id="BS-2" x="1519.7" y="684.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.4" font-weight="600" fill="#F1D4A0">BS</text>
 </g>
 <text id="Brian-Ssali" x="1558.0" y="670.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">Brian Ssali</text>
-<text id="Banda-stage-route-ping-11" x="1558.0" y="689.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Banda stage route · ping 11:20</text>
-<g id="chip-Outside-territory">
-<rect x="1746.8" y="656.0" width="117.2" height="22.0" rx="11.0" fill="#311C1C"/>
-<circle cx="1760.8" cy="667.0" r="4.0" fill="#D14343"/>
-<text id="Outside-territory" x="1770.8" y="671.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#D57D7D">Outside territory</text>
+<text id="Banda-stage-route-ping-10" x="1558.0" y="689.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Banda stage route · ping 10:05</text>
+<g id="chip-Idle-2">
+<rect x="1811.4" y="656.0" width="52.6" height="22.0" rx="11.0" fill="#362F24"/>
+<circle cx="1825.4" cy="667.0" r="4.0" fill="#9A6300"/>
+<text id="Idle-2" x="1835.4" y="671.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#F2D5A1">Idle</text>
 </g>
 <g id="progress-6">
 <rect x="1558.0" y="702.0" width="150.0" height="5.0" rx="2.5" fill="#202129"/>

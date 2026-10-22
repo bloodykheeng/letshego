@@ -109,9 +109,9 @@
 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" fill="none" stroke="#0E6B41" stroke-width="3.00" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M9 12l2 2 4-4" fill="none" stroke="#0E6B41" stroke-width="3.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<g id="para-All-routes-are-insid">
-<text id="line" x="40.0" y="642.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">All routes are inside your territory, Ntinda · Kiwatule.</text>
-<text id="line-2" x="40.0" y="659.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">The app tells you if you leave it.</text>
+<g id="para-Every-prospect-is-sa">
+<text id="line" x="40.0" y="642.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Every prospect is saved with the GPS point where you</text>
+<text id="line-2" x="40.0" y="659.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">meet them. Officers check in within 50 m of it later.</text>
 </g>
 </g>
 <g id="bottom-navigation">

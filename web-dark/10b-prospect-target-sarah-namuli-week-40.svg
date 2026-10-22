@@ -217,7 +217,7 @@
 <circle cx="873.7" cy="139.0" r="4.0" fill="#15925A"/>
 <text id="Active" x="883.7" y="143.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#9CF1CB">Active</text>
 </g>
-<text id="One-route-a-day-inside-her-t" x="392.0" y="174.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#B0B1C7">One route a day inside her territory, Ntinda · Kiwatule, each with a prospect target.</text>
+<text id="One-route-a-day-in-her-terri" x="392.0" y="174.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#B0B1C7">One route a day in her territory, Ntinda · Kiwatule, each with a prospect target.</text>
 <text id="28-Sep-2-Oct-2026-target" x="392.0" y="198.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#9396AA">28 Sep – 2 Oct 2026 · target 230 prospects · created by Moses Okello on 25 Sep · on her phone since 25 Sep 17:10</text>
 <g id="button-Edit-plan">
 <rect x="1750.2" y="136.0" width="113.8" height="40.0" rx="12" fill="#4F4CC9"/>
@@ -287,18 +287,18 @@
 </g>
 <text id="Time-prospecting" x="1330.8" y="272.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Time prospecting</text>
 <text id="value-4" x="1280.8" y="334.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#CBCCE7">12.9 h</text>
-<text id="sub-4" x="1280.8" y="356.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">on route, inside her territory</text>
+<text id="sub-4" x="1280.8" y="356.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">on her routes, from GPS</text>
 </g>
-<g id="kpi-Inside-territory">
+<g id="kpi-Saved-with-GPS">
 <rect id="bg-5" x="1582.4" y="236.0" width="305.6" height="140.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
 <rect id="icon-bg-5" x="1602.4" y="256.0" width="38.0" height="38.0" rx="9" fill="#26352E"/>
-<g id="icon-shield-2" transform="translate(1611.4 265.0) scale(0.8333)">
-<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" fill="none" stroke="#9AF0CA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M9 12l2 2 4-4" fill="none" stroke="#9AF0CA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="icon-pin" transform="translate(1611.4 265.0) scale(0.8333)">
+<path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z" fill="none" stroke="#9AF0CA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 7a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#9AF0CA" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Inside-territory" x="1652.4" y="272.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Inside territory</text>
+<text id="Saved-with-GPS" x="1652.4" y="272.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Saved with GPS</text>
 <text id="value-5" x="1602.4" y="334.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#CBCCE7">100%</text>
-<text id="sub-5" x="1602.4" y="356.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">no geofence alerts this week</text>
+<text id="sub-5" x="1602.4" y="356.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">every prospect has a location</text>
 </g>
 <rect id="Routes-by-day-bg" x="296.0" y="392.0" width="980.0" height="660.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
 <text id="title" x="320.0" y="430.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#CBCCE7">Routes by day</text>
@@ -411,7 +411,7 @@
 <g id="icon-check-2" transform="translate(320.0 892.0) scale(0.6667)">
 <path d="M20 6L9 17l-5-5" fill="none" stroke="#91EFC5" stroke-width="3.90" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Prospects-outside-her-territ" x="344.0" y="904.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#B0B1C7">Prospects outside her territory still save, but you get an alert</text>
+<text id="Each-prospect-keeps-the-GPS" x="344.0" y="904.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#B0B1C7">Each prospect keeps the GPS point where it was saved; officers check in within 50 m of it</text>
 <g id="icon-check-3" transform="translate(320.0 920.0) scale(0.6667)">
 <path d="M20 6L9 17l-5-5" fill="none" stroke="#91EFC5" stroke-width="3.90" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
@@ -494,15 +494,14 @@
 <text id="Kigoowa" x="1456.3" y="898.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#9092A3">Kigoowa</text>
 </g>
 </g>
-<path id="territory" d="M1334.4 482.8 L1849.6 488.0 L1844.0 956.0 L1340.0 950.8 Z" fill="none" stroke="#91EFC5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 5"/>
-<path id="route-Ntinda-stage" d="M1379.2 618.0 L1446.4 649.2 L1513.6 618.0" fill="none" stroke="#898CA5" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="3 6"/>
-<text id="Ntinda-stage" x="1379.2" y="606.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#B0B1C7">Ntinda stage</text>
-<path id="route-Kiwatule-market" d="M1592.0 680.4 L1659.2 722.0 L1737.6 690.8 L1793.6 753.2" fill="none" stroke="#A09FDD" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
-<text id="Kiwatule-market" x="1592.0" y="668.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#A09FDD">Kiwatule market</text>
-<path id="route-Kigoowa-estates" d="M1424.0 826.0 L1491.2 867.6 L1569.6 846.8" fill="none" stroke="#898CA5" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="3 6"/>
-<text id="Kigoowa-estates" x="1424.0" y="814.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#B0B1C7">Kigoowa estates</text>
-<path id="route-Ntinda-schools" d="M1625.6 867.6 L1704.0 898.8 L1782.4 878.0" fill="none" stroke="#898CA5" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="3 6"/>
-<text id="Ntinda-schools" x="1625.6" y="855.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#B0B1C7">Ntinda schools</text>
+<rect x="1401.2" y="579.0" width="90.4" height="22.0" rx="11" fill="#1D1E27" stroke="#898CA5" stroke-width="1"/>
+<text id="Ntinda-stage" x="1410.2" y="594.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#B0B1C7">Ntinda stage</text>
+<rect x="1640.4" y="641.4" width="110.3" height="22.0" rx="11" fill="#1D1E27" stroke="#A09FDD" stroke-width="1"/>
+<text id="Kiwatule-market" x="1649.4" y="656.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#A09FDD">Kiwatule market</text>
+<rect x="1440.0" y="787.0" width="109.9" height="22.0" rx="11" fill="#1D1E27" stroke="#898CA5" stroke-width="1"/>
+<text id="Kigoowa-estates" x="1449.0" y="802.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#B0B1C7">Kigoowa estates</text>
+<rect x="1653.2" y="828.6" width="101.7" height="22.0" rx="11" fill="#1D1E27" stroke="#898CA5" stroke-width="1"/>
+<text id="Ntinda-schools" x="1662.2" y="844.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#B0B1C7">Ntinda schools</text>
 <circle cx="1735.8" cy="653.8" r="4.0" fill="#7056D6" stroke="#FFFFFF" stroke-width="1"/>
 <circle cx="1610.2" cy="650.1" r="4.0" fill="#7056D6" stroke="#FFFFFF" stroke-width="1"/>
 <circle cx="1634.2" cy="686.0" r="4.0" fill="#7056D6" stroke="#FFFFFF" stroke-width="1"/>
@@ -546,8 +545,6 @@
 <circle cx="1435.5" cy="1012.0" r="6.0" fill="#8A8DA6"/>
 <text id="Other-days" x="1447.5" y="1016.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">Other days</text>
 <circle cx="1531.7" cy="1012.0" r="6.0" fill="#7056D6"/>
-<text id="Prospect" x="1543.7" y="1016.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">Prospect</text>
-<circle cx="1615.5" cy="1012.0" r="6.0" fill="#15925A"/>
-<text id="Territory" x="1627.5" y="1016.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">Territory</text>
+<text id="Prospect-saved-GPS" x="1543.7" y="1016.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">Prospect (saved GPS)</text>
 </g>
 </svg>

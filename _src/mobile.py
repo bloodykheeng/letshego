@@ -255,7 +255,7 @@ def m03_home():
         s.rect(PAD + 14, y + 14, 36, 36, fill=tint(BRAND, 0.1), rx=11)
         s.icon("map", PAD + 22, y + 22, 20, BRAND, 2)
         s.text(PAD + 62, y + 30, "Kiwatule market route", 14, 700, INK)
-        s.text(PAD + 62, y + 48, "Today · inside your territory ✓", 12, 400, GREEN_D)
+        s.text(PAD + 62, y + 48, "Today · Ntinda · Kiwatule", 12, 400, GREEN_D)
         s.link(PAD, y, MW - 2 * PAD, 60, "m04b")
         s.icon("chevright", MW - PAD - 30, y + 22, 20, FAINT)
         bw = (MW - 2 * PAD - 38) / 2
@@ -425,7 +425,7 @@ def m13_validation():
     for title, sub in [("NIRA: ID is genuine and matches", "NIN, name, date of birth, photo"),
                        ("Phone is in her name", "MTN registration check"),
                        ("Not already a Letshego client", "Checked in the loan system"),
-                       ("Location inside the territory", "Kiwatule · 0.3712, 32.6205"),
+                       ("Check-in within 50 m of her location", "9 m from where Sarah saved her"),
                        ("Affordable", "Can pay up to UGX 625,000 a month"),
                        ("CRB clear", "No active loans · consent signed")]:
         check_row(s, y + 14, title, sub)
@@ -603,7 +603,7 @@ def m19_me():
         s.text(MW - PAD - 16, yy, v, 13, 700, INK, anchor="end")
     y += 134
     y += where_card(s, y, [("store", "Branch", "Kampala East", "Manager: Moses Okello"),
-                           ("layers", "Territory", "Ntinda · Kiwatule", "geofenced · 212 clients"),
+                           ("layers", "Territory", "Ntinda · Kiwatule", "212 clients"),
                            ("route", "Routes", "6 routes", "Kiwatule market +5")], target="m04") + 10
     sign_out_row(s, y)
     bottom_nav(s, "Me")
@@ -675,7 +675,7 @@ def client_hub(title, tab, during, applied=None, kyc_done=None):
             s.rect(PAD, y, MW - 2 * PAD, 44, fill=tint(GREEN, 0.1), rx=14)
             s.circle(PAD + 18, y + 22, 5, fill=GREEN)
             s.text(PAD + 32, y + 20, "Visit in progress", 13, 700, GREEN_D)
-            s.text(PAD + 32, y + 36, "Checked in 11:14 · GPS ✓ 9 m", 11, 400, GREEN_D)
+            s.text(PAD + 32, y + 36, "Checked in 11:14 · 9 m from her location ✓", 11, 400, GREEN_D)
             s.rect(MW - PAD - 104, y + 8, 92, 28, fill=CARD, rx=10, stroke=tint(GREEN, 0.6), shadow=False)
             s.icon("logout", MW - PAD - 94, y + 14, 15, GREEN_D, 2.2)
             s.text(MW - PAD - 74, y + 26.5, "Check out", 12, 700, GREEN_D)
@@ -991,8 +991,8 @@ def m04a_route_plan():
         y += 78
     with s.g("territory note"):
         s.icon("shield", PAD, y + 6, 16, GREEN_D, 2)
-        para(s, PAD + 24, y + 18, "All routes are inside your territory, Ntinda · Kiwatule. The app tells you if you "
-                                  "leave it.", MW - 2 * PAD - 30, 12, 400, MUTED, lh=17)
+        para(s, PAD + 24, y + 18, "Every prospect is saved with the GPS point where you meet them. Officers check "
+                                  "in within 50 m of it later.", MW - 2 * PAD - 30, 12, 400, MUTED, lh=17)
     bottom_nav(s, "Home")
     return s
 
@@ -1006,10 +1006,7 @@ def m04b_prospect_map():
     m = StreetMap(s, PAD, 130, MW - 2 * PAD, 330, seed=11, lake=False, dense=0.75,
                   places=[("Ntinda", 0.2, 0.16), ("Kiwatule", 0.68, 0.22), ("Kiwatule market", 0.56, 0.62)])
     s.rect(PAD, 130, MW - 2 * PAD, 330, fill="none", rx=14, stroke=LINE)
-    terr = [m.P(*p) for p in [(0.04, 0.05), (0.96, 0.06), (0.95, 0.94), (0.05, 0.95)]]
-    s.poly(terr, stroke=GREEN, sw=2, dash="6 5", name="territory geofence")
     route = [m.P(*p) for p in [(0.2, 0.8), (0.34, 0.66), (0.48, 0.6), (0.62, 0.64), (0.74, 0.52), (0.84, 0.36)]]
-    s.poly(route, stroke=tint(BRAND, 0.35), sw=4, closed=False, name="route")
     import random
     rnd = random.Random(9)
     with s.g("prospects"):
@@ -1029,8 +1026,7 @@ def m04b_prospect_map():
         for lab, col in [("Prospect", STAGE["Prospect"]), ("Lead", STAGE["Lead"]), ("You", BRAND)]:
             s.circle(lx + 6, ly + 6, 5, fill=col)
             lx += s.text(lx + 16, ly + 10, lab, 11.5, 400, INK2) + 30
-        s.line(lx, ly + 6, lx + 18, ly + 6, GREEN, 2, dash="4 3")
-        s.text(lx + 24, ly + 10, "Territory", 11.5, 400, INK2)
+        s.text(lx, ly + 10, "· saved GPS points", 11.5, 400, MUTED)
     s.text(PAD, 512, "Latest prospects", 15, 700, INK)
     s.text(MW - PAD, 512, "All 32", 12.5, 600, BRAND, anchor="end")
     s.link(MW - PAD - 60, 496, 60, 24, "m06")
@@ -1054,7 +1050,7 @@ def m05_add_prospect():
         y = 92
         s.rect(PAD, y, MW - 2 * PAD, 40, fill=tint(GREEN, 0.08), rx=10)
         s.icon("pin", PAD + 12, y + 11, 18, GREEN_D, 2)
-        s.text(PAD + 38, y + 25, "Kiwatule market route · inside your territory", 12.5, 600, GREEN_D)
+        s.text(PAD + 38, y + 25, "GPS ±6 m · Kiwatule market route", 12.5, 600, GREEN_D)
     y = 150
     y += m_field(s, y, "Full name", "Joseph Kiggundu", icon="user") + 14
     y += m_field(s, y, "Phone number", "0701 552 ···", icon="phone", ok="New number: not yet a Letshego client") + 14
@@ -1122,7 +1118,7 @@ def m07b_lead():
     y += m_field(s, y, "National ID number (NIN)", "CM88•••••••2PL", icon="idcard") + 14
     y += m_field(s, y, "Loan amount", "2,000,000", suffix="UGX", icon="banknote") + 14
     y += m_field(s, y, "Location", "Kiwatule market · stall row C", icon="pin",
-                 ok="From her prospect pin · inside your territory") + 20
+                 ok="From her prospect pin (GPS)") + 20
     with s.g("what happens next"):
         s.rect(PAD, y, MW - 2 * PAD, 58, fill="#F5F5FB", rx=12)
         s.icon("route", PAD + 14, y + 19, 20, BRAND, 2)

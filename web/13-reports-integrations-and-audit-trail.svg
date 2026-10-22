@@ -221,7 +221,7 @@
 <path d="M12 9v4" fill="none" stroke="#2F2E80" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 17h.01" fill="none" stroke="#2F2E80" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Silent-staff-and-geofence-al" x="374.0" y="347.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Silent staff and geofence alerts</text>
+<text id="Silent-staff-and-refused-che" x="374.0" y="347.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1B1C3A">Silent staff and refused check-ins</text>
 <text id="As-they-happen-branch-mana" x="374.0" y="366.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#7D8099">As they happen · branch managers</text>
 <g id="toggle-2">
 <rect x="856.0" y="340.0" width="36.0" height="20.0" rx="10" fill="#2F2E80"/>
@@ -367,7 +367,7 @@
 <text id="Sarah-Namuli" x="503.0" y="886.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Sarah Namuli</text>
 <text id="Added-a-prospect" x="733.0" y="886.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Added a prospect</text>
 <text id="Joseph-Kiggundu" x="993.0" y="886.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Joseph Kiggundu</text>
-<text id="Kiwatule-market-route-insi" x="1293.0" y="886.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Kiwatule market route · inside territory</text>
+<text id="Kiwatule-market-route-GPS" x="1293.0" y="886.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Kiwatule market route · GPS ±6 m</text>
 <text id="Phone-Ntinda" x="1713.0" y="886.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1B1C3A">Phone · Ntinda</text>
 </g>
 <g id="row-4">

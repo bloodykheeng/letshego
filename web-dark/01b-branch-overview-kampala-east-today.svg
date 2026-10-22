@@ -291,7 +291,7 @@
 </g>
 <text id="Alerts" x="1652.4" y="216.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">Alerts</text>
 <text id="value-5" x="1602.4" y="278.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#CBCCE7">2</text>
-<text id="sub-5" x="1602.4" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">Brian outside territory · Ivan idle 2 h</text>
+<text id="sub-5" x="1602.4" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">Christine's check-in refused · Ivan idle 2 h</text>
 </g>
 <rect id="Prospect-targets-today-bg" x="296.0" y="336.0" width="1090.0" height="716.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
 <text id="title" x="320.0" y="374.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#CBCCE7">Prospect targets today</text>
@@ -419,11 +419,11 @@
 <g id="row-6">
 <line x1="297.0" y1="828.3" x2="1385.0" y2="828.3" stroke="#202129" stroke-width="1"/>
 <g id="avatar-BS">
-<circle cx="327.0" cy="866.7" r="16.0" fill="#361E1E"/>
-<text id="BS" x="319.7" y="872.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#D57B7B">BS</text>
+<circle cx="327.0" cy="866.7" r="16.0" fill="#3D3629"/>
+<text id="BS" x="319.7" y="872.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.8" font-weight="600" fill="#F1D4A0">BS</text>
 </g>
 <text id="Brian-Ssali" x="353.0" y="864.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Brian Ssali</text>
-<text id="last-ping-11-20" x="353.0" y="881.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">last ping 11:20</text>
+<text id="last-ping-10-05" x="353.0" y="881.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">last ping 10:05</text>
 <text id="Banda-stage-route" x="563.0" y="871.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">Banda stage route</text>
 <g id="progress-7">
 <rect x="793.0" y="863.7" width="140.0" height="7.0" rx="3.5" fill="#202129"/>
@@ -432,10 +432,10 @@
 <text id="3-50" x="945.0" y="871.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#B0B1C7">3 / 50</text>
 <text id="0-2" x="1084.0" y="871.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">0</text>
 <text id="0-5-h" x="1153.2" y="871.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#CBCCE7">0.5 h</text>
-<g id="chip-Outside-territory">
-<rect x="1209.0" y="855.7" width="117.2" height="22.0" rx="11.0" fill="#321F1E"/>
-<circle cx="1223.0" cy="866.7" r="4.0" fill="#C2362F"/>
-<text id="Outside-territory" x="1233.0" y="870.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#E18984">Outside territory</text>
+<g id="chip-Idle-2">
+<rect x="1209.0" y="855.7" width="52.6" height="22.0" rx="11.0" fill="#332C20"/>
+<circle cx="1223.0" cy="866.7" r="4.0" fill="#B7791F"/>
+<text id="Idle-2" x="1233.0" y="870.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#EBC389">Idle</text>
 </g>
 </g>
 <g id="row-7">

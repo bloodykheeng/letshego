@@ -121,7 +121,6 @@ STATUS = {
     "On a lead plan": TEAL,
     "Visit booked": TEAL,
     "Client": "#15925A",
-    "Outside territory": "#C2362F",
     "Prospecting": "#15925A",
     "Idle": "#B7791F",
     "Offline": "#7D8099",

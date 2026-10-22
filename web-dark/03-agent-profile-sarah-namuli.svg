@@ -531,15 +531,14 @@
 <text id="Kigoowa" x="768.9" y="506.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#9092A3">Kigoowa</text>
 </g>
 </g>
-<path id="her-territory" d="M525.6 506.1 L1081.0 483.0 L1145.0 748.0 L846.0 817.1 L547.0 748.0 Z" fill="#4F4CC9" stroke="#A09FDD" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill-opacity="0.05" stroke-dasharray="7 5"/>
-<path id="route-Kiwatule-market" d="M846.0 552.2 L931.4 598.2 L995.5 655.8" fill="none" stroke="#A09FDD" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<text id="Kiwatule-market" x="1005.5" y="659.8" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1F1E57">Kiwatule market</text>
-<path id="route-Ntinda-stage" d="M632.4 609.8 L696.5 655.8 L760.6 701.9" fill="none" stroke="#A09FDD" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<text id="Ntinda-stage" x="770.6" y="705.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1F1E57">Ntinda stage</text>
-<path id="route-Kigoowa-estates" d="M760.6 517.6 L846.0 506.1 L910.1 529.1" fill="none" stroke="#A09FDD" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<text id="Kigoowa-estates" x="920.1" y="533.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1F1E57">Kigoowa estates</text>
-<path id="route-Ntinda-schools" d="M589.7 690.4 L653.8 736.5 L739.2 759.5" fill="none" stroke="#A09FDD" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<text id="Ntinda-schools" x="749.2" y="763.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1F1E57">Ntinda schools</text>
+<rect x="871.1" y="513.2" width="106.4" height="22.0" rx="11" fill="#1D1E27" stroke="#ACABCC" stroke-width="1"/>
+<text id="Kiwatule-market" x="880.1" y="528.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1F1E57">Kiwatule market</text>
+<rect x="652.8" y="570.8" width="87.3" height="22.0" rx="11" fill="#1D1E27" stroke="#ACABCC" stroke-width="1"/>
+<text id="Ntinda-stage" x="661.8" y="586.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1F1E57">Ntinda stage</text>
+<rect x="785.8" y="467.1" width="106.1" height="22.0" rx="11" fill="#1D1E27" stroke="#ACABCC" stroke-width="1"/>
+<text id="Kigoowa-estates" x="794.8" y="482.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1F1E57">Kigoowa estates</text>
+<rect x="611.8" y="651.4" width="98.2" height="22.0" rx="11" fill="#1D1E27" stroke="#ACABCC" stroke-width="1"/>
+<text id="Ntinda-schools" x="620.8" y="666.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1F1E57">Ntinda schools</text>
 <g id="prospects">
 <circle cx="676.9" cy="625.4" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
 <circle cx="632.0" cy="688.7" r="3.0" fill="#7056D6" fill-opacity="0.55"/>
@@ -1101,12 +1100,12 @@
 </g>
 <g id="outside-note">
 <rect x="1080.0" y="972.0" width="284.0" height="48.0" rx="10" fill="#1D1E27" filter="url(#soft)" fill-opacity="0.96"/>
-<g id="icon-shield-2" transform="translate(1094.0 986.0) scale(0.7500)">
-<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" fill="none" stroke="#A9F3D2" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M9 12l2 2 4-4" fill="none" stroke="#A9F3D2" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="icon-pin" transform="translate(1094.0 986.0) scale(0.7500)">
+<path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z" fill="none" stroke="#A9F3D2" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 7a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#A9F3D2" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="98-of-her-prospects-inside" x="1120.0" y="1000.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#CBCCE7">98% of her prospects inside</text>
-<text id="her-territory-4-outside-a" x="1120.0" y="1016.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">her territory · 4 outside, all 14 Aug</text>
+<text id="Each-dot-is-a-saved-GPS-loca" x="1120.0" y="1000.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#CBCCE7">Each dot is a saved GPS location</text>
+<text id="where-she-met-them-routes" x="1120.0" y="1016.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">where she met them · routes are labels</text>
 </g>
 <rect id="Client-journey-funnel-bg" x="1416.0" y="388.0" width="472.0" height="300.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
 <text id="title-2" x="1440.0" y="426.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#CBCCE7">Client journey funnel</text>
@@ -1175,6 +1174,6 @@
 </g>
 <text id="Started-her-route" x="1478.0" y="958.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Started her route</text>
 <text id="09-02" x="1835.5" y="958.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">09:02</text>
-<text id="Kiwatule-market-inside-ter" x="1478.0" y="976.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kiwatule market · inside territory</text>
+<text id="Kiwatule-market-first-pros" x="1478.0" y="976.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kiwatule market · first prospect 09:02</text>
 </g>
 </svg>

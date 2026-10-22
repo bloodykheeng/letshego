@@ -279,7 +279,7 @@
 <rect x="676.0" y="640.0" width="36.0" height="20.0" rx="10" fill="#4F4CC9"/>
 <circle cx="702.0" cy="650.0" r="7.5" fill="#FFFFFF"/>
 </g>
-<text id="Alert-me-if-she-leaves-her-t" x="320.0" y="690.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#B0B1C7">Alert me if she leaves her territory</text>
+<text id="Prospects-need-a-GPS-locatio" x="320.0" y="690.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#B0B1C7">Prospects need a GPS location</text>
 <g id="toggle-2">
 <rect x="676.0" y="676.0" width="36.0" height="20.0" rx="10" fill="#4F4CC9"/>
 <circle cx="702.0" cy="686.0" r="7.5" fill="#FFFFFF"/>
@@ -518,19 +518,72 @@
 <text id="Kiwatule" x="1701.5" y="384.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#9092A3">Kiwatule</text>
 </g>
 </g>
-<path id="territory" d="M1430.4 276.9 L1853.6 283.6 L1849.0 888.4 L1435.0 881.7 Z" fill="#15925A" stroke="#91EFC5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill-opacity="0.04" stroke-dasharray="7 5"/>
-<path id="route-Ntinda-stage" d="M1467.2 451.6 L1522.4 491.9 L1577.6 451.6" fill="none" stroke="#A09FDD" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<text id="Ntinda-stage" x="1467.2" y="439.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#1F1E57">Ntinda stage</text>
-<path id="route-Kiwatule-market" d="M1642.0 532.2 L1697.2 586.0 L1761.6 545.7 L1807.6 626.3" fill="none" stroke="#A09FDD" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<text id="Kiwatule-market" x="1642.0" y="520.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#1F1E57">Kiwatule market</text>
-<path id="route-Kigoowa-estates" d="M1504.0 720.4 L1559.2 774.2 L1623.6 747.3" fill="none" stroke="#A09FDD" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<text id="Kigoowa-estates" x="1504.0" y="708.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#1F1E57">Kigoowa estates</text>
-<path id="route-Ntinda-schools" d="M1669.6 774.2 L1734.0 814.5 L1798.4 787.6" fill="none" stroke="#A09FDD" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<text id="Ntinda-schools" x="1669.6" y="762.2" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#1F1E57">Ntinda schools</text>
-<path id="route-Kiwatule-new-estates" d="M1688.0 344.1 L1752.4 384.4 L1807.6 357.5" fill="none" stroke="#898CA5" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="3 6"/>
-<text id="Kiwatule-new-estates" x="1688.0" y="332.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kiwatule new estates</text>
-<path id="route-Ntinda-shops" d="M1458.0 599.4 L1504.0 626.3 L1550.0 586.0" fill="none" stroke="#898CA5" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="3 6"/>
-<text id="Ntinda-shops" x="1458.0" y="587.4" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Ntinda shops</text>
+<circle cx="1458.0" cy="465.8" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1465.6" cy="443.4" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1473.4" cy="429.4" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1512.8" cy="474.5" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1508.5" cy="508.6" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1530.9" cy="499.8" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1462.1" cy="428.3" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1533.4" cy="480.6" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1464.0" cy="443.8" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<rect x="1477.2" y="414.6" width="90.4" height="22.0" rx="11" fill="#1D1E27" stroke="#A09FDD" stroke-width="1"/>
+<text id="Ntinda-stage" x="1486.2" y="430.1" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#1F1E57">Ntinda stage</text>
+<circle cx="1622.4" cy="557.1" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1635.3" cy="516.7" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1622.0" cy="532.7" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1690.5" cy="580.5" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1638.3" cy="530.9" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1713.5" cy="618.1" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1803.8" cy="585.1" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1736.2" cy="531.7" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1823.1" cy="652.0" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<rect x="1671.9" y="495.2" width="110.3" height="22.0" rx="11" fill="#1D1E27" stroke="#A09FDD" stroke-width="1"/>
+<text id="Kiwatule-market" x="1680.9" y="510.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#1F1E57">Kiwatule market</text>
+<circle cx="1492.3" cy="716.9" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1584.5" cy="762.2" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1615.2" cy="735.1" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1543.0" cy="769.8" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1513.7" cy="683.3" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1611.4" cy="742.1" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1501.2" cy="734.0" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1492.1" cy="729.5" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1630.3" cy="739.4" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<rect x="1507.3" y="683.4" width="109.9" height="22.0" rx="11" fill="#1D1E27" stroke="#A09FDD" stroke-width="1"/>
+<text id="Kigoowa-estates" x="1516.3" y="698.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#1F1E57">Kigoowa estates</text>
+<circle cx="1757.9" cy="845.7" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1676.6" cy="807.0" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1752.3" cy="838.5" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1729.4" cy="824.8" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1740.2" cy="808.3" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1784.9" cy="794.6" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1818.2" cy="801.2" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1675.2" cy="779.0" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<circle cx="1790.5" cy="785.6" r="3.5" fill="#7056D6" fill-opacity="0.75"/>
+<rect x="1683.2" y="737.2" width="101.7" height="22.0" rx="11" fill="#1D1E27" stroke="#A09FDD" stroke-width="1"/>
+<text id="Ntinda-schools" x="1692.2" y="752.7" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#1F1E57">Ntinda schools</text>
+<circle cx="1799.8" cy="358.4" r="3.5" fill="#484951" fill-opacity="0.75"/>
+<circle cx="1810.0" cy="359.0" r="3.5" fill="#484951" fill-opacity="0.75"/>
+<circle cx="1677.1" cy="368.9" r="3.5" fill="#484951" fill-opacity="0.75"/>
+<circle cx="1687.5" cy="325.3" r="3.5" fill="#484951" fill-opacity="0.75"/>
+<circle cx="1778.6" cy="385.1" r="3.5" fill="#484951" fill-opacity="0.75"/>
+<circle cx="1705.8" cy="354.5" r="3.5" fill="#484951" fill-opacity="0.75"/>
+<circle cx="1813.5" cy="373.7" r="3.5" fill="#484951" fill-opacity="0.75"/>
+<circle cx="1747.0" cy="387.4" r="3.5" fill="#484951" fill-opacity="0.75"/>
+<circle cx="1811.7" cy="393.9" r="3.5" fill="#484951" fill-opacity="0.75"/>
+<rect x="1681.2" y="307.1" width="136.3" height="22.0" rx="11" fill="#1D1E27" stroke="#282932" stroke-width="1"/>
+<text id="Kiwatule-new-estates" x="1694.3" y="322.6" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Kiwatule new estates</text>
+<circle cx="1453.1" cy="606.0" r="3.5" fill="#484951" fill-opacity="0.75"/>
+<circle cx="1543.1" cy="589.1" r="3.5" fill="#484951" fill-opacity="0.75"/>
+<circle cx="1498.0" cy="625.5" r="3.5" fill="#484951" fill-opacity="0.75"/>
+<circle cx="1480.6" cy="611.8" r="3.5" fill="#484951" fill-opacity="0.75"/>
+<circle cx="1505.4" cy="639.5" r="3.5" fill="#484951" fill-opacity="0.75"/>
+<circle cx="1511.3" cy="635.3" r="3.5" fill="#484951" fill-opacity="0.75"/>
+<circle cx="1453.1" cy="572.7" r="3.5" fill="#484951" fill-opacity="0.75"/>
+<circle cx="1443.4" cy="568.1" r="3.5" fill="#484951" fill-opacity="0.75"/>
+<circle cx="1580.1" cy="615.2" r="3.5" fill="#484951" fill-opacity="0.75"/>
+<rect x="1457.7" y="549.0" width="92.6" height="22.0" rx="11" fill="#1D1E27" stroke="#282932" stroke-width="1"/>
+<text id="Ntinda-shops" x="1468.9" y="564.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Ntinda shops</text>
 <text id="Last-4-weeks-on-these-routes" x="1420.0" y="940.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#CBCCE7">Last 4 weeks on these routes</text>
 <text id="Kiwatule-market-2" x="1420.0" y="966.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">Kiwatule market</text>
 <text id="52-a-day" x="1814.8" y="966.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#CBCCE7">52 a day</text>

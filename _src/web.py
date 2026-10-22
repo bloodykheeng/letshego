@@ -23,13 +23,13 @@ Y0 = TOP + 28
 
 NAV = [
     ("SALES", [("Overview", "grid")]),
-    ("PLANNING", [("Journey plans", "route")]),
+    ("PLANNING", [("Prospect targets", "target"), ("Journey plans", "route")]),
     ("FIELD", [("Agents", "users"), ("Field map", "map"), ("Client pipeline", "workflow")]),
     ("LOANS", [("Approvals", "listcheck"), ("Why & why not", "message")]),
     ("ADMIN", [("Locations", "layers"), ("Users", "user"), ("Roles & access", "shield"), ("Reports & audit", "history")]),
 ]
 NAV_TARGET = {"Overview": "w01", "Agents": "w02", "Field map": "w04", "Client pipeline": "w05", "Approvals": "w07",
-              "Why & why not": "w09", "Journey plans": "w10", "Locations": "w11",
+              "Why & why not": "w09", "Prospect targets": "w10", "Journey plans": "w10d", "Locations": "w11",
               "Users": "w12", "Roles & access": "w12c", "Reports & audit": "w13"}
 BADGES = {"Agents": ("6", RED), "Approvals": ("14", YELLOW)}
 
@@ -314,7 +314,7 @@ def w00_sign_in():
         s.rect(x, y, 290, 150, fill=CARD, rx=20, stroke=LINE)
         ring(s, x + 70, y + 75, 44, 10, 0.79, BRAND)
         s.text(x + 70, y + 82, "79%", 18, 700, INK, anchor="middle")
-        s.text(x + 136, y + 64, "Route targets", 13, 600, MUTED)
+        s.text(x + 136, y + 64, "Prospect targets", 13, 600, MUTED)
         s.text(x + 136, y + 88, "met this", 15, 700, INK)
         s.text(x + 136, y + 108, "quarter", 15, 700, INK)
     with s.g("preview live map", transform="rotate(-2 1500 640)"):
@@ -401,7 +401,7 @@ def w01_overview():
     ry = ky + 166
     rw = 1010
     card(s, X0, ry, rw, 370, "Quarter rhythm: prospects and KYC completed by week",
-         "Busy in week 1, quiet mid-quarter, a rush at the end: route journey plans with daily targets even it out")
+         "Busy in week 1, quiet mid-quarter, a rush at the end: daily prospect targets even it out")
     with s.g("legend"):
         lx = X0 + rw - 330
         s.rect(lx, ry + 28, 14, 12, fill=tint(STAGE["Prospect"], 0.4), rx=2)
@@ -480,16 +480,16 @@ def w01_overview():
 
     jx = X0 + bw + 20
     jw = 420
-    card(s, jx, by, jw, bh, "Plans kept", "Route and lead journey plans", action="Plans →")
+    card(s, jx, by, jw, bh, "Targets and plans kept", "Prospect targets and lead journey plans", action="Targets →")
     with s.g("plan kept"):
         f = PROSPECTS_Q / PROSPECT_TARGET_Q
         ring(s, jx + 70, by + 124, 44, 10, f, STAGE["Prospect"])
         s.text(jx + 70, by + 131, f"{f:.0%}", 19, 700, INK, anchor="middle")
-        s.text(jx + 132, by + 116, "Route targets met", 14, 700, INK)
+        s.text(jx + 132, by + 116, "Prospect targets met", 14, 700, INK)
         s.text(jx + 132, by + 136, f"{PROSPECTS_Q:,} of {PROSPECT_TARGET_Q:,} prospects", 12.5, 400, MUTED)
         s.text(jx + 132, by + 154, "that branch managers planned", 12.5, 400, MUTED)
     y = by + 196
-    for lab, v, tot, col in [("Prospects on route journey plans", PROSPECT_TARGET_Q, PROSPECT_TARGET_Q, "#8A8DA6"),
+    for lab, v, tot, col in [("Prospect targets set", PROSPECT_TARGET_Q, PROSPECT_TARGET_Q, "#8A8DA6"),
                              ("Prospects made", PROSPECTS_Q, PROSPECT_TARGET_Q, STAGE["Prospect"]),
                              ("Leads put on lead journey plans", 3_410, LEADS_Q, STAGE["Lead"]),
                              ("Leads visited by officers", LEAD_VISITS_Q, LEADS_Q, TEAL)]:
@@ -507,7 +507,7 @@ def w01_overview():
         ("Rose Candiru", "RC", "Arua", "No prospect for 19 days", "Silent"),
         ("Denis Okiror", "DO", "Soroti", "No prospect for 13 days", "Silent"),
         ("Brian Ssali", "BS", "Kampala East", "Outside his territory 3 times this week", "Behind"),
-        ("Samuel Wandera", "SW", "Mbale", "54% of route targets · weeks 4–7 empty", "Behind"),
+        ("Samuel Wandera", "SW", "Mbale", "54% of prospect targets · weeks 4–7 empty", "Behind"),
         ("Fred Opio", "FO", "Gulu", "41 prospects with no follow-up", "Behind"),
     ]
     rh = (bh - 80) / len(flags)
@@ -529,7 +529,7 @@ def w01_overview():
 # =====================================================================================
 def w02_agents():
     s = shell("02 Agents performance", "Agents", ["Sales", "Agents"])
-    page_head(s, "Sales agents", f"{AGENTS_N} sales agents · {QUARTER} · prospects against route targets, leads, and "
+    page_head(s, "Sales agents", f"{AGENTS_N} sales agents · {QUARTER} · prospects against prospect targets, leads, and "
                                  "how many of their prospects became clients")
     with s.g("header actions"):
         x = X1
@@ -541,9 +541,9 @@ def w02_agents():
 
     sy = Y0 + 84
     sw_ = (CW - 3 * 16) / 4
-    stats = [("On track", "≥ 85% of route targets", 21, GREEN, "trendup"),
-             ("At risk", "60–84% of route targets", 25, AMBER, "gauge"),
-             ("Behind", "under 60% of route targets", 10, RED, "trenddown"),
+    stats = [("On track", "≥ 85% of prospect targets", 21, GREEN, "trendup"),
+             ("At risk", "60–84% of prospect targets", 25, AMBER, "gauge"),
+             ("Behind", "under 60% of prospect targets", 10, RED, "trenddown"),
              ("Silent", "no prospect in 14+ days", 6, "#8E1F1F", "userx")]
     for i, (lab, sub, n, col, ic) in enumerate(stats):
         x = X0 + i * (sw_ + 16)
@@ -564,7 +564,7 @@ def w02_agents():
                anchor="end")
     tby = ty + 54
     cols = [("Agent", 260, "start"), ("Territory", 150, "start"), ("Weekly prospects W1–W13", 270, "start"),
-            ("Prospects", 100, "end"), ("Vs route target", 170, "start"), ("Leads", 80, "end"),
+            ("Prospects", 100, "end"), ("Vs target", 170, "start"), ("Leads", 80, "end"),
             ("KYC completed", 120, "end"), ("Conv.", 90, "end"), ("Hours / day", 110, "end"),
             ("Last ping", 120, "start"), ("Status", 122, "start")]
     rows = []
@@ -609,11 +609,11 @@ def w03_agent():
         x = X1 - 24
         x -= button(s, x, Y0 + 39, "Her territory", "secondary", icon="layers", anchor="end") + 10
         s.link(x, Y0 + 39, 170, 40, "w11")
-        button(s, x, Y0 + 39, "Route journey plan", "primary", icon="route", anchor="end")
+        button(s, x, Y0 + 39, "Prospect target", "primary", icon="route", anchor="end")
         s.link(x - 210, Y0 + 39, 210, 40, "w10b")
     ky = Y0 + 136
     kw = (CW - 4 * 16) / 5
-    k = [("userplus", STAGE["Prospect"], "Prospects", f"{p:,}", f"of {t:,} on her route journey plans · {p / t:.0%}", p / t),
+    k = [("userplus", STAGE["Prospect"], "Prospects", f"{p:,}", f"of {t:,} targeted · {p / t:.0%}", p / t),
          ("flag", STAGE["Lead"], "Leads generated", f"{l}", f"{l / p:.0%} of her prospects · team {LEADS_Q / PROSPECTS_Q:.0%}",
           None),
          ("idcard", STAGE["KYC completed"], "KYC completed", f"{c}", f"{c / l:.0%} of her leads · rank 3 of {AGENTS_N}",
@@ -774,7 +774,7 @@ def w04_field_map():
         s.icon("alert", bx + 16, by_ + 14, 20, RED, 2)
         s.text(bx + 44, by_ + 30, "Brian Ssali left his territory", 14.5, 700, INK)
         s.text(bx + 16, by_ + 56, "Since 11:20 · 1.4 km outside Banda · Kyambogo", 12.5, 400, INK2)
-        s.text(bx + 16, by_ + 76, "Route journey plan: Banda stage route · 3 of 50 prospects", 12.5, 400, MUTED)
+        s.text(bx + 16, by_ + 76, "Prospect target: Banda stage route · 3 of 50 prospects", 12.5, 400, MUTED)
         s.text(bx + 16, by_ + 96, "He and Moses were told at 11:25", 12.5, 400, MUTED)
         s.text(bx + 16, by_ + 124, "Open Brian's day →", 13, 600, BRAND)
     with s.g("legend"):
@@ -806,7 +806,7 @@ def w04_field_map():
     px0 = X0 + mw + 20
     pw = X1 - px0
     ph = 640
-    card(s, px0, my, pw, ph, "Sales agents today", "Prospects against today's route target")
+    card(s, px0, my, pw, ph, "Sales agents today", "Prospects against today's target")
     y = my + 76
     for (nm, ini, st, t, p, tg, l, route, hrs) in TEAM:
         on = nm == "Sarah Namuli"
@@ -1064,7 +1064,7 @@ def w01b_branch():
         rule_note(s, x - 372, Y0 + 18)
     ky = Y0 + 84
     kw = (CW - 4 * 16) / 5
-    kpis = [("userplus", STAGE["Prospect"], "Prospects today", f"{tp}", f"of {tt} on today's route journey plans · "
+    kpis = [("userplus", STAGE["Prospect"], "Prospects today", f"{tp}", f"of {tt} targeted today · "
                                                                          f"{tp / tt:.0%}", tp / tt),
             ("flag", STAGE["Lead"], "Leads today", f"{tl}", "from earlier prospects", None),
             ("idcard", STAGE["KYC completed"], "KYC completed today", "3", "Joel 2, Christine 1 · applications sent", None),
@@ -1078,7 +1078,7 @@ def w01b_branch():
     ty = ky + 156
     th = H - 28 - ty
     lw = 1090
-    card(s, X0, ty, lw, th, "Route journey plans today", "Each agent's route and target, set by you · live from their phones",
+    card(s, X0, ty, lw, th, "Prospect targets today", "Each agent's route and target, set by you · live from their phones",
          action="Plans →")
     s.link(X0 + lw - 110, ty + 20, 110, 30, "w10")
     cols = [("Sales agent", 250, "start"), ("Route", 230, "start"), ("Prospects vs target", 250, "start"),
@@ -1098,7 +1098,7 @@ def w01b_branch():
         y = ty + th - 54
         s.rect(X0 + 24, y, lw - 48, 38, fill="#F7F7FC", rx=10, shadow=False)
         s.icon("info", X0 + 38, y + 10, 18, BRAND, 2)
-        s.text(X0 + 66, y + 24, "Targets are set per route in your route journey plans. Hours count only time on the route, "
+        s.text(X0 + 66, y + 24, "Targets are set per route and day in Prospect targets. Hours count only time on the route, "
                                 "inside the agent's territory.", 12.5, 400, INK2)
 
     rx = X0 + lw + 20
@@ -1121,14 +1121,14 @@ def w01b_branch():
             chip(s, rx + rw - 24 - tw(st, 11, 600) - 34, y + 8, st, GREEN if st == "At a lead" else BRAND, h=22,
                  size=11, dot=True)
         y += 62
-    s.link(rx, oy + 76, rw, 62, "w10d")
+    s.link(rx, oy + 76, rw, 62, "w10e")
     with s.g("waiting leads"):
         y = oy + oh - 76
         s.rect(rx + 24, y, rw - 48, 56, fill=tint(BLUE, 0.07), rx=12, stroke=tint(BLUE, 0.3), shadow=False)
         s.text(rx + 40, y + 24, "14 new leads wait for a plan", 13.5, 700, INK)
         s.text(rx + 40, y + 43, "Oldest from Mon · put them on an officer's plan", 12, 400, MUTED)
         bw = button(s, rx + rw - 36, y + 12, "Make a plan", "primary", h=32, size=12.5, anchor="end")
-        s.link(rx + rw - 36 - bw, y + 12, bw, 32, "w10e")
+        s.link(rx + rw - 36 - bw, y + 12, bw, 32, "w10f")
     return s
 
 PIPE_COLOR = {"Prospects": STAGE["Prospect"], "Leads waiting for a plan": STAGE["Lead"],

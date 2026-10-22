@@ -60,7 +60,7 @@
 <text id="This-week" x="16.0" y="296.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#CBCCE7">This week</text>
 <text id="W40-28-Sep-2-Oct" x="233.7" y="296.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">W40 · 28 Sep – 2 Oct</text>
 <rect x="16.0" y="308.0" width="328.0" height="120.0" rx="16" fill="#1D1E27" filter="url(#soft)"/>
-<text id="Prospects-vs-route-target" x="32.0" y="334.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#B0B1C7">Prospects vs route target</text>
+<text id="Prospects-vs-target" x="32.0" y="334.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#B0B1C7">Prospects vs target</text>
 <text id="131-of-230" x="263.2" y="334.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#CBCCE7">131 of 230</text>
 <g id="progress">
 <rect x="32.0" y="343.0" width="296.0" height="5.0" rx="2.5" fill="#202129"/>

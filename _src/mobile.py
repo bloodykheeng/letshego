@@ -279,7 +279,7 @@ def m03_home():
         s.rect(PAD, y, MW - 2 * PAD, 50, fill=CARD, rx=16, stroke=LINE)
         s.rect(PAD + 10, y + 9, 32, 32, fill=tint(YELLOW, 0.3), rx=10)
         s.icon("route", PAD + 17, y + 16, 18, YELLOW_D, 2.2)
-        s.text(PAD + 54, y + 22, "Route journey plans", 13, 700, INK)
+        s.text(PAD + 54, y + 22, "Prospect targets", 13, 700, INK)
         s.text(PAD + 54, y + 39, "This week: 4 routes · 230 prospects · by Moses", 11.5, 400, MUTED)
         s.icon("chevright", MW - PAD - 30, y + 15, 20, FAINT)
         s.link(PAD, y, MW - 2 * PAD, 50, "m04")
@@ -594,7 +594,7 @@ def m19_me():
     s.text(MW - PAD, y, "W40 · 28 Sep – 2 Oct", 12, 400, MUTED, anchor="end")
     y += 12
     s.rect(PAD, y, MW - 2 * PAD, 120, fill=CARD, rx=16, stroke=LINE)
-    s.text(PAD + 16, y + 26, "Prospects vs route target", 13, 400, INK2)
+    s.text(PAD + 16, y + 26, "Prospects vs target", 13, 400, INK2)
     s.text(MW - PAD - 16, y + 26, "131 of 230", 13, 700, INK, anchor="end")
     progress(s, PAD + 16, y + 35, MW - 2 * PAD - 32, 131 / 230, STAGE["Prospect"], h=5)
     for i, (lab, v) in enumerate([("Leads generated", "15"), ("Time prospecting", "12.9 h")]):
@@ -950,7 +950,7 @@ ROUTE_WEEK = [("Mon 28", "Ntinda stage route", 50, 52, "done"),
               ("Fri 2", "Ntinda schools route", 40, 0, "later")]
 
 def m04a_route_plan():
-    s = phone("M4a Route journey plan: week 40", bg=BG, time="11:06")
+    s = phone("M4a Prospect target: week 40", bg=BG, time="11:06")
     app_bar(s, "Week 40", back="m04", sub="28 Sep – 2 Oct · set by Moses Okello", history=True)
     with s.g("week target"):
         y = 94
@@ -1304,7 +1304,7 @@ def m22_ro_me():
         y = 146
         s.rect(PAD, y, MW - 2 * PAD, 46, fill=tint(BRAND, 0.06), rx=12)
         s.icon("route", PAD + 12, y + 13, 20, BRAND, 2)
-        s.text(PAD + 42, y + 20, "Also assigned: a route journey plan", 13, 700, INK)
+        s.text(PAD + 42, y + 20, "Also assigned: prospect targets", 13, 700, INK)
         s.text(PAD + 42, y + 37, "Fri 2 Oct · Kigoowa estates · 30 prospects · by Moses", 11.5, 400, MUTED,
                maxw=MW - 2 * PAD - 54)
     with s.g("quarter"):
@@ -1474,8 +1474,8 @@ def plan_card(s, y, name, dates, line, done, total, foot, status, color, target=
         s.link(PAD, y, MW - 2 * PAD, 118, target)
 
 def m04_route_plans():
-    s = phone("M4 My route journey plans", bg=BG, time="11:06")
-    app_bar(s, "Route journey plans", back="m03", sub="Set by your branch manager, Moses Okello")
+    s = phone("M4 My prospect targets", bg=BG, time="11:06")
+    app_bar(s, "Prospect targets", back="m03", sub="Set by your branch manager, Moses Okello")
     filter_chips(s, [("All 3", True), ("Active 1", False), ("Next 1", False), ("Done 1", False)])
     y = 140
     for args in [("Week 40", "28 Sep – 2 Oct", "4 routes · Ntinda · Kiwatule", 131, 230, "131 of 230 prospects · 3 of 5 days",
@@ -1509,7 +1509,7 @@ def m21_lead_plans():
         y += 22
         s.rect(PAD, y, MW - 2 * PAD, 52, fill=tint(BRAND, 0.06), rx=12)
         s.icon("route", PAD + 14, y + 16, 20, BRAND, 2)
-        s.text(PAD + 44, y + 22, "Route journey plan · Fri 2 Oct", 13, 700, INK)
+        s.text(PAD + 44, y + 22, "Prospect target · Fri 2 Oct", 13, 700, INK)
         s.text(PAD + 44, y + 39, "Kigoowa estates route · 30 prospects", 11.5, 400, MUTED)
     bottom_nav(s, "Plan", role="ro")
     return s

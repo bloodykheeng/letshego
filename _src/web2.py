@@ -286,16 +286,14 @@ def w09_reasons():
 
 
 def w10_plans():
-    s = shell("10 Journey plans", "Journey plans", ["Planning", "Journey plans"], user=SUPERVISOR, period="Week")
-    page_head(s, "Journey plans", "Route journey plans tell sales agents where to prospect and how many; lead journey plans tell "
-                                  "relationship officers which leads to visit · Kampala East")
+    s = shell("10 Prospect targets", "Prospect targets", ["Planning", "Prospect targets"], user=SUPERVISOR,
+              period="Week")
+    page_head(s, "Prospect targets", "A route and a prospect target for each sales agent, every day · set by you · "
+                                     "Kampala East")
     with s.g("header actions"):
         x = X1
-        bw = button(s, x, Y0 + 12, "New route journey plan", "primary", icon="plus", anchor="end")
+        bw = button(s, x, Y0 + 12, "Set prospect targets", "primary", icon="plus", anchor="end")
         s.link(x - bw, Y0 + 12, bw, 40, "w10c")
-        x -= bw + 12
-        bw = button(s, x, Y0 + 12, "New lead journey plan", "secondary", icon="plus", anchor="end")
-        s.link(x - bw, Y0 + 12, bw, 40, "w10e")
         x -= bw + 12
         x -= filter_btn(s, x - 190, Y0 + 13, "Week", "W40 · 28 Sep", w=190) + 12
     ky = Y0 + 84
@@ -303,25 +301,25 @@ def w10_plans():
     tp = sum(r[6] for r in ROUTE_PLANS)
     tt = sum(r[7] for r in ROUTE_PLANS)
     for i, (ic, col, lab, val, sub, fr) in enumerate([
-            ("route", BRAND, "Route journey plans this week", "8", "7 sales agents and 1 officer · 20 routes", None),
+            ("target", BRAND, "Agents with targets this week", "8", "7 sales agents and 1 officer · 20 routes", None),
             ("userplus", STAGE["Prospect"], "Prospects vs targets", f"{tp} / {tt:,}", f"{tp / tt:.0%} · 3 days of 5 gone",
              tp / tt),
-            ("flag", STAGE["Lead"], "Lead journey plans", "3", "2 active · 1 starts Mon 5 Oct", None),
-            ("clock", AMBER, "Leads waiting for a plan", "14", "oldest from Mon 28 Sep", None)]):
+            ("trenddown", RED, "Behind target", "4", "under 40% with 2 days to go", None),
+            ("shield", GREEN, "Inside territory", "98%", "1 geofence alert today: Brian Ssali", None)]):
         kpi(s, X0 + i * (kw + 16), ky, kw, 140, ic, col, lab, val, sub, fr)
-    s.link(X0 + 3 * (kw + 16), ky, kw, 140, "w10e")
+    s.link(X0 + 3 * (kw + 16), ky, kw, 140, "w04")
     ty = ky + 160
-    s.text(X0, ty + 20, "Route journey plans · sales agents", 17, 700, INK)
-    s.text(X1, ty + 20, "Click a plan to see its days, routes and prospects", 12.5, 400, MUTED, anchor="end")
+    s.text(X0, ty + 20, "This week · sales agents", 17, 700, INK)
+    s.text(X1, ty + 20, "Click an agent to see their route and target for each day", 12.5, 400, MUTED, anchor="end")
     tby = ty + 36
     cols = [("Assigned to", 290, "start"), ("Territory", 230, "start"), ("Week", 180, "start"),
             ("Routes", 100, "end"), ("Target / day", 130, "end"), ("Prospects vs target", 300, "start"),
             ("Status", 150, "start"), ("", 212, "end")]
     rows = []
     for nm, ini, terr, dates, nr, per, p, t, st in ROUTE_PLANS:
-        rows.append([agent_cell(nm, ini, "Relationship Officer · assigned" if nm == "Joel Byaruhanga" else
-                                "Sales Agent", TEAL if nm == "Joel Byaruhanga" else BRAND), terr, dates, str(nr),
-                     str(per),
+        joel = nm == "Joel Byaruhanga"
+        rows.append([agent_cell(nm, ini, "Relationship Officer · assigned" if joel else "Sales Agent",
+                                TEAL if joel else BRAND), terr, dates, str(nr), str(per),
                      (lambda p_, t_: lambda s_, x, y, w, h: (progress(s_, x + 16, y + h / 2 - 3, 160, p_ / t_,
                                                                       perf_color(p_ / t_ * 1.6), h=7),
                                                              s_.text(x + 188, y + h / 2 + 5, f"{p_} of {t_}", 12.5,
@@ -329,29 +327,11 @@ def w10_plans():
                      chip_cell(st),
                      (lambda: lambda s_, x, y, w, h: button(s_, x + w - 12, y + h / 2 - 15, "Open", "soft", h=30,
                                                             size=12.5, anchor="end"))()])
-    rh = 46
+    rh = (H - 28 - tby - 36 - 50) / len(rows)
     table(s, X0, tby, cols, rows, row_h=rh, head_h=36, hl=0)
     s.link(X0, tby + 36, CW, rh, "w10b")
-    ly = tby + 36 + rh * len(rows) + 26
-    s.text(X0, ly + 20, "Lead journey plans · relationship officers", 17, 700, INK)
-    cols = [("Plan", 420, "start"), ("Officer", 260, "start"), ("Dates", 170, "start"), ("Leads", 90, "end"),
-            ("Visited", 230, "start"), ("KYC completed", 130, "end"), ("Status", 150, "start"), ("", 142, "end")]
-    rows = []
-    for nm, ofc, ini, desc, dates, n, v, k, st in LEAD_PLANS:
-        rows.append([
-            (lambda a, b: lambda s_, x, y, w, h: (s_.text(x + 16, y + h / 2 - 3, a, 14, 600, INK, maxw=w - 24),
-                                                  s_.text(x + 16, y + h / 2 + 15, b, 12, 400, MUTED,
-                                                          maxw=w - 24)))(nm, desc),
-            agent_cell(ofc, ini, "Relationship Officer", TEAL), dates, str(n),
-            (lambda v_, n_: lambda s_, x, y, w, h: (progress(s_, x + 16, y + h / 2 - 3, 120, v_ / n_,
-                                                             GREEN if v_ / n_ >= 0.5 else (AMBER if v_ else LINE), h=7),
-                                                    s_.text(x + 148, y + h / 2 + 5, f"{v_} of {n_}", 12.5, 400,
-                                                            INK2)))(v, n),
-            str(k), chip_cell(st),
-            (lambda: lambda s_, x, y, w, h: button(s_, x + w - 12, y + h / 2 - 15, "Open", "soft", h=30, size=12.5,
-                                                   anchor="end"))()])
-    table(s, X0, ly + 36, cols, rows, row_h=rh, head_h=36)
-    s.link(X0, ly + 72, CW, rh, "w10d")
+    s.text(X0 + 16, H - 44, "Targets count prospects (name, phone, location) saved on the route, inside the agent's "
+                            "territory. Leads go to journey plans for relationship officers.", 13, 400, MUTED)
     return s
 
 
@@ -394,7 +374,7 @@ def w11_locations():
     cw = (CW - 2 * 36) / 3
     tabs = [("store", "Branches", "14", "each run by a branch manager", False),
             ("layers", "Territories", "64", "sales agents and officers work in them", True),
-            ("route", "Routes", "251", "given to agents in route journey plans", False)]
+            ("route", "Routes", "251", "given to agents with prospect targets", False)]
     for i, (ic, lab, n, sub, on) in enumerate(tabs):
         x = X0 + i * (cw + 36)
         with s.g(f"level {lab}"):
@@ -441,8 +421,8 @@ def w11_locations():
 
 def w11b_new_route():
     s = shell("11b New route", "Locations", ["Admin", "Locations", "New route"], user=SUPERVISOR)
-    page_head(s, "New route", "A route is a stretch of a territory where sales agents prospect · branch managers give routes to "
-                              "agents in route journey plans")
+    page_head(s, "New route", "A route is a stretch of a territory where sales agents prospect · branch managers give agents routes "
+                              "and daily prospect targets")
     with s.g("header actions"):
         x = X1
         bw = button(s, x, Y0 + 12, "Save route", "primary", icon="check", anchor="end")
@@ -630,7 +610,7 @@ def w12b_edit_user():
     card(s, rx, ty, rw, th, "What changes when you save")
     y = ty + 70
     for val, lab in [("+46", "clients · 188 → 234"), ("+4", "routes · 5 → 9"),
-                     ("+4", "routes for his next route journey plan")]:
+                     ("+4", "routes for his next prospect target")]:
         s.rect(rx + 24, y, rw - 48, 50, fill="#F7F7FC", rx=12, shadow=False)
         s.text(rx + 40, y + 32, val, 18, 700, GREEN_D)
         s.text(rx + 48 + tw(val, 18, 700), y + 31, lab, 13, 400, INK2, maxw=rw - 120)
@@ -704,7 +684,7 @@ def w12c_roles():
     tw2 = X1 - tx
     card(s, tx, ty, tw2, H - 28 - ty, "How locations are set", "Chosen in the user form, from the top down")
     y = ty + 80
-    for role, how in [("Sales Agent", "Branch › a territory; routes come from route journey plans"),
+    for role, how in [("Sales Agent", "Branch › a territory; routes come from prospect targets"),
                       ("Relationship Officer", "Branch › one or more territories; leads come from lead "
                                                "plans"),
                       ("Branch Manager", "Branch · plans routes and leads for the whole branch"),
@@ -719,7 +699,7 @@ def w12c_roles():
         s.rect(tx + 24, y + 12, tw2 - 48, 80, fill=tint(BRAND, 0.06), rx=12, shadow=False)
         s.icon("info", tx + 40, y + 30, 18, BRAND, 2)
         para(s, tx + 68, y + 42, "One role each. A branch manager can still assign someone another role's work, "
-                                 "e.g. a route journey plan for an officer.", tw2 - 110, 12.5, 400, INK2, lh=19)
+                                 "e.g. prospect targets for an officer.", tw2 - 110, 12.5, 400, INK2, lh=19)
         s.link(tx + 24, y + 12, tw2 - 48, 80, "w12")
     return s
 
@@ -777,7 +757,7 @@ def w13_reports():
              "Kiwatule market route · inside territory", "Phone · Ntinda"],
             ["27 Sep 16:40", "Moses Okello", "Published lead journey plan", "Kiwatule leads", "12 leads · Joel · 28 Sep – 2 Oct",
              "Web · Kampala"],
-            ["25 Sep 17:10", "Moses Okello", "Published route journey plan", "Sarah Namuli · week 40", "4 routes · 230 prospects",
+            ["25 Sep 17:10", "Moses Okello", "Set prospect targets", "Sarah Namuli · week 40", "4 routes · 230 prospects",
              "Web · Kampala"]]
     table(s, X0 + 1, ay + 76, cols, rows, row_h=(H - 28 - ay - 76 - 16) / 5 - 8, head_h=36)
     return s
@@ -803,13 +783,13 @@ LEAD_PLANS = [
 ]
 
 def w10b_route_plan():
-    s = shell("10b Route journey plan: Sarah Namuli, week 40", "Journey plans",
-              ["Planning", "Journey plans", "Sarah Namuli · week 40"], user=SUPERVISOR, period="Week")
+    s = shell("10b Prospect target: Sarah Namuli, week 40", "Prospect targets",
+              ["Planning", "Prospect targets", "Sarah Namuli · week 40"], user=SUPERVISOR, period="Week")
     with s.g("plan header"):
         s.rect(X0, Y0, CW, 124, fill=CARD, rx=12, stroke=LINE)
         s.rect(X0 + 24, Y0 + 24, 52, 52, fill=tint(BRAND, 0.1), rx=12)
         s.icon("route", X0 + 36, Y0 + 36, 28, BRAND, 2)
-        t = "Route journey plan · Sarah Namuli · week 40"
+        t = "Prospect target · Sarah Namuli · week 40"
         s.text(X0 + 96, Y0 + 50, t, 24, 700, INK)
         status_chip(s, X0 + 106 + tw(t, 24, 700), Y0 + 31, "Active")
         s.text(X0 + 96, Y0 + 78, "One route a day inside her territory, Ntinda · Kiwatule, each with a prospect "
@@ -895,9 +875,9 @@ def w10b_route_plan():
     return s
 
 def w10c_new_route_plan():
-    s = shell("10c New route journey plan", "Journey plans", ["Planning", "Journey plans", "New route journey plan"],
+    s = shell("10c Set prospect targets", "Prospect targets", ["Planning", "Prospect targets", "Set prospect targets"],
               user=SUPERVISOR, period="Week")
-    page_head(s, "New route journey plan", "Give a sales agent a route for each day and a prospect target · it goes to their "
+    page_head(s, "Set prospect targets", "Give a sales agent a route for each day and a prospect target · it goes to their "
                                    "phone when you publish")
     with s.g("header actions"):
         x = X1
@@ -999,8 +979,8 @@ PLAN_LEADS = [
     ("Grace Nakimera", "Peter Kato", 1_000_000, "Fri 2", "—", "Not yet due"),
 ]
 
-def w10d_lead_plan():
-    s = shell("10d Lead journey plan: Kiwatule leads", "Journey plans", ["Planning", "Journey plans", "Kiwatule leads"],
+def w10e_lead_plan():
+    s = shell("10e Lead journey plan: Kiwatule leads", "Journey plans", ["Planning", "Journey plans", "Kiwatule leads"],
               user=SUPERVISOR, period="Week")
     with s.g("plan header"):
         s.rect(X0, Y0, CW, 124, fill=CARD, rx=12, stroke=LINE)
@@ -1014,10 +994,10 @@ def w10d_lead_plan():
                                   "· created by Moses Okello on 27 Sep", 13, 400, MUTED)
         x = X1 - 24
         bw = button(s, x, Y0 + 40, "Edit plan", "primary", icon="edit", anchor="end")
-        s.link(x - bw, Y0 + 40, bw, 40, "w10e")
+        s.link(x - bw, Y0 + 40, bw, 40, "w10f")
         x -= bw + 10
         bw = button(s, x, Y0 + 40, "Add leads", "secondary", icon="userplus", anchor="end")
-        s.link(x - bw, Y0 + 40, bw, 40, "w10e")
+        s.link(x - bw, Y0 + 40, bw, 40, "w10f")
     ky = Y0 + 140
     kw = (CW - 4 * 16) / 5
     for i, (ic, col, lab, val, sub, fr) in enumerate([
@@ -1068,18 +1048,18 @@ WAITING_LEADS = [(CALLEE["name"], "Sarah Namuli", 2_000_000, "Lead today · Kiwa
                  ("Irene Kansiime", "Ivan Mugabe", 800_000, "Lead since Wed · Kyanja", False),
                  ("Henry Mukasa", "Brian Ssali", 3_500_000, "Lead since 22 Sep · Banda", False)]
 
-def w10e_new_lead_plan():
-    s = shell("10e New lead journey plan", "Journey plans", ["Planning", "Journey plans", "New lead journey plan"], user=SUPERVISOR,
+def w10f_new_lead_plan():
+    s = shell("10f New lead journey plan", "Journey plans", ["Planning", "Journey plans", "New lead journey plan"], user=SUPERVISOR,
               period="Week")
     page_head(s, "New lead journey plan", "Pick leads for a relationship officer to visit · it goes to the officer's phone "
                                   "when you publish")
     with s.g("header actions"):
         x = X1
         bw = button(s, x, Y0 + 12, "Publish to Joel's phone", "primary", icon="send", anchor="end")
-        s.link(x - bw, Y0 + 12, bw, 40, "w10")
+        s.link(x - bw, Y0 + 12, bw, 40, "w10d")
         x -= bw + 12
         bw = button(s, x, Y0 + 12, "Save draft", "secondary", anchor="end")
-        s.link(x - bw, Y0 + 12, bw, 40, "w10")
+        s.link(x - bw, Y0 + 12, bw, 40, "w10d")
     ty = Y0 + 84
     th = H - 28 - ty
     aw = 460
@@ -1152,5 +1132,58 @@ def w10e_new_lead_plan():
     return s
 
 
-SCREENS = [w07_approvals, w08_review, w09_reasons, w10_plans, w10b_route_plan, w10c_new_route_plan, w10d_lead_plan,
-           w10e_new_lead_plan, w11_locations, w11b_new_route, w12_users, w12b_edit_user, w12c_roles, w13_reports]
+def w10d_journey_plans():
+    s = shell("10d Journey plans", "Journey plans", ["Planning", "Journey plans"], user=SUPERVISOR, period="Week")
+    page_head(s, "Journey plans", "Lead journey plans: which leads each relationship officer visits, with dates and a "
+                                  "goal · Kampala East")
+    with s.g("header actions"):
+        x = X1
+        bw = button(s, x, Y0 + 12, "New lead journey plan", "primary", icon="plus", anchor="end")
+        s.link(x - bw, Y0 + 12, bw, 40, "w10f")
+        x -= bw + 12
+        x -= filter_btn(s, x - 190, Y0 + 13, "Week", "W40 · 28 Sep", w=190) + 12
+    ky = Y0 + 84
+    kw = (CW - 3 * 16) / 4
+    for i, (ic, col, lab, val, sub, fr) in enumerate([
+            ("flag", STAGE["Lead"], "Lead journey plans", "3", "2 active · 1 starts Mon 5 Oct", None),
+            ("check", TEAL, "Leads visited", "13 of 22", "on the 2 active plans · 59%", 13 / 22),
+            ("idcard", STAGE["KYC completed"], "KYC completed", "7", "on active plans this week", None),
+            ("clock", AMBER, "Leads waiting for a plan", "14", "oldest from Mon 28 Sep", None)]):
+        kpi(s, X0 + i * (kw + 16), ky, kw, 140, ic, col, lab, val, sub, fr)
+    s.link(X0 + 3 * (kw + 16), ky, kw, 140, "w10f")
+    ty = ky + 160
+    s.text(X0, ty + 20, "Lead journey plans · relationship officers", 17, 700, INK)
+    s.text(X1, ty + 20, "Click a plan to see its leads in visit order", 12.5, 400, MUTED, anchor="end")
+    cols = [("Plan", 420, "start"), ("Officer", 260, "start"), ("Dates", 170, "start"), ("Leads", 90, "end"),
+            ("Visited", 230, "start"), ("KYC completed", 130, "end"), ("Status", 150, "start"), ("", 142, "end")]
+    rows = []
+    for nm, ofc, ini, desc, dates, n, v, k, st in LEAD_PLANS:
+        rows.append([
+            (lambda a, b: lambda s_, x, y, w, h: (s_.text(x + 16, y + h / 2 - 3, a, 14, 600, INK, maxw=w - 24),
+                                                  s_.text(x + 16, y + h / 2 + 15, b, 12, 400, MUTED,
+                                                          maxw=w - 24)))(nm, desc),
+            agent_cell(ofc, ini, "Relationship Officer", TEAL), dates, str(n),
+            (lambda v_, n_: lambda s_, x, y, w, h: (progress(s_, x + 16, y + h / 2 - 3, 120, v_ / n_,
+                                                             GREEN if v_ / n_ >= 0.5 else (AMBER if v_ else LINE), h=7),
+                                                    s_.text(x + 148, y + h / 2 + 5, f"{v_} of {n_}", 12.5, 400,
+                                                            INK2)))(v, n),
+            str(k), chip_cell(st),
+            (lambda: lambda s_, x, y, w, h: button(s_, x + w - 12, y + h / 2 - 15, "Open", "soft", h=30, size=12.5,
+                                                   anchor="end"))()])
+    rh = 64
+    table(s, X0, ty + 36, cols, rows, row_h=rh, head_h=36, hl=0)
+    s.link(X0, ty + 72, CW, rh, "w10e")
+    with s.g("waiting leads"):
+        y = ty + 36 + 36 + 3 * rh + 30
+        s.rect(X0, y, CW, 60, fill=tint(BLUE, 0.07), rx=12, stroke=tint(BLUE, 0.3), shadow=False)
+        s.icon("flag", X0 + 20, y + 19, 22, BLUE, 2)
+        s.text(X0 + 56, y + 26, "14 new leads wait for a journey plan", 14, 700, INK)
+        s.text(X0 + 56, y + 45, "Made by sales agents since Mon 28 Sep · put them on an officer's plan", 12.5, 400,
+               MUTED)
+        bw = button(s, X1 - 20, y + 14, "New lead journey plan", "primary", h=32, size=12.5, anchor="end")
+        s.link(X1 - 20 - bw, y + 14, bw, 32, "w10f")
+    return s
+
+
+SCREENS = [w07_approvals, w08_review, w09_reasons, w10_plans, w10b_route_plan, w10c_new_route_plan, w10d_journey_plans, w10e_lead_plan,
+           w10f_new_lead_plan, w11_locations, w11b_new_route, w12_users, w12b_edit_user, w12c_roles, w13_reports]

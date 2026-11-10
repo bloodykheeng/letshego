@@ -269,7 +269,7 @@
 <text id="value-3" x="852.0" y="278.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#1B1C3A">1,051</text>
 <text id="sub-3" x="852.0" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#7D8099">12% of leads · loan applications sent</text>
 </g>
-<g id="kpi-New-clients">
+<g id="kpi-New-customers">
 <rect id="bg-4" x="1100.0" y="180.0" width="252.0" height="150.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
 <rect id="icon-bg-4" x="1120.0" y="200.0" width="38.0" height="38.0" rx="9" fill="#E1F1EA"/>
 <g id="icon-banknote" transform="translate(1129.0 209.0) scale(0.8333)">
@@ -278,7 +278,7 @@
 <path d="M6 12h.01" fill="none" stroke="#138351" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M18 12h.01" fill="none" stroke="#138351" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="New-clients" x="1170.0" y="216.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">New clients</text>
+<text id="New-customers" x="1170.0" y="216.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">New customers</text>
 <g id="chip-Conversion">
 <rect x="1170.0" y="223.0" width="75.9" height="20.0" rx="10.0" fill="#E3F2EB"/>
 <text id="Conversion" x="1180.0" y="237.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#12804F">Conversion</text>
@@ -408,7 +408,7 @@
 </g>
 <rect id="Client-journey-funnel-bg" x="1326.0" y="346.0" width="562.0" height="370.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
 <text id="title-2" x="1350.0" y="384.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#1B1C3A">Client journey funnel</text>
-<text id="subtitle-2" x="1350.0" y="406.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Q3 2026 · all branches · then 786 loans disbursed = clients</text>
+<text id="subtitle-2" x="1350.0" y="406.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Q3 2026 · all branches · then 786 loans disbursed = customers</text>
 <text id="card-action" x="1802.2" y="384.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#2F2E80">Pipeline →</text>
 <g id="funnel">
 <text id="stage" x="1350.0" y="465.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#4B4D6B">Prospects</text>
@@ -433,8 +433,8 @@
 <rect x="1350.0" y="664.0" width="514.0" height="36.0" rx="10" fill="#F7F7FC"/>
 <text id="Sales-agents-prospect-and-ma" x="1366.0" y="687.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">Sales agents prospect and make leads · relationship officers visit leads and complete KYC</text>
 </g>
-<rect id="Prospects-to-clients-by-sales-agent-bg" x="296.0" y="732.0" width="600.0" height="320.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
-<text id="title-3" x="320.0" y="770.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#1B1C3A">Prospects to clients, by sales agent</text>
+<rect id="Prospects-to-customers-by-sales-agent-bg" x="296.0" y="732.0" width="600.0" height="320.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
+<text id="title-3" x="320.0" y="770.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#1B1C3A">Prospects to customers, by sales agent</text>
 <text id="subtitle-3" x="320.0" y="792.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Q3 2026 · best and weakest</text>
 <text id="card-action-2" x="841.7" y="770.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#2F2E80">All →</text>
 <g id="table">
@@ -443,7 +443,7 @@
 <text id="PROSPECTS" x="512.7" y="817.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#7D8099" letter-spacing="0.6">PROSPECTS</text>
 <text id="LEADS" x="611.2" y="817.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#7D8099" letter-spacing="0.6">LEADS</text>
 <text id="KYC-2" x="695.2" y="817.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#7D8099" letter-spacing="0.6">KYC</text>
-<text id="CLIENTS" x="745.8" y="817.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#7D8099" letter-spacing="0.6">CLIENTS</text>
+<text id="CUSTOMERS" x="723.0" y="817.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#7D8099" letter-spacing="0.6">CUSTOMERS</text>
 <text id="CONV" x="844.6" y="817.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#7D8099" letter-spacing="0.6">CONV.</text>
 <g id="row-1">
 <line x1="297.0" y1="830.0" x2="895.0" y2="830.0" stroke="#EFF0F6" stroke-width="1"/>

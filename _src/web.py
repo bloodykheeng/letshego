@@ -297,7 +297,7 @@ def w00_sign_in():
     with s.g("preview conversions", transform="rotate(-3 470 360)"):
         x, y = 320, 290
         s.rect(x, y, 300, 136, fill=CARD, rx=20, stroke=LINE)
-        s.text(x + 22, y + 32, "Q3 new clients (loans disbursed)", 13, 600, MUTED)
+        s.text(x + 22, y + 32, "Q3 new customers (loans disbursed)", 13, 600, MUTED)
         s.text(x + 22, y + 76, "786", 34, 700, INK)
         s.icon("trendup", x + 130, y + 56, 18, GREEN, 2.4)
         s.text(x + 152, y + 72, "+20%", 14, 700, GREEN_D)
@@ -384,7 +384,7 @@ def w01_overview():
          None, None, None, False),
         ("idcard", STAGE["KYC completed"], "KYC completed", f"{CONV_Q:,}",
          f"{CONV_Q / LEADS_Q:.0%} of leads · loan applications sent", None, None, None, False),
-        ("banknote", GREEN, "New clients", f"{CLIENTS_Q:,}",
+        ("banknote", GREEN, "New customers", f"{CLIENTS_Q:,}",
          f"loans disbursed · {CLIENTS_Q / PROSPECTS_Q:.1%} of prospects", None, "Conversion",
          f"+{CLIENTS_Q / CLIENTS_SPLY - 1:.0%} vs Q3 2025", False),
         ("clock", AMBER, "Time prospecting", f"{HOURS_PROSPECTING} h", "a day on route days · from GPS", None,
@@ -451,7 +451,7 @@ def w01_overview():
     # ---- funnel
     fx = X0 + rw + 20
     fw = X1 - fx
-    card(s, fx, ry, fw, 370, "Client journey funnel", f"{QUARTER} · all branches · then {CLIENTS_Q} loans disbursed = clients",
+    card(s, fx, ry, fw, 370, "Client journey funnel", f"{QUARTER} · all branches · then {CLIENTS_Q} loans disbursed = customers",
          action="Pipeline →")
     funnel(s, fx + 24, ry + 90, fw - 48, FUNNEL, row_h=48, gap=26, label_w=130)
     with s.g("funnel note"):
@@ -464,10 +464,10 @@ def w01_overview():
     by = ry + 386
     bh = H - 28 - by
     bw = 600
-    card(s, X0, by, bw, bh, "Prospects to clients, by sales agent", f"{QUARTER} · best and weakest",
+    card(s, X0, by, bw, bh, "Prospects to customers, by sales agent", f"{QUARTER} · best and weakest",
          action="All →")
     cols = [("Agent", 200, "start"), ("Prospects", 95, "end"), ("Leads", 70, "end"), ("KYC", 70, "end"),
-            ("Clients", 75, "end"), ("Conv.", 88, "end")]
+            ("Customers", 75, "end"), ("Conv.", 88, "end")]
     rws = []
     for nm, ini, br, terr, p, l, c, t, wk, hrs, last, st in AGENTS[:3] + AGENTS[-2:]:
         rws.append([agent_cell(nm, ini, br, BRAND if st == "On track" else (AMBER_D if st == "At risk" else RED)),
@@ -530,7 +530,7 @@ def w01_overview():
 def w02_agents():
     s = shell("02 Agents performance", "Agents", ["Sales", "Agents"])
     page_head(s, "Sales agents", f"{AGENTS_N} sales agents · {QUARTER} · prospects against prospect targets, leads, and "
-                                 "how many of their prospects became clients")
+                                 "how many of their prospects became customers")
     with s.g("header actions"):
         x = X1
         x -= button(s, x, Y0 + 12, "Export", "secondary", icon="download", anchor="end") + 12
@@ -586,7 +586,7 @@ def w02_agents():
     table(s, X0, tby, cols, rows, row_h=rh, head_h=40, size=13, hl=2)
     s.link(X0, tby + 40 + 2 * rh, CW, rh, "w03")
     with s.g("table footer"):
-        s.text(X0 + 16, H - 44, f"Showing 12 of {AGENTS_N} sales agents · conversion = their prospects who became clients "
+        s.text(X0 + 16, H - 44, f"Showing 12 of {AGENTS_N} sales agents · conversion = their prospects who became customers "
                                 "(loan disbursed)", 13, 400, MUTED)
         s.text(X1 - 16, H - 44, "1  2  3  4  5  6  →", 13, 600, BRAND, anchor="end")
     return s
@@ -618,7 +618,7 @@ def w03_agent():
           None),
          ("idcard", STAGE["KYC completed"], "KYC completed", f"{c}", f"{c / l:.0%} of her leads · rank 3 of {AGENTS_N}",
           None),
-         ("banknote", GREEN, "Clients · conversion", f"{clients(c)} · {clients(c) / p:.1%}", f"loans disbursed · company {CLIENTS_Q / PROSPECTS_Q:.1%}", None),
+         ("banknote", GREEN, "Customers · conversion", f"{clients(c)} · {clients(c) / p:.1%}", f"loans disbursed · company {CLIENTS_Q / PROSPECTS_Q:.1%}", None),
          ("clock", AMBER, "Time prospecting", f"{hrs} h", f"a day on route days · company {HOURS_PROSPECTING} h", None)]
     for i, (ic, col, lab, val, sub, fr) in enumerate(k):
         kpi(s, X0 + i * (kw + 16), ky, kw, 140, ic, col, lab, val, sub, fr)
@@ -861,7 +861,7 @@ PIPE = {
 }
 PIPE_TOTALS = {"Prospects": (912, "not yet leads"), "Leads waiting for a plan": (64, "UGX 0.3B asked"),
                "On a lead journey plan": (118, "UGX 0.6B asked"), "KYC completed": (131, "this quarter"),
-               "Loan decision": (96, "81 approved · 74 disbursed = clients")}
+               "Loan decision": (96, "81 approved · 74 disbursed = customers")}
 
 
 def w05_pipeline():
@@ -1034,7 +1034,7 @@ def w06_client():
                maxw=c3 - 80)
         s.text(c3x + 40, ly + 132, "When the loan is disbursed, she counts for", 12.5, 700, GREEN_D)
         for i, (who, why) in enumerate([("Sarah Namuli", "her prospect and lead"), ("Joel Byaruhanga", "his KYC"),
-                                        ("Kampala East", "Q3: 98 clients so far")]):
+                                        ("Kampala East", "Q3: 98 customers so far")]):
             s.icon("check", c3x + 40, ly + 150 + i * 26, 14, GREEN, 2.8)
             s.text(c3x + 60, ly + 162 + i * 26, f"{who} · {why}", 12.5, 400, INK2)
         s.text(c3x + 40, ly + 266, "Client = loan disbursed: that is the conversion", 12.5, 600, GREEN_D)
@@ -1105,7 +1105,7 @@ def w01b_branch():
     fh = 330
     card(s, rx, ty, rw, fh, "Client journey funnel", f"Kampala East · {QUARTER}", action="Pipeline →")
     funnel(s, rx + 24, ty + 88, rw - 48, BRANCH_FUNNEL, row_h=44, gap=26, label_w=124)
-    s.text(rx + 24, ty + fh - 22, f"98 clients (loans disbursed) · {98 / 6240:.1%} of prospects · company {CLIENTS_Q / PROSPECTS_Q:.1%}",
+    s.text(rx + 24, ty + fh - 22, f"98 customers (loans disbursed) · {98 / 6240:.1%} of prospects · company {CLIENTS_Q / PROSPECTS_Q:.1%}",
            12.5, 600, GREEN_D)
     s.link(rx, ty, rw, fh, "w05")
     oy = ty + fh + 20

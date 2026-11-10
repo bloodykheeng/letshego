@@ -222,7 +222,7 @@ def w09_reasons():
                                           ("Not now, maybe next term", 11), ("Doesn't trust lenders", 7),
                                           ("Needs a bigger amount", 6), ("Other", 7)], RED, label_w=210)
     x2 = X0 + cw3 + 20
-    card(s, x2, ry, cw3, ch, "Why clients took a loan", "786 new clients (loans disbursed)")
+    card(s, x2, ry, cw3, ch, "Why customers took a loan", "786 new customers (loans disbursed)")
     hbars(s, x2 + 24, ry + 90, cw3 - 48, [("School fees", 29), ("Business stock / working capital", 27),
                                           ("Home improvement", 16), ("Farm inputs / equipment", 11),
                                           ("Medical bills", 7), ("Clearing another debt", 6), ("Other", 4)], GREEN,

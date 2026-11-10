@@ -200,7 +200,7 @@
 </g>
 </g>
 <text id="page-title" x="296.0" y="126.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="700" fill="#1B1C3A">Sales agents</text>
-<text id="page-subtitle" x="296.0" y="152.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#7D8099">62 sales agents · Q3 2026 · prospects against prospect targets, leads, and how many of their prospects became clients</text>
+<text id="page-subtitle" x="296.0" y="152.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#7D8099">62 sales agents · Q3 2026 · prospects against prospect targets, leads, and how many of their prospects became customers</text>
 <g id="header-actions">
 <g id="button-Export">
 <rect x="1788.3" y="108.0" width="99.7" height="40.0" rx="12" fill="#FFFFFE" stroke="#E4E5EF" stroke-width="1"/>
@@ -816,7 +816,7 @@
 </g>
 </g>
 <g id="table-footer">
-<text id="Showing-12-of-62-sales-agent" x="312.0" y="1036.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Showing 12 of 62 sales agents · conversion = their prospects who became clients (loan disbursed)</text>
+<text id="Showing-12-of-62-sales-agent" x="312.0" y="1036.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#7D8099">Showing 12 of 62 sales agents · conversion = their prospects who became customers (loan disbursed)</text>
 <text id="1-2-3-4-5-6" x="1776.3" y="1036.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#2F2E80">1  2  3  4  5  6  →</text>
 </g>
 </svg>

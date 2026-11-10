@@ -479,7 +479,7 @@
 <g id="icon-check-15" transform="translate(1406.0 926.0) scale(0.5833)">
 <path d="M20 6L9 17l-5-5" fill="none" stroke="#15925A" stroke-width="4.80" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Kampala-East-Q3-98-client" x="1426.0" y="938.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#4B4D6B">Kampala East · Q3: 98 clients so far</text>
+<text id="Kampala-East-Q3-98-custom" x="1426.0" y="938.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#4B4D6B">Kampala East · Q3: 98 customers so far</text>
 <text id="Client-loan-disbursed-tha" x="1406.0" y="990.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#0E6B41">Client = loan disbursed: that is the conversion</text>
 </g>
 </svg>

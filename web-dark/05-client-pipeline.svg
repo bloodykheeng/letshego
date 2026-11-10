@@ -453,7 +453,7 @@
 <rect x="1580.8" y="224.0" width="307.2" height="4.0" rx="2" fill="#1F1E57"/>
 <text id="Loan-decision" x="1596.8" y="256.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#CBCCE7">Loan decision</text>
 <text id="96" x="1857.0" y="256.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1F1E57">96</text>
-<text id="81-approved-74-disbursed" x="1596.8" y="276.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">81 approved · 74 disbursed = clients</text>
+<text id="81-approved-74-disbursed" x="1596.8" y="276.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">81 approved · 74 disbursed = customers</text>
 <g id="card-Janet-Kyomugisha">
 <rect x="1590.8" y="292.0" width="287.2" height="128.0" rx="10" fill="#1D1E27" filter="url(#soft)"/>
 <text id="Janet-Kyomugisha" x="1604.8" y="318.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">Janet Kyomugisha</text>

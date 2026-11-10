@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
+<title>M7d Prospect dropped: Aisha Nalubega</title>
+<defs><filter id="soft" x="-20%" y="-20%" width="140%" height="170%"><feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#1B1C3A" flood-opacity="0.07"/></filter></defs>
+<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#121319"/>
+<g id="status-bar">
+<text id="14-32" x="16.0" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#CBCCE7">14:32</text>
+<rect id="battery" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#CBCCE7" stroke-width="1.2"/>
+<rect x="324.0" y="10.0" width="13.0" height="6.0" rx="1" fill="#1B1C3A"/>
+<rect x="342.5" y="11.0" width="2.0" height="4.0" rx="1" fill="#1B1C3A"/>
+<rect id="signal-bar" x="292.0" y="14.0" width="3.0" height="3.0" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-2" x="297.0" y="11.8" width="3.0" height="5.2" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-3" x="302.0" y="9.6" width="3.0" height="7.4" rx="0.8" fill="#1B1C3A" fill-opacity="1"/>
+<rect id="signal-bar-4" x="307.0" y="7.4" width="3.0" height="9.6" rx="0.8" fill="#1B1C3A" fill-opacity="0.3"/>
+<text id="network" x="270.5" y="18.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#CBCCE7">4G</text>
+</g>
+<g id="app-bar">
+<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#1D1E27"/>
+<line x1="0.0" y1="80.0" x2="360.0" y2="80.0" stroke="#282932" stroke-width="1"/>
+<g id="icon-arrowleft" transform="translate(16.0 40.0) scale(1.0000)">
+<path d="M19 12H5" fill="none" stroke="#CBCCE7" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 19l-7-7 7-7" fill="none" stroke="#CBCCE7" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Aisha-Nalubega" x="56.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#CBCCE7">Aisha Nalubega</text>
+<text id="Prospect-dropped" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Prospect · dropped</text>
+</g>
+<g id="prospect-header">
+<rect x="16.0" y="92.0" width="328.0" height="84.0" rx="18" fill="#1D1E27" filter="url(#soft)"/>
+<g id="avatar-AN">
+<circle cx="50.0" cy="134.0" r="22.0" fill="#221E34"/>
+<text id="AN" x="37.4" y="141.9" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="17.6" font-weight="600" fill="#8774CF">AN</text>
+</g>
+<text id="Aisha-Nalubega-2" x="82.0" y="126.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#CBCCE7">Aisha Nalubega</text>
+<g id="chip-Prospect">
+<rect x="82.0" y="138.0" width="77.3" height="22.0" rx="11.0" fill="#1F1B2F"/>
+<circle cx="96.0" cy="149.0" r="4.0" fill="#7056D6"/>
+<text id="Prospect" x="106.0" y="153.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#8A79CD">Prospect</text>
+</g>
+<g id="chip-Dropped">
+<rect x="165.3" y="138.0" width="78.2" height="22.0" rx="11.0" fill="#311C1C"/>
+<circle cx="179.3" cy="149.0" r="4.0" fill="#D14343"/>
+<text id="Dropped" x="189.3" y="153.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#D57D7D">Dropped</text>
+</g>
+</g>
+<g id="dropped-line">
+<rect x="16.0" y="188.0" width="328.0" height="92.0" rx="14" fill="#2B1919"/>
+<g id="icon-ban" transform="translate(30.0 204.0) scale(0.7500)">
+<path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z" fill="none" stroke="#D96565" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4.93 4.93l14.14 14.14" fill="none" stroke="#D96565" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Dropped-today-14-32-by-you" x="58.0" y="218.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#D88888">Dropped today 14:32 by you</text>
+<text id="Has-a-loan-elsewhere" x="58.0" y="238.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#B0B1C7">Has a loan elsewhere</text>
+<g id="para-Has-a-SACCO-loan-un">
+<text id="line" x="58.0" y="260.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">“Has a SACCO loan until December.”</text>
+</g>
+</g>
+<g id="what-it-means">
+<rect x="16.0" y="296.0" width="328.0" height="96.0" rx="16" fill="#1D1E27" filter="url(#soft)"/>
+<g id="para-Off-your-lists-and">
+<text id="line-2" x="32.0" y="322.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">Off your lists, and nothing moves for her: no lead,</text>
+<text id="line-3" x="32.0" y="341.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">visit or loan. If she changes her mind, press Reopen:</text>
+<text id="line-4" x="32.0" y="360.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">she comes back as a prospect, and her History keeps</text>
+<text id="line-5" x="32.0" y="379.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#B0B1C7">the drop.</text>
+</g>
+</g>
+<g id="footer">
+<rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#1D1E27"/>
+<line x1="0.0" y1="716.0" x2="360.0" y2="716.0" stroke="#282932" stroke-width="1"/>
+<g id="button-Reopen">
+<rect x="16.0" y="730.0" width="328.0" height="48.0" rx="12" fill="#15925A"/>
+<g id="icon-history" transform="translate(142.9 745.0) scale(0.7500)">
+<path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 3v5h5" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 7v5l4 2" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Reopen" x="168.9" y="759.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Reopen</text>
+</g>
+</g>
+<rect id="gesture-bar" x="126.0" y="792.0" width="108.0" height="4.0" rx="2" fill="#1B1C3A" fill-opacity="0.45"/>
+</svg>

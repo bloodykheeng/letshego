@@ -20,16 +20,24 @@
 <text id="Good-morning" x="70.0" y="63.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9396AA">Good morning</text>
 <text id="Joel-Byaruhanga" x="70.0" y="84.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="19" font-weight="700" fill="#CBCCE7">Joel Byaruhanga</text>
 <circle cx="324.0" cy="70.0" r="20.0" fill="#1D1E27" filter="url(#soft)"/>
-<g id="icon-search" transform="translate(314.0 60.0) scale(0.8333)">
-<path d="M11 3a8 8 0 1 0 0 16 8 8 0 1 0 0-16z" fill="none" stroke="#CBCCE7" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M21 21l-4.3-4.3" fill="none" stroke="#CBCCE7" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="icon-calculator" transform="translate(314.0 60.0) scale(0.8333)">
+<path d="M6 2h12a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#CBCCE7" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 6h8" fill="none" stroke="#CBCCE7" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 10.5h.01" fill="none" stroke="#CBCCE7" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 10.5h.01" fill="none" stroke="#CBCCE7" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 10.5h.01" fill="none" stroke="#CBCCE7" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 14.5h.01" fill="none" stroke="#CBCCE7" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 14.5h.01" fill="none" stroke="#CBCCE7" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 14.5v4" fill="none" stroke="#CBCCE7" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 18.5h.01" fill="none" stroke="#CBCCE7" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 18.5h.01" fill="none" stroke="#CBCCE7" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <circle cx="276.0" cy="70.0" r="20.0" fill="#1D1E27" filter="url(#soft)"/>
 <g id="icon-bell" transform="translate(266.0 60.0) scale(0.8333)">
 <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" fill="none" stroke="#CBCCE7" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" fill="none" stroke="#CBCCE7" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<circle cx="332.0" cy="60.0" r="4.5" fill="#D14343"/>
+<circle cx="284.0" cy="60.0" r="4.5" fill="#D14343"/>
 </g>
 <g id="hero">
 <rect id="hero-bg" x="16.0" y="108.0" width="328.0" height="164.0" rx="24" fill="url(#heroGrad)"/>
@@ -51,7 +59,7 @@
 <text id="Plan-by-Moses" x="243.1" y="258.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#231F0F">Plan by Moses</text>
 </g>
 <text id="This-week" x="16.0" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#CBCCE7">This week</text>
-<text id="leads-to-clients" x="265.3" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">leads to clients</text>
+<text id="leads-to-customers" x="244.5" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">leads to customers</text>
 <g id="stats">
 <rect x="16.0" y="312.0" width="104.0" height="84.0" rx="18" fill="#1D1E27" filter="url(#soft)"/>
 <circle cx="34.0" cy="332.0" r="4.0" fill="#2F6FDB"/>

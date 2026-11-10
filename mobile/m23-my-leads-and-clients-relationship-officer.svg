@@ -17,7 +17,7 @@
 <rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#FFFFFE"/>
 <line x1="0.0" y1="80.0" x2="360.0" y2="80.0" stroke="#E4E5EF" stroke-width="1"/>
 <text id="Leads-clients" x="16.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#1B1C3A">Leads &amp; clients</text>
-<text id="61-KYC-completed-46-client" x="16.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">61 KYC completed · 46 clients this quarter</text>
+<text id="61-KYC-completed-46-custom" x="16.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">61 KYC completed · 46 customers this quarter</text>
 </g>
 <g id="filter-chips">
 <rect x="16.0" y="94.0" width="56.3" height="32.0" rx="16" fill="#2F2E80"/>
@@ -26,8 +26,8 @@
 <text id="Leads-9" x="93.3" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Leads 9</text>
 <rect x="156.9" y="94.0" width="59.0" height="32.0" rx="16" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
 <text id="KYC-4" x="169.9" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">KYC 4</text>
-<rect x="223.9" y="94.0" width="74.5" height="32.0" rx="16" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
-<text id="Clients-2" x="236.9" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Clients 2</text>
+<rect x="223.9" y="94.0" width="96.5" height="32.0" rx="16" fill="#FFFFFE" stroke="#CDD0DE" stroke-width="1"/>
+<text id="Customers-2" x="236.9" y="114.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B4D6B">Customers 2</text>
 </g>
 <g id="client-Florence-Nambi">
 <rect x="16.0" y="140.0" width="328.0" height="84.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
@@ -49,10 +49,10 @@
 <rect x="16.0" y="232.0" width="328.0" height="84.0" rx="12" fill="#FFFFFE" filter="url(#soft)"/>
 <rect x="16.0" y="244.0" width="4.0" height="60.0" rx="2" fill="#15925A"/>
 <text id="Betty-Nakimuli" x="34.0" y="258.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#1B1C3A">Betty Nakimuli</text>
-<g id="chip-Client">
-<rect x="269.2" y="244.0" width="62.8" height="22.0" rx="11.0" fill="#E3F2EB"/>
-<circle cx="283.2" cy="255.0" r="4.0" fill="#15925A"/>
-<text id="Client" x="293.2" y="259.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#12804F">Client</text>
+<g id="chip-Customer">
+<rect x="249.9" y="244.0" width="82.1" height="22.0" rx="11.0" fill="#E3F2EB"/>
+<circle cx="263.9" cy="255.0" r="4.0" fill="#15925A"/>
+<text id="Customer" x="273.9" y="259.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#12804F">Customer</text>
 </g>
 <text id="UGX-2M-from-Sarah" x="34.0" y="279.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">UGX 2M · from Sarah</text>
 <g id="icon-clock-2" transform="translate(34.0 290.0) scale(0.5833)">

@@ -20,16 +20,24 @@
 <text id="Good-morning" x="70.0" y="63.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#7D8099">Good morning</text>
 <text id="Sarah-Namuli" x="70.0" y="84.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="19" font-weight="700" fill="#1B1C3A">Sarah Namuli</text>
 <circle cx="324.0" cy="70.0" r="20.0" fill="#FFFFFE" filter="url(#soft)"/>
-<g id="icon-search" transform="translate(314.0 60.0) scale(0.8333)">
-<path d="M11 3a8 8 0 1 0 0 16 8 8 0 1 0 0-16z" fill="none" stroke="#1B1C3A" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M21 21l-4.3-4.3" fill="none" stroke="#1B1C3A" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="icon-calculator" transform="translate(314.0 60.0) scale(0.8333)">
+<path d="M6 2h12a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#1B1C3A" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 6h8" fill="none" stroke="#1B1C3A" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 10.5h.01" fill="none" stroke="#1B1C3A" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 10.5h.01" fill="none" stroke="#1B1C3A" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 10.5h.01" fill="none" stroke="#1B1C3A" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 14.5h.01" fill="none" stroke="#1B1C3A" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 14.5h.01" fill="none" stroke="#1B1C3A" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 14.5v4" fill="none" stroke="#1B1C3A" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 18.5h.01" fill="none" stroke="#1B1C3A" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 18.5h.01" fill="none" stroke="#1B1C3A" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <circle cx="276.0" cy="70.0" r="20.0" fill="#FFFFFE" filter="url(#soft)"/>
 <g id="icon-bell" transform="translate(266.0 60.0) scale(0.8333)">
 <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" fill="none" stroke="#1B1C3A" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" fill="none" stroke="#1B1C3A" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<circle cx="332.0" cy="60.0" r="4.5" fill="#D14343"/>
+<circle cx="284.0" cy="60.0" r="4.5" fill="#D14343"/>
 </g>
 <g id="hero">
 <rect id="hero-bg" x="16.0" y="108.0" width="328.0" height="164.0" rx="24" fill="url(#heroGrad)"/>
@@ -48,7 +56,7 @@
 <rect x="36.0" y="230.0" width="288.0" height="6.0" rx="3" fill="#FFFFFF" fill-opacity="0.55"/>
 <rect x="36.0" y="230.0" width="184.3" height="6.0" rx="3" fill="#231F0F"/>
 <text id="64-of-today-s-target" x="36.0" y="258.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#231F0F">64% of today's target</text>
-<text id="2-6-h-prospecting" x="225.8" y="258.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#231F0F">2.6 h prospecting</text>
+<text id="3-leads-today" x="249.1" y="258.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#231F0F">3 leads today</text>
 </g>
 <text id="This-week" x="16.0" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#1B1C3A">This week</text>
 <text id="prospects-leads-KYC" x="226.0" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">prospects · leads · KYC</text>

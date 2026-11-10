@@ -109,7 +109,7 @@
 <path d="M14 14h3" fill="none" stroke="#91EFC5" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="Next-complete-KYC" x="70.0" y="596.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Next: complete KYC</text>
-<text id="3-sections-checks" x="70.0" y="614.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">3 sections + checks</text>
+<text id="2-sections-checks" x="70.0" y="614.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">2 sections + checks</text>
 <g id="icon-chevright" transform="translate(316.0 589.0) scale(0.8333)">
 <path d="M9 18l6-6-6-6" fill="none" stroke="#AAACC0" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
 </g>

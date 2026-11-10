@@ -33,7 +33,7 @@
 <rect x="127.3" y="92.0" width="105.3" height="4.0" rx="2" fill="#E4E5EF"/>
 <text id="2-ID-photos" x="127.3" y="112.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#AAACC0">2 ID &amp; photos</text>
 <rect x="236.7" y="92.0" width="105.3" height="4.0" rx="2" fill="#E4E5EF"/>
-<text id="3-Income" x="236.7" y="112.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#AAACC0">3 Income</text>
+<text id="3-Checks" x="236.7" y="112.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#AAACC0">3 Checks</text>
 </g>
 <g id="field-Full-name-as-on-National-ID">
 <text id="label" x="16.0" y="142.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#4B4D6B">Full name (as on National ID)</text>

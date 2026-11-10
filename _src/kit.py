@@ -79,7 +79,8 @@ TEAL = "#0E8C99"
 # Prospect: name, phone and location captured by a sales agent in the field.
 # Lead: the agent called them; they want a loan, and the NIN, amount and location are captured.
 # KYC completed: a relationship officer visited the lead and completed KYC; the loan application can go.
-# A prospect becomes a client only when the loan is disbursed (= conversion).
+# A prospect becomes a customer only when the loan is disbursed (= conversion). Everyone is a client; a customer
+# has a loan (the user, 10 Nov 2026).
 STAGES = [
     ("Prospect", VIOLET),
     ("Lead", BLUE),
@@ -120,7 +121,7 @@ STATUS = {
     "Follow-up": BLUE,
     "On a lead plan": TEAL,
     "Visit booked": TEAL,
-    "Client": "#15925A",
+    "Customer": "#15925A",
     "Prospecting": "#15925A",
     "Idle": "#B7791F",
     "Offline": "#7D8099",
@@ -178,6 +179,8 @@ ICONS: dict[str, list[str]] = {
                 "M9 8h6", "M17 16h6"],
     "bell": ["M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9", "M10.3 21a1.94 1.94 0 0 0 3.4 0"],
     "search": ["M11 3a8 8 0 1 0 0 16 8 8 0 1 0 0-16z", "M21 21l-4.3-4.3"],
+    "calculator": ["M6 2h12a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z", "M8 6h8", "M8 10.5h.01",
+                   "M12 10.5h.01", "M16 10.5h.01", "M8 14.5h.01", "M12 14.5h.01", "M16 14.5v4", "M8 18.5h.01", "M12 18.5h.01"],
     "upload": ["M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4", "M17 8l-5-5-5 5", "M12 3v12"],
     "download": ["M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4", "M7 10l5 5 5-5", "M12 15V3"],
     "camera": ["M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3z",
@@ -289,6 +292,7 @@ ICONS: dict[str, list[str]] = {
     "smile": ["M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z", "M8 14s1.5 2 4 2 4-2 4-2", "M9 9h.01", "M15 9h.01"],
     "frown": ["M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z", "M16 16s-1.5-2-4-2-4 2-4 2", "M9 9h.01", "M15 9h.01"],
     "info": ["M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z", "M12 16v-4", "M12 8h.01"],
+    "ban": ["M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z", "M4.93 4.93l14.14 14.14"],
     "undo": ["M9 14L4 9l5-5", "M4 9h10.5a5.5 5.5 0 0 1 0 11H11"],
     "mail": ["M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z", "M22 6l-10 7L2 6"],
     "settings": ["M12 9a3 3 0 1 0 0 6 3 3 0 1 0 0-6z",

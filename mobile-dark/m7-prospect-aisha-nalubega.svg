@@ -105,9 +105,9 @@
 <g id="footer">
 <rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#1D1E27"/>
 <line x1="0.0" y1="716.0" x2="360.0" y2="716.0" stroke="#282932" stroke-width="1"/>
-<g id="button-No-loan">
+<g id="button-Drop">
 <rect x="16.0" y="730.0" width="100.0" height="48.0" rx="12" fill="#1D1E27" stroke="#282932" stroke-width="1"/>
-<text id="No-loan" x="40.9" y="759.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">No loan</text>
+<text id="Drop" x="50.0" y="759.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#CBCCE7">Drop</text>
 </g>
 <g id="button-Make-a-lead">
 <rect x="128.0" y="730.0" width="216.0" height="48.0" rx="12" fill="#4F4CC9"/>

@@ -21,7 +21,7 @@
 <path d="M12 19l-7-7 7-7" fill="none" stroke="#1B1C3A" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="KYC-checks" x="56.0" y="48.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="16.5" font-weight="600" fill="#1B1C3A">KYC checks</text>
-<text id="Florence-Nambi" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Florence Nambi</text>
+<text id="Florence-Nambi-step-3-of-3" x="56.0" y="67.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Florence Nambi · step 3 of 3</text>
 </g>
 <g id="result">
 <rect x="16.0" y="96.0" width="328.0" height="104.0" rx="14" fill="#FFFFFE" stroke="#8AC8AC" stroke-width="1"/>
@@ -34,48 +34,36 @@
 </g>
 <text id="KYC-completed" x="118.0" y="140.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="700" fill="#1B1C3A">KYC completed</text>
 <text id="Ready-for-the-loan-applicati" x="118.0" y="162.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#0E6B41">Ready for the loan application</text>
-<text id="6-of-6-checks-online-in-8" x="118.0" y="181.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">6 of 6 checks · online in 8 s</text>
+<text id="4-of-4-checks-ticked-durin" x="118.0" y="181.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">4 of 4 checks · ticked during the visit</text>
 </g>
-<rect x="16.0" y="218.0" width="328.0" height="346.0" rx="14" fill="#FFFFFE" filter="url(#soft)"/>
+<rect x="16.0" y="218.0" width="328.0" height="236.0" rx="14" fill="#FFFFFE" filter="url(#soft)"/>
 <circle cx="30.0" cy="246.0" r="12.0" fill="#DCEFE6"/>
 <g id="icon-check-2" transform="translate(22.0 238.0) scale(0.6667)">
 <path d="M20 6L9 17l-5-5" fill="none" stroke="#15925A" stroke-width="4.20" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="NIRA-ID-is-genuine-and-matc" x="52.0" y="245.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">NIRA: ID is genuine and matches</text>
-<text id="NIN-name-date-of-birth-ph" x="52.0" y="263.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">NIN, name, date of birth, photo</text>
+<text id="Checked-by-Joel-NIN-name" x="52.0" y="263.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Checked by Joel · NIN, name, photo</text>
 <circle cx="30.0" cy="301.0" r="12.0" fill="#DCEFE6"/>
 <g id="icon-check-3" transform="translate(22.0 293.0) scale(0.6667)">
 <path d="M20 6L9 17l-5-5" fill="none" stroke="#15925A" stroke-width="4.20" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="Phone-is-in-her-name" x="52.0" y="300.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">Phone is in her name</text>
-<text id="MTN-registration-check" x="52.0" y="318.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">MTN registration check</text>
+<text id="Checked-by-Joel-MTN-regist" x="52.0" y="318.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Checked by Joel · MTN registration</text>
 <circle cx="30.0" cy="356.0" r="12.0" fill="#DCEFE6"/>
 <g id="icon-check-4" transform="translate(22.0 348.0) scale(0.6667)">
 <path d="M20 6L9 17l-5-5" fill="none" stroke="#15925A" stroke-width="4.20" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Not-already-a-Letshego-clien" x="52.0" y="355.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">Not already a Letshego client</text>
-<text id="Checked-in-the-loan-system" x="52.0" y="373.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Checked in the loan system</text>
+<text id="NIN-and-phone-on-no-other-cl" x="52.0" y="355.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">NIN and phone on no other client</text>
+<text id="Checked-by-Letshego-Field-Sa" x="52.0" y="373.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Checked by Letshego Field Sales</text>
 <circle cx="30.0" cy="411.0" r="12.0" fill="#DCEFE6"/>
 <g id="icon-check-5" transform="translate(22.0 403.0) scale(0.6667)">
 <path d="M20 6L9 17l-5-5" fill="none" stroke="#15925A" stroke-width="4.20" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="Check-in-within-50-m-of-her" x="52.0" y="410.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">Check-in within 50 m of her location</text>
 <text id="9-m-from-where-Sarah-saved-h" x="52.0" y="428.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">9 m from where Sarah saved her</text>
-<circle cx="30.0" cy="466.0" r="12.0" fill="#DCEFE6"/>
-<g id="icon-check-6" transform="translate(22.0 458.0) scale(0.6667)">
-<path d="M20 6L9 17l-5-5" fill="none" stroke="#15925A" stroke-width="4.20" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<text id="Affordable" x="52.0" y="465.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">Affordable</text>
-<text id="Can-pay-up-to-UGX-625-000-a" x="52.0" y="483.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">Can pay up to UGX 625,000 a month</text>
-<circle cx="30.0" cy="521.0" r="12.0" fill="#DCEFE6"/>
-<g id="icon-check-7" transform="translate(22.0 513.0) scale(0.6667)">
-<path d="M20 6L9 17l-5-5" fill="none" stroke="#15925A" stroke-width="4.20" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<text id="CRB-clear" x="52.0" y="520.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#1B1C3A">CRB clear</text>
-<text id="No-active-loans-consent-si" x="52.0" y="538.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8099">No active loans · consent signed</text>
 <g id="offline-note">
-<rect x="16.0" y="580.0" width="328.0" height="58.0" rx="12" fill="#FCF3E2"/>
-<g id="icon-wifioff" transform="translate(30.0 597.0) scale(0.9167)">
+<rect x="16.0" y="472.0" width="328.0" height="58.0" rx="12" fill="#FCF3E2"/>
+<g id="icon-wifioff" transform="translate(30.0 489.0) scale(0.9167)">
 <path d="M2 2l20 20" fill="none" stroke="#9A6300" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M8.5 16.5a5 5 0 0 1 7 0" fill="none" stroke="#9A6300" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M2 8.82a15 15 0 0 1 4.17-2.65" fill="none" stroke="#9A6300" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
@@ -85,8 +73,8 @@
 <path d="M12 20h.01" fill="none" stroke="#9A6300" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g id="para-No-network-Checks-w">
-<text id="line" x="62.0" y="605.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">No network? Checks wait in the queue and run as</text>
-<text id="line-2" x="62.0" y="622.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">soon as you're back online.</text>
+<text id="line" x="62.0" y="497.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">No network? Checks wait in the queue and run as</text>
+<text id="line-2" x="62.0" y="514.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#4B4D6B">soon as you're back online.</text>
 </g>
 </g>
 <g id="footer">

@@ -60,26 +60,53 @@
 <rect x="264.0" y="244.0" width="78.0" height="34.0" rx="12" fill="#1D1E27" filter="url(#soft)"/>
 <text id="History" x="280.5" y="266.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#A09FDD">History</text>
 </g>
-<g id="step-Today-11-14-11-52">
-<rect x="16.0" y="292.0" width="328.0" height="72.0" rx="14" fill="#1D1E27" filter="url(#soft)"/>
-<rect x="16.0" y="306.0" width="4.0" height="44.0" rx="2" fill="#15925A"/>
-<text id="Today-11-14-11-52" x="34.0" y="316.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#CBCCE7">Today 11:14–11:52</text>
-<text id="Joel-Byaruhanga-visit-KYC" x="34.0" y="335.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Joel Byaruhanga · visit, KYC</text>
-<text id="KYC-completed-application" x="34.0" y="353.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#9EF1CC">KYC completed · application sent</text>
+<g id="story-1">
+<circle cx="30.0" cy="308.0" r="12.0" fill="#7056D6"/>
+<text id="1" x="26.7" y="312.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF">1</text>
+<line x1="30.0" y1="322.0" x2="30.0" y2="342.0" stroke="#282932" stroke-width="1"/>
+<text id="Captured-as-Prospect" x="52.0" y="306.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#CBCCE7">Captured as Prospect</text>
+<text id="Sarah-Namuli-Tue-22-Sep-10" x="52.0" y="324.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">Sarah Namuli · Tue 22 Sep 10:18 · Kiwatule market</text>
 </g>
-<g id="step-Wed-23-Sep-14-05">
-<rect x="16.0" y="372.0" width="328.0" height="72.0" rx="14" fill="#1D1E27" filter="url(#soft)"/>
-<rect x="16.0" y="386.0" width="4.0" height="44.0" rx="2" fill="#2F6FDB"/>
-<text id="Wed-23-Sep-14-05" x="34.0" y="396.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#CBCCE7">Wed 23 Sep 14:05</text>
-<text id="Sarah-Namuli-made-her-a-le" x="34.0" y="415.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Sarah Namuli · made her a lead</text>
-<text id="UGX-6M-NIN-and-location-re" x="34.0" y="433.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#7AA1E2">UGX 6M · NIN and location recorded</text>
+<g id="story-2">
+<circle cx="30.0" cy="360.0" r="12.0" fill="#2F6FDB"/>
+<text id="2" x="26.7" y="364.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF">2</text>
+<line x1="30.0" y1="374.0" x2="30.0" y2="394.0" stroke="#282932" stroke-width="1"/>
+<text id="Prospect-Lead" x="52.0" y="358.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#CBCCE7">Prospect → Lead</text>
+<text id="Sarah-Namuli-Wed-23-Sep-14" x="52.0" y="376.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">Sarah Namuli · Wed 23 Sep 14:05 · asked for UGX 6M</text>
 </g>
-<g id="step-Tue-22-Sep-10-18">
-<rect x="16.0" y="452.0" width="328.0" height="72.0" rx="14" fill="#1D1E27" filter="url(#soft)"/>
-<rect x="16.0" y="466.0" width="4.0" height="44.0" rx="2" fill="#7056D6"/>
-<text id="Tue-22-Sep-10-18" x="34.0" y="476.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#CBCCE7">Tue 22 Sep 10:18</text>
-<text id="Sarah-Namuli-prospecting" x="34.0" y="495.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#9396AA">Sarah Namuli · prospecting</text>
-<text id="Prospect-Kiwatule-market-r" x="34.0" y="513.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#8F80CC">Prospect · Kiwatule market route</text>
+<g id="story-3">
+<circle cx="30.0" cy="412.0" r="12.0" fill="#7D8099"/>
+<text id="3" x="26.7" y="416.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF">3</text>
+<line x1="30.0" y1="426.0" x2="30.0" y2="446.0" stroke="#282932" stroke-width="1"/>
+<text id="Planned-for-Joel-Byaruhanga" x="52.0" y="410.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#CBCCE7">Planned for Joel Byaruhanga</text>
+<text id="Kiwatule-leads-28-Sep-2-O" x="52.0" y="428.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">Kiwatule leads, 28 Sep – 2 Oct · by Moses</text>
+</g>
+<g id="story-4">
+<circle cx="30.0" cy="464.0" r="12.0" fill="#0E8C99"/>
+<text id="4" x="26.7" y="468.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF">4</text>
+<line x1="30.0" y1="478.0" x2="30.0" y2="498.0" stroke="#282932" stroke-width="1"/>
+<text id="Checked-in" x="52.0" y="462.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#CBCCE7">Checked in</text>
+<text id="Joel-today-11-14-9-m-fro" x="52.0" y="480.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">Joel · today 11:14 · 9 m from her point (within 50 m)</text>
+</g>
+<g id="story-5">
+<circle cx="30.0" cy="516.0" r="12.0" fill="#15925A"/>
+<text id="5" x="26.7" y="520.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF">5</text>
+<line x1="30.0" y1="530.0" x2="30.0" y2="550.0" stroke="#282932" stroke-width="1"/>
+<text id="Lead-KYC-completed" x="52.0" y="514.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#CBCCE7">Lead → KYC completed</text>
+<text id="Joel-today-11-24-4-of-4" x="52.0" y="532.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">Joel · today 11:24 · 4 of 4 checks</text>
+</g>
+<g id="story-6">
+<circle cx="30.0" cy="568.0" r="12.0" fill="#7056D6"/>
+<text id="6" x="26.7" y="572.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF">6</text>
+<line x1="30.0" y1="582.0" x2="30.0" y2="602.0" stroke="#282932" stroke-width="1"/>
+<text id="Loan-application-submitted" x="52.0" y="566.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#CBCCE7">Loan application submitted</text>
+<text id="MSE-Business-Loan-UGX-6M-o" x="52.0" y="584.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">MSE Business Loan · UGX 6M over 18 months</text>
+</g>
+<g id="story-7">
+<circle cx="30.0" cy="620.0" r="12.0" fill="#0E8C99"/>
+<text id="7" x="26.7" y="624.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF">7</text>
+<text id="Visit-ended-Loan-applicatio" x="52.0" y="618.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#CBCCE7">Visit ended: Loan application sent</text>
+<text id="Joel-today-11-52-38-min" x="52.0" y="636.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">Joel · today 11:52 · 38 min</text>
 </g>
 <g id="footer">
 <rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#1D1E27"/>

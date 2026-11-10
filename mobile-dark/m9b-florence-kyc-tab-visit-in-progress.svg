@@ -85,7 +85,7 @@
 <text id="National-ID-photos" x="66.0" y="381.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">National ID &amp; photos</text>
 <text id="NIRA-ID-live-selfie-premis" x="66.0" y="399.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">NIRA ID, live selfie, premises</text>
 </g>
-<g id="kyc-Earnings-collateral">
+<g id="kyc-Checks">
 <rect x="16.0" y="420.0" width="328.0" height="58.0" rx="14" fill="#1D1E27" filter="url(#soft)"/>
 <circle cx="42.0" cy="449.0" r="13.0" fill="#1D1E27" stroke="#41434C" stroke-width="2"/>
 <text id="3" x="38.5" y="453.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#B0B1C7">3</text>
@@ -93,19 +93,8 @@
 <rect x="282.2" y="438.0" width="47.8" height="22.0" rx="11.0" fill="#232327"/>
 <text id="To-do-3" x="292.2" y="453.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#999BAC">To do</text>
 </g>
-<text id="Earnings-collateral" x="66.0" y="445.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Earnings &amp; collateral</text>
-<text id="Income-other-loans-collate" x="66.0" y="463.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">Income, other loans, collateral</text>
-</g>
-<g id="kyc-Checks">
-<rect x="16.0" y="484.0" width="328.0" height="58.0" rx="14" fill="#1D1E27" filter="url(#soft)"/>
-<circle cx="42.0" cy="513.0" r="13.0" fill="#1D1E27" stroke="#41434C" stroke-width="2"/>
-<text id="4" x="38.5" y="517.5" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#B0B1C7">4</text>
-<g id="chip-To-do-4">
-<rect x="282.2" y="502.0" width="47.8" height="22.0" rx="11.0" fill="#232327"/>
-<text id="To-do-4" x="292.2" y="517.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="600" fill="#999BAC">To do</text>
-</g>
-<text id="Checks" x="66.0" y="509.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Checks</text>
-<text id="NIRA-phone-CRB-territory" x="66.0" y="527.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">NIRA, phone, CRB, territory</text>
+<text id="Checks" x="66.0" y="445.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">Checks</text>
+<text id="NIRA-phone-within-50-m" x="66.0" y="463.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">NIRA, phone, within 50 m</text>
 </g>
 <g id="footer">
 <rect x="0.0" y="716.0" width="360.0" height="84.0" fill="#1D1E27"/>

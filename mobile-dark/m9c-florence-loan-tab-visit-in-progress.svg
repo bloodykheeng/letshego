@@ -71,7 +71,7 @@
 <path d="M9 12l2 2 4-4" fill="none" stroke="#91EFC5" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <text id="KYC-completed" x="70.0" y="318.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#CBCCE7">KYC completed</text>
-<text id="Today-11-24-6-of-6-checks" x="70.0" y="336.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">Today 11:24 · 6 of 6 checks</text>
+<text id="Today-11-24-4-of-4-checks" x="70.0" y="336.0" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9396AA">Today 11:24 · 4 of 4 checks</text>
 </g>
 <g id="loan-start">
 <rect x="16.0" y="364.0" width="328.0" height="150.0" rx="16" fill="#1D1E27" filter="url(#soft)"/>

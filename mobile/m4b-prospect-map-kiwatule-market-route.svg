@@ -34,11 +34,6 @@
 <circle cx="141.3" cy="106.0" r="4.0" fill="#2F6FDB"/>
 <text id="3-leads" x="151.3" y="110.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#2962C1">3 leads</text>
 </g>
-<g id="chip-2-6-h-on-route">
-<rect x="207.4" y="92.0" width="110.5" height="28.0" rx="14.0" fill="#E3F2EB"/>
-<circle cx="221.4" cy="106.0" r="4.0" fill="#15925A"/>
-<text id="2-6-h-on-route" x="231.4" y="110.3" font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="600" fill="#12804F">2.6 h on route</text>
-</g>
 </g>
 <g id="street-map">
 <rect id="land" x="16.0" y="130.0" width="328.0" height="330.0" fill="#F2F1EC"/>
